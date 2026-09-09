@@ -1,0 +1,43 @@
+name: EV Scan
+
+on:
+  schedule:
+    # Runs every 30 min, but most runs now cost ~0 credits: the bot checks
+    # the free /events endpoint first, and only spends a credit on sports
+    # that have something starting within SCAN_WINDOW_HOURS. See README for
+    # the cost math and how to tune this.
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - name: Run EV scan
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          EV_THRESHOLD: "0.03"
+          MIN_BOOKS: "3"
+          SCAN_WINDOW_HOURS: "3"
+        run: python main.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "ev-bot"
+          git config user.email "ev-bot@users.noreply.github.com"
+          git add data/state.json
+          git diff --staged --quiet || git commit -m "Update EV state [skip ci]"
+          git push
