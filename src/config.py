@@ -29,6 +29,7 @@ FIXED_SPORTS = [
     "americanfootball_nfl",
     "aussierules_afl",
     "rugbyleague_nrl",
+    "soccer_epl",
 ]
 
 STATE_FILE = os.environ.get("STATE_FILE", "data/state.json")
