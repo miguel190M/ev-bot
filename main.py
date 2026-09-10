@@ -9,13 +9,9 @@ Each run does three things:
   3. For any open bet whose game should have finished by now, pull the
      final score and resolve it automatically - won/lost/void plus profit.
 
-Skips the entire run (no credits, no Telegram polling) during the
-configured Sydney-local sleep window.
-
 Required env vars: ODDS_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
 Optional env vars: EV_THRESHOLD (default 0.03), MIN_BOOKS (default 3),
-                    SCAN_WINDOW_HOURS (default 3), ODDS_REGION (default au),
-                    SLEEP_START_HOUR / SLEEP_END_HOUR (default 1 / 7)
+                    SCAN_WINDOW_HOURS (default 3), ODDS_REGION (default au)
 """
 import sys
 from datetime import datetime, timedelta, timezone
@@ -58,8 +54,9 @@ def run_scan(candidates: dict) -> int:
 
         total_credits_used += int(used or 0)
         near_term = scheduling.filter_starting_soon(events, config.SCAN_WINDOW_HOURS)
+        regions_used = config.get_regions_for_sport(sport_key)
         print(f"  {sport_key}: something starting within {config.SCAN_WINDOW_HOURS}h - "
-              f"pulled odds ({len(events)} events returned, {len(near_term)} within window, "
+              f"pulled odds (region={regions_used}, {len(events)} events returned, {len(near_term)} within window, "
               f"{used} credits used, {remaining} remaining)")
         for event in near_term:
             all_opportunities.extend(ev_calculator.find_positive_ev(event))
