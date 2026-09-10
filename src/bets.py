@@ -18,6 +18,7 @@ from pathlib import Path
 
 ALERTS_FILE = "data/alert_candidates.json"
 BETS_FILE = "data/bets.json"
+DIGEST_STATE_FILE = "data/digest_state.json"
 
 
 def _load(path):
@@ -76,6 +77,14 @@ def load_bets() -> dict:
 
 def save_bets(bets: dict):
     _save(BETS_FILE, bets)
+
+
+def load_digest_state() -> dict:
+    return _load(DIGEST_STATE_FILE)
+
+
+def save_digest_state(state: dict):
+    _save(DIGEST_STATE_FILE, state)
 
 
 def place_bet(sid: str, stake: float, opp: dict, bets: dict) -> tuple[str, dict]:

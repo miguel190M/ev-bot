@@ -52,3 +52,17 @@ def is_sleep_window(start_hour: int, end_hour: int, now: datetime | None = None)
     now = now or datetime.now(timezone.utc)
     local = now.astimezone(SYDNEY)
     return start_hour <= local.hour < end_hour
+
+
+def is_monthly_digest_due(last_sent_month: str, now: datetime | None = None) -> tuple[bool, str]:
+    """True (with the current 'YYYY-MM' label) if today is the 1st of the
+    month in Sydney local time and a digest hasn't already gone out this
+    month. Checking the month label rather than the exact date/time means
+    any run during the 1st can send it - so the sleep window blocking the
+    1am-7am runs on the 1st doesn't matter, since the day still has ~17
+    more hourly opportunities to catch it afterward."""
+    now = now or datetime.now(timezone.utc)
+    local = now.astimezone(SYDNEY)
+    current_month = local.strftime("%Y-%m")
+    due = local.day == 1 and current_month != last_sent_month
+    return due, current_month
