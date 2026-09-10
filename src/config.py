@@ -19,6 +19,13 @@ MIN_EV_DELTA_TO_REALERT = float(os.environ.get("MIN_EV_DELTA_TO_REALERT", "1.0")
 # between game days instead of burning quota on sports with nothing on.
 SCAN_WINDOW_HOURS = float(os.environ.get("SCAN_WINDOW_HOURS", "3"))
 
+# Skip the run entirely (no credits spent, no Telegram polling) while inside
+# this Sydney-local-time window - e.g. while you're asleep. Automatically
+# tracks the AEST/AEDT daylight-saving switch since it's computed from the
+# Australia/Sydney timezone each run, not a fixed UTC offset.
+SLEEP_START_HOUR = int(os.environ.get("SLEEP_START_HOUR", "1"))   # inclusive
+SLEEP_END_HOUR = int(os.environ.get("SLEEP_END_HOUR", "7"))       # exclusive
+
 # Betfair Exchange AU - preferred fair-value anchor. Real two-sided market
 # price rather than a single retail book's opinion, and it's already
 # included in the au region pull at no extra API cost.
