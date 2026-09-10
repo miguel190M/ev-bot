@@ -10,6 +10,9 @@ one imminent match justified the credit but a final scheduled 11 days out
 rode along in the same response)."""
 
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
+
+SYDNEY = ZoneInfo("Australia/Sydney")
 
 
 def _events_within_window(events: list[dict], window_hours: float, now: datetime | None = None) -> list[dict]:
@@ -38,3 +41,14 @@ def filter_starting_soon(events: list[dict], window_hours: float, now: datetime 
     evaluated for +EV - fetching odds for a sport doesn't mean every event
     in the response is near-term."""
     return _events_within_window(events, window_hours, now)
+
+
+def is_sleep_window(start_hour: int, end_hour: int, now: datetime | None = None) -> bool:
+    """True if the current Sydney local time falls within [start_hour,
+    end_hour). Uses the Australia/Sydney IANA timezone, which already
+    encodes exactly when AEST <-> AEDT happens each year - so '1am' always
+    means 1am Sydney time, whichever UTC offset that currently is, with no
+    manual adjustment needed across the daylight-saving switch."""
+    now = now or datetime.now(timezone.utc)
+    local = now.astimezone(SYDNEY)
+    return start_hour <= local.hour < end_hour
