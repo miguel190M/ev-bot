@@ -12,19 +12,15 @@ def format_message(opp: dict, bet_id: str | None = None) -> str:
     dt_utc = datetime.fromisoformat(opp["commence_time"].replace("Z", "+00:00"))
     dt_syd = dt_utc.astimezone(SYDNEY)
     matchup = f"{opp['away_team']} @ {opp['home_team']}" if opp.get("away_team") else opp.get("home_team", "")
-    anchor_label = "Betfair Exchange (back/lay mid)" if opp["anchor"] == "betfair_exchange" \
-        else f"retail median consensus, {opp['num_books']} books"
-    confidence_note = "" if opp["anchor"] == "betfair_exchange" else "\n⚠️ lower confidence - no Betfair line available for this one"
     bet_footer = f"\n\nPlaced it? Log it: /bet {bet_id} <stake>" if bet_id else ""
     return (
         f"🎯 +EV Bet Found ({opp['ev_pct']}% edge)\n"
         f"Sport: {opp['sport_key']}\n"
         f"Event: {matchup}\n"
         f"Start: {dt_syd.strftime('%a %d %b, %I:%M%p %Z')}\n"
-        f"Book: {opp['bookmaker_title']}\n"
+        f"Book: Betfair Exchange\n"
         f"Pick: {opp['outcome']} @ {opp['price']}\n"
-        f"Fair odds: ~{opp['fair_odds']} (via {anchor_label})"
-        f"{confidence_note}"
+        f"Fair odds: ~{opp['fair_odds']} (retail consensus, {opp['num_books']} books)"
         f"{bet_footer}"
     )
 
