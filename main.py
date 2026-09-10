@@ -9,9 +9,13 @@ Each run does three things:
   3. For any open bet whose game should have finished by now, pull the
      final score and resolve it automatically - won/lost/void plus profit.
 
+Skips the entire run (no credits, no Telegram polling) during the
+configured Sydney-local sleep window.
+
 Required env vars: ODDS_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
 Optional env vars: EV_THRESHOLD (default 0.03), MIN_BOOKS (default 3),
-                    SCAN_WINDOW_HOURS (default 3), ODDS_REGION (default au)
+                    SCAN_WINDOW_HOURS (default 3), ODDS_REGION (default au),
+                    SLEEP_START_HOUR / SLEEP_END_HOUR (default 1 / 7)
 """
 import sys
 from datetime import datetime, timedelta, timezone
@@ -170,6 +174,12 @@ def resolve_open_bets(bet_ledger: dict):
 
 
 def main():
+    if scheduling.is_sleep_window(config.SLEEP_START_HOUR, config.SLEEP_END_HOUR):
+        local_now = datetime.now(timezone.utc).astimezone(scheduling.SYDNEY)
+        print(f"In sleep window ({config.SLEEP_START_HOUR}:00-{config.SLEEP_END_HOUR}:00 Sydney time, "
+              f"currently {local_now.strftime('%I:%M %p %Z')}) - skipping this run entirely, no credits spent.")
+        return
+
     if not config.ODDS_API_KEY:
         print("ERROR: ODDS_API_KEY not set.")
         sys.exit(1)
