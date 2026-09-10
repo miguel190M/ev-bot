@@ -18,7 +18,7 @@ def format_message(opp: dict, bet_id: str | None = None) -> str:
         f"Sport: {opp['sport_key']}\n"
         f"Event: {matchup}\n"
         f"Start: {dt_syd.strftime('%a %d %b, %I:%M%p %Z')}\n"
-        f"Book: Betfair Exchange\n"
+        f"Book: {opp['bookmaker_title']}\n"
         f"Pick: {opp['outcome']} @ {opp['price']}\n"
         f"Fair odds: ~{opp['fair_odds']} (retail consensus, {opp['num_books']} books)"
         f"{bet_footer}"

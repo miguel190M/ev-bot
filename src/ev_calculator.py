@@ -1,24 +1,16 @@
 """
-+EV detection for Betfair-only betting: retail bookmakers act purely as the
-reference market, and Betfair Exchange's own back price is the only thing
-ever evaluated or alerted on.
++EV detection for a set of bettable bookmakers: every OTHER bookmaker acts
+purely as the reference market, and only prices from config.BETTABLE_BOOKS
+are ever evaluated or alerted on.
 
-Why the flip from the original design: this tool used to treat Betfair's
-back/lay spread as the sharp reference price and looked for retail books
-beating it. That made sense when you might bet through any of them. Once
-you're only betting through Betfair, that framing is backwards - Betfair's
-own price is no longer "the outside sharp price" to compare against, it's
-literally the price you'd get. So now the retail books (Sportsbet, TAB,
-Neds, Ladbrokes) are de-vigged and combined into a MEDIAN consensus fair
-line, and Betfair's back price is checked against that line instead.
+This generalizes the earlier Betfair-only design to any number of books you
+can actually place bets through (e.g. Betfair Exchange AND Sportsbet). The
+reasoning is the same either way: a bettable book's own price can't be
+compared to a "fair line" that already includes it, so all bettable books
+are excluded from the consensus - only the remaining, non-bettable books
+build the fair-value line that gets checked against.
 
-This also means retail books' own prices are never flagged anymore - there's
-nothing to act on there since you're not betting through them. An event is
-only interesting if Betfair itself is offering a price better than what the
-wider retail market implies is fair - which does happen, since Betfair AU
-can be slower to move or thinner on some markets than the big retail books.
-
-EV% = (Betfair's decimal odds x retail-consensus fair probability) - 1
+EV% = (a bettable book's decimal odds x reference-consensus fair probability) - 1
 """
 
 import statistics
@@ -52,39 +44,37 @@ def _extract_book_prices(event: dict) -> tuple[dict, dict]:
     return book_prices, book_titles
 
 
-def _retail_consensus(book_prices: dict) -> dict[str, float]:
-    """De-vig every non-Betfair book and return the MEDIAN probability per
-    outcome across all of them. Unlike the old leave-one-out approach, there's
-    no need to exclude any one retail book from its own evaluation here -
-    none of them are being individually evaluated anymore, they're all just
-    contributing to a single consensus line that only Betfair gets checked
-    against. Using the full set rather than leave-one-out is a bit less
-    noisy as a result."""
-    retail_devig = {
+def _reference_consensus(book_prices: dict) -> tuple[dict, int]:
+    """De-vig every non-bettable book and return the MEDIAN probability per
+    outcome across all of them. No leave-one-out needed here - none of
+    these books are being individually evaluated, they're all just
+    contributing to one shared consensus line that the bettable books get
+    checked against."""
+    reference_devig = {
         k: devig_probabilities([{"name": n, "price": p} for n, p in v.items()])
-        for k, v in book_prices.items() if k != config.BETFAIR_KEY
+        for k, v in book_prices.items() if k not in config.BETTABLE_BOOKS
     }
     outcome_names = set()
-    for probs in retail_devig.values():
+    for probs in reference_devig.values():
         outcome_names.update(probs.keys())
 
     consensus = {}
     for outcome in outcome_names:
-        probs = [d[outcome] for d in retail_devig.values() if outcome in d]
-        if len(probs) >= 1:
+        probs = [d[outcome] for d in reference_devig.values() if outcome in d]
+        if probs:
             consensus[outcome] = statistics.median(probs)
-    return consensus, len(retail_devig)
+    return consensus, len(reference_devig)
 
 
-def _make_opportunity(event, price, outcome, fair_prob, num_books):
+def _make_opportunity(event, book_key, book_title, price, outcome, fair_prob, num_books):
     return {
         "event_id": event["id"],
         "sport_key": event["sport_key"],
         "commence_time": event["commence_time"],
         "home_team": event.get("home_team"),
         "away_team": event.get("away_team"),
-        "bookmaker_key": config.BETFAIR_KEY,
-        "bookmaker_title": "Betfair Exchange",
+        "bookmaker_key": book_key,
+        "bookmaker_title": book_title,
         "outcome": outcome,
         "price": price,
         "fair_probability": round(fair_prob, 4),
@@ -96,25 +86,27 @@ def _make_opportunity(event, price, outcome, fair_prob, num_books):
 
 
 def find_positive_ev(event: dict) -> list[dict]:
-    """Scan a single event for a +EV price on Betfair, judged against the
-    retail consensus. Returns a list with 0 or 1 opportunities per outcome -
-    nothing is ever flagged for any book other than Betfair."""
+    """Scan a single event for +EV prices on any bettable book, each judged
+    against the same shared reference consensus. Nothing is ever flagged
+    for a book outside config.BETTABLE_BOOKS."""
     opportunities = []
-    book_prices, _ = _extract_book_prices(event)
+    book_prices, book_titles = _extract_book_prices(event)
 
-    betfair_prices = book_prices.get(config.BETFAIR_KEY)
-    if not betfair_prices:
-        return opportunities  # Betfair isn't quoting this event at all - nothing to bet
+    bettable_present = {k: v for k, v in book_prices.items() if k in config.BETTABLE_BOOKS}
+    if not bettable_present:
+        return opportunities  # none of your bettable books are quoting this event
 
-    fair_probs, num_retail_books = _retail_consensus(book_prices)
-    if num_retail_books < config.MIN_BOOKS:
-        return opportunities  # not enough retail books to trust the consensus
+    fair_probs, num_reference_books = _reference_consensus(book_prices)
+    if num_reference_books < config.MIN_BOOKS:
+        return opportunities  # not enough reference books to trust the consensus
 
-    for outcome, price in betfair_prices.items():
-        fair_prob = fair_probs.get(outcome)
-        if not fair_prob or not price:
-            continue
-        if (price * fair_prob - 1) >= config.EV_THRESHOLD:
-            opportunities.append(_make_opportunity(event, price, outcome, fair_prob, num_retail_books))
-
+    for book_key, prices in bettable_present.items():
+        for outcome, price in prices.items():
+            fair_prob = fair_probs.get(outcome)
+            if not fair_prob or not price:
+                continue
+            if (price * fair_prob - 1) >= config.EV_THRESHOLD:
+                opportunities.append(_make_opportunity(
+                    event, book_key, book_titles[book_key], price, outcome, fair_prob, num_reference_books
+                ))
     return opportunities

@@ -43,11 +43,12 @@ SCAN_WINDOW_HOURS = float(os.environ.get("SCAN_WINDOW_HOURS", "3"))
 SLEEP_START_HOUR = int(os.environ.get("SLEEP_START_HOUR", "1"))   # inclusive
 SLEEP_END_HOUR = int(os.environ.get("SLEEP_END_HOUR", "7"))       # exclusive
 
-# Betfair Exchange AU - the only bookmaker whose price actually gets
-# evaluated and alerted on now (retail books are used purely to build the
-# fair-value consensus Betfair's price is checked against). Already
-# included in the au region pull at no extra API cost.
-BETFAIR_KEY = os.environ.get("BETFAIR_KEY", "betfair_ex_au")
+# Bookmakers you can actually place bets through. Every other bookmaker
+# returned by the API is used purely to build the fair-value consensus
+# these get checked against - and is excluded from that consensus itself,
+# so a book's own price is never compared to a "fair line" that already
+# includes it. Already included in the region pulls at no extra API cost.
+BETTABLE_BOOKS = [b.strip() for b in os.environ.get("BETTABLE_BOOKS", "betfair_ex_au,sportsbet").split(",")]
 
 FIXED_SPORTS = [
     "basketball_nba",
