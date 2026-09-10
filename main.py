@@ -34,6 +34,7 @@ def run_scan(candidates: dict) -> int:
     all_opportunities = []
     total_credits_used = 0
     skipped = []
+    seen_bookmakers = {}  # bookmaker_key -> title, across every event fetched this run
 
     for sport_key in sports_to_scan:
         try:
@@ -59,7 +60,16 @@ def run_scan(candidates: dict) -> int:
               f"pulled odds (region={regions_used}, {len(events)} events returned, {len(near_term)} within window, "
               f"{used} credits used, {remaining} remaining)")
         for event in near_term:
+            for bm in event.get("bookmakers", []):
+                seen_bookmakers[bm["key"]] = bm.get("title", bm["key"])
             all_opportunities.extend(ev_calculator.find_positive_ev(event))
+
+    if seen_bookmakers:
+        import json
+        from pathlib import Path
+        Path("data").mkdir(exist_ok=True)
+        Path("data/seen_bookmakers.json").write_text(json.dumps(seen_bookmakers, indent=2, sort_keys=True))
+        print(f"\nBookmaker keys seen this run: {seen_bookmakers}")
 
     if skipped:
         print(f"\nSkipped (nothing starting within {config.SCAN_WINDOW_HOURS}h, no credits spent): {skipped}")
