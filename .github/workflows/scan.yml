@@ -38,6 +38,6 @@ jobs:
         run: |
           git config user.name "ev-bot"
           git config user.email "ev-bot@users.noreply.github.com"
-          git add data/state.json
+          git add data/
           git diff --staged --quiet || git commit -m "Update EV state [skip ci]"
           git push
