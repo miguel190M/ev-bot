@@ -56,7 +56,6 @@ def _retail_consensus(book_prices: dict) -> dict[str, float]:
     """De-vig every non-Betfair book and return the MEDIAN probability per
     outcome across all of them. Unlike the old leave-one-out approach, there's
     no need to exclude any one retail book from its own evaluation here -
-    
     none of them are being individually evaluated anymore, they're all just
     contributing to a single consensus line that only Betfair gets checked
     against. Using the full set rather than leave-one-out is a bit less
