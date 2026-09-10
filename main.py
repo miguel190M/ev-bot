@@ -180,6 +180,30 @@ def resolve_open_bets(bet_ledger: dict):
                 print(f"  Resolved {bet_id}: {bet['status']} (${bet['profit']})")
 
 
+def send_monthly_digest_if_due(bet_ledger: dict):
+    """Send an unprompted /stats-style summary on the 1st of the month
+    (Sydney time), so you get a running check-in without having to
+    remember to ask for one."""
+    digest_state = bets.load_digest_state()
+    last_sent = digest_state.get("last_sent_month", "")
+    due, current_month = scheduling.is_monthly_digest_due(last_sent)
+    if not due:
+        return
+
+    s = bets.compute_stats(bet_ledger)
+    telegram_commands.send_message(
+        f"📅 Monthly summary ({current_month})\n"
+        f"Resolved: {s['resolved_count']} ({s['wins']}W-{s['losses']}L, {s['voids']} void)\n"
+        f"Open: {s['open_count']}\n"
+        f"Staked: ${s['total_staked']:g}\n"
+        f"Profit: ${s['total_profit']:g}\n"
+        f"ROI: {s['roi_pct']}%"
+    )
+    digest_state["last_sent_month"] = current_month
+    bets.save_digest_state(digest_state)
+    print(f"Sent monthly digest for {current_month}: {s}")
+
+
 def main():
     if scheduling.is_sleep_window(config.SLEEP_START_HOUR, config.SLEEP_END_HOUR):
         local_now = datetime.now(timezone.utc).astimezone(scheduling.SYDNEY)
@@ -202,6 +226,7 @@ def main():
 
     process_commands(candidates, bet_ledger)
     resolve_open_bets(bet_ledger)
+    send_monthly_digest_if_due(bet_ledger)
     bets.save_bets(bet_ledger)
 
     print(f"\nTotal credits used this run: {credits_used}")
