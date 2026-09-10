@@ -10,7 +10,7 @@ REGION = os.environ.get("ODDS_REGION", "au")
 MARKET = os.environ.get("ODDS_MARKET", "h2h")  # moneyline; spreads/totals are mostly US-only on this API
 
 EV_THRESHOLD = float(os.environ.get("EV_THRESHOLD", "0.03"))   # 3% minimum edge to alert
-MIN_BOOKS = int(os.environ.get("MIN_BOOKS", "3"))              # min bookmakers needed for retail-consensus fallback
+MIN_BOOKS = int(os.environ.get("MIN_BOOKS", "3"))              # min RETAIL bookmakers needed to trust the consensus
 MIN_EV_DELTA_TO_REALERT = float(os.environ.get("MIN_EV_DELTA_TO_REALERT", "1.0"))  # percentage points
 
 # Only spend a credit on a sport's /odds endpoint if it has something
@@ -26,8 +26,9 @@ SCAN_WINDOW_HOURS = float(os.environ.get("SCAN_WINDOW_HOURS", "3"))
 SLEEP_START_HOUR = int(os.environ.get("SLEEP_START_HOUR", "1"))   # inclusive
 SLEEP_END_HOUR = int(os.environ.get("SLEEP_END_HOUR", "7"))       # exclusive
 
-# Betfair Exchange AU - preferred fair-value anchor. Real two-sided market
-# price rather than a single retail book's opinion, and it's already
+# Betfair Exchange AU - the only bookmaker whose price actually gets
+# evaluated and alerted on now (retail books are used purely to build the
+# fair-value consensus Betfair's price is checked against). Already
 # included in the au region pull at no extra API cost.
 BETFAIR_KEY = os.environ.get("BETFAIR_KEY", "betfair_ex_au")
 
