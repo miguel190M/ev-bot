@@ -1,1 +1,18 @@
-{}
+{
+  "a711": {
+    "event_id": "c0c9321519b34aea833d0e7708b28411",
+    "sport_key": "tennis_atp_us_open",
+    "commence_time": "2026-09-11T23:00:00Z",
+    "home_team": "Frances Tiafoe",
+    "away_team": "Ben Shelton",
+    "bookmaker_key": "betfair_ex_au",
+    "bookmaker_title": "Betfair",
+    "outcome": "Frances Tiafoe",
+    "price": 3.65,
+    "fair_probability": 0.2881,
+    "fair_odds": 3.472,
+    "ev_pct": 5.14,
+    "anchor": "retail_consensus",
+    "num_books": 8
+  }
+}
