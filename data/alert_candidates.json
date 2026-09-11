@@ -1,1 +1,34 @@
-{}
+{
+  "3750": {
+    "event_id": "3e6260ba3b7217715e6c4011f56c28cf",
+    "sport_key": "rugbyleague_nrl",
+    "commence_time": "2026-09-11T09:50:00Z",
+    "home_team": "South Sydney Rabbitohs",
+    "away_team": "Newcastle Knights",
+    "bookmaker_key": "betfair_ex_au",
+    "bookmaker_title": "Betfair",
+    "outcome": "Newcastle Knights",
+    "price": 3.45,
+    "fair_probability": 0.3182,
+    "fair_odds": 3.143,
+    "ev_pct": 9.77,
+    "anchor": "retail_consensus",
+    "num_books": 9
+  },
+  "c27e": {
+    "event_id": "e7e06a821e70efe5c91cd38371d33977",
+    "sport_key": "aussierules_afl",
+    "commence_time": "2026-09-11T10:10:09Z",
+    "home_team": "Fremantle Dockers",
+    "away_team": "Geelong Cats",
+    "bookmaker_key": "betfair_ex_au",
+    "bookmaker_title": "Betfair",
+    "outcome": "Geelong Cats",
+    "price": 2.84,
+    "fair_probability": 0.3672,
+    "fair_odds": 2.723,
+    "ev_pct": 4.3,
+    "anchor": "retail_consensus",
+    "num_books": 9
+  }
+}
