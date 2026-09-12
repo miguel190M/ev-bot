@@ -105,6 +105,7 @@ def place_bet(sid: str, stake: float, opp: dict, bets: dict) -> tuple[str, dict]
         "commence_time": opp["commence_time"],
         "home_team": opp.get("home_team"),
         "away_team": opp.get("away_team"),
+        "market_key": opp.get("market_key", "h2h"),
         "bookmaker_title": opp["bookmaker_title"],
         "outcome": opp["outcome"],
         "price": opp["price"],
@@ -162,14 +163,21 @@ def compute_net_clv_pct(bet: dict) -> float | None:
     return round((effective_price / closing - 1) * 100, 2)
 
 
-def resolve_bet(bet: dict, final_scores: dict) -> bool:
-    """final_scores: {team_name: int_score}. Mutates bet in place if it can
-    be resolved. Returns True if the bet's status changed."""
-    home, away = bet.get("home_team"), bet.get("away_team")
-    if home not in final_scores or away not in final_scores:
-        return False
+def _apply_win_loss(bet: dict, won: bool):
+    """Shared profit math for a decided (non-void) bet, used by both the
+    h2h and totals resolution paths."""
+    if won:
+        bet["status"] = "won"
+        commission = bet.get("commission", 0.0)
+        gross_profit = bet["stake"] * (bet["price"] - 1)
+        bet["profit"] = round(gross_profit * (1 - commission), 2)
+    else:
+        bet["status"] = "lost"
+        bet["profit"] = round(-bet["stake"], 2)
 
-    home_score, away_score = final_scores[home], final_scores[away]
+
+def _resolve_h2h(bet: dict, home_score: int, away_score: int):
+    home, away = bet.get("home_team"), bet.get("away_team")
     if home_score > away_score:
         winner = home
     elif away_score > home_score:
@@ -178,18 +186,45 @@ def resolve_bet(bet: dict, final_scores: dict) -> bool:
         winner = "Draw"  # only a real outcome to bet on in sports like soccer
 
     if bet["outcome"] == winner:
-        bet["status"] = "won"
-        commission = bet.get("commission", 0.0)
-        gross_profit = bet["stake"] * (bet["price"] - 1)
-        bet["profit"] = round(gross_profit * (1 - commission), 2)
+        _apply_win_loss(bet, won=True)
     elif winner == "Draw":
         # a tie happened but this market never offered "Draw" as a bettable
         # outcome (e.g. NBA/NFL/AFL/NRL/tennis) - can't score this cleanly
         bet["status"] = "void"
         bet["profit"] = 0.0
     else:
-        bet["status"] = "lost"
-        bet["profit"] = round(-bet["stake"], 2)
+        _apply_win_loss(bet, won=False)
+
+
+def _resolve_totals(bet: dict, home_score: int, away_score: int):
+    """Outcome is stored as e.g. 'Over 224.5' (see ev_calculator._outcome_key) -
+    split it back into side and line, then compare to the actual combined
+    score."""
+    side, _, point_str = bet["outcome"].partition(" ")
+    point = float(point_str)
+    total = home_score + away_score
+
+    if total == point:
+        bet["status"] = "void"  # push - exact tie on the total, stake returned
+        bet["profit"] = 0.0
+        return
+
+    won = (total > point and side == "Over") or (total < point and side == "Under")
+    _apply_win_loss(bet, won)
+
+
+def resolve_bet(bet: dict, final_scores: dict) -> bool:
+    """final_scores: {team_name: int_score}. Mutates bet in place if it can
+    be resolved. Returns True if the bet's status changed."""
+    home, away = bet.get("home_team"), bet.get("away_team")
+    if home not in final_scores or away not in final_scores:
+        return False
+
+    home_score, away_score = final_scores[home], final_scores[away]
+    if bet.get("market_key") == "totals":
+        _resolve_totals(bet, home_score, away_score)
+    else:
+        _resolve_h2h(bet, home_score, away_score)
 
     bet["clv_pct"] = compute_clv_pct(bet)  # independent of win/loss - it's about price movement, not outcome
     bet["net_clv_pct"] = compute_net_clv_pct(bet)
