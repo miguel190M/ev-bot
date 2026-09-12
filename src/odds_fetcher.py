@@ -34,14 +34,14 @@ def get_events(sport_key: str) -> list[dict]:
 
 
 def get_odds(sport_key: str):
-    """Fetch h2h odds for one sport key / region(s). Costs
-    [markets] x [regions] credits - 1 credit for single-region sports, 2 for
-    sports with a region override (see config.SPORT_REGION_OVERRIDES)."""
+    """Fetch odds for one sport key / region(s) / market(s). Costs
+    [markets] x [regions] credits - varies by sport (see
+    config.SPORT_MARKET_OVERRIDES and config.SPORT_REGION_OVERRIDES)."""
     url = f"{config.ODDS_API_BASE}/sports/{sport_key}/odds"
     params = {
         "apiKey": config.ODDS_API_KEY,
         "regions": config.get_regions_for_sport(sport_key),
-        "markets": config.MARKET,
+        "markets": config.get_markets_for_sport(sport_key),
         "oddsFormat": "decimal",
         "dateFormat": "iso",
     }
