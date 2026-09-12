@@ -106,7 +106,10 @@ def run_scan(candidates: dict, bet_ledger: dict) -> int:
 def _clv_line(s: dict) -> str:
     if s["avg_clv_pct"] is None:
         return "Avg CLV: not enough data yet"
-    return f"Avg CLV: {s['avg_clv_pct']:+.1f}% (n={s['clv_sample_size']})"
+    line = f"Avg Raw CLV: {s['avg_clv_pct']:+.1f}% (n={s['clv_sample_size']})"
+    if s.get("avg_net_clv_pct") is not None:
+        line += f"\nAvg Net CLV: {s['avg_net_clv_pct']:+.1f}%"
+    return line
 
 
 def process_commands(candidates: dict, bet_ledger: dict):
@@ -192,13 +195,18 @@ def resolve_open_bets(bet_ledger: dict):
             if bets.resolve_bet(bet, final):
                 matchup = f"{bet.get('away_team')} @ {bet.get('home_team')}" if bet.get("away_team") else bet.get("home_team", "")
                 verdict = {"won": "✅ WON", "lost": "❌ LOST", "void": "➖ VOID"}[bet["status"]]
-                clv_line = f"\nCLV: {bet['clv_pct']:+.1f}%" if bet.get("clv_pct") is not None else ""
+                clv_line = ""
+                if bet.get("clv_pct") is not None:
+                    if bet.get("net_clv_pct") is not None and bet.get("commission", 0.0) > 0:
+                        clv_line = f"\nRaw CLV: {bet['clv_pct']:+.1f}% | Net CLV: {bet['net_clv_pct']:+.1f}%"
+                    else:
+                        clv_line = f"\nCLV: {bet['clv_pct']:+.1f}%"
                 telegram_commands.send_message(
                     f"{verdict}: {bet['outcome']} @ {bet['price']} ({matchup})\n"
                     f"Profit: ${bet['profit']:g}"
                     f"{clv_line}"
                 )
-                print(f"  Resolved {bet_id}: {bet['status']} (${bet['profit']}, CLV={bet.get('clv_pct')})")
+                print(f"  Resolved {bet_id}: {bet['status']} (${bet['profit']}, CLV={bet.get('clv_pct')}, net={bet.get('net_clv_pct')})")
 
 
 def send_monthly_digest_if_due(bet_ledger: dict):
