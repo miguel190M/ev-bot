@@ -29,7 +29,8 @@ jobs:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          EV_THRESHOLD: "0.03"
+          EV_THRESHOLD_SLOPE: "0.02"
+          EV_THRESHOLD_INTERCEPT: "-0.01"
           MIN_BOOKS: "3"
           SCAN_WINDOW_HOURS: "3"
         run: python main.py
