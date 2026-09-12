@@ -50,6 +50,26 @@ SLEEP_END_HOUR = int(os.environ.get("SLEEP_END_HOUR", "7"))       # exclusive
 # includes it. Already included in the region pulls at no extra API cost.
 BETTABLE_BOOKS = [b.strip() for b in os.environ.get("BETTABLE_BOOKS", "betfair_ex_au,sportsbet").split(",")]
 
+# Betfair Exchange charges commission on NET WINNINGS only (never on a
+# loss, and never on Sportsbet - its margin is already baked into the
+# quoted price with no extra fee stacked on top). These are current 2026
+# Betfair AU Market Base Rates. NRL specifically carries a much higher rate
+# than every other sport here, so it needs its own entry rather than one
+# flat default - a bet that looks like a solid edge before commission can
+# be barely breakeven after it once NRL's 10% is applied.
+COMMISSION_BOOKS = {"betfair_ex_au"}
+SPORT_COMMISSION_RATES = {
+    "rugbyleague_nrl": 0.10,
+}
+DEFAULT_COMMISSION_RATE = float(os.environ.get("BETFAIR_COMMISSION_DEFAULT", "0.06"))
+
+
+def get_commission_rate(book_key: str, sport_key: str) -> float:
+    """0.0 for any book that doesn't charge commission at all (e.g. Sportsbet)."""
+    if book_key not in COMMISSION_BOOKS:
+        return 0.0
+    return SPORT_COMMISSION_RATES.get(sport_key, DEFAULT_COMMISSION_RATE)
+
 FIXED_SPORTS = [
     "basketball_nba",
     "americanfootball_nfl",
