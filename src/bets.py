@@ -119,6 +119,13 @@ def place_bet(sid: str, stake: float, opp: dict, bets: dict) -> tuple[str, dict]
     return bet_id, bet
 
 
+def _effective_price(price: float, commission: float) -> float:
+    """Decimal price after commission on net winnings - identical logic to
+    ev_calculator's version, duplicated here rather than imported to avoid
+    a cross-module dependency for one line of math."""
+    return 1 + (price - 1) * (1 - commission)
+
+
 def compute_clv_pct(bet: dict) -> float | None:
     """Closing Line Value: how the price you got compares to the reference
     market's fair line right before kickoff (see ev_calculator's
@@ -128,11 +135,31 @@ def compute_clv_pct(bet: dict) -> float | None:
     is the strongest available signal of a genuine edge at low sample
     sizes, well before win/loss numbers mean much on their own. None if no
     closing snapshot was ever captured (e.g. the event's whole pre-game
-    window happened to fall in the sleep window, or a run was missed)."""
+    window happened to fall in the sleep window, or a run was missed).
+
+    This is calculated on the RAW quoted price deliberately - it answers
+    "was my price call good", independent of what it costs to bet through
+    a given venue. See compute_net_clv_pct for the commission-adjusted
+    version, which answers a different question: how much of that edge
+    actually survives the fee."""
     closing = bet.get("closing_fair_odds")
     if not closing:
         return None
     return round((bet["price"] / closing - 1) * 100, 2)
+
+
+def compute_net_clv_pct(bet: dict) -> float | None:
+    """Same comparison as compute_clv_pct, but using the price you'd
+    actually realize after commission (0 for books like Sportsbet that
+    don't charge one). Always <= the raw CLV for any commission-charging
+    bet, since commission only ever reduces the effective price - and the
+    gap can be large: on NRL's 10% rate specifically, raw CLV can overstate
+    the real, fee-adjusted edge by more than 2x."""
+    closing = bet.get("closing_fair_odds")
+    if not closing:
+        return None
+    effective_price = _effective_price(bet["price"], bet.get("commission", 0.0))
+    return round((effective_price / closing - 1) * 100, 2)
 
 
 def resolve_bet(bet: dict, final_scores: dict) -> bool:
@@ -165,6 +192,7 @@ def resolve_bet(bet: dict, final_scores: dict) -> bool:
         bet["profit"] = round(-bet["stake"], 2)
 
     bet["clv_pct"] = compute_clv_pct(bet)  # independent of win/loss - it's about price movement, not outcome
+    bet["net_clv_pct"] = compute_net_clv_pct(bet)
     return True
 
 
@@ -184,8 +212,11 @@ def compute_stats(bets: dict) -> dict:
 
     # CLV applies across won/lost/void alike - it's about price movement,
     # not outcome, so a void bet still tells you whether you beat the line.
-    clv_values = [b["clv_pct"] for b in (won + lost + void) if b.get("clv_pct") is not None]
+    resolved_all = won + lost + void
+    clv_values = [b["clv_pct"] for b in resolved_all if b.get("clv_pct") is not None]
     avg_clv = round(sum(clv_values) / len(clv_values), 2) if clv_values else None
+    net_clv_values = [b["net_clv_pct"] for b in resolved_all if b.get("net_clv_pct") is not None]
+    avg_net_clv = round(sum(net_clv_values) / len(net_clv_values), 2) if net_clv_values else None
 
     return {
         "resolved_count": len(decided) + len(void),
@@ -198,4 +229,5 @@ def compute_stats(bets: dict) -> dict:
         "roi_pct": round(roi, 2),
         "avg_clv_pct": avg_clv,
         "clv_sample_size": len(clv_values),
+        "avg_net_clv_pct": avg_net_clv,
     }
