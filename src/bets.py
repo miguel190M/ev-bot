@@ -14,6 +14,7 @@ Two files back this:
 
 import hashlib
 import json
+from datetime import datetime, timedelta
 from pathlib import Path
 
 ALERTS_FILE = "data/alert_candidates.json"
@@ -65,9 +66,17 @@ def register_candidate(opp: dict, candidates: dict) -> str:
     return sid
 
 
-def prune_candidates(candidates: dict, now_iso: str):
+def prune_candidates(candidates: dict, now_iso: str, grace_hours: float = 24):
+    """Drop candidates whose event started more than `grace_hours` ago - not
+    the instant it starts. There's normal, expected delay between placing a
+    bet and getting around to sending the /bet confirmation (mid-game,
+    after work, whenever you next check your phone), and that delay
+    shouldn't silently break the lookup just because the game has already
+    kicked off."""
+    now = datetime.fromisoformat(now_iso)
+    cutoff = (now - timedelta(hours=grace_hours)).isoformat()
     for sid in list(candidates.keys()):
-        if candidates[sid]["commence_time"] < now_iso:
+        if candidates[sid]["commence_time"] < cutoff:
             del candidates[sid]
 
 
@@ -99,6 +108,7 @@ def place_bet(sid: str, stake: float, opp: dict, bets: dict) -> tuple[str, dict]
         "bookmaker_title": opp["bookmaker_title"],
         "outcome": opp["outcome"],
         "price": opp["price"],
+        "commission": opp.get("commission", 0.0),
         "ev_pct": opp["ev_pct"],
         "anchor": opp["anchor"],
         "stake": stake,
@@ -126,7 +136,9 @@ def resolve_bet(bet: dict, final_scores: dict) -> bool:
 
     if bet["outcome"] == winner:
         bet["status"] = "won"
-        bet["profit"] = round(bet["stake"] * (bet["price"] - 1), 2)
+        commission = bet.get("commission", 0.0)
+        gross_profit = bet["stake"] * (bet["price"] - 1)
+        bet["profit"] = round(gross_profit * (1 - commission), 2)
     elif winner == "Draw":
         # a tie happened but this market never offered "Draw" as a bettable
         # outcome (e.g. NBA/NFL/AFL/NRL/tennis) - can't score this cleanly
