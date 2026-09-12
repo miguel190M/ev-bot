@@ -10,7 +10,17 @@ compared to a "fair line" that already includes it, so all bettable books
 are excluded from the consensus - only the remaining, non-bettable books
 build the fair-value line that gets checked against.
 
-EV% = (a bettable book's decimal odds x reference-consensus fair probability) - 1
+Commission: Betfair charges commission on NET WINNINGS only (see
+config.get_commission_rate). The EV% here is always calculated on the
+commission-adjusted payout, not the raw quoted price - a bet that looks
+like a solid edge on Betfair's displayed odds can be barely breakeven once
+its cut comes out, especially on NRL's much higher rate. `price` in the
+resulting opportunity is still the RAW quoted price (what you'll actually
+see and click), so the two are reported side by side rather than one
+silently overwriting the other.
+
+EV% = (commission-adjusted payout on a bettable book's price x
+       reference-consensus fair probability) - 1
 """
 
 import statistics
@@ -66,7 +76,15 @@ def _reference_consensus(book_prices: dict) -> tuple[dict, int]:
     return consensus, len(reference_devig)
 
 
-def _make_opportunity(event, book_key, book_title, price, outcome, fair_prob, num_books):
+def _effective_price(price: float, commission: float) -> float:
+    """Decimal price after commission on net winnings. Only the profit
+    portion is taxed - your stake back is untouched - so it's 1 (stake
+    returned) plus the winnings reduced by the commission rate, not the
+    whole price scaled down."""
+    return 1 + (price - 1) * (1 - commission)
+
+
+def _make_opportunity(event, book_key, book_title, price, outcome, fair_prob, num_books, commission, ev):
     return {
         "event_id": event["id"],
         "sport_key": event["sport_key"],
@@ -76,10 +94,11 @@ def _make_opportunity(event, book_key, book_title, price, outcome, fair_prob, nu
         "bookmaker_key": book_key,
         "bookmaker_title": book_title,
         "outcome": outcome,
-        "price": price,
+        "price": price,  # raw quoted price - what you'll actually see and click
+        "commission": commission,  # 0.0 for books that don't charge one (e.g. Sportsbet)
         "fair_probability": round(fair_prob, 4),
         "fair_odds": round(1 / fair_prob, 3),
-        "ev_pct": round((price * fair_prob - 1) * 100, 2),
+        "ev_pct": round(ev * 100, 2),  # already commission-adjusted
         "anchor": "retail_consensus",
         "num_books": num_books,
     }
@@ -87,8 +106,8 @@ def _make_opportunity(event, book_key, book_title, price, outcome, fair_prob, nu
 
 def find_positive_ev(event: dict) -> list[dict]:
     """Scan a single event for +EV prices on any bettable book, each judged
-    against the same shared reference consensus. Nothing is ever flagged
-    for a book outside config.BETTABLE_BOOKS."""
+    against the same shared reference consensus, after commission. Nothing
+    is ever flagged for a book outside config.BETTABLE_BOOKS."""
     opportunities = []
     book_prices, book_titles = _extract_book_prices(event)
 
@@ -101,12 +120,16 @@ def find_positive_ev(event: dict) -> list[dict]:
         return opportunities  # not enough reference books to trust the consensus
 
     for book_key, prices in bettable_present.items():
+        commission = config.get_commission_rate(book_key, event["sport_key"])
         for outcome, price in prices.items():
             fair_prob = fair_probs.get(outcome)
             if not fair_prob or not price:
                 continue
-            if (price * fair_prob - 1) >= config.EV_THRESHOLD:
+            effective_price = _effective_price(price, commission)
+            ev = effective_price * fair_prob - 1
+            if ev >= config.EV_THRESHOLD:
                 opportunities.append(_make_opportunity(
-                    event, book_key, book_titles[book_key], price, outcome, fair_prob, num_reference_books
+                    event, book_key, book_titles[book_key], price, outcome, fair_prob,
+                    num_reference_books, commission, ev,
                 ))
     return opportunities
