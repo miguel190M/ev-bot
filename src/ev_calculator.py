@@ -104,6 +104,23 @@ def _make_opportunity(event, book_key, book_title, price, outcome, fair_prob, nu
     }
 
 
+def get_reference_fair_odds(event: dict, outcome: str) -> float | None:
+    """Fair odds for one specific outcome from the current reference
+    consensus - independent of any bettable book's own price. Used for CLV
+    tracking: called each time an open bet's event gets re-scanned as
+    kickoff approaches, so the last value captured before the game starts
+    becomes the closing-line proxy. Returns None if there aren't enough
+    reference books to trust the consensus, or the outcome isn't quoted."""
+    book_prices, _ = _extract_book_prices(event)
+    fair_probs, num_reference_books = _reference_consensus(book_prices)
+    if num_reference_books < config.MIN_BOOKS:
+        return None
+    fair_prob = fair_probs.get(outcome)
+    if not fair_prob:
+        return None
+    return round(1 / fair_prob, 3)
+
+
 def find_positive_ev(event: dict) -> list[dict]:
     """Scan a single event for +EV prices on any bettable book, each judged
     against the same shared reference consensus, after commission. Nothing
