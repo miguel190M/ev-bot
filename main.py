@@ -10,7 +10,9 @@ Each run does three things:
      final score and resolve it automatically - won/lost/void plus profit.
 
 Required env vars: ODDS_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
-Optional env vars: EV_THRESHOLD (default 0.03), MIN_BOOKS (default 3),
+Optional env vars: EV_THRESHOLD_SLOPE / EV_THRESHOLD_INTERCEPT (defaults
+                    0.02 / -0.01, giving a scaling threshold rather than a
+                    flat one), MIN_BOOKS (default 3),
                     SCAN_WINDOW_HOURS (default 3), ODDS_REGION (default au)
 """
 import sys
@@ -64,14 +66,15 @@ def run_scan(candidates: dict, bet_ledger: dict) -> int:
         total_credits_used += int(used or 0)
         near_term = scheduling.filter_starting_soon(events, config.SCAN_WINDOW_HOURS)
         regions_used = config.get_regions_for_sport(sport_key)
+        markets_used = config.get_markets_for_sport(sport_key)
         print(f"  {sport_key}: something starting within {config.SCAN_WINDOW_HOURS}h - "
-              f"pulled odds (region={regions_used}, {len(events)} events returned, {len(near_term)} within window, "
-              f"{used} credits used, {remaining} remaining)")
+              f"pulled odds (region={regions_used}, markets={markets_used}, {len(events)} events returned, "
+              f"{len(near_term)} within window, {used} credits used, {remaining} remaining)")
         for event in near_term:
             for bm in event.get("bookmakers", []):
                 seen_bookmakers[bm["key"]] = bm.get("title", bm["key"])
             for bet in open_bets_by_event.get(event["id"], []):
-                fair_odds = ev_calculator.get_reference_fair_odds(event, bet["outcome"])
+                fair_odds = ev_calculator.get_reference_fair_odds(event, bet["outcome"], bet.get("market_key", "h2h"))
                 if fair_odds:
                     bet["closing_fair_odds"] = fair_odds
             all_opportunities.extend(ev_calculator.find_positive_ev(event))
@@ -86,7 +89,9 @@ def run_scan(candidates: dict, bet_ledger: dict) -> int:
     if skipped:
         print(f"\nSkipped (nothing starting within {config.SCAN_WINDOW_HOURS}h, no credits spent): {skipped}")
 
-    print(f"\nFound {len(all_opportunities)} +EV opportunities >= {config.EV_THRESHOLD * 100:.1f}% edge")
+    print(f"\nFound {len(all_opportunities)} +EV opportunities (threshold scales with price - "
+          f"e.g. {config.get_ev_threshold(2.0) * 100:.1f}% at odds of 2.0, "
+          f"{config.get_ev_threshold(4.0) * 100:.1f}% at odds of 4.0)")
 
     st = state.load_state()
     now_iso = datetime.now(timezone.utc).isoformat()
