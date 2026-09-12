@@ -24,9 +24,12 @@ from src import (
 RESOLUTION_BUFFER_HOURS = 4  # wait this long after commence_time before trying to resolve
 
 
-def run_scan(candidates: dict) -> int:
+def run_scan(candidates: dict, bet_ledger: dict) -> int:
     """Existing EV scan + alerting. Registers each fresh alert as a bet
-    candidate so it can be referenced by /bet later. Returns credits used."""
+    candidate so it can be referenced by /bet later. Also captures a CLV
+    (Closing Line Value) snapshot for any open bet whose event gets
+    re-scanned here as kickoff approaches - the last one captured before
+    the event starts becomes the closing-line proxy. Returns credits used."""
     print("Fetching active sports (including in-season tennis tournaments)...")
     sports_to_scan = odds_fetcher.get_sports_to_scan()
     print(f"Considering {len(sports_to_scan)} sport keys: {sports_to_scan}\n")
@@ -35,6 +38,11 @@ def run_scan(candidates: dict) -> int:
     total_credits_used = 0
     skipped = []
     seen_bookmakers = {}  # bookmaker_key -> title, across every event fetched this run
+
+    open_bets_by_event = {}
+    for bet in bet_ledger.values():
+        if bet["status"] == "open":
+            open_bets_by_event.setdefault(bet["event_id"], []).append(bet)
 
     for sport_key in sports_to_scan:
         try:
@@ -62,6 +70,10 @@ def run_scan(candidates: dict) -> int:
         for event in near_term:
             for bm in event.get("bookmakers", []):
                 seen_bookmakers[bm["key"]] = bm.get("title", bm["key"])
+            for bet in open_bets_by_event.get(event["id"], []):
+                fair_odds = ev_calculator.get_reference_fair_odds(event, bet["outcome"])
+                if fair_odds:
+                    bet["closing_fair_odds"] = fair_odds
             all_opportunities.extend(ev_calculator.find_positive_ev(event))
 
     if seen_bookmakers:
@@ -89,6 +101,12 @@ def run_scan(candidates: dict) -> int:
 
     state.save_state(st)
     return total_credits_used
+
+
+def _clv_line(s: dict) -> str:
+    if s["avg_clv_pct"] is None:
+        return "Avg CLV: not enough data yet"
+    return f"Avg CLV: {s['avg_clv_pct']:+.1f}% (n={s['clv_sample_size']})"
 
 
 def process_commands(candidates: dict, bet_ledger: dict):
@@ -130,7 +148,8 @@ def process_commands(candidates: dict, bet_ledger: dict):
                 f"Open: {s['open_count']}\n"
                 f"Staked: ${s['total_staked']:g}\n"
                 f"Profit: ${s['total_profit']:g}\n"
-                f"ROI: {s['roi_pct']}%"
+                f"ROI: {s['roi_pct']}%\n"
+                f"{_clv_line(s)}"
             )
             print(f"    -> Replied with stats: {s}")
 
@@ -173,11 +192,13 @@ def resolve_open_bets(bet_ledger: dict):
             if bets.resolve_bet(bet, final):
                 matchup = f"{bet.get('away_team')} @ {bet.get('home_team')}" if bet.get("away_team") else bet.get("home_team", "")
                 verdict = {"won": "✅ WON", "lost": "❌ LOST", "void": "➖ VOID"}[bet["status"]]
+                clv_line = f"\nCLV: {bet['clv_pct']:+.1f}%" if bet.get("clv_pct") is not None else ""
                 telegram_commands.send_message(
                     f"{verdict}: {bet['outcome']} @ {bet['price']} ({matchup})\n"
                     f"Profit: ${bet['profit']:g}"
+                    f"{clv_line}"
                 )
-                print(f"  Resolved {bet_id}: {bet['status']} (${bet['profit']})")
+                print(f"  Resolved {bet_id}: {bet['status']} (${bet['profit']}, CLV={bet.get('clv_pct')})")
 
 
 def send_monthly_digest_if_due(bet_ledger: dict):
@@ -197,7 +218,8 @@ def send_monthly_digest_if_due(bet_ledger: dict):
         f"Open: {s['open_count']}\n"
         f"Staked: ${s['total_staked']:g}\n"
         f"Profit: ${s['total_profit']:g}\n"
-        f"ROI: {s['roi_pct']}%"
+        f"ROI: {s['roi_pct']}%\n"
+        f"{_clv_line(s)}"
     )
     digest_state["last_sent_month"] = current_month
     bets.save_digest_state(digest_state)
@@ -218,7 +240,7 @@ def main():
     candidates = bets.load_candidates()
     bet_ledger = bets.load_bets()
 
-    credits_used = run_scan(candidates)
+    credits_used = run_scan(candidates, bet_ledger)
 
     # Give any /bet command first crack at matching a candidate before
     # pruning runs - belt-and-braces alongside the grace period in
