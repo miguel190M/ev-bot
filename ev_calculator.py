@@ -10,6 +10,17 @@ compared to a "fair line" that already includes it, so all bettable books
 are excluded from the consensus - only the remaining, non-bettable books
 build the fair-value line that gets checked against.
 
+Multiple markets: an event can carry more than one market (h2h, and totals
+for sports configured in config.SPORT_MARKET_OVERRIDES). Each market is
+evaluated completely independently - a moneyline fair line and a totals
+fair line are unrelated bets, so mixing them into one consensus would be
+meaningless. Outcomes within a market are identified by name AND line where
+a line exists (e.g. "Over 224.5"), since different books quoting "Over" at
+different points are not the same bet - comparing them directly would
+silently compare unrelated wagers. The practical effect: totals alerts will
+fire less often than moneyline ones, since fewer books tend to agree on the
+exact same line. That's correct, careful behavior, not a bug.
+
 Commission: Betfair charges commission on NET WINNINGS only (see
 config.get_commission_rate). The EV% here is always calculated on the
 commission-adjusted payout, not the raw quoted price - a bet that looks
@@ -29,27 +40,41 @@ from . import config
 
 
 def devig_probabilities(outcomes: list[dict]) -> dict[str, float]:
-    """Given one bookmaker's outcomes [{name, price}, ...], return de-vigged
-    (margin-free) probabilities per outcome name."""
-    implied = {o["name"]: 1.0 / o["price"] for o in outcomes if o.get("price")}
+    """Given one bookmaker's outcomes [{name, price, point?}, ...], return
+    de-vigged (margin-free) probabilities keyed by outcome identity (see
+    _outcome_key)."""
+    implied = {_outcome_key(o): 1.0 / o["price"] for o in outcomes if o.get("price")}
     total = sum(implied.values())
     if total <= 0:
         return {}
-    return {name: p / total for name, p in implied.items()}
+    return {key: p / total for key, p in implied.items()}
 
 
-def _extract_book_prices(event: dict) -> tuple[dict, dict]:
-    """Return (book_key -> {outcome: price}, book_key -> title) for every
-    bookmaker with a valid h2h market on this event."""
+def _outcome_key(outcome: dict) -> str:
+    """Identity for one outcome within a market. For h2h this is just the
+    team/selection name. For totals (and spreads, if ever added), the same
+    name ("Over"/"Under") can refer to completely different bets depending
+    on the line, so the line is folded into the key - two books' "Over"
+    only count as the same outcome if they're quoting the exact same
+    point. Stricter than name-matching alone, but the alternative
+    (treating Over 224.5 and Over 227.5 as interchangeable) would silently
+    compare unrelated bets."""
+    point = outcome.get("point")
+    return outcome["name"] if point is None else f"{outcome['name']} {point}"
+
+
+def _extract_book_prices(event: dict, market_key: str) -> tuple[dict, dict]:
+    """Return (book_key -> {outcome_key: price}, book_key -> title) for
+    every bookmaker quoting this specific market on this event."""
     book_prices, book_titles = {}, {}
     for bm in event.get("bookmakers", []):
-        market = next((m for m in bm.get("markets", []) if m["key"] == config.MARKET), None)
+        market = next((m for m in bm.get("markets", []) if m["key"] == market_key), None)
         if not market:
             continue
         outcomes = market.get("outcomes", [])
         if len(outcomes) < 2:
             continue
-        book_prices[bm["key"]] = {o["name"]: o["price"] for o in outcomes}
+        book_prices[bm["key"]] = {_outcome_key(o): o["price"] for o in outcomes}
         book_titles[bm["key"]] = bm.get("title", bm["key"])
     return book_prices, book_titles
 
@@ -64,15 +89,15 @@ def _reference_consensus(book_prices: dict) -> tuple[dict, int]:
         k: devig_probabilities([{"name": n, "price": p} for n, p in v.items()])
         for k, v in book_prices.items() if k not in config.BETTABLE_BOOKS
     }
-    outcome_names = set()
+    outcome_keys = set()
     for probs in reference_devig.values():
-        outcome_names.update(probs.keys())
+        outcome_keys.update(probs.keys())
 
     consensus = {}
-    for outcome in outcome_names:
-        probs = [d[outcome] for d in reference_devig.values() if outcome in d]
+    for key in outcome_keys:
+        probs = [d[key] for d in reference_devig.values() if key in d]
         if probs:
-            consensus[outcome] = statistics.median(probs)
+            consensus[key] = statistics.median(probs)
     return consensus, len(reference_devig)
 
 
@@ -84,16 +109,17 @@ def _effective_price(price: float, commission: float) -> float:
     return 1 + (price - 1) * (1 - commission)
 
 
-def _make_opportunity(event, book_key, book_title, price, outcome, fair_prob, num_books, commission, ev):
+def _make_opportunity(event, market_key, book_key, book_title, price, outcome, fair_prob, num_books, commission, ev):
     return {
         "event_id": event["id"],
         "sport_key": event["sport_key"],
         "commence_time": event["commence_time"],
         "home_team": event.get("home_team"),
         "away_team": event.get("away_team"),
+        "market_key": market_key,  # "h2h", "totals", etc - needed to resolve the bet correctly later
         "bookmaker_key": book_key,
         "bookmaker_title": book_title,
-        "outcome": outcome,
+        "outcome": outcome,  # e.g. "Lakers" for h2h, "Over 224.5" for totals
         "price": price,  # raw quoted price - what you'll actually see and click
         "commission": commission,  # 0.0 for books that don't charge one (e.g. Sportsbet)
         "fair_probability": round(fair_prob, 4),
@@ -104,14 +130,15 @@ def _make_opportunity(event, book_key, book_title, price, outcome, fair_prob, nu
     }
 
 
-def get_reference_fair_odds(event: dict, outcome: str) -> float | None:
+def get_reference_fair_odds(event: dict, outcome: str, market_key: str = "h2h") -> float | None:
     """Fair odds for one specific outcome from the current reference
-    consensus - independent of any bettable book's own price. Used for CLV
-    tracking: called each time an open bet's event gets re-scanned as
-    kickoff approaches, so the last value captured before the game starts
-    becomes the closing-line proxy. Returns None if there aren't enough
-    reference books to trust the consensus, or the outcome isn't quoted."""
-    book_prices, _ = _extract_book_prices(event)
+    consensus in the given market - independent of any bettable book's own
+    price. Used for CLV tracking: called each time an open bet's event
+    gets re-scanned as kickoff approaches, so the last value captured
+    before the game starts becomes the closing-line proxy. Returns None if
+    there aren't enough reference books to trust the consensus, or the
+    outcome isn't quoted."""
+    book_prices, _ = _extract_book_prices(event, market_key)
     fair_probs, num_reference_books = _reference_consensus(book_prices)
     if num_reference_books < config.MIN_BOOKS:
         return None
@@ -121,16 +148,14 @@ def get_reference_fair_odds(event: dict, outcome: str) -> float | None:
     return round(1 / fair_prob, 3)
 
 
-def find_positive_ev(event: dict) -> list[dict]:
-    """Scan a single event for +EV prices on any bettable book, each judged
-    against the same shared reference consensus, after commission. Nothing
-    is ever flagged for a book outside config.BETTABLE_BOOKS."""
+def _find_positive_ev_for_market(event: dict, market_key: str) -> list[dict]:
+    """Same logic as find_positive_ev, scoped to one specific market."""
     opportunities = []
-    book_prices, book_titles = _extract_book_prices(event)
+    book_prices, book_titles = _extract_book_prices(event, market_key)
 
     bettable_present = {k: v for k, v in book_prices.items() if k in config.BETTABLE_BOOKS}
     if not bettable_present:
-        return opportunities  # none of your bettable books are quoting this event
+        return opportunities  # none of your bettable books are quoting this market
 
     fair_probs, num_reference_books = _reference_consensus(book_prices)
     if num_reference_books < config.MIN_BOOKS:
@@ -144,9 +169,26 @@ def find_positive_ev(event: dict) -> list[dict]:
                 continue
             effective_price = _effective_price(price, commission)
             ev = effective_price * fair_prob - 1
-            if ev >= config.EV_THRESHOLD:
+            if ev >= config.get_ev_threshold(price):
                 opportunities.append(_make_opportunity(
-                    event, book_key, book_titles[book_key], price, outcome, fair_prob,
+                    event, market_key, book_key, book_titles[book_key], price, outcome, fair_prob,
                     num_reference_books, commission, ev,
                 ))
+    return opportunities
+
+
+def find_positive_ev(event: dict) -> list[dict]:
+    """Scan a single event across every market present (h2h, and totals for
+    sports where that's configured) for +EV prices on any bettable book.
+    Each market is evaluated completely independently - see module
+    docstring. Nothing is ever flagged for a book outside
+    config.BETTABLE_BOOKS."""
+    market_keys = set()
+    for bm in event.get("bookmakers", []):
+        for m in bm.get("markets", []):
+            market_keys.add(m["key"])
+
+    opportunities = []
+    for market_key in market_keys:
+        opportunities.extend(_find_positive_ev_for_market(event, market_key))
     return opportunities
