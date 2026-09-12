@@ -220,11 +220,15 @@ def main():
 
     credits_used = run_scan(candidates)
 
+    # Give any /bet command first crack at matching a candidate before
+    # pruning runs - belt-and-braces alongside the grace period in
+    # prune_candidates, so a same-run race can't cost a valid match either.
+    process_commands(candidates, bet_ledger)
+
     now_iso = datetime.now(timezone.utc).isoformat()
     bets.prune_candidates(candidates, now_iso)
     bets.save_candidates(candidates)
 
-    process_commands(candidates, bet_ledger)
     resolve_open_bets(bet_ledger)
     send_monthly_digest_if_due(bet_ledger)
     bets.save_bets(bet_ledger)
