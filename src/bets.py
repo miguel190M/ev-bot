@@ -119,6 +119,22 @@ def place_bet(sid: str, stake: float, opp: dict, bets: dict) -> tuple[str, dict]
     return bet_id, bet
 
 
+def compute_clv_pct(bet: dict) -> float | None:
+    """Closing Line Value: how the price you got compares to the reference
+    market's fair line right before kickoff (see ev_calculator's
+    get_reference_fair_odds, captured each time this bet's event gets
+    re-scanned as game time approaches). Positive means you beat the
+    closing line - the market moved toward your side after you bet, which
+    is the strongest available signal of a genuine edge at low sample
+    sizes, well before win/loss numbers mean much on their own. None if no
+    closing snapshot was ever captured (e.g. the event's whole pre-game
+    window happened to fall in the sleep window, or a run was missed)."""
+    closing = bet.get("closing_fair_odds")
+    if not closing:
+        return None
+    return round((bet["price"] / closing - 1) * 100, 2)
+
+
 def resolve_bet(bet: dict, final_scores: dict) -> bool:
     """final_scores: {team_name: int_score}. Mutates bet in place if it can
     be resolved. Returns True if the bet's status changed."""
@@ -147,6 +163,8 @@ def resolve_bet(bet: dict, final_scores: dict) -> bool:
     else:
         bet["status"] = "lost"
         bet["profit"] = round(-bet["stake"], 2)
+
+    bet["clv_pct"] = compute_clv_pct(bet)  # independent of win/loss - it's about price movement, not outcome
     return True
 
 
@@ -163,6 +181,12 @@ def compute_stats(bets: dict) -> dict:
     total_staked = sum(b["stake"] for b in decided)
     total_profit = sum(b["profit"] for b in decided)
     roi = (total_profit / total_staked * 100) if total_staked > 0 else 0.0
+
+    # CLV applies across won/lost/void alike - it's about price movement,
+    # not outcome, so a void bet still tells you whether you beat the line.
+    clv_values = [b["clv_pct"] for b in (won + lost + void) if b.get("clv_pct") is not None]
+    avg_clv = round(sum(clv_values) / len(clv_values), 2) if clv_values else None
+
     return {
         "resolved_count": len(decided) + len(void),
         "open_count": len(open_bets),
@@ -172,4 +196,6 @@ def compute_stats(bets: dict) -> dict:
         "total_staked": round(total_staked, 2),
         "total_profit": round(total_profit, 2),
         "roi_pct": round(roi, 2),
+        "avg_clv_pct": avg_clv,
+        "clv_sample_size": len(clv_values),
     }
