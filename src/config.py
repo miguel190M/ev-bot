@@ -7,7 +7,24 @@ TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
 # Scan settings
 REGION = os.environ.get("ODDS_REGION", "au")  # default region for most sports
-MARKET = os.environ.get("ODDS_MARKET", "h2h")  # moneyline; spreads/totals are mostly US-only on this API
+DEFAULT_MARKET = os.environ.get("ODDS_MARKET", "h2h")  # default market for most sports
+
+# EPL additionally pulls the 'totals' (over/under) market on top of h2h.
+# Scoped to EPL only, not NBA/NFL, for two reasons: soccer's total is
+# almost always anchored at 2.5 goals across every bookmaker, so there's
+# little of the line-fragmentation problem noted in ev_calculator's module
+# docstring (NBA/NFL totals vary game-to-game - 220.5 here, 228.5 there -
+# so far fewer books would ever agree on the same line to build a
+# consensus from). And NBA/NFL already pull the extra 'us' region, so
+# adding a second market there would have meant 4 credits per triggered
+# scan instead of 2 - EPL only goes from 1 to 2.
+SPORT_MARKET_OVERRIDES = {
+    "soccer_epl": "h2h,totals",
+}
+
+
+def get_markets_for_sport(sport_key: str) -> str:
+    return SPORT_MARKET_OVERRIDES.get(sport_key, DEFAULT_MARKET)
 
 # NBA and NFL additionally pull the 'us' region on top of the default -
 # US books are far deeper/sharper for these two home-turf sports, giving a
@@ -26,7 +43,23 @@ SPORT_REGION_OVERRIDES = {
 def get_regions_for_sport(sport_key: str) -> str:
     return SPORT_REGION_OVERRIDES.get(sport_key, REGION)
 
-EV_THRESHOLD = float(os.environ.get("EV_THRESHOLD", "0.03"))   # 3% minimum edge to alert
+# The minimum edge required to alert SCALES with the bettable book's price
+# rather than being one flat number. Rationale: the reference consensus is
+# a probability estimate with real uncertainty in it, and that uncertainty
+# doesn't translate evenly into odds - a small error in estimated
+# probability barely shifts the implied odds for a favorite, but the same
+# error swings the implied odds much further at longer prices (since
+# odds = 1/probability is a curve, not a straight line). A flat threshold
+# is therefore easier to clear by estimation noise alone, not real edge,
+# the longer the price gets. Linear fit: threshold = SLOPE * price +
+# INTERCEPT. Defaults reproduce ~3% at odds of 2.0 (matching the old flat
+# default at a "typical" price), ~5% at odds of 3, ~7% at odds of 4.
+EV_THRESHOLD_SLOPE = float(os.environ.get("EV_THRESHOLD_SLOPE", "0.02"))
+EV_THRESHOLD_INTERCEPT = float(os.environ.get("EV_THRESHOLD_INTERCEPT", "-0.01"))
+
+
+def get_ev_threshold(price: float) -> float:
+    return EV_THRESHOLD_SLOPE * price + EV_THRESHOLD_INTERCEPT
 MIN_BOOKS = int(os.environ.get("MIN_BOOKS", "3"))              # min bookmakers needed for retail-consensus fallback
 MIN_EV_DELTA_TO_REALERT = float(os.environ.get("MIN_EV_DELTA_TO_REALERT", "1.0"))  # percentage points
 
