@@ -15,11 +15,14 @@ def format_message(opp: dict, bet_id: str | None = None) -> str:
     bet_footer = f"\n\nPlaced it? Log it: /bet {bet_id} <stake>" if bet_id else ""
     commission = opp.get("commission", 0.0)
     commission_note = f"\n(edge is net of {commission * 100:.0f}% {opp['bookmaker_title']} commission)" if commission > 0 else ""
+    market_key = opp.get("market_key", "h2h")
+    market_line = f"Market: {market_key.capitalize()}\n" if market_key != "h2h" else ""
     return (
         f"🎯 +EV Bet Found ({opp['ev_pct']}% edge)\n"
         f"Sport: {opp['sport_key']}\n"
         f"Event: {matchup}\n"
         f"Start: {dt_syd.strftime('%a %d %b, %I:%M%p %Z')}\n"
+        f"{market_line}"
         f"Book: {opp['bookmaker_title']}\n"
         f"Pick: {opp['outcome']} @ {opp['price']}\n"
         f"Fair odds: ~{opp['fair_odds']} (retail consensus, {opp['num_books']} books)"
