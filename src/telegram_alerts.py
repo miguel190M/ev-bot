@@ -13,6 +13,8 @@ def format_message(opp: dict, bet_id: str | None = None) -> str:
     dt_syd = dt_utc.astimezone(SYDNEY)
     matchup = f"{opp['away_team']} @ {opp['home_team']}" if opp.get("away_team") else opp.get("home_team", "")
     bet_footer = f"\n\nPlaced it? Log it: /bet {bet_id} <stake>" if bet_id else ""
+    commission = opp.get("commission", 0.0)
+    commission_note = f"\n(edge is net of {commission * 100:.0f}% {opp['bookmaker_title']} commission)" if commission > 0 else ""
     return (
         f"🎯 +EV Bet Found ({opp['ev_pct']}% edge)\n"
         f"Sport: {opp['sport_key']}\n"
@@ -21,6 +23,7 @@ def format_message(opp: dict, bet_id: str | None = None) -> str:
         f"Book: {opp['bookmaker_title']}\n"
         f"Pick: {opp['outcome']} @ {opp['price']}\n"
         f"Fair odds: ~{opp['fair_odds']} (retail consensus, {opp['num_books']} books)"
+        f"{commission_note}"
         f"{bet_footer}"
     )
 
