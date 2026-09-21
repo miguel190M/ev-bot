@@ -1,1 +1,21 @@
-{}
+{
+  "c4e2": {
+    "event_id": "ff148419f7d5eb25e56152d03d978141",
+    "sport_key": "tennis_wta_singapore_open",
+    "commence_time": "2026-09-21T10:30:00Z",
+    "home_team": "Kyoka Okamura",
+    "away_team": "Leylah Fernandez",
+    "market_key": "h2h",
+    "bookmaker_title": "Betfair",
+    "outcome": "Kyoka Okamura",
+    "price": 21.0,
+    "commission": 0.06,
+    "ev_pct": 42.74,
+    "anchor": "retail_consensus",
+    "stake": 5.0,
+    "status": "lost",
+    "profit": -5.0,
+    "clv_pct": null,
+    "net_clv_pct": null
+  }
+}
