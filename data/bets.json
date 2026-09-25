@@ -51,7 +51,9 @@
     "ev_pct": 11.38,
     "anchor": "retail_consensus",
     "stake": 5.0,
-    "status": "open",
-    "profit": null
+    "status": "won",
+    "profit": 16.45,
+    "clv_pct": null,
+    "net_clv_pct": null
   }
 }
