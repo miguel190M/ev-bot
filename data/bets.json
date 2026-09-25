@@ -36,5 +36,22 @@
     "profit": -5.0,
     "clv_pct": null,
     "net_clv_pct": null
+  },
+  "ac38": {
+    "event_id": "019e16123376050b7a03b6e497b7bbcd",
+    "sport_key": "tennis_wta_singapore_open",
+    "commence_time": "2026-09-25T10:30:00Z",
+    "home_team": "Mirra Andreeva",
+    "away_team": "Leylah Fernandez",
+    "market_key": "h2h",
+    "bookmaker_title": "Betfair",
+    "outcome": "Leylah Fernandez",
+    "price": 4.5,
+    "commission": 0.06,
+    "ev_pct": 11.38,
+    "anchor": "retail_consensus",
+    "stake": 5.0,
+    "status": "open",
+    "profit": null
   }
 }
