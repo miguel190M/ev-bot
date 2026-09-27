@@ -13,10 +13,15 @@ Required env vars: ODDS_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
 Optional env vars: EV_THRESHOLD_SLOPE / EV_THRESHOLD_INTERCEPT (defaults
                     0.02 / -0.01, giving a scaling threshold rather than a
                     flat one), MIN_BOOKS (default 3),
-                    SCAN_WINDOW_HOURS (default 3), ODDS_REGION (default au)
+                    SCAN_WINDOW_HOURS (default 3, dense near-zone checking),
+                    FAR_WINDOW_HOURS / FAR_CHECK_INTERVAL_HOURS (default
+                    12 / 4, sparse outer-zone checking - see scheduling.py),
+                    ODDS_REGION (default au)
 """
 import sys
 from datetime import datetime, timedelta, timezone
+import json
+from pathlib import Path
 
 from src import (
     config, odds_fetcher, ev_calculator, state, telegram_alerts,
@@ -24,6 +29,23 @@ from src import (
 )
 
 RESOLUTION_BUFFER_HOURS = 4  # wait this long after commence_time before trying to resolve
+FAR_SCAN_STATE_FILE = "data/far_scan_state.json"
+
+
+def _load_far_scan_state() -> dict:
+    p = Path(FAR_SCAN_STATE_FILE)
+    if not p.exists():
+        return {}
+    try:
+        return json.loads(p.read_text())
+    except json.JSONDecodeError:
+        return {}
+
+
+def _save_far_scan_state(far_scan_state: dict):
+    p = Path(FAR_SCAN_STATE_FILE)
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(json.dumps(far_scan_state, indent=2, sort_keys=True))
 
 
 def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
@@ -46,6 +68,8 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
         if bet["status"] == "open":
             open_bets_by_event.setdefault(bet["event_id"], []).append(bet)
 
+    far_scan_state = _load_far_scan_state()
+
     for sport_key in sports_to_scan:
         try:
             events_meta = odds_fetcher.get_events(sport_key)  # free
@@ -53,9 +77,17 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
             print(f"  {sport_key}: events check failed ({e}), skipping")
             continue
 
-        if not scheduling.starting_soon(events_meta, config.SCAN_WINDOW_HOURS):
+        tier = scheduling.scan_tier(events_meta, config.SCAN_WINDOW_HOURS, config.FAR_WINDOW_HOURS)
+
+        if tier == "none":
             skipped.append(sport_key)
             continue
+
+        if tier == "far":
+            if not scheduling.is_far_check_due(far_scan_state.get(sport_key), config.FAR_CHECK_INTERVAL_HOURS):
+                skipped.append(f"{sport_key} (far zone, not due for another check yet)")
+                continue
+            far_scan_state[sport_key] = datetime.now(timezone.utc).isoformat()
 
         try:
             events, remaining, used = odds_fetcher.get_odds(sport_key)  # costs credits
@@ -66,10 +98,14 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
         total_credits_used += int(used or 0)
         odds_cache["events"][sport_key] = events  # daily digest reuses this for free
         odds_cache["remaining"] = remaining
-        near_term = scheduling.filter_starting_soon(events, config.SCAN_WINDOW_HOURS)
+        # Evaluate everything within the FULL window of interest, not just
+        # the near zone - a far-zone check that then discarded anything
+        # beyond SCAN_WINDOW_HOURS would pay for data and throw away the
+        # exact event that justified paying for it.
+        near_term = scheduling.filter_starting_soon(events, config.FAR_WINDOW_HOURS)
         regions_used = config.get_regions_for_sport(sport_key)
         markets_used = config.get_markets_for_sport(sport_key)
-        print(f"  {sport_key}: something starting within {config.SCAN_WINDOW_HOURS}h - "
+        print(f"  {sport_key}: {tier} zone - "
               f"pulled odds (region={regions_used}, markets={markets_used}, {len(events)} events returned, "
               f"{len(near_term)} within window, {used} credits used, {remaining} remaining)")
         for event in near_term:
@@ -81,15 +117,15 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
                     bet["closing_fair_odds"] = fair_odds
             all_opportunities.extend(ev_calculator.find_positive_ev(event))
 
+    _save_far_scan_state(far_scan_state)
+
     if seen_bookmakers:
-        import json
-        from pathlib import Path
         Path("data").mkdir(exist_ok=True)
         Path("data/seen_bookmakers.json").write_text(json.dumps(seen_bookmakers, indent=2, sort_keys=True))
         print(f"\nBookmaker keys seen this run: {seen_bookmakers}")
 
     if skipped:
-        print(f"\nSkipped (nothing starting within {config.SCAN_WINDOW_HOURS}h, no credits spent): {skipped}")
+        print(f"\nSkipped (no credits spent): {skipped}")
 
     print(f"\nFound {len(all_opportunities)} +EV opportunities (threshold scales with price - "
           f"e.g. {config.get_ev_threshold(2.0) * 100:.1f}% at odds of 2.0, "
