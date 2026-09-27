@@ -20,6 +20,8 @@ DEFAULT_MARKET = os.environ.get("ODDS_MARKET", "h2h")  # default market for most
 # scan instead of 2 - EPL only goes from 1 to 2.
 SPORT_MARKET_OVERRIDES = {
     "soccer_epl": "h2h,totals",
+    "soccer_spain_la_liga": "h2h,totals",
+    "soccer_italy_serie_a": "h2h,totals",
 }
 
 
@@ -82,7 +84,21 @@ MIN_EV_DELTA_TO_REALERT = float(os.environ.get("MIN_EV_DELTA_TO_REALERT", "1.0")
 # starting within this many hours. Checking *whether* something's coming up
 # uses the free /events endpoint, so this is what keeps credit usage low
 # between game days instead of burning quota on sports with nothing on.
+# This is the DENSE "near" window - checked every run, unchanged. See
+# FAR_WINDOW_HOURS below for the sparser outer tier.
 SCAN_WINDOW_HOURS = float(os.environ.get("SCAN_WINDOW_HOURS", "3"))
+
+# Widens effective coverage without linearly multiplying credit cost: a
+# sport with something between SCAN_WINDOW_HOURS and FAR_WINDOW_HOURS away
+# only gets checked once every FAR_CHECK_INTERVAL_HOURS, not every run.
+# Naively widening SCAN_WINDOW_HOURS to cover the same range would check
+# every run for the whole span (4x the cost here); this tiered approach
+# gets the same 12h of coverage for roughly 1.5x the cost of the 3h-only
+# version, since the far zone only needs occasional checks to catch a
+# mispriced line, not constant polling. See scheduling.scan_tier() and
+# data/far_scan_state.json (tracks last far-zone check per sport).
+FAR_WINDOW_HOURS = float(os.environ.get("FAR_WINDOW_HOURS", "12"))
+FAR_CHECK_INTERVAL_HOURS = float(os.environ.get("FAR_CHECK_INTERVAL_HOURS", "4"))
 
 # Skip the run entirely (no credits spent, no Telegram polling) while inside
 # this Sydney-local-time window - e.g. while you're asleep. Automatically
@@ -133,6 +149,8 @@ FIXED_SPORTS = [
     "aussierules_afl",
     "rugbyleague_nrl",
     "soccer_epl",
+    "soccer_spain_la_liga",
+    "soccer_italy_serie_a",
 ]
 
 STATE_FILE = os.environ.get("STATE_FILE", "data/state.json")
