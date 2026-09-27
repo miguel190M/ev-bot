@@ -129,3 +129,15 @@ source|edge|lead|market>` for one slice. Segments under 20 bets are flagged
 small. Read net CLV before ROI - it stabilises far sooner. Bets logged
 before this change count as `live` with lead time `unknown`.
 Offline test: `python test_breakdown.py`.
+
+## CLV capture and edge cap
+
+Open bets get a closing-line snapshot before kickoff: refreshed free from
+any odds the run already pulled, plus one dedicated pull for the sport when
+a bet starts within `CLV_CAPTURE_MINUTES` (default 45). This also runs in
+the sleep window, but only when an open bet needs it. Log bets with `/bet`
+before kickoff; a bet logged after the start can't get CLV.
+
+Edges above `MAX_EV_PCT` (default 20) are suppressed as likely stale or
+bad prices and logged in the run output instead of alerted.
+Offline test: `python test_clv.py`.

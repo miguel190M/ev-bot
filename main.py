@@ -20,7 +20,7 @@ from datetime import datetime, timedelta, timezone
 
 from src import (
     config, odds_fetcher, ev_calculator, state, telegram_alerts,
-    scheduling, bets, scores, telegram_commands, daily_digest, breakdown,
+    scheduling, bets, scores, telegram_commands, daily_digest, breakdown, clv,
 )
 
 RESOLUTION_BUFFER_HOURS = 4  # wait this long after commence_time before trying to resolve
@@ -250,7 +250,16 @@ def main():
     if scheduling.is_sleep_window(config.SLEEP_START_HOUR, config.SLEEP_END_HOUR):
         local_now = datetime.now(timezone.utc).astimezone(scheduling.SYDNEY)
         print(f"In sleep window ({config.SLEEP_START_HOUR}:00-{config.SLEEP_END_HOUR}:00 Sydney time, "
-              f"currently {local_now.strftime('%I:%M %p %Z')}) - skipping this run entirely, no credits spent.")
+              f"currently {local_now.strftime('%I:%M %p %Z')}) - no scanning or alerts.")
+        # Still take closing snapshots for bets kicking off overnight (e.g.
+        # EPL), otherwise those never get CLV. Costs nothing unless an open
+        # bet starts within CLV_CAPTURE_MINUTES.
+        if config.ODDS_API_KEY:
+            ledger = bets.load_bets()
+            cache = {"events": {}, "remaining": None, "credits_used": 0}
+            used = clv.capture_closing(ledger, cache)
+            bets.save_bets(ledger)
+            print(f"Credits used: {used}")
         return
 
     if not config.ODDS_API_KEY:
@@ -267,6 +276,9 @@ def main():
     # pruning runs - belt-and-braces alongside the grace period in
     # prune_candidates, so a same-run race can't cost a valid match either.
     process_commands(candidates, bet_ledger)
+
+    # After commands, so a bet logged this run gets a snapshot straight away.
+    clv.capture_closing(bet_ledger, odds_cache)
 
     now_iso = datetime.now(timezone.utc).isoformat()
     bets.prune_candidates(candidates, now_iso)
