@@ -169,6 +169,10 @@ def _find_positive_ev_for_market(event: dict, market_key: str) -> list[dict]:
                 continue
             effective_price = _effective_price(price, commission)
             ev = effective_price * fair_prob - 1
+            if ev * 100 > config.MAX_EV_PCT:
+                print(f"    suppressed {book_key} {outcome} @ {price}: {ev * 100:.1f}% edge exceeds "
+                      f"MAX_EV_PCT={config.MAX_EV_PCT:g} (likely stale/bad price)")
+                continue
             if ev >= config.get_ev_threshold(price):
                 opportunities.append(_make_opportunity(
                     event, market_key, book_key, book_titles[book_key], price, outcome, fair_prob,

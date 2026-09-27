@@ -60,6 +60,20 @@ EV_THRESHOLD_INTERCEPT = float(os.environ.get("EV_THRESHOLD_INTERCEPT", "-0.01")
 
 def get_ev_threshold(price: float) -> float:
     return EV_THRESHOLD_SLOPE * price + EV_THRESHOLD_INTERCEPT
+
+# Upper sanity cap on edge. Real, bettable edges against a multi-book
+# consensus are almost never this large - anything above it is far more
+# likely a stale price, a suspended market still showing old odds, or a
+# data error than genuine value, so it's suppressed rather than alerted.
+MAX_EV_PCT = float(os.environ.get("MAX_EV_PCT", "20"))
+
+# Closing-line capture for CLV: an open bet whose event starts within this
+# many minutes gets a dedicated odds pull (if its sport wasn't already
+# fetched this run) so a pre-kickoff fair price is always recorded. Must be
+# comfortably longer than the 30-min cron interval, since GitHub Actions
+# schedules can run 5-20 min late. Also runs inside the sleep window, but
+# only when an open bet actually needs it.
+CLV_CAPTURE_MINUTES = float(os.environ.get("CLV_CAPTURE_MINUTES", "45"))
 MIN_BOOKS = int(os.environ.get("MIN_BOOKS", "3"))              # min bookmakers needed for retail-consensus fallback
 MIN_EV_DELTA_TO_REALERT = float(os.environ.get("MIN_EV_DELTA_TO_REALERT", "1.0"))  # percentage points
 
