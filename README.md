@@ -107,3 +107,25 @@ credit-saving scheduling logic. Neither needs an API key or network -
 useful for checking any changes before they touch your real credit quota.
 
 ## Files
+
+## Daily digest
+
+Once a day (first run on/after `DAILY_DIGEST_HOUR`, default 9am Sydney) the
+bot sends one Telegram summary: +EV picks for events in the next
+`DAILY_SLATE_HOURS` (default 24, top `DAILY_SLATE_MAX` = 8 shown, each with
+a `/bet` id), bets settled in the last 24h, open exposure, all-time ROI/CLV
+and remaining Odds API credits. Sports already pulled by that run's live
+scan are reused free; others cost one normal odds call only if something
+starts inside the window. Early-day edges are on softer lines - treat the
+slate as a watchlist and let the near-kickoff live alert confirm.
+Offline test: `python test_daily_digest.py`.
+
+## /breakdown
+
+`/breakdown` replies with settled-bet W-L, ROI and average net CLV split by
+sport, book, source (live alert vs daily digest), edge at alert, how long
+before kickoff the price was flagged, and market. `/breakdown <sport|book|
+source|edge|lead|market>` for one slice. Segments under 20 bets are flagged
+small. Read net CLV before ROI - it stabilises far sooner. Bets logged
+before this change count as `live` with lead time `unknown`.
+Offline test: `python test_breakdown.py`.

@@ -20,13 +20,13 @@ from datetime import datetime, timedelta, timezone
 
 from src import (
     config, odds_fetcher, ev_calculator, state, telegram_alerts,
-    scheduling, bets, scores, telegram_commands,
+    scheduling, bets, scores, telegram_commands, daily_digest, breakdown,
 )
 
 RESOLUTION_BUFFER_HOURS = 4  # wait this long after commence_time before trying to resolve
 
 
-def run_scan(candidates: dict, bet_ledger: dict) -> int:
+def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
     """Existing EV scan + alerting. Registers each fresh alert as a bet
     candidate so it can be referenced by /bet later. Also captures a CLV
     (Closing Line Value) snapshot for any open bet whose event gets
@@ -64,6 +64,8 @@ def run_scan(candidates: dict, bet_ledger: dict) -> int:
             continue
 
         total_credits_used += int(used or 0)
+        odds_cache["events"][sport_key] = events  # daily digest reuses this for free
+        odds_cache["remaining"] = remaining
         near_term = scheduling.filter_starting_soon(events, config.SCAN_WINDOW_HOURS)
         regions_used = config.get_regions_for_sport(sport_key)
         markets_used = config.get_markets_for_sport(sport_key)
@@ -101,6 +103,7 @@ def run_scan(candidates: dict, bet_ledger: dict) -> int:
     print(f"{len(fresh)} are new or meaningfully changed - alerting on those")
     for opp in sorted(fresh, key=lambda o: -o["ev_pct"]):
         bet_id = bets.register_candidate(opp, candidates)
+        candidates[bet_id]["alerted_at"] = now_iso
         telegram_alerts.send_alert(opp, bet_id)
         print(f"  Alerted [{bet_id}]: {opp['bookmaker_title']} {opp['outcome']} @ {opp['price']} ({opp['ev_pct']}% EV)")
 
@@ -118,7 +121,7 @@ def _clv_line(s: dict) -> str:
 
 
 def process_commands(candidates: dict, bet_ledger: dict):
-    """Handle any /bet or /stats messages sent back since the last run."""
+    """Handle any /bet, /stats or /breakdown messages sent back since the last run."""
     try:
         messages = telegram_commands.get_new_messages()
     except Exception as e:
@@ -148,6 +151,9 @@ def process_commands(candidates: dict, bet_ledger: dict):
                 f"I'll let you know once it resolves."
             )
             print(f"    -> Logged bet {bet_id}: ${stake} on {bet['outcome']} @ {bet['price']}")
+        elif (dim := telegram_commands.parse_breakdown_command(text)):
+            telegram_commands.send_message(breakdown.build(bet_ledger, dim))
+            print(f"    -> Replied with breakdown ({dim})")
         elif telegram_commands.is_stats_command(text):
             s = bets.compute_stats(bet_ledger)
             telegram_commands.send_message(
@@ -198,6 +204,7 @@ def resolve_open_bets(bet_ledger: dict):
             if not final:
                 continue
             if bets.resolve_bet(bet, final):
+                bet["resolved_at"] = now.isoformat()
                 matchup = f"{bet.get('away_team')} @ {bet.get('home_team')}" if bet.get("away_team") else bet.get("home_team", "")
                 verdict = {"won": "✅ WON", "lost": "❌ LOST", "void": "➖ VOID"}[bet["status"]]
                 clv_line = ""
@@ -253,7 +260,8 @@ def main():
     candidates = bets.load_candidates()
     bet_ledger = bets.load_bets()
 
-    credits_used = run_scan(candidates, bet_ledger)
+    odds_cache = {"events": {}, "remaining": None, "credits_used": 0}
+    credits_used = run_scan(candidates, bet_ledger, odds_cache)
 
     # Give any /bet command first crack at matching a candidate before
     # pruning runs - belt-and-braces alongside the grace period in
@@ -266,9 +274,14 @@ def main():
 
     resolve_open_bets(bet_ledger)
     send_monthly_digest_if_due(bet_ledger)
+    try:
+        daily_digest.send_daily_digest_if_due(candidates, bet_ledger, odds_cache)
+    except Exception as e:
+        print(f"Daily digest failed (will retry next run): {e}")
+    bets.save_candidates(candidates)  # digest may have registered slate ids
     bets.save_bets(bet_ledger)
 
-    print(f"\nTotal credits used this run: {credits_used}")
+    print(f"\nTotal credits used this run: {credits_used + odds_cache['credits_used']}")
 
 
 if __name__ == "__main__":
