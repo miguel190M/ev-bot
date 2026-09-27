@@ -76,3 +76,39 @@ def is_daily_digest_due(last_sent_date: str, digest_hour: int, now: datetime | N
     local = now.astimezone(SYDNEY)
     today = local.strftime("%Y-%m-%d")
     return (local.hour >= digest_hour and today != last_sent_date), today
+
+
+def scan_tier(events: list[dict], near_hours: float, far_hours: float, now: datetime | None = None) -> str:
+    """Which tier this sport is due for a paid check under, based on the
+    closest upcoming event: 'near' (inside near_hours - check every run),
+    'far' (between near_hours and far_hours - check only occasionally, see
+    is_far_check_due), or 'none' (nothing due, free skip). 'near' wins if
+    events exist in both bands, since the near-zone game still needs its
+    usual every-run coverage regardless of what else is further out."""
+    now = now or datetime.now(timezone.utc)
+    has_near, has_far = False, False
+    for ev in events:
+        commence = datetime.fromisoformat(ev["commence_time"].replace("Z", "+00:00"))
+        delta_hours = (commence - now).total_seconds() / 3600
+        if 0 <= delta_hours <= near_hours:
+            has_near = True
+        elif near_hours < delta_hours <= far_hours:
+            has_far = True
+    if has_near:
+        return "near"
+    if has_far:
+        return "far"
+    return "none"
+
+
+def is_far_check_due(last_checked_iso: str | None, interval_hours: float, now: datetime | None = None) -> bool:
+    """True if this sport has never had a far-zone check, or its last one
+    was long enough ago to be due again. Paired with scan_tier() == 'far' -
+    this is what keeps the far zone to occasional checks instead of every
+    run, which is the entire point of the tiering."""
+    if not last_checked_iso:
+        return True
+    now = now or datetime.now(timezone.utc)
+    last_checked = datetime.fromisoformat(last_checked_iso)
+    elapsed_hours = (now - last_checked).total_seconds() / 3600
+    return elapsed_hours >= interval_hours
