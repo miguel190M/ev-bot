@@ -37,6 +37,7 @@ def get_markets_for_sport(sport_key: str) -> str:
 SPORT_REGION_OVERRIDES = {
     "basketball_nba": "au,us",
     "americanfootball_nfl": "au,us",
+    "baseball_mlb": "au,us",
 }
 
 
@@ -128,6 +129,7 @@ def get_commission_rate(book_key: str, sport_key: str) -> float:
 FIXED_SPORTS = [
     "basketball_nba",
     "americanfootball_nfl",
+    "baseball_mlb",
     "aussierules_afl",
     "rugbyleague_nrl",
     "soccer_epl",
