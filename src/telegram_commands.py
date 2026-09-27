@@ -71,3 +71,11 @@ def send_message(text: str):
     url = f"https://api.telegram.org/bot{config.TELEGRAM_BOT_TOKEN}/sendMessage"
     resp = requests.post(url, json={"chat_id": config.TELEGRAM_CHAT_ID, "text": text}, timeout=15)
     resp.raise_for_status()
+
+
+def parse_breakdown_command(text: str):
+    """'/breakdown' -> "all"; '/breakdown sport' -> "sport"; else None."""
+    parts = text.strip().lower().split()
+    if not parts or parts[0] != "/breakdown":
+        return None
+    return parts[1] if len(parts) > 1 else "all"

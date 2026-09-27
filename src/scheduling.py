@@ -66,3 +66,13 @@ def is_monthly_digest_due(last_sent_month: str, now: datetime | None = None) -> 
     current_month = local.strftime("%Y-%m")
     due = local.day == 1 and current_month != last_sent_month
     return due, current_month
+
+
+def is_daily_digest_due(last_sent_date: str, digest_hour: int, now: datetime | None = None) -> tuple[bool, str]:
+    """True (with today's 'YYYY-MM-DD' Sydney label) once the Sydney clock
+    has passed digest_hour and today's digest hasn't gone out yet. Any run
+    later in the day catches it if the on-the-hour run is missed."""
+    now = now or datetime.now(timezone.utc)
+    local = now.astimezone(SYDNEY)
+    today = local.strftime("%Y-%m-%d")
+    return (local.hour >= digest_hour and today != last_sent_date), today

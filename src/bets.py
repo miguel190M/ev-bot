@@ -14,7 +14,7 @@ Two files back this:
 
 import hashlib
 import json
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ALERTS_FILE = "data/alert_candidates.json"
@@ -96,6 +96,17 @@ def save_digest_state(state: dict):
     _save(DIGEST_STATE_FILE, state)
 
 
+def _lead_hours(opp: dict) -> float | None:
+    """Hours between the alert/digest flagging this pick and kickoff - i.e.
+    how early the price was taken. Placement time itself isn't known (only
+    when /bet was sent), so the flag time is the best proxy."""
+    if not opp.get("alerted_at"):
+        return None
+    start = datetime.fromisoformat(opp["commence_time"].replace("Z", "+00:00"))
+    flagged = datetime.fromisoformat(opp["alerted_at"])
+    return round((start - flagged).total_seconds() / 3600, 1)
+
+
 def place_bet(sid: str, stake: float, opp: dict, bets: dict) -> tuple[str, dict]:
     """Record a new bet against an alerted opportunity. Returns (bet_id, bet)."""
     bet_id = sid if sid not in bets else f"{sid}-{sum(1 for k in bets if k.startswith(sid))}"
@@ -115,6 +126,12 @@ def place_bet(sid: str, stake: float, opp: dict, bets: dict) -> tuple[str, dict]
         "stake": stake,
         "status": "open",
         "profit": None,
+        # Segment tags for /breakdown (see src/breakdown.py)
+        "source": opp.get("source", "live"),  # "live" alert or "daily_digest"
+        "bookmaker_key": opp.get("bookmaker_key"),
+        "alerted_at": opp.get("alerted_at"),
+        "lead_hours": _lead_hours(opp),
+        "logged_at": datetime.now(timezone.utc).isoformat(),
     }
     bets[bet_id] = bet
     return bet_id, bet

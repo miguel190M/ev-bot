@@ -76,6 +76,14 @@ SCAN_WINDOW_HOURS = float(os.environ.get("SCAN_WINDOW_HOURS", "3"))
 SLEEP_START_HOUR = int(os.environ.get("SLEEP_START_HOUR", "1"))   # inclusive
 SLEEP_END_HOUR = int(os.environ.get("SLEEP_END_HOUR", "7"))       # exclusive
 
+# Daily digest (see src/daily_digest.py): sent by the first run on or after
+# this Sydney hour. Keep it outside the sleep window. The slate covers
+# events starting in the next DAILY_SLATE_HOURS; only the top
+# DAILY_SLATE_MAX by edge are listed (Telegram caps messages at 4096 chars).
+DAILY_DIGEST_HOUR = int(os.environ.get("DAILY_DIGEST_HOUR", "9"))
+DAILY_SLATE_HOURS = float(os.environ.get("DAILY_SLATE_HOURS", "24"))
+DAILY_SLATE_MAX = int(os.environ.get("DAILY_SLATE_MAX", "8"))
+
 # Bookmakers you can actually place bets through. Every other bookmaker
 # returned by the API is used purely to build the fair-value consensus
 # these get checked against - and is excluded from that consensus itself,
