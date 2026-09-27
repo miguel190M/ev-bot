@@ -33,6 +33,8 @@ jobs:
           EV_THRESHOLD_INTERCEPT: "-0.01"
           MIN_BOOKS: "3"
           SCAN_WINDOW_HOURS: "3"
+          FAR_WINDOW_HOURS: "12"
+          FAR_CHECK_INTERVAL_HOURS: "4"
         run: python main.py
 
       - name: Commit updated state
