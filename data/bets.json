@@ -70,14 +70,17 @@
     "ev_pct": 7.54,
     "anchor": "retail_consensus",
     "stake": 5.0,
-    "status": "open",
-    "profit": null,
+    "status": "lost",
+    "profit": -5.0,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-10-01T04:41:52.450012+00:00",
     "lead_hours": 0.1,
     "logged_at": "2026-10-01T05:00:36.834190+00:00",
-    "closing_fair_odds": 3.857
+    "closing_fair_odds": 3.857,
+    "clv_pct": 6.3,
+    "net_clv_pct": 6.3,
+    "resolved_at": "2026-10-01T09:00:38.666956+00:00"
   },
   "e6e5": {
     "event_id": "150be9ac3e148ecdc824890bed898996",
@@ -93,12 +96,15 @@
     "ev_pct": 11.36,
     "anchor": "retail_consensus",
     "stake": 5.0,
-    "status": "open",
-    "profit": null,
+    "status": "lost",
+    "profit": -5.0,
     "source": "live",
     "bookmaker_key": "betfair_ex_au",
     "alerted_at": "2026-10-01T04:41:52.450012+00:00",
     "lead_hours": 0.3,
-    "logged_at": "2026-10-01T05:00:37.438662+00:00"
+    "logged_at": "2026-10-01T05:00:37.438662+00:00",
+    "clv_pct": null,
+    "net_clv_pct": null,
+    "resolved_at": "2026-10-01T09:00:38.666956+00:00"
   }
 }
