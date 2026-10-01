@@ -2,12 +2,13 @@ name: EV Scan
 
 on:
   schedule:
-    # Runs every 30 min, but most runs now cost ~0 credits: the bot checks
-    # the free /events endpoint first, and only spends a credit on sports
-    # that have something starting within SCAN_WINDOW_HOURS. See README for
-    # the cost math and how to tune this.
-    - cron: "*/30 * * * *"
+    # Backup only - cron-job.org triggers the real 30-min runs.
+    - cron: "23 */3 * * *"
   workflow_dispatch: {}
+
+concurrency:
+  group: ev-scan
+  cancel-in-progress: false
 
 permissions:
   contents: write
