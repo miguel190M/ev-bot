@@ -135,7 +135,7 @@
   "e899": {
     "event_id": "b3093f7932ea06973dff88f56a7b5505",
     "sport_key": "tennis_wta_china_open",
-    "commence_time": "2026-10-03T05:20:00Z",
+    "commence_time": "2026-10-03T06:00:00Z",
     "home_team": "Iva Jovi\u0107",
     "away_team": "Harriet Dart",
     "market_key": "h2h",
@@ -173,7 +173,7 @@
   "a626": {
     "event_id": "657bc17d8194a0c05f205cb6436f9051",
     "sport_key": "tennis_wta_china_open",
-    "commence_time": "2026-10-03T06:10:00Z",
+    "commence_time": "2026-10-03T06:30:00Z",
     "home_team": "Belinda Bencic",
     "away_team": "Anastasia Zakharova",
     "market_key": "h2h",
