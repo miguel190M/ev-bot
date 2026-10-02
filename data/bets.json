@@ -169,14 +169,17 @@
     "ev_pct": 8.79,
     "anchor": "retail_consensus",
     "stake": 5.0,
-    "status": "open",
-    "profit": null,
+    "status": "lost",
+    "profit": -5.0,
     "source": "live",
     "bookmaker_key": "betfair_ex_au",
     "alerted_at": "2026-10-02T00:00:44.234864+00:00",
     "lead_hours": 4.5,
     "logged_at": "2026-10-02T00:30:28.498529+00:00",
     "closing_fair_odds": 3.695,
-    "closing_captured_at": "2026-10-02T04:00:59.872264+00:00"
+    "closing_captured_at": "2026-10-02T04:00:59.872264+00:00",
+    "clv_pct": 19.08,
+    "net_clv_pct": 13.56,
+    "resolved_at": "2026-10-02T08:30:29.642737+00:00"
   }
 }
