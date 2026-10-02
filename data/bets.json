@@ -121,15 +121,18 @@
     "ev_pct": 12.58,
     "anchor": "retail_consensus",
     "stake": 5.0,
-    "status": "open",
-    "profit": null,
+    "status": "lost",
+    "profit": -5.0,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-10-01T21:00:42.973632+00:00",
     "lead_hours": 11.5,
     "logged_at": "2026-10-01T21:30:32.063582+00:00",
     "closing_fair_odds": 4.443,
-    "closing_captured_at": "2026-10-02T08:00:41.609528+00:00"
+    "closing_captured_at": "2026-10-02T08:00:41.609528+00:00",
+    "clv_pct": 0.16,
+    "net_clv_pct": 0.16,
+    "resolved_at": "2026-10-02T12:30:30.259253+00:00"
   },
   "3fac": {
     "event_id": "d66f1937da5272c6644a583eaa98d7ce",
