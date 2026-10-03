@@ -75,25 +75,6 @@
     "num_books": 9,
     "alerted_at": "2026-10-02T03:30:34.996845+00:00"
   },
-  "72268": {
-    "event_id": "c28011197ff658cb74359f160ce3a8c0",
-    "sport_key": "tennis_wta_china_open",
-    "commence_time": "2026-10-02T05:10:00Z",
-    "home_team": "Linda Noskova",
-    "away_team": "Elena Gabriela Ruse",
-    "market_key": "h2h",
-    "bookmaker_key": "betfair_ex_au",
-    "bookmaker_title": "Betfair",
-    "outcome": "Elena Gabriela Ruse",
-    "price": 4.4,
-    "commission": 0.06,
-    "fair_probability": 0.2706,
-    "fair_odds": 3.695,
-    "ev_pct": 13.55,
-    "anchor": "retail_consensus",
-    "num_books": 9,
-    "alerted_at": "2026-10-02T05:00:39.980289+00:00"
-  },
   "a296": {
     "event_id": "8958206624b4a33ec8d4b659f80725c8",
     "sport_key": "tennis_wta_china_open",
@@ -169,5 +150,24 @@
     "anchor": "retail_consensus",
     "num_books": 9,
     "alerted_at": "2026-10-02T21:00:43.263328+00:00"
+  },
+  "3d0d": {
+    "event_id": "84fefb7009232a1bafbed2450065664a",
+    "sport_key": "tennis_atp_china_open",
+    "commence_time": "2026-10-03T09:00:00Z",
+    "home_team": "Daniil Medvedev",
+    "away_team": "Jan-Lennard Struff",
+    "market_key": "h2h",
+    "bookmaker_key": "betfair_ex_au",
+    "bookmaker_title": "Betfair",
+    "outcome": "Jan-Lennard Struff",
+    "price": 6.4,
+    "commission": 0.06,
+    "fair_probability": 0.1883,
+    "fair_odds": 5.31,
+    "ev_pct": 14.42,
+    "anchor": "retail_consensus",
+    "num_books": 9,
+    "alerted_at": "2026-10-03T05:29:45.598326+00:00"
   }
 }
