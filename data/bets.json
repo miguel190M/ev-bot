@@ -256,15 +256,18 @@
     "ev_pct": 10.26,
     "anchor": "retail_consensus",
     "stake": 5.0,
-    "status": "open",
-    "profit": null,
+    "status": "lost",
+    "profit": -5.0,
     "source": "live",
     "bookmaker_key": "betfair_ex_au",
     "alerted_at": "2026-10-04T08:30:29.277682+00:00",
     "lead_hours": 4.0,
     "logged_at": "2026-10-04T09:30:28.214565+00:00",
     "closing_fair_odds": 3.953,
-    "closing_captured_at": "2026-10-04T12:00:36.741018+00:00"
+    "closing_captured_at": "2026-10-04T12:00:36.741018+00:00",
+    "clv_pct": 16.37,
+    "net_clv_pct": 10.9,
+    "resolved_at": "2026-10-04T20:00:35.984024+00:00"
   },
   "af6d": {
     "event_id": "8df898f639928a81d8b621732f0c3d95",
@@ -280,12 +283,15 @@
     "ev_pct": 7.4,
     "anchor": "retail_consensus",
     "stake": 5.0,
-    "status": "open",
-    "profit": null,
+    "status": "lost",
+    "profit": -5.0,
     "source": "live",
     "bookmaker_key": "betfair_ex_au",
     "alerted_at": "2026-10-04T09:30:27.325020+00:00",
     "lead_hours": 0.2,
-    "logged_at": "2026-10-04T10:30:30.536747+00:00"
+    "logged_at": "2026-10-04T10:30:30.536747+00:00",
+    "clv_pct": null,
+    "net_clv_pct": null,
+    "resolved_at": "2026-10-04T20:00:35.984024+00:00"
   }
 }
