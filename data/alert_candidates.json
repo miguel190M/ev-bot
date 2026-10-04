@@ -18,25 +18,6 @@
     "num_books": 9,
     "alerted_at": "2026-10-03T05:29:45.598326+00:00"
   },
-  "a6265": {
-    "event_id": "657bc17d8194a0c05f205cb6436f9051",
-    "sport_key": "tennis_wta_china_open",
-    "commence_time": "2026-10-03T07:30:00Z",
-    "home_team": "Belinda Bencic",
-    "away_team": "Anastasia Zakharova",
-    "market_key": "h2h",
-    "bookmaker_key": "sportsbet",
-    "bookmaker_title": "SportsBet",
-    "outcome": "Anastasia Zakharova",
-    "price": 4.9,
-    "commission": 0.0,
-    "fair_probability": 0.223,
-    "fair_odds": 4.484,
-    "ev_pct": 9.29,
-    "anchor": "retail_consensus",
-    "num_books": 9,
-    "alerted_at": "2026-10-03T07:00:37.114184+00:00"
-  },
   "3d0d4": {
     "event_id": "84fefb7009232a1bafbed2450065664a",
     "sport_key": "tennis_atp_china_open",
