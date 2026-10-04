@@ -170,5 +170,24 @@
     "anchor": "retail_consensus",
     "num_books": 7,
     "alerted_at": "2026-10-04T00:00:39.267141+00:00"
+  },
+  "3931": {
+    "event_id": "5dcb61ea08af6d8049acffbcb7735ce2",
+    "sport_key": "tennis_wta_china_open",
+    "commence_time": "2026-10-04T12:30:00Z",
+    "home_team": "Karolina Muchova",
+    "away_team": "Liudmila Samsonova",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Liudmila Samsonova",
+    "price": 4.2,
+    "commission": 0.0,
+    "fair_probability": 0.2596,
+    "fair_odds": 3.852,
+    "ev_pct": 9.05,
+    "anchor": "retail_consensus",
+    "num_books": 9,
+    "alerted_at": "2026-10-04T00:30:29.558472+00:00"
   }
 }
