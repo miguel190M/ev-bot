@@ -1,24 +1,4 @@
 {
-  "158b": {
-    "event_id": "7079fae92b1e1fbd3acdd13e50cd0e8a",
-    "sport_key": "tennis_wta_china_open",
-    "commence_time": "2026-10-04T06:30:00Z",
-    "home_team": "Linda Noskova",
-    "away_team": "Viktorija Golubic",
-    "market_key": "h2h",
-    "bookmaker_key": "betfair_ex_au",
-    "bookmaker_title": "Betfair",
-    "outcome": "Viktorija Golubic",
-    "price": 7.4,
-    "commission": 0.06,
-    "fair_probability": 0.1642,
-    "fair_odds": 6.088,
-    "ev_pct": 15.23,
-    "anchor": "retail_consensus",
-    "num_books": 9,
-    "source": "daily_digest",
-    "alerted_at": "2026-10-03T22:00:35.525969+00:00"
-  },
   "3931": {
     "event_id": "5dcb61ea08af6d8049acffbcb7735ce2",
     "sport_key": "tennis_wta_china_open",
@@ -38,25 +18,6 @@
     "num_books": 9,
     "alerted_at": "2026-10-04T00:30:29.558472+00:00"
   },
-  "158bb": {
-    "event_id": "7079fae92b1e1fbd3acdd13e50cd0e8a",
-    "sport_key": "tennis_wta_china_open",
-    "commence_time": "2026-10-04T06:10:00Z",
-    "home_team": "Linda Noskova",
-    "away_team": "Viktorija Golubic",
-    "market_key": "h2h",
-    "bookmaker_key": "betfair_ex_au",
-    "bookmaker_title": "Betfair",
-    "outcome": "Viktorija Golubic",
-    "price": 8.0,
-    "commission": 0.06,
-    "fair_probability": 0.1573,
-    "fair_odds": 6.357,
-    "ev_pct": 19.24,
-    "anchor": "retail_consensus",
-    "num_books": 9,
-    "alerted_at": "2026-10-04T04:00:34.279883+00:00"
-  },
   "651f": {
     "event_id": "2ef03d744d19f6f72feffe902dd58fb3",
     "sport_key": "tennis_atp_japan_open",
@@ -75,25 +36,6 @@
     "anchor": "retail_consensus",
     "num_books": 7,
     "alerted_at": "2026-10-04T05:30:32.576546+00:00"
-  },
-  "158bb9": {
-    "event_id": "7079fae92b1e1fbd3acdd13e50cd0e8a",
-    "sport_key": "tennis_wta_china_open",
-    "commence_time": "2026-10-04T06:10:00Z",
-    "home_team": "Linda Noskova",
-    "away_team": "Viktorija Golubic",
-    "market_key": "h2h",
-    "bookmaker_key": "betfair_ex_au",
-    "bookmaker_title": "Betfair",
-    "outcome": "Viktorija Golubic",
-    "price": 7.8,
-    "commission": 0.06,
-    "fair_probability": 0.1573,
-    "fair_odds": 6.357,
-    "ev_pct": 16.28,
-    "anchor": "retail_consensus",
-    "num_books": 9,
-    "alerted_at": "2026-10-04T06:00:36.964578+00:00"
   },
   "651fb": {
     "event_id": "2ef03d744d19f6f72feffe902dd58fb3",
