@@ -37,25 +37,6 @@
     "num_books": 9,
     "alerted_at": "2026-10-04T08:30:29.277682+00:00"
   },
-  "af6d": {
-    "event_id": "8df898f639928a81d8b621732f0c3d95",
-    "sport_key": "tennis_atp_japan_open",
-    "commence_time": "2026-10-04T09:40:00Z",
-    "home_team": "Jiri Lehecka",
-    "away_team": "Adolfo Daniel Vallejo",
-    "market_key": "h2h",
-    "bookmaker_key": "betfair_ex_au",
-    "bookmaker_title": "Betfair",
-    "outcome": "Adolfo Daniel Vallejo",
-    "price": 3.85,
-    "commission": 0.06,
-    "fair_probability": 0.2919,
-    "fair_odds": 3.425,
-    "ev_pct": 7.4,
-    "anchor": "retail_consensus",
-    "num_books": 7,
-    "alerted_at": "2026-10-04T09:30:27.325020+00:00"
-  },
   "7471b": {
     "event_id": "5dcb61ea08af6d8049acffbcb7735ce2",
     "sport_key": "tennis_wta_china_open",
