@@ -22,6 +22,7 @@ SPORT_MARKET_OVERRIDES = {
     "soccer_epl": "h2h,totals",
     "soccer_spain_la_liga": "h2h,totals",
     "soccer_italy_serie_a": "h2h,totals",
+    "soccer_uefa_champs_league": "h2h,totals",
 }
 
 
@@ -40,6 +41,7 @@ SPORT_REGION_OVERRIDES = {
     "basketball_nba": "au,us",
     "americanfootball_nfl": "au,us",
     "baseball_mlb": "au,us",
+    "icehockey_nhl": "au,us",
 }
 
 
@@ -151,7 +153,21 @@ FIXED_SPORTS = [
     "soccer_epl",
     "soccer_spain_la_liga",
     "soccer_italy_serie_a",
+    "icehockey_nhl",
+    "soccer_uefa_champs_league",
 ]
 
 STATE_FILE = os.environ.get("STATE_FILE", "data/state.json")
 ODDS_API_BASE = "https://api.the-odds-api.com/v4"
+
+# Credit-health alerts (see src/health.py). A failed paid /odds pull is
+# otherwise silent (it only prints to the Actions log), so the bot can sit
+# blind for days. Telegram warns when pulls fail, repeats at most every
+# HEALTH_REALERT_HOURS, and says when they recover. Low-credit warnings fire
+# once as the balance first falls below each level, and re-arm after the
+# balance climbs back above HEALTH_LOW_CREDIT_REARM (i.e. after a reset or
+# top-up).
+HEALTH_STATE_FILE = os.environ.get("HEALTH_STATE_FILE", "data/health_state.json")
+HEALTH_REALERT_HOURS = float(os.environ.get("HEALTH_REALERT_HOURS", "6"))
+HEALTH_LOW_CREDIT_LEVELS = [2000, 500]
+HEALTH_LOW_CREDIT_REARM = 5000
