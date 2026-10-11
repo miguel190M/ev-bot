@@ -26,6 +26,11 @@ SPORT_LABELS = {
     "aussierules_afl": "AFL",
     "rugbyleague_nrl": "NRL",
     "soccer_epl": "EPL",
+    "baseball_mlb": "MLB",
+    "soccer_spain_la_liga": "La Liga",
+    "soccer_italy_serie_a": "Serie A",
+    "icehockey_nhl": "NHL",
+    "soccer_uefa_champs_league": "UCL",
 }
 
 
