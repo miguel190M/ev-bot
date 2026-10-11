@@ -25,7 +25,7 @@ from pathlib import Path
 
 from src import (
     config, odds_fetcher, ev_calculator, state, telegram_alerts,
-    scheduling, bets, scores, telegram_commands, daily_digest, breakdown, clv,
+    scheduling, bets, scores, telegram_commands, daily_digest, breakdown, clv, health,
 )
 
 RESOLUTION_BUFFER_HOURS = 4  # wait this long after commence_time before trying to resolve
@@ -93,8 +93,10 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
             events, remaining, used = odds_fetcher.get_odds(sport_key)  # costs credits
         except Exception as e:
             print(f"  {sport_key}: odds fetch failed ({e}), skipping")
+            odds_cache.setdefault("failures", []).append((sport_key, e))
             continue
 
+        odds_cache["pulls_ok"] = odds_cache.get("pulls_ok", 0) + 1
         total_credits_used += int(used or 0)
         odds_cache["events"][sport_key] = events  # daily digest reuses this for free
         odds_cache["remaining"] = remaining
@@ -307,6 +309,13 @@ def main():
 
     odds_cache = {"events": {}, "remaining": None, "credits_used": 0}
     credits_used = run_scan(candidates, bet_ledger, odds_cache)
+
+    # Surface silent odds-pull failures (e.g. out of credits) and low credits.
+    try:
+        health.report(odds_cache.get("failures", []), odds_cache.get("pulls_ok", 0),
+                      odds_cache.get("remaining"))
+    except Exception as e:
+        print(f"Health check failed: {e}")
 
     # Give any /bet command first crack at matching a candidate before
     # pruning runs - belt-and-braces alongside the grace period in
