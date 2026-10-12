@@ -45,8 +45,30 @@ SPORT_REGION_OVERRIDES = {
 }
 
 
+# Sharp reference: Pinnacle (key "pinnacle") lives in The Odds API's "eu"
+# region, which costs +1 credit per market on top of whatever regions are
+# already pulled. Pinnacle runs a very low margin and moves on sharp money,
+# so its de-vigged line is a far better fair-value estimate than the median
+# of soft AU/US books (whose margins and favourite-longshot bias were
+# producing phantom edges on long shots). When Pinnacle quotes an outcome
+# its line is the fair price; otherwise the retail-consensus fallback is
+# used. Set USE_SHARP_REFERENCE=0 to stop pulling the eu region (saves
+# credits) and go back to consensus-only.
+USE_SHARP_REFERENCE = os.environ.get("USE_SHARP_REFERENCE", "1").strip() not in ("0", "false", "False", "")
+SHARP_REGION = "eu"
+SHARP_REFERENCE_BOOKS = [b.strip() for b in os.environ.get("SHARP_REFERENCE_BOOKS", "pinnacle").split(",") if b.strip()]
+
+# Exchanges returned by the eu region. Their back prices carry no bookmaker
+# margin (and betfair_ex_eu is the same exchange you bet on), so they must
+# never feed the reference consensus.
+REFERENCE_EXCLUDE_BOOKS = {"betfair_ex_eu", "betfair_ex_uk", "matchbook"}
+
+
 def get_regions_for_sport(sport_key: str) -> str:
-    return SPORT_REGION_OVERRIDES.get(sport_key, REGION)
+    regions = SPORT_REGION_OVERRIDES.get(sport_key, REGION)
+    if USE_SHARP_REFERENCE and SHARP_REGION not in regions.split(","):
+        regions = f"{regions},{SHARP_REGION}"
+    return regions
 
 # The minimum edge required to alert SCALES with the bettable book's price
 # rather than being one flat number. Rationale: the reference consensus is
@@ -171,3 +193,12 @@ HEALTH_STATE_FILE = os.environ.get("HEALTH_STATE_FILE", "data/health_state.json"
 HEALTH_REALERT_HOURS = float(os.environ.get("HEALTH_REALERT_HOURS", "6"))
 HEALTH_LOW_CREDIT_LEVELS = [2000, 500]
 HEALTH_LOW_CREDIT_REARM = 5000
+
+# How each reference book's margin is removed before building the consensus.
+# "shin" (default) and "power" take proportionally MORE margin off long shots
+# than favourites, correcting the favourite-longshot bias (shin is the standard
+# published method; power is the most aggressive). "multiplicative" is the old
+# behaviour (scale every outcome equally), which overstated long shots' true
+# probability and so flagged long-priced Betfair/Sportsbet lines as value far
+# too often. Set DEVIG_METHOD=multiplicative to revert.
+DEVIG_METHOD = os.environ.get("DEVIG_METHOD", "shin").strip().lower()
