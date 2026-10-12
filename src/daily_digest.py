@@ -112,7 +112,7 @@ def format_digest(slate: list[dict], ids: dict, candidates: dict, bet_ledger: di
             lines.append(
                 f"[{ids[id(o)]}] {o['outcome']} @ {o['price']} - {o['bookmaker_title']}\n"
                 f"   {_sport_label(o['sport_key'])}{mkt} · {_matchup(o)} · {start.strftime('%a %I:%M%p')}\n"
-                f"   +{o['ev_pct']}% edge (fair ~{o['fair_odds']}, {o['num_books']} books)"
+                f"   +{o['ev_pct']}% edge (fair ~{o['fair_odds']}, {ev_calculator.describe_anchor(o)})"
             )
         lines.append("Early lines - wait for a live alert near kickoff to confirm. Log: /bet <id> <stake>")
     else:
