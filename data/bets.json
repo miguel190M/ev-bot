@@ -317,5 +317,31 @@
     "lead_hours": 0.3,
     "logged_at": "2026-10-12T04:30:33.518724+00:00",
     "closing_fair_odds": 2.005
+  },
+  "aee4d": {
+    "event_id": "8483a75a7f587d46746552be094d5212",
+    "sport_key": "tennis_atp_shanghai_masters",
+    "commence_time": "2026-10-12T06:20:00Z",
+    "home_team": "Daniil Medvedev",
+    "away_team": "Dalibor Svrcina",
+    "market_key": "h2h",
+    "bookmaker_title": "Betfair",
+    "outcome": "Dalibor Svrcina",
+    "price": 7.6,
+    "commission": 0.06,
+    "ev_pct": 17.47,
+    "anchor": "retail_consensus",
+    "sharp_disagreement": false,
+    "stake": 2.5,
+    "status": "lost",
+    "profit": -2.5,
+    "source": "live",
+    "bookmaker_key": "betfair_ex_au",
+    "alerted_at": "2026-10-12T01:00:44.380035+00:00",
+    "lead_hours": 5.3,
+    "logged_at": "2026-10-12T11:00:44.631841+00:00",
+    "clv_pct": null,
+    "net_clv_pct": null,
+    "resolved_at": "2026-10-12T11:00:45.127849+00:00"
   }
 }
