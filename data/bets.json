@@ -315,6 +315,7 @@
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-10-12T04:00:43.393586+00:00",
     "lead_hours": 0.3,
-    "logged_at": "2026-10-12T04:30:33.518724+00:00"
+    "logged_at": "2026-10-12T04:30:33.518724+00:00",
+    "closing_fair_odds": 2.005
   }
 }
