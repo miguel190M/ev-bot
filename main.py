@@ -121,6 +121,11 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
 
     _save_far_scan_state(far_scan_state)
 
+    if (config.USE_SHARP_REFERENCE and seen_bookmakers
+            and not any(b in seen_bookmakers for b in config.SHARP_REFERENCE_BOOKS)):
+        print(f"WARNING: sharp reference book(s) {config.SHARP_REFERENCE_BOOKS} not present in any "
+              f"pulled event this run - falling back to retail consensus.")
+
     if seen_bookmakers:
         Path("data").mkdir(exist_ok=True)
         Path("data/seen_bookmakers.json").write_text(json.dumps(seen_bookmakers, indent=2, sort_keys=True))
