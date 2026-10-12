@@ -123,6 +123,7 @@ def place_bet(sid: str, stake: float, opp: dict, bets: dict) -> tuple[str, dict]
         "commission": opp.get("commission", 0.0),
         "ev_pct": opp["ev_pct"],
         "anchor": opp["anchor"],
+        "sharp_disagreement": opp.get("sharp_disagreement", False),
         "stake": stake,
         "status": "open",
         "profit": None,

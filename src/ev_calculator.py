@@ -146,11 +146,14 @@ def _reference_consensus(book_prices: dict) -> tuple[dict, int]:
     outcome across all of them. No leave-one-out needed here - none of
     these books are being individually evaluated, they're all just
     contributing to one shared consensus line that the bettable books get
-    checked against."""
+    checked against. The sharp book (Pinnacle) is deliberately left OUT of
+    this soft-book median so it can be used as an independent cross-check
+    against it (see _fair_probabilities)."""
     reference_devig = {
         k: devig_probabilities([{"name": n, "price": p} for n, p in v.items()])
         for k, v in book_prices.items()
         if k not in config.BETTABLE_BOOKS and k not in config.REFERENCE_EXCLUDE_BOOKS
+        and not (config.USE_SHARP_REFERENCE and k in config.SHARP_REFERENCE_BOOKS)
     }
     outcome_keys = set()
     for probs in reference_devig.values():
@@ -176,22 +179,32 @@ def _sharp_probabilities(book_prices: dict) -> tuple[str | None, dict]:
     return None, {}
 
 
-def _fair_probabilities(book_prices: dict) -> dict[str, tuple[float, str, int]]:
-    """outcome -> (fair probability, anchor label, number of reference books).
+def _fair_probabilities(book_prices: dict) -> dict[str, dict]:
+    """outcome -> {prob, ref_prob, anchor, n_books, disagree, sharp_prob, consensus_prob}.
+
     Base layer is the retail median consensus (needs MIN_BOOKS non-bettable
-    books). Where the sharp book quotes an outcome, its de-vigged line
-    OVERRIDES the consensus for that outcome - a single sharp book is
-    trusted over many soft ones, so MIN_BOOKS isn't required for it. An
-    outcome the sharp book doesn't quote (e.g. a different totals line) keeps
-    the consensus value if there is one."""
+    books). Where the sharp book quotes an outcome, its de-vigged line takes
+    over - a single sharp book is trusted over many soft ones, so MIN_BOOKS
+    isn't required for it. An outcome the sharp book doesn't quote (e.g. a
+    different totals line) keeps the consensus value if there is one.
+
+    Cross-check: if both a sharp line and a consensus exist for an outcome and
+    differ by more than config.SHARP_DISAGREE_PCT (relative), `disagree` is
+    set and `prob` (used for EV) is the LOWER of the two, so a bet only
+    alerts if it still has an edge under both. `ref_prob` is the un-adjusted
+    best reference (sharp if present, else consensus) - used for CLV."""
     fair = {}
     consensus, n_ref = _reference_consensus(book_prices)
     if n_ref >= config.MIN_BOOKS:
         for key, prob in consensus.items():
-            fair[key] = (prob, "retail_consensus", n_ref)
+            fair[key] = {"prob": prob, "ref_prob": prob, "anchor": "retail_consensus", "n_books": n_ref,
+                         "disagree": False, "sharp_prob": None, "consensus_prob": prob}
     sharp_key, sharp = _sharp_probabilities(book_prices)
-    for key, prob in sharp.items():
-        fair[key] = (prob, sharp_key, 1)
+    for key, sp in sharp.items():
+        cons = fair[key]["consensus_prob"] if key in fair else None
+        disagree = bool(cons) and abs(sp - cons) / cons * 100 > config.SHARP_DISAGREE_PCT
+        fair[key] = {"prob": min(sp, cons) if disagree else sp, "ref_prob": sp, "anchor": sharp_key,
+                     "n_books": 1, "disagree": disagree, "sharp_prob": sp, "consensus_prob": cons}
     return fair
 
 
@@ -200,7 +213,8 @@ def describe_anchor(opp: dict) -> str:
     anchor = opp.get("anchor", "retail_consensus")
     if anchor == "retail_consensus":
         return f"retail consensus, {opp.get('num_books', '?')} books"
-    return f"{anchor.title()} no-vig line"
+    label = f"{anchor.title()} no-vig line"
+    return label + " ⚠️ books disagree" if opp.get("sharp_disagreement") else label
 
 
 def _effective_price(price: float, commission: float) -> float:
@@ -212,7 +226,7 @@ def _effective_price(price: float, commission: float) -> float:
 
 
 def _make_opportunity(event, market_key, book_key, book_title, price, outcome, fair_prob, num_books, commission, ev,
-                      anchor="retail_consensus"):
+                      anchor="retail_consensus", sharp_prob=None, consensus_prob=None, disagree=False):
     return {
         "event_id": event["id"],
         "sport_key": event["sport_key"],
@@ -230,6 +244,11 @@ def _make_opportunity(event, market_key, book_key, book_title, price, outcome, f
         "ev_pct": round(ev * 100, 2),  # already commission-adjusted
         "anchor": anchor,  # "retail_consensus" or the sharp book key (e.g. "pinnacle")
         "num_books": num_books,
+        # Cross-check (see _fair_probabilities): fair_probability above is the
+        # one used for EV - the lower of the two when they disagree.
+        "sharp_disagreement": disagree,
+        "sharp_probability": round(sharp_prob, 4) if sharp_prob else None,
+        "consensus_probability": round(consensus_prob, 4) if consensus_prob else None,
     }
 
 
@@ -243,9 +262,9 @@ def get_reference_fair_odds(event: dict, outcome: str, market_key: str = "h2h") 
     outcome isn't quoted."""
     book_prices, _ = _extract_book_prices(event, market_key)
     entry = _fair_probabilities(book_prices).get(outcome)
-    if not entry or not entry[0]:
+    if not entry or not entry["ref_prob"]:
         return None
-    return round(1 / entry[0], 3)
+    return round(1 / entry["ref_prob"], 3)
 
 
 def _find_positive_ev_for_market(event: dict, market_key: str) -> list[dict]:
@@ -267,7 +286,7 @@ def _find_positive_ev_for_market(event: dict, market_key: str) -> list[dict]:
             entry = fair.get(outcome)
             if not entry or not price:
                 continue
-            fair_prob, anchor, num_ref = entry
+            fair_prob = entry["prob"]
             effective_price = _effective_price(price, commission)
             ev = effective_price * fair_prob - 1
             if ev * 100 > config.MAX_EV_PCT:
@@ -277,7 +296,9 @@ def _find_positive_ev_for_market(event: dict, market_key: str) -> list[dict]:
             if ev >= config.get_ev_threshold(price):
                 opportunities.append(_make_opportunity(
                     event, market_key, book_key, book_titles[book_key], price, outcome, fair_prob,
-                    num_ref, commission, ev, anchor=anchor,
+                    entry["n_books"], commission, ev, anchor=entry["anchor"],
+                    sharp_prob=entry["sharp_prob"], consensus_prob=entry["consensus_prob"],
+                    disagree=entry["disagree"],
                 ))
     return opportunities
 

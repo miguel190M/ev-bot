@@ -17,6 +17,10 @@ def format_message(opp: dict, bet_id: str | None = None) -> str:
     commission_note = f"\n(edge is net of {commission * 100:.0f}% {opp['bookmaker_title']} commission)" if commission > 0 else ""
     market_key = opp.get("market_key", "h2h")
     market_line = f"Market: {market_key.capitalize()}\n" if market_key != "h2h" else ""
+    disagree_note = ""
+    if opp.get("sharp_disagreement") and opp.get("sharp_probability") and opp.get("consensus_probability"):
+        disagree_note = (f"\n⚠️ Low confidence: Pinnacle fair ~{1 / opp['sharp_probability']:.2f} vs soft-book "
+                         f"median ~{1 / opp['consensus_probability']:.2f} (edge uses the lower probability)")
     return (
         f"🎯 +EV Bet Found ({opp['ev_pct']}% edge)\n"
         f"Sport: {opp['sport_key']}\n"
@@ -26,6 +30,7 @@ def format_message(opp: dict, bet_id: str | None = None) -> str:
         f"Book: {opp['bookmaker_title']}\n"
         f"Pick: {opp['outcome']} @ {opp['price']}\n"
         f"Fair odds: ~{opp['fair_odds']} ({ev_calculator.describe_anchor(opp)})"
+        f"{disagree_note}"
         f"{commission_note}"
         f"{bet_footer}"
     )

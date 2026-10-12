@@ -58,6 +58,14 @@ USE_SHARP_REFERENCE = os.environ.get("USE_SHARP_REFERENCE", "1").strip() not in 
 SHARP_REGION = "eu"
 SHARP_REFERENCE_BOOKS = [b.strip() for b in os.environ.get("SHARP_REFERENCE_BOOKS", "pinnacle").split(",") if b.strip()]
 
+# Cross-check: when the sharp book AND the soft-book median (>= MIN_BOOKS
+# books) both price an outcome, and their fair probabilities differ by more
+# than this many percent (relative), the two disagree - one is probably stale,
+# or something real is going on. The bet is still evaluated, but against the
+# LOWER of the two probabilities (the edge has to survive both), and the alert
+# is flagged low-confidence with both numbers shown.
+SHARP_DISAGREE_PCT = float(os.environ.get("SHARP_DISAGREE_PCT", "15"))
+
 # Exchanges returned by the eu region. Their back prices carry no bookmaker
 # margin (and betfair_ex_eu is the same exchange you bet on), so they must
 # never feed the reference consensus.
