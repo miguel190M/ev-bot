@@ -3,7 +3,7 @@ from zoneinfo import ZoneInfo
 
 import requests
 
-from . import config
+from . import config, ev_calculator
 
 SYDNEY = ZoneInfo("Australia/Sydney")
 
@@ -25,7 +25,7 @@ def format_message(opp: dict, bet_id: str | None = None) -> str:
         f"{market_line}"
         f"Book: {opp['bookmaker_title']}\n"
         f"Pick: {opp['outcome']} @ {opp['price']}\n"
-        f"Fair odds: ~{opp['fair_odds']} (retail consensus, {opp['num_books']} books)"
+        f"Fair odds: ~{opp['fair_odds']} ({ev_calculator.describe_anchor(opp)})"
         f"{commission_note}"
         f"{bet_footer}"
     )
