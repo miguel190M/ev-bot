@@ -31,7 +31,9 @@ see and click), so the two are reported side by side rather than one
 silently overwriting the other.
 
 EV% = (commission-adjusted payout on a bettable book's price x
-       reference-consensus fair probability) - 1
+       fair probability) - 1
+where the fair probability is the sharp book's (Pinnacle) de-vigged line when
+it quotes the outcome, else the retail median consensus - see _fair_probabilities.
 """
 
 import statistics
@@ -39,15 +41,75 @@ import statistics
 from . import config
 
 
+def _power_devig(implied: dict[str, float]) -> dict[str, float]:
+    """Power-method de-vig: find the exponent c > 1 such that sum(q_i ** c) == 1
+    and return q_i ** c. Unlike simple proportional scaling, this takes MORE
+    margin off long shots than favourites - which is where bookmakers
+    actually hide it (the favourite-longshot bias). Proportional scaling
+    leaves long shots' fair probability too high, so their fair odds look too
+    short and a low-margin price (e.g. Betfair) on a long shot looks like
+    value when it isn't. Falls back to proportional scaling if there is no
+    overround to remove or any implied probability is >= 1 (degenerate)."""
+    total = sum(implied.values())
+    if total <= 1.0 or any(q >= 1.0 for q in implied.values()):
+        return {k: q / total for k, q in implied.items()}
+    lo, hi = 1.0, 20.0  # sum(q**c) is strictly decreasing in c; root lies inside
+    for _ in range(100):
+        mid = (lo + hi) / 2
+        if sum(q ** mid for q in implied.values()) > 1.0:
+            lo = mid
+        else:
+            hi = mid
+    c = (lo + hi) / 2
+    probs = {k: q ** c for k, q in implied.items()}
+    norm = sum(probs.values())  # ~1.0; guards residual bisection error
+    return {k: p / norm for k, p in probs.items()}
+
+
+def _shin_devig(implied: dict[str, float]) -> dict[str, float]:
+    """Shin's method: models the overround as protection against a fraction z
+    of insider money and solves for z so the fair probabilities sum to 1:
+        p_i = (sqrt(z^2 + 4(1-z) q_i^2 / sum(q)) - z) / (2(1-z))
+    Like the power method it takes more margin off long shots than favourites
+    (the favourite-longshot bias), but it is the standard published method
+    and less aggressive than power on very lopsided markets. Falls back to
+    proportional scaling when there is no overround to remove or any implied
+    probability is >= 1."""
+    total = sum(implied.values())
+    if total <= 1.0 or any(q >= 1.0 for q in implied.values()):
+        return {k: q / total for k, q in implied.items()}
+
+    def probs(z: float) -> dict[str, float]:
+        return {k: (((z * z + 4 * (1 - z) * q * q / total) ** 0.5) - z) / (2 * (1 - z))
+                for k, q in implied.items()}
+
+    lo, hi = 0.0, 0.5   # sum(probs(z)) falls as z rises; root lies inside
+    for _ in range(100):
+        mid = (lo + hi) / 2
+        if sum(probs(mid).values()) > 1.0:
+            lo = mid
+        else:
+            hi = mid
+    out = probs((lo + hi) / 2)
+    norm = sum(out.values())
+    return {k: p / norm for k, p in out.items()}
+
+
 def devig_probabilities(outcomes: list[dict]) -> dict[str, float]:
     """Given one bookmaker's outcomes [{name, price, point?}, ...], return
     de-vigged (margin-free) probabilities keyed by outcome identity (see
-    _outcome_key)."""
+    _outcome_key). Method set by config.DEVIG_METHOD: "shin" (default),
+    "power" (most aggressive on long shots) or "multiplicative" (legacy,
+    scales every outcome equally - overstates long shots)."""
     implied = {_outcome_key(o): 1.0 / o["price"] for o in outcomes if o.get("price")}
     total = sum(implied.values())
     if total <= 0:
         return {}
-    return {key: p / total for key, p in implied.items()}
+    if config.DEVIG_METHOD == "multiplicative":
+        return {key: p / total for key, p in implied.items()}
+    if config.DEVIG_METHOD == "power":
+        return _power_devig(implied)
+    return _shin_devig(implied)
 
 
 def _outcome_key(outcome: dict) -> str:
@@ -87,7 +149,8 @@ def _reference_consensus(book_prices: dict) -> tuple[dict, int]:
     checked against."""
     reference_devig = {
         k: devig_probabilities([{"name": n, "price": p} for n, p in v.items()])
-        for k, v in book_prices.items() if k not in config.BETTABLE_BOOKS
+        for k, v in book_prices.items()
+        if k not in config.BETTABLE_BOOKS and k not in config.REFERENCE_EXCLUDE_BOOKS
     }
     outcome_keys = set()
     for probs in reference_devig.values():
@@ -101,6 +164,45 @@ def _reference_consensus(book_prices: dict) -> tuple[dict, int]:
     return consensus, len(reference_devig)
 
 
+def _sharp_probabilities(book_prices: dict) -> tuple[str | None, dict]:
+    """De-vigged probabilities from the first available sharp reference book
+    (config.SHARP_REFERENCE_BOOKS, i.e. Pinnacle), or (None, {})."""
+    if not config.USE_SHARP_REFERENCE:
+        return None, {}
+    for book_key in config.SHARP_REFERENCE_BOOKS:
+        prices = book_prices.get(book_key)
+        if prices and len(prices) >= 2:
+            return book_key, devig_probabilities([{"name": n, "price": p} for n, p in prices.items()])
+    return None, {}
+
+
+def _fair_probabilities(book_prices: dict) -> dict[str, tuple[float, str, int]]:
+    """outcome -> (fair probability, anchor label, number of reference books).
+    Base layer is the retail median consensus (needs MIN_BOOKS non-bettable
+    books). Where the sharp book quotes an outcome, its de-vigged line
+    OVERRIDES the consensus for that outcome - a single sharp book is
+    trusted over many soft ones, so MIN_BOOKS isn't required for it. An
+    outcome the sharp book doesn't quote (e.g. a different totals line) keeps
+    the consensus value if there is one."""
+    fair = {}
+    consensus, n_ref = _reference_consensus(book_prices)
+    if n_ref >= config.MIN_BOOKS:
+        for key, prob in consensus.items():
+            fair[key] = (prob, "retail_consensus", n_ref)
+    sharp_key, sharp = _sharp_probabilities(book_prices)
+    for key, prob in sharp.items():
+        fair[key] = (prob, sharp_key, 1)
+    return fair
+
+
+def describe_anchor(opp: dict) -> str:
+    """Human label for where an opportunity's fair price came from."""
+    anchor = opp.get("anchor", "retail_consensus")
+    if anchor == "retail_consensus":
+        return f"retail consensus, {opp.get('num_books', '?')} books"
+    return f"{anchor.title()} no-vig line"
+
+
 def _effective_price(price: float, commission: float) -> float:
     """Decimal price after commission on net winnings. Only the profit
     portion is taxed - your stake back is untouched - so it's 1 (stake
@@ -109,7 +211,8 @@ def _effective_price(price: float, commission: float) -> float:
     return 1 + (price - 1) * (1 - commission)
 
 
-def _make_opportunity(event, market_key, book_key, book_title, price, outcome, fair_prob, num_books, commission, ev):
+def _make_opportunity(event, market_key, book_key, book_title, price, outcome, fair_prob, num_books, commission, ev,
+                      anchor="retail_consensus"):
     return {
         "event_id": event["id"],
         "sport_key": event["sport_key"],
@@ -125,7 +228,7 @@ def _make_opportunity(event, market_key, book_key, book_title, price, outcome, f
         "fair_probability": round(fair_prob, 4),
         "fair_odds": round(1 / fair_prob, 3),
         "ev_pct": round(ev * 100, 2),  # already commission-adjusted
-        "anchor": "retail_consensus",
+        "anchor": anchor,  # "retail_consensus" or the sharp book key (e.g. "pinnacle")
         "num_books": num_books,
     }
 
@@ -139,13 +242,10 @@ def get_reference_fair_odds(event: dict, outcome: str, market_key: str = "h2h") 
     there aren't enough reference books to trust the consensus, or the
     outcome isn't quoted."""
     book_prices, _ = _extract_book_prices(event, market_key)
-    fair_probs, num_reference_books = _reference_consensus(book_prices)
-    if num_reference_books < config.MIN_BOOKS:
+    entry = _fair_probabilities(book_prices).get(outcome)
+    if not entry or not entry[0]:
         return None
-    fair_prob = fair_probs.get(outcome)
-    if not fair_prob:
-        return None
-    return round(1 / fair_prob, 3)
+    return round(1 / entry[0], 3)
 
 
 def _find_positive_ev_for_market(event: dict, market_key: str) -> list[dict]:
@@ -157,22 +257,27 @@ def _find_positive_ev_for_market(event: dict, market_key: str) -> list[dict]:
     if not bettable_present:
         return opportunities  # none of your bettable books are quoting this market
 
-    fair_probs, num_reference_books = _reference_consensus(book_prices)
-    if num_reference_books < config.MIN_BOOKS:
-        return opportunities  # not enough reference books to trust the consensus
+    fair = _fair_probabilities(book_prices)
+    if not fair:
+        return opportunities  # no sharp line and not enough reference books to trust a consensus
 
     for book_key, prices in bettable_present.items():
         commission = config.get_commission_rate(book_key, event["sport_key"])
         for outcome, price in prices.items():
-            fair_prob = fair_probs.get(outcome)
-            if not fair_prob or not price:
+            entry = fair.get(outcome)
+            if not entry or not price:
                 continue
+            fair_prob, anchor, num_ref = entry
             effective_price = _effective_price(price, commission)
             ev = effective_price * fair_prob - 1
+            if ev * 100 > config.MAX_EV_PCT:
+                print(f"    suppressed {book_key} {outcome} @ {price}: {ev * 100:.1f}% edge exceeds "
+                      f"MAX_EV_PCT={config.MAX_EV_PCT:g} (likely stale/bad price)")
+                continue
             if ev >= config.get_ev_threshold(price):
                 opportunities.append(_make_opportunity(
                     event, market_key, book_key, book_titles[book_key], price, outcome, fair_prob,
-                    num_reference_books, commission, ev,
+                    num_ref, commission, ev, anchor=anchor,
                 ))
     return opportunities
 
