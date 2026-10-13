@@ -309,14 +309,17 @@
     "anchor": "pinnacle",
     "sharp_disagreement": false,
     "stake": 5.0,
-    "status": "open",
-    "profit": null,
+    "status": "lost",
+    "profit": -5.0,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-10-12T04:00:43.393586+00:00",
     "lead_hours": 0.3,
     "logged_at": "2026-10-12T04:30:33.518724+00:00",
-    "closing_fair_odds": 2.005
+    "closing_fair_odds": 2.005,
+    "clv_pct": 2.24,
+    "net_clv_pct": 2.24,
+    "resolved_at": "2026-10-13T08:00:43.501040+00:00"
   },
   "aee4d": {
     "event_id": "8483a75a7f587d46746552be094d5212",
