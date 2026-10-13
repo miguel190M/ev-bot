@@ -55,24 +55,5 @@
     "anchor": "retail_consensus",
     "num_books": 9,
     "alerted_at": "2026-10-12T02:00:41.254630+00:00"
-  },
-  "0f18": {
-    "event_id": "98ea45eda61eb70b66f100e1b462e97b",
-    "sport_key": "tennis_wta_wuhan_open",
-    "commence_time": "2026-10-12T04:20:00Z",
-    "home_team": "Anna Bond\u00e1r",
-    "away_team": "Mia Poh\u00e1nkov\u00e1",
-    "market_key": "h2h",
-    "bookmaker_key": "sportsbet",
-    "bookmaker_title": "SportsBet",
-    "outcome": "Anna Bond\u00e1r",
-    "price": 2.05,
-    "commission": 0.0,
-    "fair_probability": 0.516,
-    "fair_odds": 1.938,
-    "ev_pct": 5.77,
-    "anchor": "pinnacle",
-    "num_books": 1,
-    "alerted_at": "2026-10-12T04:00:43.393586+00:00"
   }
 }
