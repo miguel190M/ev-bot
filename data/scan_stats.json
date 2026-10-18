@@ -106,5 +106,23 @@
    "sport_key": "americanfootball_nfl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-18T20:00:43.902739+00:00",
+  "markets": 11,
+  "markets_sharp": 10,
+  "outcomes": 43,
+  "capped": 0,
+  "best": {
+   "gap": -3.06,
+   "ev_pct": -0.06,
+   "threshold_pct": 3.0,
+   "price": 1.27,
+   "outcome": "Kansas City Chiefs",
+   "book": "Betfair",
+   "matchup": "Los Angeles Chargers @ Kansas City Chiefs",
+   "sport_key": "americanfootball_nfl",
+   "anchor": "pinnacle"
+  }
  }
 ]
