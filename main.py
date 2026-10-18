@@ -54,7 +54,7 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
     (Closing Line Value) snapshot for any open bet whose event gets
     re-scanned here as kickoff approaches - the last one captured before
     the event starts becomes the closing-line proxy. Returns credits used."""
-    print("Fetching active sports (including in-season tennis tournaments)...")
+    print("Fetching active sports (including in-season tennis and cricket competitions)...")
     sports_to_scan = odds_fetcher.get_sports_to_scan()
     print(f"Considering {len(sports_to_scan)} sport keys: {sports_to_scan}\n")
 
@@ -227,6 +227,10 @@ def resolve_open_bets(bet_ledger: dict):
         if bet["status"] != "open":
             continue
         commence = datetime.fromisoformat(bet["commence_time"].replace("Z", "+00:00"))
+        if bet["sport_key"].startswith(config.NO_AUTO_SCORE_PREFIXES):
+            continue  # can't be auto-resolved; don't burn credits retrying
+        if now - commence > timedelta(days=4):
+            continue  # scores endpoint only goes back 3 days; nothing left to fetch
         if commence <= cutoff:
             eligible_sports.add(bet["sport_key"])
 
