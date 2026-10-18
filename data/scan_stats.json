@@ -142,5 +142,23 @@
    "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-18T20:54:54.552907+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 12,
+  "capped": 0,
+  "best": {
+   "gap": -4.329,
+   "ev_pct": -1.33,
+   "threshold_pct": 3.0,
+   "price": 1.5,
+   "outcome": "Carolina Hurricanes",
+   "book": "Betfair",
+   "matchup": "Carolina Hurricanes @ Calgary Flames",
+   "sport_key": "icehockey_nhl",
+   "anchor": "pinnacle"
+  }
  }
 ]
