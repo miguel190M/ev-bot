@@ -23,6 +23,8 @@ SPORT_MARKET_OVERRIDES = {
     "soccer_spain_la_liga": "h2h,totals",
     "soccer_italy_serie_a": "h2h,totals",
     "soccer_uefa_champs_league": "h2h,totals",
+    "soccer_germany_bundesliga": "h2h,totals",
+    "soccer_australia_aleague": "h2h,totals",
 }
 
 
@@ -185,7 +187,22 @@ FIXED_SPORTS = [
     "soccer_italy_serie_a",
     "icehockey_nhl",
     "soccer_uefa_champs_league",
+    "soccer_germany_bundesliga",
+    "soccer_australia_aleague",
+    "mma_mixed_martial_arts",
+    "boxing_boxing",
 ]
+
+# Sport groups (as listed by The Odds API /sports) whose in-season competitions
+# are discovered each run instead of hard-coded: tennis (one key per
+# tournament) and cricket (one key per competition: tests, ODIs, T20s, BBL...).
+DISCOVERED_GROUPS = ("Tennis", "Cricket")
+
+# Sports whose results can't be read automatically from the Odds API scores
+# endpoint (no scores for combat sports; cricket scores are "250/6", not a
+# plain number). Bets on these stay "open" until settled by hand, and the bot
+# must not keep paying 2 credits per run to re-fetch scores that can't resolve.
+NO_AUTO_SCORE_PREFIXES = ("mma_", "boxing_", "cricket_")
 
 STATE_FILE = os.environ.get("STATE_FILE", "data/state.json")
 ODDS_API_BASE = "https://api.the-odds-api.com/v4"

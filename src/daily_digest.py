@@ -31,12 +31,18 @@ SPORT_LABELS = {
     "soccer_italy_serie_a": "Serie A",
     "icehockey_nhl": "NHL",
     "soccer_uefa_champs_league": "UCL",
+    "mma_mixed_martial_arts": "MMA",
+    "boxing_boxing": "Boxing",
+    "soccer_germany_bundesliga": "Bundesliga",
+    "soccer_australia_aleague": "A-League",
 }
 
 
 def _sport_label(sport_key: str) -> str:
     if sport_key.startswith("tennis_"):
         return "Tennis " + sport_key.split("_", 2)[-1].replace("_", " ").title()
+    if sport_key.startswith("cricket_"):
+        return "Cricket " + sport_key.split("_", 1)[-1].replace("_", " ").title()
     return SPORT_LABELS.get(sport_key, sport_key)
 
 

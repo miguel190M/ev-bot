@@ -19,8 +19,20 @@ def get_tennis_sport_keys() -> list[str]:
     return [s["key"] for s in sports if s.get("group") == "Tennis" and s.get("active")]
 
 
+def get_discovered_sport_keys() -> list[str]:
+    """Active competitions in config.DISCOVERED_GROUPS (tennis tournaments,
+    cricket competitions), each its own sport key."""
+    sports = get_active_sports()
+    return [s["key"] for s in sports
+            if s.get("group") in config.DISCOVERED_GROUPS and s.get("active")]
+
+
 def get_sports_to_scan() -> list[str]:
-    return config.FIXED_SPORTS + get_tennis_sport_keys()
+    keys = list(config.FIXED_SPORTS)
+    for k in get_discovered_sport_keys():
+        if k not in keys:
+            keys.append(k)
+    return keys
 
 
 def get_events(sport_key: str) -> list[dict]:
