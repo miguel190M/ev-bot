@@ -25,7 +25,7 @@ from pathlib import Path
 
 from src import (
     config, odds_fetcher, ev_calculator, state, telegram_alerts,
-    scheduling, bets, scores, telegram_commands, daily_digest, breakdown, clv, health,
+    scheduling, bets, scores, telegram_commands, daily_digest, breakdown, clv, health, scan_stats,
 )
 
 RESOLUTION_BUFFER_HOURS = 4  # wait this long after commence_time before trying to resolve
@@ -69,6 +69,7 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
             open_bets_by_event.setdefault(bet["event_id"], []).append(bet)
 
     far_scan_state = _load_far_scan_state()
+    run_stats = scan_stats.new_stats()
 
     for sport_key in sports_to_scan:
         try:
@@ -117,9 +118,13 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
                 fair_odds = ev_calculator.get_reference_fair_odds(event, bet["outcome"], bet.get("market_key", "h2h"))
                 if fair_odds:
                     bet["closing_fair_odds"] = fair_odds
-            all_opportunities.extend(ev_calculator.find_positive_ev(event))
+            all_opportunities.extend(ev_calculator.find_positive_ev(event, run_stats))
 
     _save_far_scan_state(far_scan_state)
+    try:
+        scan_stats.record_run(run_stats)
+    except Exception as e:
+        print(f"Could not record scan stats: {e}")
 
     if (config.USE_SHARP_REFERENCE and seen_bookmakers
             and not any(b in seen_bookmakers for b in config.SHARP_REFERENCE_BOOKS)):
