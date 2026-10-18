@@ -267,8 +267,10 @@ def get_reference_fair_odds(event: dict, outcome: str, market_key: str = "h2h") 
     return round(1 / entry["ref_prob"], 3)
 
 
-def _find_positive_ev_for_market(event: dict, market_key: str) -> list[dict]:
-    """Same logic as find_positive_ev, scoped to one specific market."""
+def _find_positive_ev_for_market(event: dict, market_key: str, stats: dict | None = None) -> list[dict]:
+    """Same logic as find_positive_ev, scoped to one specific market. If a
+    `stats` dict (see scan_stats.new_stats) is passed, it is updated with how
+    many markets/outcomes were checked and the closest call to an alert."""
     opportunities = []
     book_prices, book_titles = _extract_book_prices(event, market_key)
 
@@ -280,6 +282,9 @@ def _find_positive_ev_for_market(event: dict, market_key: str) -> list[dict]:
     if not fair:
         return opportunities  # no sharp line and not enough reference books to trust a consensus
 
+    market_used_sharp = False
+    matchup = (f"{event.get('away_team')} @ {event.get('home_team')}" if event.get("away_team")
+               else event.get("home_team", ""))
     for book_key, prices in bettable_present.items():
         commission = config.get_commission_rate(book_key, event["sport_key"])
         for outcome, price in prices.items():
@@ -289,26 +294,43 @@ def _find_positive_ev_for_market(event: dict, market_key: str) -> list[dict]:
             fair_prob = entry["prob"]
             effective_price = _effective_price(price, commission)
             ev = effective_price * fair_prob - 1
+            threshold = config.get_edge_threshold(price, entry["anchor"])
+            if stats is not None:
+                stats["outcomes"] += 1
+                market_used_sharp = market_used_sharp or entry["anchor"] != "retail_consensus"
             if ev * 100 > config.MAX_EV_PCT:
                 print(f"    suppressed {book_key} {outcome} @ {price}: {ev * 100:.1f}% edge exceeds "
                       f"MAX_EV_PCT={config.MAX_EV_PCT:g} (likely stale/bad price)")
+                if stats is not None:
+                    stats["capped"] += 1
                 continue
-            if ev >= config.get_ev_threshold(price):
+            if stats is not None:
+                from . import scan_stats
+                scan_stats.note_candidate(stats, {
+                    "gap": round((ev - threshold) * 100, 3), "ev_pct": round(ev * 100, 2),
+                    "threshold_pct": round(threshold * 100, 2), "price": price, "outcome": outcome,
+                    "book": book_titles[book_key], "matchup": matchup, "sport_key": event["sport_key"],
+                    "anchor": entry["anchor"],
+                })
+            if ev >= threshold:
                 opportunities.append(_make_opportunity(
                     event, market_key, book_key, book_titles[book_key], price, outcome, fair_prob,
                     entry["n_books"], commission, ev, anchor=entry["anchor"],
                     sharp_prob=entry["sharp_prob"], consensus_prob=entry["consensus_prob"],
                     disagree=entry["disagree"],
                 ))
+    if stats is not None:
+        stats["markets"] += 1
+        stats["markets_sharp"] += 1 if market_used_sharp else 0
     return opportunities
 
 
-def find_positive_ev(event: dict) -> list[dict]:
+def find_positive_ev(event: dict, stats: dict | None = None) -> list[dict]:
     """Scan a single event across every market present (h2h, and totals for
     sports where that's configured) for +EV prices on any bettable book.
     Each market is evaluated completely independently - see module
     docstring. Nothing is ever flagged for a book outside
-    config.BETTABLE_BOOKS."""
+    config.BETTABLE_BOOKS. `stats` (optional) collects scan statistics."""
     market_keys = set()
     for bm in event.get("bookmakers", []):
         for m in bm.get("markets", []):
@@ -316,5 +338,5 @@ def find_positive_ev(event: dict) -> list[dict]:
 
     opportunities = []
     for market_key in market_keys:
-        opportunities.extend(_find_positive_ev_for_market(event, market_key))
+        opportunities.extend(_find_positive_ev_for_market(event, market_key, stats))
     return opportunities

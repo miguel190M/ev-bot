@@ -210,3 +210,23 @@ HEALTH_LOW_CREDIT_REARM = 5000
 # probability and so flagged long-priced Betfair/Sportsbet lines as value far
 # too often. Set DEVIG_METHOD=multiplicative to revert.
 DEVIG_METHOD = os.environ.get("DEVIG_METHOD", "shin").strip().lower()
+
+# Edge threshold for bets priced against the SHARP book (Pinnacle). The scaling
+# threshold above (2% x price - 1%) was built for the noisy soft-book
+# consensus; against Pinnacle's much tighter line it asked for e.g. +16% over
+# fair at odds of 5, so almost nothing could clear. Pinnacle-anchored bets use
+# a flat net-of-commission edge instead: SHARP_EV_BASE_PCT, plus an optional
+# SHARP_EV_SLOPE x (price - 3) for long prices (0 = flat). The retail-consensus
+# fallback keeps the scaling threshold.
+SHARP_EV_BASE_PCT = float(os.environ.get("SHARP_EV_BASE_PCT", "3"))
+SHARP_EV_SLOPE = float(os.environ.get("SHARP_EV_SLOPE", "0"))
+
+# Rolling per-run scan stats used for the daily digest's "closest call" line.
+SCAN_STATS_FILE = os.environ.get("SCAN_STATS_FILE", "data/scan_stats.json")
+
+
+def get_edge_threshold(price: float, anchor: str) -> float:
+    """Minimum EV (as a fraction) to alert, given where the fair price came from."""
+    if anchor == "retail_consensus":
+        return get_ev_threshold(price)
+    return SHARP_EV_BASE_PCT / 100 + SHARP_EV_SLOPE * max(0.0, price - 3.0)

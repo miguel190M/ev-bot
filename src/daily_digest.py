@@ -18,7 +18,7 @@ to start. Treat the slate as a watchlist; the real-time alert near kickoff
 
 from datetime import datetime, timedelta, timezone
 
-from . import config, odds_fetcher, ev_calculator, scheduling, bets, state, telegram_commands
+from . import config, odds_fetcher, ev_calculator, scheduling, bets, state, telegram_commands, scan_stats
 
 SPORT_LABELS = {
     "basketball_nba": "NBA",
@@ -96,7 +96,7 @@ def _best_per_pick(opps: list[dict]) -> list[dict]:
 
 
 def format_digest(slate: list[dict], ids: dict, candidates: dict, bet_ledger: dict,
-                  credits_remaining, now: datetime) -> str:
+                  credits_remaining, now: datetime, scan_summary: dict | None = None) -> str:
     local = now.astimezone(scheduling.SYDNEY)
     since = (now - timedelta(hours=24)).isoformat()
     lines = [f"📋 Daily value report - {local.strftime('%a %d %b')}", ""]
@@ -127,6 +127,7 @@ def format_digest(slate: list[dict], ids: dict, candidates: dict, bet_ledger: di
     open_bets = [b for b in bet_ledger.values() if b["status"] == "open"]
     lines.append("📈 Last 24h")
     lines.append(f"Live alerts sent: {alerts_24h}")
+    lines.extend(scan_stats.format_lines(scan_summary))
     if resolved_24h:
         w = sum(b["status"] == "won" for b in resolved_24h)
         l = sum(b["status"] == "lost" for b in resolved_24h)
@@ -165,7 +166,8 @@ def send_daily_digest_if_due(candidates: dict, bet_ledger: dict, odds_cache: dic
         candidates[sid].setdefault("alerted_at", now.isoformat())
         ids[id(o)] = sid
 
-    msg = format_digest(slate, ids, candidates, bet_ledger, odds_cache.get("remaining"), now)
+    msg = format_digest(slate, ids, candidates, bet_ledger, odds_cache.get("remaining"), now,
+                        scan_summary=scan_stats.summarize(now))
     telegram_commands.send_message(msg)
 
     digest_state["last_daily_date"] = today
