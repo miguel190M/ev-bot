@@ -1,0 +1,20 @@
+[
+ {
+  "ts": "2026-10-18T11:48:31.913930+00:00",
+  "markets": 22,
+  "markets_sharp": 22,
+  "outcomes": 110,
+  "capped": 0,
+  "best": {
+   "gap": -3.286,
+   "ev_pct": -0.29,
+   "threshold_pct": 3.0,
+   "price": 1.32,
+   "outcome": "New England Patriots",
+   "book": "Betfair",
+   "matchup": "New York Jets @ New England Patriots",
+   "sport_key": "americanfootball_nfl",
+   "anchor": "pinnacle"
+  }
+ }
+]
