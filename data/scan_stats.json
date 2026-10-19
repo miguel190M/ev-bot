@@ -628,5 +628,23 @@
    "sport_key": "cricket_odi",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-10-19T09:30:33.885259+00:00",
+  "markets": 3,
+  "markets_sharp": 2,
+  "outcomes": 12,
+  "capped": 0,
+  "best": {
+   "gap": -3.148,
+   "ev_pct": 2.65,
+   "threshold_pct": 5.8,
+   "price": 3.4,
+   "outcome": "Zimbabwe",
+   "book": "Betfair",
+   "matchup": "Zimbabwe @ Afghanistan",
+   "sport_key": "cricket_odi",
+   "anchor": "retail_consensus"
+  }
  }
 ]
