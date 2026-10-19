@@ -736,5 +736,23 @@
    "sport_key": "americanfootball_nfl",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-10-19T13:00:44.414163+00:00",
+  "markets": 2,
+  "markets_sharp": 0,
+  "outcomes": 12,
+  "capped": 0,
+  "best": {
+   "gap": -5.982,
+   "ev_pct": -1.82,
+   "threshold_pct": 4.16,
+   "price": 2.58,
+   "outcome": "Torino",
+   "book": "Betfair",
+   "matchup": "Torino @ Parma",
+   "sport_key": "soccer_italy_serie_a",
+   "anchor": "retail_consensus"
+  }
  }
 ]
