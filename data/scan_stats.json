@@ -718,5 +718,23 @@
    "sport_key": "tennis_wta_ningbo_open",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-10-19T12:30:34.905498+00:00",
+  "markets": 2,
+  "markets_sharp": 0,
+  "outcomes": 8,
+  "capped": 0,
+  "best": {
+   "gap": -2.462,
+   "ev_pct": -0.92,
+   "threshold_pct": 1.54,
+   "price": 1.27,
+   "outcome": "San Francisco 49ers",
+   "book": "Betfair",
+   "matchup": "Washington Commanders @ San Francisco 49ers",
+   "sport_key": "americanfootball_nfl",
+   "anchor": "retail_consensus"
+  }
  }
 ]
