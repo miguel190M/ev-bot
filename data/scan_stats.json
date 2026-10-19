@@ -340,5 +340,23 @@
    "sport_key": "tennis_wta_ningbo_open",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-19T02:00:39.865992+00:00",
+  "markets": 5,
+  "markets_sharp": 5,
+  "outcomes": 20,
+  "capped": 0,
+  "best": {
+   "gap": -3.472,
+   "ev_pct": -0.47,
+   "threshold_pct": 3.0,
+   "price": 1.4,
+   "outcome": "Marie Bouzkova",
+   "book": "Betfair",
+   "matchup": "Marie Bouzkova @ Kamilla Rakhimova",
+   "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
  }
 ]
