@@ -484,5 +484,23 @@
    "sport_key": "cricket_odi",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-10-19T05:30:32.489059+00:00",
+  "markets": 6,
+  "markets_sharp": 4,
+  "outcomes": 23,
+  "capped": 0,
+  "best": {
+   "gap": -4.027,
+   "ev_pct": -1.03,
+   "threshold_pct": 3.0,
+   "price": 1.4,
+   "outcome": "Sorana Cirstea",
+   "book": "Betfair",
+   "matchup": "Shi Han @ Sorana Cirstea",
+   "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
  }
 ]
