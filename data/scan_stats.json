@@ -790,5 +790,23 @@
    "sport_key": "soccer_italy_serie_a",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-19T20:00:44.634316+00:00",
+  "markets": 13,
+  "markets_sharp": 11,
+  "outcomes": 51,
+  "capped": 0,
+  "best": {
+   "gap": -3.682,
+   "ev_pct": 0.08,
+   "threshold_pct": 3.76,
+   "price": 2.38,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Australia @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
  }
 ]
