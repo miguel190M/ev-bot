@@ -772,5 +772,23 @@
    "sport_key": "soccer_italy_serie_a",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-19T13:42:16.736795+00:00",
+  "markets": 2,
+  "markets_sharp": 2,
+  "outcomes": 12,
+  "capped": 0,
+  "best": {
+   "gap": -5.398,
+   "ev_pct": -2.4,
+   "threshold_pct": 3.0,
+   "price": 2.46,
+   "outcome": "Monza",
+   "book": "Betfair",
+   "matchup": "Cagliari @ Monza",
+   "sport_key": "soccer_italy_serie_a",
+   "anchor": "pinnacle"
+  }
  }
 ]
