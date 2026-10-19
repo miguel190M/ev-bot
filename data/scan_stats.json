@@ -700,5 +700,23 @@
    "sport_key": "cricket_odi",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-10-19T11:30:34.554859+00:00",
+  "markets": 5,
+  "markets_sharp": 1,
+  "outcomes": 24,
+  "capped": 0,
+  "best": {
+   "gap": -2.45,
+   "ev_pct": -0.69,
+   "threshold_pct": 1.76,
+   "price": 1.38,
+   "outcome": "Alexandra Eala",
+   "book": "Betfair",
+   "matchup": "Diane Parry @ Alexandra Eala",
+   "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "retail_consensus"
+  }
  }
 ]

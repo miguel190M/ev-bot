@@ -346,5 +346,28 @@
     "clv_pct": null,
     "net_clv_pct": null,
     "resolved_at": "2026-10-12T11:00:45.127849+00:00"
+  },
+  "5b88": {
+    "event_id": "56708fcd0a69ce47d2c79f8fc3f024e5",
+    "sport_key": "cricket_test_match",
+    "commence_time": "2026-10-19T08:00:00Z",
+    "home_team": "South Africa",
+    "away_team": "Australia",
+    "market_key": "h2h",
+    "bookmaker_title": "Betfair",
+    "outcome": "South Africa",
+    "price": 6.2,
+    "commission": 0.06,
+    "ev_pct": 12.84,
+    "anchor": "retail_consensus",
+    "sharp_disagreement": false,
+    "stake": 5.0,
+    "status": "open",
+    "profit": null,
+    "source": "live",
+    "bookmaker_key": "betfair_ex_au",
+    "alerted_at": "2026-10-19T06:30:31.717086+00:00",
+    "lead_hours": 1.5,
+    "logged_at": "2026-10-19T11:30:35.012469+00:00"
   }
 }
