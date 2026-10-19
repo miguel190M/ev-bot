@@ -42,5 +42,27 @@
     "sharp_probability": null,
     "consensus_probability": 0.3153,
     "alerted_at": "2026-10-19T11:00:41.972072+00:00"
+  },
+  "a704": {
+    "event_id": "f122527f003276d3bca19efa48c902c1",
+    "sport_key": "americanfootball_nfl",
+    "commence_time": "2026-10-20T00:15:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Washington Commanders",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Washington Commanders",
+    "price": 4.3,
+    "commission": 0.0,
+    "fair_probability": 0.2409,
+    "fair_odds": 4.15,
+    "ev_pct": 3.6,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.2409,
+    "consensus_probability": 0.2208,
+    "alerted_at": "2026-10-19T23:00:45.022466+00:00"
   }
 }
