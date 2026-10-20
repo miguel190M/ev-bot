@@ -1024,5 +1024,23 @@
    "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-20T02:00:41.013880+00:00",
+  "markets": 7,
+  "markets_sharp": 7,
+  "outcomes": 28,
+  "capped": 0,
+  "best": {
+   "gap": -2.824,
+   "ev_pct": 0.18,
+   "threshold_pct": 3.0,
+   "price": 1.27,
+   "outcome": "Ekaterina Alexandrova",
+   "book": "Betfair",
+   "matchup": "Ekaterina Alexandrova @ Guo Hanyu",
+   "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
  }
 ]
