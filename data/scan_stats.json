@@ -952,5 +952,23 @@
    "sport_key": "americanfootball_nfl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-20T00:00:42.655948+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 12,
+  "capped": 0,
+  "best": {
+   "gap": -1.667,
+   "ev_pct": 1.33,
+   "threshold_pct": 3.0,
+   "price": 4.2,
+   "outcome": "Washington Commanders",
+   "book": "SportsBet",
+   "matchup": "Washington Commanders @ San Francisco 49ers",
+   "sport_key": "americanfootball_nfl",
+   "anchor": "pinnacle"
+  }
  }
 ]
