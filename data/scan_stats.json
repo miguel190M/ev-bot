@@ -1186,5 +1186,23 @@
    "sport_key": "tennis_wta_ningbo_open",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-20T06:30:33.664835+00:00",
+  "markets": 7,
+  "markets_sharp": 5,
+  "outcomes": 27,
+  "capped": 0,
+  "best": {
+   "gap": -4.298,
+   "ev_pct": -1.3,
+   "threshold_pct": 3.0,
+   "price": 1.25,
+   "outcome": "Ekaterina Alexandrova",
+   "book": "Betfair",
+   "matchup": "Ekaterina Alexandrova @ Guo Hanyu",
+   "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
  }
 ]
