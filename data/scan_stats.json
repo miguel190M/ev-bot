@@ -1132,5 +1132,23 @@
    "sport_key": "tennis_wta_ningbo_open",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-20T05:00:40.843397+00:00",
+  "markets": 9,
+  "markets_sharp": 7,
+  "outcomes": 39,
+  "capped": 0,
+  "best": {
+   "gap": -3.964,
+   "ev_pct": -0.2,
+   "threshold_pct": 3.76,
+   "price": 2.38,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Australia @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
  }
 ]
