@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-18T23:23:53.244511+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 8,
-  "capped": 0,
-  "best": {
-   "gap": -3.475,
-   "ev_pct": -0.47,
-   "threshold_pct": 3.0,
-   "price": 1.5,
-   "outcome": "Carolina Hurricanes",
-   "book": "Betfair",
-   "matchup": "Carolina Hurricanes @ Calgary Flames",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-18T23:30:30.664422+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 8,
-  "capped": 0,
-  "best": {
-   "gap": -3.475,
-   "ev_pct": -0.47,
-   "threshold_pct": 3.0,
-   "price": 1.5,
-   "outcome": "Carolina Hurricanes",
-   "book": "Betfair",
-   "matchup": "Carolina Hurricanes @ Calgary Flames",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-19T00:00:44.105480+00:00",
   "markets": 9,
   "markets_sharp": 7,
@@ -1293,6 +1257,24 @@
    "matchup": "Carolina Hurricanes @ Vancouver Canucks",
    "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-20T23:30:36.940922+00:00",
+  "markets": 8,
+  "markets_sharp": 7,
+  "outcomes": 32,
+  "capped": 0,
+  "best": {
+   "gap": -3.494,
+   "ev_pct": -1.25,
+   "threshold_pct": 2.24,
+   "price": 1.62,
+   "outcome": "Afghanistan",
+   "book": "SportsBet",
+   "matchup": "Bangladesh @ Afghanistan",
+   "sport_key": "cricket_odi",
+   "anchor": "retail_consensus"
   }
  }
 ]
