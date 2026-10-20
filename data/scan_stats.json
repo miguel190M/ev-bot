@@ -1006,5 +1006,23 @@
    "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-20T01:00:41.222347+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 4,
+  "capped": 0,
+  "best": {
+   "gap": -6.709,
+   "ev_pct": -3.71,
+   "threshold_pct": 3.0,
+   "price": 1.58,
+   "outcome": "Utah Mammoth",
+   "book": "Betfair",
+   "matchup": "Pittsburgh Penguins @ Utah Mammoth",
+   "sport_key": "icehockey_nhl",
+   "anchor": "pinnacle"
+  }
  }
 ]
