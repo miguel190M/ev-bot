@@ -1294,5 +1294,23 @@
    "sport_key": "tennis_wta_ningbo_open",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-20T09:00:42.485042+00:00",
+  "markets": 12,
+  "markets_sharp": 12,
+  "outcomes": 66,
+  "capped": 0,
+  "best": {
+   "gap": -2.447,
+   "ev_pct": 0.55,
+   "threshold_pct": 3.0,
+   "price": 1.15,
+   "outcome": "AS Roma",
+   "book": "Betfair",
+   "matchup": "\u0160K Slovan Bratislava @ AS Roma",
+   "sport_key": "soccer_uefa_champs_league",
+   "anchor": "pinnacle"
+  }
  }
 ]
