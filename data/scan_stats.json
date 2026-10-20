@@ -1276,5 +1276,23 @@
    "sport_key": "cricket_odi",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-10-20T23:58:39.867567+00:00",
+  "markets": 7,
+  "markets_sharp": 7,
+  "outcomes": 28,
+  "capped": 0,
+  "best": {
+   "gap": -4.592,
+   "ev_pct": -1.59,
+   "threshold_pct": 3.0,
+   "price": 1.66,
+   "outcome": "Dallas Stars",
+   "book": "Betfair",
+   "matchup": "Boston Bruins @ Dallas Stars",
+   "sport_key": "icehockey_nhl",
+   "anchor": "pinnacle"
+  }
  }
 ]
