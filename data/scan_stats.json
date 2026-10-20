@@ -970,5 +970,23 @@
    "sport_key": "americanfootball_nfl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-20T00:27:45.201551+00:00",
+  "markets": 10,
+  "markets_sharp": 8,
+  "outcomes": 39,
+  "capped": 0,
+  "best": {
+   "gap": -4.27,
+   "ev_pct": -1.89,
+   "threshold_pct": 2.38,
+   "price": 1.69,
+   "outcome": "England",
+   "book": "Betfair",
+   "matchup": "England @ Pakistan",
+   "sport_key": "cricket_odi",
+   "anchor": "retail_consensus"
+  }
  }
 ]
