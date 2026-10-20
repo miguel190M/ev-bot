@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-18T23:00:42.466975+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 8,
-  "capped": 0,
-  "best": {
-   "gap": -3.475,
-   "ev_pct": -0.47,
-   "threshold_pct": 3.0,
-   "price": 1.5,
-   "outcome": "Carolina Hurricanes",
-   "book": "Betfair",
-   "matchup": "Carolina Hurricanes @ Calgary Flames",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-18T23:23:53.244511+00:00",
   "markets": 2,
   "markets_sharp": 2,
@@ -1286,6 +1268,24 @@
   "best": {
    "gap": -4.196,
    "ev_pct": -1.2,
+   "threshold_pct": 3.0,
+   "price": 1.37,
+   "outcome": "Carolina Hurricanes",
+   "book": "Betfair",
+   "matchup": "Carolina Hurricanes @ Vancouver Canucks",
+   "sport_key": "icehockey_nhl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-20T23:00:45.827127+00:00",
+  "markets": 13,
+  "markets_sharp": 13,
+  "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": -3.712,
+   "ev_pct": -0.71,
    "threshold_pct": 3.0,
    "price": 1.37,
    "outcome": "Carolina Hurricanes",
