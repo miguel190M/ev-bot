@@ -20,5 +20,28 @@
     "sharp_probability": 0.2409,
     "consensus_probability": 0.2208,
     "alerted_at": "2026-10-19T23:00:45.022466+00:00"
+  },
+  "29d7": {
+    "event_id": "a889456204e8ef1b64294efbee8dc3e5",
+    "sport_key": "soccer_uefa_champs_league",
+    "commence_time": "2026-10-21T19:00:00Z",
+    "home_team": "Inter Milan",
+    "away_team": "Shakhtar Donetsk",
+    "market_key": "h2h",
+    "bookmaker_key": "betfair_ex_au",
+    "bookmaker_title": "Betfair",
+    "outcome": "Shakhtar Donetsk",
+    "price": 15.5,
+    "commission": 0.06,
+    "fair_probability": 0.0705,
+    "fair_odds": 14.184,
+    "ev_pct": 3.15,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.0705,
+    "consensus_probability": 0.0685,
+    "source": "daily_digest",
+    "alerted_at": "2026-10-20T22:00:46.633214+00:00"
   }
 }
