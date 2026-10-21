@@ -1276,5 +1276,23 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-21T21:51:10.547395+00:00",
+  "markets": 13,
+  "markets_sharp": 13,
+  "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": -3.461,
+   "ev_pct": -0.46,
+   "threshold_pct": 3.0,
+   "price": 1.26,
+   "outcome": "Toronto Raptors",
+   "book": "Betfair",
+   "matchup": "Chicago Bulls @ Toronto Raptors",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
