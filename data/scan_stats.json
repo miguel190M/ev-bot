@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-19T03:30:30.611965+00:00",
-  "markets": 6,
-  "markets_sharp": 5,
-  "outcomes": 24,
-  "capped": 0,
-  "best": {
-   "gap": -3.17,
-   "ev_pct": -0.17,
-   "threshold_pct": 3.0,
-   "price": 1.41,
-   "outcome": "Sorana Cirstea",
-   "book": "Betfair",
-   "matchup": "Shi Han @ Sorana Cirstea",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-19T04:00:39.381303+00:00",
   "markets": 6,
   "markets_sharp": 5,
@@ -1297,6 +1279,24 @@
  },
  {
   "ts": "2026-10-21T03:00:48.555072+00:00",
+  "markets": 4,
+  "markets_sharp": 4,
+  "outcomes": 16,
+  "capped": 0,
+  "best": {
+   "gap": -3.525,
+   "ev_pct": -0.53,
+   "threshold_pct": 3.0,
+   "price": 1.51,
+   "outcome": "Leylah Fernandez",
+   "book": "Betfair",
+   "matchup": "Aliaksandra Sasnovich @ Leylah Fernandez",
+   "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-21T03:30:33.466682+00:00",
   "markets": 4,
   "markets_sharp": 4,
   "outcomes": 16,
