@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-19T13:00:44.414163+00:00",
-  "markets": 2,
-  "markets_sharp": 0,
-  "outcomes": 12,
-  "capped": 0,
-  "best": {
-   "gap": -5.982,
-   "ev_pct": -1.82,
-   "threshold_pct": 4.16,
-   "price": 2.58,
-   "outcome": "Torino",
-   "book": "Betfair",
-   "matchup": "Torino @ Parma",
-   "sport_key": "soccer_italy_serie_a",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-10-19T13:30:34.681029+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 12,
-  "capped": 0,
-  "best": {
-   "gap": -5.955,
-   "ev_pct": -2.95,
-   "threshold_pct": 3.0,
-   "price": 2.58,
-   "outcome": "Torino",
-   "book": "Betfair",
-   "matchup": "Torino @ Parma",
-   "sport_key": "soccer_italy_serie_a",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-19T13:42:16.736795+00:00",
   "markets": 2,
   "markets_sharp": 2,
@@ -1328,6 +1292,24 @@
    "book": "Betfair",
    "matchup": "Marta Kostyuk @ Ekaterina Alexandrova",
    "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-21T13:30:40.597796+00:00",
+  "markets": 9,
+  "markets_sharp": 9,
+  "outcomes": 54,
+  "capped": 0,
+  "best": {
+   "gap": -2.817,
+   "ev_pct": 0.18,
+   "threshold_pct": 3.0,
+   "price": 13.0,
+   "outcome": "Shakhtar Donetsk",
+   "book": "Betfair",
+   "matchup": "Shakhtar Donetsk @ Inter Milan",
+   "sport_key": "soccer_uefa_champs_league",
    "anchor": "pinnacle"
   }
  }
