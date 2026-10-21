@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-19T11:00:41.970803+00:00",
-  "markets": 2,
-  "markets_sharp": 1,
-  "outcomes": 8,
-  "capped": 0,
-  "best": {
-   "gap": 2.379,
-   "ev_pct": 8.58,
-   "threshold_pct": 6.2,
-   "price": 3.6,
-   "outcome": "Zimbabwe",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-19T11:30:34.554859+00:00",
   "markets": 5,
   "markets_sharp": 1,
@@ -1300,6 +1282,24 @@
   "markets": 4,
   "markets_sharp": 3,
   "outcomes": 18,
+  "capped": 0,
+  "best": {
+   "gap": -3.653,
+   "ev_pct": 0.71,
+   "threshold_pct": 4.36,
+   "price": 2.68,
+   "outcome": "Bangladesh",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ Afghanistan",
+   "sport_key": "cricket_odi",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-21T11:00:49.812653+00:00",
+  "markets": 3,
+  "markets_sharp": 2,
+  "outcomes": 12,
   "capped": 0,
   "best": {
    "gap": -3.653,
