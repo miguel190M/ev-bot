@@ -1294,5 +1294,23 @@
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-10-21T05:02:40.746100+00:00",
+  "markets": 4,
+  "markets_sharp": 3,
+  "outcomes": 15,
+  "capped": 0,
+  "best": {
+   "gap": -1.688,
+   "ev_pct": 0.01,
+   "threshold_pct": 1.7,
+   "price": 1.35,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Australia @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
  }
 ]
