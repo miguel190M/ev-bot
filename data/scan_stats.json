@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-19T04:00:39.381303+00:00",
-  "markets": 6,
-  "markets_sharp": 5,
-  "outcomes": 24,
-  "capped": 0,
-  "best": {
-   "gap": -0.384,
-   "ev_pct": 5.62,
-   "threshold_pct": 6.0,
-   "price": 3.5,
-   "outcome": "Zimbabwe",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-19T04:30:33.053170+00:00",
   "markets": 7,
   "markets_sharp": 5,
@@ -1311,6 +1293,24 @@
    "matchup": "Aliaksandra Sasnovich @ Leylah Fernandez",
    "sport_key": "tennis_wta_ningbo_open",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-21T04:00:48.614816+00:00",
+  "markets": 6,
+  "markets_sharp": 4,
+  "outcomes": 23,
+  "capped": 0,
+  "best": {
+   "gap": -2.375,
+   "ev_pct": -0.7,
+   "threshold_pct": 1.68,
+   "price": 1.34,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Australia @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
