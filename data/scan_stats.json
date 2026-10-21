@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-19T10:00:41.619221+00:00",
-  "markets": 2,
-  "markets_sharp": 1,
-  "outcomes": 8,
-  "capped": 0,
-  "best": {
-   "gap": -1.766,
-   "ev_pct": 4.13,
-   "threshold_pct": 5.9,
-   "price": 3.45,
-   "outcome": "Zimbabwe",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-19T10:30:33.165640+00:00",
   "markets": 2,
   "markets_sharp": 1,
@@ -1311,6 +1293,24 @@
    "matchup": "Feyenoord @ Real Betis",
    "sport_key": "soccer_uefa_champs_league",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-21T10:00:46.434778+00:00",
+  "markets": 3,
+  "markets_sharp": 2,
+  "outcomes": 12,
+  "capped": 0,
+  "best": {
+   "gap": -3.653,
+   "ev_pct": 0.71,
+   "threshold_pct": 4.36,
+   "price": 2.68,
+   "outcome": "Bangladesh",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ Afghanistan",
+   "sport_key": "cricket_odi",
+   "anchor": "retail_consensus"
   }
  }
 ]
