@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-19T22:30:33.211762+00:00",
-  "markets": 6,
-  "markets_sharp": 6,
-  "outcomes": 24,
-  "capped": 0,
-  "best": {
-   "gap": -3.581,
-   "ev_pct": -0.58,
-   "threshold_pct": 3.0,
-   "price": 4.35,
-   "outcome": "Washington Commanders",
-   "book": "SportsBet",
-   "matchup": "Washington Commanders @ San Francisco 49ers",
-   "sport_key": "americanfootball_nfl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-19T23:00:45.021569+00:00",
   "markets": 6,
   "markets_sharp": 6,
@@ -1291,6 +1273,24 @@
    "outcome": "Toronto Raptors",
    "book": "Betfair",
    "matchup": "Chicago Bulls @ Toronto Raptors",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-21T22:30:35.057519+00:00",
+  "markets": 13,
+  "markets_sharp": 13,
+  "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": -3.165,
+   "ev_pct": -0.17,
+   "threshold_pct": 3.0,
+   "price": 1.88,
+   "outcome": "Charlotte Hornets",
+   "book": "SportsBet",
+   "matchup": "Charlotte Hornets @ Brooklyn Nets",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
