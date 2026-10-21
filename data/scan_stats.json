@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-19T12:30:34.905498+00:00",
-  "markets": 2,
-  "markets_sharp": 0,
-  "outcomes": 8,
-  "capped": 0,
-  "best": {
-   "gap": -2.462,
-   "ev_pct": -0.92,
-   "threshold_pct": 1.54,
-   "price": 1.27,
-   "outcome": "San Francisco 49ers",
-   "book": "Betfair",
-   "matchup": "Washington Commanders @ San Francisco 49ers",
-   "sport_key": "americanfootball_nfl",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-19T13:00:44.414163+00:00",
   "markets": 2,
   "markets_sharp": 0,
@@ -1325,6 +1307,24 @@
    "threshold_pct": 3.0,
    "price": 1.69,
    "outcome": "Marta Kostyuk",
+   "book": "Betfair",
+   "matchup": "Marta Kostyuk @ Ekaterina Alexandrova",
+   "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-21T12:30:40.935550+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 4,
+  "capped": 0,
+  "best": {
+   "gap": -5.923,
+   "ev_pct": -2.92,
+   "threshold_pct": 3.0,
+   "price": 2.44,
+   "outcome": "Ekaterina Alexandrova",
    "book": "Betfair",
    "matchup": "Marta Kostyuk @ Ekaterina Alexandrova",
    "sport_key": "tennis_wta_ningbo_open",
