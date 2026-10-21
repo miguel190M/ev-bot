@@ -1294,5 +1294,23 @@
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-10-21T00:30:34.247099+00:00",
+  "markets": 5,
+  "markets_sharp": 5,
+  "outcomes": 20,
+  "capped": 0,
+  "best": {
+   "gap": -4.927,
+   "ev_pct": -1.93,
+   "threshold_pct": 3.0,
+   "price": 1.89,
+   "outcome": "Detroit Red Wings",
+   "book": "Betfair",
+   "matchup": "Detroit Red Wings @ Seattle Kraken",
+   "sport_key": "icehockey_nhl",
+   "anchor": "pinnacle"
+  }
  }
 ]
