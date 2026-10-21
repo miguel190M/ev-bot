@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-19T05:30:32.489059+00:00",
-  "markets": 6,
-  "markets_sharp": 4,
-  "outcomes": 23,
-  "capped": 0,
-  "best": {
-   "gap": -4.027,
-   "ev_pct": -1.03,
-   "threshold_pct": 3.0,
-   "price": 1.4,
-   "outcome": "Sorana Cirstea",
-   "book": "Betfair",
-   "matchup": "Shi Han @ Sorana Cirstea",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-19T06:00:39.512540+00:00",
   "markets": 5,
   "markets_sharp": 4,
@@ -1297,6 +1279,24 @@
  },
  {
   "ts": "2026-10-21T05:02:40.746100+00:00",
+  "markets": 4,
+  "markets_sharp": 3,
+  "outcomes": 15,
+  "capped": 0,
+  "best": {
+   "gap": -1.688,
+   "ev_pct": 0.01,
+   "threshold_pct": 1.7,
+   "price": 1.35,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Australia @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-21T05:30:35.387781+00:00",
   "markets": 4,
   "markets_sharp": 3,
   "outcomes": 15,
