@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-19T20:30:32.349948+00:00",
-  "markets": 4,
-  "markets_sharp": 4,
-  "outcomes": 16,
-  "capped": 0,
-  "best": {
-   "gap": -5.183,
-   "ev_pct": -2.18,
-   "threshold_pct": 3.0,
-   "price": 1.76,
-   "outcome": "Toronto Maple Leafs",
-   "book": "SportsBet",
-   "matchup": "San Jose Sharks @ Toronto Maple Leafs",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-19T20:38:38.179321+00:00",
   "markets": 4,
   "markets_sharp": 4,
@@ -1292,6 +1274,24 @@
    "book": "Betfair",
    "matchup": "India @ New Zealand",
    "sport_key": "cricket_international_t20",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-21T20:30:35.675771+00:00",
+  "markets": 11,
+  "markets_sharp": 11,
+  "outcomes": 44,
+  "capped": 0,
+  "best": {
+   "gap": -3.287,
+   "ev_pct": -0.29,
+   "threshold_pct": 3.0,
+   "price": 1.91,
+   "outcome": "Charlotte Hornets",
+   "book": "SportsBet",
+   "matchup": "Charlotte Hornets @ Brooklyn Nets",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
