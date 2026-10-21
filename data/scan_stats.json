@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-19T00:00:44.105480+00:00",
-  "markets": 9,
-  "markets_sharp": 7,
-  "outcomes": 35,
-  "capped": 0,
-  "best": {
-   "gap": -3.141,
-   "ev_pct": -0.14,
-   "threshold_pct": 3.0,
-   "price": 1.53,
-   "outcome": "Carolina Hurricanes",
-   "book": "Betfair",
-   "matchup": "Carolina Hurricanes @ Calgary Flames",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-19T01:00:41.942594+00:00",
   "markets": 5,
   "markets_sharp": 5,
@@ -1293,6 +1275,24 @@
    "matchup": "Boston Bruins @ Dallas Stars",
    "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-21T00:00:46.794612+00:00",
+  "markets": 12,
+  "markets_sharp": 10,
+  "outcomes": 47,
+  "capped": 0,
+  "best": {
+   "gap": -1.688,
+   "ev_pct": 0.01,
+   "threshold_pct": 1.7,
+   "price": 1.35,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Australia @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
