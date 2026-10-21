@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-19T13:42:16.736795+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 12,
-  "capped": 0,
-  "best": {
-   "gap": -5.398,
-   "ev_pct": -2.4,
-   "threshold_pct": 3.0,
-   "price": 2.46,
-   "outcome": "Monza",
-   "book": "Betfair",
-   "matchup": "Cagliari @ Monza",
-   "sport_key": "soccer_italy_serie_a",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-19T20:00:44.634316+00:00",
-  "markets": 13,
-  "markets_sharp": 11,
-  "outcomes": 51,
-  "capped": 0,
-  "best": {
-   "gap": -3.682,
-   "ev_pct": 0.08,
-   "threshold_pct": 3.76,
-   "price": 2.38,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Australia @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-19T20:30:32.349948+00:00",
   "markets": 4,
   "markets_sharp": 4,
@@ -1310,6 +1274,24 @@
    "book": "Betfair",
    "matchup": "Shakhtar Donetsk @ Inter Milan",
    "sport_key": "soccer_uefa_champs_league",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-21T20:00:45.497499+00:00",
+  "markets": 20,
+  "markets_sharp": 18,
+  "outcomes": 79,
+  "capped": 0,
+  "best": {
+   "gap": -0.887,
+   "ev_pct": 2.11,
+   "threshold_pct": 3.0,
+   "price": 1.74,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_international_t20",
    "anchor": "pinnacle"
   }
  }
