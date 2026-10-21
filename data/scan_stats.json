@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-19T04:56:50.587629+00:00",
-  "markets": 5,
-  "markets_sharp": 4,
-  "outcomes": 20,
-  "capped": 0,
-  "best": {
-   "gap": -1.766,
-   "ev_pct": 4.13,
-   "threshold_pct": 5.9,
-   "price": 3.45,
-   "outcome": "Zimbabwe",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-10-19T05:00:42.391355+00:00",
-  "markets": 6,
-  "markets_sharp": 4,
-  "outcomes": 23,
-  "capped": 0,
-  "best": {
-   "gap": -1.766,
-   "ev_pct": 4.13,
-   "threshold_pct": 5.9,
-   "price": 3.45,
-   "outcome": "Zimbabwe",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-19T05:30:32.489059+00:00",
   "markets": 6,
   "markets_sharp": 4,
@@ -1310,6 +1274,24 @@
    "book": "Betfair",
    "matchup": "Anastasia Zakharova @ Marie Bouzkova",
    "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-21T05:00:49.762148+00:00",
+  "markets": 6,
+  "markets_sharp": 5,
+  "outcomes": 27,
+  "capped": 0,
+  "best": {
+   "gap": -1.688,
+   "ev_pct": 0.01,
+   "threshold_pct": 1.7,
+   "price": 1.35,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Australia @ South Africa",
+   "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
   }
  }
