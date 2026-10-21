@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-19T20:38:38.179321+00:00",
-  "markets": 4,
-  "markets_sharp": 4,
-  "outcomes": 16,
-  "capped": 0,
-  "best": {
-   "gap": -5.183,
-   "ev_pct": -2.18,
-   "threshold_pct": 3.0,
-   "price": 1.76,
-   "outcome": "Toronto Maple Leafs",
-   "book": "SportsBet",
-   "matchup": "San Jose Sharks @ Toronto Maple Leafs",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-19T21:00:44.040826+00:00",
-  "markets": 4,
-  "markets_sharp": 4,
-  "outcomes": 16,
-  "capped": 0,
-  "best": {
-   "gap": -4.77,
-   "ev_pct": -1.77,
-   "threshold_pct": 3.0,
-   "price": 1.45,
-   "outcome": "Colorado Avalanche",
-   "book": "Betfair",
-   "matchup": "Colorado Avalanche @ Philadelphia Flyers",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-19T21:30:33.060908+00:00",
   "markets": 6,
   "markets_sharp": 6,
@@ -1282,6 +1246,24 @@
   "markets": 11,
   "markets_sharp": 11,
   "outcomes": 44,
+  "capped": 0,
+  "best": {
+   "gap": -3.287,
+   "ev_pct": -0.29,
+   "threshold_pct": 3.0,
+   "price": 1.91,
+   "outcome": "Charlotte Hornets",
+   "book": "SportsBet",
+   "matchup": "Charlotte Hornets @ Brooklyn Nets",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-21T21:00:49.921796+00:00",
+  "markets": 13,
+  "markets_sharp": 13,
+  "outcomes": 52,
   "capped": 0,
   "best": {
    "gap": -3.287,
