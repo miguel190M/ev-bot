@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-20T06:00:43.114122+00:00",
-  "markets": 7,
-  "markets_sharp": 5,
-  "outcomes": 27,
-  "capped": 0,
-  "best": {
-   "gap": -4.298,
-   "ev_pct": -1.3,
-   "threshold_pct": 3.0,
-   "price": 1.25,
-   "outcome": "Ekaterina Alexandrova",
-   "book": "Betfair",
-   "matchup": "Ekaterina Alexandrova @ Guo Hanyu",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-20T06:30:33.664835+00:00",
   "markets": 7,
   "markets_sharp": 5,
@@ -1288,6 +1270,24 @@
    "ev_pct": 4.68,
    "threshold_pct": 3.0,
    "price": 1.85,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_international_t20",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-22T06:00:44.711755+00:00",
+  "markets": 7,
+  "markets_sharp": 5,
+  "outcomes": 27,
+  "capped": 0,
+  "best": {
+   "gap": 0.591,
+   "ev_pct": 3.59,
+   "threshold_pct": 3.0,
+   "price": 1.83,
    "outcome": "India",
    "book": "Betfair",
    "matchup": "India @ New Zealand",
