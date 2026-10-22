@@ -1276,5 +1276,23 @@
    "sport_key": "tennis_wta_ningbo_open",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-22T04:00:41.290891+00:00",
+  "markets": 5,
+  "markets_sharp": 5,
+  "outcomes": 20,
+  "capped": 0,
+  "best": {
+   "gap": -3.238,
+   "ev_pct": -0.24,
+   "threshold_pct": 3.0,
+   "price": 1.76,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_international_t20",
+   "anchor": "pinnacle"
+  }
  }
 ]
