@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-20T11:00:44.204007+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 12,
-  "capped": 0,
-  "best": {
-   "gap": -4.298,
-   "ev_pct": -1.3,
-   "threshold_pct": 3.0,
-   "price": 1.25,
-   "outcome": "Ekaterina Alexandrova",
-   "book": "Betfair",
-   "matchup": "Ekaterina Alexandrova @ Guo Hanyu",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-20T11:30:36.572920+00:00",
-  "markets": 5,
-  "markets_sharp": 5,
-  "outcomes": 20,
-  "capped": 0,
-  "best": {
-   "gap": -5.213,
-   "ev_pct": -2.21,
-   "threshold_pct": 3.0,
-   "price": 2.35,
-   "outcome": "Los Angeles Kings",
-   "book": "SportsBet",
-   "matchup": "Los Angeles Kings @ Washington Capitals",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-20T13:00:58.734548+00:00",
   "markets": 9,
   "markets_sharp": 9,
@@ -1274,6 +1238,24 @@
    "book": "SportsBet",
    "matchup": "Polina Kudermetova @ Elena Rybakina",
    "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-22T11:30:37.286412+00:00",
+  "markets": 6,
+  "markets_sharp": 6,
+  "outcomes": 24,
+  "capped": 0,
+  "best": {
+   "gap": -3.683,
+   "ev_pct": -0.68,
+   "threshold_pct": 3.0,
+   "price": 1.77,
+   "outcome": "Ottawa Senators",
+   "book": "SportsBet",
+   "matchup": "San Jose Sharks @ Ottawa Senators",
+   "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
   }
  }
