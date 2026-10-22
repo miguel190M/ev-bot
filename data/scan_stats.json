@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-20T22:30:36.031791+00:00",
-  "markets": 13,
-  "markets_sharp": 13,
-  "outcomes": 52,
-  "capped": 0,
-  "best": {
-   "gap": -4.196,
-   "ev_pct": -1.2,
-   "threshold_pct": 3.0,
-   "price": 1.37,
-   "outcome": "Carolina Hurricanes",
-   "book": "Betfair",
-   "matchup": "Carolina Hurricanes @ Vancouver Canucks",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-20T23:00:45.827127+00:00",
   "markets": 13,
   "markets_sharp": 13,
@@ -1291,6 +1273,24 @@
    "outcome": "New Jersey Devils",
    "book": "Betfair",
    "matchup": "Anaheim Ducks @ New Jersey Devils",
+   "sport_key": "icehockey_nhl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-22T23:00:45.615419+00:00",
+  "markets": 15,
+  "markets_sharp": 15,
+  "outcomes": 60,
+  "capped": 0,
+  "best": {
+   "gap": -4.473,
+   "ev_pct": -1.47,
+   "threshold_pct": 3.0,
+   "price": 1.53,
+   "outcome": "Minnesota Wild",
+   "book": "Betfair",
+   "matchup": "Minnesota Wild @ Calgary Flames",
    "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
   }
