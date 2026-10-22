@@ -21,5 +21,27 @@
     "consensus_probability": 0.0685,
     "source": "daily_digest",
     "alerted_at": "2026-10-20T22:00:46.633214+00:00"
+  },
+  "5442": {
+    "event_id": "b5289e209ec08b95cb68588ddfe407c8",
+    "sport_key": "cricket_international_t20",
+    "commence_time": "2026-10-22T07:00:00Z",
+    "home_team": "New Zealand",
+    "away_team": "India",
+    "market_key": "h2h",
+    "bookmaker_key": "betfair_ex_au",
+    "bookmaker_title": "Betfair",
+    "outcome": "India",
+    "price": 1.85,
+    "commission": 0.06,
+    "fair_probability": 0.5819,
+    "fair_odds": 1.718,
+    "ev_pct": 4.68,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.5819,
+    "consensus_probability": 0.5668,
+    "alerted_at": "2026-10-22T05:30:35.521956+00:00"
   }
 }

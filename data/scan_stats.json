@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-20T05:30:32.100827+00:00",
-  "markets": 7,
-  "markets_sharp": 5,
-  "outcomes": 27,
-  "capped": 0,
-  "best": {
-   "gap": -3.964,
-   "ev_pct": -0.2,
-   "threshold_pct": 3.76,
-   "price": 2.38,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Australia @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-20T06:00:43.114122+00:00",
   "markets": 7,
   "markets_sharp": 5,
@@ -1293,6 +1275,24 @@
    "matchup": "Australia @ South Africa",
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:30:35.520646+00:00",
+  "markets": 7,
+  "markets_sharp": 5,
+  "outcomes": 27,
+  "capped": 0,
+  "best": {
+   "gap": 1.685,
+   "ev_pct": 4.68,
+   "threshold_pct": 3.0,
+   "price": 1.85,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_international_t20",
+   "anchor": "pinnacle"
   }
  }
 ]
