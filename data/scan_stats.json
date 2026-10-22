@@ -1276,5 +1276,23 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-22T22:00:45.127148+00:00",
+  "markets": 15,
+  "markets_sharp": 15,
+  "outcomes": 60,
+  "capped": 0,
+  "best": {
+   "gap": -4.122,
+   "ev_pct": -1.12,
+   "threshold_pct": 3.0,
+   "price": 2.21,
+   "outcome": "Cleveland Cavaliers",
+   "book": "SportsBet",
+   "matchup": "Cleveland Cavaliers @ Philadelphia 76ers",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
