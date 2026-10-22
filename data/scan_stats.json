@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-20T00:27:45.201551+00:00",
-  "markets": 10,
-  "markets_sharp": 8,
-  "outcomes": 39,
-  "capped": 0,
-  "best": {
-   "gap": -4.27,
-   "ev_pct": -1.89,
-   "threshold_pct": 2.38,
-   "price": 1.69,
-   "outcome": "England",
-   "book": "Betfair",
-   "matchup": "England @ Pakistan",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-10-20T00:30:32.314712+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 4,
-  "capped": 0,
-  "best": {
-   "gap": -5.324,
-   "ev_pct": -2.32,
-   "threshold_pct": 3.0,
-   "price": 1.57,
-   "outcome": "Utah Mammoth",
-   "book": "Betfair",
-   "matchup": "Pittsburgh Penguins @ Utah Mammoth",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-20T01:00:41.222347+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1274,6 +1238,24 @@
    "book": "Betfair",
    "matchup": "India @ New Zealand",
    "sport_key": "cricket_international_t20",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-22T00:30:39.247548+00:00",
+  "markets": 4,
+  "markets_sharp": 4,
+  "outcomes": 16,
+  "capped": 0,
+  "best": {
+   "gap": -4.869,
+   "ev_pct": -1.87,
+   "threshold_pct": 3.0,
+   "price": 1.27,
+   "outcome": "Houston Rockets",
+   "book": "Betfair",
+   "matchup": "Dallas Mavericks @ Houston Rockets",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
