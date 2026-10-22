@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-20T09:30:34.533629+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 12,
-  "capped": 0,
-  "best": {
-   "gap": -3.547,
-   "ev_pct": -0.55,
-   "threshold_pct": 3.0,
-   "price": 1.26,
-   "outcome": "Ekaterina Alexandrova",
-   "book": "Betfair",
-   "matchup": "Ekaterina Alexandrova @ Guo Hanyu",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-20T10:00:47.769041+00:00",
   "markets": 2,
   "markets_sharp": 2,
@@ -1261,6 +1243,24 @@
  },
  {
   "ts": "2026-10-22T09:00:45.258933+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 4,
+  "capped": 0,
+  "best": {
+   "gap": -3.517,
+   "ev_pct": -0.52,
+   "threshold_pct": 3.0,
+   "price": 1.14,
+   "outcome": "Elena Rybakina",
+   "book": "Betfair",
+   "matchup": "Polina Kudermetova @ Elena Rybakina",
+   "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-22T09:30:35.097294+00:00",
   "markets": 1,
   "markets_sharp": 1,
   "outcomes": 4,
