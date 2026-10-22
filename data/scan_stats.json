@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-20T23:00:45.827127+00:00",
-  "markets": 13,
-  "markets_sharp": 13,
-  "outcomes": 52,
-  "capped": 0,
-  "best": {
-   "gap": -3.712,
-   "ev_pct": -0.71,
-   "threshold_pct": 3.0,
-   "price": 1.37,
-   "outcome": "Carolina Hurricanes",
-   "book": "Betfair",
-   "matchup": "Carolina Hurricanes @ Vancouver Canucks",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-20T23:30:36.940922+00:00",
   "markets": 8,
   "markets_sharp": 7,
@@ -1293,6 +1275,24 @@
    "matchup": "Minnesota Wild @ Calgary Flames",
    "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-22T23:30:36.682752+00:00",
+  "markets": 10,
+  "markets_sharp": 9,
+  "outcomes": 40,
+  "capped": 0,
+  "best": {
+   "gap": -4.144,
+   "ev_pct": -2.52,
+   "threshold_pct": 1.62,
+   "price": 1.31,
+   "outcome": "Afghanistan",
+   "book": "Betfair",
+   "matchup": "Zimbabwe @ Afghanistan",
+   "sport_key": "cricket_odi",
+   "anchor": "retail_consensus"
   }
  }
 ]
