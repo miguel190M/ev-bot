@@ -1258,5 +1258,23 @@
    "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-22T20:30:34.295426+00:00",
+  "markets": 14,
+  "markets_sharp": 14,
+  "outcomes": 56,
+  "capped": 0,
+  "best": {
+   "gap": -3.89,
+   "ev_pct": -0.89,
+   "threshold_pct": 3.0,
+   "price": 1.56,
+   "outcome": "Dallas Stars",
+   "book": "Betfair",
+   "matchup": "Winnipeg Jets @ Dallas Stars",
+   "sport_key": "icehockey_nhl",
+   "anchor": "pinnacle"
+  }
  }
 ]
