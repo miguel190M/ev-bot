@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-20T10:00:47.769041+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 8,
-  "capped": 0,
-  "best": {
-   "gap": -2.967,
-   "ev_pct": 0.03,
-   "threshold_pct": 3.0,
-   "price": 1.38,
-   "outcome": "Daria Snigur",
-   "book": "Betfair",
-   "matchup": "Daria Snigur @ Katarzyna Kawa",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-20T10:30:35.873029+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 8,
-  "capped": 0,
-  "best": {
-   "gap": -2.967,
-   "ev_pct": 0.03,
-   "threshold_pct": 3.0,
-   "price": 1.38,
-   "outcome": "Daria Snigur",
-   "book": "Betfair",
-   "matchup": "Daria Snigur @ Katarzyna Kawa",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-20T11:00:44.204007+00:00",
   "markets": 3,
   "markets_sharp": 3,
@@ -1290,6 +1254,24 @@
    "price": 1.14,
    "outcome": "Elena Rybakina",
    "book": "Betfair",
+   "matchup": "Polina Kudermetova @ Elena Rybakina",
+   "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-22T10:30:35.916617+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 4,
+  "capped": 0,
+  "best": {
+   "gap": -3.658,
+   "ev_pct": -0.66,
+   "threshold_pct": 3.0,
+   "price": 1.13,
+   "outcome": "Elena Rybakina",
+   "book": "SportsBet",
    "matchup": "Polina Kudermetova @ Elena Rybakina",
    "sport_key": "tennis_wta_ningbo_open",
    "anchor": "pinnacle"
