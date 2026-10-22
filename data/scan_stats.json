@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-19T23:30:32.241122+00:00",
-  "markets": 4,
-  "markets_sharp": 4,
-  "outcomes": 16,
-  "capped": 0,
-  "best": {
-   "gap": -1.806,
-   "ev_pct": 1.19,
-   "threshold_pct": 3.0,
-   "price": 4.2,
-   "outcome": "Washington Commanders",
-   "book": "SportsBet",
-   "matchup": "Washington Commanders @ San Francisco 49ers",
-   "sport_key": "americanfootball_nfl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-20T00:00:42.655948+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 12,
-  "capped": 0,
-  "best": {
-   "gap": -1.667,
-   "ev_pct": 1.33,
-   "threshold_pct": 3.0,
-   "price": 4.2,
-   "outcome": "Washington Commanders",
-   "book": "SportsBet",
-   "matchup": "Washington Commanders @ San Francisco 49ers",
-   "sport_key": "americanfootball_nfl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-20T00:27:45.201551+00:00",
   "markets": 10,
   "markets_sharp": 8,
@@ -1292,6 +1256,24 @@
    "book": "SportsBet",
    "matchup": "Charlotte Hornets @ Brooklyn Nets",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-22T00:00:48.361167+00:00",
+  "markets": 14,
+  "markets_sharp": 12,
+  "outcomes": 55,
+  "capped": 0,
+  "best": {
+   "gap": -0.321,
+   "ev_pct": 2.68,
+   "threshold_pct": 3.0,
+   "price": 1.75,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_international_t20",
    "anchor": "pinnacle"
   }
  }
