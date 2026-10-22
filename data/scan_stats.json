@@ -1258,5 +1258,23 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-22T01:30:37.972203+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 12,
+  "capped": 0,
+  "best": {
+   "gap": -3.989,
+   "ev_pct": -0.99,
+   "threshold_pct": 3.0,
+   "price": 1.46,
+   "outcome": "Los Angeles Lakers",
+   "book": "SportsBet",
+   "matchup": "Golden State Warriors @ Los Angeles Lakers",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
