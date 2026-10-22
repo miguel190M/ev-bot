@@ -1,1 +1,10 @@
-{}
+{
+  "702cafd919aab57f47080d441ed5fbf7:sportsbet:Ireland": {
+    "ev_pct": 3.03,
+    "commence_time": "2026-10-22T08:00:00Z"
+  },
+  "702cafd919aab57f47080d441ed5fbf7:betfair_ex_au:Ireland": {
+    "ev_pct": 3.46,
+    "commence_time": "2026-10-22T08:00:00Z"
+  }
+}
