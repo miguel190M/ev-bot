@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-20T03:30:31.419963+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 28,
-  "capped": 0,
-  "best": {
-   "gap": -3.414,
-   "ev_pct": -0.41,
-   "threshold_pct": 3.0,
-   "price": 5.4,
-   "outcome": "Alycia Parks",
-   "book": "Betfair",
-   "matchup": "Alycia Parks @ Sara Bejlek",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-20T04:00:41.440775+00:00",
   "markets": 7,
   "markets_sharp": 7,
@@ -1261,6 +1243,24 @@
  },
  {
   "ts": "2026-10-22T03:00:48.959647+00:00",
+  "markets": 4,
+  "markets_sharp": 4,
+  "outcomes": 16,
+  "capped": 0,
+  "best": {
+   "gap": -3.517,
+   "ev_pct": -0.52,
+   "threshold_pct": 3.0,
+   "price": 1.14,
+   "outcome": "Elena Rybakina",
+   "book": "Betfair",
+   "matchup": "Polina Kudermetova @ Elena Rybakina",
+   "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-22T03:30:34.615598+00:00",
   "markets": 4,
   "markets_sharp": 4,
   "outcomes": 16,
