@@ -1258,5 +1258,23 @@
    "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-22T12:30:39.389246+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 4,
+  "capped": 0,
+  "best": {
+   "gap": -4.605,
+   "ev_pct": -1.61,
+   "threshold_pct": 3.0,
+   "price": 1.67,
+   "outcome": "Chicago Bears",
+   "book": "Betfair",
+   "matchup": "New England Patriots @ Chicago Bears",
+   "sport_key": "americanfootball_nfl",
+   "anchor": "pinnacle"
+  }
  }
 ]
