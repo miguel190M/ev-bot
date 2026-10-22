@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-20T13:00:58.734548+00:00",
-  "markets": 9,
-  "markets_sharp": 9,
-  "outcomes": 54,
-  "capped": 0,
-  "best": {
-   "gap": -3.856,
-   "ev_pct": -0.86,
-   "threshold_pct": 3.0,
-   "price": 1.14,
-   "outcome": "Manchester City",
-   "book": "Betfair",
-   "matchup": "AEK Athens @ Manchester City",
-   "sport_key": "soccer_uefa_champs_league",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-20T20:00:44.055026+00:00",
-  "markets": 17,
-  "markets_sharp": 15,
-  "outcomes": 67,
-  "capped": 0,
-  "best": {
-   "gap": -2.499,
-   "ev_pct": -0.8,
-   "threshold_pct": 1.7,
-   "price": 1.35,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Australia @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-20T20:30:37.656451+00:00",
   "markets": 13,
   "markets_sharp": 13,
@@ -1274,6 +1238,24 @@
    "book": "Betfair",
    "matchup": "New England Patriots @ Chicago Bears",
    "sport_key": "americanfootball_nfl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-22T20:00:51.302711+00:00",
+  "markets": 18,
+  "markets_sharp": 18,
+  "outcomes": 72,
+  "capped": 0,
+  "best": {
+   "gap": -4.831,
+   "ev_pct": -1.83,
+   "threshold_pct": 3.0,
+   "price": 1.85,
+   "outcome": "Vegas Golden Knights",
+   "book": "Betfair",
+   "matchup": "Vegas Golden Knights @ St Louis Blues",
+   "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
   }
  }

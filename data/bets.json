@@ -392,5 +392,28 @@
     "alerted_at": "2026-10-22T06:00:44.713270+00:00",
     "lead_hours": 1.0,
     "logged_at": "2026-10-22T08:30:35.247970+00:00"
+  },
+  "5442e-1": {
+    "event_id": "b5289e209ec08b95cb68588ddfe407c8",
+    "sport_key": "cricket_international_t20",
+    "commence_time": "2026-10-22T07:00:00Z",
+    "home_team": "New Zealand",
+    "away_team": "India",
+    "market_key": "h2h",
+    "bookmaker_title": "Betfair",
+    "outcome": "India",
+    "price": 1.83,
+    "commission": 0.06,
+    "ev_pct": 3.59,
+    "anchor": "pinnacle",
+    "sharp_disagreement": false,
+    "stake": 5.0,
+    "status": "open",
+    "profit": null,
+    "source": "live",
+    "bookmaker_key": "betfair_ex_au",
+    "alerted_at": "2026-10-22T06:00:44.713270+00:00",
+    "lead_hours": 1.0,
+    "logged_at": "2026-10-22T20:00:51.733208+00:00"
   }
 }
