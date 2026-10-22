@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-20T20:30:37.656451+00:00",
-  "markets": 13,
-  "markets_sharp": 13,
-  "outcomes": 52,
-  "capped": 0,
-  "best": {
-   "gap": -3.726,
-   "ev_pct": -0.73,
-   "threshold_pct": 3.0,
-   "price": 1.5,
-   "outcome": "Montr\u00e9al Canadiens",
-   "book": "Betfair",
-   "matchup": "San Jose Sharks @ Montr\u00e9al Canadiens",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-20T21:00:46.965827+00:00",
-  "markets": 13,
-  "markets_sharp": 13,
-  "outcomes": 52,
-  "capped": 0,
-  "best": {
-   "gap": -4.196,
-   "ev_pct": -1.2,
-   "threshold_pct": 3.0,
-   "price": 1.37,
-   "outcome": "Carolina Hurricanes",
-   "book": "Betfair",
-   "matchup": "Carolina Hurricanes @ Vancouver Canucks",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-20T21:30:36.078565+00:00",
   "markets": 13,
   "markets_sharp": 13,
@@ -1273,6 +1237,24 @@
    "outcome": "Dallas Stars",
    "book": "Betfair",
    "matchup": "Winnipeg Jets @ Dallas Stars",
+   "sport_key": "icehockey_nhl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-22T21:00:47.280199+00:00",
+  "markets": 15,
+  "markets_sharp": 15,
+  "outcomes": 62,
+  "capped": 0,
+  "best": {
+   "gap": -4.354,
+   "ev_pct": -1.35,
+   "threshold_pct": 3.0,
+   "price": 1.85,
+   "outcome": "Vegas Golden Knights",
+   "book": "Betfair",
+   "matchup": "Vegas Golden Knights @ St Louis Blues",
    "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
   }
