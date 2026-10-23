@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-21T23:00:45.039164+00:00",
-  "markets": 13,
-  "markets_sharp": 13,
-  "outcomes": 52,
-  "capped": 0,
-  "best": {
-   "gap": -2.634,
-   "ev_pct": 0.37,
-   "threshold_pct": 3.0,
-   "price": 1.89,
-   "outcome": "Charlotte Hornets",
-   "book": "SportsBet",
-   "matchup": "Charlotte Hornets @ Brooklyn Nets",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-22T00:00:48.361167+00:00",
   "markets": 14,
   "markets_sharp": 12,
@@ -1255,6 +1237,24 @@
    "outcome": "Golden State Warriors",
    "book": "SportsBet",
    "matchup": "Memphis Grizzlies @ Golden State Warriors",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-23T23:00:49.406296+00:00",
+  "markets": 14,
+  "markets_sharp": 14,
+  "outcomes": 56,
+  "capped": 0,
+  "best": {
+   "gap": -2.103,
+   "ev_pct": 0.9,
+   "threshold_pct": 3.0,
+   "price": 1.9,
+   "outcome": "Orlando Magic",
+   "book": "SportsBet",
+   "matchup": "Minnesota Timberwolves @ Orlando Magic",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
