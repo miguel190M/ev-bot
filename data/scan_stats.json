@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-21T10:30:45.181460+00:00",
-  "markets": 4,
-  "markets_sharp": 3,
-  "outcomes": 18,
-  "capped": 0,
-  "best": {
-   "gap": -3.653,
-   "ev_pct": 0.71,
-   "threshold_pct": 4.36,
-   "price": 2.68,
-   "outcome": "Bangladesh",
-   "book": "Betfair",
-   "matchup": "Bangladesh @ Afghanistan",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-10-21T11:00:49.812653+00:00",
-  "markets": 3,
-  "markets_sharp": 2,
-  "outcomes": 12,
-  "capped": 0,
-  "best": {
-   "gap": -3.653,
-   "ev_pct": 0.71,
-   "threshold_pct": 4.36,
-   "price": 2.68,
-   "outcome": "Bangladesh",
-   "book": "Betfair",
-   "matchup": "Bangladesh @ Afghanistan",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-21T12:00:48.567868+00:00",
   "markets": 3,
   "markets_sharp": 3,
@@ -1270,6 +1234,24 @@
    "ev_pct": -2.21,
    "threshold_pct": 1.58,
    "price": 1.29,
+   "outcome": "Afghanistan",
+   "book": "Betfair",
+   "matchup": "Zimbabwe @ Afghanistan",
+   "sport_key": "cricket_odi",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-23T11:00:51.357654+00:00",
+  "markets": 5,
+  "markets_sharp": 4,
+  "outcomes": 28,
+  "capped": 0,
+  "best": {
+   "gap": -3.137,
+   "ev_pct": -1.6,
+   "threshold_pct": 1.54,
+   "price": 1.27,
    "outcome": "Afghanistan",
    "book": "Betfair",
    "matchup": "Zimbabwe @ Afghanistan",
