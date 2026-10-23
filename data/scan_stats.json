@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-21T12:00:48.567868+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 12,
-  "capped": 0,
-  "best": {
-   "gap": -5.704,
-   "ev_pct": -2.7,
-   "threshold_pct": 3.0,
-   "price": 1.99,
-   "outcome": "Florida Panthers",
-   "book": "Betfair",
-   "matchup": "Florida Panthers @ Ottawa Senators",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-21T12:04:46.874718+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1288,6 +1270,24 @@
    "ev_pct": -1.25,
    "threshold_pct": 3.0,
    "price": 1.08,
+   "outcome": "Elena Rybakina",
+   "book": "Betfair",
+   "matchup": "Katarzyna Kawa @ Elena Rybakina",
+   "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-23T12:00:48.857770+00:00",
+  "markets": 2,
+  "markets_sharp": 2,
+  "outcomes": 8,
+  "capped": 0,
+  "best": {
+   "gap": -3.384,
+   "ev_pct": -0.38,
+   "threshold_pct": 3.0,
+   "price": 1.09,
    "outcome": "Elena Rybakina",
    "book": "Betfair",
    "matchup": "Katarzyna Kawa @ Elena Rybakina",
