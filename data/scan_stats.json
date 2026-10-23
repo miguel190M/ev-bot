@@ -1,59 +1,5 @@
 [
  {
-  "ts": "2026-10-21T12:30:40.935550+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 4,
-  "capped": 0,
-  "best": {
-   "gap": -5.923,
-   "ev_pct": -2.92,
-   "threshold_pct": 3.0,
-   "price": 2.44,
-   "outcome": "Ekaterina Alexandrova",
-   "book": "Betfair",
-   "matchup": "Marta Kostyuk @ Ekaterina Alexandrova",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-21T13:30:40.597796+00:00",
-  "markets": 9,
-  "markets_sharp": 9,
-  "outcomes": 54,
-  "capped": 0,
-  "best": {
-   "gap": -2.817,
-   "ev_pct": 0.18,
-   "threshold_pct": 3.0,
-   "price": 13.0,
-   "outcome": "Shakhtar Donetsk",
-   "book": "Betfair",
-   "matchup": "Shakhtar Donetsk @ Inter Milan",
-   "sport_key": "soccer_uefa_champs_league",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-21T20:00:45.497499+00:00",
-  "markets": 20,
-  "markets_sharp": 18,
-  "outcomes": 79,
-  "capped": 0,
-  "best": {
-   "gap": -0.887,
-   "ev_pct": 2.11,
-   "threshold_pct": 3.0,
-   "price": 1.74,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-21T20:30:35.675771+00:00",
   "markets": 11,
   "markets_sharp": 11,
@@ -1292,6 +1238,24 @@
    "book": "SportsBet",
    "matchup": "Toronto Raptors @ Washington Wizards",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-23T20:00:51.084459+00:00",
+  "markets": 20,
+  "markets_sharp": 20,
+  "outcomes": 84,
+  "capped": 0,
+  "best": {
+   "gap": 2.032,
+   "ev_pct": 5.03,
+   "threshold_pct": 3.0,
+   "price": 3.2,
+   "outcome": "Namibia",
+   "book": "Betfair",
+   "matchup": "Ireland @ Namibia",
+   "sport_key": "cricket_odi",
    "anchor": "pinnacle"
   }
  }
