@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-21T04:30:40.230202+00:00",
-  "markets": 4,
-  "markets_sharp": 3,
-  "outcomes": 16,
-  "capped": 0,
-  "best": {
-   "gap": -4.305,
-   "ev_pct": -2.83,
-   "threshold_pct": 1.48,
-   "price": 1.24,
-   "outcome": "Marie Bouzkova",
-   "book": "Betfair",
-   "matchup": "Anastasia Zakharova @ Marie Bouzkova",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-21T05:00:49.762148+00:00",
   "markets": 6,
   "markets_sharp": 5,
@@ -1261,6 +1243,24 @@
  },
  {
   "ts": "2026-10-23T04:30:34.506459+00:00",
+  "markets": 4,
+  "markets_sharp": 4,
+  "outcomes": 16,
+  "capped": 0,
+  "best": {
+   "gap": -2.659,
+   "ev_pct": 0.34,
+   "threshold_pct": 3.0,
+   "price": 1.08,
+   "outcome": "Elena Rybakina",
+   "book": "Betfair",
+   "matchup": "Katarzyna Kawa @ Elena Rybakina",
+   "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-23T05:00:44.866606+00:00",
   "markets": 4,
   "markets_sharp": 4,
   "outcomes": 16,
