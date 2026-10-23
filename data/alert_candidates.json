@@ -1,1 +1,24 @@
-{}
+{
+  "d4aa": {
+    "event_id": "8540b2b24fe0b2042a07c8c20452aead",
+    "sport_key": "basketball_nba",
+    "commence_time": "2026-10-23T23:10:00Z",
+    "home_team": "Washington Wizards",
+    "away_team": "Toronto Raptors",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Washington Wizards",
+    "price": 3.55,
+    "commission": 0.0,
+    "fair_probability": 0.3005,
+    "fair_odds": 3.327,
+    "ev_pct": 6.69,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.3005,
+    "consensus_probability": 0.2936,
+    "alerted_at": "2026-10-23T12:30:40.108208+00:00"
+  }
+}
