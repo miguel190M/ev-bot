@@ -1258,5 +1258,23 @@
    "sport_key": "tennis_wta_ningbo_open",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-23T07:00:47.506118+00:00",
+  "markets": 7,
+  "markets_sharp": 7,
+  "outcomes": 36,
+  "capped": 0,
+  "best": {
+   "gap": -2.615,
+   "ev_pct": 0.38,
+   "threshold_pct": 3.0,
+   "price": 1.08,
+   "outcome": "Elena Rybakina",
+   "book": "Betfair",
+   "matchup": "Katarzyna Kawa @ Elena Rybakina",
+   "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
  }
 ]
