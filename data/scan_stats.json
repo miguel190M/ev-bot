@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-21T05:30:35.387781+00:00",
-  "markets": 4,
-  "markets_sharp": 3,
-  "outcomes": 15,
-  "capped": 0,
-  "best": {
-   "gap": -1.688,
-   "ev_pct": 0.01,
-   "threshold_pct": 1.7,
-   "price": 1.35,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Australia @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-21T06:00:56.324959+00:00",
   "markets": 5,
   "markets_sharp": 4,
@@ -1252,6 +1234,24 @@
    "ev_pct": 0.34,
    "threshold_pct": 3.0,
    "price": 1.08,
+   "outcome": "Elena Rybakina",
+   "book": "Betfair",
+   "matchup": "Katarzyna Kawa @ Elena Rybakina",
+   "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-23T05:30:37.276582+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 12,
+  "capped": 0,
+  "best": {
+   "gap": -3.022,
+   "ev_pct": -0.02,
+   "threshold_pct": 3.0,
+   "price": 1.07,
    "outcome": "Elena Rybakina",
    "book": "Betfair",
    "matchup": "Katarzyna Kawa @ Elena Rybakina",
