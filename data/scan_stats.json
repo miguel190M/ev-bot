@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-21T08:30:38.768705+00:00",
-  "markets": 3,
-  "markets_sharp": 2,
-  "outcomes": 12,
-  "capped": 0,
-  "best": {
-   "gap": -2.378,
-   "ev_pct": 0.62,
-   "threshold_pct": 3.0,
-   "price": 2.83,
-   "outcome": "Sara Bejlek",
-   "book": "SportsBet",
-   "matchup": "Sara Bejlek @ Sorana Cirstea",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-21T09:00:43.869698+00:00",
-  "markets": 3,
-  "markets_sharp": 1,
-  "outcomes": 12,
-  "capped": 0,
-  "best": {
-   "gap": -3.515,
-   "ev_pct": -1.44,
-   "threshold_pct": 2.08,
-   "price": 1.54,
-   "outcome": "Sorana Cirstea",
-   "book": "Betfair",
-   "matchup": "Sara Bejlek @ Sorana Cirstea",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-21T09:30:37.743869+00:00",
   "markets": 12,
   "markets_sharp": 11,
@@ -1264,6 +1228,24 @@
   "markets": 5,
   "markets_sharp": 4,
   "outcomes": 22,
+  "capped": 0,
+  "best": {
+   "gap": -2.615,
+   "ev_pct": 0.38,
+   "threshold_pct": 3.0,
+   "price": 1.08,
+   "outcome": "Elena Rybakina",
+   "book": "Betfair",
+   "matchup": "Katarzyna Kawa @ Elena Rybakina",
+   "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-23T09:00:47.956721+00:00",
+  "markets": 3,
+  "markets_sharp": 2,
+  "outcomes": 12,
   "capped": 0,
   "best": {
    "gap": -2.615,
