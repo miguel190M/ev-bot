@@ -1,59 +1,5 @@
 [
  {
-  "ts": "2026-10-20T23:30:36.940922+00:00",
-  "markets": 8,
-  "markets_sharp": 7,
-  "outcomes": 32,
-  "capped": 0,
-  "best": {
-   "gap": -3.494,
-   "ev_pct": -1.25,
-   "threshold_pct": 2.24,
-   "price": 1.62,
-   "outcome": "Afghanistan",
-   "book": "SportsBet",
-   "matchup": "Bangladesh @ Afghanistan",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-10-20T23:58:39.867567+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 28,
-  "capped": 0,
-  "best": {
-   "gap": -4.592,
-   "ev_pct": -1.59,
-   "threshold_pct": 3.0,
-   "price": 1.66,
-   "outcome": "Dallas Stars",
-   "book": "Betfair",
-   "matchup": "Boston Bruins @ Dallas Stars",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-21T00:00:46.794612+00:00",
-  "markets": 12,
-  "markets_sharp": 10,
-  "outcomes": 47,
-  "capped": 0,
-  "best": {
-   "gap": -1.688,
-   "ev_pct": 0.01,
-   "threshold_pct": 1.7,
-   "price": 1.35,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Australia @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-21T00:30:34.247099+00:00",
   "markets": 5,
   "markets_sharp": 5,
@@ -1293,6 +1239,24 @@
    "matchup": "Zimbabwe @ Afghanistan",
    "sport_key": "cricket_odi",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-23T00:00:51.828227+00:00",
+  "markets": 12,
+  "markets_sharp": 12,
+  "outcomes": 48,
+  "capped": 0,
+  "best": {
+   "gap": -3.202,
+   "ev_pct": -0.2,
+   "threshold_pct": 3.0,
+   "price": 1.08,
+   "outcome": "Elena Rybakina",
+   "book": "Betfair",
+   "matchup": "Katarzyna Kawa @ Elena Rybakina",
+   "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
   }
  }
 ]
