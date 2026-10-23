@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-21T02:00:44.628558+00:00",
-  "markets": 6,
-  "markets_sharp": 5,
-  "outcomes": 24,
-  "capped": 0,
-  "best": {
-   "gap": -2.112,
-   "ev_pct": -0.09,
-   "threshold_pct": 2.02,
-   "price": 1.51,
-   "outcome": "Sorana Cirstea",
-   "book": "Betfair",
-   "matchup": "Sara Bejlek @ Sorana Cirstea",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-21T02:30:33.939752+00:00",
   "markets": 5,
   "markets_sharp": 5,
@@ -1256,6 +1238,24 @@
    "book": "SportsBet",
    "matchup": "Denver Nuggets @ Oklahoma City Thunder",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-23T02:00:45.607279+00:00",
+  "markets": 6,
+  "markets_sharp": 6,
+  "outcomes": 24,
+  "capped": 0,
+  "best": {
+   "gap": -3.202,
+   "ev_pct": -0.2,
+   "threshold_pct": 3.0,
+   "price": 1.08,
+   "outcome": "Elena Rybakina",
+   "book": "Betfair",
+   "matchup": "Katarzyna Kawa @ Elena Rybakina",
+   "sport_key": "tennis_wta_ningbo_open",
    "anchor": "pinnacle"
   }
  }
