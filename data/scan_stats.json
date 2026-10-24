@@ -1294,5 +1294,23 @@
    "sport_key": "soccer_spain_la_liga",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-24T11:19:13.763277+00:00",
+  "markets": 32,
+  "markets_sharp": 32,
+  "outcomes": 148,
+  "capped": 0,
+  "best": {
+   "gap": -3.352,
+   "ev_pct": -0.35,
+   "threshold_pct": 3.0,
+   "price": 1.56,
+   "outcome": "Azamat Murzakanov",
+   "book": "Betfair",
+   "matchup": "Dominick Reyes @ Azamat Murzakanov",
+   "sport_key": "mma_mixed_martial_arts",
+   "anchor": "pinnacle"
+  }
  }
 ]
