@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-22T22:30:35.233527+00:00",
-  "markets": 15,
-  "markets_sharp": 15,
-  "outcomes": 60,
-  "capped": 0,
-  "best": {
-   "gap": -5.005,
-   "ev_pct": -2.0,
-   "threshold_pct": 3.0,
-   "price": 1.51,
-   "outcome": "New Jersey Devils",
-   "book": "Betfair",
-   "matchup": "Anaheim Ducks @ New Jersey Devils",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-22T23:00:45.615419+00:00",
   "markets": 15,
   "markets_sharp": 15,
@@ -1379,6 +1361,24 @@
    "threshold_pct": 3.0,
    "price": 2.68,
    "outcome": "Emanuel Navarrete",
+   "book": "Betfair",
+   "matchup": "O'Shaquie Foster @ Emanuel Navarrete",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-24T23:00:43.717287+00:00",
+  "markets": 23,
+  "markets_sharp": 21,
+  "outcomes": 102,
+  "capped": 0,
+  "best": {
+   "gap": -0.418,
+   "ev_pct": 2.58,
+   "threshold_pct": 3.0,
+   "price": 1.71,
+   "outcome": "O'Shaquie Foster",
    "book": "Betfair",
    "matchup": "O'Shaquie Foster @ Emanuel Navarrete",
    "sport_key": "boxing_boxing",
