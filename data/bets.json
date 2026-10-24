@@ -467,7 +467,7 @@
     "lead_hours": 12.0,
     "logged_at": "2026-10-24T04:30:32.920012+00:00",
     "closing_fair_odds": 1.307,
-    "closing_captured_at": "2026-10-24T12:30:37.935643+00:00"
+    "closing_captured_at": "2026-10-24T13:00:52.598038+00:00"
   },
   "976b": {
     "event_id": "56544150757b70b079e3041fee3eeed2",
@@ -492,6 +492,6 @@
     "lead_hours": 7.5,
     "logged_at": "2026-10-24T09:00:42.451708+00:00",
     "closing_fair_odds": 1.096,
-    "closing_captured_at": "2026-10-24T12:30:37.935643+00:00"
+    "closing_captured_at": "2026-10-24T13:00:52.598038+00:00"
   }
 }
