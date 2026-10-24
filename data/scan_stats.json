@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-22T03:00:48.959647+00:00",
-  "markets": 4,
-  "markets_sharp": 4,
-  "outcomes": 16,
-  "capped": 0,
-  "best": {
-   "gap": -3.517,
-   "ev_pct": -0.52,
-   "threshold_pct": 3.0,
-   "price": 1.14,
-   "outcome": "Elena Rybakina",
-   "book": "Betfair",
-   "matchup": "Polina Kudermetova @ Elena Rybakina",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-22T03:30:34.615598+00:00",
   "markets": 4,
   "markets_sharp": 4,
@@ -1291,6 +1273,24 @@
    "outcome": "Bolaji Oki",
    "book": "Betfair",
    "matchup": "Daniel Santos @ Bolaji Oki",
+   "sport_key": "mma_mixed_martial_arts",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-24T03:30:31.779337+00:00",
+  "markets": 7,
+  "markets_sharp": 7,
+  "outcomes": 26,
+  "capped": 0,
+  "best": {
+   "gap": -3.873,
+   "ev_pct": -0.87,
+   "threshold_pct": 3.0,
+   "price": 1.27,
+   "outcome": "Iasmin Lucindo",
+   "book": "Betfair",
+   "matchup": "Nicolle Caliari @ Iasmin Lucindo",
    "sport_key": "mma_mixed_martial_arts",
    "anchor": "pinnacle"
   }
