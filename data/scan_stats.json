@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-22T10:30:35.916617+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 4,
-  "capped": 0,
-  "best": {
-   "gap": -3.658,
-   "ev_pct": -0.66,
-   "threshold_pct": 3.0,
-   "price": 1.13,
-   "outcome": "Elena Rybakina",
-   "book": "SportsBet",
-   "matchup": "Polina Kudermetova @ Elena Rybakina",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-22T11:30:37.286412+00:00",
   "markets": 6,
   "markets_sharp": 6,
@@ -1292,6 +1274,24 @@
    "book": "Betfair",
    "matchup": "Everton @ Arsenal",
    "sport_key": "soccer_epl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-24T11:00:46.445824+00:00",
+  "markets": 18,
+  "markets_sharp": 18,
+  "outcomes": 108,
+  "capped": 0,
+  "best": {
+   "gap": -2.535,
+   "ev_pct": 0.47,
+   "threshold_pct": 3.0,
+   "price": 6.8,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Deportivo La Coru\u00f1a @ Atl\u00e9tico Madrid",
+   "sport_key": "soccer_spain_la_liga",
    "anchor": "pinnacle"
   }
  }
