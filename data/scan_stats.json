@@ -1366,5 +1366,23 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-24T22:30:32.222324+00:00",
+  "markets": 21,
+  "markets_sharp": 20,
+  "outcomes": 90,
+  "capped": 0,
+  "best": {
+   "gap": 0.505,
+   "ev_pct": 3.5,
+   "threshold_pct": 3.0,
+   "price": 2.68,
+   "outcome": "Emanuel Navarrete",
+   "book": "Betfair",
+   "matchup": "O'Shaquie Foster @ Emanuel Navarrete",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
