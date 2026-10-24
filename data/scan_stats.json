@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-22T23:00:45.615419+00:00",
-  "markets": 15,
-  "markets_sharp": 15,
-  "outcomes": 60,
-  "capped": 0,
-  "best": {
-   "gap": -4.473,
-   "ev_pct": -1.47,
-   "threshold_pct": 3.0,
-   "price": 1.53,
-   "outcome": "Minnesota Wild",
-   "book": "Betfair",
-   "matchup": "Minnesota Wild @ Calgary Flames",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-22T23:30:36.682752+00:00",
   "markets": 10,
   "markets_sharp": 9,
@@ -1376,6 +1358,24 @@
   "best": {
    "gap": -0.418,
    "ev_pct": 2.58,
+   "threshold_pct": 3.0,
+   "price": 1.71,
+   "outcome": "O'Shaquie Foster",
+   "book": "Betfair",
+   "matchup": "O'Shaquie Foster @ Emanuel Navarrete",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-24T23:26:14.003983+00:00",
+  "markets": 16,
+  "markets_sharp": 14,
+  "outcomes": 74,
+  "capped": 0,
+  "best": {
+   "gap": -0.281,
+   "ev_pct": 2.72,
    "threshold_pct": 3.0,
    "price": 1.71,
    "outcome": "O'Shaquie Foster",
