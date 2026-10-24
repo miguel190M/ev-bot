@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-22T05:30:35.520646+00:00",
-  "markets": 7,
-  "markets_sharp": 5,
-  "outcomes": 27,
-  "capped": 0,
-  "best": {
-   "gap": 1.685,
-   "ev_pct": 4.68,
-   "threshold_pct": 3.0,
-   "price": 1.85,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-22T06:00:44.711755+00:00",
-  "markets": 7,
-  "markets_sharp": 5,
-  "outcomes": 27,
-  "capped": 0,
-  "best": {
-   "gap": 0.591,
-   "ev_pct": 3.59,
-   "threshold_pct": 3.0,
-   "price": 1.83,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-22T06:30:33.774091+00:00",
   "markets": 6,
   "markets_sharp": 4,
@@ -1292,6 +1256,24 @@
    "book": "SportsBet",
    "matchup": "Diana Shnaider @ Elena Rybakina",
    "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-24T06:00:44.946895+00:00",
+  "markets": 11,
+  "markets_sharp": 11,
+  "outcomes": 58,
+  "capped": 0,
+  "best": {
+   "gap": -3.757,
+   "ev_pct": -0.76,
+   "threshold_pct": 3.0,
+   "price": 1.47,
+   "outcome": "RB Leipzig",
+   "book": "Betfair",
+   "matchup": "Elversberg @ RB Leipzig",
+   "sport_key": "soccer_germany_bundesliga",
    "anchor": "pinnacle"
   }
  }
