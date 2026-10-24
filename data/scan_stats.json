@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-22T05:00:47.319364+00:00",
-  "markets": 7,
-  "markets_sharp": 5,
-  "outcomes": 27,
-  "capped": 0,
-  "best": {
-   "gap": -2.11,
-   "ev_pct": -0.73,
-   "threshold_pct": 1.38,
-   "price": 1.19,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Australia @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-10-22T05:04:49.468592+00:00",
-  "markets": 7,
-  "markets_sharp": 5,
-  "outcomes": 27,
-  "capped": 0,
-  "best": {
-   "gap": -2.11,
-   "ev_pct": -0.73,
-   "threshold_pct": 1.38,
-   "price": 1.19,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Australia @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-22T05:30:35.520646+00:00",
   "markets": 7,
   "markets_sharp": 5,
@@ -1310,6 +1274,24 @@
    "book": "Betfair",
    "matchup": "Ireland @ Namibia",
    "sport_key": "cricket_odi",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-24T05:30:34.006704+00:00",
+  "markets": 9,
+  "markets_sharp": 9,
+  "outcomes": 46,
+  "capped": 0,
+  "best": {
+   "gap": -4.232,
+   "ev_pct": -1.23,
+   "threshold_pct": 3.0,
+   "price": 2.74,
+   "outcome": "Diana Shnaider",
+   "book": "SportsBet",
+   "matchup": "Diana Shnaider @ Elena Rybakina",
+   "sport_key": "tennis_wta_ningbo_open",
    "anchor": "pinnacle"
   }
  }
