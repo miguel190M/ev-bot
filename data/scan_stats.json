@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-22T11:30:37.286412+00:00",
-  "markets": 6,
-  "markets_sharp": 6,
-  "outcomes": 24,
-  "capped": 0,
-  "best": {
-   "gap": -3.683,
-   "ev_pct": -0.68,
-   "threshold_pct": 3.0,
-   "price": 1.77,
-   "outcome": "Ottawa Senators",
-   "book": "SportsBet",
-   "matchup": "San Jose Sharks @ Ottawa Senators",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-22T12:30:39.389246+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1318,6 +1300,24 @@
   "markets": 31,
   "markets_sharp": 31,
   "outcomes": 142,
+  "capped": 0,
+  "best": {
+   "gap": -3.352,
+   "ev_pct": -0.35,
+   "threshold_pct": 3.0,
+   "price": 1.56,
+   "outcome": "Azamat Murzakanov",
+   "book": "Betfair",
+   "matchup": "Dominick Reyes @ Azamat Murzakanov",
+   "sport_key": "mma_mixed_martial_arts",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-24T12:01:06.354716+00:00",
+  "markets": 28,
+  "markets_sharp": 28,
+  "outcomes": 122,
   "capped": 0,
   "best": {
    "gap": -3.352,
