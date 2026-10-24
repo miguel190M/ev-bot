@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-22T02:00:44.499006+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 28,
-  "capped": 0,
-  "best": {
-   "gap": -2.043,
-   "ev_pct": 0.96,
-   "threshold_pct": 3.0,
-   "price": 1.13,
-   "outcome": "Elena Rybakina",
-   "book": "SportsBet",
-   "matchup": "Polina Kudermetova @ Elena Rybakina",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-22T02:30:32.794646+00:00",
-  "markets": 5,
-  "markets_sharp": 5,
-  "outcomes": 20,
-  "capped": 0,
-  "best": {
-   "gap": -3.517,
-   "ev_pct": -0.52,
-   "threshold_pct": 3.0,
-   "price": 1.14,
-   "outcome": "Elena Rybakina",
-   "book": "Betfair",
-   "matchup": "Polina Kudermetova @ Elena Rybakina",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-22T03:00:48.959647+00:00",
   "markets": 4,
   "markets_sharp": 4,
@@ -1282,6 +1246,24 @@
   "markets": 6,
   "markets_sharp": 6,
   "outcomes": 30,
+  "capped": 0,
+  "best": {
+   "gap": -3.712,
+   "ev_pct": -0.71,
+   "threshold_pct": 3.0,
+   "price": 2.15,
+   "outcome": "Newcastle Jets FC",
+   "book": "SportsBet",
+   "matchup": "Macarthur FC @ Newcastle Jets FC",
+   "sport_key": "soccer_australia_aleague",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-24T02:30:38.539053+00:00",
+  "markets": 5,
+  "markets_sharp": 5,
+  "outcomes": 22,
   "capped": 0,
   "best": {
    "gap": -3.712,
