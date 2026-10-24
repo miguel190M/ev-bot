@@ -1,10 +1,18 @@
 {
   "0d58a165c605e8a78daa0c3d12944c7f:sportsbet:Shannon Ryan": {
-    "ev_pct": 4.62,
+    "ev_pct": 7.08,
     "commence_time": "2026-10-24T16:00:00Z"
   },
   "56544150757b70b079e3041fee3eeed2:betfair_ex_au:Giorgio Visoli": {
     "ev_pct": 3.25,
     "commence_time": "2026-10-24T16:00:00Z"
+  },
+  "0d58a165c605e8a78daa0c3d12944c7f:betfair_ex_au:Shannon Ryan": {
+    "ev_pct": 3.8,
+    "commence_time": "2026-10-24T16:00:00Z"
+  },
+  "fb9ea10f4a87c141442c75727e617956:betfair_ex_au:Dalton Smith": {
+    "ev_pct": 4.92,
+    "commence_time": "2026-10-24T21:00:00Z"
   }
 }

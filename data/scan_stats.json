@@ -1330,5 +1330,23 @@
    "sport_key": "mma_mixed_martial_arts",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-24T12:30:36.060605+00:00",
+  "markets": 34,
+  "markets_sharp": 33,
+  "outcomes": 157,
+  "capped": 1,
+  "best": {
+   "gap": 4.077,
+   "ev_pct": 7.08,
+   "threshold_pct": 3.0,
+   "price": 1.4,
+   "outcome": "Shannon Ryan",
+   "book": "SportsBet",
+   "matchup": "Emma Dolan @ Shannon Ryan",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
