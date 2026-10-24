@@ -1,59 +1,5 @@
 [
  {
-  "ts": "2026-10-22T21:30:35.333487+00:00",
-  "markets": 15,
-  "markets_sharp": 15,
-  "outcomes": 60,
-  "capped": 0,
-  "best": {
-   "gap": -4.122,
-   "ev_pct": -1.12,
-   "threshold_pct": 3.0,
-   "price": 2.21,
-   "outcome": "Cleveland Cavaliers",
-   "book": "SportsBet",
-   "matchup": "Cleveland Cavaliers @ Philadelphia 76ers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-22T21:46:28.003540+00:00",
-  "markets": 15,
-  "markets_sharp": 15,
-  "outcomes": 60,
-  "capped": 0,
-  "best": {
-   "gap": -4.426,
-   "ev_pct": -1.43,
-   "threshold_pct": 3.0,
-   "price": 2.28,
-   "outcome": "Cleveland Cavaliers",
-   "book": "Betfair",
-   "matchup": "Cleveland Cavaliers @ Philadelphia 76ers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-22T22:00:45.127148+00:00",
-  "markets": 15,
-  "markets_sharp": 15,
-  "outcomes": 60,
-  "capped": 0,
-  "best": {
-   "gap": -4.122,
-   "ev_pct": -1.12,
-   "threshold_pct": 3.0,
-   "price": 2.21,
-   "outcome": "Cleveland Cavaliers",
-   "book": "SportsBet",
-   "matchup": "Cleveland Cavaliers @ Philadelphia 76ers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-22T22:30:35.233527+00:00",
   "markets": 15,
   "markets_sharp": 15,
@@ -1400,6 +1346,24 @@
    "book": "SportsBet",
    "matchup": "Golden State Warriors @ Phoenix Suns",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-24T22:00:45.537301+00:00",
+  "markets": 22,
+  "markets_sharp": 21,
+  "outcomes": 94,
+  "capped": 0,
+  "best": {
+   "gap": 0.505,
+   "ev_pct": 3.5,
+   "threshold_pct": 3.0,
+   "price": 2.68,
+   "outcome": "Emanuel Navarrete",
+   "book": "Betfair",
+   "matchup": "O'Shaquie Foster @ Emanuel Navarrete",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
