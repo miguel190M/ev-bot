@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-22T07:00:48.287798+00:00",
-  "markets": 5,
-  "markets_sharp": 3,
-  "outcomes": 19,
-  "capped": 0,
-  "best": {
-   "gap": -2.338,
-   "ev_pct": -0.96,
-   "threshold_pct": 1.38,
-   "price": 1.19,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Australia @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-10-22T07:30:37.087329+00:00",
-  "markets": 5,
-  "markets_sharp": 3,
-  "outcomes": 19,
-  "capped": 0,
-  "best": {
-   "gap": 0.464,
-   "ev_pct": 3.46,
-   "threshold_pct": 3.0,
-   "price": 1.56,
-   "outcome": "Ireland",
-   "book": "Betfair",
-   "matchup": "Ireland @ Namibia",
-   "sport_key": "cricket_odi",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-22T08:00:44.418748+00:00",
   "markets": 2,
   "markets_sharp": 2,
@@ -1292,6 +1256,24 @@
    "book": "Betfair",
    "matchup": "Diana Shnaider @ Elena Rybakina",
    "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-24T07:30:37.420127+00:00",
+  "markets": 14,
+  "markets_sharp": 14,
+  "outcomes": 42,
+  "capped": 0,
+  "best": {
+   "gap": -3.239,
+   "ev_pct": -0.24,
+   "threshold_pct": 3.0,
+   "price": 1.21,
+   "outcome": "Abdulrakhman Yakhyaev",
+   "book": "Betfair",
+   "matchup": "Abdulrakhman Yakhyaev @ Nikita Krylov",
+   "sport_key": "mma_mixed_martial_arts",
    "anchor": "pinnacle"
   }
  }
