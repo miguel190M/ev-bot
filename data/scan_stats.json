@@ -1276,5 +1276,23 @@
    "sport_key": "soccer_australia_aleague",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-24T01:30:34.804611+00:00",
+  "markets": 13,
+  "markets_sharp": 13,
+  "outcomes": 68,
+  "capped": 0,
+  "best": {
+   "gap": -3.412,
+   "ev_pct": -0.41,
+   "threshold_pct": 3.0,
+   "price": 1.27,
+   "outcome": "Portland Trail Blazers",
+   "book": "Betfair",
+   "matchup": "Portland Trail Blazers @ Sacramento Kings",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
