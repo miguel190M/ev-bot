@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-22T03:30:34.615598+00:00",
-  "markets": 4,
-  "markets_sharp": 4,
-  "outcomes": 16,
-  "capped": 0,
-  "best": {
-   "gap": -3.517,
-   "ev_pct": -0.52,
-   "threshold_pct": 3.0,
-   "price": 1.14,
-   "outcome": "Elena Rybakina",
-   "book": "Betfair",
-   "matchup": "Polina Kudermetova @ Elena Rybakina",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-22T04:00:41.290891+00:00",
-  "markets": 5,
-  "markets_sharp": 5,
-  "outcomes": 20,
-  "capped": 0,
-  "best": {
-   "gap": -3.238,
-   "ev_pct": -0.24,
-   "threshold_pct": 3.0,
-   "price": 1.76,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-22T04:30:35.765575+00:00",
   "markets": 8,
   "markets_sharp": 6,
@@ -1292,6 +1256,24 @@
    "book": "Betfair",
    "matchup": "Nicolle Caliari @ Iasmin Lucindo",
    "sport_key": "mma_mixed_martial_arts",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-24T04:00:43.816289+00:00",
+  "markets": 10,
+  "markets_sharp": 10,
+  "outcomes": 54,
+  "capped": 0,
+  "best": {
+   "gap": 1.615,
+   "ev_pct": 4.62,
+   "threshold_pct": 3.0,
+   "price": 1.4,
+   "outcome": "Shannon Ryan",
+   "book": "SportsBet",
+   "matchup": "Emma Dolan @ Shannon Ryan",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }

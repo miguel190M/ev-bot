@@ -111,5 +111,27 @@
     "consensus_probability": 0.7082,
     "source": "daily_digest",
     "alerted_at": "2026-10-23T22:00:48.471387+00:00"
+  },
+  "ad258": {
+    "event_id": "0d58a165c605e8a78daa0c3d12944c7f",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-10-24T16:00:00Z",
+    "home_team": "Shannon Ryan",
+    "away_team": "Emma Dolan",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Shannon Ryan",
+    "price": 1.4,
+    "commission": 0.0,
+    "fair_probability": 0.7473,
+    "fair_odds": 1.338,
+    "ev_pct": 4.62,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.7473,
+    "consensus_probability": 0.7036,
+    "alerted_at": "2026-10-24T04:00:43.817529+00:00"
   }
 }
