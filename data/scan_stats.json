@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-22T23:30:36.682752+00:00",
-  "markets": 10,
-  "markets_sharp": 9,
-  "outcomes": 40,
-  "capped": 0,
-  "best": {
-   "gap": -4.144,
-   "ev_pct": -2.52,
-   "threshold_pct": 1.62,
-   "price": 1.31,
-   "outcome": "Afghanistan",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-23T00:00:51.828227+00:00",
   "markets": 12,
   "markets_sharp": 12,
@@ -1400,6 +1382,24 @@
    "book": "Betfair",
    "matchup": "O'Shaquie Foster @ Emanuel Navarrete",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-25T00:00:44.743852+00:00",
+  "markets": 14,
+  "markets_sharp": 12,
+  "outcomes": 66,
+  "capped": 0,
+  "best": {
+   "gap": -0.617,
+   "ev_pct": 2.38,
+   "threshold_pct": 3.0,
+   "price": 5.0,
+   "outcome": "New Orleans Pelicans",
+   "book": "SportsBet",
+   "matchup": "New Orleans Pelicans @ Denver Nuggets",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
