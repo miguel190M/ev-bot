@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-23T05:00:44.866606+00:00",
-  "markets": 4,
-  "markets_sharp": 4,
-  "outcomes": 16,
-  "capped": 0,
-  "best": {
-   "gap": -2.659,
-   "ev_pct": 0.34,
-   "threshold_pct": 3.0,
-   "price": 1.08,
-   "outcome": "Elena Rybakina",
-   "book": "Betfair",
-   "matchup": "Katarzyna Kawa @ Elena Rybakina",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-23T05:04:51.332516+00:00",
-  "markets": 4,
-  "markets_sharp": 4,
-  "outcomes": 18,
-  "capped": 0,
-  "best": {
-   "gap": -2.659,
-   "ev_pct": 0.34,
-   "threshold_pct": 3.0,
-   "price": 1.08,
-   "outcome": "Elena Rybakina",
-   "book": "Betfair",
-   "matchup": "Katarzyna Kawa @ Elena Rybakina",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-23T05:30:37.276582+00:00",
   "markets": 3,
   "markets_sharp": 3,
@@ -1419,6 +1383,24 @@
    "matchup": "England @ Pakistan",
    "sport_key": "cricket_odi",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-25T05:30:35.353407+00:00",
+  "markets": 13,
+  "markets_sharp": 12,
+  "outcomes": 58,
+  "capped": 0,
+  "best": {
+   "gap": -3.809,
+   "ev_pct": -0.81,
+   "threshold_pct": 3.0,
+   "price": 1.33,
+   "outcome": "Elena Rybakina",
+   "book": "Betfair",
+   "matchup": "Leylah Fernandez @ Elena Rybakina",
+   "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
   }
  }
 ]
