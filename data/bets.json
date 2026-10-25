@@ -493,5 +493,30 @@
     "logged_at": "2026-10-24T09:00:42.451708+00:00",
     "closing_fair_odds": 1.096,
     "closing_captured_at": "2026-10-24T15:30:34.635301+00:00"
+  },
+  "1cf4": {
+    "event_id": "00e02808324905e97705bbdc1d2a00ac",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-10-25T04:00:00Z",
+    "home_team": "Emanuel Navarrete",
+    "away_team": "O'Shaquie Foster",
+    "market_key": "h2h",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Emanuel Navarrete",
+    "price": 2.45,
+    "commission": 0.0,
+    "ev_pct": 6.12,
+    "anchor": "pinnacle",
+    "sharp_disagreement": false,
+    "stake": 10.0,
+    "status": "open",
+    "profit": null,
+    "source": "live",
+    "bookmaker_key": "sportsbet",
+    "alerted_at": "2026-10-25T00:30:34.741395+00:00",
+    "lead_hours": 3.5,
+    "logged_at": "2026-10-25T03:30:32.972825+00:00",
+    "closing_fair_odds": 6.95,
+    "closing_captured_at": "2026-10-25T03:30:33.638403+00:00"
   }
 }
