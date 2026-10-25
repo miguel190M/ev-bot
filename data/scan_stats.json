@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-23T09:00:47.956721+00:00",
-  "markets": 3,
-  "markets_sharp": 2,
-  "outcomes": 12,
-  "capped": 0,
-  "best": {
-   "gap": -2.615,
-   "ev_pct": 0.38,
-   "threshold_pct": 3.0,
-   "price": 1.08,
-   "outcome": "Elena Rybakina",
-   "book": "Betfair",
-   "matchup": "Katarzyna Kawa @ Elena Rybakina",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-23T09:30:42.927929+00:00",
   "markets": 2,
   "markets_sharp": 1,
@@ -1399,6 +1381,24 @@
    "outcome": "Inter Milan",
    "book": "Betfair",
    "matchup": "Fiorentina @ Inter Milan",
+   "sport_key": "soccer_italy_serie_a",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-25T09:30:31.582055+00:00",
+  "markets": 6,
+  "markets_sharp": 6,
+  "outcomes": 34,
+  "capped": 0,
+  "best": {
+   "gap": -2.083,
+   "ev_pct": 0.92,
+   "threshold_pct": 3.0,
+   "price": 6.75,
+   "outcome": "Lecce",
+   "book": "SportsBet",
+   "matchup": "Juventus @ Lecce",
    "sport_key": "soccer_italy_serie_a",
    "anchor": "pinnacle"
   }
