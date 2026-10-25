@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-23T06:30:37.852425+00:00",
-  "markets": 5,
-  "markets_sharp": 5,
-  "outcomes": 24,
-  "capped": 0,
-  "best": {
-   "gap": -2.337,
-   "ev_pct": 0.66,
-   "threshold_pct": 3.0,
-   "price": 1.08,
-   "outcome": "Elena Rybakina",
-   "book": "Betfair",
-   "matchup": "Katarzyna Kawa @ Elena Rybakina",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-23T07:00:47.506118+00:00",
   "markets": 7,
   "markets_sharp": 7,
@@ -1400,6 +1382,24 @@
    "book": "Betfair",
    "matchup": "Bayern Munich @ SC Freiburg",
    "sport_key": "soccer_germany_bundesliga",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-25T07:00:44.347752+00:00",
+  "markets": 3,
+  "markets_sharp": 2,
+  "outcomes": 12,
+  "capped": 0,
+  "best": {
+   "gap": -4.498,
+   "ev_pct": -1.5,
+   "threshold_pct": 3.0,
+   "price": 1.33,
+   "outcome": "Elena Rybakina",
+   "book": "Betfair",
+   "matchup": "Leylah Fernandez @ Elena Rybakina",
+   "sport_key": "tennis_wta_ningbo_open",
    "anchor": "pinnacle"
   }
  }
