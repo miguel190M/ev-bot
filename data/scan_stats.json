@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-23T07:00:47.506118+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 36,
-  "capped": 0,
-  "best": {
-   "gap": -2.615,
-   "ev_pct": 0.38,
-   "threshold_pct": 3.0,
-   "price": 1.08,
-   "outcome": "Elena Rybakina",
-   "book": "Betfair",
-   "matchup": "Katarzyna Kawa @ Elena Rybakina",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-23T07:30:41.410485+00:00",
   "markets": 4,
   "markets_sharp": 3,
@@ -1400,6 +1382,24 @@
    "book": "Betfair",
    "matchup": "Leylah Fernandez @ Elena Rybakina",
    "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-25T07:30:33.187365+00:00",
+  "markets": 3,
+  "markets_sharp": 2,
+  "outcomes": 11,
+  "capped": 0,
+  "best": {
+   "gap": -1.853,
+   "ev_pct": 1.15,
+   "threshold_pct": 3.0,
+   "price": 1.13,
+   "outcome": "Jermaine Dhliwayo",
+   "book": "SportsBet",
+   "matchup": "Jacob Robinson @ Jermaine Dhliwayo",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
