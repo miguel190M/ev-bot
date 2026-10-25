@@ -310,5 +310,27 @@
     "sharp_probability": 0.4332,
     "consensus_probability": 0.3904,
     "alerted_at": "2026-10-25T00:30:34.741395+00:00"
+  },
+  "20c3": {
+    "event_id": "9c4254cba9944a839b421db27260504d",
+    "sport_key": "soccer_spain_la_liga",
+    "commence_time": "2026-10-25T13:00:00Z",
+    "home_team": "Athletic Bilbao",
+    "away_team": "Getafe",
+    "market_key": "h2h",
+    "bookmaker_key": "betfair_ex_au",
+    "bookmaker_title": "Betfair",
+    "outcome": "Getafe",
+    "price": 7.0,
+    "commission": 0.06,
+    "fair_probability": 0.158,
+    "fair_odds": 6.33,
+    "ev_pct": 4.9,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.158,
+    "consensus_probability": 0.1438,
+    "alerted_at": "2026-10-25T01:00:43.374950+00:00"
   }
 }

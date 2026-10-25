@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-23T00:30:37.741548+00:00",
-  "markets": 5,
-  "markets_sharp": 5,
-  "outcomes": 20,
-  "capped": 0,
-  "best": {
-   "gap": -5.216,
-   "ev_pct": -2.22,
-   "threshold_pct": 3.0,
-   "price": 1.35,
-   "outcome": "Oklahoma City Thunder",
-   "book": "Betfair",
-   "matchup": "Denver Nuggets @ Oklahoma City Thunder",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-23T01:00:50.462158+00:00",
   "markets": 6,
   "markets_sharp": 6,
@@ -1400,6 +1382,24 @@
    "book": "Betfair",
    "matchup": "O'Shaquie Foster @ Emanuel Navarrete",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-25T01:00:43.373185+00:00",
+  "markets": 11,
+  "markets_sharp": 10,
+  "outcomes": 54,
+  "capped": 0,
+  "best": {
+   "gap": 1.902,
+   "ev_pct": 4.9,
+   "threshold_pct": 3.0,
+   "price": 7.0,
+   "outcome": "Getafe",
+   "book": "Betfair",
+   "matchup": "Getafe @ Athletic Bilbao",
+   "sport_key": "soccer_spain_la_liga",
    "anchor": "pinnacle"
   }
  }
