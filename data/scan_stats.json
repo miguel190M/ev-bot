@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-23T11:52:08.083623+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 4,
-  "capped": 0,
-  "best": {
-   "gap": -4.247,
-   "ev_pct": -1.25,
-   "threshold_pct": 3.0,
-   "price": 1.08,
-   "outcome": "Elena Rybakina",
-   "book": "Betfair",
-   "matchup": "Katarzyna Kawa @ Elena Rybakina",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-23T12:00:48.857770+00:00",
   "markets": 2,
   "markets_sharp": 2,
@@ -1400,6 +1382,24 @@
    "book": "SportsBet",
    "matchup": "Jade Burden @ Shauna Browne",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-25T12:00:42.560531+00:00",
+  "markets": 26,
+  "markets_sharp": 26,
+  "outcomes": 134,
+  "capped": 0,
+  "best": {
+   "gap": -1.287,
+   "ev_pct": 1.71,
+   "threshold_pct": 3.0,
+   "price": 6.2,
+   "outcome": "SC Freiburg",
+   "book": "Betfair",
+   "matchup": "Bayern Munich @ SC Freiburg",
+   "sport_key": "soccer_germany_bundesliga",
    "anchor": "pinnacle"
   }
  }
