@@ -398,5 +398,27 @@
     "sharp_probability": 0.9145,
     "consensus_probability": 0.8938,
     "alerted_at": "2026-10-25T11:49:13.090456+00:00"
+  },
+  "2720": {
+    "event_id": "2bba7fde6f97d0e54403d53676e4ab63",
+    "sport_key": "americanfootball_nfl",
+    "commence_time": "2026-10-25T17:00:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "New York Giants",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "New York Giants",
+    "price": 4.9,
+    "commission": 0.0,
+    "fair_probability": 0.2155,
+    "fair_odds": 4.641,
+    "ev_pct": 5.58,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.2155,
+    "consensus_probability": 0.1875,
+    "alerted_at": "2026-10-25T13:30:33.934542+00:00"
   }
 }

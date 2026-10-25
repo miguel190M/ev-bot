@@ -1402,5 +1402,23 @@
    "sport_key": "soccer_epl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-25T13:30:33.932719+00:00",
+  "markets": 33,
+  "markets_sharp": 33,
+  "outcomes": 160,
+  "capped": 0,
+  "best": {
+   "gap": 2.582,
+   "ev_pct": 5.58,
+   "threshold_pct": 3.0,
+   "price": 4.9,
+   "outcome": "New York Giants",
+   "book": "SportsBet",
+   "matchup": "New York Giants @ Houston Texans",
+   "sport_key": "americanfootball_nfl",
+   "anchor": "pinnacle"
+  }
  }
 ]
