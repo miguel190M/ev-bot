@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-23T22:00:47.559325+00:00",
-  "markets": 14,
-  "markets_sharp": 14,
-  "outcomes": 56,
-  "capped": 0,
-  "best": {
-   "gap": -2.184,
-   "ev_pct": 0.82,
-   "threshold_pct": 3.0,
-   "price": 1.88,
-   "outcome": "Detroit Pistons",
-   "book": "SportsBet",
-   "matchup": "Detroit Pistons @ Miami Heat",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-23T22:30:37.267447+00:00",
   "markets": 14,
   "markets_sharp": 14,
@@ -1435,6 +1417,24 @@
    "outcome": "Memphis Grizzlies",
    "book": "SportsBet",
    "matchup": "Memphis Grizzlies @ Sacramento Kings",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-25T22:30:33.227747+00:00",
+  "markets": 9,
+  "markets_sharp": 9,
+  "outcomes": 36,
+  "capped": 0,
+  "best": {
+   "gap": -2.931,
+   "ev_pct": 0.07,
+   "threshold_pct": 3.0,
+   "price": 1.87,
+   "outcome": "Detroit Pistons",
+   "book": "SportsBet",
+   "matchup": "Detroit Pistons @ Philadelphia 76ers",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
