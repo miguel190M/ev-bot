@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-23T10:30:35.992065+00:00",
-  "markets": 2,
-  "markets_sharp": 1,
-  "outcomes": 8,
-  "capped": 0,
-  "best": {
-   "gap": -3.791,
-   "ev_pct": -2.21,
-   "threshold_pct": 1.58,
-   "price": 1.29,
-   "outcome": "Afghanistan",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-23T11:00:51.357654+00:00",
   "markets": 5,
   "markets_sharp": 4,
@@ -1390,6 +1372,24 @@
   "markets": 22,
   "markets_sharp": 22,
   "outcomes": 110,
+  "capped": 0,
+  "best": {
+   "gap": -1.072,
+   "ev_pct": 1.93,
+   "threshold_pct": 3.0,
+   "price": 7.2,
+   "outcome": "Lecce",
+   "book": "Betfair",
+   "matchup": "Juventus @ Lecce",
+   "sport_key": "soccer_italy_serie_a",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-25T11:00:44.867536+00:00",
+  "markets": 27,
+  "markets_sharp": 27,
+  "outcomes": 136,
   "capped": 0,
   "best": {
    "gap": -1.072,
