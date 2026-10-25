@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-23T12:00:48.857770+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 8,
-  "capped": 0,
-  "best": {
-   "gap": -3.384,
-   "ev_pct": -0.38,
-   "threshold_pct": 3.0,
-   "price": 1.09,
-   "outcome": "Elena Rybakina",
-   "book": "Betfair",
-   "matchup": "Katarzyna Kawa @ Elena Rybakina",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-23T12:30:40.106359+00:00",
   "markets": 8,
   "markets_sharp": 8,
@@ -1400,6 +1382,24 @@
    "book": "Betfair",
    "matchup": "Bayern Munich @ SC Freiburg",
    "sport_key": "soccer_germany_bundesliga",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-25T12:30:31.494383+00:00",
+  "markets": 27,
+  "markets_sharp": 27,
+  "outcomes": 138,
+  "capped": 0,
+  "best": {
+   "gap": -3.652,
+   "ev_pct": -0.65,
+   "threshold_pct": 3.0,
+   "price": 3.7,
+   "outcome": "Indianapolis Colts",
+   "book": "SportsBet",
+   "matchup": "Indianapolis Colts @ Minnesota Vikings",
+   "sport_key": "americanfootball_nfl",
    "anchor": "pinnacle"
   }
  }
