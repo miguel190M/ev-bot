@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-23T05:30:37.276582+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 12,
-  "capped": 0,
-  "best": {
-   "gap": -3.022,
-   "ev_pct": -0.02,
-   "threshold_pct": 3.0,
-   "price": 1.07,
-   "outcome": "Elena Rybakina",
-   "book": "Betfair",
-   "matchup": "Katarzyna Kawa @ Elena Rybakina",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-23T06:00:45.755151+00:00",
   "markets": 4,
   "markets_sharp": 4,
@@ -1390,6 +1372,24 @@
   "markets": 13,
   "markets_sharp": 12,
   "outcomes": 58,
+  "capped": 0,
+  "best": {
+   "gap": -3.809,
+   "ev_pct": -0.81,
+   "threshold_pct": 3.0,
+   "price": 1.33,
+   "outcome": "Elena Rybakina",
+   "book": "Betfair",
+   "matchup": "Leylah Fernandez @ Elena Rybakina",
+   "sport_key": "tennis_wta_ningbo_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-25T06:00:41.867274+00:00",
+  "markets": 7,
+  "markets_sharp": 6,
+  "outcomes": 38,
   "capped": 0,
   "best": {
    "gap": -3.809,
