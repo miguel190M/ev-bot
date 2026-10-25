@@ -1402,5 +1402,23 @@
    "sport_key": "cricket_odi",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-10-25T05:00:41.627483+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 4,
+  "capped": 0,
+  "best": {
+   "gap": -4.906,
+   "ev_pct": -2.53,
+   "threshold_pct": 2.38,
+   "price": 1.69,
+   "outcome": "England",
+   "book": "Betfair",
+   "matchup": "England @ Pakistan",
+   "sport_key": "cricket_odi",
+   "anchor": "retail_consensus"
+  }
  }
 ]
