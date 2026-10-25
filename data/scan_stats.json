@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-23T12:30:40.106359+00:00",
-  "markets": 8,
-  "markets_sharp": 8,
-  "outcomes": 32,
-  "capped": 0,
-  "best": {
-   "gap": 3.693,
-   "ev_pct": 6.69,
-   "threshold_pct": 3.0,
-   "price": 3.55,
-   "outcome": "Washington Wizards",
-   "book": "SportsBet",
-   "matchup": "Toronto Raptors @ Washington Wizards",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-23T20:00:51.084459+00:00",
   "markets": 20,
   "markets_sharp": 20,
@@ -1400,6 +1382,24 @@
    "book": "SportsBet",
    "matchup": "Indianapolis Colts @ Minnesota Vikings",
    "sport_key": "americanfootball_nfl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-25T13:00:42.032139+00:00",
+  "markets": 26,
+  "markets_sharp": 26,
+  "outcomes": 132,
+  "capped": 0,
+  "best": {
+   "gap": -1.303,
+   "ev_pct": 1.7,
+   "threshold_pct": 3.0,
+   "price": 2.74,
+   "outcome": "Newcastle United",
+   "book": "Betfair",
+   "matchup": "Newcastle United @ Crystal Palace",
+   "sport_key": "soccer_epl",
    "anchor": "pinnacle"
   }
  }
