@@ -332,5 +332,27 @@
     "sharp_probability": 0.4163,
     "consensus_probability": 0.3674,
     "alerted_at": "2026-10-25T02:30:32.871815+00:00"
+  },
+  "c520": {
+    "event_id": "be5dd120ca08b43d647b6caa8953500a",
+    "sport_key": "americanfootball_nfl",
+    "commence_time": "2026-10-25T17:00:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Miami Dolphins",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "New York Jets",
+    "price": 1.56,
+    "commission": 0.0,
+    "fair_probability": 0.6628,
+    "fair_odds": 1.509,
+    "ev_pct": 3.4,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.6628,
+    "consensus_probability": 0.6583,
+    "alerted_at": "2026-10-25T10:00:41.717150+00:00"
   }
 }
