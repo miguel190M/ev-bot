@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-24T07:00:43.440370+00:00",
-  "markets": 4,
-  "markets_sharp": 4,
-  "outcomes": 18,
-  "capped": 0,
-  "best": {
-   "gap": -4.673,
-   "ev_pct": -1.67,
-   "threshold_pct": 3.0,
-   "price": 1.57,
-   "outcome": "Elena Rybakina",
-   "book": "Betfair",
-   "matchup": "Diana Shnaider @ Elena Rybakina",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-24T07:30:37.420127+00:00",
   "markets": 14,
   "markets_sharp": 14,
@@ -1342,6 +1324,24 @@
    "ev_pct": -1.05,
    "threshold_pct": 3.0,
    "price": 1.13,
+   "outcome": "Alexandra Eala",
+   "book": "Betfair",
+   "matchup": "Mika Stojsavljevic @ Alexandra Eala",
+   "sport_key": "tennis_wta_pan_pacific_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-26T07:00:45.383053+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 4,
+  "capped": 0,
+  "best": {
+   "gap": -4.877,
+   "ev_pct": -1.88,
+   "threshold_pct": 3.0,
+   "price": 1.12,
    "outcome": "Alexandra Eala",
    "book": "Betfair",
    "matchup": "Mika Stojsavljevic @ Alexandra Eala",
