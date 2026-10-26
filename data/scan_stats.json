@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-24T23:26:14.003983+00:00",
-  "markets": 16,
-  "markets_sharp": 14,
-  "outcomes": 74,
-  "capped": 0,
-  "best": {
-   "gap": -0.281,
-   "ev_pct": 2.72,
-   "threshold_pct": 3.0,
-   "price": 1.71,
-   "outcome": "O'Shaquie Foster",
-   "book": "Betfair",
-   "matchup": "O'Shaquie Foster @ Emanuel Navarrete",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-24T23:30:34.977542+00:00",
-  "markets": 17,
-  "markets_sharp": 15,
-  "outcomes": 80,
-  "capped": 0,
-  "best": {
-   "gap": -0.281,
-   "ev_pct": 2.72,
-   "threshold_pct": 3.0,
-   "price": 1.71,
-   "outcome": "O'Shaquie Foster",
-   "book": "Betfair",
-   "matchup": "O'Shaquie Foster @ Emanuel Navarrete",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-25T00:00:44.743852+00:00",
   "markets": 14,
   "markets_sharp": 12,
@@ -1309,6 +1273,24 @@
    "outcome": "Charlotte Hornets",
    "book": "SportsBet",
    "matchup": "Washington Wizards @ Charlotte Hornets",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-26T23:30:35.126393+00:00",
+  "markets": 19,
+  "markets_sharp": 19,
+  "outcomes": 76,
+  "capped": 0,
+  "best": {
+   "gap": -3.734,
+   "ev_pct": -0.73,
+   "threshold_pct": 3.0,
+   "price": 1.15,
+   "outcome": "Boston Celtics",
+   "book": "SportsBet",
+   "matchup": "Chicago Bulls @ Boston Celtics",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
