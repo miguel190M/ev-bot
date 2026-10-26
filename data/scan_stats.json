@@ -1,131 +1,5 @@
 [
  {
-  "ts": "2026-10-24T02:30:38.539053+00:00",
-  "markets": 5,
-  "markets_sharp": 5,
-  "outcomes": 22,
-  "capped": 0,
-  "best": {
-   "gap": -3.712,
-   "ev_pct": -0.71,
-   "threshold_pct": 3.0,
-   "price": 2.15,
-   "outcome": "Newcastle Jets FC",
-   "book": "SportsBet",
-   "matchup": "Macarthur FC @ Newcastle Jets FC",
-   "sport_key": "soccer_australia_aleague",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-24T03:00:45.811022+00:00",
-  "markets": 6,
-  "markets_sharp": 6,
-  "outcomes": 24,
-  "capped": 0,
-  "best": {
-   "gap": -3.595,
-   "ev_pct": -0.59,
-   "threshold_pct": 3.0,
-   "price": 2.04,
-   "outcome": "Bolaji Oki",
-   "book": "Betfair",
-   "matchup": "Daniel Santos @ Bolaji Oki",
-   "sport_key": "mma_mixed_martial_arts",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-24T03:30:31.779337+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 26,
-  "capped": 0,
-  "best": {
-   "gap": -3.873,
-   "ev_pct": -0.87,
-   "threshold_pct": 3.0,
-   "price": 1.27,
-   "outcome": "Iasmin Lucindo",
-   "book": "Betfair",
-   "matchup": "Nicolle Caliari @ Iasmin Lucindo",
-   "sport_key": "mma_mixed_martial_arts",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-24T04:00:43.816289+00:00",
-  "markets": 10,
-  "markets_sharp": 10,
-  "outcomes": 54,
-  "capped": 0,
-  "best": {
-   "gap": 1.615,
-   "ev_pct": 4.62,
-   "threshold_pct": 3.0,
-   "price": 1.4,
-   "outcome": "Shannon Ryan",
-   "book": "SportsBet",
-   "matchup": "Emma Dolan @ Shannon Ryan",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-24T04:30:32.545262+00:00",
-  "markets": 9,
-  "markets_sharp": 9,
-  "outcomes": 46,
-  "capped": 0,
-  "best": {
-   "gap": -1.373,
-   "ev_pct": 1.63,
-   "threshold_pct": 3.0,
-   "price": 1.84,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-24T04:49:18.017541+00:00",
-  "markets": 6,
-  "markets_sharp": 6,
-  "outcomes": 28,
-  "capped": 0,
-  "best": {
-   "gap": -3.035,
-   "ev_pct": -0.04,
-   "threshold_pct": 3.0,
-   "price": 2.92,
-   "outcome": "Namibia",
-   "book": "SportsBet",
-   "matchup": "Ireland @ Namibia",
-   "sport_key": "cricket_odi",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-24T05:00:41.160679+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 32,
-  "capped": 0,
-  "best": {
-   "gap": -2.616,
-   "ev_pct": 0.38,
-   "threshold_pct": 3.0,
-   "price": 1.56,
-   "outcome": "Ireland",
-   "book": "Betfair",
-   "matchup": "Ireland @ Namibia",
-   "sport_key": "cricket_odi",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-24T05:30:34.006704+00:00",
   "markets": 9,
   "markets_sharp": 9,
@@ -1436,6 +1310,24 @@
    "book": "Betfair",
    "matchup": "Minnesota Wild @ Vancouver Canucks",
    "sport_key": "icehockey_nhl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-26T05:00:49.713942+00:00",
+  "markets": 3,
+  "markets_sharp": 1,
+  "outcomes": 6,
+  "capped": 0,
+  "best": {
+   "gap": -2.981,
+   "ev_pct": 0.02,
+   "threshold_pct": 3.0,
+   "price": 1.14,
+   "outcome": "Alexandra Eala",
+   "book": "Betfair",
+   "matchup": "Mika Stojsavljevic @ Alexandra Eala",
+   "sport_key": "tennis_wta_pan_pacific_open",
    "anchor": "pinnacle"
   }
  }
