@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-24T10:30:34.287507+00:00",
-  "markets": 19,
-  "markets_sharp": 19,
-  "outcomes": 112,
-  "capped": 0,
-  "best": {
-   "gap": -3.661,
-   "ev_pct": -0.66,
-   "threshold_pct": 3.0,
-   "price": 5.0,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Everton @ Arsenal",
-   "sport_key": "soccer_epl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-24T11:00:46.445824+00:00",
   "markets": 18,
   "markets_sharp": 18,
@@ -1310,6 +1292,24 @@
    "book": "SportsBet",
    "matchup": "Casper Ruud @ Dominic Stephan Stricker",
    "sport_key": "tennis_atp_swiss_indoors",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-26T10:30:35.790172+00:00",
+  "markets": 11,
+  "markets_sharp": 11,
+  "outcomes": 44,
+  "capped": 0,
+  "best": {
+   "gap": -4.595,
+   "ev_pct": -1.6,
+   "threshold_pct": 3.0,
+   "price": 1.63,
+   "outcome": "Matteo Berrettini",
+   "book": "Betfair",
+   "matchup": "Tomas Martin Etcheverry @ Matteo Berrettini",
+   "sport_key": "tennis_atp_vienna_open",
    "anchor": "pinnacle"
   }
  }
