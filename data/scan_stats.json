@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-24T20:00:47.127076+00:00",
-  "markets": 27,
-  "markets_sharp": 25,
-  "outcomes": 120,
-  "capped": 0,
-  "best": {
-   "gap": 1.386,
-   "ev_pct": 4.39,
-   "threshold_pct": 3.0,
-   "price": 3.1,
-   "outcome": "Alberto Puello",
-   "book": "Betfair",
-   "matchup": "Alberto Puello @ Dalton Smith",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-24T20:30:32.043477+00:00",
-  "markets": 22,
-  "markets_sharp": 21,
-  "outcomes": 94,
-  "capped": 0,
-  "best": {
-   "gap": -1.747,
-   "ev_pct": 1.25,
-   "threshold_pct": 3.0,
-   "price": 1.7,
-   "outcome": "O'Shaquie Foster",
-   "book": "Betfair",
-   "matchup": "O'Shaquie Foster @ Emanuel Navarrete",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-24T21:00:27.711866+00:00",
   "markets": 20,
   "markets_sharp": 20,
@@ -1328,6 +1292,24 @@
    "book": "Betfair",
    "matchup": "India @ New Zealand",
    "sport_key": "cricket_international_t20",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-26T20:30:35.829375+00:00",
+  "markets": 13,
+  "markets_sharp": 12,
+  "outcomes": 51,
+  "capped": 0,
+  "best": {
+   "gap": -4.6,
+   "ev_pct": -1.6,
+   "threshold_pct": 3.0,
+   "price": 1.32,
+   "outcome": "Oklahoma City Thunder",
+   "book": "SportsBet",
+   "matchup": "Phoenix Suns @ Oklahoma City Thunder",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
