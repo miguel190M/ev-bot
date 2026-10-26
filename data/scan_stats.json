@@ -1294,5 +1294,23 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-26T12:00:50.152215+00:00",
+  "markets": 12,
+  "markets_sharp": 12,
+  "outcomes": 50,
+  "capped": 0,
+  "best": {
+   "gap": -4.77,
+   "ev_pct": -1.77,
+   "threshold_pct": 3.0,
+   "price": 1.45,
+   "outcome": "Learner Tien",
+   "book": "Betfair",
+   "matchup": "Learner Tien @ Luca Van Assche",
+   "sport_key": "tennis_atp_vienna_open",
+   "anchor": "pinnacle"
+  }
  }
 ]
