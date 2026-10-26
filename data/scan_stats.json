@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-24T01:00:43.490721+00:00",
-  "markets": 11,
-  "markets_sharp": 11,
-  "outcomes": 54,
-  "capped": 0,
-  "best": {
-   "gap": -3.712,
-   "ev_pct": -0.71,
-   "threshold_pct": 3.0,
-   "price": 2.15,
-   "outcome": "Newcastle Jets FC",
-   "book": "SportsBet",
-   "matchup": "Macarthur FC @ Newcastle Jets FC",
-   "sport_key": "soccer_australia_aleague",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-24T01:30:34.804611+00:00",
   "markets": 13,
   "markets_sharp": 13,
@@ -1454,6 +1436,24 @@
    "book": "Betfair",
    "matchup": "Memphis Grizzlies @ Sacramento Kings",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-26T01:30:34.017226+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 4,
+  "capped": 0,
+  "best": {
+   "gap": -6.155,
+   "ev_pct": -3.16,
+   "threshold_pct": 3.0,
+   "price": 1.49,
+   "outcome": "Minnesota Wild",
+   "book": "SportsBet",
+   "matchup": "Minnesota Wild @ Vancouver Canucks",
+   "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
   }
  }
