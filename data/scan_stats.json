@@ -1,59 +1,5 @@
 [
  {
-  "ts": "2026-10-24T11:00:46.445824+00:00",
-  "markets": 18,
-  "markets_sharp": 18,
-  "outcomes": 108,
-  "capped": 0,
-  "best": {
-   "gap": -2.535,
-   "ev_pct": 0.47,
-   "threshold_pct": 3.0,
-   "price": 6.8,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Deportivo La Coru\u00f1a @ Atl\u00e9tico Madrid",
-   "sport_key": "soccer_spain_la_liga",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-24T11:19:13.763277+00:00",
-  "markets": 32,
-  "markets_sharp": 32,
-  "outcomes": 148,
-  "capped": 0,
-  "best": {
-   "gap": -3.352,
-   "ev_pct": -0.35,
-   "threshold_pct": 3.0,
-   "price": 1.56,
-   "outcome": "Azamat Murzakanov",
-   "book": "Betfair",
-   "matchup": "Dominick Reyes @ Azamat Murzakanov",
-   "sport_key": "mma_mixed_martial_arts",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-24T11:30:33.717080+00:00",
-  "markets": 31,
-  "markets_sharp": 31,
-  "outcomes": 142,
-  "capped": 0,
-  "best": {
-   "gap": -3.352,
-   "ev_pct": -0.35,
-   "threshold_pct": 3.0,
-   "price": 1.56,
-   "outcome": "Azamat Murzakanov",
-   "book": "Betfair",
-   "matchup": "Dominick Reyes @ Azamat Murzakanov",
-   "sport_key": "mma_mixed_martial_arts",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-24T12:01:06.354716+00:00",
   "markets": 28,
   "markets_sharp": 28,
@@ -1328,6 +1274,24 @@
    "book": "Betfair",
    "matchup": "Juan Manuel Cerundolo @ Daniel Altmaier",
    "sport_key": "tennis_atp_swiss_indoors",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-26T11:30:37.120932+00:00",
+  "markets": 14,
+  "markets_sharp": 14,
+  "outcomes": 56,
+  "capped": 0,
+  "best": {
+   "gap": -4.118,
+   "ev_pct": -1.12,
+   "threshold_pct": 3.0,
+   "price": 1.66,
+   "outcome": "Cleveland Cavaliers",
+   "book": "SportsBet",
+   "matchup": "Minnesota Timberwolves @ Cleveland Cavaliers",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
