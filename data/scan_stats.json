@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-24T07:30:37.420127+00:00",
-  "markets": 14,
-  "markets_sharp": 14,
-  "outcomes": 42,
-  "capped": 0,
-  "best": {
-   "gap": -3.239,
-   "ev_pct": -0.24,
-   "threshold_pct": 3.0,
-   "price": 1.21,
-   "outcome": "Abdulrakhman Yakhyaev",
-   "book": "Betfair",
-   "matchup": "Abdulrakhman Yakhyaev @ Nikita Krylov",
-   "sport_key": "mma_mixed_martial_arts",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-24T08:00:39.997342+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 10,
-  "capped": 0,
-  "best": {
-   "gap": -4.673,
-   "ev_pct": -1.67,
-   "threshold_pct": 3.0,
-   "price": 1.57,
-   "outcome": "Elena Rybakina",
-   "book": "Betfair",
-   "matchup": "Diana Shnaider @ Elena Rybakina",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-24T08:30:34.445741+00:00",
   "markets": 13,
   "markets_sharp": 12,
@@ -1364,6 +1328,24 @@
    "book": "Betfair",
    "matchup": "Mika Stojsavljevic @ Alexandra Eala",
    "sport_key": "tennis_wta_pan_pacific_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-26T08:00:42.514673+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 6,
+  "capped": 0,
+  "best": {
+   "gap": -6.821,
+   "ev_pct": -3.82,
+   "threshold_pct": 3.0,
+   "price": 1.93,
+   "outcome": "Sevilla",
+   "book": "Betfair",
+   "matchup": "CA Osasuna @ Sevilla",
+   "sport_key": "soccer_spain_la_liga",
    "anchor": "pinnacle"
   }
  }
