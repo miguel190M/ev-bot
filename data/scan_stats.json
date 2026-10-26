@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-24T12:01:06.354716+00:00",
-  "markets": 28,
-  "markets_sharp": 28,
-  "outcomes": 122,
-  "capped": 0,
-  "best": {
-   "gap": -3.352,
-   "ev_pct": -0.35,
-   "threshold_pct": 3.0,
-   "price": 1.56,
-   "outcome": "Azamat Murzakanov",
-   "book": "Betfair",
-   "matchup": "Dominick Reyes @ Azamat Murzakanov",
-   "sport_key": "mma_mixed_martial_arts",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-24T12:30:36.060605+00:00",
-  "markets": 34,
-  "markets_sharp": 33,
-  "outcomes": 157,
-  "capped": 1,
-  "best": {
-   "gap": 4.077,
-   "ev_pct": 7.08,
-   "threshold_pct": 3.0,
-   "price": 1.4,
-   "outcome": "Shannon Ryan",
-   "book": "SportsBet",
-   "matchup": "Emma Dolan @ Shannon Ryan",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-24T13:00:52.313715+00:00",
   "markets": 43,
   "markets_sharp": 41,
@@ -1310,6 +1274,24 @@
    "book": "Betfair",
    "matchup": "Learner Tien @ Luca Van Assche",
    "sport_key": "tennis_atp_vienna_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-26T12:30:37.601126+00:00",
+  "markets": 10,
+  "markets_sharp": 10,
+  "outcomes": 40,
+  "capped": 0,
+  "best": {
+   "gap": -3.49,
+   "ev_pct": -0.49,
+   "threshold_pct": 3.0,
+   "price": 2.28,
+   "outcome": "Daniel Altmaier",
+   "book": "Betfair",
+   "matchup": "Juan Manuel Cerundolo @ Daniel Altmaier",
+   "sport_key": "tennis_atp_swiss_indoors",
    "anchor": "pinnacle"
   }
  }
