@@ -1312,5 +1312,23 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-26T20:38:06.260019+00:00",
+  "markets": 12,
+  "markets_sharp": 12,
+  "outcomes": 48,
+  "capped": 0,
+  "best": {
+   "gap": -4.6,
+   "ev_pct": -1.6,
+   "threshold_pct": 3.0,
+   "price": 1.32,
+   "outcome": "Oklahoma City Thunder",
+   "book": "SportsBet",
+   "matchup": "Phoenix Suns @ Oklahoma City Thunder",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
