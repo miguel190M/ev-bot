@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-24T00:00:54.881093+00:00",
-  "markets": 17,
-  "markets_sharp": 17,
-  "outcomes": 76,
-  "capped": 0,
-  "best": {
-   "gap": -1.236,
-   "ev_pct": 1.76,
-   "threshold_pct": 3.0,
-   "price": 1.83,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-24T00:30:32.390521+00:00",
   "markets": 6,
   "markets_sharp": 6,
@@ -1454,6 +1436,24 @@
    "book": "Betfair",
    "matchup": "Colorado Avalanche @ Nashville Predators",
    "sport_key": "icehockey_nhl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-26T00:30:32.198919+00:00",
+  "markets": 2,
+  "markets_sharp": 2,
+  "outcomes": 8,
+  "capped": 0,
+  "best": {
+   "gap": -4.219,
+   "ev_pct": -1.22,
+   "threshold_pct": 3.0,
+   "price": 2.54,
+   "outcome": "Sacramento Kings",
+   "book": "Betfair",
+   "matchup": "Memphis Grizzlies @ Sacramento Kings",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
