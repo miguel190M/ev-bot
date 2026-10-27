@@ -62,7 +62,30 @@
     "num_books": 1,
     "sharp_disagreement": false,
     "sharp_probability": 0.3126,
-    "consensus_probability": 0.3098,
+    "consensus_probability": 0.2933,
     "alerted_at": "2026-10-27T20:00:44.492938+00:00"
+  },
+  "be28": {
+    "event_id": "06c7ed1c91149869fe646e0c3978da62",
+    "sport_key": "cricket_test_match",
+    "commence_time": "2026-10-28T08:30:00Z",
+    "home_team": "South Africa",
+    "away_team": "Australia",
+    "market_key": "h2h",
+    "bookmaker_key": "betfair_ex_au",
+    "bookmaker_title": "Betfair",
+    "outcome": "South Africa",
+    "price": 2.2,
+    "commission": 0.06,
+    "fair_probability": 0.4893,
+    "fair_odds": 2.044,
+    "ev_pct": 4.13,
+    "anchor": "retail_consensus",
+    "num_books": 9,
+    "sharp_disagreement": false,
+    "sharp_probability": null,
+    "consensus_probability": 0.4893,
+    "source": "daily_digest",
+    "alerted_at": "2026-10-27T22:00:45.762519+00:00"
   }
 }
