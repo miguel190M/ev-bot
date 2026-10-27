@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-25T07:30:33.187365+00:00",
-  "markets": 3,
-  "markets_sharp": 2,
-  "outcomes": 11,
-  "capped": 0,
-  "best": {
-   "gap": -1.853,
-   "ev_pct": 1.15,
-   "threshold_pct": 3.0,
-   "price": 1.13,
-   "outcome": "Jermaine Dhliwayo",
-   "book": "SportsBet",
-   "matchup": "Jacob Robinson @ Jermaine Dhliwayo",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-25T08:00:41.399822+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1293,6 +1275,24 @@
    "matchup": "Sri Lanka @ Pakistan",
    "sport_key": "cricket_odi",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-27T07:30:33.555149+00:00",
+  "markets": 11,
+  "markets_sharp": 9,
+  "outcomes": 41,
+  "capped": 0,
+  "best": {
+   "gap": -3.358,
+   "ev_pct": -0.36,
+   "threshold_pct": 3.0,
+   "price": 1.35,
+   "outcome": "Rafael Jodar",
+   "book": "Betfair",
+   "matchup": "Rafael Jodar @ Alejandro Tabilo",
+   "sport_key": "tennis_atp_swiss_indoors",
+   "anchor": "pinnacle"
   }
  }
 ]
