@@ -1,1 +1,24 @@
-{}
+{
+  "e720": {
+    "event_id": "62f625b171f0f9b70a801dc8c0ca7cd4",
+    "sport_key": "tennis_wta_pan_pacific_open",
+    "commence_time": "2026-10-27T03:00:00Z",
+    "home_team": "Ann Li",
+    "away_team": "Ekaterina Alexandrova",
+    "market_key": "h2h",
+    "bookmaker_key": "betfair_ex_au",
+    "bookmaker_title": "Betfair",
+    "outcome": "Ekaterina Alexandrova",
+    "price": 2.0,
+    "commission": 0.06,
+    "fair_probability": 0.5323,
+    "fair_odds": 1.878,
+    "ev_pct": 3.27,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.5323,
+    "consensus_probability": 0.5185,
+    "alerted_at": "2026-10-27T02:30:36.130036+00:00"
+  }
+}
