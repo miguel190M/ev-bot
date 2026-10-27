@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-25T13:00:42.032139+00:00",
-  "markets": 26,
-  "markets_sharp": 26,
-  "outcomes": 132,
-  "capped": 0,
-  "best": {
-   "gap": -1.303,
-   "ev_pct": 1.7,
-   "threshold_pct": 3.0,
-   "price": 2.74,
-   "outcome": "Newcastle United",
-   "book": "Betfair",
-   "matchup": "Newcastle United @ Crystal Palace",
-   "sport_key": "soccer_epl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-25T13:30:33.932719+00:00",
   "markets": 33,
   "markets_sharp": 33,
@@ -1291,6 +1273,24 @@
    "outcome": "Stan Wawrinka",
    "book": "Betfair",
    "matchup": "Jiri Lehecka @ Stan Wawrinka",
+   "sport_key": "tennis_atp_swiss_indoors",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-27T13:00:47.272140+00:00",
+  "markets": 11,
+  "markets_sharp": 11,
+  "outcomes": 44,
+  "capped": 0,
+  "best": {
+   "gap": -3.022,
+   "ev_pct": -0.02,
+   "threshold_pct": 3.0,
+   "price": 5.6,
+   "outcome": "Aleksandar Kovacevic",
+   "book": "Betfair",
+   "matchup": "Aleksandar Kovacevic @ Ben Shelton",
    "sport_key": "tennis_atp_swiss_indoors",
    "anchor": "pinnacle"
   }
