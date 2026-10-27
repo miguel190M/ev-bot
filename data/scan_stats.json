@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-25T03:00:42.746675+00:00",
-  "markets": 3,
-  "markets_sharp": 2,
-  "outcomes": 16,
-  "capped": 0,
-  "best": {
-   "gap": -0.73,
-   "ev_pct": 2.27,
-   "threshold_pct": 3.0,
-   "price": 1.8,
-   "outcome": "O'Shaquie Foster",
-   "book": "Betfair",
-   "matchup": "O'Shaquie Foster @ Emanuel Navarrete",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-25T03:30:32.566177+00:00",
-  "markets": 2,
-  "markets_sharp": 1,
-  "outcomes": 10,
-  "capped": 0,
-  "best": {
-   "gap": -2.847,
-   "ev_pct": 0.15,
-   "threshold_pct": 3.0,
-   "price": 3.8,
-   "outcome": "Draw",
-   "book": "SportsBet",
-   "matchup": "Adelaide United @ Sydney FC",
-   "sport_key": "soccer_australia_aleague",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-25T04:00:47.391452+00:00",
   "markets": 4,
   "markets_sharp": 3,
@@ -1329,6 +1293,24 @@
    "matchup": "Sri Lanka @ Pakistan",
    "sport_key": "cricket_odi",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-27T03:30:33.550484+00:00",
+  "markets": 11,
+  "markets_sharp": 10,
+  "outcomes": 44,
+  "capped": 0,
+  "best": {
+   "gap": -3.358,
+   "ev_pct": -0.36,
+   "threshold_pct": 3.0,
+   "price": 1.35,
+   "outcome": "Rafael Jodar",
+   "book": "Betfair",
+   "matchup": "Rafael Jodar @ Alejandro Tabilo",
+   "sport_key": "tennis_atp_swiss_indoors",
+   "anchor": "pinnacle"
   }
  }
 ]
