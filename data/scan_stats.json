@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-25T08:30:33.212481+00:00",
-  "markets": 6,
-  "markets_sharp": 6,
-  "outcomes": 34,
-  "capped": 0,
-  "best": {
-   "gap": -4.269,
-   "ev_pct": -1.27,
-   "threshold_pct": 3.0,
-   "price": 1.57,
-   "outcome": "Juventus",
-   "book": "Betfair",
-   "matchup": "Juventus @ Lecce",
-   "sport_key": "soccer_italy_serie_a",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-25T09:00:40.838709+00:00",
   "markets": 5,
   "markets_sharp": 5,
@@ -1292,6 +1274,24 @@
    "book": "Betfair",
    "matchup": "Rafael Jodar @ Alejandro Tabilo",
    "sport_key": "tennis_atp_swiss_indoors",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-27T08:30:36.301910+00:00",
+  "markets": 8,
+  "markets_sharp": 8,
+  "outcomes": 32,
+  "capped": 0,
+  "best": {
+   "gap": -0.635,
+   "ev_pct": 2.36,
+   "threshold_pct": 3.0,
+   "price": 1.57,
+   "outcome": "Tereza Valentova",
+   "book": "Betfair",
+   "matchup": "Mia Poh\u00e1nkov\u00e1 @ Tereza Valentova",
+   "sport_key": "tennis_wta_pan_pacific_open",
    "anchor": "pinnacle"
   }
  }
