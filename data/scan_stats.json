@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-25T10:00:41.715337+00:00",
-  "markets": 25,
-  "markets_sharp": 25,
-  "outcomes": 128,
-  "capped": 0,
-  "best": {
-   "gap": 0.402,
-   "ev_pct": 3.4,
-   "threshold_pct": 3.0,
-   "price": 1.56,
-   "outcome": "New York Jets",
-   "book": "SportsBet",
-   "matchup": "Miami Dolphins @ New York Jets",
-   "sport_key": "americanfootball_nfl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-25T10:30:34.610545+00:00",
   "markets": 22,
   "markets_sharp": 22,
@@ -1309,6 +1291,24 @@
    "outcome": "Rafael Jodar",
    "book": "Betfair",
    "matchup": "Rafael Jodar @ Alejandro Tabilo",
+   "sport_key": "tennis_atp_swiss_indoors",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-27T10:00:50.353668+00:00",
+  "markets": 13,
+  "markets_sharp": 13,
+  "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": -1.424,
+   "ev_pct": 1.58,
+   "threshold_pct": 3.0,
+   "price": 2.69,
+   "outcome": "Zizou Bergs",
+   "book": "SportsBet",
+   "matchup": "Zizou Bergs @ Hubert Hurkacz",
    "sport_key": "tennis_atp_swiss_indoors",
    "anchor": "pinnacle"
   }
