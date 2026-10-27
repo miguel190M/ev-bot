@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-25T04:00:47.391452+00:00",
-  "markets": 4,
-  "markets_sharp": 3,
-  "outcomes": 22,
-  "capped": 0,
-  "best": {
-   "gap": -4.324,
-   "ev_pct": -1.32,
-   "threshold_pct": 3.0,
-   "price": 9.2,
-   "outcome": "Fiorentina",
-   "book": "Betfair",
-   "matchup": "Fiorentina @ Inter Milan",
-   "sport_key": "soccer_italy_serie_a",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-25T04:30:33.823199+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 4,
-  "capped": 0,
-  "best": {
-   "gap": -5.442,
-   "ev_pct": -3.08,
-   "threshold_pct": 2.36,
-   "price": 1.68,
-   "outcome": "England",
-   "book": "Betfair",
-   "matchup": "England @ Pakistan",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-25T04:58:25.613449+00:00",
   "markets": 1,
   "markets_sharp": 0,
@@ -1324,6 +1288,24 @@
    "ev_pct": -0.49,
    "threshold_pct": 3.0,
    "price": 1.64,
+   "outcome": "Ireland",
+   "book": "Betfair",
+   "matchup": "Ireland @ Namibia",
+   "sport_key": "cricket_odi",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-27T04:30:36.625073+00:00",
+  "markets": 13,
+  "markets_sharp": 12,
+  "outcomes": 50,
+  "capped": 0,
+  "best": {
+   "gap": -1.739,
+   "ev_pct": 1.26,
+   "threshold_pct": 3.0,
+   "price": 1.67,
    "outcome": "Ireland",
    "book": "Betfair",
    "matchup": "Ireland @ Namibia",
