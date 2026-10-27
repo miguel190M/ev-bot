@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-25T23:21:56.945344+00:00",
-  "markets": 6,
-  "markets_sharp": 6,
-  "outcomes": 24,
-  "capped": 0,
-  "best": {
-   "gap": -4.403,
-   "ev_pct": -1.4,
-   "threshold_pct": 3.0,
-   "price": 1.92,
-   "outcome": "Montr\u00e9al Canadiens",
-   "book": "Betfair",
-   "matchup": "Montr\u00e9al Canadiens @ Winnipeg Jets",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-25T23:30:33.490087+00:00",
-  "markets": 5,
-  "markets_sharp": 5,
-  "outcomes": 20,
-  "capped": 0,
-  "best": {
-   "gap": -4.701,
-   "ev_pct": -1.7,
-   "threshold_pct": 3.0,
-   "price": 1.46,
-   "outcome": "Colorado Avalanche",
-   "book": "Betfair",
-   "matchup": "Colorado Avalanche @ Nashville Predators",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-26T00:00:44.346214+00:00",
   "markets": 4,
   "markets_sharp": 4,
@@ -1288,6 +1252,24 @@
    "ev_pct": -0.41,
    "threshold_pct": 3.0,
    "price": 2.09,
+   "outcome": "Portland Trail Blazers",
+   "book": "SportsBet",
+   "matchup": "Portland Trail Blazers @ Los Angeles Lakers",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-27T23:30:36.652732+00:00",
+  "markets": 20,
+  "markets_sharp": 20,
+  "outcomes": 80,
+  "capped": 0,
+  "best": {
+   "gap": -2.834,
+   "ev_pct": 0.17,
+   "threshold_pct": 3.0,
+   "price": 2.08,
    "outcome": "Portland Trail Blazers",
    "book": "SportsBet",
    "matchup": "Portland Trail Blazers @ Los Angeles Lakers",
