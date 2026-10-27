@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-25T20:00:42.930180+00:00",
-  "markets": 16,
-  "markets_sharp": 16,
-  "outcomes": 63,
-  "capped": 0,
-  "best": {
-   "gap": -0.093,
-   "ev_pct": 2.91,
-   "threshold_pct": 3.0,
-   "price": 1.29,
-   "outcome": "Shauna Browne",
-   "book": "SportsBet",
-   "matchup": "Jade Burden @ Shauna Browne",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-25T20:30:32.549229+00:00",
   "markets": 12,
   "markets_sharp": 12,
@@ -1292,6 +1274,24 @@
    "book": "Betfair",
    "matchup": "Aleksandar Kovacevic @ Ben Shelton",
    "sport_key": "tennis_atp_swiss_indoors",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-27T20:00:44.491855+00:00",
+  "markets": 22,
+  "markets_sharp": 22,
+  "outcomes": 87,
+  "capped": 0,
+  "best": {
+   "gap": 6.131,
+   "ev_pct": 9.13,
+   "threshold_pct": 3.0,
+   "price": 3.65,
+   "outcome": "West Indies",
+   "book": "Betfair",
+   "matchup": "West Indies @ Bangladesh",
+   "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
   }
  }
