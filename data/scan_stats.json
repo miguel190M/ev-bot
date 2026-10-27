@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-25T06:30:32.363696+00:00",
-  "markets": 4,
-  "markets_sharp": 3,
-  "outcomes": 20,
-  "capped": 0,
-  "best": {
-   "gap": -3.688,
-   "ev_pct": -0.69,
-   "threshold_pct": 3.0,
-   "price": 7.0,
-   "outcome": "SC Freiburg",
-   "book": "Betfair",
-   "matchup": "Bayern Munich @ SC Freiburg",
-   "sport_key": "soccer_germany_bundesliga",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-25T07:00:44.347752+00:00",
   "markets": 3,
   "markets_sharp": 2,
@@ -1292,6 +1274,24 @@
    "book": "Betfair",
    "matchup": "Ireland @ Namibia",
    "sport_key": "cricket_odi",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-27T06:30:34.711943+00:00",
+  "markets": 7,
+  "markets_sharp": 5,
+  "outcomes": 27,
+  "capped": 0,
+  "best": {
+   "gap": -2.126,
+   "ev_pct": 0.87,
+   "threshold_pct": 3.0,
+   "price": 1.88,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_international_t20",
    "anchor": "pinnacle"
   }
  }
