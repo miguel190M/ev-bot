@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-25T20:30:32.549229+00:00",
-  "markets": 12,
-  "markets_sharp": 12,
-  "outcomes": 48,
-  "capped": 0,
-  "best": {
-   "gap": -3.56,
-   "ev_pct": -0.56,
-   "threshold_pct": 3.0,
-   "price": 1.65,
-   "outcome": "Memphis Grizzlies",
-   "book": "SportsBet",
-   "matchup": "Memphis Grizzlies @ Sacramento Kings",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-25T20:59:46.012498+00:00",
   "markets": 11,
   "markets_sharp": 11,
@@ -1292,6 +1274,24 @@
    "book": "Betfair",
    "matchup": "West Indies @ Bangladesh",
    "sport_key": "cricket_test_match",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-27T20:30:35.604634+00:00",
+  "markets": 11,
+  "markets_sharp": 11,
+  "outcomes": 44,
+  "capped": 0,
+  "best": {
+   "gap": -3.974,
+   "ev_pct": -0.97,
+   "threshold_pct": 3.0,
+   "price": 1.66,
+   "outcome": "Vegas Golden Knights",
+   "book": "SportsBet",
+   "matchup": "Ottawa Senators @ Vegas Golden Knights",
+   "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
   }
  }
