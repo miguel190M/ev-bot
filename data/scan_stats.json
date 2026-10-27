@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-25T08:00:41.399822+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 4,
-  "capped": 0,
-  "best": {
-   "gap": -2.624,
-   "ev_pct": 0.38,
-   "threshold_pct": 3.0,
-   "price": 1.37,
-   "outcome": "Elena Rybakina",
-   "book": "Betfair",
-   "matchup": "Leylah Fernandez @ Elena Rybakina",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-25T08:30:33.212481+00:00",
   "markets": 6,
   "markets_sharp": 6,
@@ -1288,6 +1270,24 @@
    "ev_pct": -0.36,
    "threshold_pct": 3.0,
    "price": 1.35,
+   "outcome": "Rafael Jodar",
+   "book": "Betfair",
+   "matchup": "Rafael Jodar @ Alejandro Tabilo",
+   "sport_key": "tennis_atp_swiss_indoors",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-27T08:00:45.593389+00:00",
+  "markets": 9,
+  "markets_sharp": 8,
+  "outcomes": 35,
+  "capped": 0,
+  "best": {
+   "gap": -4.063,
+   "ev_pct": -1.06,
+   "threshold_pct": 3.0,
+   "price": 1.34,
    "outcome": "Rafael Jodar",
    "book": "Betfair",
    "matchup": "Rafael Jodar @ Alejandro Tabilo",
