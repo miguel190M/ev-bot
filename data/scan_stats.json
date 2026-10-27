@@ -1312,5 +1312,23 @@
    "sport_key": "tennis_wta_pan_pacific_open",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-27T03:00:42.309743+00:00",
+  "markets": 7,
+  "markets_sharp": 6,
+  "outcomes": 28,
+  "capped": 0,
+  "best": {
+   "gap": -3.623,
+   "ev_pct": -1.52,
+   "threshold_pct": 2.1,
+   "price": 1.55,
+   "outcome": "Pakistan",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_odi",
+   "anchor": "retail_consensus"
+  }
  }
 ]
