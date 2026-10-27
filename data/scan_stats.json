@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-25T11:49:13.088641+00:00",
-  "markets": 30,
-  "markets_sharp": 30,
-  "outcomes": 146,
-  "capped": 0,
-  "best": {
-   "gap": 3.172,
-   "ev_pct": 6.17,
-   "threshold_pct": 3.0,
-   "price": 4.4,
-   "outcome": "Jade Burden",
-   "book": "SportsBet",
-   "matchup": "Jade Burden @ Shauna Browne",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-25T12:00:42.560531+00:00",
-  "markets": 26,
-  "markets_sharp": 26,
-  "outcomes": 134,
-  "capped": 0,
-  "best": {
-   "gap": -1.287,
-   "ev_pct": 1.71,
-   "threshold_pct": 3.0,
-   "price": 6.2,
-   "outcome": "SC Freiburg",
-   "book": "Betfair",
-   "matchup": "Bayern Munich @ SC Freiburg",
-   "sport_key": "soccer_germany_bundesliga",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-25T12:30:31.494383+00:00",
   "markets": 27,
   "markets_sharp": 27,
@@ -1310,6 +1274,24 @@
    "book": "Betfair",
    "matchup": "Zimbabwe @ Afghanistan",
    "sport_key": "cricket_international_t20",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-27T12:00:47.539388+00:00",
+  "markets": 15,
+  "markets_sharp": 15,
+  "outcomes": 60,
+  "capped": 0,
+  "best": {
+   "gap": -2.901,
+   "ev_pct": 0.1,
+   "threshold_pct": 3.0,
+   "price": 5.7,
+   "outcome": "Brooklyn Nets",
+   "book": "Betfair",
+   "matchup": "Brooklyn Nets @ Boston Celtics",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
