@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-25T22:30:33.227747+00:00",
-  "markets": 9,
-  "markets_sharp": 9,
-  "outcomes": 36,
-  "capped": 0,
-  "best": {
-   "gap": -2.931,
-   "ev_pct": 0.07,
-   "threshold_pct": 3.0,
-   "price": 1.87,
-   "outcome": "Detroit Pistons",
-   "book": "SportsBet",
-   "matchup": "Detroit Pistons @ Philadelphia 76ers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-25T23:00:43.832238+00:00",
   "markets": 9,
   "markets_sharp": 9,
@@ -1282,6 +1264,24 @@
   "markets": 16,
   "markets_sharp": 16,
   "outcomes": 64,
+  "capped": 0,
+  "best": {
+   "gap": -2.128,
+   "ev_pct": 0.87,
+   "threshold_pct": 3.0,
+   "price": 13.0,
+   "outcome": "Sacramento Kings",
+   "book": "SportsBet",
+   "matchup": "Sacramento Kings @ San Antonio Spurs",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-27T22:30:37.371453+00:00",
+  "markets": 20,
+  "markets_sharp": 20,
+  "outcomes": 80,
   "capped": 0,
   "best": {
    "gap": -2.128,
