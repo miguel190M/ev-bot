@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-25T13:30:33.932719+00:00",
-  "markets": 33,
-  "markets_sharp": 33,
-  "outcomes": 160,
-  "capped": 0,
-  "best": {
-   "gap": 2.582,
-   "ev_pct": 5.58,
-   "threshold_pct": 3.0,
-   "price": 4.9,
-   "outcome": "New York Giants",
-   "book": "SportsBet",
-   "matchup": "New York Giants @ Houston Texans",
-   "sport_key": "americanfootball_nfl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-25T20:00:42.930180+00:00",
   "markets": 16,
   "markets_sharp": 16,
@@ -1279,6 +1261,24 @@
  },
  {
   "ts": "2026-10-27T13:00:47.272140+00:00",
+  "markets": 11,
+  "markets_sharp": 11,
+  "outcomes": 44,
+  "capped": 0,
+  "best": {
+   "gap": -3.022,
+   "ev_pct": -0.02,
+   "threshold_pct": 3.0,
+   "price": 5.6,
+   "outcome": "Aleksandar Kovacevic",
+   "book": "Betfair",
+   "matchup": "Aleksandar Kovacevic @ Ben Shelton",
+   "sport_key": "tennis_atp_swiss_indoors",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-27T13:30:37.200540+00:00",
   "markets": 11,
   "markets_sharp": 11,
   "outcomes": 44,
