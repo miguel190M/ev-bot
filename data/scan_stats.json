@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-25T05:30:35.353407+00:00",
-  "markets": 13,
-  "markets_sharp": 12,
-  "outcomes": 58,
-  "capped": 0,
-  "best": {
-   "gap": -3.809,
-   "ev_pct": -0.81,
-   "threshold_pct": 3.0,
-   "price": 1.33,
-   "outcome": "Elena Rybakina",
-   "book": "Betfair",
-   "matchup": "Leylah Fernandez @ Elena Rybakina",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-25T06:00:41.867274+00:00",
-  "markets": 7,
-  "markets_sharp": 6,
-  "outcomes": 38,
-  "capped": 0,
-  "best": {
-   "gap": -3.809,
-   "ev_pct": -0.81,
-   "threshold_pct": 3.0,
-   "price": 1.33,
-   "outcome": "Elena Rybakina",
-   "book": "Betfair",
-   "matchup": "Leylah Fernandez @ Elena Rybakina",
-   "sport_key": "tennis_wta_ningbo_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-25T06:30:32.363696+00:00",
   "markets": 4,
   "markets_sharp": 3,
@@ -1306,6 +1270,24 @@
    "ev_pct": 2.68,
    "threshold_pct": 3.0,
    "price": 1.72,
+   "outcome": "Ireland",
+   "book": "Betfair",
+   "matchup": "Ireland @ Namibia",
+   "sport_key": "cricket_odi",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-27T06:00:47.307084+00:00",
+  "markets": 7,
+  "markets_sharp": 5,
+  "outcomes": 27,
+  "capped": 0,
+  "best": {
+   "gap": 1.41,
+   "ev_pct": 4.41,
+   "threshold_pct": 3.0,
+   "price": 1.75,
    "outcome": "Ireland",
    "book": "Betfair",
    "matchup": "Ireland @ Namibia",

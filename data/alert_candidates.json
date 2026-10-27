@@ -20,5 +20,27 @@
     "sharp_probability": 0.5323,
     "consensus_probability": 0.5185,
     "alerted_at": "2026-10-27T02:30:36.130036+00:00"
+  },
+  "95b2": {
+    "event_id": "96d658b6a8b01790845515be4d1410a2",
+    "sport_key": "cricket_odi",
+    "commence_time": "2026-10-27T07:30:00Z",
+    "home_team": "Namibia",
+    "away_team": "Ireland",
+    "market_key": "h2h",
+    "bookmaker_key": "betfair_ex_au",
+    "bookmaker_title": "Betfair",
+    "outcome": "Ireland",
+    "price": 1.75,
+    "commission": 0.06,
+    "fair_probability": 0.6124,
+    "fair_odds": 1.633,
+    "ev_pct": 4.41,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.6124,
+    "consensus_probability": 0.6142,
+    "alerted_at": "2026-10-27T06:00:47.308683+00:00"
   }
 }
