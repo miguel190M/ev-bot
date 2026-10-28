@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-26T07:00:45.383053+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 4,
-  "capped": 0,
-  "best": {
-   "gap": -4.877,
-   "ev_pct": -1.88,
-   "threshold_pct": 3.0,
-   "price": 1.12,
-   "outcome": "Alexandra Eala",
-   "book": "Betfair",
-   "matchup": "Mika Stojsavljevic @ Alexandra Eala",
-   "sport_key": "tennis_wta_pan_pacific_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-26T07:30:35.296664+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1365,6 +1347,24 @@
    "matchup": "Diana Shnaider @ Aliaksandra Sasnovich",
    "sport_key": "tennis_wta_pan_pacific_open",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-28T07:00:50.211830+00:00",
+  "markets": 2,
+  "markets_sharp": 1,
+  "outcomes": 7,
+  "capped": 0,
+  "best": {
+   "gap": -4.462,
+   "ev_pct": -1.46,
+   "threshold_pct": 3.0,
+   "price": 1.41,
+   "outcome": "Alexandra Eala",
+   "book": "Betfair",
+   "matchup": "Talia Gibson @ Alexandra Eala",
+   "sport_key": "tennis_wta_pan_pacific_open",
+   "anchor": "pinnacle"
   }
  }
 ]
