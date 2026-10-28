@@ -1,59 +1,5 @@
 [
  {
-  "ts": "2026-10-26T05:00:49.713942+00:00",
-  "markets": 3,
-  "markets_sharp": 1,
-  "outcomes": 6,
-  "capped": 0,
-  "best": {
-   "gap": -2.981,
-   "ev_pct": 0.02,
-   "threshold_pct": 3.0,
-   "price": 1.14,
-   "outcome": "Alexandra Eala",
-   "book": "Betfair",
-   "matchup": "Mika Stojsavljevic @ Alexandra Eala",
-   "sport_key": "tennis_wta_pan_pacific_open",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-26T05:01:51.952585+00:00",
-  "markets": 3,
-  "markets_sharp": 1,
-  "outcomes": 6,
-  "capped": 0,
-  "best": {
-   "gap": -2.981,
-   "ev_pct": 0.02,
-   "threshold_pct": 3.0,
-   "price": 1.14,
-   "outcome": "Alexandra Eala",
-   "book": "Betfair",
-   "matchup": "Mika Stojsavljevic @ Alexandra Eala",
-   "sport_key": "tennis_wta_pan_pacific_open",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-26T05:30:33.592604+00:00",
-  "markets": 10,
-  "markets_sharp": 7,
-  "outcomes": 40,
-  "capped": 0,
-  "best": {
-   "gap": -1.346,
-   "ev_pct": 1.65,
-   "threshold_pct": 3.0,
-   "price": 3.26,
-   "outcome": "Tomas Machac",
-   "book": "SportsBet",
-   "matchup": "Alex de Minaur @ Tomas Machac",
-   "sport_key": "tennis_atp_vienna_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-26T06:00:42.964778+00:00",
   "markets": 2,
   "markets_sharp": 1,
@@ -1382,6 +1328,24 @@
    "book": "Betfair",
    "matchup": "Brandon Nakashima @ Tallon Griekspoor",
    "sport_key": "tennis_atp_vienna_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-28T05:30:34.469581+00:00",
+  "markets": 5,
+  "markets_sharp": 4,
+  "outcomes": 25,
+  "capped": 0,
+  "best": {
+   "gap": -1.932,
+   "ev_pct": 1.07,
+   "threshold_pct": 3.0,
+   "price": 9.2,
+   "outcome": "Venezia",
+   "book": "Betfair",
+   "matchup": "Inter Milan @ Venezia",
+   "sport_key": "soccer_italy_serie_a",
    "anchor": "pinnacle"
   }
  }
