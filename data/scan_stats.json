@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-26T20:00:44.434546+00:00",
-  "markets": 25,
-  "markets_sharp": 24,
-  "outcomes": 100,
-  "capped": 0,
-  "best": {
-   "gap": -3.33,
-   "ev_pct": -0.33,
-   "threshold_pct": 3.0,
-   "price": 1.8,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-26T20:30:35.829375+00:00",
   "markets": 13,
   "markets_sharp": 12,
@@ -1401,6 +1383,24 @@
    "matchup": "Adrian Mannarino @ Jakub Mensik",
    "sport_key": "tennis_atp_vienna_open",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-28T20:00:46.416201+00:00",
+  "markets": 26,
+  "markets_sharp": 24,
+  "outcomes": 104,
+  "capped": 0,
+  "best": {
+   "gap": 3.945,
+   "ev_pct": 10.55,
+   "threshold_pct": 6.6,
+   "price": 3.8,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "West Indies @ Bangladesh",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]

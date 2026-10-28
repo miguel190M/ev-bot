@@ -1,6 +1,14 @@
 {
-  "33320ad169692216a91dec030e7ef6a6:betfair_ex_au:Venezia": {
-    "ev_pct": 5.25,
-    "commence_time": "2026-10-28T17:30:00Z"
+  "ab4b92de827019ff6129c853680cb36b:sportsbet:Shogo Tanaka": {
+    "ev_pct": 5.83,
+    "commence_time": "2026-10-29T07:00:00Z"
+  },
+  "ab4b92de827019ff6129c853680cb36b:betfair_ex_au:Shogo Tanaka": {
+    "ev_pct": 6.1,
+    "commence_time": "2026-10-29T07:00:00Z"
+  },
+  "5d2cc7ab7c1626b5222f2907fada9c4b:betfair_ex_au:Draw": {
+    "ev_pct": 10.55,
+    "commence_time": "2026-10-29T03:30:00Z"
   }
 }
