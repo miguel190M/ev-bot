@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-26T08:00:42.514673+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 6,
-  "capped": 0,
-  "best": {
-   "gap": -6.821,
-   "ev_pct": -3.82,
-   "threshold_pct": 3.0,
-   "price": 1.93,
-   "outcome": "Sevilla",
-   "book": "Betfair",
-   "matchup": "CA Osasuna @ Sevilla",
-   "sport_key": "soccer_spain_la_liga",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-26T09:30:36.712196+00:00",
   "markets": 11,
   "markets_sharp": 11,
@@ -1364,6 +1346,24 @@
    "book": "Betfair",
    "matchup": "Talia Gibson @ Alexandra Eala",
    "sport_key": "tennis_wta_pan_pacific_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-28T08:00:45.916380+00:00",
+  "markets": 8,
+  "markets_sharp": 7,
+  "outcomes": 31,
+  "capped": 0,
+  "best": {
+   "gap": -3.455,
+   "ev_pct": -0.45,
+   "threshold_pct": 3.0,
+   "price": 1.37,
+   "outcome": "Denis Shapovalov",
+   "book": "Betfair",
+   "matchup": "Denis Shapovalov @ R\u00e9my Bertola",
+   "sport_key": "tennis_atp_swiss_indoors",
    "anchor": "pinnacle"
   }
  }
