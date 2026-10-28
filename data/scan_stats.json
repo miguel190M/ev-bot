@@ -1366,5 +1366,23 @@
    "sport_key": "tennis_wta_pan_pacific_open",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-28T05:00:45.709238+00:00",
+  "markets": 7,
+  "markets_sharp": 7,
+  "outcomes": 28,
+  "capped": 0,
+  "best": {
+   "gap": -3.243,
+   "ev_pct": -0.24,
+   "threshold_pct": 3.0,
+   "price": 1.52,
+   "outcome": "Brandon Nakashima",
+   "book": "Betfair",
+   "matchup": "Brandon Nakashima @ Tallon Griekspoor",
+   "sport_key": "tennis_atp_vienna_open",
+   "anchor": "pinnacle"
+  }
  }
 ]
