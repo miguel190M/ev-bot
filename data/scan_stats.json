@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-26T22:30:33.400687+00:00",
-  "markets": 22,
-  "markets_sharp": 22,
-  "outcomes": 88,
-  "capped": 0,
-  "best": {
-   "gap": -3.709,
-   "ev_pct": -0.71,
-   "threshold_pct": 3.0,
-   "price": 2.86,
-   "outcome": "Philadelphia Eagles",
-   "book": "SportsBet",
-   "matchup": "Dallas Cowboys @ Philadelphia Eagles",
-   "sport_key": "americanfootball_nfl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-26T23:00:45.873043+00:00",
   "markets": 23,
   "markets_sharp": 23,
@@ -1390,6 +1372,24 @@
   "markets": 17,
   "markets_sharp": 17,
   "outcomes": 68,
+  "capped": 0,
+  "best": {
+   "gap": -3.948,
+   "ev_pct": -0.95,
+   "threshold_pct": 3.0,
+   "price": 1.3,
+   "outcome": "Cleveland Cavaliers",
+   "book": "Betfair",
+   "matchup": "Washington Wizards @ Cleveland Cavaliers",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-28T22:30:34.841072+00:00",
+  "markets": 21,
+  "markets_sharp": 21,
+  "outcomes": 82,
   "capped": 0,
   "best": {
    "gap": -3.948,
