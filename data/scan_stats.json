@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-26T00:00:44.346214+00:00",
-  "markets": 4,
-  "markets_sharp": 4,
-  "outcomes": 16,
-  "capped": 0,
-  "best": {
-   "gap": -4.047,
-   "ev_pct": -1.05,
-   "threshold_pct": 3.0,
-   "price": 1.46,
-   "outcome": "Colorado Avalanche",
-   "book": "Betfair",
-   "matchup": "Colorado Avalanche @ Nashville Predators",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-26T00:30:32.198919+00:00",
   "markets": 2,
   "markets_sharp": 2,
@@ -1274,6 +1256,24 @@
    "book": "SportsBet",
    "matchup": "Portland Trail Blazers @ Los Angeles Lakers",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-28T00:00:46.176831+00:00",
+  "markets": 20,
+  "markets_sharp": 19,
+  "outcomes": 78,
+  "capped": 0,
+  "best": {
+   "gap": 4.662,
+   "ev_pct": 7.66,
+   "threshold_pct": 3.0,
+   "price": 3.6,
+   "outcome": "West Indies",
+   "book": "Betfair",
+   "matchup": "West Indies @ Bangladesh",
+   "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
   }
  }
