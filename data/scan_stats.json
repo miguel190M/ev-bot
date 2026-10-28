@@ -1312,5 +1312,23 @@
    "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-28T03:30:36.177210+00:00",
+  "markets": 3,
+  "markets_sharp": 2,
+  "outcomes": 12,
+  "capped": 0,
+  "best": {
+   "gap": -1.774,
+   "ev_pct": 1.23,
+   "threshold_pct": 3.0,
+   "price": 3.96,
+   "outcome": "Aliaksandra Sasnovich",
+   "book": "SportsBet",
+   "matchup": "Diana Shnaider @ Aliaksandra Sasnovich",
+   "sport_key": "tennis_wta_pan_pacific_open",
+   "anchor": "pinnacle"
+  }
  }
 ]
