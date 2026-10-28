@@ -131,5 +131,27 @@
     "sharp_probability": 0.3126,
     "consensus_probability": 0.2914,
     "alerted_at": "2026-10-28T01:30:34.344707+00:00"
+  },
+  "5d476482": {
+    "event_id": "f207d8049b3dfc50632ed482d4ae6dc3",
+    "sport_key": "cricket_test_match",
+    "commence_time": "2026-10-28T04:00:00Z",
+    "home_team": "Bangladesh",
+    "away_team": "West Indies",
+    "market_key": "h2h",
+    "bookmaker_key": "betfair_ex_au",
+    "bookmaker_title": "Betfair",
+    "outcome": "West Indies",
+    "price": 3.65,
+    "commission": 0.06,
+    "fair_probability": 0.3126,
+    "fair_odds": 3.199,
+    "ev_pct": 9.13,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.3126,
+    "consensus_probability": 0.2914,
+    "alerted_at": "2026-10-28T02:30:36.775591+00:00"
   }
 }

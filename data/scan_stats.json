@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-26T02:00:46.851872+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 4,
-  "capped": 0,
-  "best": {
-   "gap": -5.622,
-   "ev_pct": -2.62,
-   "threshold_pct": 3.0,
-   "price": 1.53,
-   "outcome": "Minnesota Wild",
-   "book": "Betfair",
-   "matchup": "Minnesota Wild @ Vancouver Canucks",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-26T05:00:49.713942+00:00",
   "markets": 3,
   "markets_sharp": 1,
@@ -1288,6 +1270,24 @@
    "ev_pct": 10.6,
    "threshold_pct": 3.0,
    "price": 3.7,
+   "outcome": "West Indies",
+   "book": "Betfair",
+   "matchup": "West Indies @ Bangladesh",
+   "sport_key": "cricket_test_match",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-28T02:30:36.773882+00:00",
+  "markets": 6,
+  "markets_sharp": 5,
+  "outcomes": 22,
+  "capped": 0,
+  "best": {
+   "gap": 6.131,
+   "ev_pct": 9.13,
+   "threshold_pct": 3.0,
+   "price": 3.65,
    "outcome": "West Indies",
    "book": "Betfair",
    "matchup": "West Indies @ Bangladesh",
