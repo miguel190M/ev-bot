@@ -1,26 +1,4 @@
 {
-  "e720": {
-    "event_id": "62f625b171f0f9b70a801dc8c0ca7cd4",
-    "sport_key": "tennis_wta_pan_pacific_open",
-    "commence_time": "2026-10-27T03:00:00Z",
-    "home_team": "Ann Li",
-    "away_team": "Ekaterina Alexandrova",
-    "market_key": "h2h",
-    "bookmaker_key": "betfair_ex_au",
-    "bookmaker_title": "Betfair",
-    "outcome": "Ekaterina Alexandrova",
-    "price": 2.0,
-    "commission": 0.06,
-    "fair_probability": 0.5323,
-    "fair_odds": 1.878,
-    "ev_pct": 3.27,
-    "anchor": "pinnacle",
-    "num_books": 1,
-    "sharp_disagreement": false,
-    "sharp_probability": 0.5323,
-    "consensus_probability": 0.5185,
-    "alerted_at": "2026-10-27T02:30:36.130036+00:00"
-  },
   "95b2": {
     "event_id": "96d658b6a8b01790845515be4d1410a2",
     "sport_key": "cricket_odi",
@@ -153,5 +131,27 @@
     "sharp_probability": 0.3126,
     "consensus_probability": 0.2914,
     "alerted_at": "2026-10-28T02:30:36.775591+00:00"
+  },
+  "5d476482032f": {
+    "event_id": "f207d8049b3dfc50632ed482d4ae6dc3",
+    "sport_key": "cricket_test_match",
+    "commence_time": "2026-10-28T04:00:00Z",
+    "home_team": "Bangladesh",
+    "away_team": "West Indies",
+    "market_key": "h2h",
+    "bookmaker_key": "betfair_ex_au",
+    "bookmaker_title": "Betfair",
+    "outcome": "West Indies",
+    "price": 3.6,
+    "commission": 0.06,
+    "fair_probability": 0.3126,
+    "fair_odds": 3.199,
+    "ev_pct": 7.66,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.3126,
+    "consensus_probability": 0.2914,
+    "alerted_at": "2026-10-28T03:00:47.119132+00:00"
   }
 }

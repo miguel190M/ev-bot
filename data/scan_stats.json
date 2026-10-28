@@ -1294,5 +1294,23 @@
    "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-28T03:00:47.117477+00:00",
+  "markets": 6,
+  "markets_sharp": 5,
+  "outcomes": 22,
+  "capped": 0,
+  "best": {
+   "gap": 4.662,
+   "ev_pct": 7.66,
+   "threshold_pct": 3.0,
+   "price": 3.6,
+   "outcome": "West Indies",
+   "book": "Betfair",
+   "matchup": "West Indies @ Bangladesh",
+   "sport_key": "cricket_test_match",
+   "anchor": "pinnacle"
+  }
  }
 ]
