@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-26T13:20:58.333783+00:00",
-  "markets": 8,
-  "markets_sharp": 8,
-  "outcomes": 32,
-  "capped": 0,
-  "best": {
-   "gap": -3.84,
-   "ev_pct": -0.84,
-   "threshold_pct": 3.0,
-   "price": 2.28,
-   "outcome": "Daniel Altmaier",
-   "book": "Betfair",
-   "matchup": "Juan Manuel Cerundolo @ Daniel Altmaier",
-   "sport_key": "tennis_atp_swiss_indoors",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-26T13:30:37.378331+00:00",
-  "markets": 9,
-  "markets_sharp": 9,
-  "outcomes": 36,
-  "capped": 0,
-  "best": {
-   "gap": -3.84,
-   "ev_pct": -0.84,
-   "threshold_pct": 3.0,
-   "price": 2.28,
-   "outcome": "Daniel Altmaier",
-   "book": "Betfair",
-   "matchup": "Juan Manuel Cerundolo @ Daniel Altmaier",
-   "sport_key": "tennis_atp_swiss_indoors",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-26T20:00:44.434546+00:00",
   "markets": 25,
   "markets_sharp": 24,
@@ -1408,6 +1372,24 @@
   "markets": 7,
   "markets_sharp": 7,
   "outcomes": 28,
+  "capped": 0,
+  "best": {
+   "gap": -3.005,
+   "ev_pct": -0.01,
+   "threshold_pct": 3.0,
+   "price": 1.22,
+   "outcome": "Jakub Mensik",
+   "book": "Betfair",
+   "matchup": "Adrian Mannarino @ Jakub Mensik",
+   "sport_key": "tennis_atp_vienna_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-28T13:30:39.544052+00:00",
+  "markets": 13,
+  "markets_sharp": 13,
+  "outcomes": 62,
   "capped": 0,
   "best": {
    "gap": -3.005,
