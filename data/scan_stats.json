@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-26T09:30:36.712196+00:00",
-  "markets": 11,
-  "markets_sharp": 11,
-  "outcomes": 44,
-  "capped": 0,
-  "best": {
-   "gap": -1.547,
-   "ev_pct": 1.45,
-   "threshold_pct": 3.0,
-   "price": 2.96,
-   "outcome": "Mika Brunold",
-   "book": "Betfair",
-   "matchup": "Nuno Borges @ Mika Brunold",
-   "sport_key": "tennis_atp_swiss_indoors",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-26T10:00:46.457149+00:00",
   "markets": 11,
   "markets_sharp": 11,
@@ -1400,6 +1382,24 @@
    "book": "Betfair",
    "matchup": "Casper Ruud @ Nuno Borges",
    "sport_key": "tennis_atp_swiss_indoors",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-28T09:30:37.732410+00:00",
+  "markets": 18,
+  "markets_sharp": 17,
+  "outcomes": 82,
+  "capped": 0,
+  "best": {
+   "gap": 2.254,
+   "ev_pct": 5.25,
+   "threshold_pct": 3.0,
+   "price": 9.2,
+   "outcome": "Venezia",
+   "book": "Betfair",
+   "matchup": "Inter Milan @ Venezia",
+   "sport_key": "soccer_italy_serie_a",
    "anchor": "pinnacle"
   }
  }
