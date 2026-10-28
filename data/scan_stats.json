@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-26T11:30:37.120932+00:00",
-  "markets": 14,
-  "markets_sharp": 14,
-  "outcomes": 56,
-  "capped": 0,
-  "best": {
-   "gap": -4.118,
-   "ev_pct": -1.12,
-   "threshold_pct": 3.0,
-   "price": 1.66,
-   "outcome": "Cleveland Cavaliers",
-   "book": "SportsBet",
-   "matchup": "Minnesota Timberwolves @ Cleveland Cavaliers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-26T12:00:50.152215+00:00",
   "markets": 12,
   "markets_sharp": 12,
@@ -1400,6 +1382,24 @@
    "book": "SportsBet",
    "matchup": "Daniil Medvedev @ Daniel Merida Aguilar",
    "sport_key": "tennis_atp_vienna_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-28T11:30:41.953241+00:00",
+  "markets": 16,
+  "markets_sharp": 16,
+  "outcomes": 64,
+  "capped": 0,
+  "best": {
+   "gap": -3.075,
+   "ev_pct": -0.07,
+   "threshold_pct": 3.0,
+   "price": 1.68,
+   "outcome": "Atlanta Hawks",
+   "book": "SportsBet",
+   "matchup": "Miami Heat @ Atlanta Hawks",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
