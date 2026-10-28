@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-26T10:00:46.457149+00:00",
-  "markets": 11,
-  "markets_sharp": 11,
-  "outcomes": 44,
-  "capped": 0,
-  "best": {
-   "gap": -2.0,
-   "ev_pct": 1.0,
-   "threshold_pct": 3.0,
-   "price": 3.31,
-   "outcome": "Dominic Stephan Stricker",
-   "book": "SportsBet",
-   "matchup": "Casper Ruud @ Dominic Stephan Stricker",
-   "sport_key": "tennis_atp_swiss_indoors",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-26T10:30:35.790172+00:00",
-  "markets": 11,
-  "markets_sharp": 11,
-  "outcomes": 44,
-  "capped": 0,
-  "best": {
-   "gap": -4.595,
-   "ev_pct": -1.6,
-   "threshold_pct": 3.0,
-   "price": 1.63,
-   "outcome": "Matteo Berrettini",
-   "book": "Betfair",
-   "matchup": "Tomas Martin Etcheverry @ Matteo Berrettini",
-   "sport_key": "tennis_atp_vienna_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-26T11:00:43.643906+00:00",
   "markets": 11,
   "markets_sharp": 11,
@@ -1405,6 +1369,24 @@
  },
  {
   "ts": "2026-10-28T10:00:45.861858+00:00",
+  "markets": 12,
+  "markets_sharp": 12,
+  "outcomes": 48,
+  "capped": 0,
+  "best": {
+   "gap": -4.145,
+   "ev_pct": -1.14,
+   "threshold_pct": 3.0,
+   "price": 1.23,
+   "outcome": "Jakub Mensik",
+   "book": "Betfair",
+   "matchup": "Adrian Mannarino @ Jakub Mensik",
+   "sport_key": "tennis_atp_vienna_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-28T10:30:37.551476+00:00",
   "markets": 12,
   "markets_sharp": 12,
   "outcomes": 48,
