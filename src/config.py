@@ -131,7 +131,7 @@ NICHE_FAR_INTERVAL_HOURS = float(os.environ.get("NICHE_FAR_INTERVAL_HOURS", "1")
 THROTTLED_SPORTS = {
     "americanfootball_nfl", "baseball_mlb", "icehockey_nhl", "soccer_epl",
     "soccer_spain_la_liga", "soccer_italy_serie_a", "soccer_germany_bundesliga",
-    "soccer_uefa_champs_league",
+    "soccer_uefa_champs_league", "soccer_usa_mls",
 }
 THROTTLED_NEAR_INTERVAL_MINUTES = float(os.environ.get("THROTTLED_NEAR_INTERVAL_MINUTES", "120"))
 
@@ -214,6 +214,9 @@ FIXED_SPORTS = [
     "mma_mixed_martial_arts",
     "boxing_boxing",
     "cricket_big_bash",   # Big Bash League (Dec-Jan); other cricket comps are auto-discovered
+    "americanfootball_ncaaf",   # trial: college sports, thin/soft lines, many games per pull
+    "basketball_ncaab",
+    "soccer_usa_mls",
 ]
 
 # Sport groups (as listed by The Odds API /sports) whose in-season competitions

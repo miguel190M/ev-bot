@@ -35,6 +35,9 @@ SPORT_LABELS = {
     "boxing_boxing": "Boxing",
     "soccer_germany_bundesliga": "Bundesliga",
     "soccer_australia_aleague": "A-League",
+    "americanfootball_ncaaf": "NCAAF",
+    "basketball_ncaab": "NCAAB",
+    "soccer_usa_mls": "MLS",
 }
 
 
