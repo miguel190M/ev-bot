@@ -217,6 +217,10 @@ def process_commands(candidates: dict, bet_ledger: dict):
                 f"Profit: ${bet['profit']:g}"
             )
             print(f"    -> Settled {sid} manually: {bet['status']} (${bet['profit']})")
+        elif telegram_commands.is_open_command(text):
+            telegram_commands.send_message(
+                daily_digest.open_bets_text(bet_ledger, datetime.now(timezone.utc)))
+            print("    -> Replied with open bets")
         elif (dim := telegram_commands.parse_breakdown_command(text)):
             telegram_commands.send_message(breakdown.build(bet_ledger, dim))
             print(f"    -> Replied with breakdown ({dim})")
@@ -362,6 +366,11 @@ def main():
     bets.save_candidates(candidates)
 
     resolve_open_bets(bet_ledger)
+    try:
+        daily_digest.remind_awaiting_settlement(bet_ledger, datetime.now(timezone.utc),
+                                                telegram_commands.send_message)
+    except Exception as e:
+        print(f"Settle reminder failed (will retry next run): {e}")
     send_monthly_digest_if_due(bet_ledger)
     try:
         daily_digest.send_daily_digest_if_due(candidates, bet_ledger, odds_cache)
