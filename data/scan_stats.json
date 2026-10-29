@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-27T10:30:35.916118+00:00",
-  "markets": 13,
-  "markets_sharp": 13,
-  "outcomes": 52,
-  "capped": 0,
-  "best": {
-   "gap": -2.107,
-   "ev_pct": 0.89,
-   "threshold_pct": 3.0,
-   "price": 5.3,
-   "outcome": "Karen Khachanov",
-   "book": "Betfair",
-   "matchup": "Carlos Alcaraz @ Karen Khachanov",
-   "sport_key": "tennis_atp_vienna_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-27T11:00:46.217733+00:00",
   "markets": 12,
   "markets_sharp": 12,
@@ -1408,6 +1390,24 @@
   "markets": 13,
   "markets_sharp": 12,
   "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": 6.345,
+   "ev_pct": 8.77,
+   "threshold_pct": 2.42,
+   "price": 1.71,
+   "outcome": "Shogo Tanaka",
+   "book": "SportsBet",
+   "matchup": "Shogo Tanaka @ Sho Nogami",
+   "sport_key": "boxing_boxing",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-29T10:30:37.144482+00:00",
+  "markets": 16,
+  "markets_sharp": 14,
+  "outcomes": 64,
   "capped": 0,
   "best": {
    "gap": 6.345,
