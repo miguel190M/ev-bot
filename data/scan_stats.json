@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-27T21:00:44.343925+00:00",
-  "markets": 16,
-  "markets_sharp": 16,
-  "outcomes": 64,
-  "capped": 0,
-  "best": {
-   "gap": -1.224,
-   "ev_pct": 1.78,
-   "threshold_pct": 3.0,
-   "price": 13.0,
-   "outcome": "Sacramento Kings",
-   "book": "SportsBet",
-   "matchup": "Sacramento Kings @ San Antonio Spurs",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-27T21:30:35.482180+00:00",
   "markets": 16,
   "markets_sharp": 16,
@@ -1418,6 +1400,24 @@
    "book": "Betfair",
    "matchup": "Troy Trojans @ James Madison Dukes",
    "sport_key": "americanfootball_ncaaf",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-29T21:00:47.594611+00:00",
+  "markets": 17,
+  "markets_sharp": 12,
+  "outcomes": 66,
+  "capped": 0,
+  "best": {
+   "gap": -2.117,
+   "ev_pct": 0.88,
+   "threshold_pct": 3.0,
+   "price": 1.71,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_international_t20",
    "anchor": "pinnacle"
   }
  }
