@@ -231,6 +231,19 @@ def _resolve_totals(bet: dict, home_score: int, away_score: int):
     _apply_win_loss(bet, won)
 
 
+def settle_manually(bet: dict, result: str) -> None:
+    """Settle a bet by hand (result: 'won' | 'lost' | 'void') - for sports whose
+    results the scores API can't provide. Same profit/CLV math as auto-settling."""
+    if result == "void":
+        bet["status"] = "void"
+        bet["profit"] = 0.0
+    else:
+        _apply_win_loss(bet, won=(result == "won"))
+    bet["settled_manually"] = True
+    bet["clv_pct"] = compute_clv_pct(bet)
+    bet["net_clv_pct"] = compute_net_clv_pct(bet)
+
+
 def resolve_bet(bet: dict, final_scores: dict) -> bool:
     """final_scores: {team_name: int_score}. Mutates bet in place if it can
     be resolved. Returns True if the bet's status changed."""

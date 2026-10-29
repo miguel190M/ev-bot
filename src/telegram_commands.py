@@ -63,6 +63,23 @@ def parse_bet_command(text: str):
     return m.group(1).lower(), float(m.group(2))
 
 
+SETTLE_PATTERN = re.compile(
+    r"^/(?:settle\s+(?P<id1>[0-9a-f]+(?:-\d+)?)\s+(?P<res1>won|win|lost|loss|lose|void)"
+    r"|(?P<res2>won|lost|void)\s+(?P<id2>[0-9a-f]+(?:-\d+)?))\s*$", re.IGNORECASE)
+
+
+def parse_settle_command(text: str):
+    """'/settle 5b88 won' or '/won 5b88' (also /lost, /void) -> (id, 'won'|'lost'|'void'),
+    else None. For bets the bot can't settle itself (boxing, MMA, cricket)."""
+    m = SETTLE_PATTERN.match(text.strip())
+    if not m:
+        return None
+    sid = (m.group("id1") or m.group("id2")).lower()
+    res = (m.group("res1") or m.group("res2")).lower()
+    res = {"win": "won", "loss": "lost", "lose": "lost"}.get(res, res)
+    return sid, res
+
+
 def is_stats_command(text: str) -> bool:
     return text.strip().lower() == "/stats"
 

@@ -46,6 +46,25 @@ def _sport_label(sport_key: str) -> str:
     return SPORT_LABELS.get(sport_key, sport_key)
 
 
+def awaiting_settlement(bet_ledger: dict, now: datetime) -> list:
+    """Open bets on sports the bot can't settle itself (boxing, MMA, cricket)
+    whose event should be over by now. Returns [(bet_id, bet)], oldest first."""
+    out = []
+    for bid, b in bet_ledger.items():
+        if b.get("status") != "open" or not b.get("sport_key", "").startswith(config.NO_AUTO_SCORE_PREFIXES):
+            continue
+        try:
+            start = datetime.fromisoformat(b["commence_time"].replace("Z", "+00:00"))
+        except (KeyError, ValueError):
+            continue
+        hours = (config.SETTLE_PROMPT_HOURS_TEST_CRICKET if b["sport_key"] == "cricket_test_match"
+                 else config.SETTLE_PROMPT_HOURS)
+        if now - start >= timedelta(hours=hours):
+            out.append((start, bid, b))
+    out.sort(key=lambda t: t[0])
+    return [(bid, b) for _, bid, b in out]
+
+
 def _matchup(o: dict) -> str:
     return f"{o['away_team']} @ {o['home_team']}" if o.get("away_team") else o.get("home_team", "")
 
@@ -143,6 +162,14 @@ def format_digest(slate: list[dict], ids: dict, candidates: dict, bet_ledger: di
     else:
         lines.append("Settled: none")
     lines.append(f"Open: {len(open_bets)} (${sum(b['stake'] for b in open_bets):g} at risk)")
+    awaiting = awaiting_settlement(bet_ledger, now)
+    if awaiting:
+        lines.append("")
+        lines.append("⏳ Awaiting your result (reply /settle <id> won|lost|void):")
+        for bid, b in awaiting[:8]:
+            lines.append(f"   {bid} · {b['outcome']} @ {b['price']} · {_matchup(b)}")
+        if len(awaiting) > 8:
+            lines.append(f"   ...and {len(awaiting) - 8} more")
     lines.append("")
 
     # --- All-time ---

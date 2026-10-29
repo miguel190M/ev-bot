@@ -204,6 +204,11 @@ DISCOVERED_GROUPS = ("Tennis", "Cricket")
 # must not keep paying 2 credits per run to re-fetch scores that can't resolve.
 NO_AUTO_SCORE_PREFIXES = ("mma_", "boxing_", "cricket_")
 
+# How long after kickoff a still-open bet on a no-auto-score sport is listed in
+# the daily report as "awaiting settlement" (reply /settle <id> won|lost|void).
+SETTLE_PROMPT_HOURS = 6
+SETTLE_PROMPT_HOURS_TEST_CRICKET = 72
+
 STATE_FILE = os.environ.get("STATE_FILE", "data/state.json")
 ODDS_API_BASE = "https://api.the-odds-api.com/v4"
 
