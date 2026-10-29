@@ -564,7 +564,8 @@
     "lead_hours": 7.7,
     "logged_at": "2026-10-29T03:00:46.990543+00:00",
     "closing_fair_odds": 1.163,
-    "closing_captured_at": "2026-10-29T07:30:40.017252+00:00"
+    "closing_captured_at": "2026-10-29T07:30:40.017252+00:00",
+    "settle_reminded_at": "2026-10-29T20:00:47.044168+00:00"
   },
   "07297": {
     "event_id": "64445235d9c58f413a990f6ff8d91c1c",
@@ -606,8 +607,8 @@
     "anchor": "retail_consensus",
     "sharp_disagreement": false,
     "stake": 10.0,
-    "status": "open",
-    "profit": null,
+    "status": "won",
+    "profit": 7.1,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-10-29T05:30:36.448634+00:00",
@@ -615,7 +616,11 @@
     "logged_at": "2026-10-29T06:00:46.625371+00:00",
     "closing_fair_odds": 1.572,
     "closing_captured_at": "2026-10-29T06:30:37.523178+00:00",
-    "settle_reminded_at": "2026-10-29T13:00:50.947119+00:00"
+    "settle_reminded_at": "2026-10-29T13:00:50.947119+00:00",
+    "settled_manually": true,
+    "clv_pct": 8.78,
+    "net_clv_pct": 8.78,
+    "resolved_at": "2026-10-29T20:00:46.505393+00:00"
   },
   "e3cd": {
     "event_id": "8f8635facd49cb28543e504f176a8d59",
@@ -663,6 +668,7 @@
     "bookmaker_key": "betfair_ex_au",
     "alerted_at": "2026-10-29T07:00:49.802392+00:00",
     "lead_hours": 1.0,
-    "logged_at": "2026-10-29T08:30:37.057184+00:00"
+    "logged_at": "2026-10-29T08:30:37.057184+00:00",
+    "settle_reminded_at": "2026-10-29T20:00:47.044168+00:00"
   }
 }
