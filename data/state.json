@@ -18,5 +18,9 @@
   "64445235d9c58f413a990f6ff8d91c1c:betfair_ex_au:Afghanistan": {
     "ev_pct": 2.12,
     "commence_time": "2026-10-29T14:30:00Z"
+  },
+  "8f8635facd49cb28543e504f176a8d59:betfair_ex_au:South Africa": {
+    "ev_pct": 4.76,
+    "commence_time": "2026-10-29T08:30:00Z"
   }
 }
