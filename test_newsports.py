@@ -30,6 +30,17 @@ def test_soccer_leagues_are_h2h_only_with_sharp_region():
     assert "eu" in config.get_regions_for_sport("cricket_test_match").split(",")
 
 
+def test_college_and_mls_added():
+    for k in ("americanfootball_ncaaf", "basketball_ncaab", "soccer_usa_mls"):
+        assert k in config.FIXED_SPORTS
+        assert config.get_regions_for_sport(k) == "au,eu" and config.get_markets_for_sport(k) == "h2h"
+    assert daily_digest._sport_label("americanfootball_ncaaf") == "NCAAF"
+    assert daily_digest._sport_label("basketball_ncaab") == "NCAAB"
+    assert daily_digest._sport_label("soccer_usa_mls") == "MLS"
+    assert config.get_near_interval_minutes("soccer_usa_mls") == 120      # throttled like other soccer
+    assert config.get_near_interval_minutes("americanfootball_ncaaf") == 0
+
+
 def test_labels():
     assert daily_digest._sport_label("cricket_big_bash") == "Cricket Big Bash"
     assert daily_digest._sport_label("mma_mixed_martial_arts") == "MMA"
