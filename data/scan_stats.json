@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-27T06:00:47.307084+00:00",
-  "markets": 7,
-  "markets_sharp": 5,
-  "outcomes": 27,
-  "capped": 0,
-  "best": {
-   "gap": 1.41,
-   "ev_pct": 4.41,
-   "threshold_pct": 3.0,
-   "price": 1.75,
-   "outcome": "Ireland",
-   "book": "Betfair",
-   "matchup": "Ireland @ Namibia",
-   "sport_key": "cricket_odi",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-27T06:30:34.711943+00:00",
-  "markets": 7,
-  "markets_sharp": 5,
-  "outcomes": 27,
-  "capped": 0,
-  "best": {
-   "gap": -2.126,
-   "ev_pct": 0.87,
-   "threshold_pct": 3.0,
-   "price": 1.88,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-27T07:00:47.073029+00:00",
   "markets": 6,
   "markets_sharp": 4,
@@ -1412,6 +1376,24 @@
   "best": {
    "gap": 1.914,
    "ev_pct": 4.33,
+   "threshold_pct": 2.42,
+   "price": 1.71,
+   "outcome": "Shogo Tanaka",
+   "book": "SportsBet",
+   "matchup": "Shogo Tanaka @ Sho Nogami",
+   "sport_key": "boxing_boxing",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-29T06:30:36.538824+00:00",
+  "markets": 8,
+  "markets_sharp": 4,
+  "outcomes": 28,
+  "capped": 0,
+  "best": {
+   "gap": 1.886,
+   "ev_pct": 4.31,
    "threshold_pct": 2.42,
    "price": 1.71,
    "outcome": "Shogo Tanaka",

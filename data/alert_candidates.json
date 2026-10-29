@@ -265,5 +265,27 @@
     "sharp_probability": null,
     "consensus_probability": 0.6101,
     "alerted_at": "2026-10-29T05:30:36.448634+00:00"
+  },
+  "b38bf": {
+    "event_id": "53278095ff9bd1ebbcb4f643206ac818",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-10-29T07:45:00Z",
+    "home_team": "Toshiya Ishii",
+    "away_team": "Ryuya Nihei",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Toshiya Ishii",
+    "price": 1.21,
+    "commission": 0.0,
+    "fair_probability": 0.8516,
+    "fair_odds": 1.174,
+    "ev_pct": 3.04,
+    "anchor": "retail_consensus",
+    "num_books": 8,
+    "sharp_disagreement": false,
+    "sharp_probability": null,
+    "consensus_probability": 0.8516,
+    "alerted_at": "2026-10-29T06:30:36.540716+00:00"
   }
 }
