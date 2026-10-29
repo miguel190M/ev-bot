@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-27T09:11:24.231965+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 28,
-  "capped": 0,
-  "best": {
-   "gap": -4.479,
-   "ev_pct": -1.48,
-   "threshold_pct": 3.0,
-   "price": 1.96,
-   "outcome": "Arthur Rinderknech",
-   "book": "SportsBet",
-   "matchup": "Arthur Rinderknech @ Jerome Kym",
-   "sport_key": "tennis_atp_swiss_indoors",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-27T09:30:38.513405+00:00",
   "markets": 16,
   "markets_sharp": 16,
@@ -1408,6 +1390,24 @@
   "markets": 18,
   "markets_sharp": 13,
   "outcomes": 72,
+  "capped": 0,
+  "best": {
+   "gap": 6.345,
+   "ev_pct": 8.77,
+   "threshold_pct": 2.42,
+   "price": 1.71,
+   "outcome": "Shogo Tanaka",
+   "book": "SportsBet",
+   "matchup": "Shogo Tanaka @ Sho Nogami",
+   "sport_key": "boxing_boxing",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-29T09:30:38.475715+00:00",
+  "markets": 19,
+  "markets_sharp": 16,
+  "outcomes": 79,
   "capped": 0,
   "best": {
    "gap": 6.345,
