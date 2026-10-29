@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-27T00:00:42.465659+00:00",
-  "markets": 17,
-  "markets_sharp": 17,
-  "outcomes": 68,
-  "capped": 0,
-  "best": {
-   "gap": -3.768,
-   "ev_pct": -0.77,
-   "threshold_pct": 3.0,
-   "price": 1.52,
-   "outcome": "Nikola Bartunkova",
-   "book": "Betfair",
-   "matchup": "Nikola Bartunkova @ Aliaksandra Sasnovich",
-   "sport_key": "tennis_wta_pan_pacific_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-27T00:30:33.699389+00:00",
   "markets": 17,
   "markets_sharp": 16,
@@ -1400,6 +1382,24 @@
    "book": "Betfair",
    "matchup": "Toronto Maple Leafs @ Seattle Kraken",
    "sport_key": "icehockey_nhl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-29T00:00:50.258445+00:00",
+  "markets": 22,
+  "markets_sharp": 20,
+  "outcomes": 84,
+  "capped": 0,
+  "best": {
+   "gap": 2.832,
+   "ev_pct": 5.83,
+   "threshold_pct": 3.0,
+   "price": 1.71,
+   "outcome": "Shogo Tanaka",
+   "book": "SportsBet",
+   "matchup": "Shogo Tanaka @ Sho Nogami",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
