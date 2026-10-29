@@ -374,5 +374,27 @@
     "sharp_probability": 0.8063,
     "consensus_probability": 0.7908,
     "alerted_at": "2026-10-29T10:00:57.346159+00:00"
+  },
+  "ae369e008f6e": {
+    "event_id": "ab4b92de827019ff6129c853680cb36b",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-10-29T11:15:00Z",
+    "home_team": "Sho Nogami",
+    "away_team": "Shogo Tanaka",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Shogo Tanaka",
+    "price": 1.71,
+    "commission": 0.0,
+    "fair_probability": 0.6361,
+    "fair_odds": 1.572,
+    "ev_pct": 8.77,
+    "anchor": "retail_consensus",
+    "num_books": 3,
+    "sharp_disagreement": false,
+    "sharp_probability": null,
+    "consensus_probability": 0.6361,
+    "alerted_at": "2026-10-29T11:00:48.956090+00:00"
   }
 }
