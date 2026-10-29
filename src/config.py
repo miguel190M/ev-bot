@@ -9,41 +9,23 @@ TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 REGION = os.environ.get("ODDS_REGION", "au")  # default region for most sports
 DEFAULT_MARKET = os.environ.get("ODDS_MARKET", "h2h")  # default market for most sports
 
-# EPL additionally pulls the 'totals' (over/under) market on top of h2h.
-# Scoped to EPL only, not NBA/NFL, for two reasons: soccer's total is
-# almost always anchored at 2.5 goals across every bookmaker, so there's
-# little of the line-fragmentation problem noted in ev_calculator's module
-# docstring (NBA/NFL totals vary game-to-game - 220.5 here, 228.5 there -
-# so far fewer books would ever agree on the same line to build a
-# consensus from). And NBA/NFL already pull the extra 'us' region, so
-# adding a second market there would have meant 4 credits per triggered
-# scan instead of 2 - EPL only goes from 1 to 2.
+# Per-sport market overrides (default is h2h only).
 SPORT_MARKET_OVERRIDES = {
-    "soccer_epl": "h2h,totals",
-    "soccer_spain_la_liga": "h2h,totals",
-    "soccer_italy_serie_a": "h2h,totals",
-    "soccer_uefa_champs_league": "h2h,totals",
-    "soccer_germany_bundesliga": "h2h,totals",
-    "soccer_australia_aleague": "h2h,totals",
+    # Soccer 'totals' (over/under) used to be pulled here, but across 89 alerts
+    # it never produced a single one while doubling each league's cost per
+    # pull (4 credits -> 2), so every sport is h2h-only now. Add a
+    # "sport_key": "h2h,totals" entry to bring it back for one league.
 }
 
 
 def get_markets_for_sport(sport_key: str) -> str:
     return SPORT_MARKET_OVERRIDES.get(sport_key, DEFAULT_MARKET)
 
-# NBA and NFL additionally pull the 'us' region on top of the default -
-# US books are far deeper/sharper for these two home-turf sports, giving a
-# much better fair-value consensus for Betfair's price to be checked
-# against. AFL/NRL have no US market coverage anyway, and EPL isn't
-# getting this treatment yet (UK/EU would be the sharper region there, not
-# US, if that's wanted later). Costs roughly double the credits per call
-# for these two sports specifically, since cost scales with markets x
-# regions - everything else stays on the single default region.
+# Extra regions per sport on top of the default (cost = markets x regions credits per pull).
 SPORT_REGION_OVERRIDES = {
+    # NFL/MLB/NHL dropped their 'us' region: Pinnacle is the reference now, so
+    # the extra US books only cost a credit per pull (3 -> 2). NBA keeps it.
     "basketball_nba": "au,us",
-    "americanfootball_nfl": "au,us",
-    "baseball_mlb": "au,us",
-    "icehockey_nhl": "au,us",
 }
 
 
@@ -134,6 +116,46 @@ SCAN_WINDOW_HOURS = float(os.environ.get("SCAN_WINDOW_HOURS", "3"))
 FAR_WINDOW_HOURS = float(os.environ.get("FAR_WINDOW_HOURS", "12"))
 FAR_CHECK_INTERVAL_HOURS = float(os.environ.get("FAR_CHECK_INTERVAL_HOURS", "4"))
 
+# Where the alerts actually come from: boxing, MMA, cricket and tennis produce
+# most alerts (boxing mostly 3-12h before the fight, i.e. the far zone), so
+# those sports get a wider far window and much more frequent far checks.
+NICHE_PREFIXES = ("boxing_", "mma_", "cricket_", "tennis_")
+NICHE_FAR_WINDOW_HOURS = float(os.environ.get("NICHE_FAR_WINDOW_HOURS", "24"))
+NICHE_FAR_INTERVAL_HOURS = float(os.environ.get("NICHE_FAR_INTERVAL_HOURS", "1"))
+
+# Big, efficient markets rarely show edges and they vanish within minutes, so
+# these sports are only re-pulled in the near zone every this-many minutes
+# instead of every run. NBA is deliberately NOT here (full 30-minute cadence).
+# A sport is never throttled while you hold an open bet on it that starts
+# within SCAN_WINDOW_HOURS, so the closing line (CLV) is still captured.
+THROTTLED_SPORTS = {
+    "americanfootball_nfl", "baseball_mlb", "icehockey_nhl", "soccer_epl",
+    "soccer_spain_la_liga", "soccer_italy_serie_a", "soccer_germany_bundesliga",
+    "soccer_uefa_champs_league",
+}
+THROTTLED_NEAR_INTERVAL_MINUTES = float(os.environ.get("THROTTLED_NEAR_INTERVAL_MINUTES", "120"))
+
+# Runs fire a few seconds apart from exactly 30/60/... minutes, so an interval
+# check is allowed to be this many minutes early rather than slipping a whole run.
+INTERVAL_SLACK_MINUTES = 5
+
+
+def _is_niche(sport_key: str) -> bool:
+    return sport_key.startswith(NICHE_PREFIXES)
+
+
+def get_far_window_hours(sport_key: str) -> float:
+    return max(FAR_WINDOW_HOURS, NICHE_FAR_WINDOW_HOURS) if _is_niche(sport_key) else FAR_WINDOW_HOURS
+
+
+def get_far_interval_hours(sport_key: str) -> float:
+    return min(FAR_CHECK_INTERVAL_HOURS, NICHE_FAR_INTERVAL_HOURS) if _is_niche(sport_key) else FAR_CHECK_INTERVAL_HOURS
+
+
+def get_near_interval_minutes(sport_key: str) -> float:
+    """0 = pull on every run."""
+    return THROTTLED_NEAR_INTERVAL_MINUTES if sport_key in THROTTLED_SPORTS else 0.0
+
 # Skip the run entirely (no credits spent, no Telegram polling) while inside
 # this Sydney-local-time window - e.g. while you're asleep. Automatically
 # tracks the AEST/AEDT daylight-saving switch since it's computed from the
@@ -191,6 +213,7 @@ FIXED_SPORTS = [
     "soccer_australia_aleague",
     "mma_mixed_martial_arts",
     "boxing_boxing",
+    "cricket_big_bash",   # Big Bash League (Dec-Jan); other cricket comps are auto-discovered
 ]
 
 # Sport groups (as listed by The Odds API /sports) whose in-season competitions

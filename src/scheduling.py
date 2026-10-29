@@ -101,7 +101,8 @@ def scan_tier(events: list[dict], near_hours: float, far_hours: float, now: date
     return "none"
 
 
-def is_far_check_due(last_checked_iso: str | None, interval_hours: float, now: datetime | None = None) -> bool:
+def is_far_check_due(last_checked_iso: str | None, interval_hours: float, now: datetime | None = None,
+                     slack_minutes: float = 0.0) -> bool:
     """True if this sport has never had a far-zone check, or its last one
     was long enough ago to be due again. Paired with scan_tier() == 'far' -
     this is what keeps the far zone to occasional checks instead of every
@@ -111,4 +112,4 @@ def is_far_check_due(last_checked_iso: str | None, interval_hours: float, now: d
     now = now or datetime.now(timezone.utc)
     last_checked = datetime.fromisoformat(last_checked_iso)
     elapsed_hours = (now - last_checked).total_seconds() / 3600
-    return elapsed_hours >= interval_hours
+    return elapsed_hours >= interval_hours - slack_minutes / 60
