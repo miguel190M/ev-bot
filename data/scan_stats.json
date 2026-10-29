@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-27T11:30:36.455541+00:00",
-  "markets": 14,
-  "markets_sharp": 14,
-  "outcomes": 56,
-  "capped": 0,
-  "best": {
-   "gap": -2.894,
-   "ev_pct": 0.11,
-   "threshold_pct": 3.0,
-   "price": 4.2,
-   "outcome": "Zimbabwe",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-27T12:00:47.539388+00:00",
-  "markets": 15,
-  "markets_sharp": 15,
-  "outcomes": 60,
-  "capped": 0,
-  "best": {
-   "gap": -2.901,
-   "ev_pct": 0.1,
-   "threshold_pct": 3.0,
-   "price": 5.7,
-   "outcome": "Brooklyn Nets",
-   "book": "Betfair",
-   "matchup": "Brooklyn Nets @ Boston Celtics",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-27T12:30:36.345073+00:00",
   "markets": 12,
   "markets_sharp": 12,
@@ -1437,6 +1401,24 @@
    "matchup": "Alycia Parks @ Mia Poh\u00e1nkov\u00e1",
    "sport_key": "tennis_wta_pan_pacific_open",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-29T12:00:52.760754+00:00",
+  "markets": 15,
+  "markets_sharp": 13,
+  "outcomes": 59,
+  "capped": 0,
+  "best": {
+   "gap": -0.59,
+   "ev_pct": 2.41,
+   "threshold_pct": 3.0,
+   "price": 1.31,
+   "outcome": "Afghanistan",
+   "book": "Betfair",
+   "matchup": "Zimbabwe @ Afghanistan",
+   "sport_key": "cricket_international_t20",
+   "anchor": "pinnacle"
   }
  }
 ]
