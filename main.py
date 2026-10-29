@@ -139,8 +139,9 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
     if skipped:
         print(f"\nSkipped (no credits spent): {skipped}")
 
-    print(f"\nFound {len(all_opportunities)} +EV opportunities (threshold scales with price - "
-          f"e.g. {config.get_ev_threshold(2.0) * 100:.1f}% at odds of 2.0, "
+    print(f"\nFound {len(all_opportunities)} +EV opportunities (needed edge: "
+          f"{config.SHARP_EV_BASE_PCT:g}% vs Pinnacle; vs soft-book consensus "
+          f"{config.get_ev_threshold(2.0) * 100:.1f}% at odds of 2.0, "
           f"{config.get_ev_threshold(4.0) * 100:.1f}% at odds of 4.0)")
 
     st = state.load_state()
@@ -199,6 +200,23 @@ def process_commands(candidates: dict, bet_ledger: dict):
                 f"I'll let you know once it resolves."
             )
             print(f"    -> Logged bet {bet_id}: ${stake} on {bet['outcome']} @ {bet['price']}")
+        elif (settle := telegram_commands.parse_settle_command(text)):
+            sid, result = settle
+            bet = bet_ledger.get(sid)
+            if not bet:
+                telegram_commands.send_message(f"No bet with id '{sid}'. Check the id in the daily report.")
+                continue
+            was = bet["status"]
+            bets.settle_manually(bet, result)
+            bet["resolved_at"] = datetime.now(timezone.utc).isoformat()
+            matchup = f"{bet.get('away_team')} @ {bet.get('home_team')}" if bet.get("away_team") else bet.get("home_team", "")
+            verdict = {"won": "✅ WON", "lost": "❌ LOST", "void": "➖ VOID"}[bet["status"]]
+            note = f" (was {was})" if was != "open" else ""
+            telegram_commands.send_message(
+                f"{verdict}{note}: {bet['outcome']} @ {bet['price']} ({matchup})\n"
+                f"Profit: ${bet['profit']:g}"
+            )
+            print(f"    -> Settled {sid} manually: {bet['status']} (${bet['profit']})")
         elif (dim := telegram_commands.parse_breakdown_command(text)):
             telegram_commands.send_message(breakdown.build(bet_ledger, dim))
             print(f"    -> Replied with breakdown ({dim})")
