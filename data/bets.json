@@ -368,7 +368,8 @@
     "bookmaker_key": "betfair_ex_au",
     "alerted_at": "2026-10-19T06:30:31.717086+00:00",
     "lead_hours": 1.5,
-    "logged_at": "2026-10-19T11:30:35.012469+00:00"
+    "logged_at": "2026-10-19T11:30:35.012469+00:00",
+    "settle_reminded_at": "2026-10-29T07:57:21.074795+00:00"
   },
   "5442e": {
     "event_id": "b5289e209ec08b95cb68588ddfe407c8",
@@ -391,7 +392,8 @@
     "bookmaker_key": "betfair_ex_au",
     "alerted_at": "2026-10-22T06:00:44.713270+00:00",
     "lead_hours": 1.0,
-    "logged_at": "2026-10-22T08:30:35.247970+00:00"
+    "logged_at": "2026-10-22T08:30:35.247970+00:00",
+    "settle_reminded_at": "2026-10-29T07:57:21.074795+00:00"
   },
   "5442e-1": {
     "event_id": "b5289e209ec08b95cb68588ddfe407c8",
@@ -414,7 +416,8 @@
     "bookmaker_key": "betfair_ex_au",
     "alerted_at": "2026-10-22T06:00:44.713270+00:00",
     "lead_hours": 1.0,
-    "logged_at": "2026-10-22T20:00:51.733208+00:00"
+    "logged_at": "2026-10-22T20:00:51.733208+00:00",
+    "settle_reminded_at": "2026-10-29T07:57:21.074795+00:00"
   },
   "d4aa": {
     "event_id": "8540b2b24fe0b2042a07c8c20452aead",
@@ -467,7 +470,8 @@
     "lead_hours": 12.0,
     "logged_at": "2026-10-24T04:30:32.920012+00:00",
     "closing_fair_odds": 1.307,
-    "closing_captured_at": "2026-10-24T15:30:34.635301+00:00"
+    "closing_captured_at": "2026-10-24T15:30:34.635301+00:00",
+    "settle_reminded_at": "2026-10-29T07:57:21.074795+00:00"
   },
   "976b": {
     "event_id": "56544150757b70b079e3041fee3eeed2",
@@ -492,7 +496,8 @@
     "lead_hours": 7.5,
     "logged_at": "2026-10-24T09:00:42.451708+00:00",
     "closing_fair_odds": 1.096,
-    "closing_captured_at": "2026-10-24T15:30:34.635301+00:00"
+    "closing_captured_at": "2026-10-24T15:30:34.635301+00:00",
+    "settle_reminded_at": "2026-10-29T07:57:21.074795+00:00"
   },
   "1cf4": {
     "event_id": "00e02808324905e97705bbdc1d2a00ac",
@@ -517,7 +522,8 @@
     "lead_hours": 3.5,
     "logged_at": "2026-10-25T03:30:32.972825+00:00",
     "closing_fair_odds": 6.95,
-    "closing_captured_at": "2026-10-25T03:30:33.638403+00:00"
+    "closing_captured_at": "2026-10-25T03:30:33.638403+00:00",
+    "settle_reminded_at": "2026-10-29T07:57:21.074795+00:00"
   },
   "b38b": {
     "event_id": "53278095ff9bd1ebbcb4f643206ac818",
@@ -541,7 +547,7 @@
     "alerted_at": "2026-10-29T00:00:50.259730+00:00",
     "lead_hours": 7.7,
     "logged_at": "2026-10-29T03:00:46.990543+00:00",
-    "closing_fair_odds": 1.164,
+    "closing_fair_odds": 1.174,
     "closing_captured_at": "2026-10-29T07:30:40.017252+00:00"
   },
   "07297": {
@@ -567,7 +573,7 @@
     "lead_hours": 12.0,
     "logged_at": "2026-10-29T03:00:47.464293+00:00",
     "closing_fair_odds": 1.265,
-    "closing_captured_at": "2026-10-29T07:00:50.726194+00:00"
+    "closing_captured_at": "2026-10-29T07:57:21.071393+00:00"
   },
   "ae369": {
     "event_id": "ab4b92de827019ff6129c853680cb36b",
@@ -617,6 +623,6 @@
     "lead_hours": 4.0,
     "logged_at": "2026-10-29T06:00:47.230319+00:00",
     "closing_fair_odds": 7.235,
-    "closing_captured_at": "2026-10-29T07:30:40.017252+00:00"
+    "closing_captured_at": "2026-10-29T07:57:21.071393+00:00"
   }
 }

@@ -1402,5 +1402,23 @@
    "sport_key": "boxing_boxing",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-10-29T07:57:20.263401+00:00",
+  "markets": 18,
+  "markets_sharp": 12,
+  "outcomes": 66,
+  "capped": 0,
+  "best": {
+   "gap": 1.624,
+   "ev_pct": 3.04,
+   "threshold_pct": 1.42,
+   "price": 1.21,
+   "outcome": "Toshiya Ishii",
+   "book": "SportsBet",
+   "matchup": "Ryuya Nihei @ Toshiya Ishii",
+   "sport_key": "boxing_boxing",
+   "anchor": "retail_consensus"
+  }
  }
 ]
