@@ -80,6 +80,10 @@ def parse_settle_command(text: str):
     return sid, res
 
 
+def is_open_command(text: str) -> bool:
+    return text.strip().lower() in ("/open", "/outstanding")
+
+
 def is_stats_command(text: str) -> bool:
     return text.strip().lower() == "/stats"
 

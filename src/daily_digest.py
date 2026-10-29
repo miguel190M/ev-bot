@@ -65,6 +65,50 @@ def awaiting_settlement(bet_ledger: dict, now: datetime) -> list:
     return [(bid, b) for _, bid, b in out]
 
 
+def open_bets_text(bet_ledger: dict, now: datetime) -> str:
+    """All open bets for the /open command: what's still to be played and what
+    is waiting for your result."""
+    open_bets = [(bid, b) for bid, b in bet_ledger.items() if b.get("status") == "open"]
+    if not open_bets:
+        return "No open bets."
+    waiting = {bid for bid, _ in awaiting_settlement(bet_ledger, now)}
+    open_bets.sort(key=lambda t: t[1].get("commence_time", ""))
+    lines = [f"📂 Open bets ({len(open_bets)}, ${sum(b['stake'] for _, b in open_bets):g} at risk)"]
+    for bid, b in open_bets:
+        try:
+            start = datetime.fromisoformat(b["commence_time"].replace("Z", "+00:00"))
+        except (KeyError, ValueError):
+            start = None
+        if bid in waiting:
+            state = "⏳ needs your result"
+        elif start and start <= now:
+            state = "in play / result pending"
+        elif start:
+            state = "starts " + start.astimezone(scheduling.SYDNEY).strftime("%a %I:%M%p")
+        else:
+            state = ""
+        lines.append(f"{bid} · {b['outcome']} @ {b['price']} (${b['stake']:g}) · {_matchup(b)} · {state}")
+    if waiting:
+        lines.append("")
+        lines.append("Settle with /settle <id> won|lost|void")
+    return "\n".join(lines)
+
+
+def remind_awaiting_settlement(bet_ledger: dict, now: datetime, send) -> int:
+    """Ping once, as soon as a bet needs a result entered (instead of waiting for
+    the 9am report). Returns how many bets were announced."""
+    fresh = [(bid, b) for bid, b in awaiting_settlement(bet_ledger, now) if not b.get("settle_reminded_at")]
+    if not fresh:
+        return 0
+    lines = ["⏳ Result needed - reply /settle <id> won|lost|void"]
+    for bid, b in fresh[:10]:
+        lines.append(f"{bid} · {b['outcome']} @ {b['price']} (${b['stake']:g}) · {_matchup(b)}")
+    send("\n".join(lines))
+    for _, b in fresh:
+        b["settle_reminded_at"] = now.isoformat()
+    return len(fresh)
+
+
 def _matchup(o: dict) -> str:
     return f"{o['away_team']} @ {o['home_team']}" if o.get("away_team") else o.get("home_team", "")
 
