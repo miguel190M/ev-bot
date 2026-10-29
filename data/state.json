@@ -1,14 +1,6 @@
 {
-  "ab4b92de827019ff6129c853680cb36b:sportsbet:Shogo Tanaka": {
-    "ev_pct": 4.31,
-    "commence_time": "2026-10-29T07:00:00Z"
-  },
-  "ab4b92de827019ff6129c853680cb36b:betfair_ex_au:Shogo Tanaka": {
-    "ev_pct": 6.1,
-    "commence_time": "2026-10-29T07:00:00Z"
-  },
   "53278095ff9bd1ebbcb4f643206ac818:sportsbet:Toshiya Ishii": {
-    "ev_pct": 3.04,
+    "ev_pct": 3.5,
     "commence_time": "2026-10-29T07:45:00Z"
   },
   "e07a0c44571a3f1c7d61184d90fc2e8c:sportsbet:Raito Kataoka": {
@@ -22,5 +14,9 @@
   "8f8635facd49cb28543e504f176a8d59:betfair_ex_au:South Africa": {
     "ev_pct": 4.76,
     "commence_time": "2026-10-29T08:30:00Z"
+  },
+  "66a3eceb780381907635cfe940393943:betfair_ex_au:England": {
+    "ev_pct": 2.12,
+    "commence_time": "2026-10-29T08:00:00Z"
   }
 }
