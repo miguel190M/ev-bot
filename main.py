@@ -71,6 +71,18 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
     far_scan_state = _load_far_scan_state()
     run_stats = scan_stats.new_stats()
 
+    # Sports where an open bet kicks off soon: never throttle those, so the
+    # closing line is captured right before the start.
+    sports_with_bet_soon = set()
+    for bet in bet_ledger.values():
+        if bet["status"] == "open":
+            try:
+                start = datetime.fromisoformat(bet["commence_time"].replace("Z", "+00:00"))
+            except (KeyError, ValueError):
+                continue
+            if 0 <= (start - datetime.now(timezone.utc)).total_seconds() / 3600 <= config.SCAN_WINDOW_HOURS:
+                sports_with_bet_soon.add(bet["sport_key"])
+
     for sport_key in sports_to_scan:
         try:
             events_meta = odds_fetcher.get_events(sport_key)  # free
@@ -78,17 +90,29 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
             print(f"  {sport_key}: events check failed ({e}), skipping")
             continue
 
-        tier = scheduling.scan_tier(events_meta, config.SCAN_WINDOW_HOURS, config.FAR_WINDOW_HOURS)
+        far_window = config.get_far_window_hours(sport_key)
+        tier = scheduling.scan_tier(events_meta, config.SCAN_WINDOW_HOURS, far_window)
 
         if tier == "none":
             skipped.append(sport_key)
             continue
 
+        slack = config.INTERVAL_SLACK_MINUTES
         if tier == "far":
-            if not scheduling.is_far_check_due(far_scan_state.get(sport_key), config.FAR_CHECK_INTERVAL_HOURS):
+            if not scheduling.is_far_check_due(far_scan_state.get(sport_key),
+                                               config.get_far_interval_hours(sport_key), slack_minutes=slack):
                 skipped.append(f"{sport_key} (far zone, not due for another check yet)")
                 continue
             far_scan_state[sport_key] = datetime.now(timezone.utc).isoformat()
+        else:
+            near_gap = config.get_near_interval_minutes(sport_key)
+            if near_gap and sport_key not in sports_with_bet_soon:
+                key = f"near:{sport_key}"
+                if not scheduling.is_far_check_due(far_scan_state.get(key), near_gap / 60, slack_minutes=slack):
+                    skipped.append(f"{sport_key} (near zone, throttled to every {near_gap:g} min)")
+                    continue
+            if near_gap:
+                far_scan_state[f"near:{sport_key}"] = datetime.now(timezone.utc).isoformat()
 
         try:
             events, remaining, used = odds_fetcher.get_odds(sport_key)  # costs credits
@@ -105,7 +129,7 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
         # the near zone - a far-zone check that then discarded anything
         # beyond SCAN_WINDOW_HOURS would pay for data and throw away the
         # exact event that justified paying for it.
-        near_term = scheduling.filter_starting_soon(events, config.FAR_WINDOW_HOURS)
+        near_term = scheduling.filter_starting_soon(events, far_window)
         regions_used = config.get_regions_for_sport(sport_key)
         markets_used = config.get_markets_for_sport(sport_key)
         print(f"  {sport_key}: {tier} zone - "

@@ -24,9 +24,9 @@ def test_discovery_picks_tennis_and_cricket_not_others():
         assert k in keys
 
 
-def test_soccer_leagues_get_totals_and_sharp_region():
-    assert config.get_markets_for_sport("soccer_germany_bundesliga") == "h2h,totals"
-    assert config.get_markets_for_sport("soccer_australia_aleague") == "h2h,totals"
+def test_soccer_leagues_are_h2h_only_with_sharp_region():
+    assert config.get_markets_for_sport("soccer_germany_bundesliga") == "h2h"
+    assert config.get_markets_for_sport("soccer_australia_aleague") == "h2h"
     assert "eu" in config.get_regions_for_sport("cricket_test_match").split(",")
 
 

@@ -83,11 +83,12 @@ def test_totals_line_not_quoted_by_pinnacle_keeps_consensus_fallback():
 def test_regions_include_eu_only_when_enabled():
     assert config.get_regions_for_sport("tennis_atp_shanghai_masters") == "au,eu"
     assert config.get_regions_for_sport("soccer_epl") == "au,eu"
-    assert config.get_regions_for_sport("americanfootball_nfl") == "au,us,eu"
+    assert config.get_regions_for_sport("americanfootball_nfl") == "au,eu"   # NFL dropped the us region
+    assert config.get_regions_for_sport("basketball_nba") == "au,us,eu"
     old = config.USE_SHARP_REFERENCE
     config.USE_SHARP_REFERENCE = False
     try:
-        assert config.get_regions_for_sport("americanfootball_nfl") == "au,us"
+        assert config.get_regions_for_sport("basketball_nba") == "au,us"
         assert config.get_regions_for_sport("tennis_atp_shanghai_masters") == "au"
     finally:
         config.USE_SHARP_REFERENCE = old
