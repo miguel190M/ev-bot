@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-27T08:00:45.593389+00:00",
-  "markets": 9,
-  "markets_sharp": 8,
-  "outcomes": 35,
-  "capped": 0,
-  "best": {
-   "gap": -4.063,
-   "ev_pct": -1.06,
-   "threshold_pct": 3.0,
-   "price": 1.34,
-   "outcome": "Rafael Jodar",
-   "book": "Betfair",
-   "matchup": "Rafael Jodar @ Alejandro Tabilo",
-   "sport_key": "tennis_atp_swiss_indoors",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-27T08:30:36.301910+00:00",
   "markets": 8,
   "markets_sharp": 8,
@@ -1419,6 +1401,24 @@
    "matchup": "Ryuya Nihei @ Toshiya Ishii",
    "sport_key": "boxing_boxing",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-29T08:00:49.848334+00:00",
+  "markets": 14,
+  "markets_sharp": 11,
+  "outcomes": 51,
+  "capped": 0,
+  "best": {
+   "gap": -2.001,
+   "ev_pct": 1.0,
+   "threshold_pct": 3.0,
+   "price": 1.14,
+   "outcome": "Raito Kataoka",
+   "book": "SportsBet",
+   "matchup": "Raito Kataoka @ Arar Andales",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
   }
  }
 ]
