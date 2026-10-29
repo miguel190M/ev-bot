@@ -1420,5 +1420,23 @@
    "sport_key": "boxing_boxing",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-10-29T11:30:34.820956+00:00",
+  "markets": 22,
+  "markets_sharp": 20,
+  "outcomes": 88,
+  "capped": 0,
+  "best": {
+   "gap": -0.681,
+   "ev_pct": 1.38,
+   "threshold_pct": 2.06,
+   "price": 1.53,
+   "outcome": "Mia Poh\u00e1nkov\u00e1",
+   "book": "Betfair",
+   "matchup": "Alycia Parks @ Mia Poh\u00e1nkov\u00e1",
+   "sport_key": "tennis_wta_pan_pacific_open",
+   "anchor": "retail_consensus"
+  }
  }
 ]
