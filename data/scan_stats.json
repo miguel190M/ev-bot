@@ -1420,5 +1420,23 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-29T08:30:35.840062+00:00",
+  "markets": 12,
+  "markets_sharp": 8,
+  "outcomes": 47,
+  "capped": 0,
+  "best": {
+   "gap": 2.035,
+   "ev_pct": 4.46,
+   "threshold_pct": 2.42,
+   "price": 1.71,
+   "outcome": "Shogo Tanaka",
+   "book": "SportsBet",
+   "matchup": "Shogo Tanaka @ Sho Nogami",
+   "sport_key": "boxing_boxing",
+   "anchor": "retail_consensus"
+  }
  }
 ]
