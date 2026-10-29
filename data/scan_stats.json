@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-27T22:00:45.394742+00:00",
-  "markets": 16,
-  "markets_sharp": 16,
-  "outcomes": 64,
-  "capped": 0,
-  "best": {
-   "gap": -1.17,
-   "ev_pct": 1.83,
-   "threshold_pct": 3.0,
-   "price": 13.0,
-   "outcome": "Sacramento Kings",
-   "book": "SportsBet",
-   "matchup": "Sacramento Kings @ San Antonio Spurs",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-27T22:26:29.762412+00:00",
   "markets": 16,
   "markets_sharp": 16,
@@ -1418,6 +1400,24 @@
    "book": "SportsBet",
    "matchup": "Valentin Vacherot @ Holger Rune",
    "sport_key": "tennis_atp_swiss_indoors",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-29T22:00:47.307272+00:00",
+  "markets": 16,
+  "markets_sharp": 12,
+  "outcomes": 62,
+  "capped": 0,
+  "best": {
+   "gap": -2.117,
+   "ev_pct": 0.88,
+   "threshold_pct": 3.0,
+   "price": 1.71,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_international_t20",
    "anchor": "pinnacle"
   }
  }
