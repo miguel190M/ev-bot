@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-28T05:57:26.514483+00:00",
-  "markets": 3,
-  "markets_sharp": 1,
-  "outcomes": 11,
-  "capped": 0,
-  "best": {
-   "gap": -2.878,
-   "ev_pct": -1.2,
-   "threshold_pct": 1.68,
-   "price": 1.34,
-   "outcome": "Diana Shnaider",
-   "book": "Betfair",
-   "matchup": "Diana Shnaider @ Aliaksandra Sasnovich",
-   "sport_key": "tennis_wta_pan_pacific_open",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-28T06:00:48.177509+00:00",
   "markets": 3,
   "markets_sharp": 1,
@@ -1418,6 +1400,24 @@
    "book": "Betfair",
    "matchup": "India @ New Zealand",
    "sport_key": "cricket_international_t20",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-30T06:00:46.584940+00:00",
+  "markets": 10,
+  "markets_sharp": 9,
+  "outcomes": 41,
+  "capped": 0,
+  "best": {
+   "gap": 0.584,
+   "ev_pct": 3.58,
+   "threshold_pct": 3.0,
+   "price": 1.38,
+   "outcome": "Elena Rybakina",
+   "book": "Betfair",
+   "matchup": "Leylah Fernandez @ Elena Rybakina",
+   "sport_key": "tennis_wta_pan_pacific_open",
    "anchor": "pinnacle"
   }
  }
