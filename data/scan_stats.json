@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-28T20:30:38.901508+00:00",
-  "markets": 12,
-  "markets_sharp": 12,
-  "outcomes": 48,
-  "capped": 0,
-  "best": {
-   "gap": -1.684,
-   "ev_pct": 1.32,
-   "threshold_pct": 3.0,
-   "price": 2.62,
-   "outcome": "New Orleans Pelicans",
-   "book": "SportsBet",
-   "matchup": "Denver Nuggets @ New Orleans Pelicans",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-28T21:00:49.196088+00:00",
-  "markets": 17,
-  "markets_sharp": 17,
-  "outcomes": 68,
-  "capped": 0,
-  "best": {
-   "gap": -3.892,
-   "ev_pct": -0.89,
-   "threshold_pct": 3.0,
-   "price": 2.81,
-   "outcome": "Dallas Mavericks",
-   "book": "SportsBet",
-   "matchup": "Oklahoma City Thunder @ Dallas Mavericks",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-28T21:30:35.549868+00:00",
   "markets": 17,
   "markets_sharp": 17,
@@ -1401,6 +1365,24 @@
    "matchup": "Detroit Pistons @ Brooklyn Nets",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-30T21:00:51.214734+00:00",
+  "markets": 30,
+  "markets_sharp": 19,
+  "outcomes": 111,
+  "capped": 1,
+  "best": {
+   "gap": 3.15,
+   "ev_pct": 5.31,
+   "threshold_pct": 2.16,
+   "price": 1.58,
+   "outcome": "Jiri Lehecka",
+   "book": "Betfair",
+   "matchup": "Jan-Lennard Struff @ Jiri Lehecka",
+   "sport_key": "tennis_atp_swiss_indoors",
+   "anchor": "retail_consensus"
   }
  }
 ]
