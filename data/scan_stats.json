@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-27T23:30:36.652732+00:00",
-  "markets": 20,
-  "markets_sharp": 20,
-  "outcomes": 80,
-  "capped": 0,
-  "best": {
-   "gap": -2.834,
-   "ev_pct": 0.17,
-   "threshold_pct": 3.0,
-   "price": 2.08,
-   "outcome": "Portland Trail Blazers",
-   "book": "SportsBet",
-   "matchup": "Portland Trail Blazers @ Los Angeles Lakers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-28T00:00:46.176831+00:00",
-  "markets": 20,
-  "markets_sharp": 19,
-  "outcomes": 78,
-  "capped": 0,
-  "best": {
-   "gap": 4.662,
-   "ev_pct": 7.66,
-   "threshold_pct": 3.0,
-   "price": 3.6,
-   "outcome": "West Indies",
-   "book": "Betfair",
-   "matchup": "West Indies @ Bangladesh",
-   "sport_key": "cricket_test_match",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-28T00:30:39.527724+00:00",
   "markets": 11,
   "markets_sharp": 11,
@@ -1418,6 +1382,24 @@
    "book": "Betfair",
    "matchup": "Valentin Vacherot @ Holger Rune",
    "sport_key": "tennis_atp_swiss_indoors",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-30T00:00:46.442061+00:00",
+  "markets": 15,
+  "markets_sharp": 10,
+  "outcomes": 58,
+  "capped": 0,
+  "best": {
+   "gap": -2.117,
+   "ev_pct": 0.88,
+   "threshold_pct": 3.0,
+   "price": 1.71,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_international_t20",
    "anchor": "pinnacle"
   }
  }
