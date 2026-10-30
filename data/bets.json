@@ -695,15 +695,18 @@
     "anchor": "pinnacle",
     "sharp_disagreement": false,
     "stake": 10.0,
-    "status": "open",
-    "profit": null,
+    "status": "won",
+    "profit": 8.74,
     "source": "live",
     "bookmaker_key": "betfair_ex_au",
     "alerted_at": "2026-10-30T03:30:34.509236+00:00",
     "lead_hours": 4.5,
     "logged_at": "2026-10-30T06:30:40.963135+00:00",
     "closing_fair_odds": 1.939,
-    "closing_captured_at": "2026-10-30T07:30:35.843062+00:00"
+    "closing_captured_at": "2026-10-30T07:30:35.843062+00:00",
+    "clv_pct": -0.46,
+    "net_clv_pct": -3.34,
+    "resolved_at": "2026-10-30T12:00:52.628519+00:00"
   },
   "c750": {
     "event_id": "716ddf40807b2e733c6cc43fa101bc7b",
