@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-28T22:00:51.908493+00:00",
-  "markets": 17,
-  "markets_sharp": 17,
-  "outcomes": 68,
-  "capped": 0,
-  "best": {
-   "gap": -3.948,
-   "ev_pct": -0.95,
-   "threshold_pct": 3.0,
-   "price": 1.3,
-   "outcome": "Cleveland Cavaliers",
-   "book": "Betfair",
-   "matchup": "Washington Wizards @ Cleveland Cavaliers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-28T22:30:34.841072+00:00",
   "markets": 21,
   "markets_sharp": 21,
@@ -1382,6 +1364,24 @@
    "book": "Betfair",
    "matchup": "Chicago Bulls @ Boston Celtics",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-30T22:00:55.821891+00:00",
+  "markets": 37,
+  "markets_sharp": 26,
+  "outcomes": 135,
+  "capped": 1,
+  "best": {
+   "gap": 0.259,
+   "ev_pct": 3.26,
+   "threshold_pct": 3.0,
+   "price": 1.45,
+   "outcome": "Canelo \u00c1lvarez",
+   "book": "Betfair",
+   "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
