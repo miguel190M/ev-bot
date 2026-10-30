@@ -1402,5 +1402,23 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-30T23:00:47.508673+00:00",
+  "markets": 35,
+  "markets_sharp": 24,
+  "outcomes": 125,
+  "capped": 1,
+  "best": {
+   "gap": 3.507,
+   "ev_pct": 6.51,
+   "threshold_pct": 3.0,
+   "price": 1.46,
+   "outcome": "Canelo \u00c1lvarez",
+   "book": "Betfair",
+   "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
