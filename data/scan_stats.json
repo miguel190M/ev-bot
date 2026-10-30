@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-28T11:00:48.899060+00:00",
-  "markets": 12,
-  "markets_sharp": 12,
-  "outcomes": 48,
-  "capped": 0,
-  "best": {
-   "gap": -3.125,
-   "ev_pct": -0.12,
-   "threshold_pct": 3.0,
-   "price": 1.28,
-   "outcome": "Daniil Medvedev",
-   "book": "SportsBet",
-   "matchup": "Daniil Medvedev @ Daniel Merida Aguilar",
-   "sport_key": "tennis_atp_vienna_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-28T11:30:41.953241+00:00",
   "markets": 16,
   "markets_sharp": 16,
@@ -1437,6 +1419,24 @@
    "matchup": "Sri Lanka @ Pakistan",
    "sport_key": "cricket_odi",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-30T11:30:39.914023+00:00",
+  "markets": 10,
+  "markets_sharp": 10,
+  "outcomes": 42,
+  "capped": 0,
+  "best": {
+   "gap": -2.926,
+   "ev_pct": 0.07,
+   "threshold_pct": 3.0,
+   "price": 1.16,
+   "outcome": "Alexander Zverev",
+   "book": "Betfair",
+   "matchup": "Arthur Fery @ Alexander Zverev",
+   "sport_key": "tennis_atp_vienna_open",
+   "anchor": "pinnacle"
   }
  }
 ]
