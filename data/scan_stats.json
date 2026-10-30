@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-28T13:30:39.544052+00:00",
-  "markets": 13,
-  "markets_sharp": 13,
-  "outcomes": 62,
-  "capped": 0,
-  "best": {
-   "gap": -3.005,
-   "ev_pct": -0.01,
-   "threshold_pct": 3.0,
-   "price": 1.22,
-   "outcome": "Jakub Mensik",
-   "book": "Betfair",
-   "matchup": "Adrian Mannarino @ Jakub Mensik",
-   "sport_key": "tennis_atp_vienna_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-28T20:00:46.416201+00:00",
   "markets": 26,
   "markets_sharp": 24,
@@ -1419,6 +1401,24 @@
    "matchup": "Arthur Fils @ Taylor Fritz",
    "sport_key": "tennis_atp_swiss_indoors",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-30T20:00:45.616466+00:00",
+  "markets": 32,
+  "markets_sharp": 22,
+  "outcomes": 123,
+  "capped": 1,
+  "best": {
+   "gap": -0.053,
+   "ev_pct": 1.09,
+   "threshold_pct": 1.14,
+   "price": 1.07,
+   "outcome": "Sultan Almohammed",
+   "book": "SportsBet",
+   "matchup": "Erick Jahir Urvina Villegas @ Sultan Almohammed",
+   "sport_key": "boxing_boxing",
+   "anchor": "retail_consensus"
   }
  }
 ]
