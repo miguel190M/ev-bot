@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-28T09:00:49.411932+00:00",
-  "markets": 13,
-  "markets_sharp": 13,
-  "outcomes": 52,
-  "capped": 0,
-  "best": {
-   "gap": -3.137,
-   "ev_pct": -0.14,
-   "threshold_pct": 3.0,
-   "price": 1.54,
-   "outcome": "Casper Ruud",
-   "book": "Betfair",
-   "matchup": "Casper Ruud @ Nuno Borges",
-   "sport_key": "tennis_atp_swiss_indoors",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-28T09:30:37.732410+00:00",
-  "markets": 18,
-  "markets_sharp": 17,
-  "outcomes": 82,
-  "capped": 0,
-  "best": {
-   "gap": 2.254,
-   "ev_pct": 5.25,
-   "threshold_pct": 3.0,
-   "price": 9.2,
-   "outcome": "Venezia",
-   "book": "Betfair",
-   "matchup": "Inter Milan @ Venezia",
-   "sport_key": "soccer_italy_serie_a",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-28T10:00:45.861858+00:00",
   "markets": 12,
   "markets_sharp": 12,
@@ -1419,6 +1383,24 @@
    "matchup": "Sri Lanka @ Pakistan",
    "sport_key": "cricket_odi",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-30T09:30:38.795397+00:00",
+  "markets": 8,
+  "markets_sharp": 8,
+  "outcomes": 32,
+  "capped": 0,
+  "best": {
+   "gap": -2.889,
+   "ev_pct": 0.11,
+   "threshold_pct": 3.0,
+   "price": 1.16,
+   "outcome": "Alexander Zverev",
+   "book": "Betfair",
+   "matchup": "Arthur Fery @ Alexander Zverev",
+   "sport_key": "tennis_atp_vienna_open",
+   "anchor": "pinnacle"
   }
  }
 ]
