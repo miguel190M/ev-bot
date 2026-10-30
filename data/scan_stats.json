@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-28T20:00:46.416201+00:00",
-  "markets": 26,
-  "markets_sharp": 24,
-  "outcomes": 104,
-  "capped": 0,
-  "best": {
-   "gap": 3.945,
-   "ev_pct": 10.55,
-   "threshold_pct": 6.6,
-   "price": 3.8,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "West Indies @ Bangladesh",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-10-28T20:24:02.207196+00:00",
-  "markets": 12,
-  "markets_sharp": 12,
-  "outcomes": 48,
-  "capped": 0,
-  "best": {
-   "gap": -1.684,
-   "ev_pct": 1.32,
-   "threshold_pct": 3.0,
-   "price": 2.62,
-   "outcome": "New Orleans Pelicans",
-   "book": "SportsBet",
-   "matchup": "Denver Nuggets @ New Orleans Pelicans",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-28T20:30:38.901508+00:00",
   "markets": 12,
   "markets_sharp": 12,
@@ -1419,6 +1383,24 @@
    "matchup": "Erick Jahir Urvina Villegas @ Sultan Almohammed",
    "sport_key": "boxing_boxing",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-30T20:30:37.834345+00:00",
+  "markets": 13,
+  "markets_sharp": 13,
+  "outcomes": 46,
+  "capped": 0,
+  "best": {
+   "gap": -3.877,
+   "ev_pct": -0.88,
+   "threshold_pct": 3.0,
+   "price": 1.35,
+   "outcome": "Detroit Pistons",
+   "book": "SportsBet",
+   "matchup": "Detroit Pistons @ Brooklyn Nets",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
   }
  }
 ]
