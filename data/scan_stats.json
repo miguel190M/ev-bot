@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-28T04:00:44.790420+00:00",
-  "markets": 7,
-  "markets_sharp": 6,
-  "outcomes": 28,
-  "capped": 0,
-  "best": {
-   "gap": -3.662,
-   "ev_pct": -0.66,
-   "threshold_pct": 3.0,
-   "price": 1.41,
-   "outcome": "Alexandra Eala",
-   "book": "Betfair",
-   "matchup": "Talia Gibson @ Alexandra Eala",
-   "sport_key": "tennis_wta_pan_pacific_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-28T04:30:38.975433+00:00",
   "markets": 4,
   "markets_sharp": 2,
@@ -1436,6 +1418,24 @@
    "book": "Betfair",
    "matchup": "Daniil Medvedev @ Adrian Mannarino",
    "sport_key": "tennis_atp_vienna_open",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-30T04:30:37.720212+00:00",
+  "markets": 9,
+  "markets_sharp": 8,
+  "outcomes": 35,
+  "capped": 0,
+  "best": {
+   "gap": -2.877,
+   "ev_pct": 0.12,
+   "threshold_pct": 3.0,
+   "price": 1.71,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_international_t20",
    "anchor": "pinnacle"
   }
  }
