@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-28T13:00:50.733297+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 28,
-  "capped": 0,
-  "best": {
-   "gap": -3.676,
-   "ev_pct": -0.68,
-   "threshold_pct": 3.0,
-   "price": 1.22,
-   "outcome": "Jakub Mensik",
-   "book": "Betfair",
-   "matchup": "Adrian Mannarino @ Jakub Mensik",
-   "sport_key": "tennis_atp_vienna_open",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-28T13:16:01.917237+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 28,
-  "capped": 0,
-  "best": {
-   "gap": -3.005,
-   "ev_pct": -0.01,
-   "threshold_pct": 3.0,
-   "price": 1.22,
-   "outcome": "Jakub Mensik",
-   "book": "Betfair",
-   "matchup": "Adrian Mannarino @ Jakub Mensik",
-   "sport_key": "tennis_atp_vienna_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-28T13:30:39.544052+00:00",
   "markets": 13,
   "markets_sharp": 13,
@@ -1426,6 +1390,24 @@
   "markets": 10,
   "markets_sharp": 8,
   "outcomes": 37,
+  "capped": 0,
+  "best": {
+   "gap": -2.657,
+   "ev_pct": 0.34,
+   "threshold_pct": 3.0,
+   "price": 2.05,
+   "outcome": "Taylor Fritz",
+   "book": "SportsBet",
+   "matchup": "Arthur Fils @ Taylor Fritz",
+   "sport_key": "tennis_atp_swiss_indoors",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-30T13:30:36.869497+00:00",
+  "markets": 6,
+  "markets_sharp": 6,
+  "outcomes": 24,
   "capped": 0,
   "best": {
    "gap": -2.657,
