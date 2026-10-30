@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-28T08:30:52.513534+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 28,
-  "capped": 0,
-  "best": {
-   "gap": -3.137,
-   "ev_pct": -0.14,
-   "threshold_pct": 3.0,
-   "price": 1.54,
-   "outcome": "Casper Ruud",
-   "book": "Betfair",
-   "matchup": "Casper Ruud @ Nuno Borges",
-   "sport_key": "tennis_atp_swiss_indoors",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-28T09:00:49.411932+00:00",
   "markets": 13,
   "markets_sharp": 13,
@@ -1419,6 +1401,24 @@
    "matchup": "Auckland FC @ Brisbane Roar",
    "sport_key": "soccer_australia_aleague",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-30T09:00:47.037267+00:00",
+  "markets": 6,
+  "markets_sharp": 5,
+  "outcomes": 24,
+  "capped": 0,
+  "best": {
+   "gap": 0.699,
+   "ev_pct": 5.38,
+   "threshold_pct": 4.68,
+   "price": 2.84,
+   "outcome": "Sri Lanka",
+   "book": "SportsBet",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_odi",
+   "anchor": "retail_consensus"
   }
  }
 ]

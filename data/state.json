@@ -1,14 +1,10 @@
 {
   "576b9ceeeedf83970016eb52bc284779:betfair_ex_au:Sri Lanka": {
-    "ev_pct": 6.86,
+    "ev_pct": 5.47,
     "commence_time": "2026-10-31T08:00:00Z"
   },
-  "716ddf40807b2e733c6cc43fa101bc7b:sportsbet:Auckland FC": {
-    "ev_pct": 6.47,
-    "commence_time": "2026-10-30T09:00:00Z"
-  },
-  "716ddf40807b2e733c6cc43fa101bc7b:betfair_ex_au:Auckland FC": {
-    "ev_pct": 5.74,
-    "commence_time": "2026-10-30T09:00:00Z"
+  "576b9ceeeedf83970016eb52bc284779:sportsbet:Sri Lanka": {
+    "ev_pct": 5.38,
+    "commence_time": "2026-10-31T08:00:00Z"
   }
 }
