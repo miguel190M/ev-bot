@@ -1,1 +1,10 @@
-{}
+{
+  "d52af5cb645ef831c4dbab0bbaf48dac:sportsbet:Diana Shnaider": {
+    "ev_pct": 4.42,
+    "commence_time": "2026-10-30T08:00:00Z"
+  },
+  "d52af5cb645ef831c4dbab0bbaf48dac:betfair_ex_au:Diana Shnaider": {
+    "ev_pct": 9.95,
+    "commence_time": "2026-10-30T08:00:00Z"
+  }
+}

@@ -1420,5 +1420,23 @@
    "sport_key": "cricket_international_t20",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-30T03:30:34.507916+00:00",
+  "markets": 8,
+  "markets_sharp": 6,
+  "outcomes": 31,
+  "capped": 0,
+  "best": {
+   "gap": 6.947,
+   "ev_pct": 9.95,
+   "threshold_pct": 3.0,
+   "price": 1.93,
+   "outcome": "Diana Shnaider",
+   "book": "Betfair",
+   "matchup": "Diana Shnaider @ Alexandra Eala",
+   "sport_key": "tennis_wta_pan_pacific_open",
+   "anchor": "pinnacle"
+  }
  }
 ]
