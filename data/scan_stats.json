@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-28T07:00:50.211830+00:00",
-  "markets": 2,
-  "markets_sharp": 1,
-  "outcomes": 7,
-  "capped": 0,
-  "best": {
-   "gap": -4.462,
-   "ev_pct": -1.46,
-   "threshold_pct": 3.0,
-   "price": 1.41,
-   "outcome": "Alexandra Eala",
-   "book": "Betfair",
-   "matchup": "Talia Gibson @ Alexandra Eala",
-   "sport_key": "tennis_wta_pan_pacific_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-28T07:30:38.481192+00:00",
   "markets": 2,
   "markets_sharp": 1,
@@ -1400,6 +1382,24 @@
    "book": "Betfair",
    "matchup": "Leylah Fernandez @ Elena Rybakina",
    "sport_key": "tennis_wta_pan_pacific_open",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-30T07:00:51.438019+00:00",
+  "markets": 9,
+  "markets_sharp": 8,
+  "outcomes": 37,
+  "capped": 0,
+  "best": {
+   "gap": -0.481,
+   "ev_pct": 6.92,
+   "threshold_pct": 7.4,
+   "price": 4.2,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Australia @ South Africa",
+   "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
   }
  }
