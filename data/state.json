@@ -6,5 +6,9 @@
   "d52af5cb645ef831c4dbab0bbaf48dac:betfair_ex_au:Diana Shnaider": {
     "ev_pct": 9.95,
     "commence_time": "2026-10-30T08:00:00Z"
+  },
+  "ae73add532ebcd598826ba4a51cb4287:betfair_ex_au:South Africa": {
+    "ev_pct": 9.43,
+    "commence_time": "2026-10-30T08:30:00Z"
   }
 }
