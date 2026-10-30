@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-28T21:30:35.549868+00:00",
-  "markets": 17,
-  "markets_sharp": 17,
-  "outcomes": 68,
-  "capped": 0,
-  "best": {
-   "gap": -3.487,
-   "ev_pct": -0.49,
-   "threshold_pct": 3.0,
-   "price": 1.4,
-   "outcome": "Philadelphia 76ers",
-   "book": "SportsBet",
-   "matchup": "Philadelphia 76ers @ Indiana Pacers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-28T22:00:51.908493+00:00",
   "markets": 17,
   "markets_sharp": 17,
@@ -1383,6 +1365,24 @@
    "matchup": "Jan-Lennard Struff @ Jiri Lehecka",
    "sport_key": "tennis_atp_swiss_indoors",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-30T21:30:39.167492+00:00",
+  "markets": 15,
+  "markets_sharp": 15,
+  "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": -4.218,
+   "ev_pct": -1.22,
+   "threshold_pct": 3.0,
+   "price": 1.14,
+   "outcome": "Boston Celtics",
+   "book": "Betfair",
+   "matchup": "Chicago Bulls @ Boston Celtics",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
   }
  }
 ]
