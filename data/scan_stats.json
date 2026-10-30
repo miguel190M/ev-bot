@@ -1402,5 +1402,23 @@
    "sport_key": "cricket_international_t20",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-30T00:30:38.304758+00:00",
+  "markets": 13,
+  "markets_sharp": 9,
+  "outcomes": 50,
+  "capped": 0,
+  "best": {
+   "gap": -3.071,
+   "ev_pct": -0.07,
+   "threshold_pct": 3.0,
+   "price": 1.78,
+   "outcome": "Holger Rune",
+   "book": "Betfair",
+   "matchup": "Valentin Vacherot @ Holger Rune",
+   "sport_key": "tennis_atp_swiss_indoors",
+   "anchor": "pinnacle"
+  }
  }
 ]
