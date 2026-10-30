@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-28T06:00:48.177509+00:00",
-  "markets": 3,
-  "markets_sharp": 1,
-  "outcomes": 11,
-  "capped": 0,
-  "best": {
-   "gap": -2.878,
-   "ev_pct": -1.2,
-   "threshold_pct": 1.68,
-   "price": 1.34,
-   "outcome": "Diana Shnaider",
-   "book": "Betfair",
-   "matchup": "Diana Shnaider @ Aliaksandra Sasnovich",
-   "sport_key": "tennis_wta_pan_pacific_open",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-10-28T06:30:35.687871+00:00",
-  "markets": 3,
-  "markets_sharp": 1,
-  "outcomes": 11,
-  "capped": 0,
-  "best": {
-   "gap": -2.88,
-   "ev_pct": -1.2,
-   "threshold_pct": 1.68,
-   "price": 1.34,
-   "outcome": "Diana Shnaider",
-   "book": "Betfair",
-   "matchup": "Diana Shnaider @ Aliaksandra Sasnovich",
-   "sport_key": "tennis_wta_pan_pacific_open",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-28T07:00:50.211830+00:00",
   "markets": 2,
   "markets_sharp": 1,
@@ -1419,6 +1383,24 @@
    "matchup": "Leylah Fernandez @ Elena Rybakina",
    "sport_key": "tennis_wta_pan_pacific_open",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-30T06:30:39.832611+00:00",
+  "markets": 11,
+  "markets_sharp": 9,
+  "outcomes": 41,
+  "capped": 0,
+  "best": {
+   "gap": 1.465,
+   "ev_pct": 3.25,
+   "threshold_pct": 1.78,
+   "price": 1.39,
+   "outcome": "Elena Rybakina",
+   "book": "Betfair",
+   "matchup": "Leylah Fernandez @ Elena Rybakina",
+   "sport_key": "tennis_wta_pan_pacific_open",
+   "anchor": "retail_consensus"
   }
  }
 ]
