@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-29T20:00:46.151560+00:00",
-  "markets": 30,
-  "markets_sharp": 26,
-  "outcomes": 116,
-  "capped": 0,
-  "best": {
-   "gap": -2.117,
-   "ev_pct": 0.88,
-   "threshold_pct": 3.0,
-   "price": 1.71,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-29T20:30:39.433313+00:00",
   "markets": 16,
   "markets_sharp": 15,
@@ -1400,6 +1382,24 @@
    "book": "Betfair",
    "matchup": "Austin FC @ LA Galaxy",
    "sport_key": "soccer_usa_mls",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-31T20:30:34.472049+00:00",
+  "markets": 33,
+  "markets_sharp": 32,
+  "outcomes": 122,
+  "capped": 0,
+  "best": {
+   "gap": 2.082,
+   "ev_pct": 5.08,
+   "threshold_pct": 3.0,
+   "price": 4.2,
+   "outcome": "Christian Mbilli",
+   "book": "Betfair",
+   "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }

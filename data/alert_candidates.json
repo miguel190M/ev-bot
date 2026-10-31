@@ -328,5 +328,27 @@
     "sharp_probability": 0.2786,
     "consensus_probability": 0.2569,
     "alerted_at": "2026-10-31T20:00:45.942527+00:00"
+  },
+  "6e65": {
+    "event_id": "d7012dfe5cabaf829c0d56fb6295c8c4",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-10-31T21:45:00Z",
+    "home_team": "Canelo \u00c1lvarez",
+    "away_team": "Christian Mbilli",
+    "market_key": "h2h",
+    "bookmaker_key": "betfair_ex_au",
+    "bookmaker_title": "Betfair",
+    "outcome": "Christian Mbilli",
+    "price": 4.2,
+    "commission": 0.06,
+    "fair_probability": 0.2622,
+    "fair_odds": 3.814,
+    "ev_pct": 5.08,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.2622,
+    "consensus_probability": 0.2569,
+    "alerted_at": "2026-10-31T20:30:34.473068+00:00"
   }
 }
