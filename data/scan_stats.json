@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-29T07:00:49.800984+00:00",
-  "markets": 8,
-  "markets_sharp": 4,
-  "outcomes": 26,
-  "capped": 0,
-  "best": {
-   "gap": 2.078,
-   "ev_pct": 3.5,
-   "threshold_pct": 1.42,
-   "price": 1.21,
-   "outcome": "Toshiya Ishii",
-   "book": "SportsBet",
-   "matchup": "Ryuya Nihei @ Toshiya Ishii",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-29T07:30:39.519750+00:00",
   "markets": 14,
   "markets_sharp": 9,
@@ -1419,6 +1401,24 @@
    "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-31T07:30:33.622635+00:00",
+  "markets": 16,
+  "markets_sharp": 13,
+  "outcomes": 53,
+  "capped": 0,
+  "best": {
+   "gap": -2.138,
+   "ev_pct": 0.12,
+   "threshold_pct": 2.26,
+   "price": 1.63,
+   "outcome": "Ireland",
+   "book": "SportsBet",
+   "matchup": "Ireland @ Namibia",
+   "sport_key": "cricket_odi",
+   "anchor": "retail_consensus"
   }
  }
 ]
