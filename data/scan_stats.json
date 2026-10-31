@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-28T23:30:41.069551+00:00",
-  "markets": 17,
-  "markets_sharp": 17,
-  "outcomes": 68,
-  "capped": 0,
-  "best": {
-   "gap": -3.725,
-   "ev_pct": -0.72,
-   "threshold_pct": 3.0,
-   "price": 1.84,
-   "outcome": "Toronto Maple Leafs",
-   "book": "Betfair",
-   "matchup": "Toronto Maple Leafs @ Seattle Kraken",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-29T00:00:50.258445+00:00",
-  "markets": 22,
-  "markets_sharp": 20,
-  "outcomes": 84,
-  "capped": 0,
-  "best": {
-   "gap": 2.832,
-   "ev_pct": 5.83,
-   "threshold_pct": 3.0,
-   "price": 1.71,
-   "outcome": "Shogo Tanaka",
-   "book": "SportsBet",
-   "matchup": "Shogo Tanaka @ Sho Nogami",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-29T00:30:36.397520+00:00",
   "markets": 14,
   "markets_sharp": 13,
@@ -1418,6 +1382,24 @@
    "book": "Betfair",
    "matchup": "Chicago Bulls @ Boston Celtics",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-31T00:00:51.014183+00:00",
+  "markets": 34,
+  "markets_sharp": 23,
+  "outcomes": 129,
+  "capped": 1,
+  "best": {
+   "gap": 2.808,
+   "ev_pct": 5.81,
+   "threshold_pct": 3.0,
+   "price": 1.45,
+   "outcome": "Canelo \u00c1lvarez",
+   "book": "Betfair",
+   "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
