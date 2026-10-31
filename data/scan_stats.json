@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-29T06:00:46.166021+00:00",
-  "markets": 8,
-  "markets_sharp": 6,
-  "outcomes": 28,
-  "capped": 0,
-  "best": {
-   "gap": 1.914,
-   "ev_pct": 4.33,
-   "threshold_pct": 2.42,
-   "price": 1.71,
-   "outcome": "Shogo Tanaka",
-   "book": "SportsBet",
-   "matchup": "Shogo Tanaka @ Sho Nogami",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-29T06:30:36.538824+00:00",
   "markets": 8,
   "markets_sharp": 4,
@@ -1408,6 +1390,24 @@
   "markets": 3,
   "markets_sharp": 1,
   "outcomes": 13,
+  "capped": 0,
+  "best": {
+   "gap": -4.274,
+   "ev_pct": -2.15,
+   "threshold_pct": 2.12,
+   "price": 1.56,
+   "outcome": "Pakistan",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_odi",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-31T06:30:35.025736+00:00",
+  "markets": 9,
+  "markets_sharp": 7,
+  "outcomes": 49,
   "capped": 0,
   "best": {
    "gap": -4.274,
