@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-29T05:30:36.446804+00:00",
-  "markets": 9,
-  "markets_sharp": 7,
-  "outcomes": 35,
-  "capped": 0,
-  "best": {
-   "gap": 1.914,
-   "ev_pct": 4.33,
-   "threshold_pct": 2.42,
-   "price": 1.71,
-   "outcome": "Shogo Tanaka",
-   "book": "SportsBet",
-   "matchup": "Shogo Tanaka @ Sho Nogami",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-29T06:00:46.166021+00:00",
   "markets": 8,
   "markets_sharp": 6,
@@ -1400,6 +1382,24 @@
    "book": "SportsBet",
    "matchup": "Sydney FC @ Melbourne City",
    "sport_key": "soccer_australia_aleague",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-31T05:58:45.971154+00:00",
+  "markets": 29,
+  "markets_sharp": 21,
+  "outcomes": 114,
+  "capped": 1,
+  "best": {
+   "gap": 2.863,
+   "ev_pct": 5.86,
+   "threshold_pct": 3.0,
+   "price": 5.6,
+   "outcome": "Carl Jammes Martin",
+   "book": "SportsBet",
+   "matchup": "Carl Jammes Martin @ David Picasso",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
