@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-29T02:00:45.599376+00:00",
-  "markets": 7,
-  "markets_sharp": 6,
-  "outcomes": 26,
-  "capped": 0,
-  "best": {
-   "gap": -0.834,
-   "ev_pct": 2.17,
-   "threshold_pct": 3.0,
-   "price": 7.8,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Australia @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-29T02:30:37.390000+00:00",
   "markets": 7,
   "markets_sharp": 4,
@@ -1401,6 +1383,24 @@
    "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-31T02:30:36.277406+00:00",
+  "markets": 25,
+  "markets_sharp": 22,
+  "outcomes": 102,
+  "capped": 0,
+  "best": {
+   "gap": -3.39,
+   "ev_pct": -1.11,
+   "threshold_pct": 2.28,
+   "price": 1.64,
+   "outcome": "West Indies",
+   "book": "Betfair",
+   "matchup": "West Indies @ Bangladesh",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
