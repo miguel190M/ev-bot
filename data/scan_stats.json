@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-29T06:30:36.538824+00:00",
-  "markets": 8,
-  "markets_sharp": 4,
-  "outcomes": 28,
-  "capped": 0,
-  "best": {
-   "gap": 1.886,
-   "ev_pct": 4.31,
-   "threshold_pct": 2.42,
-   "price": 1.71,
-   "outcome": "Shogo Tanaka",
-   "book": "SportsBet",
-   "matchup": "Shogo Tanaka @ Sho Nogami",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-29T07:00:49.800984+00:00",
   "markets": 8,
   "markets_sharp": 4,
@@ -1419,6 +1401,24 @@
    "matchup": "Sri Lanka @ Pakistan",
    "sport_key": "cricket_odi",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-31T07:00:43.913759+00:00",
+  "markets": 27,
+  "markets_sharp": 19,
+  "outcomes": 100,
+  "capped": 1,
+  "best": {
+   "gap": 2.217,
+   "ev_pct": 5.22,
+   "threshold_pct": 3.0,
+   "price": 1.44,
+   "outcome": "Canelo \u00c1lvarez",
+   "book": "Betfair",
+   "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
   }
  }
 ]
