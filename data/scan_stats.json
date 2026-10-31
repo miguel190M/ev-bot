@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-29T08:00:49.848334+00:00",
-  "markets": 14,
-  "markets_sharp": 11,
-  "outcomes": 51,
-  "capped": 0,
-  "best": {
-   "gap": -2.001,
-   "ev_pct": 1.0,
-   "threshold_pct": 3.0,
-   "price": 1.14,
-   "outcome": "Raito Kataoka",
-   "book": "SportsBet",
-   "matchup": "Raito Kataoka @ Arar Andales",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-29T08:30:35.840062+00:00",
   "markets": 12,
   "markets_sharp": 8,
@@ -1401,6 +1383,24 @@
    "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
    "sport_key": "boxing_boxing",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-31T08:30:35.007004+00:00",
+  "markets": 20,
+  "markets_sharp": 20,
+  "outcomes": 88,
+  "capped": 0,
+  "best": {
+   "gap": -3.931,
+   "ev_pct": -0.93,
+   "threshold_pct": 3.0,
+   "price": 1.35,
+   "outcome": "Luana Santos",
+   "book": "Betfair",
+   "matchup": "Yana Santos @ Luana Santos",
+   "sport_key": "mma_mixed_martial_arts",
+   "anchor": "pinnacle"
   }
  }
 ]
