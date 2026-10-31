@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-29T11:30:34.820956+00:00",
-  "markets": 22,
-  "markets_sharp": 20,
-  "outcomes": 88,
-  "capped": 0,
-  "best": {
-   "gap": -0.681,
-   "ev_pct": 1.38,
-   "threshold_pct": 2.06,
-   "price": 1.53,
-   "outcome": "Mia Poh\u00e1nkov\u00e1",
-   "book": "Betfair",
-   "matchup": "Alycia Parks @ Mia Poh\u00e1nkov\u00e1",
-   "sport_key": "tennis_wta_pan_pacific_open",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-29T12:00:52.760754+00:00",
   "markets": 15,
   "markets_sharp": 13,
@@ -1382,6 +1364,24 @@
    "book": "Betfair",
    "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-31T12:00:43.885811+00:00",
+  "markets": 74,
+  "markets_sharp": 66,
+  "outcomes": 241,
+  "capped": 2,
+  "best": {
+   "gap": 5.688,
+   "ev_pct": 8.69,
+   "threshold_pct": 3.0,
+   "price": 4.6,
+   "outcome": "Purdue Boilermakers",
+   "book": "SportsBet",
+   "matchup": "Purdue Boilermakers @ Penn State Nittany Lions",
+   "sport_key": "americanfootball_ncaaf",
    "anchor": "pinnacle"
   }
  }

@@ -1,6 +1,6 @@
 {
   "d7012dfe5cabaf829c0d56fb6295c8c4:betfair_ex_au:Canelo \u00c1lvarez": {
-    "ev_pct": 5.95,
+    "ev_pct": 3.79,
     "commence_time": "2026-10-31T21:00:00Z"
   },
   "552fda4930d6ed5d9fef41d162da947d:betfair_ex_au:Jiri Lehecka": {
@@ -10,5 +10,9 @@
   "e5f2728a5d373afd17cc2adfa8f07ef2:sportsbet:Carl Jammes Martin": {
     "ev_pct": 8.42,
     "commence_time": "2026-10-31T17:30:00Z"
+  },
+  "7fd2d018fdc5930fd62188de968a901c:sportsbet:Purdue Boilermakers": {
+    "ev_pct": 8.69,
+    "commence_time": "2026-10-31T20:15:00Z"
   }
 }
