@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-29T10:30:37.144482+00:00",
-  "markets": 16,
-  "markets_sharp": 14,
-  "outcomes": 64,
-  "capped": 0,
-  "best": {
-   "gap": 6.345,
-   "ev_pct": 8.77,
-   "threshold_pct": 2.42,
-   "price": 1.71,
-   "outcome": "Shogo Tanaka",
-   "book": "SportsBet",
-   "matchup": "Shogo Tanaka @ Sho Nogami",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-29T11:00:48.954574+00:00",
   "markets": 16,
   "markets_sharp": 13,
@@ -1382,6 +1364,24 @@
    "book": "Betfair",
    "matchup": "Borussia Dortmund @ Bayern Munich",
    "sport_key": "soccer_germany_bundesliga",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-31T11:00:45.921293+00:00",
+  "markets": 29,
+  "markets_sharp": 22,
+  "outcomes": 113,
+  "capped": 1,
+  "best": {
+   "gap": 2.947,
+   "ev_pct": 5.95,
+   "threshold_pct": 3.0,
+   "price": 1.44,
+   "outcome": "Canelo \u00c1lvarez",
+   "book": "Betfair",
+   "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
