@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-29T04:00:44.869324+00:00",
-  "markets": 7,
-  "markets_sharp": 6,
-  "outcomes": 26,
-  "capped": 0,
-  "best": {
-   "gap": 2.832,
-   "ev_pct": 5.83,
-   "threshold_pct": 3.0,
-   "price": 1.71,
-   "outcome": "Shogo Tanaka",
-   "book": "SportsBet",
-   "matchup": "Shogo Tanaka @ Sho Nogami",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-29T04:30:38.590290+00:00",
   "markets": 13,
   "markets_sharp": 12,
@@ -1401,6 +1383,24 @@
    "matchup": "Carl Jammes Martin @ David Picasso",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-31T04:30:33.808586+00:00",
+  "markets": 11,
+  "markets_sharp": 9,
+  "outcomes": 59,
+  "capped": 0,
+  "best": {
+   "gap": -4.274,
+   "ev_pct": -2.15,
+   "threshold_pct": 2.12,
+   "price": 1.56,
+   "outcome": "Pakistan",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_odi",
+   "anchor": "retail_consensus"
   }
  }
 ]
