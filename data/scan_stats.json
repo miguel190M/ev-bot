@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-29T08:30:35.840062+00:00",
-  "markets": 12,
-  "markets_sharp": 8,
-  "outcomes": 47,
-  "capped": 0,
-  "best": {
-   "gap": 2.035,
-   "ev_pct": 4.46,
-   "threshold_pct": 2.42,
-   "price": 1.71,
-   "outcome": "Shogo Tanaka",
-   "book": "SportsBet",
-   "matchup": "Shogo Tanaka @ Sho Nogami",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-29T09:00:49.187171+00:00",
   "markets": 18,
   "markets_sharp": 13,
@@ -1400,6 +1382,24 @@
    "book": "Betfair",
    "matchup": "Yana Santos @ Luana Santos",
    "sport_key": "mma_mixed_martial_arts",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-31T09:00:42.021546+00:00",
+  "markets": 38,
+  "markets_sharp": 30,
+  "outcomes": 165,
+  "capped": 1,
+  "best": {
+   "gap": 5.424,
+   "ev_pct": 8.42,
+   "threshold_pct": 3.0,
+   "price": 5.6,
+   "outcome": "Carl Jammes Martin",
+   "book": "SportsBet",
+   "matchup": "Carl Jammes Martin @ David Picasso",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
