@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-29T20:30:39.433313+00:00",
-  "markets": 16,
-  "markets_sharp": 15,
-  "outcomes": 62,
-  "capped": 0,
-  "best": {
-   "gap": -4.174,
-   "ev_pct": -1.17,
-   "threshold_pct": 3.0,
-   "price": 1.1,
-   "outcome": "James Madison Dukes",
-   "book": "Betfair",
-   "matchup": "Troy Trojans @ James Madison Dukes",
-   "sport_key": "americanfootball_ncaaf",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-29T21:00:47.594611+00:00",
-  "markets": 17,
-  "markets_sharp": 12,
-  "outcomes": 66,
-  "capped": 0,
-  "best": {
-   "gap": -2.117,
-   "ev_pct": 0.88,
-   "threshold_pct": 3.0,
-   "price": 1.71,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-29T21:30:38.189151+00:00",
   "markets": 9,
   "markets_sharp": 7,
@@ -1396,6 +1360,24 @@
    "ev_pct": 5.08,
    "threshold_pct": 3.0,
    "price": 4.2,
+   "outcome": "Christian Mbilli",
+   "book": "Betfair",
+   "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-31T21:01:15.589717+00:00",
+  "markets": 36,
+  "markets_sharp": 33,
+  "outcomes": 134,
+  "capped": 0,
+  "best": {
+   "gap": -0.382,
+   "ev_pct": 2.62,
+   "threshold_pct": 3.0,
+   "price": 4.1,
    "outcome": "Christian Mbilli",
    "book": "Betfair",
    "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
