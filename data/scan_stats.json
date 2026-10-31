@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-29T21:30:38.189151+00:00",
-  "markets": 9,
-  "markets_sharp": 7,
-  "outcomes": 36,
-  "capped": 0,
-  "best": {
-   "gap": -3.832,
-   "ev_pct": -0.83,
-   "threshold_pct": 3.0,
-   "price": 1.72,
-   "outcome": "Holger Rune",
-   "book": "SportsBet",
-   "matchup": "Valentin Vacherot @ Holger Rune",
-   "sport_key": "tennis_atp_swiss_indoors",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-29T22:00:47.307272+00:00",
   "markets": 16,
   "markets_sharp": 12,
@@ -1382,6 +1364,24 @@
    "book": "Betfair",
    "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-31T21:30:40.446987+00:00",
+  "markets": 33,
+  "markets_sharp": 32,
+  "outcomes": 126,
+  "capped": 0,
+  "best": {
+   "gap": -1.168,
+   "ev_pct": 1.83,
+   "threshold_pct": 3.0,
+   "price": 2.18,
+   "outcome": "Charlotte Hornets",
+   "book": "Betfair",
+   "matchup": "Philadelphia 76ers @ Charlotte Hornets",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
