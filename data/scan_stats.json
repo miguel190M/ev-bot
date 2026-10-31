@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-29T00:30:36.397520+00:00",
-  "markets": 14,
-  "markets_sharp": 13,
-  "outcomes": 54,
-  "capped": 0,
-  "best": {
-   "gap": -0.834,
-   "ev_pct": 2.17,
-   "threshold_pct": 3.0,
-   "price": 7.8,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Australia @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-29T01:00:45.413894+00:00",
-  "markets": 11,
-  "markets_sharp": 10,
-  "outcomes": 42,
-  "capped": 0,
-  "best": {
-   "gap": -0.834,
-   "ev_pct": 2.17,
-   "threshold_pct": 3.0,
-   "price": 7.8,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Australia @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-29T01:04:58.353179+00:00",
   "markets": 11,
   "markets_sharp": 10,
@@ -1418,6 +1382,24 @@
    "book": "SportsBet",
    "matchup": "Manchester United @ Chelsea",
    "sport_key": "soccer_epl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-31T01:00:46.442900+00:00",
+  "markets": 33,
+  "markets_sharp": 22,
+  "outcomes": 127,
+  "capped": 1,
+  "best": {
+   "gap": 2.916,
+   "ev_pct": 5.92,
+   "threshold_pct": 3.0,
+   "price": 1.45,
+   "outcome": "Canelo \u00c1lvarez",
+   "book": "Betfair",
+   "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
