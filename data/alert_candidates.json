@@ -284,5 +284,27 @@
     "sharp_probability": 0.7436,
     "consensus_probability": 0.7258,
     "alerted_at": "2026-10-30T23:00:47.510582+00:00"
+  },
+  "344b": {
+    "event_id": "e5f2728a5d373afd17cc2adfa8f07ef2",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-10-31T17:30:00Z",
+    "home_team": "David Picasso",
+    "away_team": "Carl Jammes Martin",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Carl Jammes Martin",
+    "price": 5.6,
+    "commission": 0.0,
+    "fair_probability": 0.189,
+    "fair_odds": 5.29,
+    "ev_pct": 5.86,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.189,
+    "consensus_probability": 0.1682,
+    "alerted_at": "2026-10-31T04:00:42.751515+00:00"
   }
 }
