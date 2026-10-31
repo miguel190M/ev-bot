@@ -1402,5 +1402,23 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-31T00:30:32.495709+00:00",
+  "markets": 16,
+  "markets_sharp": 14,
+  "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": -3.962,
+   "ev_pct": -0.96,
+   "threshold_pct": 3.0,
+   "price": 3.7,
+   "outcome": "Manchester United",
+   "book": "SportsBet",
+   "matchup": "Manchester United @ Chelsea",
+   "sport_key": "soccer_epl",
+   "anchor": "pinnacle"
+  }
  }
 ]
