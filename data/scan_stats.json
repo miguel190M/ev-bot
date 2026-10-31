@@ -1384,5 +1384,23 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-10-31T22:00:46.796671+00:00",
+  "markets": 37,
+  "markets_sharp": 35,
+  "outcomes": 142,
+  "capped": 0,
+  "best": {
+   "gap": -0.533,
+   "ev_pct": 1.91,
+   "threshold_pct": 2.44,
+   "price": 1.72,
+   "outcome": "Ireland",
+   "book": "Betfair",
+   "matchup": "Ireland @ Namibia",
+   "sport_key": "cricket_odi",
+   "anchor": "retail_consensus"
+  }
  }
 ]
