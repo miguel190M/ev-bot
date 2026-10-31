@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-29T22:00:47.307272+00:00",
-  "markets": 16,
-  "markets_sharp": 12,
-  "outcomes": 62,
-  "capped": 0,
-  "best": {
-   "gap": -2.117,
-   "ev_pct": 0.88,
-   "threshold_pct": 3.0,
-   "price": 1.71,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-29T22:30:35.211129+00:00",
   "markets": 23,
   "markets_sharp": 21,
@@ -1401,6 +1383,24 @@
    "matchup": "Ireland @ Namibia",
    "sport_key": "cricket_odi",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-10-31T22:30:32.578976+00:00",
+  "markets": 29,
+  "markets_sharp": 29,
+  "outcomes": 112,
+  "capped": 0,
+  "best": {
+   "gap": -2.998,
+   "ev_pct": 0.0,
+   "threshold_pct": 3.0,
+   "price": 1.07,
+   "outcome": "UNLV Rebels",
+   "book": "Betfair",
+   "matchup": "Northern Illinois Huskies @ UNLV Rebels",
+   "sport_key": "americanfootball_ncaaf",
+   "anchor": "pinnacle"
   }
  }
 ]
