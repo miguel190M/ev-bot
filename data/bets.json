@@ -769,7 +769,8 @@
     "lead_hours": 13.5,
     "logged_at": "2026-10-31T07:00:44.846378+00:00",
     "closing_fair_odds": 5.147,
-    "closing_captured_at": "2026-10-31T17:00:39.438495+00:00"
+    "closing_captured_at": "2026-10-31T17:00:39.438495+00:00",
+    "settle_reminded_at": "2026-10-31T23:30:33.725046+00:00"
   },
   "a996be": {
     "event_id": "d7012dfe5cabaf829c0d56fb6295c8c4",

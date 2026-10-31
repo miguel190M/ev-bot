@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-29T23:00:46.117335+00:00",
-  "markets": 17,
-  "markets_sharp": 12,
-  "outcomes": 66,
-  "capped": 0,
-  "best": {
-   "gap": -2.117,
-   "ev_pct": 0.88,
-   "threshold_pct": 3.0,
-   "price": 1.71,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-29T23:30:34.833071+00:00",
   "markets": 12,
   "markets_sharp": 10,
@@ -1400,6 +1382,24 @@
    "book": "Betfair",
    "matchup": "India @ New Zealand",
    "sport_key": "cricket_international_t20",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-10-31T23:30:33.383573+00:00",
+  "markets": 22,
+  "markets_sharp": 22,
+  "outcomes": 90,
+  "capped": 0,
+  "best": {
+   "gap": -0.934,
+   "ev_pct": 2.07,
+   "threshold_pct": 3.0,
+   "price": 11.0,
+   "outcome": "Venezia",
+   "book": "Betfair",
+   "matchup": "Venezia @ Como",
+   "sport_key": "soccer_italy_serie_a",
    "anchor": "pinnacle"
   }
  }
