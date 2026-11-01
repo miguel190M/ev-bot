@@ -1,1 +1,10 @@
-{}
+{
+  "f510a63a2e3852e183f84eb8cd44fcac:betfair_ex_au:Luciano Darderi": {
+    "ev_pct": 3.58,
+    "commence_time": "2026-11-02T10:00:00Z"
+  },
+  "b363b01046ccc43cdfcc7e7f4e42d735:sportsbet:Kyrian Jacquet": {
+    "ev_pct": 5.18,
+    "commence_time": "2026-11-02T14:30:00Z"
+  }
+}
