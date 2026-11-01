@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-30T21:00:51.214734+00:00",
-  "markets": 30,
-  "markets_sharp": 19,
-  "outcomes": 111,
-  "capped": 1,
-  "best": {
-   "gap": 3.15,
-   "ev_pct": 5.31,
-   "threshold_pct": 2.16,
-   "price": 1.58,
-   "outcome": "Jiri Lehecka",
-   "book": "Betfair",
-   "matchup": "Jan-Lennard Struff @ Jiri Lehecka",
-   "sport_key": "tennis_atp_swiss_indoors",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-30T21:30:39.167492+00:00",
   "markets": 15,
   "markets_sharp": 15,
@@ -1401,6 +1383,24 @@
    "matchup": "Rinky Hijikata @ Luciano Darderi",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-01T21:30:35.130315+00:00",
+  "markets": 4,
+  "markets_sharp": 4,
+  "outcomes": 16,
+  "capped": 0,
+  "best": {
+   "gap": -3.837,
+   "ev_pct": -0.84,
+   "threshold_pct": 3.0,
+   "price": 2.42,
+   "outcome": "Brooklyn Nets",
+   "book": "SportsBet",
+   "matchup": "Brooklyn Nets @ Indiana Pacers",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
   }
  }
 ]
