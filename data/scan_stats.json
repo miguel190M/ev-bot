@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-30T10:00:48.103316+00:00",
-  "markets": 10,
-  "markets_sharp": 9,
-  "outcomes": 40,
-  "capped": 0,
-  "best": {
-   "gap": 0.699,
-   "ev_pct": 5.38,
-   "threshold_pct": 4.68,
-   "price": 2.84,
-   "outcome": "Sri Lanka",
-   "book": "SportsBet",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-10-30T10:15:38.566235+00:00",
-  "markets": 9,
-  "markets_sharp": 9,
-  "outcomes": 36,
-  "capped": 0,
-  "best": {
-   "gap": -2.926,
-   "ev_pct": 0.07,
-   "threshold_pct": 3.0,
-   "price": 1.16,
-   "outcome": "Alexander Zverev",
-   "book": "Betfair",
-   "matchup": "Arthur Fery @ Alexander Zverev",
-   "sport_key": "tennis_atp_vienna_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-30T10:30:37.328181+00:00",
   "markets": 8,
   "markets_sharp": 8,
@@ -1419,6 +1383,24 @@
    "matchup": "Zimbabwe @ Afghanistan",
    "sport_key": "cricket_international_t20",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-01T10:30:33.347505+00:00",
+  "markets": 9,
+  "markets_sharp": 8,
+  "outcomes": 48,
+  "capped": 0,
+  "best": {
+   "gap": -4.402,
+   "ev_pct": -1.4,
+   "threshold_pct": 3.0,
+   "price": 2.02,
+   "outcome": "Frosinone",
+   "book": "SportsBet",
+   "matchup": "Torino @ Frosinone",
+   "sport_key": "soccer_italy_serie_a",
+   "anchor": "pinnacle"
   }
  }
 ]
