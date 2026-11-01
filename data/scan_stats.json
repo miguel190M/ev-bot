@@ -1402,5 +1402,23 @@
    "sport_key": "cricket_international_t20",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-01T06:30:38.335904+00:00",
+  "markets": 4,
+  "markets_sharp": 4,
+  "outcomes": 18,
+  "capped": 0,
+  "best": {
+   "gap": -3.102,
+   "ev_pct": -0.1,
+   "threshold_pct": 3.0,
+   "price": 1.78,
+   "outcome": "Ireland",
+   "book": "Betfair",
+   "matchup": "Ireland @ Namibia",
+   "sport_key": "cricket_odi",
+   "anchor": "pinnacle"
+  }
  }
 ]
