@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-30T11:30:39.914023+00:00",
-  "markets": 10,
-  "markets_sharp": 10,
-  "outcomes": 42,
-  "capped": 0,
-  "best": {
-   "gap": -2.926,
-   "ev_pct": 0.07,
-   "threshold_pct": 3.0,
-   "price": 1.16,
-   "outcome": "Alexander Zverev",
-   "book": "Betfair",
-   "matchup": "Arthur Fery @ Alexander Zverev",
-   "sport_key": "tennis_atp_vienna_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-30T12:00:52.223901+00:00",
   "markets": 13,
   "markets_sharp": 10,
@@ -1390,6 +1372,24 @@
   "markets": 6,
   "markets_sharp": 6,
   "outcomes": 26,
+  "capped": 0,
+  "best": {
+   "gap": -1.74,
+   "ev_pct": 1.26,
+   "threshold_pct": 3.0,
+   "price": 1.36,
+   "outcome": "Afghanistan",
+   "book": "Betfair",
+   "matchup": "Zimbabwe @ Afghanistan",
+   "sport_key": "cricket_international_t20",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-01T12:00:48.492975+00:00",
+  "markets": 8,
+  "markets_sharp": 8,
+  "outcomes": 38,
   "capped": 0,
   "best": {
    "gap": -1.74,
