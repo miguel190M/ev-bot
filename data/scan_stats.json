@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-30T13:30:36.869497+00:00",
-  "markets": 6,
-  "markets_sharp": 6,
-  "outcomes": 24,
-  "capped": 0,
-  "best": {
-   "gap": -2.657,
-   "ev_pct": 0.34,
-   "threshold_pct": 3.0,
-   "price": 2.05,
-   "outcome": "Taylor Fritz",
-   "book": "SportsBet",
-   "matchup": "Arthur Fils @ Taylor Fritz",
-   "sport_key": "tennis_atp_swiss_indoors",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-30T20:00:45.616466+00:00",
-  "markets": 32,
-  "markets_sharp": 22,
-  "outcomes": 123,
-  "capped": 1,
-  "best": {
-   "gap": -0.053,
-   "ev_pct": 1.09,
-   "threshold_pct": 1.14,
-   "price": 1.07,
-   "outcome": "Sultan Almohammed",
-   "book": "SportsBet",
-   "matchup": "Erick Jahir Urvina Villegas @ Sultan Almohammed",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-30T20:30:37.834345+00:00",
   "markets": 13,
   "markets_sharp": 13,
@@ -1401,6 +1365,24 @@
    "matchup": "Valentin Vacherot @ Jiri Lehecka",
    "sport_key": "tennis_atp_swiss_indoors",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-01T20:00:46.436241+00:00",
+  "markets": 33,
+  "markets_sharp": 28,
+  "outcomes": 144,
+  "capped": 0,
+  "best": {
+   "gap": -2.257,
+   "ev_pct": 0.74,
+   "threshold_pct": 3.0,
+   "price": 2.0,
+   "outcome": "Luciano Darderi",
+   "book": "Betfair",
+   "matchup": "Rinky Hijikata @ Luciano Darderi",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "retail_consensus"
   }
  }
 ]
