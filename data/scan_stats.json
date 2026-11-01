@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-30T09:00:47.037267+00:00",
-  "markets": 6,
-  "markets_sharp": 5,
-  "outcomes": 24,
-  "capped": 0,
-  "best": {
-   "gap": 0.699,
-   "ev_pct": 5.38,
-   "threshold_pct": 4.68,
-   "price": 2.84,
-   "outcome": "Sri Lanka",
-   "book": "SportsBet",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-30T09:30:38.795397+00:00",
   "markets": 8,
   "markets_sharp": 8,
@@ -1419,6 +1401,24 @@
    "matchup": "Zimbabwe @ Afghanistan",
    "sport_key": "cricket_international_t20",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-01T09:30:32.220294+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 4,
+  "capped": 0,
+  "best": {
+   "gap": -4.805,
+   "ev_pct": -3.37,
+   "threshold_pct": 1.44,
+   "price": 1.22,
+   "outcome": "Carlos Alcaraz",
+   "book": "Betfair",
+   "matchup": "Carlos Alcaraz @ Alex de Minaur",
+   "sport_key": "tennis_atp_vienna_open",
+   "anchor": "retail_consensus"
   }
  }
 ]
