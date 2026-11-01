@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-30T08:00:44.363185+00:00",
-  "markets": 9,
-  "markets_sharp": 7,
-  "outcomes": 39,
-  "capped": 0,
-  "best": {
-   "gap": 1.863,
-   "ev_pct": 6.86,
-   "threshold_pct": 5.0,
-   "price": 3.0,
-   "outcome": "Sri Lanka",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-30T08:30:37.383178+00:00",
   "markets": 5,
   "markets_sharp": 5,
@@ -1418,6 +1400,24 @@
    "book": "Betfair",
    "matchup": "Zimbabwe @ Afghanistan",
    "sport_key": "cricket_international_t20",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-01T08:30:32.650907+00:00",
+  "markets": 8,
+  "markets_sharp": 8,
+  "outcomes": 46,
+  "capped": 0,
+  "best": {
+   "gap": -4.034,
+   "ev_pct": -1.03,
+   "threshold_pct": 3.0,
+   "price": 5.0,
+   "outcome": "Seattle Sounders FC",
+   "book": "Betfair",
+   "matchup": "Seattle Sounders FC @ Vancouver Whitecaps FC",
+   "sport_key": "soccer_usa_mls",
    "anchor": "pinnacle"
   }
  }
