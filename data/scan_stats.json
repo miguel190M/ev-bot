@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-30T20:30:37.834345+00:00",
-  "markets": 13,
-  "markets_sharp": 13,
-  "outcomes": 46,
-  "capped": 0,
-  "best": {
-   "gap": -3.877,
-   "ev_pct": -0.88,
-   "threshold_pct": 3.0,
-   "price": 1.35,
-   "outcome": "Detroit Pistons",
-   "book": "SportsBet",
-   "matchup": "Detroit Pistons @ Brooklyn Nets",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-30T21:00:51.214734+00:00",
   "markets": 30,
   "markets_sharp": 19,
@@ -1401,6 +1383,24 @@
    "matchup": "Boston Celtics @ Orlando Magic",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-01T21:00:43.867053+00:00",
+  "markets": 18,
+  "markets_sharp": 13,
+  "outcomes": 72,
+  "capped": 0,
+  "best": {
+   "gap": -0.6,
+   "ev_pct": 2.64,
+   "threshold_pct": 3.24,
+   "price": 2.12,
+   "outcome": "Luciano Darderi",
+   "book": "Betfair",
+   "matchup": "Rinky Hijikata @ Luciano Darderi",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "retail_consensus"
   }
  }
 ]

@@ -1,5 +1,6 @@
 {
   "betanysports": "BetAnything",
+  "betclic_fr": "Betclic (FR)",
   "betfair_ex_au": "Betfair",
   "betfair_ex_eu": "Betfair",
   "betmgm": "BetMGM",
@@ -14,7 +15,6 @@
   "coolbet": "Coolbet",
   "dabble_au": "Dabble AU",
   "draftkings": "DraftKings",
-  "everygame": "Everygame",
   "fanatics": "Fanatics",
   "fanduel": "FanDuel",
   "gtbets": "GTbets",
@@ -42,7 +42,6 @@
   "unibet_nl": "Unibet (NL)",
   "unibet_se": "Unibet (SE)",
   "williamhill": "William Hill",
-  "williamhill_us": "Caesars",
   "winamax_de": "Winamax (DE)",
   "winamax_fr": "Winamax (FR)"
 }
