@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-30T06:00:46.584940+00:00",
-  "markets": 10,
-  "markets_sharp": 9,
-  "outcomes": 41,
-  "capped": 0,
-  "best": {
-   "gap": 0.584,
-   "ev_pct": 3.58,
-   "threshold_pct": 3.0,
-   "price": 1.38,
-   "outcome": "Elena Rybakina",
-   "book": "Betfair",
-   "matchup": "Leylah Fernandez @ Elena Rybakina",
-   "sport_key": "tennis_wta_pan_pacific_open",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-30T06:30:39.832611+00:00",
   "markets": 11,
   "markets_sharp": 9,
@@ -1399,6 +1381,24 @@
    "outcome": "India",
    "book": "Betfair",
    "matchup": "India @ New Zealand",
+   "sport_key": "cricket_international_t20",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-01T06:28:32.474095+00:00",
+  "markets": 8,
+  "markets_sharp": 7,
+  "outcomes": 36,
+  "capped": 0,
+  "best": {
+   "gap": -3.531,
+   "ev_pct": -0.53,
+   "threshold_pct": 3.0,
+   "price": 1.31,
+   "outcome": "Afghanistan",
+   "book": "Betfair",
+   "matchup": "Zimbabwe @ Afghanistan",
    "sport_key": "cricket_international_t20",
    "anchor": "pinnacle"
   }
