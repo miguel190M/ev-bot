@@ -350,5 +350,27 @@
     "sharp_probability": 0.0811,
     "consensus_probability": 0.0765,
     "alerted_at": "2026-11-01T09:00:43.225581+00:00"
+  },
+  "9fe5": {
+    "event_id": "7478843c3e7c1da6fcf84285743db173",
+    "sport_key": "cricket_international_t20",
+    "commence_time": "2026-11-01T14:30:00Z",
+    "home_team": "Afghanistan",
+    "away_team": "Zimbabwe",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Zimbabwe",
+    "price": 3.75,
+    "commission": 0.0,
+    "fair_probability": 0.3183,
+    "fair_odds": 3.142,
+    "ev_pct": 19.36,
+    "anchor": "retail_consensus",
+    "num_books": 15,
+    "sharp_disagreement": false,
+    "sharp_probability": null,
+    "consensus_probability": 0.3183,
+    "alerted_at": "2026-11-01T10:00:45.816057+00:00"
   }
 }
