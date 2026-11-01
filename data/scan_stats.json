@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-30T22:31:07.064747+00:00",
-  "markets": 13,
-  "markets_sharp": 13,
-  "outcomes": 46,
-  "capped": 0,
-  "best": {
-   "gap": -3.877,
-   "ev_pct": -0.88,
-   "threshold_pct": 3.0,
-   "price": 1.35,
-   "outcome": "Detroit Pistons",
-   "book": "SportsBet",
-   "matchup": "Detroit Pistons @ Brooklyn Nets",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-30T23:00:47.508673+00:00",
-  "markets": 35,
-  "markets_sharp": 24,
-  "outcomes": 125,
-  "capped": 1,
-  "best": {
-   "gap": 3.507,
-   "ev_pct": 6.51,
-   "threshold_pct": 3.0,
-   "price": 1.46,
-   "outcome": "Canelo \u00c1lvarez",
-   "book": "Betfair",
-   "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-30T23:30:38.406578+00:00",
   "markets": 17,
   "markets_sharp": 17,
@@ -1401,6 +1365,24 @@
    "matchup": "Philadelphia Eagles @ Washington Commanders",
    "sport_key": "americanfootball_nfl",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-01T23:00:50.387823+00:00",
+  "markets": 17,
+  "markets_sharp": 12,
+  "outcomes": 68,
+  "capped": 0,
+  "best": {
+   "gap": -1.351,
+   "ev_pct": 1.93,
+   "threshold_pct": 3.28,
+   "price": 2.14,
+   "outcome": "Luciano Darderi",
+   "book": "Betfair",
+   "matchup": "Rinky Hijikata @ Luciano Darderi",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "retail_consensus"
   }
  }
 ]
