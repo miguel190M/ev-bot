@@ -1384,5 +1384,23 @@
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-01T23:30:31.996065+00:00",
+  "markets": 2,
+  "markets_sharp": 2,
+  "outcomes": 8,
+  "capped": 0,
+  "best": {
+   "gap": -4.866,
+   "ev_pct": -1.87,
+   "threshold_pct": 3.0,
+   "price": 2.13,
+   "outcome": "Los Angeles Clippers",
+   "book": "SportsBet",
+   "matchup": "Los Angeles Clippers @ Golden State Warriors",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
