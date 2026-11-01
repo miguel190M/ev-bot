@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-30T02:30:34.035777+00:00",
-  "markets": 8,
-  "markets_sharp": 6,
-  "outcomes": 30,
-  "capped": 0,
-  "best": {
-   "gap": -3.709,
-   "ev_pct": -0.71,
-   "threshold_pct": 3.0,
-   "price": 1.78,
-   "outcome": "Holger Rune",
-   "book": "Betfair",
-   "matchup": "Valentin Vacherot @ Holger Rune",
-   "sport_key": "tennis_atp_swiss_indoors",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-30T03:00:50.082817+00:00",
   "markets": 11,
   "markets_sharp": 9,
@@ -1382,6 +1364,24 @@
    "book": "Betfair",
    "matchup": "India @ New Zealand",
    "sport_key": "cricket_international_t20",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-01T02:30:35.878436+00:00",
+  "markets": 8,
+  "markets_sharp": 7,
+  "outcomes": 36,
+  "capped": 0,
+  "best": {
+   "gap": -3.18,
+   "ev_pct": -0.18,
+   "threshold_pct": 3.0,
+   "price": 1.07,
+   "outcome": "UNLV Rebels",
+   "book": "Betfair",
+   "matchup": "Northern Illinois Huskies @ UNLV Rebels",
+   "sport_key": "americanfootball_ncaaf",
    "anchor": "pinnacle"
   }
  }
