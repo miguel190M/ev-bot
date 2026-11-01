@@ -1384,5 +1384,23 @@
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-01T20:30:33.285132+00:00",
+  "markets": 4,
+  "markets_sharp": 4,
+  "outcomes": 16,
+  "capped": 0,
+  "best": {
+   "gap": -4.704,
+   "ev_pct": -1.7,
+   "threshold_pct": 3.0,
+   "price": 1.4,
+   "outcome": "Boston Celtics",
+   "book": "Betfair",
+   "matchup": "Boston Celtics @ Orlando Magic",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
