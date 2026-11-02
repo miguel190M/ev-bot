@@ -1294,5 +1294,23 @@
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-02T09:35:32.477265+00:00",
+  "markets": 15,
+  "markets_sharp": 15,
+  "outcomes": 60,
+  "capped": 0,
+  "best": {
+   "gap": -3.601,
+   "ev_pct": -0.6,
+   "threshold_pct": 3.0,
+   "price": 1.79,
+   "outcome": "Alex Molcan",
+   "book": "SportsBet",
+   "matchup": "Titouan Droguet @ Alex Molcan",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
  }
 ]
