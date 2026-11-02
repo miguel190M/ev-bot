@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-31T05:30:32.646213+00:00",
-  "markets": 6,
-  "markets_sharp": 4,
-  "outcomes": 27,
-  "capped": 0,
-  "best": {
-   "gap": -3.357,
-   "ev_pct": -0.36,
-   "threshold_pct": 3.0,
-   "price": 3.45,
-   "outcome": "Sydney FC",
-   "book": "SportsBet",
-   "matchup": "Sydney FC @ Melbourne City",
-   "sport_key": "soccer_australia_aleague",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-31T05:58:45.971154+00:00",
   "markets": 29,
   "markets_sharp": 21,
@@ -1328,6 +1310,24 @@
    "book": "Betfair",
    "matchup": "Matteo Arnaldi @ Cameron Norrie",
    "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-02T05:30:38.712878+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 6,
+  "capped": 0,
+  "best": {
+   "gap": -6.252,
+   "ev_pct": -3.25,
+   "threshold_pct": 3.0,
+   "price": 2.44,
+   "outcome": "Fiorentina",
+   "book": "Betfair",
+   "matchup": "Fiorentina @ Sassuolo",
+   "sport_key": "soccer_italy_serie_a",
    "anchor": "pinnacle"
   }
  }
