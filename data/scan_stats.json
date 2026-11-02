@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-31T20:00:45.941084+00:00",
-  "markets": 52,
-  "markets_sharp": 49,
-  "outcomes": 208,
-  "capped": 0,
-  "best": {
-   "gap": 0.366,
-   "ev_pct": 3.37,
-   "threshold_pct": 3.0,
-   "price": 7.0,
-   "outcome": "Austin FC",
-   "book": "Betfair",
-   "matchup": "Austin FC @ LA Galaxy",
-   "sport_key": "soccer_usa_mls",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-31T20:30:34.472049+00:00",
   "markets": 33,
   "markets_sharp": 32,
@@ -1309,6 +1291,24 @@
    "outcome": "Francisco Cerundolo",
    "book": "Betfair",
    "matchup": "Francisco Cerundolo @ Arthur Rinderknech",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-02T20:00:57.291754+00:00",
+  "markets": 53,
+  "markets_sharp": 40,
+  "outcomes": 174,
+  "capped": 0,
+  "best": {
+   "gap": -1.879,
+   "ev_pct": 1.12,
+   "threshold_pct": 3.0,
+   "price": 3.16,
+   "outcome": "Tomas Martin Etcheverry",
+   "book": "SportsBet",
+   "matchup": "Tomas Martin Etcheverry @ Andrey Rublev",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
