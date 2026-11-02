@@ -235,6 +235,12 @@ NO_AUTO_SCORE_PREFIXES = ("mma_", "boxing_", "cricket_")
 SETTLE_PROMPT_HOURS = 6
 SETTLE_PROMPT_HOURS_TEST_CRICKET = 72
 
+# Once you've logged a bet (/bet), don't alert or list the same pick again.
+#   "outcome" (default): same event + market + outcome, at any bookmaker
+#   "book": only the same bookmaker (a better price elsewhere can still alert)
+#   "off": never suppress
+DEDUPE_LOGGED_BETS = os.environ.get("DEDUPE_LOGGED_BETS", "outcome").strip().lower()
+
 STATE_FILE = os.environ.get("STATE_FILE", "data/state.json")
 ODDS_API_BASE = "https://api.the-odds-api.com/v4"
 

@@ -11,7 +11,7 @@ import requests
 from . import config
 
 OFFSET_FILE = "data/telegram_offset.json"
-BET_PATTERN = re.compile(r"^/bet\s+([a-f0-9]+)\s+([\d.]+)\s*$", re.IGNORECASE)
+BET_PATTERN = re.compile(r"^/bet\s+([a-f0-9]+)\s+([\d.]+)(\s+again)?\s*$", re.IGNORECASE)
 
 
 def _load_offset() -> int:
@@ -61,6 +61,12 @@ def parse_bet_command(text: str):
     if not m:
         return None
     return m.group(1).lower(), float(m.group(2))
+
+
+def is_bet_again(text: str) -> bool:
+    """True for '/bet <id> <stake> again' - deliberately logging a second bet on a pick."""
+    m = BET_PATTERN.match(text)
+    return bool(m and m.group(3))
 
 
 SETTLE_PATTERN = re.compile(

@@ -239,7 +239,7 @@ def send_daily_digest_if_due(candidates: dict, bet_ledger: dict, odds_cache: dic
         return False
 
     print(f"\nBuilding daily digest ({today})...")
-    slate = _best_per_pick(collect_slate(odds_cache, now))
+    slate = bets.drop_logged(_best_per_pick(collect_slate(odds_cache, now)), bet_ledger)
     ids = {}
     for o in slate:
         sid = _find_or_register(o, candidates)

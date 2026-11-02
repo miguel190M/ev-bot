@@ -107,6 +107,29 @@ def _lead_hours(opp: dict) -> float | None:
     return round((start - flagged).total_seconds() / 3600, 1)
 
 
+def find_logged(opp: dict, ledger: dict, scope: str = "outcome") -> str | None:
+    """Id of an already-logged bet on this same pick, else None. scope="outcome":
+    same event + market + outcome at any bookmaker; scope="book": same bookmaker too."""
+    for bid, b in ledger.items():
+        if (b.get("event_id") != opp.get("event_id")
+                or b.get("market_key", "h2h") != opp.get("market_key", "h2h")
+                or b.get("outcome") != opp.get("outcome")):
+            continue
+        if scope == "book" and b.get("bookmaker_title") != opp.get("bookmaker_title"):
+            continue
+        return bid
+    return None
+
+
+def drop_logged(opps: list[dict], ledger: dict) -> list[dict]:
+    """Remove picks you've already bet on (per config.DEDUPE_LOGGED_BETS)."""
+    from . import config
+    scope = config.DEDUPE_LOGGED_BETS
+    if scope not in ("outcome", "book"):
+        return opps
+    return [o for o in opps if find_logged(o, ledger, scope) is None]
+
+
 def place_bet(sid: str, stake: float, opp: dict, bets: dict) -> tuple[str, dict]:
     """Record a new bet against an alerted opportunity. Returns (bet_id, bet)."""
     bet_id = sid if sid not in bets else f"{sid}-{sum(1 for k in bets if k.startswith(sid))}"
