@@ -1384,5 +1384,23 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-02T01:00:45.863507+00:00",
+  "markets": 15,
+  "markets_sharp": 10,
+  "outcomes": 60,
+  "capped": 0,
+  "best": {
+   "gap": -3.467,
+   "ev_pct": 0.57,
+   "threshold_pct": 4.04,
+   "price": 2.52,
+   "outcome": "Kyrian Jacquet",
+   "book": "Betfair",
+   "matchup": "Tomas Machac @ Kyrian Jacquet",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "retail_consensus"
+  }
  }
 ]
