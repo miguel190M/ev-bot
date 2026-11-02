@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-31T12:00:43.885811+00:00",
-  "markets": 74,
-  "markets_sharp": 66,
-  "outcomes": 241,
-  "capped": 2,
-  "best": {
-   "gap": 5.688,
-   "ev_pct": 8.69,
-   "threshold_pct": 3.0,
-   "price": 4.6,
-   "outcome": "Purdue Boilermakers",
-   "book": "SportsBet",
-   "matchup": "Purdue Boilermakers @ Penn State Nittany Lions",
-   "sport_key": "americanfootball_ncaaf",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-31T12:30:32.781582+00:00",
   "markets": 23,
   "markets_sharp": 17,
@@ -1318,6 +1300,24 @@
   "markets": 20,
   "markets_sharp": 19,
   "outcomes": 80,
+  "capped": 0,
+  "best": {
+   "gap": -2.887,
+   "ev_pct": 0.11,
+   "threshold_pct": 3.0,
+   "price": 2.96,
+   "outcome": "Valentin Vacherot",
+   "book": "SportsBet",
+   "matchup": "Valentin Vacherot @ Novak Djokovic",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-02T12:00:51.877178+00:00",
+  "markets": 22,
+  "markets_sharp": 21,
+  "outcomes": 92,
   "capped": 0,
   "best": {
    "gap": -2.887,
