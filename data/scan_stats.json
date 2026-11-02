@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-31T23:00:43.072403+00:00",
-  "markets": 30,
-  "markets_sharp": 28,
-  "outcomes": 116,
-  "capped": 0,
-  "best": {
-   "gap": -2.018,
-   "ev_pct": 0.98,
-   "threshold_pct": 3.0,
-   "price": 1.8,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-31T23:30:33.383573+00:00",
   "markets": 22,
   "markets_sharp": 22,
@@ -1310,6 +1292,24 @@
    "book": "Betfair",
    "matchup": "Cameron Norrie @ Ben Shelton",
    "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-02T23:00:49.325594+00:00",
+  "markets": 15,
+  "markets_sharp": 15,
+  "outcomes": 60,
+  "capped": 0,
+  "best": {
+   "gap": -0.609,
+   "ev_pct": 2.39,
+   "threshold_pct": 3.0,
+   "price": 1.31,
+   "outcome": "Atlanta Hawks",
+   "book": "Betfair",
+   "matchup": "Atlanta Hawks @ Indiana Pacers",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
