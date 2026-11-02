@@ -168,6 +168,11 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
           f"{config.get_ev_threshold(2.0) * 100:.1f}% at odds of 2.0, "
           f"{config.get_ev_threshold(4.0) * 100:.1f}% at odds of 4.0)")
 
+    before = len(all_opportunities)
+    all_opportunities = bets.drop_logged(all_opportunities, bet_ledger)
+    if len(all_opportunities) != before:
+        print(f"Skipped {before - len(all_opportunities)} +EV pick(s) you've already logged a bet on.")
+
     st = state.load_state()
     now_iso = datetime.now(timezone.utc).isoformat()
     state.prune_expired(st, now_iso)
@@ -216,6 +221,14 @@ def process_commands(candidates: dict, bet_ledger: dict):
                     f"Couldn't find an alert with id '{sid}' - it may have expired "
                     f"(candidates drop off once the event starts) or been mistyped."
                 )
+                continue
+            dup = bets.find_logged(opp, bet_ledger, "book")
+            if dup and not telegram_commands.is_bet_again(text):
+                telegram_commands.send_message(
+                    f"Already logged: {bet_ledger[dup]['outcome']} @ {bet_ledger[dup]['price']} "
+                    f"(${bet_ledger[dup]['stake']:g}, id {dup}). Not logged again. "
+                    f"To add a second bet on it anyway: /bet {sid} {stake:g} again")
+                print(f"    -> Skipped duplicate of {dup}")
                 continue
             bet_id, bet = bets.place_bet(sid, stake, opp, bet_ledger)
             matchup = f"{bet.get('away_team')} @ {bet.get('home_team')}" if bet.get("away_team") else bet.get("home_team", "")
@@ -367,6 +380,10 @@ def main():
     candidates = bets.load_candidates()
     bet_ledger = bets.load_bets()
 
+    # Commands first: a /bet sent since the last run must be in the ledger before
+    # the scan decides what to alert on, or the pick you just logged alerts again.
+    process_commands(candidates, bet_ledger)
+
     odds_cache = {"events": {}, "remaining": None, "credits_used": 0}
     credits_used = run_scan(candidates, bet_ledger, odds_cache)
 
@@ -376,11 +393,6 @@ def main():
                       odds_cache.get("remaining"))
     except Exception as e:
         print(f"Health check failed: {e}")
-
-    # Give any /bet command first crack at matching a candidate before
-    # pruning runs - belt-and-braces alongside the grace period in
-    # prune_candidates, so a same-run race can't cost a valid match either.
-    process_commands(candidates, bet_ledger)
 
     # After commands, so a bet logged this run gets a snapshot straight away.
     clv.capture_closing(bet_ledger, odds_cache)
