@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-31T08:00:40.298567+00:00",
-  "markets": 58,
-  "markets_sharp": 47,
-  "outcomes": 170,
-  "capped": 2,
-  "best": {
-   "gap": 0.725,
-   "ev_pct": 2.61,
-   "threshold_pct": 1.88,
-   "price": 1.44,
-   "outcome": "Canelo \u00c1lvarez",
-   "book": "Betfair",
-   "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-31T08:30:35.007004+00:00",
   "markets": 20,
   "markets_sharp": 20,
@@ -1282,6 +1264,24 @@
   "markets": 13,
   "markets_sharp": 12,
   "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": -3.243,
+   "ev_pct": -0.24,
+   "threshold_pct": 3.0,
+   "price": 1.52,
+   "outcome": "Cameron Norrie",
+   "book": "Betfair",
+   "matchup": "Matteo Arnaldi @ Cameron Norrie",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-02T08:00:51.926946+00:00",
+  "markets": 15,
+  "markets_sharp": 14,
+  "outcomes": 64,
   "capped": 0,
   "best": {
    "gap": -3.243,
