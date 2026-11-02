@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-31T20:30:34.472049+00:00",
-  "markets": 33,
-  "markets_sharp": 32,
-  "outcomes": 122,
-  "capped": 0,
-  "best": {
-   "gap": 2.082,
-   "ev_pct": 5.08,
-   "threshold_pct": 3.0,
-   "price": 4.2,
-   "outcome": "Christian Mbilli",
-   "book": "Betfair",
-   "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-31T21:01:15.589717+00:00",
   "markets": 36,
   "markets_sharp": 33,
@@ -1300,6 +1282,24 @@
   "markets": 53,
   "markets_sharp": 40,
   "outcomes": 174,
+  "capped": 0,
+  "best": {
+   "gap": -1.879,
+   "ev_pct": 1.12,
+   "threshold_pct": 3.0,
+   "price": 3.16,
+   "outcome": "Tomas Martin Etcheverry",
+   "book": "SportsBet",
+   "matchup": "Tomas Martin Etcheverry @ Andrey Rublev",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-02T20:30:41.427349+00:00",
+  "markets": 14,
+  "markets_sharp": 14,
+  "outcomes": 56,
   "capped": 0,
   "best": {
    "gap": -1.879,
