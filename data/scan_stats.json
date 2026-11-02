@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-31T10:00:46.284713+00:00",
-  "markets": 33,
-  "markets_sharp": 25,
-  "outcomes": 135,
-  "capped": 1,
-  "best": {
-   "gap": 5.424,
-   "ev_pct": 8.42,
-   "threshold_pct": 3.0,
-   "price": 5.6,
-   "outcome": "Carl Jammes Martin",
-   "book": "SportsBet",
-   "matchup": "Carl Jammes Martin @ David Picasso",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-31T10:30:31.314624+00:00",
   "markets": 6,
   "markets_sharp": 6,
@@ -1327,6 +1309,24 @@
    "outcome": "Luciano Darderi",
    "book": "SportsBet",
    "matchup": "Rinky Hijikata @ Luciano Darderi",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-02T10:00:52.587153+00:00",
+  "markets": 23,
+  "markets_sharp": 21,
+  "outcomes": 92,
+  "capped": 0,
+  "best": {
+   "gap": -3.378,
+   "ev_pct": -0.38,
+   "threshold_pct": 3.0,
+   "price": 1.74,
+   "outcome": "Alexander Blockx",
+   "book": "Betfair",
+   "matchup": "Alexander Blockx @ Daniel Merida Aguilar",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
