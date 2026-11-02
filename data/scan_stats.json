@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-31T09:30:30.336952+00:00",
-  "markets": 25,
-  "markets_sharp": 25,
-  "outcomes": 106,
-  "capped": 0,
-  "best": {
-   "gap": -3.371,
-   "ev_pct": -0.37,
-   "threshold_pct": 3.0,
-   "price": 1.45,
-   "outcome": "Boston Bruins",
-   "book": "SportsBet",
-   "matchup": "Chicago Blackhawks @ Boston Bruins",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-31T10:00:46.284713+00:00",
   "markets": 33,
   "markets_sharp": 25,
@@ -1291,6 +1273,24 @@
    "outcome": "Cameron Norrie",
    "book": "Betfair",
    "matchup": "Matteo Arnaldi @ Cameron Norrie",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-02T09:30:53.870540+00:00",
+  "markets": 17,
+  "markets_sharp": 17,
+  "outcomes": 72,
+  "capped": 0,
+  "best": {
+   "gap": -3.663,
+   "ev_pct": -0.66,
+   "threshold_pct": 3.0,
+   "price": 1.25,
+   "outcome": "Rafael Jodar",
+   "book": "Betfair",
+   "matchup": "Rafael Jodar @ Alejandro Tabilo",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
