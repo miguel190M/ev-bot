@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-31T04:30:33.808586+00:00",
-  "markets": 11,
-  "markets_sharp": 9,
-  "outcomes": 59,
-  "capped": 0,
-  "best": {
-   "gap": -4.274,
-   "ev_pct": -2.15,
-   "threshold_pct": 2.12,
-   "price": 1.56,
-   "outcome": "Pakistan",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-10-31T05:00:43.232201+00:00",
-  "markets": 30,
-  "markets_sharp": 23,
-  "outcomes": 121,
-  "capped": 1,
-  "best": {
-   "gap": 2.863,
-   "ev_pct": 5.86,
-   "threshold_pct": 3.0,
-   "price": 5.6,
-   "outcome": "Carl Jammes Martin",
-   "book": "SportsBet",
-   "matchup": "Carl Jammes Martin @ David Picasso",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-31T05:30:32.646213+00:00",
   "markets": 6,
   "markets_sharp": 4,
@@ -1345,6 +1309,24 @@
    "outcome": "Luca Van Assche",
    "book": "Betfair",
    "matchup": "Mariano Navone @ Luca Van Assche",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-02T05:00:45.651937+00:00",
+  "markets": 13,
+  "markets_sharp": 12,
+  "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": -3.262,
+   "ev_pct": -0.26,
+   "threshold_pct": 3.0,
+   "price": 1.51,
+   "outcome": "Cameron Norrie",
+   "book": "Betfair",
+   "matchup": "Matteo Arnaldi @ Cameron Norrie",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
