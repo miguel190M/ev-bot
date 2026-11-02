@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-31T07:30:33.622635+00:00",
-  "markets": 16,
-  "markets_sharp": 13,
-  "outcomes": 53,
-  "capped": 0,
-  "best": {
-   "gap": -2.138,
-   "ev_pct": 0.12,
-   "threshold_pct": 2.26,
-   "price": 1.63,
-   "outcome": "Ireland",
-   "book": "SportsBet",
-   "matchup": "Ireland @ Namibia",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-31T08:00:40.298567+00:00",
   "markets": 58,
   "markets_sharp": 47,
@@ -1291,6 +1273,24 @@
    "outcome": "Rafael Jodar",
    "book": "Betfair",
    "matchup": "Rafael Jodar @ Alejandro Tabilo",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-02T07:30:40.003142+00:00",
+  "markets": 13,
+  "markets_sharp": 12,
+  "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": -3.243,
+   "ev_pct": -0.24,
+   "threshold_pct": 3.0,
+   "price": 1.52,
+   "outcome": "Cameron Norrie",
+   "book": "Betfair",
+   "matchup": "Matteo Arnaldi @ Cameron Norrie",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
