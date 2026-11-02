@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-31T21:01:15.589717+00:00",
-  "markets": 36,
-  "markets_sharp": 33,
-  "outcomes": 134,
-  "capped": 0,
-  "best": {
-   "gap": -0.382,
-   "ev_pct": 2.62,
-   "threshold_pct": 3.0,
-   "price": 4.1,
-   "outcome": "Christian Mbilli",
-   "book": "Betfair",
-   "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-10-31T21:30:40.446987+00:00",
-  "markets": 33,
-  "markets_sharp": 32,
-  "outcomes": 126,
-  "capped": 0,
-  "best": {
-   "gap": -1.168,
-   "ev_pct": 1.83,
-   "threshold_pct": 3.0,
-   "price": 2.18,
-   "outcome": "Charlotte Hornets",
-   "book": "Betfair",
-   "matchup": "Philadelphia 76ers @ Charlotte Hornets",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-31T22:00:46.796671+00:00",
   "markets": 37,
   "markets_sharp": 35,
@@ -1328,6 +1292,24 @@
    "book": "SportsBet",
    "matchup": "Botic van de Zandschulp @ Ugo Humbert",
    "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-02T21:30:54.364090+00:00",
+  "markets": 32,
+  "markets_sharp": 32,
+  "outcomes": 128,
+  "capped": 0,
+  "best": {
+   "gap": -3.144,
+   "ev_pct": -0.14,
+   "threshold_pct": 3.0,
+   "price": 1.12,
+   "outcome": "New York Knicks",
+   "book": "Betfair",
+   "matchup": "Brooklyn Nets @ New York Knicks",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
