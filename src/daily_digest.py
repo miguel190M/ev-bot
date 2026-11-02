@@ -38,6 +38,7 @@ SPORT_LABELS = {
     "americanfootball_ncaaf": "NCAAF",
     "basketball_ncaab": "NCAAB",
     "soccer_usa_mls": "MLS",
+    "basketball_nbl": "NBL",
 }
 
 
