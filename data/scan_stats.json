@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-31T23:30:33.383573+00:00",
-  "markets": 22,
-  "markets_sharp": 22,
-  "outcomes": 90,
-  "capped": 0,
-  "best": {
-   "gap": -0.934,
-   "ev_pct": 2.07,
-   "threshold_pct": 3.0,
-   "price": 11.0,
-   "outcome": "Venezia",
-   "book": "Betfair",
-   "matchup": "Venezia @ Como",
-   "sport_key": "soccer_italy_serie_a",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-01T00:00:45.005709+00:00",
   "markets": 23,
   "markets_sharp": 21,
@@ -1309,6 +1291,24 @@
    "outcome": "Atlanta Hawks",
    "book": "Betfair",
    "matchup": "Atlanta Hawks @ Indiana Pacers",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-02T23:30:50.770739+00:00",
+  "markets": 32,
+  "markets_sharp": 32,
+  "outcomes": 128,
+  "capped": 0,
+  "best": {
+   "gap": -2.86,
+   "ev_pct": 0.14,
+   "threshold_pct": 3.0,
+   "price": 1.12,
+   "outcome": "San Antonio Spurs",
+   "book": "Betfair",
+   "matchup": "Utah Jazz @ San Antonio Spurs",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
