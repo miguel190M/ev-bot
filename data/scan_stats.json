@@ -1312,5 +1312,23 @@
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-02T21:00:55.302116+00:00",
+  "markets": 14,
+  "markets_sharp": 14,
+  "outcomes": 56,
+  "capped": 0,
+  "best": {
+   "gap": -1.67,
+   "ev_pct": 1.33,
+   "threshold_pct": 3.0,
+   "price": 2.72,
+   "outcome": "Botic van de Zandschulp",
+   "book": "SportsBet",
+   "matchup": "Botic van de Zandschulp @ Ugo Humbert",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
  }
 ]
