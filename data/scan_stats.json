@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-31T22:00:46.796671+00:00",
-  "markets": 37,
-  "markets_sharp": 35,
-  "outcomes": 142,
-  "capped": 0,
-  "best": {
-   "gap": -0.533,
-   "ev_pct": 1.91,
-   "threshold_pct": 2.44,
-   "price": 1.72,
-   "outcome": "Ireland",
-   "book": "Betfair",
-   "matchup": "Ireland @ Namibia",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-10-31T22:30:32.578976+00:00",
   "markets": 29,
   "markets_sharp": 29,
@@ -1311,6 +1293,24 @@
    "matchup": "Brooklyn Nets @ New York Knicks",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-02T22:00:58.067649+00:00",
+  "markets": 34,
+  "markets_sharp": 21,
+  "outcomes": 98,
+  "capped": 0,
+  "best": {
+   "gap": -1.89,
+   "ev_pct": -0.83,
+   "threshold_pct": 1.06,
+   "price": 1.03,
+   "outcome": "Kansas Jayhawks",
+   "book": "Betfair",
+   "matchup": "Fordham Rams @ Kansas Jayhawks",
+   "sport_key": "basketball_ncaab",
+   "anchor": "retail_consensus"
   }
  }
 ]
