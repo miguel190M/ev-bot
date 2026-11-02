@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-31T10:30:31.314624+00:00",
-  "markets": 6,
-  "markets_sharp": 6,
-  "outcomes": 36,
-  "capped": 0,
-  "best": {
-   "gap": -4.819,
-   "ev_pct": -1.82,
-   "threshold_pct": 3.0,
-   "price": 1.36,
-   "outcome": "Bayern Munich",
-   "book": "Betfair",
-   "matchup": "Borussia Dortmund @ Bayern Munich",
-   "sport_key": "soccer_germany_bundesliga",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-31T11:00:45.921293+00:00",
   "markets": 29,
   "markets_sharp": 22,
@@ -1327,6 +1309,24 @@
    "outcome": "Alexander Blockx",
    "book": "Betfair",
    "matchup": "Alexander Blockx @ Daniel Merida Aguilar",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-02T10:30:44.481755+00:00",
+  "markets": 21,
+  "markets_sharp": 20,
+  "outcomes": 82,
+  "capped": 0,
+  "best": {
+   "gap": -2.206,
+   "ev_pct": 0.79,
+   "threshold_pct": 3.0,
+   "price": 1.74,
+   "outcome": "Jiri Lehecka",
+   "book": "SportsBet",
+   "matchup": "Jiri Lehecka @ Alex Michelsen",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
