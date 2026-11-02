@@ -90,6 +90,10 @@ def is_open_command(text: str) -> bool:
     return text.strip().lower() in ("/open", "/outstanding")
 
 
+def is_record_command(text: str) -> bool:
+    return text.strip().lower() in ("/record", "/sports")
+
+
 def is_stats_command(text: str) -> bool:
     return text.strip().lower() == "/stats"
 

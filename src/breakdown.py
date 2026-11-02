@@ -58,6 +58,41 @@ def _row(label: str, group: list[dict]) -> str:
     return f"{label}: {w}-{len(decided) - w} · ROI {roi} · CLV {clv_s}{flag}"
 
 
+def record(bet_ledger: dict) -> str:
+    """/record: win-loss, dollar profit, ROI, net CLV and open bets per sport, plus a total."""
+    if not bet_ledger:
+        return "No bets logged yet."
+    groups = {}
+    for b in bet_ledger.values():
+        groups.setdefault(_sport(b), []).append(b)
+
+    def line(label, group):
+        won = [b for b in group if b["status"] == "won"]
+        lost = [b for b in group if b["status"] == "lost"]
+        void = sum(b["status"] == "void" for b in group)
+        open_n = sum(b["status"] == "open" for b in group)
+        decided = won + lost
+        staked = sum(b["stake"] for b in decided)
+        profit = sum(b["profit"] or 0 for b in decided)
+        roi = f"{profit / staked * 100:+.0f}%" if staked else "n/a"
+        clv = [b["net_clv_pct"] for b in group if b.get("net_clv_pct") is not None]
+        clv_s = f"{sum(clv) / len(clv):+.1f}%" if clv else "n/a"
+        rec = f"{len(won)}W-{len(lost)}L" + (f"-{void}V" if void else "")
+        sign = "+" if profit >= 0 else "-"
+        return (f"{label}: {rec} · {sign}${abs(profit):.2f} on ${staked:g} · ROI {roi} · "
+                f"CLV {clv_s} · {open_n} open")
+
+    def order(item):
+        return (-sum(b["status"] in ("won", "lost") for b in item[1]), item[0])
+
+    lines = ["📒 Record by sport (settled bets; CLV = avg net)"]
+    lines += [line(label, group) for label, group in sorted(groups.items(), key=order)]
+    lines.append("")
+    lines.append(line("TOTAL", list(bet_ledger.values())))
+    lines.append("Small samples mean little - judge by CLV once a sport has 20+ bets.")
+    return "\n".join(lines)
+
+
 def build(bet_ledger: dict, dimension: str = "all") -> str:
     settled = [b for b in bet_ledger.values() if b["status"] in ("won", "lost", "void")]
     if dimension != "all" and dimension not in DIMENSIONS:
