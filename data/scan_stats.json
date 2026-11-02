@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-10-31T06:30:35.025736+00:00",
-  "markets": 9,
-  "markets_sharp": 7,
-  "outcomes": 49,
-  "capped": 0,
-  "best": {
-   "gap": -4.274,
-   "ev_pct": -2.15,
-   "threshold_pct": 2.12,
-   "price": 1.56,
-   "outcome": "Pakistan",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-10-31T07:00:43.913759+00:00",
-  "markets": 27,
-  "markets_sharp": 19,
-  "outcomes": 100,
-  "capped": 1,
-  "best": {
-   "gap": 2.217,
-   "ev_pct": 5.22,
-   "threshold_pct": 3.0,
-   "price": 1.44,
-   "outcome": "Canelo \u00c1lvarez",
-   "book": "Betfair",
-   "matchup": "Christian Mbilli @ Canelo \u00c1lvarez",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-31T07:30:33.622635+00:00",
   "markets": 16,
   "markets_sharp": 13,
@@ -1309,6 +1273,24 @@
    "outcome": "Zizou Bergs",
    "book": "Betfair",
    "matchup": "Zizou Bergs @ Ignacio Buse",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-02T07:00:46.077956+00:00",
+  "markets": 13,
+  "markets_sharp": 12,
+  "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": -3.575,
+   "ev_pct": -0.58,
+   "threshold_pct": 3.0,
+   "price": 1.26,
+   "outcome": "Rafael Jodar",
+   "book": "Betfair",
+   "matchup": "Rafael Jodar @ Alejandro Tabilo",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
