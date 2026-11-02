@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-10-31T22:30:32.578976+00:00",
-  "markets": 29,
-  "markets_sharp": 29,
-  "outcomes": 112,
-  "capped": 0,
-  "best": {
-   "gap": -2.998,
-   "ev_pct": 0.0,
-   "threshold_pct": 3.0,
-   "price": 1.07,
-   "outcome": "UNLV Rebels",
-   "book": "Betfair",
-   "matchup": "Northern Illinois Huskies @ UNLV Rebels",
-   "sport_key": "americanfootball_ncaaf",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-10-31T23:00:43.072403+00:00",
   "markets": 30,
   "markets_sharp": 28,
@@ -1311,6 +1293,24 @@
    "matchup": "Fordham Rams @ Kansas Jayhawks",
    "sport_key": "basketball_ncaab",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-02T22:30:44.335419+00:00",
+  "markets": 29,
+  "markets_sharp": 29,
+  "outcomes": 116,
+  "capped": 0,
+  "best": {
+   "gap": -2.57,
+   "ev_pct": 0.43,
+   "threshold_pct": 3.0,
+   "price": 1.4,
+   "outcome": "Ben Shelton",
+   "book": "Betfair",
+   "matchup": "Cameron Norrie @ Ben Shelton",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
   }
  }
 ]
