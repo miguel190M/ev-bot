@@ -38,7 +38,15 @@ def test_college_and_mls_added():
     assert daily_digest._sport_label("basketball_ncaab") == "NCAAB"
     assert daily_digest._sport_label("soccer_usa_mls") == "MLS"
     assert config.get_near_interval_minutes("soccer_usa_mls") == 120      # throttled like other soccer
-    assert config.get_near_interval_minutes("americanfootball_ncaaf") == 0
+    assert config.get_near_interval_minutes("americanfootball_ncaaf") == 120   # slowed to save credits
+    assert config.get_near_interval_minutes("basketball_ncaab") == 120
+
+
+def test_nbl_and_mma_present():
+    assert "basketball_nbl" in config.FIXED_SPORTS and "mma_mixed_martial_arts" in config.FIXED_SPORTS
+    assert config.get_regions_for_sport("basketball_nbl") == "au,eu" and config.get_markets_for_sport("basketball_nbl") == "h2h"
+    assert config.get_near_interval_minutes("basketball_nbl") == 0              # local league: every run
+    assert daily_digest._sport_label("basketball_nbl") == "NBL"
 
 
 def test_labels():
