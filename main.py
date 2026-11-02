@@ -254,6 +254,9 @@ def process_commands(candidates: dict, bet_ledger: dict):
                 f"Profit: ${bet['profit']:g}"
             )
             print(f"    -> Settled {sid} manually: {bet['status']} (${bet['profit']})")
+        elif telegram_commands.is_record_command(text):
+            telegram_commands.send_message(breakdown.record(bet_ledger))
+            print("    -> Replied with record by sport")
         elif telegram_commands.is_open_command(text):
             telegram_commands.send_message(
                 daily_digest.open_bets_text(bet_ledger, datetime.now(timezone.utc)))
