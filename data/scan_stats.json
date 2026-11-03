@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-01T02:30:35.878436+00:00",
-  "markets": 8,
-  "markets_sharp": 7,
-  "outcomes": 36,
-  "capped": 0,
-  "best": {
-   "gap": -3.18,
-   "ev_pct": -0.18,
-   "threshold_pct": 3.0,
-   "price": 1.07,
-   "outcome": "UNLV Rebels",
-   "book": "Betfair",
-   "matchup": "Northern Illinois Huskies @ UNLV Rebels",
-   "sport_key": "americanfootball_ncaaf",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-01T03:00:44.781807+00:00",
   "markets": 7,
   "markets_sharp": 7,
@@ -1293,6 +1275,24 @@
    "matchup": "Milwaukee Panthers @ USC Trojans",
    "sport_key": "basketball_ncaab",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-03T02:30:38.983228+00:00",
+  "markets": 16,
+  "markets_sharp": 16,
+  "outcomes": 64,
+  "capped": 0,
+  "best": {
+   "gap": -2.54,
+   "ev_pct": 0.46,
+   "threshold_pct": 3.0,
+   "price": 2.87,
+   "outcome": "Los Angeles Clippers",
+   "book": "SportsBet",
+   "matchup": "Toronto Raptors @ Los Angeles Clippers",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
   }
  }
 ]
