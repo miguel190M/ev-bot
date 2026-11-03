@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-01T13:00:45.105221+00:00",
-  "markets": 5,
-  "markets_sharp": 5,
-  "outcomes": 18,
-  "capped": 0,
-  "best": {
-   "gap": -0.22,
-   "ev_pct": 2.78,
-   "threshold_pct": 3.0,
-   "price": 1.38,
-   "outcome": "Afghanistan",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-01T13:30:32.748681+00:00",
   "markets": 6,
   "markets_sharp": 6,
@@ -1309,6 +1291,24 @@
    "outcome": "Ben Shelton",
    "book": "Betfair",
    "matchup": "Cameron Norrie @ Ben Shelton",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-03T13:00:48.251054+00:00",
+  "markets": 14,
+  "markets_sharp": 11,
+  "outcomes": 56,
+  "capped": 0,
+  "best": {
+   "gap": -0.902,
+   "ev_pct": 2.1,
+   "threshold_pct": 3.0,
+   "price": 4.75,
+   "outcome": "Benjamin Bonzi",
+   "book": "SportsBet",
+   "matchup": "Taylor Fritz @ Benjamin Bonzi",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
