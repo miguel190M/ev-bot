@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-01T06:00:44.750706+00:00",
-  "markets": 14,
-  "markets_sharp": 14,
-  "outcomes": 58,
-  "capped": 0,
-  "best": {
-   "gap": -2.018,
-   "ev_pct": 0.98,
-   "threshold_pct": 3.0,
-   "price": 1.8,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-01T06:28:32.474095+00:00",
   "markets": 8,
   "markets_sharp": 7,
@@ -1300,6 +1282,24 @@
   "markets": 13,
   "markets_sharp": 13,
   "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": -3.286,
+   "ev_pct": -0.29,
+   "threshold_pct": 3.0,
+   "price": 2.1,
+   "outcome": "Jan-Lennard Struff",
+   "book": "SportsBet",
+   "matchup": "Arthur Gea @ Jan-Lennard Struff",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-03T06:00:58.080356+00:00",
+  "markets": 16,
+  "markets_sharp": 15,
+  "outcomes": 68,
   "capped": 0,
   "best": {
    "gap": -3.286,
