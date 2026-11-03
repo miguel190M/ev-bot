@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-01T09:30:32.220294+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 4,
-  "capped": 0,
-  "best": {
-   "gap": -4.805,
-   "ev_pct": -3.37,
-   "threshold_pct": 1.44,
-   "price": 1.22,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Carlos Alcaraz @ Alex de Minaur",
-   "sport_key": "tennis_atp_vienna_open",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-01T10:00:45.814261+00:00",
   "markets": 21,
   "markets_sharp": 0,
@@ -1291,6 +1273,24 @@
    "outcome": "Benjamin Bonzi",
    "book": "SportsBet",
    "matchup": "Taylor Fritz @ Benjamin Bonzi",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-03T09:30:40.169147+00:00",
+  "markets": 13,
+  "markets_sharp": 13,
+  "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": -3.919,
+   "ev_pct": -0.92,
+   "threshold_pct": 3.0,
+   "price": 3.85,
+   "outcome": "Moise Kouame",
+   "book": "Betfair",
+   "matchup": "Moise Kouame @ Alejandro Davidovich Fokina",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
