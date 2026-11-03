@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-01T11:00:45.318591+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 12,
-  "capped": 0,
-  "best": {
-   "gap": -0.317,
-   "ev_pct": 2.68,
-   "threshold_pct": 3.0,
-   "price": 1.38,
-   "outcome": "Afghanistan",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-01T11:30:34.980630+00:00",
   "markets": 6,
   "markets_sharp": 6,
@@ -1291,6 +1273,24 @@
    "outcome": "Adolfo Daniel Vallejo",
    "book": "SportsBet",
    "matchup": "Learner Tien @ Adolfo Daniel Vallejo",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-03T11:00:45.345586+00:00",
+  "markets": 14,
+  "markets_sharp": 13,
+  "outcomes": 56,
+  "capped": 0,
+  "best": {
+   "gap": -3.785,
+   "ev_pct": -0.78,
+   "threshold_pct": 3.0,
+   "price": 1.51,
+   "outcome": "Novak Djokovic",
+   "book": "Betfair",
+   "matchup": "Valentin Vacherot @ Novak Djokovic",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
