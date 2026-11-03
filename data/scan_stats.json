@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-01T08:00:42.809140+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 8,
-  "capped": 0,
-  "best": {
-   "gap": -3.531,
-   "ev_pct": -0.53,
-   "threshold_pct": 3.0,
-   "price": 1.31,
-   "outcome": "Afghanistan",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-01T08:30:32.650907+00:00",
   "markets": 8,
   "markets_sharp": 8,
@@ -1282,6 +1264,24 @@
   "markets": 13,
   "markets_sharp": 13,
   "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": -3.286,
+   "ev_pct": -0.29,
+   "threshold_pct": 3.0,
+   "price": 2.1,
+   "outcome": "Jan-Lennard Struff",
+   "book": "SportsBet",
+   "matchup": "Arthur Gea @ Jan-Lennard Struff",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-03T08:00:47.516680+00:00",
+  "markets": 14,
+  "markets_sharp": 13,
+  "outcomes": 56,
   "capped": 0,
   "best": {
    "gap": -3.286,
