@@ -1294,5 +1294,23 @@
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-03T11:05:47.195609+00:00",
+  "markets": 13,
+  "markets_sharp": 13,
+  "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": -4.071,
+   "ev_pct": -1.07,
+   "threshold_pct": 3.0,
+   "price": 1.75,
+   "outcome": "Jiri Lehecka",
+   "book": "Betfair",
+   "matchup": "Jiri Lehecka @ Alex Michelsen",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
  }
 ]
