@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-01T04:30:35.346824+00:00",
-  "markets": 5,
-  "markets_sharp": 5,
-  "outcomes": 22,
-  "capped": 0,
-  "best": {
-   "gap": -0.935,
-   "ev_pct": 2.07,
-   "threshold_pct": 3.0,
-   "price": 1.82,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-01T05:00:46.535627+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 34,
-  "capped": 0,
-  "best": {
-   "gap": 3.077,
-   "ev_pct": 6.08,
-   "threshold_pct": 3.0,
-   "price": 13.0,
-   "outcome": "Real Racing Club de Santander",
-   "book": "Betfair",
-   "matchup": "Real Madrid @ Real Racing Club de Santander",
-   "sport_key": "soccer_spain_la_liga",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-01T05:30:32.082062+00:00",
   "markets": 5,
   "markets_sharp": 5,
@@ -1329,6 +1293,24 @@
    "matchup": "Arthur Gea @ Jan-Lennard Struff",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-03T05:00:49.318915+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 4,
+  "capped": 0,
+  "best": {
+   "gap": -5.391,
+   "ev_pct": -2.79,
+   "threshold_pct": 2.6,
+   "price": 1.8,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_odi",
+   "anchor": "retail_consensus"
   }
  }
 ]
