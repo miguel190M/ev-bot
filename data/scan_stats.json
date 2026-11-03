@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-01T12:00:48.492975+00:00",
-  "markets": 8,
-  "markets_sharp": 8,
-  "outcomes": 38,
-  "capped": 0,
-  "best": {
-   "gap": -1.74,
-   "ev_pct": 1.26,
-   "threshold_pct": 3.0,
-   "price": 1.36,
-   "outcome": "Afghanistan",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-01T12:30:39.590286+00:00",
   "markets": 13,
   "markets_sharp": 13,
@@ -1309,6 +1291,24 @@
    "outcome": "Jiri Lehecka",
    "book": "Betfair",
    "matchup": "Jiri Lehecka @ Alex Michelsen",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-03T12:00:50.003520+00:00",
+  "markets": 13,
+  "markets_sharp": 12,
+  "outcomes": 50,
+  "capped": 0,
+  "best": {
+   "gap": -3.511,
+   "ev_pct": -0.51,
+   "threshold_pct": 3.0,
+   "price": 2.62,
+   "outcome": "Matteo Berrettini",
+   "book": "Betfair",
+   "matchup": "Matteo Berrettini @ Brandon Nakashima",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
