@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-01T01:00:44.809950+00:00",
-  "markets": 14,
-  "markets_sharp": 14,
-  "outcomes": 62,
-  "capped": 0,
-  "best": {
-   "gap": -0.935,
-   "ev_pct": 2.07,
-   "threshold_pct": 3.0,
-   "price": 1.82,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-01T01:30:33.722967+00:00",
   "markets": 9,
   "markets_sharp": 9,
@@ -1291,6 +1273,24 @@
    "outcome": "Chicago Bulls",
    "book": "SportsBet",
    "matchup": "Chicago Bulls @ Philadelphia 76ers",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-03T01:00:56.749170+00:00",
+  "markets": 9,
+  "markets_sharp": 9,
+  "outcomes": 36,
+  "capped": 0,
+  "best": {
+   "gap": -4.33,
+   "ev_pct": -1.33,
+   "threshold_pct": 3.0,
+   "price": 1.11,
+   "outcome": "San Antonio Spurs",
+   "book": "Betfair",
+   "matchup": "Utah Jazz @ San Antonio Spurs",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
