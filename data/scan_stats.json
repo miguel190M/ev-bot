@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-01T06:28:32.474095+00:00",
-  "markets": 8,
-  "markets_sharp": 7,
-  "outcomes": 36,
-  "capped": 0,
-  "best": {
-   "gap": -3.531,
-   "ev_pct": -0.53,
-   "threshold_pct": 3.0,
-   "price": 1.31,
-   "outcome": "Afghanistan",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-01T06:30:38.335904+00:00",
-  "markets": 4,
-  "markets_sharp": 4,
-  "outcomes": 18,
-  "capped": 0,
-  "best": {
-   "gap": -3.102,
-   "ev_pct": -0.1,
-   "threshold_pct": 3.0,
-   "price": 1.78,
-   "outcome": "Ireland",
-   "book": "Betfair",
-   "matchup": "Ireland @ Namibia",
-   "sport_key": "cricket_odi",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-01T07:00:45.039070+00:00",
   "markets": 4,
   "markets_sharp": 4,
@@ -1300,6 +1264,24 @@
   "markets": 16,
   "markets_sharp": 15,
   "outcomes": 68,
+  "capped": 0,
+  "best": {
+   "gap": -3.286,
+   "ev_pct": -0.29,
+   "threshold_pct": 3.0,
+   "price": 2.1,
+   "outcome": "Jan-Lennard Struff",
+   "book": "SportsBet",
+   "matchup": "Arthur Gea @ Jan-Lennard Struff",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-03T06:30:44.122832+00:00",
+  "markets": 13,
+  "markets_sharp": 13,
+  "outcomes": 52,
   "capped": 0,
   "best": {
    "gap": -3.286,
