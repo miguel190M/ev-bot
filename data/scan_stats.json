@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-01T22:13:21.486940+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 8,
-  "capped": 0,
-  "best": {
-   "gap": -5.548,
-   "ev_pct": -2.55,
-   "threshold_pct": 3.0,
-   "price": 2.38,
-   "outcome": "Toronto Raptors",
-   "book": "Betfair",
-   "matchup": "Toronto Raptors @ Los Angeles Lakers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-01T22:30:35.540967+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 4,
-  "capped": 0,
-  "best": {
-   "gap": -4.858,
-   "ev_pct": -1.86,
-   "threshold_pct": 3.0,
-   "price": 1.43,
-   "outcome": "Washington Commanders",
-   "book": "Betfair",
-   "matchup": "Philadelphia Eagles @ Washington Commanders",
-   "sport_key": "americanfootball_nfl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-01T23:00:50.387823+00:00",
   "markets": 17,
   "markets_sharp": 12,
@@ -1293,6 +1257,24 @@
    "matchup": "Carlos Alcaraz @ Alex Michelsen",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-03T23:00:47.506613+00:00",
+  "markets": 17,
+  "markets_sharp": 13,
+  "outcomes": 68,
+  "capped": 0,
+  "best": {
+   "gap": -2.362,
+   "ev_pct": 0.64,
+   "threshold_pct": 3.0,
+   "price": 2.04,
+   "outcome": "Matteo Berrettini",
+   "book": "SportsBet",
+   "matchup": "Ugo Humbert @ Matteo Berrettini",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
   }
  }
 ]
