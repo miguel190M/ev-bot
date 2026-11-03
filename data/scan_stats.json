@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-01T10:30:33.347505+00:00",
-  "markets": 9,
-  "markets_sharp": 8,
-  "outcomes": 48,
-  "capped": 0,
-  "best": {
-   "gap": -4.402,
-   "ev_pct": -1.4,
-   "threshold_pct": 3.0,
-   "price": 2.02,
-   "outcome": "Frosinone",
-   "book": "SportsBet",
-   "matchup": "Torino @ Frosinone",
-   "sport_key": "soccer_italy_serie_a",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-01T11:00:45.318591+00:00",
   "markets": 3,
   "markets_sharp": 3,
@@ -1291,6 +1273,24 @@
    "outcome": "Ignacio Buse",
    "book": "SportsBet",
    "matchup": "Daniil Medvedev @ Ignacio Buse",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-03T10:30:38.314003+00:00",
+  "markets": 13,
+  "markets_sharp": 13,
+  "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": 1.576,
+   "ev_pct": 4.58,
+   "threshold_pct": 3.0,
+   "price": 4.45,
+   "outcome": "Adolfo Daniel Vallejo",
+   "book": "SportsBet",
+   "matchup": "Learner Tien @ Adolfo Daniel Vallejo",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
