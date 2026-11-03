@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-01T10:00:45.814261+00:00",
-  "markets": 21,
-  "markets_sharp": 0,
-  "outcomes": 92,
-  "capped": 0,
-  "best": {
-   "gap": 12.861,
-   "ev_pct": 19.36,
-   "threshold_pct": 6.5,
-   "price": 3.75,
-   "outcome": "Zimbabwe",
-   "book": "SportsBet",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_international_t20",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-01T10:30:33.347505+00:00",
   "markets": 9,
   "markets_sharp": 8,
@@ -1291,6 +1273,24 @@
    "outcome": "Moise Kouame",
    "book": "Betfair",
    "matchup": "Moise Kouame @ Alejandro Davidovich Fokina",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-03T10:00:58.085462+00:00",
+  "markets": 26,
+  "markets_sharp": 25,
+  "outcomes": 118,
+  "capped": 0,
+  "best": {
+   "gap": -2.812,
+   "ev_pct": 0.19,
+   "threshold_pct": 3.0,
+   "price": 6.7,
+   "outcome": "Ignacio Buse",
+   "book": "SportsBet",
+   "matchup": "Daniil Medvedev @ Ignacio Buse",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }

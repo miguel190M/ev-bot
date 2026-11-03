@@ -21,28 +21,6 @@
     "consensus_probability": 0.4276,
     "alerted_at": "2026-11-01T22:00:43.641312+00:00"
   },
-  "3ddf": {
-    "event_id": "f510a63a2e3852e183f84eb8cd44fcac",
-    "sport_key": "tennis_atp_paris_masters",
-    "commence_time": "2026-11-02T10:00:00Z",
-    "home_team": "Luciano Darderi",
-    "away_team": "Rinky Hijikata",
-    "market_key": "h2h",
-    "bookmaker_key": "betfair_ex_au",
-    "bookmaker_title": "Betfair",
-    "outcome": "Luciano Darderi",
-    "price": 2.14,
-    "commission": 0.06,
-    "fair_probability": 0.5,
-    "fair_odds": 2.0,
-    "ev_pct": 3.58,
-    "anchor": "retail_consensus",
-    "num_books": 26,
-    "sharp_disagreement": false,
-    "sharp_probability": null,
-    "consensus_probability": 0.5,
-    "alerted_at": "2026-11-01T22:00:43.641312+00:00"
-  },
   "73f7": {
     "event_id": "0a808d8f7afab3c0e249ca284c470806",
     "sport_key": "basketball_nba",
