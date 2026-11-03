@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-01T22:00:43.639440+00:00",
-  "markets": 23,
-  "markets_sharp": 18,
-  "outcomes": 98,
-  "capped": 0,
-  "best": {
-   "gap": 1.261,
-   "ev_pct": 5.18,
-   "threshold_pct": 3.92,
-   "price": 2.46,
-   "outcome": "Kyrian Jacquet",
-   "book": "SportsBet",
-   "matchup": "Tomas Machac @ Kyrian Jacquet",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-01T22:13:21.486940+00:00",
   "markets": 2,
   "markets_sharp": 2,
@@ -1293,6 +1275,24 @@
    "matchup": "Perth Wildcats @ Brisbane Bullets",
    "sport_key": "basketball_nbl",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-03T22:00:46.392701+00:00",
+  "markets": 18,
+  "markets_sharp": 11,
+  "outcomes": 66,
+  "capped": 1,
+  "best": {
+   "gap": -2.533,
+   "ev_pct": -1.13,
+   "threshold_pct": 1.4,
+   "price": 1.2,
+   "outcome": "Carlos Alcaraz",
+   "book": "Betfair",
+   "matchup": "Carlos Alcaraz @ Alex Michelsen",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "retail_consensus"
   }
  }
 ]
