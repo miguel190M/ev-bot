@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-01T21:30:35.130315+00:00",
-  "markets": 4,
-  "markets_sharp": 4,
-  "outcomes": 16,
-  "capped": 0,
-  "best": {
-   "gap": -3.837,
-   "ev_pct": -0.84,
-   "threshold_pct": 3.0,
-   "price": 2.42,
-   "outcome": "Brooklyn Nets",
-   "book": "SportsBet",
-   "matchup": "Brooklyn Nets @ Indiana Pacers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-01T22:00:43.639440+00:00",
   "markets": 23,
   "markets_sharp": 18,
@@ -1293,6 +1275,24 @@
    "matchup": "Carlos Alcaraz @ Alex Michelsen",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-03T21:30:42.605491+00:00",
+  "markets": 12,
+  "markets_sharp": 12,
+  "outcomes": 48,
+  "capped": 0,
+  "best": {
+   "gap": -2.418,
+   "ev_pct": 0.58,
+   "threshold_pct": 3.0,
+   "price": 1.77,
+   "outcome": "Perth Wildcats",
+   "book": "SportsBet",
+   "matchup": "Perth Wildcats @ Brisbane Bullets",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
   }
  }
 ]
