@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-01T08:30:32.650907+00:00",
-  "markets": 8,
-  "markets_sharp": 8,
-  "outcomes": 46,
-  "capped": 0,
-  "best": {
-   "gap": -4.034,
-   "ev_pct": -1.03,
-   "threshold_pct": 3.0,
-   "price": 5.0,
-   "outcome": "Seattle Sounders FC",
-   "book": "Betfair",
-   "matchup": "Seattle Sounders FC @ Vancouver Whitecaps FC",
-   "sport_key": "soccer_usa_mls",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-01T09:00:43.224341+00:00",
   "markets": 7,
   "markets_sharp": 7,
@@ -1291,6 +1273,24 @@
    "outcome": "Jan-Lennard Struff",
    "book": "SportsBet",
    "matchup": "Arthur Gea @ Jan-Lennard Struff",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-03T08:30:34.592182+00:00",
+  "markets": 13,
+  "markets_sharp": 13,
+  "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": -1.293,
+   "ev_pct": 1.71,
+   "threshold_pct": 3.0,
+   "price": 2.59,
+   "outcome": "Arthur Rinderknech",
+   "book": "SportsBet",
+   "matchup": "Francisco Cerundolo @ Arthur Rinderknech",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
