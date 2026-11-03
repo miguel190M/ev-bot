@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-01T03:30:31.838735+00:00",
-  "markets": 6,
-  "markets_sharp": 6,
-  "outcomes": 34,
-  "capped": 0,
-  "best": {
-   "gap": -0.177,
-   "ev_pct": 2.82,
-   "threshold_pct": 3.0,
-   "price": 10.5,
-   "outcome": "Venezia",
-   "book": "SportsBet",
-   "matchup": "Venezia @ Como",
-   "sport_key": "soccer_italy_serie_a",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-01T04:00:44.177480+00:00",
   "markets": 5,
   "markets_sharp": 5,
@@ -1310,6 +1292,24 @@
    "book": "Betfair",
    "matchup": "Miami Heat @ Los Angeles Lakers",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-03T03:30:36.256129+00:00",
+  "markets": 13,
+  "markets_sharp": 13,
+  "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": -2.894,
+   "ev_pct": 0.11,
+   "threshold_pct": 3.0,
+   "price": 2.66,
+   "outcome": "Casper Ruud",
+   "book": "SportsBet",
+   "matchup": "Rafael Jodar @ Casper Ruud",
+   "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
  }
