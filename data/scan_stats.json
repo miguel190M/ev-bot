@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-01T00:13:22.196558+00:00",
-  "markets": 10,
-  "markets_sharp": 10,
-  "outcomes": 40,
-  "capped": 0,
-  "best": {
-   "gap": -3.137,
-   "ev_pct": -0.14,
-   "threshold_pct": 3.0,
-   "price": 1.07,
-   "outcome": "UNLV Rebels",
-   "book": "Betfair",
-   "matchup": "Northern Illinois Huskies @ UNLV Rebels",
-   "sport_key": "americanfootball_ncaaf",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-01T00:30:33.849223+00:00",
-  "markets": 11,
-  "markets_sharp": 11,
-  "outcomes": 46,
-  "capped": 0,
-  "best": {
-   "gap": -3.137,
-   "ev_pct": -0.14,
-   "threshold_pct": 3.0,
-   "price": 1.07,
-   "outcome": "UNLV Rebels",
-   "book": "Betfair",
-   "matchup": "Northern Illinois Huskies @ UNLV Rebels",
-   "sport_key": "americanfootball_ncaaf",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-01T01:00:44.809950+00:00",
   "markets": 14,
   "markets_sharp": 14,
@@ -1311,6 +1275,24 @@
    "matchup": "Fordham Rams @ Kansas Jayhawks",
    "sport_key": "basketball_ncaab",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-03T00:30:40.445457+00:00",
+  "markets": 28,
+  "markets_sharp": 28,
+  "outcomes": 112,
+  "capped": 0,
+  "best": {
+   "gap": 6.19,
+   "ev_pct": 9.19,
+   "threshold_pct": 3.0,
+   "price": 5.65,
+   "outcome": "Chicago Bulls",
+   "book": "SportsBet",
+   "matchup": "Chicago Bulls @ Philadelphia 76ers",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
   }
  }
 ]

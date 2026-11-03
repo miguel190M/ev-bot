@@ -42,5 +42,27 @@
     "sharp_probability": null,
     "consensus_probability": 0.5,
     "alerted_at": "2026-11-01T22:00:43.641312+00:00"
+  },
+  "73f7": {
+    "event_id": "0a808d8f7afab3c0e249ca284c470806",
+    "sport_key": "basketball_nba",
+    "commence_time": "2026-11-03T00:40:00Z",
+    "home_team": "Philadelphia 76ers",
+    "away_team": "Chicago Bulls",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Chicago Bulls",
+    "price": 5.65,
+    "commission": 0.0,
+    "fair_probability": 0.1933,
+    "fair_odds": 5.174,
+    "ev_pct": 9.19,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.1933,
+    "consensus_probability": 0.1798,
+    "alerted_at": "2026-11-03T00:30:40.446917+00:00"
   }
 }
