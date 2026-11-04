@@ -1258,5 +1258,23 @@
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-04T01:29:55.417818+00:00",
+  "markets": 3,
+  "markets_sharp": 2,
+  "outcomes": 12,
+  "capped": 0,
+  "best": {
+   "gap": -0.196,
+   "ev_pct": 2.8,
+   "threshold_pct": 3.0,
+   "price": 2.19,
+   "outcome": "Brisbane Bullets",
+   "book": "SportsBet",
+   "matchup": "Perth Wildcats @ Brisbane Bullets",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
  }
 ]
