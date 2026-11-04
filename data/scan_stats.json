@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-02T07:30:40.003142+00:00",
-  "markets": 13,
-  "markets_sharp": 12,
-  "outcomes": 52,
-  "capped": 0,
-  "best": {
-   "gap": -3.243,
-   "ev_pct": -0.24,
-   "threshold_pct": 3.0,
-   "price": 1.52,
-   "outcome": "Cameron Norrie",
-   "book": "Betfair",
-   "matchup": "Matteo Arnaldi @ Cameron Norrie",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-02T08:00:51.926946+00:00",
   "markets": 15,
   "markets_sharp": 14,
@@ -1342,6 +1324,24 @@
    "ev_pct": 0.99,
    "threshold_pct": 3.0,
    "price": 2.28,
+   "outcome": "Brisbane Bullets",
+   "book": "SportsBet",
+   "matchup": "Perth Wildcats @ Brisbane Bullets",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-04T08:00:49.265756+00:00",
+  "markets": 15,
+  "markets_sharp": 15,
+  "outcomes": 60,
+  "capped": 0,
+  "best": {
+   "gap": -1.565,
+   "ev_pct": 1.43,
+   "threshold_pct": 3.0,
+   "price": 2.29,
    "outcome": "Brisbane Bullets",
    "book": "SportsBet",
    "matchup": "Perth Wildcats @ Brisbane Bullets",
