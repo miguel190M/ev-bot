@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-02T20:30:41.427349+00:00",
-  "markets": 14,
-  "markets_sharp": 14,
-  "outcomes": 56,
-  "capped": 0,
-  "best": {
-   "gap": -1.879,
-   "ev_pct": 1.12,
-   "threshold_pct": 3.0,
-   "price": 3.16,
-   "outcome": "Tomas Martin Etcheverry",
-   "book": "SportsBet",
-   "matchup": "Tomas Martin Etcheverry @ Andrey Rublev",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-02T21:00:55.302116+00:00",
   "markets": 14,
   "markets_sharp": 14,
@@ -1292,6 +1274,24 @@
    "book": "SportsBet",
    "matchup": "Arthur Rinderknech @ Ben Shelton",
    "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-04T21:00:54.375407+00:00",
+  "markets": 19,
+  "markets_sharp": 18,
+  "outcomes": 74,
+  "capped": 0,
+  "best": {
+   "gap": -0.546,
+   "ev_pct": 2.45,
+   "threshold_pct": 3.0,
+   "price": 2.0,
+   "outcome": "Bangladesh",
+   "book": "Betfair",
+   "matchup": "West Indies @ Bangladesh",
+   "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
   }
  }
