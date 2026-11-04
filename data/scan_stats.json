@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-02T07:00:46.077956+00:00",
-  "markets": 13,
-  "markets_sharp": 12,
-  "outcomes": 52,
-  "capped": 0,
-  "best": {
-   "gap": -3.575,
-   "ev_pct": -0.58,
-   "threshold_pct": 3.0,
-   "price": 1.26,
-   "outcome": "Rafael Jodar",
-   "book": "Betfair",
-   "matchup": "Rafael Jodar @ Alejandro Tabilo",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-02T07:30:40.003142+00:00",
   "markets": 13,
   "markets_sharp": 12,
@@ -1342,6 +1324,24 @@
    "ev_pct": 7.22,
    "threshold_pct": 3.0,
    "price": 2.23,
+   "outcome": "Brisbane Bullets",
+   "book": "SportsBet",
+   "matchup": "Perth Wildcats @ Brisbane Bullets",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-04T07:30:36.838528+00:00",
+  "markets": 16,
+  "markets_sharp": 16,
+  "outcomes": 63,
+  "capped": 0,
+  "best": {
+   "gap": -2.008,
+   "ev_pct": 0.99,
+   "threshold_pct": 3.0,
+   "price": 2.28,
    "outcome": "Brisbane Bullets",
    "book": "SportsBet",
    "matchup": "Perth Wildcats @ Brisbane Bullets",
