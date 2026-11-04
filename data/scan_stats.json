@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-02T11:30:43.663154+00:00",
-  "markets": 20,
-  "markets_sharp": 19,
-  "outcomes": 80,
-  "capped": 0,
-  "best": {
-   "gap": -2.887,
-   "ev_pct": 0.11,
-   "threshold_pct": 3.0,
-   "price": 2.96,
-   "outcome": "Valentin Vacherot",
-   "book": "SportsBet",
-   "matchup": "Valentin Vacherot @ Novak Djokovic",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-02T12:00:51.877178+00:00",
   "markets": 22,
   "markets_sharp": 21,
@@ -1291,6 +1273,24 @@
    "outcome": "Carlos Alcaraz",
    "book": "Betfair",
    "matchup": "Carlos Alcaraz @ Alex Michelsen",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-04T12:00:45.918026+00:00",
+  "markets": 13,
+  "markets_sharp": 13,
+  "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": -1.447,
+   "ev_pct": 1.55,
+   "threshold_pct": 3.0,
+   "price": 3.35,
+   "outcome": "Lorenzo Musetti",
+   "book": "Betfair",
+   "matchup": "Lorenzo Musetti @ Alexander Zverev",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
