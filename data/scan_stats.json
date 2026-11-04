@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-02T20:00:57.291754+00:00",
-  "markets": 53,
-  "markets_sharp": 40,
-  "outcomes": 174,
-  "capped": 0,
-  "best": {
-   "gap": -1.879,
-   "ev_pct": 1.12,
-   "threshold_pct": 3.0,
-   "price": 3.16,
-   "outcome": "Tomas Martin Etcheverry",
-   "book": "SportsBet",
-   "matchup": "Tomas Martin Etcheverry @ Andrey Rublev",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-02T20:30:41.427349+00:00",
   "markets": 14,
   "markets_sharp": 14,
@@ -1282,6 +1264,24 @@
   "markets": 29,
   "markets_sharp": 26,
   "outcomes": 114,
+  "capped": 0,
+  "best": {
+   "gap": 1.562,
+   "ev_pct": 4.56,
+   "threshold_pct": 3.0,
+   "price": 3.9,
+   "outcome": "Arthur Rinderknech",
+   "book": "SportsBet",
+   "matchup": "Arthur Rinderknech @ Ben Shelton",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-04T20:30:38.263572+00:00",
+  "markets": 6,
+  "markets_sharp": 4,
+  "outcomes": 24,
   "capped": 0,
   "best": {
    "gap": 1.562,
