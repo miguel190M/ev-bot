@@ -1276,5 +1276,23 @@
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-04T11:30:37.985827+00:00",
+  "markets": 13,
+  "markets_sharp": 12,
+  "outcomes": 50,
+  "capped": 0,
+  "best": {
+   "gap": -3.643,
+   "ev_pct": -0.64,
+   "threshold_pct": 3.0,
+   "price": 1.19,
+   "outcome": "Carlos Alcaraz",
+   "book": "Betfair",
+   "matchup": "Carlos Alcaraz @ Alex Michelsen",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
  }
 ]
