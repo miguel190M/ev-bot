@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-02T10:30:44.481755+00:00",
-  "markets": 21,
-  "markets_sharp": 20,
-  "outcomes": 82,
-  "capped": 0,
-  "best": {
-   "gap": -2.206,
-   "ev_pct": 0.79,
-   "threshold_pct": 3.0,
-   "price": 1.74,
-   "outcome": "Jiri Lehecka",
-   "book": "SportsBet",
-   "matchup": "Jiri Lehecka @ Alex Michelsen",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-02T11:00:54.339631+00:00",
-  "markets": 21,
-  "markets_sharp": 20,
-  "outcomes": 84,
-  "capped": 0,
-  "best": {
-   "gap": -2.887,
-   "ev_pct": 0.11,
-   "threshold_pct": 3.0,
-   "price": 2.96,
-   "outcome": "Valentin Vacherot",
-   "book": "SportsBet",
-   "matchup": "Valentin Vacherot @ Novak Djokovic",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-02T11:30:43.663154+00:00",
   "markets": 20,
   "markets_sharp": 19,
@@ -1292,6 +1256,24 @@
    "book": "SportsBet",
    "matchup": "Real Madrid @ AEK Athens",
    "sport_key": "soccer_uefa_champs_league",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-04T11:16:09.774161+00:00",
+  "markets": 12,
+  "markets_sharp": 12,
+  "outcomes": 48,
+  "capped": 0,
+  "best": {
+   "gap": -3.098,
+   "ev_pct": -0.1,
+   "threshold_pct": 3.0,
+   "price": 1.23,
+   "outcome": "Tommy Paul",
+   "book": "SportsBet",
+   "matchup": "Daniel Merida Aguilar @ Tommy Paul",
+   "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
  }

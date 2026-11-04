@@ -1,26 +1,4 @@
 {
-  "4558": {
-    "event_id": "f39be141009db396702f3e85c84726b3",
-    "sport_key": "tennis_atp_paris_masters",
-    "commence_time": "2026-11-03T11:10:00Z",
-    "home_team": "Adolfo Daniel Vallejo",
-    "away_team": "Learner Tien",
-    "market_key": "h2h",
-    "bookmaker_key": "sportsbet",
-    "bookmaker_title": "SportsBet",
-    "outcome": "Adolfo Daniel Vallejo",
-    "price": 4.45,
-    "commission": 0.0,
-    "fair_probability": 0.235,
-    "fair_odds": 4.255,
-    "ev_pct": 4.58,
-    "anchor": "pinnacle",
-    "num_books": 1,
-    "sharp_disagreement": false,
-    "sharp_probability": 0.235,
-    "consensus_probability": 0.2218,
-    "alerted_at": "2026-11-03T10:30:38.315732+00:00"
-  },
   "2f5e": {
     "event_id": "4ce1d6b1ec3f3a58daf5d9c774afc3f6",
     "sport_key": "tennis_atp_paris_masters",
