@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-02T02:00:48.979736+00:00",
-  "markets": 15,
-  "markets_sharp": 10,
-  "outcomes": 62,
-  "capped": 0,
-  "best": {
-   "gap": -3.915,
-   "ev_pct": -0.91,
-   "threshold_pct": 3.0,
-   "price": 2.34,
-   "outcome": "Daniel Merida Aguilar",
-   "book": "SportsBet",
-   "matchup": "Alexander Blockx @ Daniel Merida Aguilar",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-02T03:00:54.532371+00:00",
   "markets": 13,
   "markets_sharp": 12,
@@ -1293,6 +1275,24 @@
    "matchup": "Jan-Lennard Struff @ Thiago Agustin Tirante",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-04T03:00:48.169882+00:00",
+  "markets": 14,
+  "markets_sharp": 13,
+  "outcomes": 56,
+  "capped": 0,
+  "best": {
+   "gap": -3.429,
+   "ev_pct": -0.43,
+   "threshold_pct": 3.0,
+   "price": 1.19,
+   "outcome": "Carlos Alcaraz",
+   "book": "Betfair",
+   "matchup": "Carlos Alcaraz @ Alex Michelsen",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
   }
  }
 ]
