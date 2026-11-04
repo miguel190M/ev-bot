@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-02T03:00:54.532371+00:00",
-  "markets": 13,
-  "markets_sharp": 12,
-  "outcomes": 52,
-  "capped": 0,
-  "best": {
-   "gap": -3.183,
-   "ev_pct": -0.18,
-   "threshold_pct": 3.0,
-   "price": 1.7,
-   "outcome": "Luca Van Assche",
-   "book": "Betfair",
-   "matchup": "Mariano Navone @ Luca Van Assche",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-02T04:00:43.263881+00:00",
   "markets": 13,
   "markets_sharp": 12,
@@ -1292,6 +1274,24 @@
    "book": "Betfair",
    "matchup": "Carlos Alcaraz @ Alex Michelsen",
    "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-04T03:30:35.588788+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 3,
+  "capped": 0,
+  "best": {
+   "gap": -5.259,
+   "ev_pct": -2.26,
+   "threshold_pct": 3.0,
+   "price": 1.89,
+   "outcome": "Bangladesh",
+   "book": "Betfair",
+   "matchup": "West Indies @ Bangladesh",
+   "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
   }
  }
