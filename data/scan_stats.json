@@ -1276,5 +1276,23 @@
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-04T20:00:52.620936+00:00",
+  "markets": 29,
+  "markets_sharp": 26,
+  "outcomes": 114,
+  "capped": 0,
+  "best": {
+   "gap": 1.562,
+   "ev_pct": 4.56,
+   "threshold_pct": 3.0,
+   "price": 3.9,
+   "outcome": "Arthur Rinderknech",
+   "book": "SportsBet",
+   "matchup": "Arthur Rinderknech @ Ben Shelton",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
  }
 ]
