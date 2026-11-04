@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-02T09:00:50.636359+00:00",
-  "markets": 15,
-  "markets_sharp": 15,
-  "outcomes": 60,
-  "capped": 0,
-  "best": {
-   "gap": -3.243,
-   "ev_pct": -0.24,
-   "threshold_pct": 3.0,
-   "price": 1.52,
-   "outcome": "Cameron Norrie",
-   "book": "Betfair",
-   "matchup": "Matteo Arnaldi @ Cameron Norrie",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-02T09:30:53.870540+00:00",
   "markets": 17,
   "markets_sharp": 17,
@@ -1336,6 +1318,24 @@
   "markets": 15,
   "markets_sharp": 15,
   "outcomes": 60,
+  "capped": 0,
+  "best": {
+   "gap": -2.362,
+   "ev_pct": 0.64,
+   "threshold_pct": 3.0,
+   "price": 2.04,
+   "outcome": "Matteo Berrettini",
+   "book": "SportsBet",
+   "matchup": "Ugo Humbert @ Matteo Berrettini",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-04T09:30:39.906738+00:00",
+  "markets": 16,
+  "markets_sharp": 15,
+  "outcomes": 62,
   "capped": 0,
   "best": {
    "gap": -2.362,
