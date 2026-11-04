@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-02T21:30:54.364090+00:00",
-  "markets": 32,
-  "markets_sharp": 32,
-  "outcomes": 128,
-  "capped": 0,
-  "best": {
-   "gap": -3.144,
-   "ev_pct": -0.14,
-   "threshold_pct": 3.0,
-   "price": 1.12,
-   "outcome": "New York Knicks",
-   "book": "Betfair",
-   "matchup": "Brooklyn Nets @ New York Knicks",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-02T22:00:58.067649+00:00",
   "markets": 34,
   "markets_sharp": 21,
@@ -1292,6 +1274,24 @@
    "book": "SportsBet",
    "matchup": "Arthur Rinderknech @ Ben Shelton",
    "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-04T22:00:51.194239+00:00",
+  "markets": 20,
+  "markets_sharp": 19,
+  "outcomes": 78,
+  "capped": 0,
+  "best": {
+   "gap": -2.035,
+   "ev_pct": 0.96,
+   "threshold_pct": 3.0,
+   "price": 1.97,
+   "outcome": "Bangladesh",
+   "book": "Betfair",
+   "matchup": "West Indies @ Bangladesh",
+   "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
   }
  }
