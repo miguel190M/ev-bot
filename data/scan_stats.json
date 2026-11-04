@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-02T00:30:38.862846+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 12,
-  "capped": 0,
-  "best": {
-   "gap": -3.179,
-   "ev_pct": -0.18,
-   "threshold_pct": 3.0,
-   "price": 2.13,
-   "outcome": "Los Angeles Clippers",
-   "book": "SportsBet",
-   "matchup": "Los Angeles Clippers @ Golden State Warriors",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-02T01:00:45.863507+00:00",
-  "markets": 15,
-  "markets_sharp": 10,
-  "outcomes": 60,
-  "capped": 0,
-  "best": {
-   "gap": -3.467,
-   "ev_pct": 0.57,
-   "threshold_pct": 4.04,
-   "price": 2.52,
-   "outcome": "Kyrian Jacquet",
-   "book": "Betfair",
-   "matchup": "Tomas Machac @ Kyrian Jacquet",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-02T01:30:35.105175+00:00",
   "markets": 2,
   "markets_sharp": 2,
@@ -1274,6 +1238,24 @@
    "book": "Betfair",
    "matchup": "India @ New Zealand",
    "sport_key": "cricket_odi",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-04T01:00:48.556386+00:00",
+  "markets": 16,
+  "markets_sharp": 12,
+  "outcomes": 64,
+  "capped": 0,
+  "best": {
+   "gap": -1.63,
+   "ev_pct": 0.29,
+   "threshold_pct": 1.92,
+   "price": 1.46,
+   "outcome": "Jan-Lennard Struff",
+   "book": "Betfair",
+   "matchup": "Jan-Lennard Struff @ Thiago Agustin Tirante",
+   "sport_key": "tennis_atp_paris_masters",
    "anchor": "retail_consensus"
   }
  }
