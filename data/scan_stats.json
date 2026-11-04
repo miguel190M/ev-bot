@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-02T12:00:51.877178+00:00",
-  "markets": 22,
-  "markets_sharp": 21,
-  "outcomes": 92,
-  "capped": 0,
-  "best": {
-   "gap": -2.887,
-   "ev_pct": 0.11,
-   "threshold_pct": 3.0,
-   "price": 2.96,
-   "outcome": "Valentin Vacherot",
-   "book": "SportsBet",
-   "matchup": "Valentin Vacherot @ Novak Djokovic",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-02T12:30:40.733538+00:00",
   "markets": 22,
   "markets_sharp": 22,
@@ -1293,6 +1275,24 @@
    "matchup": "Lorenzo Musetti @ Alexander Zverev",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-04T12:30:40.050694+00:00",
+  "markets": 12,
+  "markets_sharp": 11,
+  "outcomes": 46,
+  "capped": 0,
+  "best": {
+   "gap": 2.694,
+   "ev_pct": 8.09,
+   "threshold_pct": 5.4,
+   "price": 3.2,
+   "outcome": "Zimbabwe",
+   "book": "Betfair",
+   "matchup": "Zimbabwe @ Afghanistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
