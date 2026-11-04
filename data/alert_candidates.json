@@ -64,5 +64,27 @@
     "sharp_probability": 0.4808,
     "consensus_probability": 0.4622,
     "alerted_at": "2026-11-04T07:00:45.494409+00:00"
+  },
+  "da96": {
+    "event_id": "f43ef699c987e112e115f7035114854e",
+    "sport_key": "soccer_uefa_champs_league",
+    "commence_time": "2026-11-04T17:45:00Z",
+    "home_team": "AEK Athens",
+    "away_team": "Real Madrid",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "AEK Athens",
+    "price": 12.5,
+    "commission": 0.0,
+    "fair_probability": 0.0824,
+    "fair_odds": 12.131,
+    "ev_pct": 3.04,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.0824,
+    "consensus_probability": 0.0801,
+    "alerted_at": "2026-11-04T10:30:39.803947+00:00"
   }
 }
