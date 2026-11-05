@@ -1094,8 +1094,8 @@
     "alerted_at": "2026-11-05T07:00:46.824820+00:00",
     "lead_hours": 24.0,
     "logged_at": "2026-11-05T12:30:32.853785+00:00",
-    "closing_fair_odds": 1.595,
-    "closing_captured_at": "2026-11-05T13:00:58.057864+00:00"
+    "closing_fair_odds": 1.604,
+    "closing_captured_at": "2026-11-05T20:00:53.477665+00:00"
   },
   "babe": {
     "event_id": "073831a4db4a1b57628e71760a7bc914",
@@ -1119,7 +1119,7 @@
     "alerted_at": "2026-11-05T09:00:45.881773+00:00",
     "lead_hours": 24.0,
     "logged_at": "2026-11-05T12:30:33.415189+00:00",
-    "closing_fair_odds": 1.187,
-    "closing_captured_at": "2026-11-05T13:00:58.057864+00:00"
+    "closing_fair_odds": 1.175,
+    "closing_captured_at": "2026-11-05T20:00:53.477665+00:00"
   }
 }

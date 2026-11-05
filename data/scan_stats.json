@@ -1276,5 +1276,23 @@
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-05T20:00:52.208590+00:00",
+  "markets": 65,
+  "markets_sharp": 42,
+  "outcomes": 183,
+  "capped": 11,
+  "best": {
+   "gap": 0.827,
+   "ev_pct": 11.83,
+   "threshold_pct": 11.0,
+   "price": 6.0,
+   "outcome": "Afghanistan",
+   "book": "Betfair",
+   "matchup": "Zimbabwe @ Afghanistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
  }
 ]
