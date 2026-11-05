@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-03T20:00:55.016417+00:00",
-  "markets": 30,
-  "markets_sharp": 24,
-  "outcomes": 114,
-  "capped": 0,
-  "best": {
-   "gap": 0.745,
-   "ev_pct": 3.75,
-   "threshold_pct": 3.0,
-   "price": 2.96,
-   "outcome": "Luca Van Assche",
-   "book": "SportsBet",
-   "matchup": "Learner Tien @ Luca Van Assche",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-03T21:00:51.428039+00:00",
   "markets": 16,
   "markets_sharp": 13,
@@ -1293,6 +1275,24 @@
    "matchup": "Zimbabwe @ Afghanistan",
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-05T20:30:37.914649+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 4,
+  "capped": 0,
+  "best": {
+   "gap": -0.577,
+   "ev_pct": 2.42,
+   "threshold_pct": 3.0,
+   "price": 1.47,
+   "outcome": "Tasmania JackJumpers",
+   "book": "SportsBet",
+   "matchup": "New Zealand Breakers @ Tasmania JackJumpers",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
   }
  }
 ]
