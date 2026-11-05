@@ -240,5 +240,27 @@
     "sharp_probability": 0.6042,
     "consensus_probability": 0.5626,
     "alerted_at": "2026-11-05T07:00:46.824820+00:00"
+  },
+  "babe": {
+    "event_id": "073831a4db4a1b57628e71760a7bc914",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-06T09:00:00Z",
+    "home_team": "Ahmad Reda",
+    "away_team": "Jake Wyllie",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Ahmad Reda",
+    "price": 1.27,
+    "commission": 0.0,
+    "fair_probability": 0.8425,
+    "fair_odds": 1.187,
+    "ev_pct": 6.99,
+    "anchor": "retail_consensus",
+    "num_books": 5,
+    "sharp_disagreement": false,
+    "sharp_probability": null,
+    "consensus_probability": 0.8425,
+    "alerted_at": "2026-11-05T09:00:45.881773+00:00"
   }
 }

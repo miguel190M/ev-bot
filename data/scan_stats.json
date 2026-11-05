@@ -1276,5 +1276,23 @@
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-05T09:00:45.880677+00:00",
+  "markets": 10,
+  "markets_sharp": 9,
+  "outcomes": 38,
+  "capped": 0,
+  "best": {
+   "gap": 8.167,
+   "ev_pct": 11.17,
+   "threshold_pct": 3.0,
+   "price": 1.84,
+   "outcome": "Nelson Asofa-Solomona",
+   "book": "SportsBet",
+   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
