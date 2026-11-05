@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-03T21:00:51.428039+00:00",
-  "markets": 16,
-  "markets_sharp": 13,
-  "outcomes": 64,
-  "capped": 0,
-  "best": {
-   "gap": -2.654,
-   "ev_pct": -1.25,
-   "threshold_pct": 1.4,
-   "price": 1.2,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Carlos Alcaraz @ Alex Michelsen",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-03T21:30:42.605491+00:00",
   "markets": 12,
   "markets_sharp": 12,
@@ -1310,6 +1292,24 @@
    "book": "SportsBet",
    "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-05T21:30:39.052946+00:00",
+  "markets": 13,
+  "markets_sharp": 13,
+  "outcomes": 52,
+  "capped": 0,
+  "best": {
+   "gap": -4.584,
+   "ev_pct": -1.58,
+   "threshold_pct": 3.0,
+   "price": 1.39,
+   "outcome": "UTSA Roadrunners",
+   "book": "Betfair",
+   "matchup": "UTSA Roadrunners @ Florida Atlantic Owls",
+   "sport_key": "americanfootball_ncaaf",
    "anchor": "pinnacle"
   }
  }
