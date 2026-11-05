@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-03T02:57:58.389324+00:00",
-  "markets": 4,
-  "markets_sharp": 3,
-  "outcomes": 16,
-  "capped": 0,
-  "best": {
-   "gap": -3.886,
-   "ev_pct": -1.23,
-   "threshold_pct": 2.66,
-   "price": 1.83,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-03T03:00:46.653960+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 12,
-  "capped": 0,
-  "best": {
-   "gap": -4.815,
-   "ev_pct": -1.81,
-   "threshold_pct": 3.0,
-   "price": 1.83,
-   "outcome": "Los Angeles Lakers",
-   "book": "Betfair",
-   "matchup": "Miami Heat @ Los Angeles Lakers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-03T03:30:36.256129+00:00",
   "markets": 13,
   "markets_sharp": 13,
@@ -1292,6 +1256,24 @@
    "book": "Betfair",
    "matchup": "Carlos Alcaraz @ Matteo Berrettini",
    "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-05T03:01:01.237514+00:00",
+  "markets": 4,
+  "markets_sharp": 3,
+  "outcomes": 14,
+  "capped": 0,
+  "best": {
+   "gap": -3.459,
+   "ev_pct": -0.46,
+   "threshold_pct": 3.0,
+   "price": 2.88,
+   "outcome": "West Indies",
+   "book": "Betfair",
+   "matchup": "West Indies @ Bangladesh",
+   "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
   }
  }
