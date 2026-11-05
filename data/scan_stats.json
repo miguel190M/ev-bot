@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-03T06:00:58.080356+00:00",
-  "markets": 16,
-  "markets_sharp": 15,
-  "outcomes": 68,
-  "capped": 0,
-  "best": {
-   "gap": -3.286,
-   "ev_pct": -0.29,
-   "threshold_pct": 3.0,
-   "price": 2.1,
-   "outcome": "Jan-Lennard Struff",
-   "book": "SportsBet",
-   "matchup": "Arthur Gea @ Jan-Lennard Struff",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-03T06:30:44.122832+00:00",
   "markets": 13,
   "markets_sharp": 13,
@@ -1292,6 +1274,24 @@
    "book": "Betfair",
    "matchup": "Illawarra Hawks @ Cairns Taipans",
    "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-05T06:30:40.389234+00:00",
+  "markets": 9,
+  "markets_sharp": 9,
+  "outcomes": 36,
+  "capped": 0,
+  "best": {
+   "gap": -3.868,
+   "ev_pct": -0.87,
+   "threshold_pct": 3.0,
+   "price": 1.2,
+   "outcome": "Carlos Alcaraz",
+   "book": "Betfair",
+   "matchup": "Carlos Alcaraz @ Matteo Berrettini",
+   "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
  }
