@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-03T04:00:53.715380+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 4,
-  "capped": 0,
-  "best": {
-   "gap": -4.387,
-   "ev_pct": -1.75,
-   "threshold_pct": 2.64,
-   "price": 1.82,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-03T04:30:35.144462+00:00",
-  "markets": 13,
-  "markets_sharp": 13,
-  "outcomes": 52,
-  "capped": 0,
-  "best": {
-   "gap": -1.612,
-   "ev_pct": 1.39,
-   "threshold_pct": 3.0,
-   "price": 2.1,
-   "outcome": "Jan-Lennard Struff",
-   "book": "SportsBet",
-   "matchup": "Arthur Gea @ Jan-Lennard Struff",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-03T05:00:49.318915+00:00",
   "markets": 1,
   "markets_sharp": 0,
@@ -1293,6 +1257,24 @@
    "matchup": "Zimbabwe @ Afghanistan",
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-05T04:30:38.628941+00:00",
+  "markets": 10,
+  "markets_sharp": 9,
+  "outcomes": 39,
+  "capped": 0,
+  "best": {
+   "gap": -3.169,
+   "ev_pct": -0.17,
+   "threshold_pct": 3.0,
+   "price": 1.67,
+   "outcome": "Cairns Taipans",
+   "book": "SportsBet",
+   "matchup": "Illawarra Hawks @ Cairns Taipans",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
   }
  }
 ]
