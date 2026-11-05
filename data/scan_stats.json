@@ -1276,5 +1276,23 @@
    "sport_key": "basketball_nbl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-05T05:00:45.426050+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 3,
+  "capped": 0,
+  "best": {
+   "gap": -5.206,
+   "ev_pct": -2.81,
+   "threshold_pct": 2.4,
+   "price": 1.7,
+   "outcome": "Afghanistan",
+   "book": "Betfair",
+   "matchup": "Zimbabwe @ Afghanistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
  }
 ]
