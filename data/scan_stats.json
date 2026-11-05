@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-03T07:30:36.901613+00:00",
-  "markets": 13,
-  "markets_sharp": 13,
-  "outcomes": 52,
-  "capped": 0,
-  "best": {
-   "gap": -3.286,
-   "ev_pct": -0.29,
-   "threshold_pct": 3.0,
-   "price": 2.1,
-   "outcome": "Jan-Lennard Struff",
-   "book": "SportsBet",
-   "matchup": "Arthur Gea @ Jan-Lennard Struff",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-03T08:00:47.516680+00:00",
-  "markets": 14,
-  "markets_sharp": 13,
-  "outcomes": 56,
-  "capped": 0,
-  "best": {
-   "gap": -3.286,
-   "ev_pct": -0.29,
-   "threshold_pct": 3.0,
-   "price": 2.1,
-   "outcome": "Jan-Lennard Struff",
-   "book": "SportsBet",
-   "matchup": "Arthur Gea @ Jan-Lennard Struff",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-03T08:30:34.592182+00:00",
   "markets": 13,
   "markets_sharp": 13,
@@ -1292,6 +1256,24 @@
    "book": "Betfair",
    "matchup": "Carlos Alcaraz @ Matteo Berrettini",
    "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-05T08:00:48.583299+00:00",
+  "markets": 10,
+  "markets_sharp": 10,
+  "outcomes": 39,
+  "capped": 0,
+  "best": {
+   "gap": 8.167,
+   "ev_pct": 11.17,
+   "threshold_pct": 3.0,
+   "price": 1.84,
+   "outcome": "Nelson Asofa-Solomona",
+   "book": "SportsBet",
+   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
