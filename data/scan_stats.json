@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-03T21:30:42.605491+00:00",
-  "markets": 12,
-  "markets_sharp": 12,
-  "outcomes": 48,
-  "capped": 0,
-  "best": {
-   "gap": -2.418,
-   "ev_pct": 0.58,
-   "threshold_pct": 3.0,
-   "price": 1.77,
-   "outcome": "Perth Wildcats",
-   "book": "SportsBet",
-   "matchup": "Perth Wildcats @ Brisbane Bullets",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-03T22:00:46.392701+00:00",
-  "markets": 18,
-  "markets_sharp": 11,
-  "outcomes": 66,
-  "capped": 1,
-  "best": {
-   "gap": -2.533,
-   "ev_pct": -1.13,
-   "threshold_pct": 1.4,
-   "price": 1.2,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Carlos Alcaraz @ Alex Michelsen",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-03T23:00:47.506613+00:00",
   "markets": 17,
   "markets_sharp": 13,
@@ -1310,6 +1274,24 @@
    "book": "Betfair",
    "matchup": "UTSA Roadrunners @ Florida Atlantic Owls",
    "sport_key": "americanfootball_ncaaf",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-05T22:00:49.526802+00:00",
+  "markets": 50,
+  "markets_sharp": 26,
+  "outcomes": 123,
+  "capped": 12,
+  "best": {
+   "gap": 0.571,
+   "ev_pct": 3.57,
+   "threshold_pct": 3.0,
+   "price": 2.75,
+   "outcome": "Paul Gallen",
+   "book": "SportsBet",
+   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
