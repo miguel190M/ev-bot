@@ -1,26 +1,4 @@
 {
-  "2f5e": {
-    "event_id": "4ce1d6b1ec3f3a58daf5d9c774afc3f6",
-    "sport_key": "tennis_atp_paris_masters",
-    "commence_time": "2026-11-04T11:10:00Z",
-    "home_team": "Luca Van Assche",
-    "away_team": "Learner Tien",
-    "market_key": "h2h",
-    "bookmaker_key": "sportsbet",
-    "bookmaker_title": "SportsBet",
-    "outcome": "Luca Van Assche",
-    "price": 2.96,
-    "commission": 0.0,
-    "fair_probability": 0.3505,
-    "fair_odds": 2.853,
-    "ev_pct": 3.75,
-    "anchor": "pinnacle",
-    "num_books": 1,
-    "sharp_disagreement": false,
-    "sharp_probability": 0.3505,
-    "consensus_probability": 0.3404,
-    "alerted_at": "2026-11-03T20:00:55.018470+00:00"
-  },
   "da96": {
     "event_id": "f43ef699c987e112e115f7035114854e",
     "sport_key": "soccer_uefa_champs_league",
