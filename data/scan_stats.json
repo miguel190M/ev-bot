@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-03T00:30:40.445457+00:00",
-  "markets": 28,
-  "markets_sharp": 28,
-  "outcomes": 112,
-  "capped": 0,
-  "best": {
-   "gap": 6.19,
-   "ev_pct": 9.19,
-   "threshold_pct": 3.0,
-   "price": 5.65,
-   "outcome": "Chicago Bulls",
-   "book": "SportsBet",
-   "matchup": "Chicago Bulls @ Philadelphia 76ers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-03T01:00:56.749170+00:00",
   "markets": 9,
   "markets_sharp": 9,
@@ -1293,6 +1275,24 @@
    "matchup": "Carlos Alcaraz @ Matteo Berrettini",
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-05T01:00:48.538260+00:00",
+  "markets": 15,
+  "markets_sharp": 14,
+  "outcomes": 50,
+  "capped": 0,
+  "best": {
+   "gap": -2.846,
+   "ev_pct": 0.15,
+   "threshold_pct": 3.0,
+   "price": 2.46,
+   "outcome": "Cleveland Cavaliers",
+   "book": "SportsBet",
+   "matchup": "Cleveland Cavaliers @ Oklahoma City Thunder",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
   }
  }
 ]
