@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-03T02:00:57.953408+00:00",
-  "markets": 8,
-  "markets_sharp": 6,
-  "outcomes": 26,
-  "capped": 0,
-  "best": {
-   "gap": -3.204,
-   "ev_pct": -2.18,
-   "threshold_pct": 1.02,
-   "price": 1.01,
-   "outcome": "USC Trojans",
-   "book": "Betfair",
-   "matchup": "Milwaukee Panthers @ USC Trojans",
-   "sport_key": "basketball_ncaab",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-03T02:30:38.983228+00:00",
-  "markets": 16,
-  "markets_sharp": 16,
-  "outcomes": 64,
-  "capped": 0,
-  "best": {
-   "gap": -2.54,
-   "ev_pct": 0.46,
-   "threshold_pct": 3.0,
-   "price": 2.87,
-   "outcome": "Los Angeles Clippers",
-   "book": "SportsBet",
-   "matchup": "Toronto Raptors @ Los Angeles Clippers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-03T02:57:58.389324+00:00",
   "markets": 4,
   "markets_sharp": 3,
@@ -1311,6 +1275,24 @@
    "matchup": "Zimbabwe @ Afghanistan",
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-05T02:30:40.663123+00:00",
+  "markets": 13,
+  "markets_sharp": 12,
+  "outcomes": 50,
+  "capped": 0,
+  "best": {
+   "gap": -3.344,
+   "ev_pct": -0.34,
+   "threshold_pct": 3.0,
+   "price": 1.2,
+   "outcome": "Carlos Alcaraz",
+   "book": "Betfair",
+   "matchup": "Carlos Alcaraz @ Matteo Berrettini",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
   }
  }
 ]
