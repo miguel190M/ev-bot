@@ -1276,5 +1276,23 @@
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-05T11:30:37.342072+00:00",
+  "markets": 7,
+  "markets_sharp": 7,
+  "outcomes": 28,
+  "capped": 0,
+  "best": {
+   "gap": -2.297,
+   "ev_pct": 0.7,
+   "threshold_pct": 3.0,
+   "price": 1.62,
+   "outcome": "Nuno Borges",
+   "book": "SportsBet",
+   "matchup": "Ignacio Buse @ Nuno Borges",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
  }
 ]
