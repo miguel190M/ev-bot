@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-03T01:00:56.749170+00:00",
-  "markets": 9,
-  "markets_sharp": 9,
-  "outcomes": 36,
-  "capped": 0,
-  "best": {
-   "gap": -4.33,
-   "ev_pct": -1.33,
-   "threshold_pct": 3.0,
-   "price": 1.11,
-   "outcome": "San Antonio Spurs",
-   "book": "Betfair",
-   "matchup": "Utah Jazz @ San Antonio Spurs",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-03T01:30:37.448600+00:00",
-  "markets": 20,
-  "markets_sharp": 20,
-  "outcomes": 80,
-  "capped": 0,
-  "best": {
-   "gap": -2.894,
-   "ev_pct": 0.11,
-   "threshold_pct": 3.0,
-   "price": 2.66,
-   "outcome": "Casper Ruud",
-   "book": "SportsBet",
-   "matchup": "Rafael Jodar @ Casper Ruud",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-03T02:00:57.953408+00:00",
   "markets": 8,
   "markets_sharp": 6,
@@ -1292,6 +1256,24 @@
    "book": "SportsBet",
    "matchup": "Cleveland Cavaliers @ Oklahoma City Thunder",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-05T01:30:42.125249+00:00",
+  "markets": 16,
+  "markets_sharp": 15,
+  "outcomes": 62,
+  "capped": 0,
+  "best": {
+   "gap": -2.846,
+   "ev_pct": 0.15,
+   "threshold_pct": 3.0,
+   "price": 3.73,
+   "outcome": "Luca Van Assche",
+   "book": "SportsBet",
+   "matchup": "Luca Van Assche @ Lorenzo Musetti",
+   "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
  }
