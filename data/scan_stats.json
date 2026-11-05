@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-03T09:00:56.930106+00:00",
-  "markets": 14,
-  "markets_sharp": 13,
-  "outcomes": 56,
-  "capped": 0,
-  "best": {
-   "gap": -1.602,
-   "ev_pct": 1.4,
-   "threshold_pct": 3.0,
-   "price": 4.7,
-   "outcome": "Benjamin Bonzi",
-   "book": "SportsBet",
-   "matchup": "Taylor Fritz @ Benjamin Bonzi",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-03T09:30:40.169147+00:00",
   "markets": 13,
   "markets_sharp": 13,
@@ -1292,6 +1274,24 @@
    "book": "SportsBet",
    "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-05T09:30:39.078781+00:00",
+  "markets": 8,
+  "markets_sharp": 8,
+  "outcomes": 32,
+  "capped": 0,
+  "best": {
+   "gap": -4.036,
+   "ev_pct": -1.04,
+   "threshold_pct": 3.0,
+   "price": 1.62,
+   "outcome": "Nuno Borges",
+   "book": "SportsBet",
+   "matchup": "Ignacio Buse @ Nuno Borges",
+   "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
  }

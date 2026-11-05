@@ -21,28 +21,6 @@
     "consensus_probability": 0.3404,
     "alerted_at": "2026-11-03T20:00:55.018470+00:00"
   },
-  "f0e3": {
-    "event_id": "4415d206254a76f2f9c1ed1492ad4ea6",
-    "sport_key": "basketball_nbl",
-    "commence_time": "2026-11-04T09:06:00Z",
-    "home_team": "Brisbane Bullets",
-    "away_team": "Perth Wildcats",
-    "market_key": "h2h",
-    "bookmaker_key": "sportsbet",
-    "bookmaker_title": "SportsBet",
-    "outcome": "Brisbane Bullets",
-    "price": 2.23,
-    "commission": 0.0,
-    "fair_probability": 0.4808,
-    "fair_odds": 2.08,
-    "ev_pct": 7.22,
-    "anchor": "pinnacle",
-    "num_books": 1,
-    "sharp_disagreement": false,
-    "sharp_probability": 0.4808,
-    "consensus_probability": 0.4622,
-    "alerted_at": "2026-11-04T07:00:45.494409+00:00"
-  },
   "da96": {
     "event_id": "f43ef699c987e112e115f7035114854e",
     "sport_key": "soccer_uefa_champs_league",
