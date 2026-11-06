@@ -1384,5 +1384,23 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-06T23:01:01.362425+00:00",
+  "markets": 43,
+  "markets_sharp": 31,
+  "outcomes": 168,
+  "capped": 6,
+  "best": {
+   "gap": 6.24,
+   "ev_pct": 9.24,
+   "threshold_pct": 3.0,
+   "price": 2.5,
+   "outcome": "Zak Miller",
+   "book": "SportsBet",
+   "matchup": "Gully Powar @ Zak Miller",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
