@@ -87,28 +87,6 @@
     "consensus_probability": 0.2582,
     "alerted_at": "2026-11-04T20:00:52.622078+00:00"
   },
-  "dce3": {
-    "event_id": "05200821a78e4f6db8131cff1652550f",
-    "sport_key": "basketball_nba",
-    "commence_time": "2026-11-05T00:10:00Z",
-    "home_team": "Washington Wizards",
-    "away_team": "Atlanta Hawks",
-    "market_key": "h2h",
-    "bookmaker_key": "betfair_ex_au",
-    "bookmaker_title": "Betfair",
-    "outcome": "Atlanta Hawks",
-    "price": 1.83,
-    "commission": 0.06,
-    "fair_probability": 0.5821,
-    "fair_odds": 1.718,
-    "ev_pct": 3.63,
-    "anchor": "pinnacle",
-    "num_books": 1,
-    "sharp_disagreement": false,
-    "sharp_probability": 0.5821,
-    "consensus_probability": 0.582,
-    "alerted_at": "2026-11-04T23:01:04.451291+00:00"
-  },
   "cd9c": {
     "event_id": "898d62c08388babaae8333e754c38854",
     "sport_key": "boxing_boxing",
