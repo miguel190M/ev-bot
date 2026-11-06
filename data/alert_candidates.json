@@ -65,28 +65,6 @@
     "consensus_probability": 0.5913,
     "alerted_at": "2026-11-05T12:00:51.784431+00:00"
   },
-  "b1df": {
-    "event_id": "8962e5108426884c7237a80948c77cfb",
-    "sport_key": "tennis_atp_paris_masters",
-    "commence_time": "2026-11-05T13:05:00Z",
-    "home_team": "Lorenzo Musetti",
-    "away_team": "Luca Van Assche",
-    "market_key": "h2h",
-    "bookmaker_key": "sportsbet",
-    "bookmaker_title": "SportsBet",
-    "outcome": "Luca Van Assche",
-    "price": 4.0,
-    "commission": 0.0,
-    "fair_probability": 0.265,
-    "fair_odds": 3.774,
-    "ev_pct": 5.99,
-    "anchor": "pinnacle",
-    "num_books": 1,
-    "sharp_disagreement": false,
-    "sharp_probability": 0.265,
-    "consensus_probability": 0.2698,
-    "alerted_at": "2026-11-05T13:00:57.525637+00:00"
-  },
   "8015": {
     "event_id": "4c9b3b0a9a37c3ebd69d09bd038e2c29",
     "sport_key": "cricket_test_match",
