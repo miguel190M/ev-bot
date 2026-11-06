@@ -167,6 +167,7 @@ def place_bet(sid: str, stake: float, opp: dict, bets: dict, price: float | None
         "ev_pct": opp["ev_pct"],
         "anchor": opp["anchor"],
         "sharp_disagreement": opp.get("sharp_disagreement", False),
+        "large_edge": opp.get("large_edge", False),  # alerted despite exceeding MAX_EV_PCT (tracked separately)
         "stake": stake,
         "status": "open",
         "profit": None,

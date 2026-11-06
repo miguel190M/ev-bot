@@ -226,7 +226,8 @@ def _effective_price(price: float, commission: float) -> float:
 
 
 def _make_opportunity(event, market_key, book_key, book_title, price, outcome, fair_prob, num_books, commission, ev,
-                      anchor="retail_consensus", sharp_prob=None, consensus_prob=None, disagree=False):
+                      anchor="retail_consensus", sharp_prob=None, consensus_prob=None, disagree=False,
+                      large_edge=False):
     return {
         "event_id": event["id"],
         "sport_key": event["sport_key"],
@@ -249,6 +250,8 @@ def _make_opportunity(event, market_key, book_key, book_title, price, outcome, f
         "sharp_disagreement": disagree,
         "sharp_probability": round(sharp_prob, 4) if sharp_prob else None,
         "consensus_probability": round(consensus_prob, 4) if consensus_prob else None,
+        # Edge above MAX_EV_PCT but price short enough to alert anyway, with a warning
+        "large_edge": large_edge,
     }
 
 
@@ -298,11 +301,15 @@ def _find_positive_ev_for_market(event: dict, market_key: str, stats: dict | Non
             if stats is not None:
                 stats["outcomes"] += 1
                 market_used_sharp = market_used_sharp or entry["anchor"] != "retail_consensus"
+            large_edge = False
             if ev * 100 > config.MAX_EV_PCT:
-                print(f"    suppressed {book_key} {outcome} @ {price}: {ev * 100:.1f}% edge exceeds "
+                large_edge = price <= config.CAPPED_ALERT_MAX_PRICE
+                verdict = "alerting with a warning" if large_edge else "suppressed"
+                print(f"    {verdict} {book_key} {outcome} @ {price}: {ev * 100:.1f}% edge exceeds "
                       f"MAX_EV_PCT={config.MAX_EV_PCT:g} (likely stale/bad price)")
                 if stats is not None:
-                    stats["capped"] += 1
+                    counter = "flagged" if large_edge else "capped"
+                    stats[counter] = stats.get(counter, 0) + 1
                     stats.setdefault("capped_picks", []).append({
                         "sport_key": event["sport_key"], "matchup": matchup, "market": market_key,
                         "outcome": outcome, "book": book_titles[book_key], "price": price,
@@ -311,9 +318,11 @@ def _find_positive_ev_for_market(event: dict, market_key: str, stats: dict | Non
                         "sharp_odds": round(1 / entry["sharp_prob"], 3) if entry.get("sharp_prob") else None,
                         "consensus_odds": round(1 / entry["consensus_prob"], 3) if entry.get("consensus_prob") else None,
                         "commence_time": event.get("commence_time"),
+                        "alerted": large_edge,
                     })
-                continue
-            if stats is not None:
+                if not large_edge:
+                    continue
+            if stats is not None and not large_edge:  # a large-edge pick is never the "closest call"
                 from . import scan_stats
                 scan_stats.note_candidate(stats, {
                     "gap": round((ev - threshold) * 100, 3), "ev_pct": round(ev * 100, 2),
@@ -326,7 +335,7 @@ def _find_positive_ev_for_market(event: dict, market_key: str, stats: dict | Non
                     event, market_key, book_key, book_titles[book_key], price, outcome, fair_prob,
                     entry["n_books"], commission, ev, anchor=entry["anchor"],
                     sharp_prob=entry["sharp_prob"], consensus_prob=entry["consensus_prob"],
-                    disagree=entry["disagree"],
+                    disagree=entry["disagree"], large_edge=large_edge,
                 ))
     if stats is not None:
         stats["markets"] += 1
