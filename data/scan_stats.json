@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-04T12:00:45.918026+00:00",
-  "markets": 13,
-  "markets_sharp": 13,
-  "outcomes": 52,
-  "capped": 0,
-  "best": {
-   "gap": -1.447,
-   "ev_pct": 1.55,
-   "threshold_pct": 3.0,
-   "price": 3.35,
-   "outcome": "Lorenzo Musetti",
-   "book": "Betfair",
-   "matchup": "Lorenzo Musetti @ Alexander Zverev",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-04T12:30:40.050694+00:00",
   "markets": 12,
   "markets_sharp": 11,
@@ -1365,6 +1347,24 @@
    "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
    "sport_key": "boxing_boxing",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-06T12:00:50.560310+00:00",
+  "markets": 11,
+  "markets_sharp": 9,
+  "outcomes": 48,
+  "capped": 0,
+  "best": {
+   "gap": -0.692,
+   "ev_pct": 2.31,
+   "threshold_pct": 3.0,
+   "price": 1.78,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_odi",
+   "anchor": "pinnacle"
   }
  }
 ]
