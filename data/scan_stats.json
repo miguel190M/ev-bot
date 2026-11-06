@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-04T11:16:09.774161+00:00",
-  "markets": 12,
-  "markets_sharp": 12,
-  "outcomes": 48,
-  "capped": 0,
-  "best": {
-   "gap": -3.098,
-   "ev_pct": -0.1,
-   "threshold_pct": 3.0,
-   "price": 1.23,
-   "outcome": "Tommy Paul",
-   "book": "SportsBet",
-   "matchup": "Daniel Merida Aguilar @ Tommy Paul",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-04T11:30:37.985827+00:00",
-  "markets": 13,
-  "markets_sharp": 12,
-  "outcomes": 50,
-  "capped": 0,
-  "best": {
-   "gap": -3.643,
-   "ev_pct": -0.64,
-   "threshold_pct": 3.0,
-   "price": 1.19,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Carlos Alcaraz @ Alex Michelsen",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-04T12:00:45.918026+00:00",
   "markets": 13,
   "markets_sharp": 13,
@@ -1383,6 +1347,24 @@
    "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-06T11:30:38.299325+00:00",
+  "markets": 7,
+  "markets_sharp": 5,
+  "outcomes": 31,
+  "capped": 0,
+  "best": {
+   "gap": 3.734,
+   "ev_pct": 6.19,
+   "threshold_pct": 2.46,
+   "price": 1.73,
+   "outcome": "Nelson Asofa-Solomona",
+   "book": "SportsBet",
+   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
+   "sport_key": "boxing_boxing",
+   "anchor": "retail_consensus"
   }
  }
 ]
