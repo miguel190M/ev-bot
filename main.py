@@ -230,11 +230,20 @@ def process_commands(candidates: dict, bet_ledger: dict):
                     f"To add a second bet on it anyway: /bet {sid} {stake:g} again")
                 print(f"    -> Skipped duplicate of {dup}")
                 continue
-            bet_id, bet = bets.place_bet(sid, stake, opp, bet_ledger)
+            taken = telegram_commands.parse_bet_price(text)
+            if taken is not None and not (1.01 <= taken <= 1000):
+                telegram_commands.send_message(f"Price {taken:g} doesn't look right (use decimal odds, e.g. @1.65). Not logged.")
+                continue
+            bet_id, bet = bets.place_bet(sid, stake, opp, bet_ledger, price=taken)
             matchup = f"{bet.get('away_team')} @ {bet.get('home_team')}" if bet.get("away_team") else bet.get("home_team", "")
+            price_note = ""
+            if "alert_price" in bet:
+                price_note = (f"\nPrice taken {bet['price']} (alert said {bet['alert_price']}); "
+                              f"edge now {bet['ev_pct']:+.1f}%"
+                              + (" ⚠️ no longer +EV" if bet["ev_pct"] <= 0 else ""))
             telegram_commands.send_message(
-                f"✅ Logged: ${stake:g} on {bet['outcome']} @ {bet['price']} ({matchup}). "
-                f"I'll let you know once it resolves."
+                f"✅ Logged [{bet_id}]: ${stake:g} on {bet['outcome']} @ {bet['price']} ({matchup}). "
+                f"I'll let you know once it resolves.{price_note}"
             )
             print(f"    -> Logged bet {bet_id}: ${stake} on {bet['outcome']} @ {bet['price']}")
         elif (settle := telegram_commands.parse_settle_command(text)):
@@ -254,6 +263,21 @@ def process_commands(candidates: dict, bet_ledger: dict):
                 f"Profit: ${bet['profit']:g}"
             )
             print(f"    -> Settled {sid} manually: {bet['status']} (${bet['profit']})")
+        elif (pc := telegram_commands.parse_price_command(text)):
+            bid, new_price = pc
+            bet = bet_ledger.get(bid)
+            if not bet:
+                telegram_commands.send_message(f"No bet with id '{bid}'.")
+            elif not (1.01 <= new_price <= 1000):
+                telegram_commands.send_message(f"Price {new_price:g} doesn't look right (decimal odds, e.g. /price {bid} 1.65).")
+            else:
+                old_price = bet["price"]
+                bets.set_taken_price(bet, new_price)
+                extra = f" Profit now ${bet['profit']:g}." if bet.get("profit") is not None else ""
+                telegram_commands.send_message(
+                    f"✏️ [{bid}] {bet['outcome']}: price {old_price} → {new_price}; "
+                    f"edge now {bet['ev_pct']:+.1f}%.{extra}")
+                print(f"    -> Corrected price on {bid}: {old_price} -> {new_price}")
         elif telegram_commands.is_record_command(text):
             telegram_commands.send_message(breakdown.record(bet_ledger))
             print("    -> Replied with record by sport")
