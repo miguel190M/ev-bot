@@ -21,8 +21,14 @@ def format_message(opp: dict, bet_id: str | None = None) -> str:
     if opp.get("sharp_disagreement") and opp.get("sharp_probability") and opp.get("consensus_probability"):
         disagree_note = (f"\n⚠️ Low confidence: Pinnacle fair ~{1 / opp['sharp_probability']:.2f} vs soft-book "
                          f"median ~{1 / opp['consensus_probability']:.2f} (edge uses the lower probability)")
+    large_note = ""
+    header = f"🎯 +EV Bet Found ({opp['ev_pct']}% edge)"
+    if opp.get("large_edge"):
+        header = f"⚠️ LARGE EDGE - may be too good to be true ({opp['ev_pct']}% edge)"
+        large_note = (f"\n⚠️ Edge is above the {config.MAX_EV_PCT:g}% sanity cap - often a stale price or a bad "
+                      f"reference line. Check the price is still live before betting. Tracked separately as a large-edge bet.")
     return (
-        f"🎯 +EV Bet Found ({opp['ev_pct']}% edge)\n"
+        f"{header}\n"
         f"Sport: {opp['sport_key']}\n"
         f"Event: {matchup}\n"
         f"Start: {dt_syd.strftime('%a %d %b, %I:%M%p %Z')}\n"
@@ -31,6 +37,7 @@ def format_message(opp: dict, bet_id: str | None = None) -> str:
         f"Pick: {opp['outcome']} @ {opp['price']}\n"
         f"Fair odds: ~{opp['fair_odds']} ({ev_calculator.describe_anchor(opp)})"
         f"{disagree_note}"
+        f"{large_note}"
         f"{commission_note}"
         f"{bet_footer}"
     )

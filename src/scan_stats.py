@@ -17,7 +17,7 @@ KEEP_HOURS = 48
 
 
 def new_stats() -> dict:
-    return {"markets": 0, "markets_sharp": 0, "outcomes": 0, "capped": 0, "best": None}
+    return {"markets": 0, "markets_sharp": 0, "outcomes": 0, "capped": 0, "flagged": 0, "best": None}
 
 
 def note_candidate(stats: dict, cand: dict) -> None:
@@ -67,6 +67,7 @@ def summarize(now: datetime | None = None, hours: float = 24) -> dict | None:
         "markets": sum(r.get("markets", 0) for r in runs),
         "markets_sharp": sum(r.get("markets_sharp", 0) for r in runs),
         "capped": sum(r.get("capped", 0) for r in runs),
+        "flagged": sum(r.get("flagged", 0) for r in runs),
         "best": best,
     }
 
@@ -83,8 +84,13 @@ def format_lines(summary: dict | None) -> list[str]:
             f"Closest call: {b['outcome']} @ {b['price']} ({b['book']}) - {b['matchup']}\n"
             f"   edge {b['ev_pct']:+.1f}% vs {b['threshold_pct']:.1f}% {tail}"
         )
-    if summary.get("capped"):
-        lines.append(f"Suppressed as too-good-to-be-true (>{config.MAX_EV_PCT:g}% edge): {summary['capped']} (see /suppressed)")
+    if summary.get("capped") or summary.get("flagged"):
+        parts = []
+        if summary.get("flagged"):
+            parts.append(f"{summary['flagged']} alerted with a warning (price <= {config.CAPPED_ALERT_MAX_PRICE:g})")
+        if summary.get("capped"):
+            parts.append(f"{summary['capped']} suppressed")
+        lines.append(f"Too-good-to-be-true (>{config.MAX_EV_PCT:g}% edge): " + ", ".join(parts) + " (see /suppressed)")
     return lines
 
 
@@ -125,33 +131,47 @@ def record_suppressed(picks: list, now: datetime | None = None) -> None:
 
 
 def suppressed_report(now: datetime | None = None, hours: float = 24, top: int = 10) -> str:
-    """Text for /suppressed: which picks tripped the too-good-to-be-true cap."""
+    """Text for /suppressed: picks that tripped the too-good-to-be-true cap -
+    those alerted with a warning (short prices) and those fully suppressed."""
     from collections import Counter
     from .daily_digest import _sport_label  # label helper (lazy: avoids a circular import)
     now = now or datetime.now(timezone.utc)
     since = (now - timedelta(hours=hours)).isoformat()
     picks = [v for v in _load_suppressed().values() if v.get("last_seen", "") >= since]
+    cap = f"{config.MAX_EV_PCT:g}%"
     if not picks:
-        return (f"🚫 No picks were suppressed as too-good-to-be-true (>{config.MAX_EV_PCT:g}% edge) "
+        return (f"🚫 No picks tripped the too-good-to-be-true cap (>{cap} edge) "
                 f"in the last {hours:g}h that I have details for (details are recorded from this feature onwards).")
     picks.sort(key=lambda v: -v["max_ev_pct"])
-    by_sport = Counter(_sport_label(v["sport_key"]) for v in picks)
-    by_anchor = Counter("vs Pinnacle" if v["anchor"] != "retail_consensus" else "vs soft-book median" for v in picks)
-    by_book = Counter(v["book"] for v in picks)
-    lines = [f"🚫 Suppressed as too-good-to-be-true (>{config.MAX_EV_PCT:g}% edge) - last {hours:g}h",
-             f"{len(picks)} unique picks (a pick can show up in many scans)",
-             "By sport: " + " · ".join(f"{k} {n}" for k, n in by_sport.most_common()),
-             "Priced: " + " · ".join(f"{k} {n}" for k, n in by_anchor.most_common()),
-             "Book: " + " · ".join(f"{k} {n}" for k, n in by_book.most_common()),
-             "", f"Biggest {min(top, len(picks))} by edge:"]
-    for i, v in enumerate(picks[:top], 1):
-        ref = f"Pinnacle {v['sharp_odds']}" if v.get("sharp_odds") else f"median {v.get('consensus_odds')}"
-        both = ""
-        if v.get("sharp_odds") and v.get("consensus_odds"):
-            both = f", soft-book median {v['consensus_odds']}"
-        lines.append(f"{i}. {v['outcome']} @ {v['price']} ({v['book']}) +{v['max_ev_pct']:.0f}% - {v['matchup']}\n"
-                     f"   fair {v['fair_odds']} ({ref}{both if v.get('sharp_odds') else ''}) · "
-                     f"{_sport_label(v['sport_key'])} · seen {v.get('seen', 1)}x")
+    alerted = [v for v in picks if v.get("alerted")]
+    suppressed = [v for v in picks if not v.get("alerted")]
+
+    def pick_lines(group):
+        out = []
+        for i, v in enumerate(group[:top], 1):
+            ref = f"Pinnacle {v['sharp_odds']}" if v.get("sharp_odds") else f"median {v.get('consensus_odds')}"
+            both = f", soft-book median {v['consensus_odds']}" if v.get("sharp_odds") and v.get("consensus_odds") else ""
+            out.append(f"{i}. {v['outcome']} @ {v['price']} ({v['book']}) +{v['max_ev_pct']:.0f}% - {v['matchup']}\n"
+                       f"   fair {v['fair_odds']} ({ref}{both}) · {_sport_label(v['sport_key'])} · seen {v.get('seen', 1)}x")
+        return out
+
+    def tally(group):
+        by_sport = Counter(_sport_label(v["sport_key"]) for v in group)
+        by_anchor = Counter("vs Pinnacle" if v["anchor"] != "retail_consensus" else "vs soft-book median" for v in group)
+        by_book = Counter(v["book"] for v in group)
+        return ["By sport: " + " · ".join(f"{k} {n}" for k, n in by_sport.most_common()),
+                "Priced: " + " · ".join(f"{k} {n}" for k, n in by_anchor.most_common()),
+                "Book: " + " · ".join(f"{k} {n}" for k, n in by_book.most_common())]
+
+    lines = [f"🚫 Too-good-to-be-true picks (>{cap} edge) - last {hours:g}h",
+             "(one pick can show up in many scans)"]
+    if alerted:
+        lines += ["", f"⚠️ ALERTED with a warning (price <= {config.CAPPED_ALERT_MAX_PRICE:g}): {len(alerted)}"]
+        lines += tally(alerted) + pick_lines(alerted)
+        lines.append("Bets you log on these are tagged separately: /breakdown flag, and a line in /record.")
+    if suppressed:
+        lines += ["", f"🚫 SUPPRESSED (price above {config.CAPPED_ALERT_MAX_PRICE:g}): {len(suppressed)}"]
+        lines += tally(suppressed) + [f"Biggest {min(top, len(suppressed))} by edge:"] + pick_lines(suppressed)
     lines += ["", "These are usually a stale book price or a bad reference line - check the price is still live",
-              "before trusting any of them. Raise MAX_EV_PCT to let bigger edges alert."]
+              "before trusting any of them. MAX_EV_PCT sets the cap, CAPPED_ALERT_MAX_PRICE the alert exception."]
     return "\n".join(lines)

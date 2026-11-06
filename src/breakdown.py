@@ -36,7 +36,12 @@ def _source(b):
     return "digest" if b.get("source") == "daily_digest" else "live"  # pre-tagging bets were all live
 
 
+def _flag(b):
+    return "Large edge (>cap)" if b.get("large_edge") else "Normal"
+
+
 DIMENSIONS = {
+    "flag": ("Alert type", _flag),
     "sport": ("Sport", _sport),
     "book": ("Book", lambda b: b.get("bookmaker_title", "?")),
     "source": ("Source", _source),
@@ -88,6 +93,9 @@ def record(bet_ledger: dict) -> str:
     lines = ["📒 Record by sport (settled bets; CLV = avg net)"]
     lines += [line(label, group) for label, group in sorted(groups.items(), key=order)]
     lines.append("")
+    big = [b for b in bet_ledger.values() if b.get("large_edge")]
+    if big:
+        lines.append(line("⚠️ Large-edge alerts (>cap, tracked separately)", big))
     lines.append(line("TOTAL", list(bet_ledger.values())))
     lines.append("Small samples mean little - judge by CLV once a sport has 20+ bets.")
     return "\n".join(lines)

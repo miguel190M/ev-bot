@@ -86,6 +86,13 @@ def get_ev_threshold(price: float) -> float:
 # data error than genuine value, so it's suppressed rather than alerted.
 MAX_EV_PCT = float(os.environ.get("MAX_EV_PCT", "20"))
 
+# Exception to the cap: a pick above MAX_EV_PCT whose price is at or below this
+# still alerts, tagged "large_edge" with a warning, and is tracked separately
+# (/breakdown flag, /record, /suppressed) so we can judge whether these are real.
+# Short prices are where a 20%+ edge is least likely to be a longshot-bias
+# artefact. 0 turns the exception off (everything above the cap is suppressed).
+CAPPED_ALERT_MAX_PRICE = float(os.environ.get("CAPPED_ALERT_MAX_PRICE", "3.0"))
+
 # Closing-line capture for CLV: an open bet whose event starts within this
 # many minutes gets a dedicated odds pull (if its sport wasn't already
 # fetched this run) so a pre-kickoff fair price is always recorded. Must be
