@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-04T23:01:04.449402+00:00",
-  "markets": 29,
-  "markets_sharp": 25,
-  "outcomes": 94,
-  "capped": 3,
-  "best": {
-   "gap": 0.626,
-   "ev_pct": 3.63,
-   "threshold_pct": 3.0,
-   "price": 1.83,
-   "outcome": "Atlanta Hawks",
-   "book": "Betfair",
-   "matchup": "Atlanta Hawks @ Washington Wizards",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-04T23:30:41.267978+00:00",
-  "markets": 22,
-  "markets_sharp": 17,
-  "outcomes": 88,
-  "capped": 0,
-  "best": {
-   "gap": -3.132,
-   "ev_pct": -1.85,
-   "threshold_pct": 1.28,
-   "price": 1.14,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Carlos Alcaraz @ Matteo Berrettini",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-05T00:00:54.311174+00:00",
   "markets": 20,
   "markets_sharp": 19,
@@ -1400,6 +1364,25 @@
    "book": "SportsBet",
    "matchup": "Gully Powar @ Zak Miller",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-06T23:30:44.899366+00:00",
+  "markets": 17,
+  "markets_sharp": 17,
+  "outcomes": 60,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.907,
+   "ev_pct": 1.09,
+   "threshold_pct": 3.0,
+   "price": 1.83,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_odi",
    "anchor": "pinnacle"
   }
  }
