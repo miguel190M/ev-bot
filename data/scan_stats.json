@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-04T09:30:39.906738+00:00",
-  "markets": 16,
-  "markets_sharp": 15,
-  "outcomes": 62,
-  "capped": 0,
-  "best": {
-   "gap": -2.362,
-   "ev_pct": 0.64,
-   "threshold_pct": 3.0,
-   "price": 2.04,
-   "outcome": "Matteo Berrettini",
-   "book": "SportsBet",
-   "matchup": "Ugo Humbert @ Matteo Berrettini",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-04T10:30:39.802330+00:00",
   "markets": 23,
   "markets_sharp": 22,
@@ -1336,6 +1318,24 @@
   "markets": 2,
   "markets_sharp": 1,
   "outcomes": 9,
+  "capped": 0,
+  "best": {
+   "gap": 3.433,
+   "ev_pct": 6.43,
+   "threshold_pct": 3.0,
+   "price": 1.73,
+   "outcome": "Nelson Asofa-Solomona",
+   "book": "SportsBet",
+   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-06T10:00:51.239787+00:00",
+  "markets": 7,
+  "markets_sharp": 6,
+  "outcomes": 29,
   "capped": 0,
   "best": {
    "gap": 3.433,
