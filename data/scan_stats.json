@@ -1366,5 +1366,23 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-06T20:30:35.660127+00:00",
+  "markets": 2,
+  "markets_sharp": 2,
+  "outcomes": 8,
+  "capped": 0,
+  "best": {
+   "gap": -4.701,
+   "ev_pct": -1.7,
+   "threshold_pct": 3.0,
+   "price": 1.46,
+   "outcome": "Casper Ruud",
+   "book": "Betfair",
+   "matchup": "Nuno Borges @ Casper Ruud",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
  }
 ]
