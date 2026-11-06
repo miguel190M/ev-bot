@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-04T05:00:44.939433+00:00",
-  "markets": 14,
-  "markets_sharp": 14,
-  "outcomes": 56,
-  "capped": 0,
-  "best": {
-   "gap": -1.24,
-   "ev_pct": 1.76,
-   "threshold_pct": 3.0,
-   "price": 5.1,
-   "outcome": "Rinky Hijikata",
-   "book": "Betfair",
-   "matchup": "Rinky Hijikata @ Novak Djokovic",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-04T05:30:33.688498+00:00",
   "markets": 2,
   "markets_sharp": 2,
@@ -1329,6 +1311,24 @@
    "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-06T05:00:47.370316+00:00",
+  "markets": 8,
+  "markets_sharp": 6,
+  "outcomes": 31,
+  "capped": 0,
+  "best": {
+   "gap": -1.795,
+   "ev_pct": -0.46,
+   "threshold_pct": 1.34,
+   "price": 1.17,
+   "outcome": "Ahmad Reda",
+   "book": "SportsBet",
+   "matchup": "Jake Wyllie @ Ahmad Reda",
+   "sport_key": "boxing_boxing",
+   "anchor": "retail_consensus"
   }
  }
 ]
