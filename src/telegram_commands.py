@@ -118,6 +118,10 @@ def is_open_command(text: str) -> bool:
     return text.strip().lower() in ("/open", "/outstanding")
 
 
+def is_suppressed_command(text: str) -> bool:
+    return text.strip().lower() in ("/suppressed", "/toogood")
+
+
 def is_record_command(text: str) -> bool:
     return text.strip().lower() in ("/record", "/sports")
 

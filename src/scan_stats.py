@@ -84,5 +84,74 @@ def format_lines(summary: dict | None) -> list[str]:
             f"   edge {b['ev_pct']:+.1f}% vs {b['threshold_pct']:.1f}% {tail}"
         )
     if summary.get("capped"):
-        lines.append(f"Suppressed as too-good-to-be-true (>{config.MAX_EV_PCT:g}% edge): {summary['capped']}")
+        lines.append(f"Suppressed as too-good-to-be-true (>{config.MAX_EV_PCT:g}% edge): {summary['capped']} (see /suppressed)")
     return lines
+
+
+# ---- picks suppressed by the MAX_EV_PCT cap ---------------------------------
+
+def _load_suppressed() -> dict:
+    p = Path(config.SUPPRESSED_FILE)
+    if not p.exists():
+        return {}
+    try:
+        data = json.loads(p.read_text())
+        return data if isinstance(data, dict) else {}
+    except json.JSONDecodeError:
+        return {}
+
+
+def record_suppressed(picks: list, now: datetime | None = None) -> None:
+    """Merge this run's capped picks into data/suppressed_picks.json (one entry
+    per pick, with first/last seen, how many runs it showed up in, and its biggest
+    edge). Entries not seen for KEEP_HOURS are dropped."""
+    now = now or datetime.now(timezone.utc)
+    now_iso = now.isoformat()
+    cutoff = (now - timedelta(hours=KEEP_HOURS)).isoformat()
+    store = {k: v for k, v in _load_suppressed().items() if v.get("last_seen", "") >= cutoff}
+    for pk in picks:
+        key = f"{pk['sport_key']}|{pk['matchup']}|{pk['market']}|{pk['outcome']}|{pk['book']}"
+        cur = store.get(key)
+        if cur is None:
+            store[key] = {**pk, "first_seen": now_iso, "last_seen": now_iso, "seen": 1, "max_ev_pct": pk["ev_pct"]}
+        else:
+            max_ev = max(cur.get("max_ev_pct", 0), pk["ev_pct"])
+            store[key] = {**cur, **pk, "first_seen": cur["first_seen"], "last_seen": now_iso,
+                          "seen": cur.get("seen", 1) + 1, "max_ev_pct": max_ev}
+    p = Path(config.SUPPRESSED_FILE)
+    if store or p.exists():
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text(json.dumps(store, indent=1, sort_keys=True))
+
+
+def suppressed_report(now: datetime | None = None, hours: float = 24, top: int = 10) -> str:
+    """Text for /suppressed: which picks tripped the too-good-to-be-true cap."""
+    from collections import Counter
+    from .daily_digest import _sport_label  # label helper (lazy: avoids a circular import)
+    now = now or datetime.now(timezone.utc)
+    since = (now - timedelta(hours=hours)).isoformat()
+    picks = [v for v in _load_suppressed().values() if v.get("last_seen", "") >= since]
+    if not picks:
+        return (f"🚫 No picks were suppressed as too-good-to-be-true (>{config.MAX_EV_PCT:g}% edge) "
+                f"in the last {hours:g}h that I have details for (details are recorded from this feature onwards).")
+    picks.sort(key=lambda v: -v["max_ev_pct"])
+    by_sport = Counter(_sport_label(v["sport_key"]) for v in picks)
+    by_anchor = Counter("vs Pinnacle" if v["anchor"] != "retail_consensus" else "vs soft-book median" for v in picks)
+    by_book = Counter(v["book"] for v in picks)
+    lines = [f"🚫 Suppressed as too-good-to-be-true (>{config.MAX_EV_PCT:g}% edge) - last {hours:g}h",
+             f"{len(picks)} unique picks (a pick can show up in many scans)",
+             "By sport: " + " · ".join(f"{k} {n}" for k, n in by_sport.most_common()),
+             "Priced: " + " · ".join(f"{k} {n}" for k, n in by_anchor.most_common()),
+             "Book: " + " · ".join(f"{k} {n}" for k, n in by_book.most_common()),
+             "", f"Biggest {min(top, len(picks))} by edge:"]
+    for i, v in enumerate(picks[:top], 1):
+        ref = f"Pinnacle {v['sharp_odds']}" if v.get("sharp_odds") else f"median {v.get('consensus_odds')}"
+        both = ""
+        if v.get("sharp_odds") and v.get("consensus_odds"):
+            both = f", soft-book median {v['consensus_odds']}"
+        lines.append(f"{i}. {v['outcome']} @ {v['price']} ({v['book']}) +{v['max_ev_pct']:.0f}% - {v['matchup']}\n"
+                     f"   fair {v['fair_odds']} ({ref}{both if v.get('sharp_odds') else ''}) · "
+                     f"{_sport_label(v['sport_key'])} · seen {v.get('seen', 1)}x")
+    lines += ["", "These are usually a stale book price or a bad reference line - check the price is still live",
+              "before trusting any of them. Raise MAX_EV_PCT to let bigger edges alert."]
+    return "\n".join(lines)

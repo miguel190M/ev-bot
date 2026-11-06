@@ -279,6 +279,8 @@ SHARP_EV_SLOPE = float(os.environ.get("SHARP_EV_SLOPE", "0"))
 
 # Rolling per-run scan stats used for the daily digest's "closest call" line.
 SCAN_STATS_FILE = os.environ.get("SCAN_STATS_FILE", "data/scan_stats.json")
+# Picks suppressed by the MAX_EV_PCT cap (so /suppressed can show them), pruned after 48h
+SUPPRESSED_FILE = os.environ.get("SUPPRESSED_FILE", "data/suppressed_picks.json")
 
 
 def get_edge_threshold(price: float, anchor: str) -> float:

@@ -303,6 +303,15 @@ def _find_positive_ev_for_market(event: dict, market_key: str, stats: dict | Non
                       f"MAX_EV_PCT={config.MAX_EV_PCT:g} (likely stale/bad price)")
                 if stats is not None:
                     stats["capped"] += 1
+                    stats.setdefault("capped_picks", []).append({
+                        "sport_key": event["sport_key"], "matchup": matchup, "market": market_key,
+                        "outcome": outcome, "book": book_titles[book_key], "price": price,
+                        "ev_pct": round(ev * 100, 1), "anchor": entry["anchor"],
+                        "fair_odds": round(1 / fair_prob, 3) if fair_prob else None,
+                        "sharp_odds": round(1 / entry["sharp_prob"], 3) if entry.get("sharp_prob") else None,
+                        "consensus_odds": round(1 / entry["consensus_prob"], 3) if entry.get("consensus_prob") else None,
+                        "commence_time": event.get("commence_time"),
+                    })
                 continue
             if stats is not None:
                 from . import scan_stats
