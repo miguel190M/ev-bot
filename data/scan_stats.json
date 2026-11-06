@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-04T01:29:55.417818+00:00",
-  "markets": 3,
-  "markets_sharp": 2,
-  "outcomes": 12,
-  "capped": 0,
-  "best": {
-   "gap": -0.196,
-   "ev_pct": 2.8,
-   "threshold_pct": 3.0,
-   "price": 2.19,
-   "outcome": "Brisbane Bullets",
-   "book": "SportsBet",
-   "matchup": "Perth Wildcats @ Brisbane Bullets",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-04T01:30:37.209945+00:00",
   "markets": 1,
   "markets_sharp": 0,
@@ -1311,6 +1293,24 @@
    "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-06T01:30:36.447810+00:00",
+  "markets": 5,
+  "markets_sharp": 3,
+  "outcomes": 18,
+  "capped": 0,
+  "best": {
+   "gap": -1.674,
+   "ev_pct": 1.07,
+   "threshold_pct": 2.74,
+   "price": 1.87,
+   "outcome": "West Indies",
+   "book": "Betfair",
+   "matchup": "West Indies @ Bangladesh",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
