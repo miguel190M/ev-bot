@@ -130,7 +130,27 @@ def drop_logged(opps: list[dict], ledger: dict) -> list[dict]:
     return [o for o in opps if find_logged(o, ledger, scope) is None]
 
 
-def place_bet(sid: str, stake: float, opp: dict, bets: dict) -> tuple[str, dict]:
+def set_taken_price(bet: dict, price: float) -> None:
+    """Record the price you actually got (it can differ from the alert's). The edge
+    is recomputed against the same fair odds, and if the bet is already settled its
+    profit and CLV are redone at the new price. The alert's own figures are kept."""
+    comm = bet.get("commission", 0.0)
+    if "alert_price" not in bet:
+        bet["alert_price"] = bet["price"]
+        bet["alert_ev_pct"] = bet.get("ev_pct")
+    ev = bet.get("alert_ev_pct")
+    bet["price"] = price
+    if ev is not None:
+        fair = _effective_price(bet["alert_price"], comm) / (1 + ev / 100)
+        bet["ev_pct"] = round((_effective_price(price, comm) / fair - 1) * 100, 2)
+    if bet.get("status") in ("won", "lost"):
+        _apply_win_loss(bet, won=(bet["status"] == "won"))
+    if bet.get("status") in ("won", "lost", "void"):
+        bet["clv_pct"] = compute_clv_pct(bet)
+        bet["net_clv_pct"] = compute_net_clv_pct(bet)
+
+
+def place_bet(sid: str, stake: float, opp: dict, bets: dict, price: float | None = None) -> tuple[str, dict]:
     """Record a new bet against an alerted opportunity. Returns (bet_id, bet)."""
     bet_id = sid if sid not in bets else f"{sid}-{sum(1 for k in bets if k.startswith(sid))}"
     bet = {
@@ -157,6 +177,8 @@ def place_bet(sid: str, stake: float, opp: dict, bets: dict) -> tuple[str, dict]
         "lead_hours": _lead_hours(opp),
         "logged_at": datetime.now(timezone.utc).isoformat(),
     }
+    if price is not None and abs(price - bet["price"]) > 1e-9:
+        set_taken_price(bet, price)
     bets[bet_id] = bet
     return bet_id, bet
 

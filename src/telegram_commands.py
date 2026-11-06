@@ -11,7 +11,9 @@ import requests
 from . import config
 
 OFFSET_FILE = "data/telegram_offset.json"
-BET_PATTERN = re.compile(r"^/bet\s+([a-f0-9]+)\s+([\d.]+)(\s+again)?\s*$", re.IGNORECASE)
+# /bet <id> <stake> [@<price you actually got>] [again]  (@price and "again" in either order)
+BET_PATTERN = re.compile(r"^/bet\s+([a-f0-9]+)\s+([\d.]+)((?:\s+(?:again|@\s*[\d.]+))*)\s*$", re.IGNORECASE)
+_PRICE_TOKEN = re.compile(r"@\s*([\d.]+)")
 
 
 def _load_offset() -> int:
@@ -66,7 +68,33 @@ def parse_bet_command(text: str):
 def is_bet_again(text: str) -> bool:
     """True for '/bet <id> <stake> again' - deliberately logging a second bet on a pick."""
     m = BET_PATTERN.match(text)
-    return bool(m and m.group(3))
+    return bool(m and re.search(r"\bagain\b", m.group(3), re.IGNORECASE))
+
+
+def parse_bet_price(text: str):
+    """The '@<price>' in '/bet <id> <stake> @1.65' (price you actually got), else None."""
+    m = BET_PATTERN.match(text)
+    if not m:
+        return None
+    pm = _PRICE_TOKEN.search(m.group(3))
+    try:
+        return float(pm.group(1)) if pm else None
+    except ValueError:
+        return None
+
+
+PRICE_PATTERN = re.compile(r"^/price\s+([0-9a-f]+(?:-\d+)?)\s+@?\s*([\d.]+)\s*$", re.IGNORECASE)
+
+
+def parse_price_command(text: str):
+    """'/price <bet id> <price>' -> (id, price): correct the price on an already-logged bet."""
+    m = PRICE_PATTERN.match(text.strip())
+    if not m:
+        return None
+    try:
+        return m.group(1).lower(), float(m.group(2))
+    except ValueError:
+        return None
 
 
 SETTLE_PATTERN = re.compile(
