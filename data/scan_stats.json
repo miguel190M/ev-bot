@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-04T04:00:44.486885+00:00",
-  "markets": 14,
-  "markets_sharp": 14,
-  "outcomes": 56,
-  "capped": 0,
-  "best": {
-   "gap": -2.798,
-   "ev_pct": 0.2,
-   "threshold_pct": 3.0,
-   "price": 1.19,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Carlos Alcaraz @ Alex Michelsen",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-04T04:30:34.292720+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1318,6 +1300,24 @@
   "markets": 3,
   "markets_sharp": 1,
   "outcomes": 8,
+  "capped": 0,
+  "best": {
+   "gap": -1.011,
+   "ev_pct": 1.99,
+   "threshold_pct": 3.0,
+   "price": 1.66,
+   "outcome": "Nelson Asofa-Solomona",
+   "book": "SportsBet",
+   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-06T04:00:48.256020+00:00",
+  "markets": 8,
+  "markets_sharp": 6,
+  "outcomes": 28,
   "capped": 0,
   "best": {
    "gap": -1.011,
