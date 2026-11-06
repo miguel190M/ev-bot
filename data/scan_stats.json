@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-04T00:00:49.958069+00:00",
-  "markets": 17,
-  "markets_sharp": 11,
-  "outcomes": 64,
-  "capped": 0,
-  "best": {
-   "gap": -2.165,
-   "ev_pct": -0.26,
-   "threshold_pct": 1.9,
-   "price": 1.45,
-   "outcome": "Jan-Lennard Struff",
-   "book": "Betfair",
-   "matchup": "Jan-Lennard Struff @ Thiago Agustin Tirante",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-04T00:30:34.637252+00:00",
   "markets": 1,
   "markets_sharp": 0,
@@ -1310,6 +1292,24 @@
    "book": "Betfair",
    "matchup": "UTSA Roadrunners @ Florida Atlantic Owls",
    "sport_key": "americanfootball_ncaaf",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-06T00:00:50.390569+00:00",
+  "markets": 28,
+  "markets_sharp": 12,
+  "outcomes": 77,
+  "capped": 9,
+  "best": {
+   "gap": 0.571,
+   "ev_pct": 3.57,
+   "threshold_pct": 3.0,
+   "price": 2.75,
+   "outcome": "Paul Gallen",
+   "book": "SportsBet",
+   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
