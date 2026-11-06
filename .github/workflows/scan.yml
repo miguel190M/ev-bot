@@ -44,4 +44,16 @@ jobs:
           git config user.email "ev-bot@users.noreply.github.com"
           git add data/
           git diff --staged --quiet || git commit -m "Update EV state [skip ci]"
-          git push
+          # GitHub occasionally answers a push with a 500 (not our bug). Retry a few
+          # times so a one-off outage doesn't lose the run's state (alerted picks,
+          # Telegram offset), which would cause duplicate alerts on the next run.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "git push failed (attempt $attempt of 5), retrying..."
+            sleep $((attempt * 10))
+            git pull --rebase -X theirs || git rebase --abort
+          done
+          echo "git push failed after 5 attempts"
+          exit 1
