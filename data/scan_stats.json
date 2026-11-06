@@ -1330,5 +1330,23 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-06T09:30:36.383424+00:00",
+  "markets": 2,
+  "markets_sharp": 1,
+  "outcomes": 9,
+  "capped": 0,
+  "best": {
+   "gap": 3.433,
+   "ev_pct": 6.43,
+   "threshold_pct": 3.0,
+   "price": 1.73,
+   "outcome": "Nelson Asofa-Solomona",
+   "book": "SportsBet",
+   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
