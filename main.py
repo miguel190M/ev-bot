@@ -145,6 +145,11 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
             all_opportunities.extend(ev_calculator.find_positive_ev(event, run_stats))
 
     _save_far_scan_state(far_scan_state)
+    capped_picks = run_stats.pop("capped_picks", [])
+    try:
+        scan_stats.record_suppressed(capped_picks)
+    except Exception as e:
+        print(f"Could not record suppressed picks: {e}")
     try:
         scan_stats.record_run(run_stats)
     except Exception as e:
@@ -278,6 +283,9 @@ def process_commands(candidates: dict, bet_ledger: dict):
                     f"✏️ [{bid}] {bet['outcome']}: price {old_price} → {new_price}; "
                     f"edge now {bet['ev_pct']:+.1f}%.{extra}")
                 print(f"    -> Corrected price on {bid}: {old_price} -> {new_price}")
+        elif telegram_commands.is_suppressed_command(text):
+            telegram_commands.send_message(scan_stats.suppressed_report())
+            print("    -> Replied with suppressed picks")
         elif telegram_commands.is_record_command(text):
             telegram_commands.send_message(breakdown.record(bet_ledger))
             print("    -> Replied with record by sport")
