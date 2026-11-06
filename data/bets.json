@@ -1125,6 +1125,7 @@
     "lead_hours": 24.0,
     "logged_at": "2026-11-05T12:30:33.415189+00:00",
     "closing_fair_odds": 1.175,
-    "closing_captured_at": "2026-11-06T08:30:39.193563+00:00"
+    "closing_captured_at": "2026-11-06T08:30:39.193563+00:00",
+    "settle_reminded_at": "2026-11-06T20:01:06.345785+00:00"
   }
 }

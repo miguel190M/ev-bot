@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-04T20:00:52.620936+00:00",
-  "markets": 29,
-  "markets_sharp": 26,
-  "outcomes": 114,
-  "capped": 0,
-  "best": {
-   "gap": 1.562,
-   "ev_pct": 4.56,
-   "threshold_pct": 3.0,
-   "price": 3.9,
-   "outcome": "Arthur Rinderknech",
-   "book": "SportsBet",
-   "matchup": "Arthur Rinderknech @ Ben Shelton",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-04T20:30:38.263572+00:00",
   "markets": 6,
   "markets_sharp": 4,
@@ -1364,6 +1346,24 @@
    "book": "Betfair",
    "matchup": "Rinky Hijikata @ Luca Van Assche",
    "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-06T20:01:04.922029+00:00",
+  "markets": 97,
+  "markets_sharp": 52,
+  "outcomes": 277,
+  "capped": 29,
+  "best": {
+   "gap": 10.104,
+   "ev_pct": 13.1,
+   "threshold_pct": 3.0,
+   "price": 3.1,
+   "outcome": "Adan Palma",
+   "book": "SportsBet",
+   "matchup": "Adan Palma @ Masood Abdulah",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }

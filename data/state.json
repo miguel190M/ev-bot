@@ -1,1 +1,10 @@
-{}
+{
+  "5ae3d2de14c984a6c1c468ed50c0820a:sportsbet:Adan Palma": {
+    "ev_pct": 13.1,
+    "commence_time": "2026-11-07T16:30:00Z"
+  },
+  "ce9a50732e758d106db86cc17f7d5a60:sportsbet:Umut Camkiran": {
+    "ev_pct": 12.12,
+    "commence_time": "2026-11-07T19:00:00Z"
+  }
+}
