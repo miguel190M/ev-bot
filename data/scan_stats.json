@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-04T12:30:40.050694+00:00",
-  "markets": 12,
-  "markets_sharp": 11,
-  "outcomes": 46,
-  "capped": 0,
-  "best": {
-   "gap": 2.694,
-   "ev_pct": 8.09,
-   "threshold_pct": 5.4,
-   "price": 3.2,
-   "outcome": "Zimbabwe",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-04T13:01:00.509268+00:00",
   "markets": 12,
   "markets_sharp": 11,
@@ -1364,6 +1346,24 @@
    "book": "Betfair",
    "matchup": "India @ New Zealand",
    "sport_key": "cricket_odi",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-06T12:30:44.244896+00:00",
+  "markets": 7,
+  "markets_sharp": 7,
+  "outcomes": 28,
+  "capped": 0,
+  "best": {
+   "gap": -3.443,
+   "ev_pct": -0.44,
+   "threshold_pct": 3.0,
+   "price": 1.37,
+   "outcome": "Carlos Alcaraz",
+   "book": "SportsBet",
+   "matchup": "Carlos Alcaraz @ Taylor Fritz",
+   "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
  }
