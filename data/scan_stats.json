@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-04T10:30:39.802330+00:00",
-  "markets": 23,
-  "markets_sharp": 22,
-  "outcomes": 108,
-  "capped": 0,
-  "best": {
-   "gap": 0.038,
-   "ev_pct": 3.04,
-   "threshold_pct": 3.0,
-   "price": 12.5,
-   "outcome": "AEK Athens",
-   "book": "SportsBet",
-   "matchup": "Real Madrid @ AEK Athens",
-   "sport_key": "soccer_uefa_champs_league",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-04T11:16:09.774161+00:00",
   "markets": 12,
   "markets_sharp": 12,
@@ -1364,6 +1346,24 @@
    "book": "SportsBet",
    "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-06T11:00:47.904621+00:00",
+  "markets": 7,
+  "markets_sharp": 5,
+  "outcomes": 26,
+  "capped": 0,
+  "best": {
+   "gap": -3.466,
+   "ev_pct": -0.47,
+   "threshold_pct": 3.0,
+   "price": 1.73,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_odi",
    "anchor": "pinnacle"
   }
  }
