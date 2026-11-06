@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-04T22:00:51.194239+00:00",
-  "markets": 20,
-  "markets_sharp": 19,
-  "outcomes": 78,
-  "capped": 0,
-  "best": {
-   "gap": -2.035,
-   "ev_pct": 0.96,
-   "threshold_pct": 3.0,
-   "price": 1.97,
-   "outcome": "Bangladesh",
-   "book": "Betfair",
-   "matchup": "West Indies @ Bangladesh",
-   "sport_key": "cricket_test_match",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-04T22:30:48.217919+00:00",
   "markets": 21,
   "markets_sharp": 17,
@@ -1364,6 +1346,24 @@
    "book": "SportsBet",
    "matchup": "San Antonio Spurs @ Sacramento Kings",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-06T22:00:54.621386+00:00",
+  "markets": 89,
+  "markets_sharp": 45,
+  "outcomes": 264,
+  "capped": 27,
+  "best": {
+   "gap": 9.115,
+   "ev_pct": 12.12,
+   "threshold_pct": 3.0,
+   "price": 2.8,
+   "outcome": "Umut Camkiran",
+   "book": "SportsBet",
+   "matchup": "Umut Camkiran @ Mourad Aliev",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }

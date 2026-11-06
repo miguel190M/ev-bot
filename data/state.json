@@ -22,5 +22,13 @@
   "d71c3399ff6d6273a49d9d47614a296e:sportsbet:Denzel Bentley": {
     "ev_pct": 4.59,
     "commence_time": "2026-11-07T21:00:00Z"
+  },
+  "1b9dc04e4e887389a535110f0a8d002a:betfair_ex_au:Chris Billam-Smith": {
+    "ev_pct": 4.53,
+    "commence_time": "2026-11-07T22:00:00Z"
+  },
+  "0a9dd7121c9b60b7f15c73112f438bf3:sportsbet:Willy Hutchinson": {
+    "ev_pct": 6.0,
+    "commence_time": "2026-11-07T22:00:00Z"
   }
 }
