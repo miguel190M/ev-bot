@@ -1366,5 +1366,23 @@
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-06T13:00:48.263236+00:00",
+  "markets": 38,
+  "markets_sharp": 15,
+  "outcomes": 86,
+  "capped": 13,
+  "best": {
+   "gap": -2.923,
+   "ev_pct": -1.92,
+   "threshold_pct": 1.0,
+   "price": 1.0,
+   "outcome": "Villanova Wildcats",
+   "book": "SportsBet",
+   "matchup": "Holy Cross Crusaders @ Villanova Wildcats",
+   "sport_key": "basketball_ncaab",
+   "anchor": "retail_consensus"
+  }
  }
 ]
