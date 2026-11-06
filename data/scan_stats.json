@@ -1366,5 +1366,23 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-06T22:30:41.590512+00:00",
+  "markets": 9,
+  "markets_sharp": 9,
+  "outcomes": 36,
+  "capped": 0,
+  "best": {
+   "gap": -4.269,
+   "ev_pct": -1.27,
+   "threshold_pct": 3.0,
+   "price": 1.1,
+   "outcome": "San Antonio Spurs",
+   "book": "Betfair",
+   "matchup": "San Antonio Spurs @ Sacramento Kings",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
