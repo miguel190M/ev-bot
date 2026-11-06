@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-04T20:30:38.263572+00:00",
-  "markets": 6,
-  "markets_sharp": 4,
-  "outcomes": 24,
-  "capped": 0,
-  "best": {
-   "gap": 1.562,
-   "ev_pct": 4.56,
-   "threshold_pct": 3.0,
-   "price": 3.9,
-   "outcome": "Arthur Rinderknech",
-   "book": "SportsBet",
-   "matchup": "Arthur Rinderknech @ Ben Shelton",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-04T21:00:54.375407+00:00",
-  "markets": 19,
-  "markets_sharp": 18,
-  "outcomes": 74,
-  "capped": 0,
-  "best": {
-   "gap": -0.546,
-   "ev_pct": 2.45,
-   "threshold_pct": 3.0,
-   "price": 2.0,
-   "outcome": "Bangladesh",
-   "book": "Betfair",
-   "matchup": "West Indies @ Bangladesh",
-   "sport_key": "cricket_test_match",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-04T21:30:37.186686+00:00",
   "markets": 19,
   "markets_sharp": 17,
@@ -1382,6 +1346,24 @@
    "book": "Betfair",
    "matchup": "Nuno Borges @ Casper Ruud",
    "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-06T21:00:55.956209+00:00",
+  "markets": 29,
+  "markets_sharp": 17,
+  "outcomes": 116,
+  "capped": 6,
+  "best": {
+   "gap": 10.104,
+   "ev_pct": 13.1,
+   "threshold_pct": 3.0,
+   "price": 3.1,
+   "outcome": "Adan Palma",
+   "book": "SportsBet",
+   "matchup": "Adan Palma @ Masood Abdulah",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }

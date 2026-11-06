@@ -6,5 +6,21 @@
   "ce9a50732e758d106db86cc17f7d5a60:sportsbet:Umut Camkiran": {
     "ev_pct": 12.12,
     "commence_time": "2026-11-07T19:00:00Z"
+  },
+  "c17e677a74f6aaee02dd7909602237d7:betfair_ex_au:Gully Powar": {
+    "ev_pct": 4.7,
+    "commence_time": "2026-11-07T20:00:00Z"
+  },
+  "581c011a5fe7f73d1945c808f7d377fe:betfair_ex_au:Ezra Taylor": {
+    "ev_pct": 4.9,
+    "commence_time": "2026-11-07T21:00:00Z"
+  },
+  "581c011a5fe7f73d1945c808f7d377fe:sportsbet:Ezra Taylor": {
+    "ev_pct": 8.65,
+    "commence_time": "2026-11-07T21:00:00Z"
+  },
+  "d71c3399ff6d6273a49d9d47614a296e:sportsbet:Denzel Bentley": {
+    "ev_pct": 4.59,
+    "commence_time": "2026-11-07T21:00:00Z"
   }
 }
