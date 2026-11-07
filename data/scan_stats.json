@@ -1460,5 +1460,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-07T23:30:37.314693+00:00",
+  "markets": 21,
+  "markets_sharp": 20,
+  "outcomes": 83,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 3.86,
+   "ev_pct": 6.86,
+   "threshold_pct": 3.0,
+   "price": 2.55,
+   "outcome": "Shera Mae Patricio",
+   "book": "SportsBet",
+   "matchup": "Shera Mae Patricio @ Brittany Sims",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
