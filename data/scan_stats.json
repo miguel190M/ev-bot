@@ -1407,5 +1407,24 @@
    "sport_key": "cricket_odi",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-07T01:30:38.046611+00:00",
+  "markets": 17,
+  "markets_sharp": 15,
+  "outcomes": 58,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -0.434,
+   "ev_pct": 2.93,
+   "threshold_pct": 3.36,
+   "price": 2.18,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Zimbabwe @ Afghanistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
  }
 ]
