@@ -1402,5 +1402,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-07T08:00:48.557780+00:00",
+  "markets": 43,
+  "markets_sharp": 34,
+  "outcomes": 174,
+  "capped": 6,
+  "flagged": 0,
+  "best": {
+   "gap": 6.356,
+   "ev_pct": 9.36,
+   "threshold_pct": 3.0,
+   "price": 1.53,
+   "outcome": "Abraham R Perez",
+   "book": "SportsBet",
+   "matchup": "Yankiel Rivera Figueroa @ Abraham R Perez",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
