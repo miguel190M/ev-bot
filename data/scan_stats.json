@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-05T03:01:01.237514+00:00",
-  "markets": 4,
-  "markets_sharp": 3,
-  "outcomes": 14,
-  "capped": 0,
-  "best": {
-   "gap": -3.459,
-   "ev_pct": -0.46,
-   "threshold_pct": 3.0,
-   "price": 2.88,
-   "outcome": "West Indies",
-   "book": "Betfair",
-   "matchup": "West Indies @ Bangladesh",
-   "sport_key": "cricket_test_match",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-05T03:30:38.297946+00:00",
   "markets": 10,
   "markets_sharp": 9,
@@ -1410,6 +1392,25 @@
    "matchup": "Umut Camkiran @ Mourad Aliev",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-07T03:30:37.027355+00:00",
+  "markets": 6,
+  "markets_sharp": 5,
+  "outcomes": 29,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -0.434,
+   "ev_pct": 2.93,
+   "threshold_pct": 3.36,
+   "price": 2.18,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Zimbabwe @ Afghanistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
