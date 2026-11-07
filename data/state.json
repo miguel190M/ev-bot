@@ -42,5 +42,13 @@
   "fe97f5adf397dd6b0a8a9e0a5272f307:betfair_ex_au:FSV Mainz 05": {
     "ev_pct": 6.92,
     "commence_time": "2026-11-07T14:30:00Z"
+  },
+  "e5d355d9eece24778d92d2202bba05e1:sportsbet:Abraham R Perez": {
+    "ev_pct": 11.91,
+    "commence_time": "2026-11-08T03:45:00Z"
+  },
+  "6ba062b6bf32fbb683b591d71f12df4d:sportsbet:Adelaide 36ers": {
+    "ev_pct": 3.18,
+    "commence_time": "2026-11-07T06:30:00Z"
   }
 }

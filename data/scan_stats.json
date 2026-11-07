@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-05T03:30:38.297946+00:00",
-  "markets": 10,
-  "markets_sharp": 9,
-  "outcomes": 39,
-  "capped": 0,
-  "best": {
-   "gap": -3.868,
-   "ev_pct": -0.87,
-   "threshold_pct": 3.0,
-   "price": 1.2,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Carlos Alcaraz @ Matteo Berrettini",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-05T04:00:48.425597+00:00",
   "markets": 1,
   "markets_sharp": 0,
@@ -1411,6 +1393,25 @@
    "matchup": "Zimbabwe @ Afghanistan",
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-07T04:00:47.425960+00:00",
+  "markets": 46,
+  "markets_sharp": 35,
+  "outcomes": 184,
+  "capped": 6,
+  "flagged": 0,
+  "best": {
+   "gap": 15.115,
+   "ev_pct": 18.11,
+   "threshold_pct": 3.0,
+   "price": 2.8,
+   "outcome": "Umut Camkiran",
+   "book": "SportsBet",
+   "matchup": "Umut Camkiran @ Mourad Aliev",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
   }
  }
 ]
