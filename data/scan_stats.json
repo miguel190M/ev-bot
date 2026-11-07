@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-05T11:30:37.342072+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 28,
-  "capped": 0,
-  "best": {
-   "gap": -2.297,
-   "ev_pct": 0.7,
-   "threshold_pct": 3.0,
-   "price": 1.62,
-   "outcome": "Nuno Borges",
-   "book": "SportsBet",
-   "matchup": "Ignacio Buse @ Nuno Borges",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-05T12:00:51.782571+00:00",
-  "markets": 9,
-  "markets_sharp": 7,
-  "outcomes": 31,
-  "capped": 0,
-  "best": {
-   "gap": 12.52,
-   "ev_pct": 15.52,
-   "threshold_pct": 3.0,
-   "price": 1.84,
-   "outcome": "Nelson Asofa-Solomona",
-   "book": "SportsBet",
-   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-05T12:30:37.832321+00:00",
   "markets": 15,
   "markets_sharp": 15,
@@ -1446,6 +1410,25 @@
    "book": "Betfair",
    "matchup": "Wolverhampton Wanderers @ Wrexham AFC",
    "sport_key": "soccer_efl_champ",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-07T12:00:56.133216+00:00",
+  "markets": 45,
+  "markets_sharp": 35,
+  "outcomes": 185,
+  "capped": 6,
+  "flagged": 0,
+  "best": {
+   "gap": 10.61,
+   "ev_pct": 13.61,
+   "threshold_pct": 3.0,
+   "price": 2.6,
+   "outcome": "Umut Camkiran",
+   "book": "SportsBet",
+   "matchup": "Umut Camkiran @ Mourad Aliev",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
