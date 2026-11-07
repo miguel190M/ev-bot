@@ -139,6 +139,7 @@ THROTTLED_SPORTS = {
     "americanfootball_nfl", "baseball_mlb", "icehockey_nhl", "soccer_epl",
     "soccer_spain_la_liga", "soccer_italy_serie_a", "soccer_germany_bundesliga",
     "soccer_uefa_champs_league", "soccer_usa_mls",
+    "soccer_efl_champ",   # lots of games a week; slowed like the other soccer leagues
     "americanfootball_ncaaf", "basketball_ncaab",   # trial sports: slowed after they pushed burn to ~480/day
 }
 THROTTLED_NEAR_INTERVAL_MINUTES = float(os.environ.get("THROTTLED_NEAR_INTERVAL_MINUTES", "120"))
@@ -226,12 +227,14 @@ FIXED_SPORTS = [
     "basketball_ncaab",
     "soccer_usa_mls",
     "basketball_nbl",   # Australian NBL (Oct-Mar); local market, scanned every run
+    "basketball_euroleague",   # Pinnacle prices it sharply; plays midweek when NBA/AFL are quiet
+    "soccer_efl_champ",        # English Championship - softer AU lines than the EPL
 ]
 
 # Sport groups (as listed by The Odds API /sports) whose in-season competitions
 # are discovered each run instead of hard-coded: tennis (one key per
 # tournament) and cricket (one key per competition: tests, ODIs, T20s, BBL...).
-DISCOVERED_GROUPS = ("Tennis", "Cricket")
+DISCOVERED_GROUPS = ("Tennis", "Cricket", "Rugby Union")   # rugby union: Tests, Super Rugby etc. as they come into season
 
 # Sports whose results can't be read automatically from the Odds API scores
 # endpoint (no scores for combat sports; cricket scores are "250/6", not a

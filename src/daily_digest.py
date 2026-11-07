@@ -39,6 +39,8 @@ SPORT_LABELS = {
     "basketball_ncaab": "NCAAB",
     "soccer_usa_mls": "MLS",
     "basketball_nbl": "NBL",
+    "basketball_euroleague": "Euroleague",
+    "soccer_efl_champ": "Championship",
 }
 
 
@@ -47,6 +49,8 @@ def _sport_label(sport_key: str) -> str:
         return "Tennis " + sport_key.split("_", 2)[-1].replace("_", " ").title()
     if sport_key.startswith("cricket_"):
         return "Cricket " + sport_key.split("_", 1)[-1].replace("_", " ").title()
+    if sport_key.startswith("rugbyunion_"):
+        return "Rugby Union " + sport_key.split("_", 1)[-1].replace("_", " ").title()
     return SPORT_LABELS.get(sport_key, sport_key)
 
 

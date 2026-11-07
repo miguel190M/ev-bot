@@ -24,7 +24,8 @@ def get_discovered_sport_keys() -> list[str]:
     cricket competitions), each its own sport key."""
     sports = get_active_sports()
     return [s["key"] for s in sports
-            if s.get("group") in config.DISCOVERED_GROUPS and s.get("active")]
+            if s.get("group") in config.DISCOVERED_GROUPS and s.get("active")
+            and not s["key"].endswith("_winner")]   # outright-winner markets have no head-to-head events
 
 
 def get_sports_to_scan() -> list[str]:
