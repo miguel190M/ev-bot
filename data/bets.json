@@ -1180,7 +1180,7 @@
     "lead_hours": 24.0,
     "logged_at": "2026-11-06T21:30:34.062341+00:00",
     "closing_fair_odds": 1.917,
-    "closing_captured_at": "2026-11-07T17:30:31.485984+00:00"
+    "closing_captured_at": "2026-11-07T17:47:46.619618+00:00"
   },
   "6304": {
     "event_id": "d71c3399ff6d6273a49d9d47614a296e",
@@ -1205,7 +1205,7 @@
     "lead_hours": 24.0,
     "logged_at": "2026-11-06T21:30:34.615063+00:00",
     "closing_fair_odds": 1.635,
-    "closing_captured_at": "2026-11-07T17:30:31.485984+00:00"
+    "closing_captured_at": "2026-11-07T17:47:46.619618+00:00"
   },
   "815c": {
     "event_id": "c17e677a74f6aaee02dd7909602237d7",
@@ -1229,8 +1229,8 @@
     "alerted_at": "2026-11-06T21:00:55.957436+00:00",
     "lead_hours": 23.0,
     "logged_at": "2026-11-06T21:30:35.755218+00:00",
-    "closing_fair_odds": 1.892,
-    "closing_captured_at": "2026-11-07T17:30:31.485984+00:00"
+    "closing_fair_odds": 2.05,
+    "closing_captured_at": "2026-11-07T17:47:46.619618+00:00"
   },
   "9b92": {
     "event_id": "0a9dd7121c9b60b7f15c73112f438bf3",
@@ -1255,7 +1255,7 @@
     "lead_hours": 24.0,
     "logged_at": "2026-11-06T22:30:35.017285+00:00",
     "closing_fair_odds": 1.721,
-    "closing_captured_at": "2026-11-07T17:30:31.485984+00:00"
+    "closing_captured_at": "2026-11-07T17:47:46.619618+00:00"
   },
   "3e25": {
     "event_id": "1b9dc04e4e887389a535110f0a8d002a",
@@ -1280,7 +1280,7 @@
     "lead_hours": 24.0,
     "logged_at": "2026-11-06T22:48:58.393976+00:00",
     "closing_fair_odds": 1.286,
-    "closing_captured_at": "2026-11-07T17:30:31.485984+00:00"
+    "closing_captured_at": "2026-11-07T17:47:46.619618+00:00"
   },
   "3ddfbc": {
     "event_id": "ce9a50732e758d106db86cc17f7d5a60",
@@ -1331,8 +1331,8 @@
     "alerted_at": "2026-11-06T23:01:01.364258+00:00",
     "lead_hours": 21.0,
     "logged_at": "2026-11-07T01:30:31.672948+00:00",
-    "closing_fair_odds": 2.121,
-    "closing_captured_at": "2026-11-07T17:30:31.485984+00:00"
+    "closing_fair_odds": 1.952,
+    "closing_captured_at": "2026-11-07T17:47:46.619618+00:00"
   },
   "8550": {
     "event_id": "967163712cb0ff614044880ce488da94",
@@ -1358,7 +1358,7 @@
     "lead_hours": 16.0,
     "logged_at": "2026-11-07T02:30:31.911685+00:00",
     "closing_fair_odds": 1.454,
-    "closing_captured_at": "2026-11-07T17:30:31.485984+00:00"
+    "closing_captured_at": "2026-11-07T17:47:46.619618+00:00"
   },
   "aca8": {
     "event_id": "e5d355d9eece24778d92d2202bba05e1",
@@ -1384,7 +1384,7 @@
     "lead_hours": 23.7,
     "logged_at": "2026-11-07T05:30:32.695637+00:00",
     "closing_fair_odds": 1.393,
-    "closing_captured_at": "2026-11-07T17:30:31.485984+00:00"
+    "closing_captured_at": "2026-11-07T17:47:46.619618+00:00"
   },
   "e315": {
     "event_id": "6ba062b6bf32fbb683b591d71f12df4d",
@@ -1439,7 +1439,7 @@
     "lead_hours": 20.0,
     "logged_at": "2026-11-07T05:30:33.793299+00:00",
     "closing_fair_odds": 1.466,
-    "closing_captured_at": "2026-11-07T17:30:31.485984+00:00"
+    "closing_captured_at": "2026-11-07T17:47:46.619618+00:00"
   },
   "ecc4": {
     "event_id": "4685756447fc5e8f99e98045a9f625ba",
