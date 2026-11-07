@@ -1,59 +1,5 @@
 [
  {
-  "ts": "2026-11-05T01:30:42.125249+00:00",
-  "markets": 16,
-  "markets_sharp": 15,
-  "outcomes": 62,
-  "capped": 0,
-  "best": {
-   "gap": -2.846,
-   "ev_pct": 0.15,
-   "threshold_pct": 3.0,
-   "price": 3.73,
-   "outcome": "Luca Van Assche",
-   "book": "SportsBet",
-   "matchup": "Luca Van Assche @ Lorenzo Musetti",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-05T01:31:57.629246+00:00",
-  "markets": 8,
-  "markets_sharp": 7,
-  "outcomes": 30,
-  "capped": 0,
-  "best": {
-   "gap": -3.307,
-   "ev_pct": -0.31,
-   "threshold_pct": 3.0,
-   "price": 1.2,
-   "outcome": "San Antonio Spurs",
-   "book": "Betfair",
-   "matchup": "Dallas Mavericks @ San Antonio Spurs",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-05T02:00:51.738697+00:00",
-  "markets": 9,
-  "markets_sharp": 8,
-  "outcomes": 34,
-  "capped": 0,
-  "best": {
-   "gap": -3.716,
-   "ev_pct": -1.26,
-   "threshold_pct": 2.46,
-   "price": 1.73,
-   "outcome": "Afghanistan",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-05T02:30:40.663123+00:00",
   "markets": 13,
   "markets_sharp": 12,
@@ -1425,6 +1371,25 @@
    "matchup": "Zimbabwe @ Afghanistan",
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-07T02:00:52.256230+00:00",
+  "markets": 50,
+  "markets_sharp": 36,
+  "outcomes": 189,
+  "capped": 7,
+  "flagged": 0,
+  "best": {
+   "gap": 15.115,
+   "ev_pct": 18.11,
+   "threshold_pct": 3.0,
+   "price": 2.8,
+   "outcome": "Umut Camkiran",
+   "book": "SportsBet",
+   "matchup": "Umut Camkiran @ Mourad Aliev",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
   }
  }
 ]
