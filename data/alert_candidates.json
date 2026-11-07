@@ -425,5 +425,28 @@
     "consensus_probability": 0.377,
     "large_edge": false,
     "alerted_at": "2026-11-07T12:00:56.134658+00:00"
+  },
+  "ae3b8": {
+    "event_id": "967163712cb0ff614044880ce488da94",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-07T17:30:00Z",
+    "home_team": "Zach Parker",
+    "away_team": "Umar Dzambekov",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Zach Parker",
+    "price": 3.5,
+    "commission": 0.0,
+    "fair_probability": 0.2964,
+    "fair_odds": 3.374,
+    "ev_pct": 3.74,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.2964,
+    "consensus_probability": 0.2683,
+    "large_edge": false,
+    "alerted_at": "2026-11-07T13:00:52.227072+00:00"
   }
 }

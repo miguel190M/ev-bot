@@ -1432,5 +1432,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-07T13:00:52.225194+00:00",
+  "markets": 147,
+  "markets_sharp": 111,
+  "outcomes": 555,
+  "capped": 10,
+  "flagged": 0,
+  "best": {
+   "gap": 12.321,
+   "ev_pct": 15.32,
+   "threshold_pct": 3.0,
+   "price": 2.6,
+   "outcome": "Umut Camkiran",
+   "book": "SportsBet",
+   "matchup": "Umut Camkiran @ Mourad Aliev",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
