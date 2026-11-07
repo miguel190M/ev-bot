@@ -38,5 +38,9 @@
   "967163712cb0ff614044880ce488da94:betfair_ex_au:Umar Dzambekov": {
     "ev_pct": 3.3,
     "commence_time": "2026-11-07T18:00:00Z"
+  },
+  "fe97f5adf397dd6b0a8a9e0a5272f307:betfair_ex_au:FSV Mainz 05": {
+    "ev_pct": 6.92,
+    "commence_time": "2026-11-07T14:30:00Z"
   }
 }

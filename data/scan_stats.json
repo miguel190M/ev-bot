@@ -1391,5 +1391,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-07T02:30:34.877357+00:00",
+  "markets": 11,
+  "markets_sharp": 9,
+  "outcomes": 56,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 3.915,
+   "ev_pct": 6.92,
+   "threshold_pct": 3.0,
+   "price": 9.0,
+   "outcome": "FSV Mainz 05",
+   "book": "Betfair",
+   "matchup": "Bayern Munich @ FSV Mainz 05",
+   "sport_key": "soccer_germany_bundesliga",
+   "anchor": "pinnacle"
+  }
  }
 ]
