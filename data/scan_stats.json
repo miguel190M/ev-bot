@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-05T22:30:34.822447+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 4,
-  "capped": 0,
-  "best": {
-   "gap": -2.819,
-   "ev_pct": 0.18,
-   "threshold_pct": 3.0,
-   "price": 1.25,
-   "outcome": "Jacksonville Jaguars",
-   "book": "Betfair",
-   "matchup": "Jacksonville Jaguars @ Baltimore Ravens",
-   "sport_key": "americanfootball_nfl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-05T23:00:47.207866+00:00",
   "markets": 8,
   "markets_sharp": 4,
@@ -1445,6 +1427,25 @@
   "markets": 26,
   "markets_sharp": 24,
   "outcomes": 101,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 1.683,
+   "ev_pct": 3.8,
+   "threshold_pct": 2.12,
+   "price": 1.56,
+   "outcome": "Pryce Taylor",
+   "book": "SportsBet",
+   "matchup": "Tsotne Rogava @ Pryce Taylor",
+   "sport_key": "boxing_boxing",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-07T22:30:40.181016+00:00",
+  "markets": 22,
+  "markets_sharp": 21,
+  "outcomes": 83,
   "capped": 0,
   "flagged": 0,
   "best": {
