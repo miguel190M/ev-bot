@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-05T06:30:40.389234+00:00",
-  "markets": 9,
-  "markets_sharp": 9,
-  "outcomes": 36,
-  "capped": 0,
-  "best": {
-   "gap": -3.868,
-   "ev_pct": -0.87,
-   "threshold_pct": 3.0,
-   "price": 1.2,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Carlos Alcaraz @ Matteo Berrettini",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-05T07:00:46.823045+00:00",
   "markets": 10,
   "markets_sharp": 10,
@@ -1405,6 +1387,25 @@
   "markets": 34,
   "markets_sharp": 24,
   "outcomes": 161,
+  "capped": 6,
+  "flagged": 0,
+  "best": {
+   "gap": 6.356,
+   "ev_pct": 9.36,
+   "threshold_pct": 3.0,
+   "price": 1.53,
+   "outcome": "Abraham R Perez",
+   "book": "SportsBet",
+   "matchup": "Yankiel Rivera Figueroa @ Abraham R Perez",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-07T07:00:45.122514+00:00",
+  "markets": 44,
+  "markets_sharp": 34,
+  "outcomes": 177,
   "capped": 6,
   "flagged": 0,
   "best": {
