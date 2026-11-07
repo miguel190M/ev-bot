@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-05T21:00:51.402009+00:00",
-  "markets": 8,
-  "markets_sharp": 4,
-  "outcomes": 29,
-  "capped": 0,
-  "best": {
-   "gap": 0.571,
-   "ev_pct": 3.57,
-   "threshold_pct": 3.0,
-   "price": 2.75,
-   "outcome": "Paul Gallen",
-   "book": "SportsBet",
-   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-05T21:30:39.052946+00:00",
-  "markets": 13,
-  "markets_sharp": 13,
-  "outcomes": 52,
-  "capped": 0,
-  "best": {
-   "gap": -4.584,
-   "ev_pct": -1.58,
-   "threshold_pct": 3.0,
-   "price": 1.39,
-   "outcome": "UTSA Roadrunners",
-   "book": "Betfair",
-   "matchup": "UTSA Roadrunners @ Florida Atlantic Owls",
-   "sport_key": "americanfootball_ncaaf",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-05T22:00:49.526802+00:00",
   "markets": 50,
   "markets_sharp": 26,
@@ -1449,6 +1413,25 @@
    "ev_pct": 3.97,
    "threshold_pct": 3.0,
    "price": 1.84,
+   "outcome": "Willy Hutchinson",
+   "book": "Betfair",
+   "matchup": "Willy Hutchinson @ Joshua Buatsi",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-07T21:30:41.370184+00:00",
+  "markets": 27,
+  "markets_sharp": 26,
+  "outcomes": 103,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 2.186,
+   "ev_pct": 5.19,
+   "threshold_pct": 3.0,
+   "price": 1.85,
    "outcome": "Willy Hutchinson",
    "book": "Betfair",
    "matchup": "Willy Hutchinson @ Joshua Buatsi",
