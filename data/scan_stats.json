@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-05T11:14:38.666475+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 28,
-  "capped": 0,
-  "best": {
-   "gap": -2.297,
-   "ev_pct": 0.7,
-   "threshold_pct": 3.0,
-   "price": 1.62,
-   "outcome": "Nuno Borges",
-   "book": "SportsBet",
-   "matchup": "Ignacio Buse @ Nuno Borges",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-05T11:30:37.342072+00:00",
   "markets": 7,
   "markets_sharp": 7,
@@ -1445,6 +1427,25 @@
    "book": "SportsBet",
    "matchup": "Yankiel Rivera Figueroa @ Abraham R Perez",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-07T11:30:35.687942+00:00",
+  "markets": 22,
+  "markets_sharp": 22,
+  "outcomes": 128,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.666,
+   "ev_pct": 0.33,
+   "threshold_pct": 3.0,
+   "price": 2.2,
+   "outcome": "Wolverhampton Wanderers",
+   "book": "Betfair",
+   "matchup": "Wolverhampton Wanderers @ Wrexham AFC",
+   "sport_key": "soccer_efl_champ",
    "anchor": "pinnacle"
   }
  }
