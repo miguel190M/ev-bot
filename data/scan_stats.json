@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-05T02:30:40.663123+00:00",
-  "markets": 13,
-  "markets_sharp": 12,
-  "outcomes": 50,
-  "capped": 0,
-  "best": {
-   "gap": -3.344,
-   "ev_pct": -0.34,
-   "threshold_pct": 3.0,
-   "price": 1.2,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Carlos Alcaraz @ Matteo Berrettini",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-05T03:01:01.237514+00:00",
   "markets": 4,
   "markets_sharp": 3,
@@ -1408,6 +1390,25 @@
    "book": "Betfair",
    "matchup": "Bayern Munich @ FSV Mainz 05",
    "sport_key": "soccer_germany_bundesliga",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-07T03:00:50.685570+00:00",
+  "markets": 46,
+  "markets_sharp": 34,
+  "outcomes": 183,
+  "capped": 6,
+  "flagged": 0,
+  "best": {
+   "gap": 15.115,
+   "ev_pct": 18.11,
+   "threshold_pct": 3.0,
+   "price": 2.8,
+   "outcome": "Umut Camkiran",
+   "book": "SportsBet",
+   "matchup": "Umut Camkiran @ Mourad Aliev",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
