@@ -1445,5 +1445,24 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-07T10:30:34.700803+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 14,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.993,
+   "ev_pct": 0.01,
+   "threshold_pct": 3.0,
+   "price": 4.1,
+   "outcome": "Luca Van Assche",
+   "book": "SportsBet",
+   "matchup": "Ben Shelton @ Luca Van Assche",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
  }
 ]
