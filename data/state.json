@@ -1,12 +1,4 @@
 {
-  "1b9dc04e4e887389a535110f0a8d002a:betfair_ex_au:Chris Billam-Smith": {
-    "ev_pct": 4.53,
-    "commence_time": "2026-11-07T22:00:00Z"
-  },
-  "0a9dd7121c9b60b7f15c73112f438bf3:sportsbet:Willy Hutchinson": {
-    "ev_pct": 6.0,
-    "commence_time": "2026-11-07T22:00:00Z"
-  },
   "e5d355d9eece24778d92d2202bba05e1:sportsbet:Abraham R Perez": {
     "ev_pct": 11.91,
     "commence_time": "2026-11-08T03:45:00Z"
@@ -18,5 +10,9 @@
   "4685756447fc5e8f99e98045a9f625ba:betfair_ex_au:Draw": {
     "ev_pct": 5.04,
     "commence_time": "2026-11-08T03:30:00Z"
+  },
+  "6faeaee3bdf2a167eb67f93c44d3ef37:sportsbet:Washington Wizards": {
+    "ev_pct": 3.73,
+    "commence_time": "2026-11-08T01:10:00Z"
   }
 }

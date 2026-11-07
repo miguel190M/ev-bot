@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-05T22:00:49.526802+00:00",
-  "markets": 50,
-  "markets_sharp": 26,
-  "outcomes": 123,
-  "capped": 12,
-  "best": {
-   "gap": 0.571,
-   "ev_pct": 3.57,
-   "threshold_pct": 3.0,
-   "price": 2.75,
-   "outcome": "Paul Gallen",
-   "book": "SportsBet",
-   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-05T22:30:34.822447+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1437,6 +1419,25 @@
    "matchup": "Willy Hutchinson @ Joshua Buatsi",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-07T22:00:52.257044+00:00",
+  "markets": 90,
+  "markets_sharp": 79,
+  "outcomes": 318,
+  "capped": 2,
+  "flagged": 0,
+  "best": {
+   "gap": 2.025,
+   "ev_pct": 4.15,
+   "threshold_pct": 2.12,
+   "price": 1.56,
+   "outcome": "Pryce Taylor",
+   "book": "SportsBet",
+   "matchup": "Tsotne Rogava @ Pryce Taylor",
+   "sport_key": "boxing_boxing",
+   "anchor": "retail_consensus"
   }
  }
 ]

@@ -448,5 +448,28 @@
     "consensus_probability": 0.2683,
     "large_edge": false,
     "alerted_at": "2026-11-07T13:00:52.227072+00:00"
+  },
+  "47a6": {
+    "event_id": "6faeaee3bdf2a167eb67f93c44d3ef37",
+    "sport_key": "basketball_nba",
+    "commence_time": "2026-11-08T01:10:00Z",
+    "home_team": "Oklahoma City Thunder",
+    "away_team": "Washington Wizards",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Washington Wizards",
+    "price": 5.8,
+    "commission": 0.0,
+    "fair_probability": 0.1788,
+    "fair_odds": 5.592,
+    "ev_pct": 3.73,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.1788,
+    "consensus_probability": 0.1707,
+    "large_edge": false,
+    "alerted_at": "2026-11-07T22:00:52.258554+00:00"
   }
 }
