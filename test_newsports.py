@@ -76,6 +76,28 @@ def test_normal_sport_still_fetches_scores():
     assert gs.call_count == 1
 
 
+def test_euroleague_championship_and_rugby_union():
+    for k in ("basketball_euroleague", "soccer_efl_champ"):
+        assert k in config.FIXED_SPORTS
+        assert config.get_regions_for_sport(k) == "au,eu" and config.get_markets_for_sport(k) == "h2h"
+    assert config.get_near_interval_minutes("soccer_efl_champ") == 120        # throttled soccer
+    assert config.get_near_interval_minutes("basketball_euroleague") == 0     # every run
+    assert daily_digest._sport_label("basketball_euroleague") == "Euroleague"
+    assert daily_digest._sport_label("soccer_efl_champ") == "Championship"
+    assert daily_digest._sport_label("rugbyunion_internationals") == "Rugby Union Internationals"
+    sports = [
+        {"key": "rugbyunion_internationals", "group": "Rugby Union", "active": True},
+        {"key": "rugbyunion_six_nations", "group": "Rugby Union", "active": False},
+        {"key": "rugbyunion_world_cup_winner", "group": "Rugby Union", "active": True},   # outright market
+        {"key": "rugbyleague_nrl", "group": "Rugby League", "active": True},
+    ]
+    with mock.patch.object(odds_fetcher, "get_active_sports", return_value=sports):
+        keys = odds_fetcher.get_sports_to_scan()
+    assert "rugbyunion_internationals" in keys
+    assert "rugbyunion_six_nations" not in keys and "rugbyunion_world_cup_winner" not in keys
+    assert keys.count("rugbyleague_nrl") == 1
+
+
 if __name__ == "__main__":
     for n, f in list(globals().items()):
         if n.startswith("test_"):
