@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-05T10:00:54.288038+00:00",
-  "markets": 10,
-  "markets_sharp": 8,
-  "outcomes": 38,
-  "capped": 0,
-  "best": {
-   "gap": 8.167,
-   "ev_pct": 11.17,
-   "threshold_pct": 3.0,
-   "price": 1.84,
-   "outcome": "Nelson Asofa-Solomona",
-   "book": "SportsBet",
-   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-05T10:30:35.597647+00:00",
   "markets": 7,
   "markets_sharp": 7,
@@ -1442,6 +1424,25 @@
    "book": "SportsBet",
    "matchup": "Yankiel Rivera Figueroa @ Abraham R Perez",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-07T10:29:13.003625+00:00",
+  "markets": 7,
+  "markets_sharp": 7,
+  "outcomes": 40,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.867,
+   "ev_pct": 0.13,
+   "threshold_pct": 3.0,
+   "price": 1.36,
+   "outcome": "Denver Nuggets",
+   "book": "SportsBet",
+   "matchup": "Denver Nuggets @ Indiana Pacers",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
