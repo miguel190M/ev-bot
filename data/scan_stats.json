@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-05T05:00:45.426050+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 3,
-  "capped": 0,
-  "best": {
-   "gap": -5.206,
-   "ev_pct": -2.81,
-   "threshold_pct": 2.4,
-   "price": 1.7,
-   "outcome": "Afghanistan",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-05T05:30:40.015113+00:00",
   "markets": 10,
   "markets_sharp": 9,
@@ -1412,6 +1394,25 @@
    "outcome": "Abraham R Perez",
    "book": "SportsBet",
    "matchup": "Yankiel Rivera Figueroa @ Abraham R Perez",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-07T05:30:36.254129+00:00",
+  "markets": 28,
+  "markets_sharp": 17,
+  "outcomes": 122,
+  "capped": 6,
+  "flagged": 0,
+  "best": {
+   "gap": 6.678,
+   "ev_pct": 9.68,
+   "threshold_pct": 3.0,
+   "price": 2.6,
+   "outcome": "Umut Camkiran",
+   "book": "SportsBet",
+   "matchup": "Umut Camkiran @ Mourad Aliev",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
