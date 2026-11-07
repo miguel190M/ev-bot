@@ -1439,5 +1439,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-07T22:05:01.911588+00:00",
+  "markets": 26,
+  "markets_sharp": 24,
+  "outcomes": 101,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 1.683,
+   "ev_pct": 3.8,
+   "threshold_pct": 2.12,
+   "price": 1.56,
+   "outcome": "Pryce Taylor",
+   "book": "SportsBet",
+   "matchup": "Tsotne Rogava @ Pryce Taylor",
+   "sport_key": "boxing_boxing",
+   "anchor": "retail_consensus"
+  }
  }
 ]
