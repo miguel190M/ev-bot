@@ -1436,5 +1436,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-07T21:00:46.420651+00:00",
+  "markets": 32,
+  "markets_sharp": 27,
+  "outcomes": 125,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": 0.965,
+   "ev_pct": 3.97,
+   "threshold_pct": 3.0,
+   "price": 1.84,
+   "outcome": "Willy Hutchinson",
+   "book": "Betfair",
+   "matchup": "Willy Hutchinson @ Joshua Buatsi",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
