@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-05T05:30:40.015113+00:00",
-  "markets": 10,
-  "markets_sharp": 9,
-  "outcomes": 39,
-  "capped": 0,
-  "best": {
-   "gap": -3.868,
-   "ev_pct": -0.87,
-   "threshold_pct": 3.0,
-   "price": 1.2,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Carlos Alcaraz @ Matteo Berrettini",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-05T06:00:44.124092+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 4,
-  "capped": 0,
-  "best": {
-   "gap": -6.134,
-   "ev_pct": -3.13,
-   "threshold_pct": 3.0,
-   "price": 1.66,
-   "outcome": "Cairns Taipans",
-   "book": "Betfair",
-   "matchup": "Illawarra Hawks @ Cairns Taipans",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-05T06:30:40.389234+00:00",
   "markets": 9,
   "markets_sharp": 9,
@@ -1403,6 +1367,25 @@
   "markets": 28,
   "markets_sharp": 17,
   "outcomes": 122,
+  "capped": 6,
+  "flagged": 0,
+  "best": {
+   "gap": 6.678,
+   "ev_pct": 9.68,
+   "threshold_pct": 3.0,
+   "price": 2.6,
+   "outcome": "Umut Camkiran",
+   "book": "SportsBet",
+   "matchup": "Umut Camkiran @ Mourad Aliev",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-07T06:00:44.690907+00:00",
+  "markets": 49,
+  "markets_sharp": 39,
+  "outcomes": 203,
   "capped": 6,
   "flagged": 0,
   "best": {
