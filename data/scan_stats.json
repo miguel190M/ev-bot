@@ -1424,5 +1424,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-07T09:30:34.871986+00:00",
+  "markets": 16,
+  "markets_sharp": 16,
+  "outcomes": 96,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.296,
+   "ev_pct": -0.3,
+   "threshold_pct": 3.0,
+   "price": 7.0,
+   "outcome": "Watford",
+   "book": "Betfair",
+   "matchup": "Middlesbrough @ Watford",
+   "sport_key": "soccer_efl_champ",
+   "anchor": "pinnacle"
+  }
  }
 ]
