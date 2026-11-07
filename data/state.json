@@ -50,5 +50,9 @@
   "6ba062b6bf32fbb683b591d71f12df4d:sportsbet:Adelaide 36ers": {
     "ev_pct": 3.18,
     "commence_time": "2026-11-07T06:30:00Z"
+  },
+  "4a2543e23c7750a30fcc9cf4b217fb2d:sportsbet:Pryce Taylor": {
+    "ev_pct": 4.35,
+    "commence_time": "2026-11-08T01:00:00Z"
   }
 }

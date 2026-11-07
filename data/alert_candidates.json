@@ -510,5 +510,28 @@
     "consensus_probability": 0.6875,
     "large_edge": false,
     "alerted_at": "2026-11-07T04:00:47.427722+00:00"
+  },
+  "bcba": {
+    "event_id": "4a2543e23c7750a30fcc9cf4b217fb2d",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-08T01:00:00Z",
+    "home_team": "Pryce Taylor",
+    "away_team": "Tsotne Rogava",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Pryce Taylor",
+    "price": 1.53,
+    "commission": 0.0,
+    "fair_probability": 0.682,
+    "fair_odds": 1.466,
+    "ev_pct": 4.35,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.682,
+    "consensus_probability": 0.6672,
+    "large_edge": false,
+    "alerted_at": "2026-11-07T05:00:44.747068+00:00"
   }
 }
