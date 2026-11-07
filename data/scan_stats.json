@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-05T20:00:52.208590+00:00",
-  "markets": 65,
-  "markets_sharp": 42,
-  "outcomes": 183,
-  "capped": 11,
-  "best": {
-   "gap": 0.827,
-   "ev_pct": 11.83,
-   "threshold_pct": 11.0,
-   "price": 6.0,
-   "outcome": "Afghanistan",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-05T20:30:37.914649+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1431,6 +1413,25 @@
    "outcome": "Umut Camkiran",
    "book": "SportsBet",
    "matchup": "Umut Camkiran @ Mourad Aliev",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-07T20:01:06.416075+00:00",
+  "markets": 136,
+  "markets_sharp": 119,
+  "outcomes": 517,
+  "capped": 4,
+  "flagged": 0,
+  "best": {
+   "gap": 5.103,
+   "ev_pct": 8.1,
+   "threshold_pct": 3.0,
+   "price": 1.7,
+   "outcome": "Denzel Bentley",
+   "book": "SportsBet",
+   "matchup": "Shane Mosley Jr @ Denzel Bentley",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }

@@ -1,16 +1,4 @@
 {
-  "5ae3d2de14c984a6c1c468ed50c0820a:sportsbet:Adan Palma": {
-    "ev_pct": 13.1,
-    "commence_time": "2026-11-07T16:30:00Z"
-  },
-  "ce9a50732e758d106db86cc17f7d5a60:sportsbet:Umut Camkiran": {
-    "ev_pct": 18.11,
-    "commence_time": "2026-11-07T19:00:00Z"
-  },
-  "c17e677a74f6aaee02dd7909602237d7:betfair_ex_au:Gully Powar": {
-    "ev_pct": 4.7,
-    "commence_time": "2026-11-07T20:00:00Z"
-  },
   "581c011a5fe7f73d1945c808f7d377fe:betfair_ex_au:Ezra Taylor": {
     "ev_pct": 4.9,
     "commence_time": "2026-11-07T21:00:00Z"
@@ -31,18 +19,6 @@
     "ev_pct": 6.0,
     "commence_time": "2026-11-07T22:00:00Z"
   },
-  "c17e677a74f6aaee02dd7909602237d7:sportsbet:Zak Miller": {
-    "ev_pct": 7.06,
-    "commence_time": "2026-11-07T20:00:00Z"
-  },
-  "967163712cb0ff614044880ce488da94:betfair_ex_au:Umar Dzambekov": {
-    "ev_pct": 3.3,
-    "commence_time": "2026-11-07T18:00:00Z"
-  },
-  "fe97f5adf397dd6b0a8a9e0a5272f307:betfair_ex_au:FSV Mainz 05": {
-    "ev_pct": 6.92,
-    "commence_time": "2026-11-07T14:30:00Z"
-  },
   "e5d355d9eece24778d92d2202bba05e1:sportsbet:Abraham R Perez": {
     "ev_pct": 11.91,
     "commence_time": "2026-11-08T03:45:00Z"
@@ -50,10 +26,6 @@
   "4a2543e23c7750a30fcc9cf4b217fb2d:sportsbet:Pryce Taylor": {
     "ev_pct": 4.35,
     "commence_time": "2026-11-08T01:00:00Z"
-  },
-  "967163712cb0ff614044880ce488da94:sportsbet:Zach Parker": {
-    "ev_pct": 3.74,
-    "commence_time": "2026-11-07T17:30:00Z"
   },
   "4685756447fc5e8f99e98045a9f625ba:betfair_ex_au:Draw": {
     "ev_pct": 5.04,
