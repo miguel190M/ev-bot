@@ -94,6 +94,25 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
+ "basketball_ncaab|Iona Gaels @ St. John's Red Storm|h2h|Iona Gaels|SportsBet": {
+  "alerted": false,
+  "anchor": "retail_consensus",
+  "book": "SportsBet",
+  "commence_time": "2026-11-08T17:00:00Z",
+  "consensus_odds": 22.105,
+  "ev_pct": 266.4,
+  "fair_odds": 22.105,
+  "first_seen": "2026-11-08T05:00:47.741287+00:00",
+  "last_seen": "2026-11-08T05:00:47.741287+00:00",
+  "market": "h2h",
+  "matchup": "Iona Gaels @ St. John's Red Storm",
+  "max_ev_pct": 266.4,
+  "outcome": "Iona Gaels",
+  "price": 81.0,
+  "seen": 1,
+  "sharp_odds": null,
+  "sport_key": "basketball_ncaab"
+ },
  "basketball_ncaab|Middle Tennessee Blue Raiders @ Kansas Jayhawks|h2h|Middle Tennessee Blue Raiders|SportsBet": {
   "alerted": false,
   "anchor": "retail_consensus",

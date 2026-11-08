@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-06T04:30:44.194646+00:00",
-  "markets": 4,
-  "markets_sharp": 2,
-  "outcomes": 12,
-  "capped": 0,
-  "best": {
-   "gap": -0.874,
-   "ev_pct": 2.13,
-   "threshold_pct": 3.0,
-   "price": 1.66,
-   "outcome": "Nelson Asofa-Solomona",
-   "book": "SportsBet",
-   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-06T05:00:47.370316+00:00",
-  "markets": 8,
-  "markets_sharp": 6,
-  "outcomes": 31,
-  "capped": 0,
-  "best": {
-   "gap": -1.795,
-   "ev_pct": -0.46,
-   "threshold_pct": 1.34,
-   "price": 1.17,
-   "outcome": "Ahmad Reda",
-   "book": "SportsBet",
-   "matchup": "Jake Wyllie @ Ahmad Reda",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-06T05:30:33.967900+00:00",
   "markets": 2,
   "markets_sharp": 1,
@@ -1469,6 +1433,25 @@
    "book": "SportsBet",
    "matchup": "Cairns Taipans @ Perth Wildcats",
    "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-08T05:00:47.741797+00:00",
+  "markets": 13,
+  "markets_sharp": 10,
+  "outcomes": 63,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": 6.826,
+   "ev_pct": 9.83,
+   "threshold_pct": 3.0,
+   "price": 3.9,
+   "outcome": "Ramla Ali",
+   "book": "SportsBet",
+   "matchup": "Mikiah Kreps @ Ramla Ali",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
