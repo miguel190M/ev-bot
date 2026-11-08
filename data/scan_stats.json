@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-06T20:01:04.922029+00:00",
-  "markets": 97,
-  "markets_sharp": 52,
-  "outcomes": 277,
-  "capped": 29,
-  "best": {
-   "gap": 10.104,
-   "ev_pct": 13.1,
-   "threshold_pct": 3.0,
-   "price": 3.1,
-   "outcome": "Adan Palma",
-   "book": "SportsBet",
-   "matchup": "Adan Palma @ Masood Abdulah",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-06T20:30:35.660127+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 8,
-  "capped": 0,
-  "best": {
-   "gap": -4.701,
-   "ev_pct": -1.7,
-   "threshold_pct": 3.0,
-   "price": 1.46,
-   "outcome": "Casper Ruud",
-   "book": "Betfair",
-   "matchup": "Nuno Borges @ Casper Ruud",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-06T21:00:55.956209+00:00",
   "markets": 29,
   "markets_sharp": 17,
@@ -1483,6 +1447,25 @@
   "best": {
    "gap": 7.011,
    "ev_pct": 10.01,
+   "threshold_pct": 3.0,
+   "price": 2.55,
+   "outcome": "Shera Mae Patricio",
+   "book": "SportsBet",
+   "matchup": "Shera Mae Patricio @ Brittany Sims",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-08T20:30:37.601704+00:00",
+  "markets": 12,
+  "markets_sharp": 12,
+  "outcomes": 55,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": 12.483,
+   "ev_pct": 15.48,
    "threshold_pct": 3.0,
    "price": 2.55,
    "outcome": "Shera Mae Patricio",
