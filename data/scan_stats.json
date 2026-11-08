@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-06T12:30:44.244896+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 28,
-  "capped": 0,
-  "best": {
-   "gap": -3.443,
-   "ev_pct": -0.44,
-   "threshold_pct": 3.0,
-   "price": 1.37,
-   "outcome": "Carlos Alcaraz",
-   "book": "SportsBet",
-   "matchup": "Carlos Alcaraz @ Taylor Fritz",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-06T13:00:48.263236+00:00",
   "markets": 38,
   "markets_sharp": 15,
@@ -1467,6 +1449,25 @@
    "book": "SportsBet",
    "matchup": "Carlos Alcaraz @ Ben Shelton",
    "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-08T13:00:47.487295+00:00",
+  "markets": 34,
+  "markets_sharp": 27,
+  "outcomes": 131,
+  "capped": 5,
+  "flagged": 0,
+  "best": {
+   "gap": 3.74,
+   "ev_pct": 6.74,
+   "threshold_pct": 3.0,
+   "price": 5.5,
+   "outcome": "Elif Nur Turhan",
+   "book": "SportsBet",
+   "matchup": "Alycia Baumgardner @ Elif Nur Turhan",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
