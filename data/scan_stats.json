@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-06T09:00:46.454751+00:00",
-  "markets": 9,
-  "markets_sharp": 6,
-  "outcomes": 37,
-  "capped": 0,
-  "best": {
-   "gap": 5.614,
-   "ev_pct": 8.61,
-   "threshold_pct": 3.0,
-   "price": 1.73,
-   "outcome": "Nelson Asofa-Solomona",
-   "book": "SportsBet",
-   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-06T09:30:36.383424+00:00",
-  "markets": 2,
-  "markets_sharp": 1,
-  "outcomes": 9,
-  "capped": 0,
-  "best": {
-   "gap": 3.433,
-   "ev_pct": 6.43,
-   "threshold_pct": 3.0,
-   "price": 1.73,
-   "outcome": "Nelson Asofa-Solomona",
-   "book": "SportsBet",
-   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-06T10:00:51.239787+00:00",
   "markets": 7,
   "markets_sharp": 6,
@@ -1491,6 +1455,25 @@
   "best": {
    "gap": 8.397,
    "ev_pct": 11.4,
+   "threshold_pct": 3.0,
+   "price": 20.0,
+   "outcome": "Miyo Yoshida",
+   "book": "Betfair",
+   "matchup": "Miyo Yoshida @ Skye Nicolson",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-08T10:00:46.723740+00:00",
+  "markets": 17,
+  "markets_sharp": 17,
+  "outcomes": 94,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 13.267,
+   "ev_pct": 16.27,
    "threshold_pct": 3.0,
    "price": 20.0,
    "outcome": "Miyo Yoshida",
