@@ -504,5 +504,28 @@
     "consensus_probability": 0.2806,
     "large_edge": false,
     "alerted_at": "2026-11-08T23:00:46.325394+00:00"
+  },
+  "8fe5": {
+    "event_id": "360470d92db8fd6090cc66a67997e531",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-09T00:30:00Z",
+    "home_team": "Brittany Sims",
+    "away_team": "Shera Mae Patricio",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Brittany Sims",
+    "price": 1.79,
+    "commission": 0.0,
+    "fair_probability": 0.5776,
+    "fair_odds": 1.731,
+    "ev_pct": 3.39,
+    "anchor": "retail_consensus",
+    "num_books": 3,
+    "sharp_disagreement": false,
+    "sharp_probability": null,
+    "consensus_probability": 0.5776,
+    "large_edge": false,
+    "alerted_at": "2026-11-08T23:30:36.483130+00:00"
   }
 }
