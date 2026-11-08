@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-06T13:30:43.535283+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 12,
-  "capped": 0,
-  "best": {
-   "gap": -4.787,
-   "ev_pct": -1.79,
-   "threshold_pct": 3.0,
-   "price": 1.63,
-   "outcome": "Luca Van Assche",
-   "book": "Betfair",
-   "matchup": "Rinky Hijikata @ Luca Van Assche",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-06T20:01:04.922029+00:00",
   "markets": 97,
   "markets_sharp": 52,
@@ -1465,6 +1447,25 @@
    "ev_pct": 0.18,
    "threshold_pct": 3.0,
    "price": 1.32,
+   "outcome": "Carlos Alcaraz",
+   "book": "Betfair",
+   "matchup": "Carlos Alcaraz @ Ben Shelton",
+   "sport_key": "tennis_atp_paris_masters",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-08T13:44:29.702353+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 4,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.581,
+   "ev_pct": -0.58,
+   "threshold_pct": 3.0,
+   "price": 1.31,
    "outcome": "Carlos Alcaraz",
    "book": "Betfair",
    "matchup": "Carlos Alcaraz @ Ben Shelton",
