@@ -1533,8 +1533,8 @@
     "sharp_disagreement": false,
     "large_edge": false,
     "stake": 40.0,
-    "status": "open",
-    "profit": null,
+    "status": "won",
+    "profit": 4.89,
     "source": "live",
     "bookmaker_key": "betfair_ex_au",
     "alerted_at": "2026-11-08T02:00:49.138088+00:00",
@@ -1542,7 +1542,11 @@
     "logged_at": "2026-11-08T03:00:44.203464+00:00",
     "alert_price": 1.12,
     "alert_ev_pct": 1.6,
-    "settle_reminded_at": "2026-11-08T09:00:44.902651+00:00"
+    "settle_reminded_at": "2026-11-08T09:00:44.902651+00:00",
+    "settled_manually": true,
+    "clv_pct": null,
+    "net_clv_pct": null,
+    "resolved_at": "2026-11-08T09:30:32.610788+00:00"
   },
   "0161": {
     "event_id": "ebcd1ad78276fb14ec61bca91db7052d",
