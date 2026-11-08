@@ -1,8 +1,4 @@
 {
-  "360470d92db8fd6090cc66a67997e531:sportsbet:Shera Mae Patricio": {
-    "ev_pct": 4.24,
-    "commence_time": "2026-11-08T23:00:00Z"
-  },
   "ef6dd64925f274e739e2d128bde8f3fd:sportsbet:Irma Garcia": {
     "ev_pct": 7.01,
     "commence_time": "2026-11-09T02:05:00Z"
@@ -24,7 +20,7 @@
     "commence_time": "2026-11-09T06:00:00Z"
   },
   "845169aadae4663e5abf656315bb8547:betfair_ex_au:Sri Lanka": {
-    "ev_pct": 12.65,
+    "ev_pct": 11.17,
     "commence_time": "2026-11-09T04:30:00Z"
   }
 }
