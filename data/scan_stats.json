@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-06T21:30:42.017087+00:00",
-  "markets": 14,
-  "markets_sharp": 14,
-  "outcomes": 56,
-  "capped": 0,
-  "best": {
-   "gap": -0.795,
-   "ev_pct": 2.21,
-   "threshold_pct": 3.0,
-   "price": 10.5,
-   "outcome": "Sacramento Kings",
-   "book": "SportsBet",
-   "matchup": "San Antonio Spurs @ Sacramento Kings",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-06T22:00:54.621386+00:00",
   "markets": 89,
   "markets_sharp": 45,
@@ -1492,6 +1474,25 @@
    "book": "SportsBet",
    "matchup": "Shera Mae Patricio @ Brittany Sims",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-08T22:00:44.002431+00:00",
+  "markets": 25,
+  "markets_sharp": 21,
+  "outcomes": 96,
+  "capped": 2,
+  "flagged": 0,
+  "best": {
+   "gap": 9.651,
+   "ev_pct": 12.65,
+   "threshold_pct": 3.0,
+   "price": 3.75,
+   "outcome": "Sri Lanka",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
   }
  }
