@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-06T07:00:50.940999+00:00",
-  "markets": 9,
-  "markets_sharp": 8,
-  "outcomes": 40,
-  "capped": 0,
-  "best": {
-   "gap": 1.554,
-   "ev_pct": 4.55,
-   "threshold_pct": 3.0,
-   "price": 1.71,
-   "outcome": "Nelson Asofa-Solomona",
-   "book": "Betfair",
-   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-06T07:30:45.139611+00:00",
   "markets": 8,
   "markets_sharp": 4,
@@ -1493,6 +1475,25 @@
    "book": "SportsBet",
    "matchup": "Mikiah Kreps @ Ramla Ali",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-08T07:30:33.955011+00:00",
+  "markets": 4,
+  "markets_sharp": 4,
+  "outcomes": 24,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.524,
+   "ev_pct": -0.52,
+   "threshold_pct": 3.0,
+   "price": 3.75,
+   "outcome": "Monza",
+   "book": "Betfair",
+   "matchup": "Atalanta BC @ Monza",
+   "sport_key": "soccer_italy_serie_a",
    "anchor": "pinnacle"
   }
  }
