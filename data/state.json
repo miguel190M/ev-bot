@@ -18,5 +18,9 @@
   "bf53cbe9018beeae1d994a5cd98fa13c:sportsbet:Sydney Kings": {
     "ev_pct": 3.04,
     "commence_time": "2026-11-08T04:00:00Z"
+  },
+  "ef6dd64925f274e739e2d128bde8f3fd:sportsbet:Irma Garcia": {
+    "ev_pct": 9.71,
+    "commence_time": "2026-11-09T02:05:00Z"
   }
 }
