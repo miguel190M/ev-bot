@@ -1475,5 +1475,24 @@
    "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-08T06:30:37.347255+00:00",
+  "markets": 11,
+  "markets_sharp": 11,
+  "outcomes": 50,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.951,
+   "ev_pct": -0.95,
+   "threshold_pct": 3.0,
+   "price": 1.23,
+   "outcome": "Kansas City Chiefs",
+   "book": "Betfair",
+   "matchup": "New York Jets @ Kansas City Chiefs",
+   "sport_key": "americanfootball_nfl",
+   "anchor": "pinnacle"
+  }
  }
 ]
