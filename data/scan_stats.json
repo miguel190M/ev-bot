@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-06T12:00:50.560310+00:00",
-  "markets": 11,
-  "markets_sharp": 9,
-  "outcomes": 48,
-  "capped": 0,
-  "best": {
-   "gap": -0.692,
-   "ev_pct": 2.31,
-   "threshold_pct": 3.0,
-   "price": 1.78,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_odi",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-06T12:30:44.244896+00:00",
   "markets": 7,
   "markets_sharp": 7,
@@ -1466,6 +1448,25 @@
    "book": "SportsBet",
    "matchup": "Alycia Baumgardner @ Elif Nur Turhan",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-08T12:30:36.572420+00:00",
+  "markets": 5,
+  "markets_sharp": 5,
+  "outcomes": 28,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.067,
+   "ev_pct": -1.07,
+   "threshold_pct": 3.0,
+   "price": 4.2,
+   "outcome": "Ben Shelton",
+   "book": "SportsBet",
+   "matchup": "Carlos Alcaraz @ Ben Shelton",
+   "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
  }
