@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-06T11:30:38.299325+00:00",
-  "markets": 7,
-  "markets_sharp": 5,
-  "outcomes": 31,
-  "capped": 0,
-  "best": {
-   "gap": 3.734,
-   "ev_pct": 6.19,
-   "threshold_pct": 2.46,
-   "price": 1.73,
-   "outcome": "Nelson Asofa-Solomona",
-   "book": "SportsBet",
-   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-06T12:00:50.560310+00:00",
   "markets": 11,
   "markets_sharp": 9,
@@ -1465,6 +1447,25 @@
    "book": "Betfair",
    "matchup": "Las Vegas Raiders @ San Francisco 49ers",
    "sport_key": "americanfootball_nfl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-08T12:00:44.629543+00:00",
+  "markets": 13,
+  "markets_sharp": 12,
+  "outcomes": 67,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": 3.74,
+   "ev_pct": 6.74,
+   "threshold_pct": 3.0,
+   "price": 5.5,
+   "outcome": "Elif Nur Turhan",
+   "book": "SportsBet",
+   "matchup": "Alycia Baumgardner @ Elif Nur Turhan",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
