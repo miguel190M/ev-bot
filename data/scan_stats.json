@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-06T06:00:49.392065+00:00",
-  "markets": 9,
-  "markets_sharp": 8,
-  "outcomes": 40,
-  "capped": 0,
-  "best": {
-   "gap": -0.418,
-   "ev_pct": 2.58,
-   "threshold_pct": 3.0,
-   "price": 1.71,
-   "outcome": "Nelson Asofa-Solomona",
-   "book": "Betfair",
-   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-06T06:30:37.968455+00:00",
   "markets": 4,
   "markets_sharp": 3,
@@ -1472,6 +1454,25 @@
    "book": "SportsBet",
    "matchup": "Mikiah Kreps @ Ramla Ali",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-08T06:22:17.746139+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 4,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -6.344,
+   "ev_pct": -3.34,
+   "threshold_pct": 3.0,
+   "price": 2.24,
+   "outcome": "Florida Panthers",
+   "book": "Betfair",
+   "matchup": "Florida Panthers @ Boston Bruins",
+   "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
   }
  }
