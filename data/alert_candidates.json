@@ -655,5 +655,28 @@
     "consensus_probability": 0.06,
     "large_edge": false,
     "alerted_at": "2026-11-08T08:00:44.471183+00:00"
+  },
+  "a0703": {
+    "event_id": "ed202ffc8a7b30ea84ab7036b519d8b4",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-09T02:45:00Z",
+    "home_team": "Skye Nicolson",
+    "away_team": "Miyo Yoshida",
+    "market_key": "h2h",
+    "bookmaker_key": "betfair_ex_au",
+    "bookmaker_title": "Betfair",
+    "outcome": "Miyo Yoshida",
+    "price": 20.0,
+    "commission": 0.06,
+    "fair_probability": 0.0591,
+    "fair_odds": 16.93,
+    "ev_pct": 11.4,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": true,
+    "sharp_probability": 0.0793,
+    "consensus_probability": 0.0591,
+    "large_edge": false,
+    "alerted_at": "2026-11-08T09:00:44.215939+00:00"
   }
 }

@@ -1541,7 +1541,8 @@
     "lead_hours": 0.7,
     "logged_at": "2026-11-08T03:00:44.203464+00:00",
     "alert_price": 1.12,
-    "alert_ev_pct": 1.6
+    "alert_ev_pct": 1.6,
+    "settle_reminded_at": "2026-11-08T09:00:44.902651+00:00"
   },
   "0161": {
     "event_id": "ebcd1ad78276fb14ec61bca91db7052d",
@@ -1567,7 +1568,7 @@
     "lead_hours": 24.0,
     "logged_at": "2026-11-08T04:00:40.346978+00:00",
     "closing_fair_odds": 3.551,
-    "closing_captured_at": "2026-11-08T08:00:44.932978+00:00"
+    "closing_captured_at": "2026-11-08T09:00:44.801850+00:00"
   },
   "3020": {
     "event_id": "a34588aab561545bebd207231aa0c9b9",
@@ -1617,6 +1618,6 @@
     "lead_hours": 19.1,
     "logged_at": "2026-11-08T08:00:41.631479+00:00",
     "closing_fair_odds": 1.785,
-    "closing_captured_at": "2026-11-08T08:00:44.932978+00:00"
+    "closing_captured_at": "2026-11-08T09:00:44.801850+00:00"
   }
 }
