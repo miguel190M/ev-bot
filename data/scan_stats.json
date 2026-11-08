@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-06T06:30:37.968455+00:00",
-  "markets": 4,
-  "markets_sharp": 3,
-  "outcomes": 20,
-  "capped": 0,
-  "best": {
-   "gap": -0.418,
-   "ev_pct": 2.58,
-   "threshold_pct": 3.0,
-   "price": 1.71,
-   "outcome": "Nelson Asofa-Solomona",
-   "book": "Betfair",
-   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-06T07:00:50.940999+00:00",
   "markets": 9,
   "markets_sharp": 8,
@@ -1492,6 +1474,25 @@
    "book": "Betfair",
    "matchup": "New York Jets @ Kansas City Chiefs",
    "sport_key": "americanfootball_nfl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-08T07:00:47.961561+00:00",
+  "markets": 7,
+  "markets_sharp": 6,
+  "outcomes": 34,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 6.826,
+   "ev_pct": 9.83,
+   "threshold_pct": 3.0,
+   "price": 3.9,
+   "outcome": "Ramla Ali",
+   "book": "SportsBet",
+   "matchup": "Mikiah Kreps @ Ramla Ali",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }

@@ -609,5 +609,28 @@
     "consensus_probability": 0.6647,
     "large_edge": false,
     "alerted_at": "2026-11-08T06:00:42.447973+00:00"
+  },
+  "47c23": {
+    "event_id": "ef6dd64925f274e739e2d128bde8f3fd",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-09T02:05:00Z",
+    "home_team": "Irma Garcia",
+    "away_team": "Nataly Delgado",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Irma Garcia",
+    "price": 1.91,
+    "commission": 0.0,
+    "fair_probability": 0.5603,
+    "fair_odds": 1.785,
+    "ev_pct": 7.01,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.5603,
+    "consensus_probability": 0.5214,
+    "large_edge": false,
+    "alerted_at": "2026-11-08T07:00:47.963012+00:00"
   }
 }
