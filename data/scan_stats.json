@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-06T11:00:47.904621+00:00",
-  "markets": 7,
-  "markets_sharp": 5,
-  "outcomes": 26,
-  "capped": 0,
-  "best": {
-   "gap": -3.466,
-   "ev_pct": -0.47,
-   "threshold_pct": 3.0,
-   "price": 1.73,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_odi",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-06T11:12:22.021928+00:00",
   "markets": 6,
   "markets_sharp": 5,
@@ -1463,6 +1445,25 @@
    "book": "Betfair",
    "matchup": "Las Vegas Raiders @ San Francisco 49ers",
    "sport_key": "americanfootball_nfl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-08T11:00:49.288556+00:00",
+  "markets": 13,
+  "markets_sharp": 12,
+  "outcomes": 67,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": 13.267,
+   "ev_pct": 16.27,
+   "threshold_pct": 3.0,
+   "price": 20.0,
+   "outcome": "Miyo Yoshida",
+   "book": "Betfair",
+   "matchup": "Miyo Yoshida @ Skye Nicolson",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }

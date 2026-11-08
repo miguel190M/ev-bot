@@ -568,5 +568,24 @@
   "seen": 22,
   "sharp_odds": null,
   "sport_key": "boxing_boxing"
+ },
+ "cricket_test_match|West Indies @ Bangladesh|h2h|Bangladesh|Betfair": {
+  "alerted": false,
+  "anchor": "retail_consensus",
+  "book": "Betfair",
+  "commence_time": "2026-11-09T03:30:00Z",
+  "consensus_odds": 50.349,
+  "ev_pct": 30.8,
+  "fair_odds": 50.349,
+  "first_seen": "2026-11-08T11:00:49.287903+00:00",
+  "last_seen": "2026-11-08T11:00:49.287903+00:00",
+  "market": "h2h",
+  "matchup": "West Indies @ Bangladesh",
+  "max_ev_pct": 30.8,
+  "outcome": "Bangladesh",
+  "price": 70.0,
+  "seen": 1,
+  "sharp_odds": null,
+  "sport_key": "cricket_test_match"
  }
 }

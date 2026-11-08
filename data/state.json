@@ -1,6 +1,6 @@
 {
   "360470d92db8fd6090cc66a67997e531:sportsbet:Shera Mae Patricio": {
-    "ev_pct": 6.86,
+    "ev_pct": 4.24,
     "commence_time": "2026-11-08T23:00:00Z"
   },
   "ef6dd64925f274e739e2d128bde8f3fd:sportsbet:Irma Garcia": {
@@ -14,5 +14,9 @@
   "ed202ffc8a7b30ea84ab7036b519d8b4:betfair_ex_au:Miyo Yoshida": {
     "ev_pct": 16.27,
     "commence_time": "2026-11-09T02:45:00Z"
+  },
+  "43227dcb0ff9ee09404052286912f1e3:sportsbet:Elif Nur Turhan": {
+    "ev_pct": 6.74,
+    "commence_time": "2026-11-09T04:30:00Z"
   }
 }
