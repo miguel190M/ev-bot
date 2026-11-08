@@ -1394,8 +1394,8 @@
     "sharp_disagreement": false,
     "large_edge": false,
     "stake": 15.0,
-    "status": "open",
-    "profit": null,
+    "status": "won",
+    "profit": 7.95,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-07T04:00:47.427722+00:00",
@@ -1403,7 +1403,11 @@
     "logged_at": "2026-11-07T05:30:32.695637+00:00",
     "closing_fair_odds": 1.358,
     "closing_captured_at": "2026-11-08T02:30:38.245936+00:00",
-    "settle_reminded_at": "2026-11-08T10:00:47.429254+00:00"
+    "settle_reminded_at": "2026-11-08T10:00:47.429254+00:00",
+    "settled_manually": true,
+    "clv_pct": 12.67,
+    "net_clv_pct": 12.67,
+    "resolved_at": "2026-11-08T10:30:35.619251+00:00"
   },
   "e315": {
     "event_id": "6ba062b6bf32fbb683b591d71f12df4d",
@@ -1591,13 +1595,16 @@
     "sharp_disagreement": false,
     "large_edge": false,
     "stake": 20.0,
-    "status": "open",
-    "profit": null,
+    "status": "lost",
+    "profit": -20.0,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-08T06:00:42.447973+00:00",
     "lead_hours": 0.1,
-    "logged_at": "2026-11-08T06:22:13.308579+00:00"
+    "logged_at": "2026-11-08T06:22:13.308579+00:00",
+    "clv_pct": null,
+    "net_clv_pct": null,
+    "resolved_at": "2026-11-08T10:30:42.039688+00:00"
   },
   "47c23": {
     "event_id": "ef6dd64925f274e739e2d128bde8f3fd",
