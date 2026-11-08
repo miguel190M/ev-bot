@@ -1504,15 +1504,18 @@
     "sharp_disagreement": false,
     "large_edge": false,
     "stake": 20.0,
-    "status": "open",
-    "profit": null,
+    "status": "won",
+    "profit": 8.8,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-08T01:00:46.620506+00:00",
     "lead_hours": 3.0,
     "logged_at": "2026-11-08T01:30:30.268312+00:00",
     "closing_fair_odds": 1.426,
-    "closing_captured_at": "2026-11-08T03:30:35.626906+00:00"
+    "closing_captured_at": "2026-11-08T03:30:35.626906+00:00",
+    "clv_pct": 0.98,
+    "net_clv_pct": 0.98,
+    "resolved_at": "2026-11-08T08:00:44.936354+00:00"
   },
   "818e5": {
     "event_id": "0a370d27a0959ad14f3e3d01c6f51645",
@@ -1564,7 +1567,7 @@
     "lead_hours": 24.0,
     "logged_at": "2026-11-08T04:00:40.346978+00:00",
     "closing_fair_odds": 3.551,
-    "closing_captured_at": "2026-11-08T07:00:48.610510+00:00"
+    "closing_captured_at": "2026-11-08T08:00:44.932978+00:00"
   },
   "3020": {
     "event_id": "a34588aab561545bebd207231aa0c9b9",
@@ -1589,5 +1592,31 @@
     "alerted_at": "2026-11-08T06:00:42.447973+00:00",
     "lead_hours": 0.1,
     "logged_at": "2026-11-08T06:22:13.308579+00:00"
+  },
+  "47c23": {
+    "event_id": "ef6dd64925f274e739e2d128bde8f3fd",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-09T02:05:00Z",
+    "home_team": "Irma Garcia",
+    "away_team": "Nataly Delgado",
+    "market_key": "h2h",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Irma Garcia",
+    "price": 1.91,
+    "commission": 0.0,
+    "ev_pct": 7.01,
+    "anchor": "pinnacle",
+    "sharp_disagreement": false,
+    "large_edge": false,
+    "stake": 10.0,
+    "status": "open",
+    "profit": null,
+    "source": "live",
+    "bookmaker_key": "sportsbet",
+    "alerted_at": "2026-11-08T07:00:47.963012+00:00",
+    "lead_hours": 19.1,
+    "logged_at": "2026-11-08T08:00:41.631479+00:00",
+    "closing_fair_odds": 1.785,
+    "closing_captured_at": "2026-11-08T08:00:44.932978+00:00"
   }
 }
