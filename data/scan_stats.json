@@ -1450,5 +1450,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-08T03:30:35.132893+00:00",
+  "markets": 13,
+  "markets_sharp": 12,
+  "outcomes": 66,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 6.826,
+   "ev_pct": 9.83,
+   "threshold_pct": 3.0,
+   "price": 3.9,
+   "outcome": "Ramla Ali",
+   "book": "SportsBet",
+   "matchup": "Mikiah Kreps @ Ramla Ali",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]

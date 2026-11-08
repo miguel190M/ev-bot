@@ -586,5 +586,28 @@
     "consensus_probability": 0.5382,
     "large_edge": false,
     "alerted_at": "2026-11-08T02:30:37.602297+00:00"
+  },
+  "0161": {
+    "event_id": "ebcd1ad78276fb14ec61bca91db7052d",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-09T03:30:00Z",
+    "home_team": "Ramla Ali",
+    "away_team": "Mikiah Kreps",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Ramla Ali",
+    "price": 3.9,
+    "commission": 0.0,
+    "fair_probability": 0.2816,
+    "fair_odds": 3.551,
+    "ev_pct": 9.83,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.2816,
+    "consensus_probability": 0.2638,
+    "large_edge": false,
+    "alerted_at": "2026-11-08T03:30:35.134826+00:00"
   }
 }
