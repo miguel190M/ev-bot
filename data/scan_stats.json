@@ -1,41 +1,5 @@
 [
  {
-  "ts": "2026-11-06T02:30:40.822844+00:00",
-  "markets": 3,
-  "markets_sharp": 1,
-  "outcomes": 10,
-  "capped": 0,
-  "best": {
-   "gap": -2.679,
-   "ev_pct": 0.02,
-   "threshold_pct": 2.7,
-   "price": 1.85,
-   "outcome": "West Indies",
-   "book": "Betfair",
-   "matchup": "West Indies @ Bangladesh",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-06T03:00:48.697491+00:00",
-  "markets": 10,
-  "markets_sharp": 7,
-  "outcomes": 35,
-  "capped": 0,
-  "best": {
-   "gap": -0.737,
-   "ev_pct": 2.26,
-   "threshold_pct": 3.0,
-   "price": 1.66,
-   "outcome": "Nelson Asofa-Solomona",
-   "book": "SportsBet",
-   "matchup": "Nelson Asofa-Solomona @ Paul Gallen",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-06T03:30:36.683447+00:00",
   "markets": 3,
   "markets_sharp": 1,
@@ -1464,6 +1428,25 @@
    "outcome": "Abraham R Perez",
    "book": "SportsBet",
    "matchup": "Yankiel Rivera Figueroa @ Abraham R Perez",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-08T03:00:50.622406+00:00",
+  "markets": 13,
+  "markets_sharp": 11,
+  "outcomes": 57,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 6.711,
+   "ev_pct": 9.71,
+   "threshold_pct": 3.0,
+   "price": 1.91,
+   "outcome": "Irma Garcia",
+   "book": "SportsBet",
+   "matchup": "Nataly Delgado @ Irma Garcia",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
