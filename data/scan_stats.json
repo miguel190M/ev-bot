@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-06T22:00:54.621386+00:00",
-  "markets": 89,
-  "markets_sharp": 45,
-  "outcomes": 264,
-  "capped": 27,
-  "best": {
-   "gap": 9.115,
-   "ev_pct": 12.12,
-   "threshold_pct": 3.0,
-   "price": 2.8,
-   "outcome": "Umut Camkiran",
-   "book": "SportsBet",
-   "matchup": "Umut Camkiran @ Mourad Aliev",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-06T22:30:41.590512+00:00",
   "markets": 9,
   "markets_sharp": 9,
@@ -1493,6 +1475,25 @@
    "book": "Betfair",
    "matchup": "Sri Lanka @ Pakistan",
    "sport_key": "cricket_test_match",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-08T22:30:34.227725+00:00",
+  "markets": 12,
+  "markets_sharp": 11,
+  "outcomes": 55,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": 13.398,
+   "ev_pct": 16.4,
+   "threshold_pct": 3.0,
+   "price": 3.4,
+   "outcome": "Ramla Ali",
+   "book": "SportsBet",
+   "matchup": "Mikiah Kreps @ Ramla Ali",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
