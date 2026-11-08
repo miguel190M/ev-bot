@@ -1472,5 +1472,24 @@
    "sport_key": "tennis_atp_paris_masters",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-08T20:00:41.973030+00:00",
+  "markets": 36,
+  "markets_sharp": 33,
+  "outcomes": 136,
+  "capped": 2,
+  "flagged": 0,
+  "best": {
+   "gap": 7.011,
+   "ev_pct": 10.01,
+   "threshold_pct": 3.0,
+   "price": 2.55,
+   "outcome": "Shera Mae Patricio",
+   "book": "SportsBet",
+   "matchup": "Shera Mae Patricio @ Brittany Sims",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
