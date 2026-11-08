@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-05T23:30:37.905277+00:00",
-  "markets": 15,
-  "markets_sharp": 15,
-  "outcomes": 60,
-  "capped": 0,
-  "best": {
-   "gap": -3.237,
-   "ev_pct": -0.24,
-   "threshold_pct": 3.0,
-   "price": 1.4,
-   "outcome": "UTSA Roadrunners",
-   "book": "Betfair",
-   "matchup": "UTSA Roadrunners @ Florida Atlantic Owls",
-   "sport_key": "americanfootball_ncaaf",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-06T00:00:50.390569+00:00",
   "markets": 28,
   "markets_sharp": 12,
@@ -1467,6 +1449,25 @@
   "markets_sharp": 20,
   "outcomes": 83,
   "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 3.86,
+   "ev_pct": 6.86,
+   "threshold_pct": 3.0,
+   "price": 2.55,
+   "outcome": "Shera Mae Patricio",
+   "book": "SportsBet",
+   "matchup": "Shera Mae Patricio @ Brittany Sims",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-08T00:00:46.995197+00:00",
+  "markets": 65,
+  "markets_sharp": 59,
+  "outcomes": 243,
+  "capped": 1,
   "flagged": 0,
   "best": {
    "gap": 3.86,

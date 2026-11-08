@@ -246,6 +246,25 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
+ "basketball_ncaab|Northwestern St Demons @ Murray St Racers|h2h|Northwestern St Demons|SportsBet": {
+  "alerted": false,
+  "anchor": "retail_consensus",
+  "book": "SportsBet",
+  "commence_time": "2026-11-08T01:00:00Z",
+  "consensus_odds": 28.011,
+  "ev_pct": 21.4,
+  "fair_odds": 28.011,
+  "first_seen": "2026-11-08T00:00:46.994398+00:00",
+  "last_seen": "2026-11-08T00:00:46.994398+00:00",
+  "market": "h2h",
+  "matchup": "Northwestern St Demons @ Murray St Racers",
+  "max_ev_pct": 21.4,
+  "outcome": "Northwestern St Demons",
+  "price": 34.0,
+  "seen": 1,
+  "sharp_odds": null,
+  "sport_key": "basketball_ncaab"
+ },
  "basketball_ncaab|Omaha Mavericks @ BYU Cougars|h2h|Omaha Mavericks|SportsBet": {
   "alerted": false,
   "anchor": "retail_consensus",
