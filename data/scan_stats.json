@@ -1,23 +1,5 @@
 [
  {
-  "ts": "2026-11-06T05:30:33.967900+00:00",
-  "markets": 2,
-  "markets_sharp": 1,
-  "outcomes": 7,
-  "capped": 0,
-  "best": {
-   "gap": -4.106,
-   "ev_pct": -1.11,
-   "threshold_pct": 3.0,
-   "price": 1.48,
-   "outcome": "Tasmania JackJumpers",
-   "book": "Betfair",
-   "matchup": "New Zealand Breakers @ Tasmania JackJumpers",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-06T06:00:49.392065+00:00",
   "markets": 9,
   "markets_sharp": 8,
@@ -1452,6 +1434,25 @@
    "book": "SportsBet",
    "matchup": "Mikiah Kreps @ Ramla Ali",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-08T05:30:36.162799+00:00",
+  "markets": 4,
+  "markets_sharp": 2,
+  "outcomes": 16,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.721,
+   "ev_pct": 1.28,
+   "threshold_pct": 3.0,
+   "price": 1.54,
+   "outcome": "Perth Wildcats",
+   "book": "SportsBet",
+   "matchup": "Cairns Taipans @ Perth Wildcats",
+   "sport_key": "basketball_nbl",
    "anchor": "pinnacle"
   }
  }
