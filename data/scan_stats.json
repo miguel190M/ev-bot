@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-07T22:30:40.181016+00:00",
-  "markets": 22,
-  "markets_sharp": 21,
-  "outcomes": 83,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 1.683,
-   "ev_pct": 3.8,
-   "threshold_pct": 2.12,
-   "price": 1.56,
-   "outcome": "Pryce Taylor",
-   "book": "SportsBet",
-   "matchup": "Tsotne Rogava @ Pryce Taylor",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-07T23:00:51.011869+00:00",
   "markets": 25,
   "markets_sharp": 22,
@@ -1306,6 +1287,25 @@
    "outcome": "Detroit Pistons",
    "book": "SportsBet",
    "matchup": "Washington Wizards @ Detroit Pistons",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-09T22:33:29.693729+00:00",
+  "markets": 8,
+  "markets_sharp": 8,
+  "outcomes": 32,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 1.308,
+   "ev_pct": 4.31,
+   "threshold_pct": 3.0,
+   "price": 2.24,
+   "outcome": "Los Angeles Lakers",
+   "book": "SportsBet",
+   "matchup": "Los Angeles Lakers @ Atlanta Hawks",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
