@@ -132,25 +132,6 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
- "basketball_ncaab|New Mexico St Aggies @ Gonzaga Bulldogs|h2h|New Mexico St Aggies|SportsBet": {
-  "alerted": false,
-  "anchor": "retail_consensus",
-  "book": "SportsBet",
-  "commence_time": "2026-11-07T22:00:00Z",
-  "consensus_odds": 34.77,
-  "ev_pct": 190.5,
-  "fair_odds": 34.77,
-  "first_seen": "2026-11-07T13:00:52.224398+00:00",
-  "last_seen": "2026-11-07T20:01:06.415510+00:00",
-  "market": "h2h",
-  "matchup": "New Mexico St Aggies @ Gonzaga Bulldogs",
-  "max_ev_pct": 190.5,
-  "outcome": "New Mexico St Aggies",
-  "price": 101.0,
-  "seen": 2,
-  "sharp_odds": null,
-  "sport_key": "basketball_ncaab"
- },
  "basketball_ncaab|North Alabama Lions @ Oklahoma Sooners|h2h|North Alabama Lions|SportsBet": {
   "alerted": false,
   "anchor": "retail_consensus",
@@ -246,25 +227,6 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
- "basketball_ncaab|Omaha Mavericks @ Utah State Aggies|h2h|Omaha Mavericks|SportsBet": {
-  "alerted": false,
-  "anchor": "retail_consensus",
-  "book": "SportsBet",
-  "commence_time": "2026-11-07T21:00:00Z",
-  "consensus_odds": 30.0,
-  "ev_pct": 236.7,
-  "fair_odds": 30.0,
-  "first_seen": "2026-11-07T09:00:46.451027+00:00",
-  "last_seen": "2026-11-07T20:01:06.415510+00:00",
-  "market": "h2h",
-  "matchup": "Omaha Mavericks @ Utah State Aggies",
-  "max_ev_pct": 236.7,
-  "outcome": "Omaha Mavericks",
-  "price": 101.0,
-  "seen": 3,
-  "sharp_odds": null,
-  "sport_key": "basketball_ncaab"
- },
  "basketball_ncaab|Radford Highlanders @ Tennessee Volunteers|h2h|Radford Highlanders|SportsBet": {
   "alerted": false,
   "anchor": "retail_consensus",
@@ -321,25 +283,6 @@
   "seen": 1,
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
- },
- "boxing_boxing|Amaury Massenaux @ Sam Hickey|h2h|Amaury Massenaux|Betfair": {
-  "alerted": false,
-  "anchor": "retail_consensus",
-  "book": "Betfair",
-  "commence_time": "2026-11-07T20:30:00Z",
-  "consensus_odds": 14.444,
-  "ev_pct": 95.6,
-  "fair_odds": 14.444,
-  "first_seen": "2026-11-06T23:01:01.362116+00:00",
-  "last_seen": "2026-11-07T20:01:06.415510+00:00",
-  "market": "h2h",
-  "matchup": "Amaury Massenaux @ Sam Hickey",
-  "max_ev_pct": 95.6,
-  "outcome": "Amaury Massenaux",
-  "price": 30.0,
-  "seen": 23,
-  "sharp_odds": null,
-  "sport_key": "boxing_boxing"
  },
  "boxing_boxing|Cheavon Clarke @ Chris Billam-Smith|h2h|Draw|Betfair": {
   "alerted": false,
