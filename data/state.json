@@ -20,7 +20,7 @@
     "commence_time": "2026-11-09T06:00:00Z"
   },
   "845169aadae4663e5abf656315bb8547:betfair_ex_au:Sri Lanka": {
-    "ev_pct": 12.65,
+    "ev_pct": 11.17,
     "commence_time": "2026-11-09T04:30:00Z"
   },
   "ef6dd64925f274e739e2d128bde8f3fd:sportsbet:Nataly Delgado": {
@@ -30,5 +30,9 @@
   "ef6dd64925f274e739e2d128bde8f3fd:betfair_ex_au:Nataly Delgado": {
     "ev_pct": 4.14,
     "commence_time": "2026-11-09T02:05:00Z"
+  },
+  "43227dcb0ff9ee09404052286912f1e3:betfair_ex_au:Alycia Baumgardner": {
+    "ev_pct": 6.12,
+    "commence_time": "2026-11-09T05:00:00Z"
   }
 }
