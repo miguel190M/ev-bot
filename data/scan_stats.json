@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-07T00:00:58.752675+00:00",
-  "markets": 80,
-  "markets_sharp": 48,
-  "outcomes": 260,
-  "capped": 21,
-  "flagged": 0,
-  "best": {
-   "gap": 6.24,
-   "ev_pct": 9.24,
-   "threshold_pct": 3.0,
-   "price": 2.5,
-   "outcome": "Zak Miller",
-   "book": "SportsBet",
-   "matchup": "Gully Powar @ Zak Miller",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-07T00:30:39.255191+00:00",
   "markets": 18,
   "markets_sharp": 16,
@@ -1478,6 +1459,25 @@
    "book": "SportsBet",
    "matchup": "Mikiah Kreps @ Ramla Ali",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-09T00:30:36.130173+00:00",
+  "markets": 12,
+  "markets_sharp": 8,
+  "outcomes": 53,
+  "capped": 2,
+  "flagged": 0,
+  "best": {
+   "gap": 8.174,
+   "ev_pct": 11.17,
+   "threshold_pct": 3.0,
+   "price": 3.7,
+   "outcome": "Sri Lanka",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
   }
  }
