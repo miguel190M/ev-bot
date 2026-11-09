@@ -1656,7 +1656,8 @@
     "lead_hours": 12.0,
     "logged_at": "2026-11-08T11:30:32.888152+00:00",
     "closing_fair_odds": 2.367,
-    "closing_captured_at": "2026-11-08T22:30:34.764401+00:00"
+    "closing_captured_at": "2026-11-08T22:30:34.764401+00:00",
+    "settle_reminded_at": "2026-11-09T05:00:51.280984+00:00"
   },
   "f006": {
     "event_id": "845169aadae4663e5abf656315bb8547",
