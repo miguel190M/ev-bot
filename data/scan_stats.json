@@ -1,81 +1,5 @@
 [
  {
-  "ts": "2026-11-07T08:00:48.557780+00:00",
-  "markets": 43,
-  "markets_sharp": 34,
-  "outcomes": 174,
-  "capped": 6,
-  "flagged": 0,
-  "best": {
-   "gap": 6.356,
-   "ev_pct": 9.36,
-   "threshold_pct": 3.0,
-   "price": 1.53,
-   "outcome": "Abraham R Perez",
-   "book": "SportsBet",
-   "matchup": "Yankiel Rivera Figueroa @ Abraham R Perez",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-07T08:30:33.308370+00:00",
-  "markets": 31,
-  "markets_sharp": 22,
-  "outcomes": 148,
-  "capped": 6,
-  "flagged": 0,
-  "best": {
-   "gap": 6.356,
-   "ev_pct": 9.36,
-   "threshold_pct": 3.0,
-   "price": 1.53,
-   "outcome": "Abraham R Perez",
-   "book": "SportsBet",
-   "matchup": "Yankiel Rivera Figueroa @ Abraham R Perez",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-07T08:40:58.364630+00:00",
-  "markets": 37,
-  "markets_sharp": 28,
-  "outcomes": 184,
-  "capped": 6,
-  "flagged": 0,
-  "best": {
-   "gap": 6.356,
-   "ev_pct": 9.36,
-   "threshold_pct": 3.0,
-   "price": 1.53,
-   "outcome": "Abraham R Perez",
-   "book": "SportsBet",
-   "matchup": "Yankiel Rivera Figueroa @ Abraham R Perez",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-07T09:00:46.451676+00:00",
-  "markets": 101,
-  "markets_sharp": 82,
-  "outcomes": 400,
-  "capped": 8,
-  "flagged": 0,
-  "best": {
-   "gap": 6.356,
-   "ev_pct": 9.36,
-   "threshold_pct": 3.0,
-   "price": 1.53,
-   "outcome": "Abraham R Perez",
-   "book": "SportsBet",
-   "matchup": "Yankiel Rivera Figueroa @ Abraham R Perez",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-07T09:30:34.871986+00:00",
   "markets": 16,
   "markets_sharp": 16,
@@ -1434,6 +1358,25 @@
   "best": {
    "gap": -1.726,
    "ev_pct": 1.27,
+   "threshold_pct": 3.0,
+   "price": 1.75,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_odi",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-09T09:00:46.771141+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 4,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.257,
+   "ev_pct": -1.26,
    "threshold_pct": 3.0,
    "price": 1.75,
    "outcome": "India",
