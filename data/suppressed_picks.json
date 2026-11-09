@@ -56,25 +56,6 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
- "basketball_ncaab|Morehead St Eagles @ Louisville Cardinals|h2h|Morehead St Eagles|SportsBet": {
-  "alerted": false,
-  "anchor": "retail_consensus",
-  "book": "SportsBet",
-  "commence_time": "2026-11-07T17:00:00Z",
-  "consensus_odds": 31.685,
-  "ev_pct": 297.7,
-  "fair_odds": 31.685,
-  "first_seen": "2026-11-07T05:00:44.744613+00:00",
-  "last_seen": "2026-11-07T13:00:52.224398+00:00",
-  "market": "h2h",
-  "matchup": "Morehead St Eagles @ Louisville Cardinals",
-  "max_ev_pct": 297.7,
-  "outcome": "Morehead St Eagles",
-  "price": 126.0,
-  "seen": 3,
-  "sharp_odds": null,
-  "sport_key": "basketball_ncaab"
- },
  "basketball_ncaab|New Mexico St Aggies @ Gonzaga Bulldogs|h2h|New Mexico St Aggies|SportsBet": {
   "alerted": false,
   "anchor": "retail_consensus",
