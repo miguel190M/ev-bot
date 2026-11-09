@@ -32,7 +32,15 @@
     "commence_time": "2026-11-09T02:05:00Z"
   },
   "43227dcb0ff9ee09404052286912f1e3:betfair_ex_au:Alycia Baumgardner": {
-    "ev_pct": 6.12,
+    "ev_pct": 4.55,
     "commence_time": "2026-11-09T05:00:00Z"
+  },
+  "ed202ffc8a7b30ea84ab7036b519d8b4:betfair_ex_au:Skye Nicolson": {
+    "ev_pct": 1.42,
+    "commence_time": "2026-11-09T03:20:00Z"
+  },
+  "ed202ffc8a7b30ea84ab7036b519d8b4:sportsbet:Skye Nicolson": {
+    "ev_pct": 1.82,
+    "commence_time": "2026-11-09T03:20:00Z"
   }
 }
