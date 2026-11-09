@@ -331,13 +331,13 @@
   "ev_pct": 41.4,
   "fair_odds": 56.562,
   "first_seen": "2026-11-08T11:00:49.287903+00:00",
-  "last_seen": "2026-11-09T02:30:35.792342+00:00",
+  "last_seen": "2026-11-09T03:00:50.341147+00:00",
   "market": "h2h",
   "matchup": "West Indies @ Bangladesh",
   "max_ev_pct": 82.9,
   "outcome": "Bangladesh",
   "price": 85.0,
-  "seen": 13,
+  "seen": 14,
   "sharp_odds": null,
   "sport_key": "cricket_test_match"
  }
