@@ -37,6 +37,25 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
+ "basketball_ncaab|Marshall Thundering Herd @ Ohio State Buckeyes|h2h|Marshall Thundering Herd|SportsBet": {
+  "alerted": false,
+  "anchor": "retail_consensus",
+  "book": "SportsBet",
+  "commence_time": "2026-11-09T23:00:00Z",
+  "consensus_odds": 30.0,
+  "ev_pct": 70.0,
+  "fair_odds": 30.0,
+  "first_seen": "2026-11-09T11:00:49.420978+00:00",
+  "last_seen": "2026-11-09T11:00:49.420978+00:00",
+  "market": "h2h",
+  "matchup": "Marshall Thundering Herd @ Ohio State Buckeyes",
+  "max_ev_pct": 70.0,
+  "outcome": "Marshall Thundering Herd",
+  "price": 51.0,
+  "seen": 1,
+  "sharp_odds": null,
+  "sport_key": "basketball_ncaab"
+ },
  "basketball_ncaab|Morehead St Eagles @ Louisville Cardinals|h2h|Morehead St Eagles|SportsBet": {
   "alerted": false,
   "anchor": "retail_consensus",

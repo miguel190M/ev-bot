@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-07T10:29:13.003625+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 40,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.867,
-   "ev_pct": 0.13,
-   "threshold_pct": 3.0,
-   "price": 1.36,
-   "outcome": "Denver Nuggets",
-   "book": "SportsBet",
-   "matchup": "Denver Nuggets @ Indiana Pacers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-07T10:30:34.700803+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 14,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.993,
-   "ev_pct": 0.01,
-   "threshold_pct": 3.0,
-   "price": 4.1,
-   "outcome": "Luca Van Assche",
-   "book": "SportsBet",
-   "matchup": "Ben Shelton @ Luca Van Assche",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-07T11:00:50.602082+00:00",
   "markets": 45,
   "markets_sharp": 35,
@@ -1360,6 +1322,25 @@
    "ev_pct": 0.38,
    "threshold_pct": 3.0,
    "price": 1.78,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_odi",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-09T11:00:49.421700+00:00",
+  "markets": 2,
+  "markets_sharp": 1,
+  "outcomes": 6,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": -3.168,
+   "ev_pct": -0.17,
+   "threshold_pct": 3.0,
+   "price": 1.77,
    "outcome": "India",
    "book": "Betfair",
    "matchup": "India @ New Zealand",
