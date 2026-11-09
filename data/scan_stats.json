@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-07T04:30:37.012322+00:00",
-  "markets": 9,
-  "markets_sharp": 7,
-  "outcomes": 47,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 0.183,
-   "ev_pct": 3.18,
-   "threshold_pct": 3.0,
-   "price": 1.46,
-   "outcome": "Adelaide 36ers",
-   "book": "SportsBet",
-   "matchup": "Illawarra Hawks @ Adelaide 36ers",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-07T05:00:44.745320+00:00",
   "markets": 56,
   "markets_sharp": 43,
@@ -1460,6 +1441,25 @@
    "matchup": "Sri Lanka @ Pakistan",
    "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-09T04:30:39.761178+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 3,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -0.595,
+   "ev_pct": 0.54,
+   "threshold_pct": 1.14,
+   "price": 1.07,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Zimbabwe @ Afghanistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
