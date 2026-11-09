@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-06T23:30:44.899366+00:00",
-  "markets": 17,
-  "markets_sharp": 17,
-  "outcomes": 60,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.907,
-   "ev_pct": 1.09,
-   "threshold_pct": 3.0,
-   "price": 1.83,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_odi",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-07T00:00:58.752675+00:00",
   "markets": 80,
   "markets_sharp": 48,
@@ -1468,6 +1449,25 @@
   "markets_sharp": 9,
   "outcomes": 46,
   "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 13.398,
+   "ev_pct": 16.4,
+   "threshold_pct": 3.0,
+   "price": 3.4,
+   "outcome": "Ramla Ali",
+   "book": "SportsBet",
+   "matchup": "Mikiah Kreps @ Ramla Ali",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-09T00:00:46.864250+00:00",
+  "markets": 19,
+  "markets_sharp": 16,
+  "outcomes": 79,
+  "capped": 1,
   "flagged": 0,
   "best": {
    "gap": 13.398,
