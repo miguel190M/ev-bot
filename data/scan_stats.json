@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-07T03:30:37.027355+00:00",
-  "markets": 6,
-  "markets_sharp": 5,
-  "outcomes": 29,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -0.434,
-   "ev_pct": 2.93,
-   "threshold_pct": 3.36,
-   "price": 2.18,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-07T04:00:47.425960+00:00",
-  "markets": 46,
-  "markets_sharp": 35,
-  "outcomes": 184,
-  "capped": 6,
-  "flagged": 0,
-  "best": {
-   "gap": 15.115,
-   "ev_pct": 18.11,
-   "threshold_pct": 3.0,
-   "price": 2.8,
-   "outcome": "Umut Camkiran",
-   "book": "SportsBet",
-   "matchup": "Umut Camkiran @ Mourad Aliev",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-07T04:30:37.012322+00:00",
   "markets": 9,
   "markets_sharp": 7,
@@ -1474,6 +1436,25 @@
    "ev_pct": 12.65,
    "threshold_pct": 3.0,
    "price": 3.75,
+   "outcome": "Sri Lanka",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-09T04:00:49.742245+00:00",
+  "markets": 4,
+  "markets_sharp": 2,
+  "outcomes": 16,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 7.267,
+   "ev_pct": 10.27,
+   "threshold_pct": 3.0,
+   "price": 3.7,
    "outcome": "Sri Lanka",
    "book": "Betfair",
    "matchup": "Sri Lanka @ Pakistan",
