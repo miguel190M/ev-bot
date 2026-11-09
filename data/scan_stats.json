@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-07T02:00:52.256230+00:00",
-  "markets": 50,
-  "markets_sharp": 36,
-  "outcomes": 189,
-  "capped": 7,
-  "flagged": 0,
-  "best": {
-   "gap": 15.115,
-   "ev_pct": 18.11,
-   "threshold_pct": 3.0,
-   "price": 2.8,
-   "outcome": "Umut Camkiran",
-   "book": "SportsBet",
-   "matchup": "Umut Camkiran @ Mourad Aliev",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-07T02:30:34.877357+00:00",
-  "markets": 11,
-  "markets_sharp": 9,
-  "outcomes": 56,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 3.915,
-   "ev_pct": 6.92,
-   "threshold_pct": 3.0,
-   "price": 9.0,
-   "outcome": "FSV Mainz 05",
-   "book": "Betfair",
-   "matchup": "Bayern Munich @ FSV Mainz 05",
-   "sport_key": "soccer_germany_bundesliga",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-07T03:00:50.685570+00:00",
   "markets": 46,
   "markets_sharp": 34,
@@ -1468,6 +1430,25 @@
   "markets_sharp": 7,
   "outcomes": 45,
   "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": 8.174,
+   "ev_pct": 11.17,
+   "threshold_pct": 3.0,
+   "price": 3.7,
+   "outcome": "Sri Lanka",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-09T02:30:35.792754+00:00",
+  "markets": 6,
+  "markets_sharp": 1,
+  "outcomes": 27,
+  "capped": 2,
   "flagged": 0,
   "best": {
    "gap": 8.174,
