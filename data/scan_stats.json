@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-07T09:30:34.871986+00:00",
-  "markets": 16,
-  "markets_sharp": 16,
-  "outcomes": 96,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.296,
-   "ev_pct": -0.3,
-   "threshold_pct": 3.0,
-   "price": 7.0,
-   "outcome": "Watford",
-   "book": "Betfair",
-   "matchup": "Middlesbrough @ Watford",
-   "sport_key": "soccer_efl_champ",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-07T10:00:47.020876+00:00",
-  "markets": 51,
-  "markets_sharp": 42,
-  "outcomes": 220,
-  "capped": 6,
-  "flagged": 0,
-  "best": {
-   "gap": 6.356,
-   "ev_pct": 9.36,
-   "threshold_pct": 3.0,
-   "price": 1.53,
-   "outcome": "Abraham R Perez",
-   "book": "SportsBet",
-   "matchup": "Yankiel Rivera Figueroa @ Abraham R Perez",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-07T10:29:13.003625+00:00",
   "markets": 7,
   "markets_sharp": 7,
@@ -1379,6 +1341,25 @@
    "ev_pct": -1.26,
    "threshold_pct": 3.0,
    "price": 1.75,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_odi",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-09T10:00:48.121125+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 4,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.624,
+   "ev_pct": 0.38,
+   "threshold_pct": 3.0,
+   "price": 1.78,
    "outcome": "India",
    "book": "Betfair",
    "matchup": "India @ New Zealand",
