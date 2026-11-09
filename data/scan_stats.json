@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-07T22:00:52.257044+00:00",
-  "markets": 90,
-  "markets_sharp": 79,
-  "outcomes": 318,
-  "capped": 2,
-  "flagged": 0,
-  "best": {
-   "gap": 2.025,
-   "ev_pct": 4.15,
-   "threshold_pct": 2.12,
-   "price": 1.56,
-   "outcome": "Pryce Taylor",
-   "book": "SportsBet",
-   "matchup": "Tsotne Rogava @ Pryce Taylor",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-07T22:05:01.911588+00:00",
-  "markets": 26,
-  "markets_sharp": 24,
-  "outcomes": 101,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 1.683,
-   "ev_pct": 3.8,
-   "threshold_pct": 2.12,
-   "price": 1.56,
-   "outcome": "Pryce Taylor",
-   "book": "SportsBet",
-   "matchup": "Tsotne Rogava @ Pryce Taylor",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-07T22:30:40.181016+00:00",
   "markets": 22,
   "markets_sharp": 21,
@@ -1326,6 +1288,25 @@
    "book": "Betfair",
    "matchup": "India @ New Zealand",
    "sport_key": "cricket_odi",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-09T22:30:36.941493+00:00",
+  "markets": 12,
+  "markets_sharp": 12,
+  "outcomes": 48,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.038,
+   "ev_pct": -0.04,
+   "threshold_pct": 3.0,
+   "price": 1.22,
+   "outcome": "Detroit Pistons",
+   "book": "SportsBet",
+   "matchup": "Washington Wizards @ Detroit Pistons",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
