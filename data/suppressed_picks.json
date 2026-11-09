@@ -303,25 +303,6 @@
   "sharp_odds": null,
   "sport_key": "boxing_boxing"
  },
- "boxing_boxing|Ivan Balaz @ Damazion Vanhouter|h2h|Ivan Balaz|SportsBet": {
-  "alerted": false,
-  "anchor": "retail_consensus",
-  "book": "SportsBet",
-  "commence_time": "2026-11-07T21:05:00Z",
-  "consensus_odds": 19.075,
-  "ev_pct": 36.3,
-  "fair_odds": 19.075,
-  "first_seen": "2026-11-07T21:00:46.420023+00:00",
-  "last_seen": "2026-11-07T21:00:46.420023+00:00",
-  "market": "h2h",
-  "matchup": "Ivan Balaz @ Damazion Vanhouter",
-  "max_ev_pct": 36.3,
-  "outcome": "Ivan Balaz",
-  "price": 26.0,
-  "seen": 1,
-  "sharp_odds": null,
-  "sport_key": "boxing_boxing"
- },
  "boxing_boxing|Mikiah Kreps @ Ramla Ali|h2h|Ramla Ali|SportsBet": {
   "alerted": false,
   "anchor": "pinnacle",
