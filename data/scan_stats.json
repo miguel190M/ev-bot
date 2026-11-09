@@ -1309,5 +1309,24 @@
    "sport_key": "cricket_odi",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-09T21:30:36.204403+00:00",
+  "markets": 8,
+  "markets_sharp": 8,
+  "outcomes": 32,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.537,
+   "ev_pct": -0.54,
+   "threshold_pct": 3.0,
+   "price": 2.1,
+   "outcome": "Los Angeles Lakers",
+   "book": "SportsBet",
+   "matchup": "Los Angeles Lakers @ Atlanta Hawks",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
