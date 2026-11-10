@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-08T03:00:50.622406+00:00",
-  "markets": 13,
-  "markets_sharp": 11,
-  "outcomes": 57,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 6.711,
-   "ev_pct": 9.71,
-   "threshold_pct": 3.0,
-   "price": 1.91,
-   "outcome": "Irma Garcia",
-   "book": "SportsBet",
-   "matchup": "Nataly Delgado @ Irma Garcia",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-08T03:30:35.132893+00:00",
-  "markets": 13,
-  "markets_sharp": 12,
-  "outcomes": 66,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 6.826,
-   "ev_pct": 9.83,
-   "threshold_pct": 3.0,
-   "price": 3.9,
-   "outcome": "Ramla Ali",
-   "book": "SportsBet",
-   "matchup": "Mikiah Kreps @ Ramla Ali",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-08T04:00:44.687286+00:00",
   "markets": 9,
   "markets_sharp": 8,
@@ -1322,6 +1284,25 @@
    "ev_pct": -0.79,
    "threshold_pct": 2.4,
    "price": 1.7,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-10T03:30:38.458567+00:00",
+  "markets": 2,
+  "markets_sharp": 0,
+  "outcomes": 7,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.017,
+   "ev_pct": 1.46,
+   "threshold_pct": 2.48,
+   "price": 1.74,
    "outcome": "Draw",
    "book": "Betfair",
    "matchup": "Sri Lanka @ Pakistan",
