@@ -95,7 +95,7 @@ def open_bets_text(bet_ledger: dict, now: datetime) -> str:
             state = "starts " + start.astimezone(scheduling.SYDNEY).strftime("%a %I:%M%p")
         else:
             state = ""
-        lines.append(f"{bid} · {b['outcome']} @ {b['price']} (${b['stake']:g}) · {_matchup(b)} · {state}")
+        lines.append(f"{bid} · {b['outcome']} @ {b['price']} {_placed_on(b)} (${b['stake']:g}) · {_matchup(b)} · {state}")
     if waiting:
         lines.append("")
         lines.append("Settle with /settle <id> won|lost|void")
@@ -110,11 +110,16 @@ def remind_awaiting_settlement(bet_ledger: dict, now: datetime, send) -> int:
         return 0
     lines = ["⏳ Result needed - reply /settle <id> won|lost|void"]
     for bid, b in fresh[:10]:
-        lines.append(f"{bid} · {b['outcome']} @ {b['price']} (${b['stake']:g}) · {_matchup(b)}")
+        lines.append(f"{bid} · {b['outcome']} @ {b['price']} {_placed_on(b)} (${b['stake']:g}) · {_matchup(b)}")
     send("\n".join(lines))
     for _, b in fresh:
         b["settle_reminded_at"] = now.isoformat()
     return len(fresh)
+
+
+def _placed_on(b: dict) -> str:
+    """Where the bet was placed, e.g. "on Betfair" / "on SportsBet"."""
+    return f"on {b.get('bookmaker_title') or b.get('bookmaker_key') or '?'}"
 
 
 def _matchup(o: dict) -> str:
@@ -220,7 +225,7 @@ def format_digest(slate: list[dict], ids: dict, candidates: dict, bet_ledger: di
         lines.append("")
         lines.append("⏳ Awaiting your result (reply /settle <id> won|lost|void):")
         for bid, b in awaiting[:8]:
-            lines.append(f"   {bid} · {b['outcome']} @ {b['price']} · {_matchup(b)}")
+            lines.append(f"   {bid} · {b['outcome']} @ {b['price']} {_placed_on(b)} · {_matchup(b)}")
         if len(awaiting) > 8:
             lines.append(f"   ...and {len(awaiting) - 8} more")
     lines.append("")
