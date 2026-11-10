@@ -113,5 +113,28 @@
     "consensus_probability": 0.5984,
     "large_edge": false,
     "alerted_at": "2026-11-10T04:00:48.518116+00:00"
+  },
+  "4e73": {
+    "event_id": "3689d555c9a1c81e3d300375b4c80530",
+    "sport_key": "basketball_nba",
+    "commence_time": "2026-11-11T00:40:00Z",
+    "home_team": "New York Knicks",
+    "away_team": "Milwaukee Bucks",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Milwaukee Bucks",
+    "price": 9.5,
+    "commission": 0.0,
+    "fair_probability": 0.1084,
+    "fair_odds": 9.223,
+    "ev_pct": 3.01,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.1084,
+    "consensus_probability": 0.1038,
+    "large_edge": false,
+    "alerted_at": "2026-11-10T13:00:49.191135+00:00"
   }
 }

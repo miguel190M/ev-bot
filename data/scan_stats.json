@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-08T13:00:47.487295+00:00",
-  "markets": 34,
-  "markets_sharp": 27,
-  "outcomes": 131,
-  "capped": 5,
-  "flagged": 0,
-  "best": {
-   "gap": 3.74,
-   "ev_pct": 6.74,
-   "threshold_pct": 3.0,
-   "price": 5.5,
-   "outcome": "Elif Nur Turhan",
-   "book": "SportsBet",
-   "matchup": "Alycia Baumgardner @ Elif Nur Turhan",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-08T13:30:39.501188+00:00",
   "markets": 17,
   "markets_sharp": 17,
@@ -1061,6 +1042,25 @@
    "matchup": "Sri Lanka @ Pakistan",
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-10T13:00:49.189589+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 4,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 0.005,
+   "ev_pct": 3.01,
+   "threshold_pct": 3.0,
+   "price": 9.5,
+   "outcome": "Milwaukee Bucks",
+   "book": "SportsBet",
+   "matchup": "Milwaukee Bucks @ New York Knicks",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
   }
  }
 ]
