@@ -1,27 +1,4 @@
 {
-  "e946": {
-    "event_id": "8b0cf0a524be0e30ca359e94b47d49c1",
-    "sport_key": "cricket_test_match",
-    "commence_time": "2026-11-09T06:00:00Z",
-    "home_team": "Afghanistan",
-    "away_team": "Zimbabwe",
-    "market_key": "h2h",
-    "bookmaker_key": "betfair_ex_au",
-    "bookmaker_title": "Betfair",
-    "outcome": "Draw",
-    "price": 1.07,
-    "commission": 0.06,
-    "fair_probability": 0.9502,
-    "fair_odds": 1.052,
-    "ev_pct": 1.27,
-    "anchor": "retail_consensus",
-    "num_books": 7,
-    "sharp_disagreement": false,
-    "sharp_probability": null,
-    "consensus_probability": 0.9502,
-    "large_edge": false,
-    "alerted_at": "2026-11-08T20:00:42.004110+00:00"
-  },
   "63e8": {
     "event_id": "3a466ba74c0042d217551623eb2d661e",
     "sport_key": "cricket_odi",
