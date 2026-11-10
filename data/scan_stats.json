@@ -1043,5 +1043,24 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-10T23:30:34.992529+00:00",
+  "markets": 13,
+  "markets_sharp": 13,
+  "outcomes": 52,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.017,
+   "ev_pct": -1.02,
+   "threshold_pct": 3.0,
+   "price": 1.11,
+   "outcome": "New York Knicks",
+   "book": "Betfair",
+   "matchup": "Milwaukee Bucks @ New York Knicks",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
