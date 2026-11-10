@@ -1309,5 +1309,24 @@
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-10T02:00:45.717727+00:00",
+  "markets": 8,
+  "markets_sharp": 4,
+  "outcomes": 23,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": -0.252,
+   "ev_pct": 2.75,
+   "threshold_pct": 3.0,
+   "price": 2.26,
+   "outcome": "New Zealand",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_odi",
+   "anchor": "pinnacle"
+  }
  }
 ]
