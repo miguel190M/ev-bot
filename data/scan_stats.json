@@ -1,252 +1,5 @@
 [
  {
-  "ts": "2026-11-08T04:30:34.710409+00:00",
-  "markets": 4,
-  "markets_sharp": 2,
-  "outcomes": 16,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.032,
-   "ev_pct": 0.97,
-   "threshold_pct": 3.0,
-   "price": 1.54,
-   "outcome": "Perth Wildcats",
-   "book": "SportsBet",
-   "matchup": "Cairns Taipans @ Perth Wildcats",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-08T05:00:47.741797+00:00",
-  "markets": 13,
-  "markets_sharp": 10,
-  "outcomes": 63,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": 6.826,
-   "ev_pct": 9.83,
-   "threshold_pct": 3.0,
-   "price": 3.9,
-   "outcome": "Ramla Ali",
-   "book": "SportsBet",
-   "matchup": "Mikiah Kreps @ Ramla Ali",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-08T05:30:36.162799+00:00",
-  "markets": 4,
-  "markets_sharp": 2,
-  "outcomes": 16,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.721,
-   "ev_pct": 1.28,
-   "threshold_pct": 3.0,
-   "price": 1.54,
-   "outcome": "Perth Wildcats",
-   "book": "SportsBet",
-   "matchup": "Cairns Taipans @ Perth Wildcats",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-08T06:00:42.446068+00:00",
-  "markets": 13,
-  "markets_sharp": 12,
-  "outcomes": 68,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 6.826,
-   "ev_pct": 9.83,
-   "threshold_pct": 3.0,
-   "price": 3.9,
-   "outcome": "Ramla Ali",
-   "book": "SportsBet",
-   "matchup": "Mikiah Kreps @ Ramla Ali",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-08T06:22:17.746139+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 4,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -6.344,
-   "ev_pct": -3.34,
-   "threshold_pct": 3.0,
-   "price": 2.24,
-   "outcome": "Florida Panthers",
-   "book": "Betfair",
-   "matchup": "Florida Panthers @ Boston Bruins",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-08T06:30:37.347255+00:00",
-  "markets": 11,
-  "markets_sharp": 11,
-  "outcomes": 50,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.951,
-   "ev_pct": -0.95,
-   "threshold_pct": 3.0,
-   "price": 1.23,
-   "outcome": "Kansas City Chiefs",
-   "book": "Betfair",
-   "matchup": "New York Jets @ Kansas City Chiefs",
-   "sport_key": "americanfootball_nfl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-08T07:00:47.961561+00:00",
-  "markets": 7,
-  "markets_sharp": 6,
-  "outcomes": 34,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 6.826,
-   "ev_pct": 9.83,
-   "threshold_pct": 3.0,
-   "price": 3.9,
-   "outcome": "Ramla Ali",
-   "book": "SportsBet",
-   "matchup": "Mikiah Kreps @ Ramla Ali",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-08T07:30:33.955011+00:00",
-  "markets": 4,
-  "markets_sharp": 4,
-  "outcomes": 24,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.524,
-   "ev_pct": -0.52,
-   "threshold_pct": 3.0,
-   "price": 3.75,
-   "outcome": "Monza",
-   "book": "Betfair",
-   "matchup": "Atalanta BC @ Monza",
-   "sport_key": "soccer_italy_serie_a",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-08T08:00:44.469465+00:00",
-  "markets": 7,
-  "markets_sharp": 6,
-  "outcomes": 34,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 10.193,
-   "ev_pct": 13.19,
-   "threshold_pct": 3.0,
-   "price": 20.0,
-   "outcome": "Miyo Yoshida",
-   "book": "Betfair",
-   "matchup": "Miyo Yoshida @ Skye Nicolson",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-08T08:30:32.836512+00:00",
-  "markets": 5,
-  "markets_sharp": 5,
-  "outcomes": 30,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.724,
-   "ev_pct": -0.72,
-   "threshold_pct": 3.0,
-   "price": 3.75,
-   "outcome": "Monza",
-   "book": "Betfair",
-   "matchup": "Atalanta BC @ Monza",
-   "sport_key": "soccer_italy_serie_a",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-08T09:00:44.214429+00:00",
-  "markets": 22,
-  "markets_sharp": 20,
-  "outcomes": 94,
-  "capped": 2,
-  "flagged": 0,
-  "best": {
-   "gap": 8.397,
-   "ev_pct": 11.4,
-   "threshold_pct": 3.0,
-   "price": 20.0,
-   "outcome": "Miyo Yoshida",
-   "book": "Betfair",
-   "matchup": "Miyo Yoshida @ Skye Nicolson",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-08T10:00:46.723740+00:00",
-  "markets": 17,
-  "markets_sharp": 17,
-  "outcomes": 94,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 13.267,
-   "ev_pct": 16.27,
-   "threshold_pct": 3.0,
-   "price": 20.0,
-   "outcome": "Miyo Yoshida",
-   "book": "Betfair",
-   "matchup": "Miyo Yoshida @ Skye Nicolson",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-08T10:30:42.037471+00:00",
-  "markets": 22,
-  "markets_sharp": 21,
-  "outcomes": 104,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.262,
-   "ev_pct": -0.26,
-   "threshold_pct": 3.0,
-   "price": 1.24,
-   "outcome": "San Francisco 49ers",
-   "book": "Betfair",
-   "matchup": "Las Vegas Raiders @ San Francisco 49ers",
-   "sport_key": "americanfootball_nfl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-08T11:00:49.288556+00:00",
   "markets": 13,
   "markets_sharp": 12,
@@ -1308,6 +1061,25 @@
    "matchup": "Sri Lanka @ Pakistan",
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-10T11:00:46.506548+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 4,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.741,
+   "ev_pct": -1.74,
+   "threshold_pct": 3.0,
+   "price": 1.22,
+   "outcome": "Florida Gators",
+   "book": "Betfair",
+   "matchup": "Florida Gators @ Florida St Seminoles",
+   "sport_key": "basketball_ncaab",
+   "anchor": "pinnacle"
   }
  }
 ]

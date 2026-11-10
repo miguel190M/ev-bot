@@ -1,11 +1,9 @@
 {
   "betfair_ex_au": "Betfair",
   "betfair_ex_eu": "Betfair",
-  "betonlineag": "BetOnline.ag",
   "betr_au": "Betr",
   "betright": "Bet Right",
   "betsson": "Betsson",
-  "everygame": "Everygame",
   "gtbets": "GTbets",
   "ladbrokes_au": "Ladbrokes",
   "leovegas_se": "LeoVegas (SE)",
@@ -21,5 +19,6 @@
   "tabtouch": "TABtouch",
   "unibet": "Unibet",
   "unibet_nl": "Unibet (NL)",
-  "unibet_se": "Unibet (SE)"
+  "unibet_se": "Unibet (SE)",
+  "williamhill": "William Hill"
 }
