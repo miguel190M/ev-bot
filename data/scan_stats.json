@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-08T20:30:37.601704+00:00",
-  "markets": 12,
-  "markets_sharp": 12,
-  "outcomes": 55,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": 12.483,
-   "ev_pct": 15.48,
-   "threshold_pct": 3.0,
-   "price": 2.55,
-   "outcome": "Shera Mae Patricio",
-   "book": "SportsBet",
-   "matchup": "Shera Mae Patricio @ Brittany Sims",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-08T21:00:43.449675+00:00",
   "markets": 14,
   "markets_sharp": 12,
@@ -1042,6 +1023,25 @@
    "matchup": "Milwaukee Bucks @ New York Knicks",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-10T20:30:38.409435+00:00",
+  "markets": 2,
+  "markets_sharp": 0,
+  "outcomes": 8,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -5.944,
+   "ev_pct": -3.48,
+   "threshold_pct": 2.46,
+   "price": 1.73,
+   "outcome": "Karolina Muchova",
+   "book": "Betfair",
+   "matchup": "Karolina Muchova @ Elina Svitolina",
+   "sport_key": "tennis_wta_finals",
+   "anchor": "retail_consensus"
   }
  }
 ]
