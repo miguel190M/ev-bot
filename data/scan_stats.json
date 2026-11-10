@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-08T11:00:49.288556+00:00",
-  "markets": 13,
-  "markets_sharp": 12,
-  "outcomes": 67,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": 13.267,
-   "ev_pct": 16.27,
-   "threshold_pct": 3.0,
-   "price": 20.0,
-   "outcome": "Miyo Yoshida",
-   "book": "Betfair",
-   "matchup": "Miyo Yoshida @ Skye Nicolson",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-08T11:30:38.253206+00:00",
   "markets": 16,
   "markets_sharp": 16,
@@ -1080,6 +1061,25 @@
    "matchup": "Florida Gators @ Florida St Seminoles",
    "sport_key": "basketball_ncaab",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-10T11:30:34.192290+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 3,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.914,
+   "ev_pct": -3.19,
+   "threshold_pct": 1.72,
+   "price": 1.36,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
