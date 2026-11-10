@@ -37,7 +37,7 @@ def _source(b):
 
 
 def _flag(b):
-    return "Large edge (>cap)" if b.get("large_edge") else "Normal"
+    return "Arb hedge" if b.get("arb_hedge") else "Large edge (>cap)" if b.get("large_edge") else "Normal"
 
 
 DIMENSIONS = {

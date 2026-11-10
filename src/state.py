@@ -25,7 +25,12 @@ def save_state(state: dict):
 
 
 def make_key(opp: dict) -> str:
-    return f"{opp['event_id']}:{opp['bookmaker_key']}:{opp['outcome']}"
+    return f"{opp['event_id']}:{opp['bookmaker_key']}:{opp['outcome']}" + (":arb" if opp.get("arb") else "")
+
+
+def _metric(opp: dict) -> float:
+    """What a re-alert is judged on: the locked profit % for an arb, else the edge."""
+    return opp["arb"]["profit_pct"] if opp.get("arb") else opp["ev_pct"]
 
 
 def filter_new_or_changed(opportunities: list[dict], state: dict) -> list[dict]:
@@ -36,9 +41,9 @@ def filter_new_or_changed(opportunities: list[dict], state: dict) -> list[dict]:
     for opp in opportunities:
         key = make_key(opp)
         prev = state.get(key)
-        if prev is None or abs(opp["ev_pct"] - prev["ev_pct"]) >= config.MIN_EV_DELTA_TO_REALERT:
+        if prev is None or abs(_metric(opp) - prev["ev_pct"]) >= config.MIN_EV_DELTA_TO_REALERT:
             fresh.append(opp)
-        state[key] = {"ev_pct": opp["ev_pct"], "commence_time": opp["commence_time"]}
+        state[key] = {"ev_pct": _metric(opp), "commence_time": opp["commence_time"]}
     return fresh
 
 

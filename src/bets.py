@@ -130,6 +130,28 @@ def drop_logged(opps: list[dict], ledger: dict) -> list[dict]:
     return [o for o in opps if find_logged(o, ledger, scope) is None]
 
 
+def is_opposing(opp: dict, bet: dict) -> bool:
+    """True if `bet` (an open bet) is on the other side of the same market as `opp`.
+    Totals only oppose at the same line (Over 224.5 vs Under 224.5); other markets
+    oppose on any different outcome."""
+    from .ev_calculator import split_outcome
+    if (bet.get("status") != "open" or bet.get("event_id") != opp.get("event_id")
+            or bet.get("market_key", "h2h") != opp.get("market_key", "h2h")
+            or bet.get("outcome") == opp.get("outcome")):
+        return False
+    (n1, p1), (n2, p2) = split_outcome(opp["outcome"]), split_outcome(bet["outcome"])
+    if p1 is not None or p2 is not None:
+        return p1 == p2
+    return True
+
+
+def drop_opposing(opps: list[dict], ledger: dict) -> list[dict]:
+    """Remove +EV picks on the other side of a game you already hold a bet on
+    (arbitrage hedges are added separately and are not affected)."""
+    open_bets = [b for b in ledger.values() if b.get("status") == "open"]
+    return [o for o in opps if not any(is_opposing(o, b) for b in open_bets)]
+
+
 def set_taken_price(bet: dict, price: float) -> None:
     """Record the price you actually got (it can differ from the alert's). The edge
     is recomputed against the same fair odds, and if the bet is already settled its
@@ -167,7 +189,8 @@ def place_bet(sid: str, stake: float, opp: dict, bets: dict, price: float | None
         "ev_pct": opp["ev_pct"],
         "anchor": opp["anchor"],
         "sharp_disagreement": opp.get("sharp_disagreement", False),
-        "large_edge": opp.get("large_edge", False),  # alerted despite exceeding MAX_EV_PCT (tracked separately)
+        "large_edge": opp.get("large_edge", False),
+        "arb_hedge": bool(opp.get("arb")),  # the second leg of an arbitrage against a bet you held  # alerted despite exceeding MAX_EV_PCT (tracked separately)
         "stake": stake,
         "status": "open",
         "profit": None,

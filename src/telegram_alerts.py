@@ -21,6 +21,21 @@ def format_message(opp: dict, bet_id: str | None = None) -> str:
     if opp.get("sharp_disagreement") and opp.get("sharp_probability") and opp.get("consensus_probability"):
         disagree_note = (f"\n⚠️ Low confidence: Pinnacle fair ~{1 / opp['sharp_probability']:.2f} vs soft-book "
                          f"median ~{1 / opp['consensus_probability']:.2f} (edge uses the lower probability)")
+    arb = opp.get("arb")
+    if arb:
+        held = f"{arb['held_outcome']}" + (f" @ {arb['held_price']}" if arb.get("held_price") else "")
+        return (
+            f"🔒 ARBITRAGE - hedge your open bet (locks +${arb['profit']:.2f}, +{arb['profit_pct']:.1f}%)\n"
+            f"Event: {matchup}\n"
+            f"Start: {dt_syd.strftime('%a %d %b, %I:%M%p %Z')}\n"
+            f"{market_line}"
+            f"You hold: {held} ({arb['held_book']}) ${arb['held_stake']:g}\n"
+            f"Bet now: {opp['outcome']} @ {opp['price']} at {opp['bookmaker_title']}\n"
+            f"Best size: ${arb['stake']:.2f}  (equal ${arb['payout']:.2f} back whichever side wins)\n"
+            f"Total outlay ${arb['outlay']:.2f} -> guaranteed profit ${arb['profit']:.2f} ({arb['profit_pct']:.1f}%)"
+            f"{commission_note}"
+            + (f"\n\nPlaced it? Log it: /bet {bet_id} {arb['stake']:.2f}  (different price? add @<price>)" if bet_id else "")
+        )
     large_note = ""
     header = f"🎯 +EV Bet Found ({opp['ev_pct']}% edge)"
     if opp.get("large_edge"):

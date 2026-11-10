@@ -255,6 +255,74 @@ def _make_opportunity(event, market_key, book_key, book_title, price, outcome, f
     }
 
 
+def split_outcome(outcome: str) -> tuple[str, float | None]:
+    """"Over 224.5" -> ("Over", 224.5); a plain selection name -> (name, None)."""
+    head, _, tail = outcome.rpartition(" ")
+    try:
+        return head, float(tail)
+    except ValueError:
+        return outcome, None
+
+
+def find_hedge_arbs(event: dict, held: list) -> list[dict]:
+    """Arbitrage against bets you already hold. `held` = [(bet_id, bet)], open bets
+    on this event. For each market where you hold one side of a 2-way market, look
+    for the best price on the other side at a bettable book; if backing it at the
+    stake that equalises the payout locks in a profit whichever side wins, return it
+    as an opportunity with an "arb" block (stake, locked profit, what you hold).
+    Several bets on the same side are treated as one position."""
+    out = []
+    by_pos = {}
+    for bid, bet in held:
+        by_pos.setdefault((bet.get("market_key", "h2h"), bet["outcome"]), []).append((bid, bet))
+    for (market_key, held_outcome), legs in by_pos.items():
+        book_prices, book_titles = _extract_book_prices(event, market_key)
+        names = {n for prices in book_prices.values() for n in prices}
+        if len(names) != 2 or held_outcome not in names:
+            continue                                   # 3-way (draw) or missing: no 2-leg arb
+        counter = next(n for n in names if n != held_outcome)
+        outlay_a = sum(b["stake"] for _, b in legs)
+        payout_a = sum(b["stake"] * _effective_price(b["price"], b.get("commission", 0.0)) for _, b in legs)
+        best = None
+        for book_key, prices in book_prices.items():
+            if book_key not in config.BETTABLE_BOOKS or not prices.get(counter):
+                continue
+            comm = config.get_commission_rate(book_key, event["sport_key"])
+            eff_b = _effective_price(prices[counter], comm)
+            if best is None or eff_b > best[0]:
+                best = (eff_b, book_key, prices[counter], comm)
+        if best is None:
+            continue
+        eff_b, book_key, price_b, comm = best
+        stake_b = payout_a / eff_b                      # equal payout on either result
+        profit = payout_a - outlay_a - stake_b
+        outlay = outlay_a + stake_b
+        pct = 100 * profit / outlay
+        if profit <= 0 or pct < config.ARB_MIN_PROFIT_PCT:
+            continue
+        fair = _fair_probabilities(book_prices).get(counter)
+        if fair:
+            fair_prob, n_books = fair["prob"], fair["n_books"]
+            anchor, sharp_p, cons_p, dis = fair["anchor"], fair["sharp_prob"], fair["consensus_prob"], fair["disagree"]
+        else:                                           # no reference line: use the arb-neutral split
+            fair_prob = (1 / eff_b) / (1 / eff_b + outlay_a / payout_a)
+            n_books, anchor, sharp_p, cons_p, dis = 0, "retail_consensus", None, None, False
+        opp = _make_opportunity(event, market_key, book_key, book_titles[book_key], price_b, counter, fair_prob,
+                                n_books, comm, eff_b * fair_prob - 1, anchor=anchor, sharp_prob=sharp_p,
+                                consensus_prob=cons_p, disagree=dis)
+        first = legs[0][1]
+        opp["arb"] = {
+            "held_ids": [bid for bid, _ in legs], "held_outcome": held_outcome,
+            "held_price": first["price"] if len(legs) == 1 else None,
+            "held_book": first.get("bookmaker_title"), "held_stake": round(outlay_a, 2),
+            "held_payout": round(payout_a, 2), "stake": round(stake_b, 2),
+            "payout": round(payout_a, 2), "profit": round(profit, 2), "profit_pct": round(pct, 2),
+            "outlay": round(outlay, 2),
+        }
+        out.append(opp)
+    return out
+
+
 def get_reference_fair_odds(event: dict, outcome: str, market_key: str = "h2h") -> float | None:
     """Fair odds for one specific outcome from the current reference
     consensus in the given market - independent of any bettable book's own

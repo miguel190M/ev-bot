@@ -93,6 +93,13 @@ MAX_EV_PCT = float(os.environ.get("MAX_EV_PCT", "20"))
 # artefact. 0 turns the exception off (everything above the cap is suppressed).
 CAPPED_ALERT_MAX_PRICE = float(os.environ.get("CAPPED_ALERT_MAX_PRICE", "3.0"))
 
+# Betting both sides of a game: once you hold an open bet on one side of a
+# market, +EV alerts on the OTHER side are dropped. The other side only alerts
+# when it forms an arbitrage with what you hold (a guaranteed profit whichever
+# side wins), with the stake that equalises the payout. Only 2-way markets can
+# be arbed with two bets; the arb must lock in at least this % of total outlay.
+ARB_MIN_PROFIT_PCT = float(os.environ.get("ARB_MIN_PROFIT_PCT", "0.1"))
+
 # Closing-line capture for CLV: an open bet whose event starts within this
 # many minutes gets a dedicated odds pull (if its sport wasn't already
 # fetched this run) so a pre-kickoff fair price is always recorded. Must be
