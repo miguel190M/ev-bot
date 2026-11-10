@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-08T21:30:34.620564+00:00",
-  "markets": 12,
-  "markets_sharp": 12,
-  "outcomes": 55,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": 10.103,
-   "ev_pct": 13.1,
-   "threshold_pct": 3.0,
-   "price": 2.55,
-   "outcome": "Shera Mae Patricio",
-   "book": "SportsBet",
-   "matchup": "Shera Mae Patricio @ Brittany Sims",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-08T22:00:44.002431+00:00",
   "markets": 25,
   "markets_sharp": 21,
@@ -1041,6 +1022,25 @@
    "book": "Betfair",
    "matchup": "Sri Lanka @ Pakistan",
    "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-10T21:30:38.862761+00:00",
+  "markets": 10,
+  "markets_sharp": 7,
+  "outcomes": 40,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -5.017,
+   "ev_pct": -1.94,
+   "threshold_pct": 3.08,
+   "price": 2.04,
+   "outcome": "Mirra Andreeva",
+   "book": "Betfair",
+   "matchup": "Mirra Andreeva @ Aryna Sabalenka",
+   "sport_key": "tennis_wta_finals",
    "anchor": "retail_consensus"
   }
  }
