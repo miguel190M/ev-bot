@@ -1309,5 +1309,24 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-10T00:30:37.117976+00:00",
+  "markets": 10,
+  "markets_sharp": 10,
+  "outcomes": 40,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.222,
+   "ev_pct": -1.22,
+   "threshold_pct": 3.0,
+   "price": 2.1,
+   "outcome": "New Zealand",
+   "book": "SportsBet",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_odi",
+   "anchor": "pinnacle"
+  }
  }
 ]

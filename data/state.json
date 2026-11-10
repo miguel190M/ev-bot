@@ -6,13 +6,5 @@
   "3a466ba74c0042d217551623eb2d661e:betfair_ex_au:New Zealand": {
     "ev_pct": 5.06,
     "commence_time": "2026-11-10T02:00:00Z"
-  },
-  "07361a8381206817e27bd2697fad7479:betfair_ex_au:Los Angeles Lakers": {
-    "ev_pct": 3.47,
-    "commence_time": "2026-11-10T00:10:00Z"
-  },
-  "07361a8381206817e27bd2697fad7479:sportsbet:Los Angeles Lakers": {
-    "ev_pct": 4.31,
-    "commence_time": "2026-11-10T00:10:00Z"
   }
 }
