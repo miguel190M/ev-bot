@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-08T12:30:36.572420+00:00",
-  "markets": 5,
-  "markets_sharp": 5,
-  "outcomes": 28,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -4.067,
-   "ev_pct": -1.07,
-   "threshold_pct": 3.0,
-   "price": 4.2,
-   "outcome": "Ben Shelton",
-   "book": "SportsBet",
-   "matchup": "Carlos Alcaraz @ Ben Shelton",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-08T13:00:47.487295+00:00",
   "markets": 34,
   "markets_sharp": 27,
@@ -1061,6 +1042,25 @@
    "matchup": "Western Michigan Broncos @ Akron Zips",
    "sport_key": "americanfootball_ncaaf",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-10T12:30:37.655247+00:00",
+  "markets": 5,
+  "markets_sharp": 4,
+  "outcomes": 19,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.557,
+   "ev_pct": -2.84,
+   "threshold_pct": 1.72,
+   "price": 1.36,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
