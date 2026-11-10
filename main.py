@@ -64,9 +64,12 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
     seen_bookmakers = {}  # bookmaker_key -> title, across every event fetched this run
 
     open_bets_by_event = {}
-    for bet in bet_ledger.values():
+    held_by_event = {}   # event_id -> [(bet_id, bet)] for hedge/arb checks
+    for bid, bet in bet_ledger.items():
         if bet["status"] == "open":
             open_bets_by_event.setdefault(bet["event_id"], []).append(bet)
+            held_by_event.setdefault(bet["event_id"], []).append((bid, bet))
+    arb_opportunities = []
 
     far_scan_state = _load_far_scan_state()
     run_stats = scan_stats.new_stats()
@@ -143,6 +146,8 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
                 if fair_odds:
                     bet["closing_fair_odds"] = fair_odds
             all_opportunities.extend(ev_calculator.find_positive_ev(event, run_stats))
+            if event["id"] in held_by_event:
+                arb_opportunities.extend(ev_calculator.find_hedge_arbs(event, held_by_event[event["id"]]))
 
     _save_far_scan_state(far_scan_state)
     capped_picks = run_stats.pop("capped_picks", [])
@@ -177,6 +182,17 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
     all_opportunities = bets.drop_logged(all_opportunities, bet_ledger)
     if len(all_opportunities) != before:
         print(f"Skipped {before - len(all_opportunities)} +EV pick(s) you've already logged a bet on.")
+
+    # Other side of a game you already hold: only alert it if it's an arbitrage.
+    before = len(all_opportunities)
+    all_opportunities = bets.drop_opposing(all_opportunities, bet_ledger)
+    if len(all_opportunities) != before:
+        print(f"Skipped {before - len(all_opportunities)} +EV pick(s) on the other side of a bet you hold (no arb).")
+    arb_opportunities = bets.drop_logged(arb_opportunities, bet_ledger)
+    for a in arb_opportunities:
+        print(f"  ARB: hold {a['arb']['held_outcome']}, back {a['outcome']} @ {a['price']} ({a['bookmaker_title']}) "
+              f"${a['arb']['stake']} -> +${a['arb']['profit']} ({a['arb']['profit_pct']}%)")
+    all_opportunities = all_opportunities + arb_opportunities
 
     st = state.load_state()
     now_iso = datetime.now(timezone.utc).isoformat()

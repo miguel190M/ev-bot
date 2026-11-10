@@ -81,7 +81,7 @@ def _scan(ledger):
 
 def test_scan_does_not_realert_logged_pick():
     assert sorted(_scan({})) == ["A", "H"]
-    assert _scan(ledger_with(opp())) == ["A"]            # H already bet on; the other side still alerts
+    assert _scan(ledger_with(opp())) == []               # H held: H not repeated, other side A dropped (no arb)
 
 
 def test_digest_slate_skips_logged_pick():
@@ -95,7 +95,7 @@ def test_digest_slate_skips_logged_pick():
         daily_digest.send_daily_digest_if_due({}, ledger, {"events": {}, "remaining": "1"},
                                               now=datetime(2026, 10, 29, 22, 5, tzinfo=timezone.utc))
     msg = send.call_args[0][0]
-    assert "[idA]" in msg and "[idH]" not in msg
+    assert "[idA]" not in msg and "[idH]" not in msg     # logged pick and its other side both left off
 
 
 def test_commands_run_before_scan():
