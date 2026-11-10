@@ -1,62 +1,5 @@
 [
  {
-  "ts": "2026-11-08T13:30:39.501188+00:00",
-  "markets": 17,
-  "markets_sharp": 17,
-  "outcomes": 74,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.82,
-   "ev_pct": 0.18,
-   "threshold_pct": 3.0,
-   "price": 1.32,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Carlos Alcaraz @ Ben Shelton",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-08T13:44:29.702353+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 4,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.581,
-   "ev_pct": -0.58,
-   "threshold_pct": 3.0,
-   "price": 1.31,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Carlos Alcaraz @ Ben Shelton",
-   "sport_key": "tennis_atp_paris_masters",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-08T20:00:41.973030+00:00",
-  "markets": 36,
-  "markets_sharp": 33,
-  "outcomes": 136,
-  "capped": 2,
-  "flagged": 0,
-  "best": {
-   "gap": 7.011,
-   "ev_pct": 10.01,
-   "threshold_pct": 3.0,
-   "price": 2.55,
-   "outcome": "Shera Mae Patricio",
-   "book": "SportsBet",
-   "matchup": "Shera Mae Patricio @ Brittany Sims",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-08T20:30:37.601704+00:00",
   "markets": 12,
   "markets_sharp": 12,
@@ -1080,6 +1023,25 @@
    "matchup": "Sri Lanka @ Pakistan",
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-10T20:00:45.222877+00:00",
+  "markets": 73,
+  "markets_sharp": 49,
+  "outcomes": 199,
+  "capped": 12,
+  "flagged": 0,
+  "best": {
+   "gap": 0.954,
+   "ev_pct": 3.95,
+   "threshold_pct": 3.0,
+   "price": 10.0,
+   "outcome": "Milwaukee Bucks",
+   "book": "Betfair",
+   "matchup": "Milwaukee Bucks @ New York Knicks",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
   }
  }
 ]
