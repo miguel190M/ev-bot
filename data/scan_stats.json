@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-08T23:30:36.481604+00:00",
-  "markets": 10,
-  "markets_sharp": 9,
-  "outcomes": 46,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 13.398,
-   "ev_pct": 16.4,
-   "threshold_pct": 3.0,
-   "price": 3.4,
-   "outcome": "Ramla Ali",
-   "book": "SportsBet",
-   "matchup": "Mikiah Kreps @ Ramla Ali",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-09T00:00:46.864250+00:00",
   "markets": 19,
   "markets_sharp": 16,
@@ -1049,6 +1030,25 @@
   "markets": 13,
   "markets_sharp": 13,
   "outcomes": 52,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.017,
+   "ev_pct": -1.02,
+   "threshold_pct": 3.0,
+   "price": 1.11,
+   "outcome": "New York Knicks",
+   "book": "Betfair",
+   "matchup": "Milwaukee Bucks @ New York Knicks",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-10T23:35:16.772660+00:00",
+  "markets": 6,
+  "markets_sharp": 6,
+  "outcomes": 24,
   "capped": 0,
   "flagged": 0,
   "best": {
