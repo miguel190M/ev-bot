@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-08T02:30:37.600462+00:00",
-  "markets": 15,
-  "markets_sharp": 13,
-  "outcomes": 65,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 9.66,
-   "ev_pct": 12.66,
-   "threshold_pct": 3.0,
-   "price": 1.53,
-   "outcome": "Abraham R Perez",
-   "book": "SportsBet",
-   "matchup": "Yankiel Rivera Figueroa @ Abraham R Perez",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-08T03:00:50.622406+00:00",
   "markets": 13,
   "markets_sharp": 11,
@@ -1322,6 +1303,25 @@
    "ev_pct": -0.22,
    "threshold_pct": 2.42,
    "price": 1.71,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-10T03:00:47.991670+00:00",
+  "markets": 2,
+  "markets_sharp": 1,
+  "outcomes": 7,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.187,
+   "ev_pct": -0.79,
+   "threshold_pct": 2.4,
+   "price": 1.7,
    "outcome": "Draw",
    "book": "Betfair",
    "matchup": "Sri Lanka @ Pakistan",
