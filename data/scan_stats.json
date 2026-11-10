@@ -1062,5 +1062,24 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-10T13:30:37.777711+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 3,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.557,
+   "ev_pct": -2.84,
+   "threshold_pct": 1.72,
+   "price": 1.36,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
  }
 ]
