@@ -11,7 +11,8 @@ def _bet(sport, hours_ago, price=2.0, stake=10.0, commission=0.0):
     t = (NOW - timedelta(hours=hours_ago)).isoformat().replace("+00:00", "Z")
     return {"status": "open", "sport_key": sport, "event_id": "e", "commence_time": t,
             "home_team": "H", "away_team": "A", "outcome": "H", "price": price,
-            "stake": stake, "commission": commission, "market_key": "h2h", "profit": None}
+            "stake": stake, "commission": commission, "market_key": "h2h", "profit": None,
+            "bookmaker_title": "SportsBet"}
 
 
 def test_parse():
@@ -52,7 +53,7 @@ def test_awaiting_list_rules():
 def test_digest_shows_section_and_settled_leaves_it():
     ledger = {"a": _bet("boxing_boxing", 8)}
     txt = daily_digest.format_digest([], {}, {}, ledger, "18000", NOW)
-    assert "Awaiting your result" in txt and "a ·" in txt
+    assert "Awaiting your result" in txt and "a ·" in txt and "H @ 2.0 on SportsBet" in txt
     bets.settle_manually(ledger["a"], "won")
     ledger["a"]["resolved_at"] = NOW.isoformat()
     txt = daily_digest.format_digest([], {}, {}, ledger, "18000", NOW)

@@ -9,7 +9,7 @@ NOW = datetime(2026, 10, 29, 8, 0, tzinfo=timezone.utc)
 def _bet(sport, hours_ago, **kw):
     t = (NOW - timedelta(hours=hours_ago)).isoformat().replace("+00:00", "Z")
     b = {"status": "open", "sport_key": sport, "commence_time": t, "home_team": "H", "away_team": "A",
-         "outcome": "H", "price": 2.0, "stake": 10.0}
+         "outcome": "H", "price": 2.0, "stake": 10.0, "bookmaker_title": "Betfair"}
     b.update(kw)
     return b
 
@@ -24,7 +24,7 @@ def test_open_text_states():
          "d": _bet("boxing_boxing", 9, status="won")}
     t = dd.open_bets_text(L, NOW)
     assert "Open bets (3" in t and "$30" in t
-    assert "a · H @ 2.0 ($10) · A @ H · ⏳ needs your result" in t
+    assert "a · H @ 2.0 on Betfair ($10) · A @ H · ⏳ needs your result" in t
     assert "b ·" in t and "in play" in t and "c ·" in t and "starts " in t
     assert "d ·" not in t and "/settle" in t
     assert dd.open_bets_text({}, NOW) == "No open bets."
@@ -35,10 +35,12 @@ def test_reminder_fires_once_per_bet():
     sent = []
     assert dd.remind_awaiting_settlement(L, NOW, sent.append) == 1
     assert len(sent) == 1 and "a ·" in sent[0] and "b ·" not in sent[0] and "e ·" not in sent[0]
+    assert "a · H @ 2.0 on Betfair ($10)" in sent[0]                      # says where it was placed
+    L["b"]["bookmaker_title"] = "SportsBet"
     assert dd.remind_awaiting_settlement(L, NOW + timedelta(hours=1), sent.append) == 0    # not again
     L["b"]["commence_time"] = (NOW - timedelta(hours=9)).isoformat().replace("+00:00", "Z")
     assert dd.remind_awaiting_settlement(L, NOW + timedelta(hours=2), sent.append) == 1    # new one only
-    assert len(sent) == 2 and "b ·" in sent[1] and "a ·" not in sent[1]
+    assert len(sent) == 2 and "b ·" in sent[1] and "a ·" not in sent[1] and "on SportsBet" in sent[1]
 
 
 if __name__ == "__main__":
