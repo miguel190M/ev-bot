@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-09T11:00:49.421700+00:00",
-  "markets": 2,
-  "markets_sharp": 1,
-  "outcomes": 6,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": -3.168,
-   "ev_pct": -0.17,
-   "threshold_pct": 3.0,
-   "price": 1.77,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_odi",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-09T11:52:24.255226+00:00",
   "markets": 1,
   "markets_sharp": 0,
@@ -1117,6 +1098,25 @@
    "book": "Betfair",
    "matchup": "Karolina Muchova @ Elina Svitolina",
    "sport_key": "tennis_wta_finals",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-11T11:30:33.526119+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 3,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.851,
+   "ev_pct": -1.59,
+   "threshold_pct": 1.26,
+   "price": 1.13,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
   }
  }
