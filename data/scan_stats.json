@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-09T06:00:45.929832+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 4,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.726,
-   "ev_pct": 1.27,
-   "threshold_pct": 3.0,
-   "price": 1.75,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_odi",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-09T07:00:45.226386+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1039,6 +1020,25 @@
    "price": 1.35,
    "outcome": "S.E. Melbourne Phoenix",
    "book": "Betfair",
+   "matchup": "Illawarra Hawks @ S.E. Melbourne Phoenix",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-11T06:30:32.709154+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 4,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -6.075,
+   "ev_pct": -3.08,
+   "threshold_pct": 3.0,
+   "price": 1.32,
+   "outcome": "S.E. Melbourne Phoenix",
+   "book": "SportsBet",
    "matchup": "Illawarra Hawks @ S.E. Melbourne Phoenix",
    "sport_key": "basketball_nbl",
    "anchor": "pinnacle"
