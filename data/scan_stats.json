@@ -1081,5 +1081,24 @@
    "sport_key": "basketball_nbl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-11T08:00:43.031468+00:00",
+  "markets": 5,
+  "markets_sharp": 3,
+  "outcomes": 20,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -5.241,
+   "ev_pct": -2.24,
+   "threshold_pct": 3.0,
+   "price": 3.85,
+   "outcome": "Illawarra Hawks",
+   "book": "Betfair",
+   "matchup": "Illawarra Hawks @ S.E. Melbourne Phoenix",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
  }
 ]
