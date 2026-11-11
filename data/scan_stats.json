@@ -1043,5 +1043,24 @@
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-11T04:00:43.632914+00:00",
+  "markets": 4,
+  "markets_sharp": 1,
+  "outcomes": 15,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.187,
+   "ev_pct": -1.19,
+   "threshold_pct": 3.0,
+   "price": 1.92,
+   "outcome": "Oklahoma City Thunder",
+   "book": "Betfair",
+   "matchup": "Oklahoma City Thunder @ Portland Trail Blazers",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
