@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-09T09:00:46.771141+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 4,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -4.257,
-   "ev_pct": -1.26,
-   "threshold_pct": 3.0,
-   "price": 1.75,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_odi",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-09T10:00:48.121125+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1113,6 +1094,25 @@
    "ev_pct": -3.25,
    "threshold_pct": 2.44,
    "price": 1.72,
+   "outcome": "Karolina Muchova",
+   "book": "Betfair",
+   "matchup": "Karolina Muchova @ Elina Svitolina",
+   "sport_key": "tennis_wta_finals",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-11T10:00:43.100233+00:00",
+  "markets": 2,
+  "markets_sharp": 0,
+  "outcomes": 8,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.434,
+   "ev_pct": -1.91,
+   "threshold_pct": 2.52,
+   "price": 1.76,
    "outcome": "Karolina Muchova",
    "book": "Betfair",
    "matchup": "Karolina Muchova @ Elina Svitolina",
