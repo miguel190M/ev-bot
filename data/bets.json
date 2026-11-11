@@ -1814,5 +1814,30 @@
     "clv_pct": null,
     "net_clv_pct": null,
     "resolved_at": "2026-11-10T04:30:38.600410+00:00"
+  },
+  "e294": {
+    "event_id": "9ac02cb22adf276b325b1e9c9c6c588e",
+    "sport_key": "basketball_nba",
+    "commence_time": "2026-11-11T02:10:00Z",
+    "home_team": "Utah Jazz",
+    "away_team": "Miami Heat",
+    "market_key": "h2h",
+    "bookmaker_title": "Betfair",
+    "outcome": "Miami Heat",
+    "price": 1.43,
+    "commission": 0.06,
+    "ev_pct": 7.81,
+    "anchor": "pinnacle",
+    "sharp_disagreement": false,
+    "large_edge": false,
+    "arb_hedge": false,
+    "stake": 10.0,
+    "status": "open",
+    "profit": null,
+    "source": "live",
+    "bookmaker_key": "betfair_ex_au",
+    "alerted_at": "2026-11-11T00:30:34.843128+00:00",
+    "lead_hours": 1.7,
+    "logged_at": "2026-11-11T03:00:43.426445+00:00"
   }
 }
