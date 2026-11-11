@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-09T21:00:48.060648+00:00",
-  "markets": 2,
-  "markets_sharp": 1,
-  "outcomes": 7,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 3.732,
-   "ev_pct": 6.73,
-   "threshold_pct": 3.0,
-   "price": 2.2,
-   "outcome": "New Zealand",
-   "book": "SportsBet",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_odi",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-09T21:30:36.204403+00:00",
   "markets": 8,
   "markets_sharp": 8,
@@ -1098,6 +1079,25 @@
    "book": "SportsBet",
    "matchup": "Kent State Golden Flashes @ UNC Wilmington Seahawks",
    "sport_key": "basketball_ncaab",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-11T21:00:51.588317+00:00",
+  "markets": 4,
+  "markets_sharp": 1,
+  "outcomes": 15,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 5.095,
+   "ev_pct": 7.67,
+   "threshold_pct": 2.58,
+   "price": 2.58,
+   "outcome": "Adelaide 36ers",
+   "book": "SportsBet",
+   "matchup": "Melbourne United @ Adelaide 36ers",
+   "sport_key": "basketball_nbl",
    "anchor": "pinnacle"
   }
  }
