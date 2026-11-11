@@ -1062,5 +1062,24 @@
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-11T00:30:34.841542+00:00",
+  "markets": 6,
+  "markets_sharp": 6,
+  "outcomes": 24,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 4.811,
+   "ev_pct": 7.81,
+   "threshold_pct": 3.0,
+   "price": 1.43,
+   "outcome": "Miami Heat",
+   "book": "Betfair",
+   "matchup": "Miami Heat @ Utah Jazz",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
