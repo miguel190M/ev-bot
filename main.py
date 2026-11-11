@@ -174,7 +174,9 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
         print(f"\nSkipped (no credits spent): {skipped}")
 
     print(f"\nFound {len(all_opportunities)} +EV opportunities (needed edge: "
-          f"{config.SHARP_EV_BASE_PCT:g}% vs Pinnacle; vs soft-book consensus "
+          f"{config.get_edge_threshold(1.5, 'pinnacle') * 100:.1f}% at odds of 1.5 / "
+          f"{config.get_edge_threshold(3.0, 'pinnacle') * 100:.1f}% at 3.0 / "
+          f"{config.get_edge_threshold(10.0, 'pinnacle') * 100:.1f}% at 10.0 vs Pinnacle; vs soft-book consensus "
           f"{config.get_ev_threshold(2.0) * 100:.1f}% at odds of 2.0, "
           f"{config.get_ev_threshold(4.0) * 100:.1f}% at odds of 4.0)")
 

@@ -29,24 +29,38 @@ SOFT = [book(k, h2h(1.22, 4.5)) for k in ("tab", "ladbrokes_au", "neds", "unibet
 
 
 def test_thresholds_by_anchor():
-    assert abs(config.get_edge_threshold(5.0, "pinnacle") - 0.03) < 1e-12          # flat
-    assert abs(config.get_edge_threshold(5.0, "retail_consensus") - 0.09) < 1e-12  # old scaling
-    old = config.SHARP_EV_SLOPE
-    config.SHARP_EV_SLOPE = 0.005
+    old_curve, old = config.SHARP_EV_CURVE, config.SHARP_EV_SLOPE
+    config.SHARP_EV_CURVE = ""                                                      # flat mode
     try:
+        assert abs(config.get_edge_threshold(5.0, "pinnacle") - 0.03) < 1e-12          # flat
+        assert abs(config.get_edge_threshold(5.0, "retail_consensus") - 0.09) < 1e-12  # old scaling
+        config.SHARP_EV_SLOPE = 0.005
         assert abs(config.get_edge_threshold(5.0, "pinnacle") - 0.04) < 1e-12
         assert abs(config.get_edge_threshold(2.0, "pinnacle") - 0.03) < 1e-12      # no discount below 3
     finally:
-        config.SHARP_EV_SLOPE = old
+        config.SHARP_EV_SLOPE, config.SHARP_EV_CURVE = old, old_curve
+
+
+def test_sharp_edge_curve_by_price():
+    t = lambda p: config.get_edge_threshold(p, "pinnacle") * 100
+    assert abs(t(1.2) - 1.5) < 1e-9 and abs(t(1.5) - 1.5) < 1e-9         # short prices: flat floor
+    assert abs(t(2.25) - 2.25) < 1e-9 and abs(t(3.0) - 3.0) < 1e-9
+    assert abs(t(5.0) - (3 + 2 * 5 / 7)) < 1e-9 and abs(t(10.0) - 8.0) < 1e-9
+    assert abs(t(14.0) - (8 + 4 * 5 / 7)) < 1e-9 and abs(t(100.0) - 15.0) < 1e-9   # keeps climbing, capped
+    assert t(1.3) < t(2.0) < t(3.0) < t(6.0) < t(10.0)                  # monotonic
+    assert abs(config.get_edge_threshold(10.0, "retail_consensus") - 0.19) < 1e-12  # soft-book rule unchanged
 
 
 def test_pinnacle_bet_now_alerts_where_old_scaling_would_not():
-    # Pinnacle fair for the dog ~5.74 (shin). Sportsbet (no commission) at 6.0 = ~4.5% edge:
-    # clears the flat 3%, would NOT have cleared the old 11% needed at odds of 6.
-    books = SOFT + [book("pinnacle", h2h(1.19, 5.3)), book("sportsbet", h2h(1.15, 6.0))]
+    # Pinnacle fair for the dog ~5.74 (shin). Sportsbet (no commission) at 6.2 = ~8% edge:
+    # clears the ~5.3% the Pinnacle curve asks at that price, would NOT have cleared the old 11.4%.
+    books = SOFT + [book("pinnacle", h2h(1.19, 5.3)), book("sportsbet", h2h(1.15, 6.2))]
     out = [o for o in ev.find_positive_ev(event(books)) if o["outcome"] == "Dog"]
-    assert len(out) == 1 and out[0]["anchor"] == "pinnacle" and 3 <= out[0]["ev_pct"] < 11, out
-    assert config.get_ev_threshold(6.0) > out[0]["ev_pct"] / 100
+    assert len(out) == 1 and out[0]["anchor"] == "pinnacle" and 5.3 <= out[0]["ev_pct"] < 11, out
+    assert config.get_ev_threshold(6.2) > out[0]["ev_pct"] / 100
+    # the same book at 6.0 (~4.5% edge) no longer alerts: a longshot needs more than 3%
+    books2 = SOFT + [book("pinnacle", h2h(1.19, 5.3)), book("sportsbet", h2h(1.15, 6.0))]
+    assert [o for o in ev.find_positive_ev(event(books2)) if o["outcome"] == "Dog"] == []
 
 
 def test_edge_below_flat_threshold_still_no_alert():
@@ -66,7 +80,7 @@ def test_stats_counts_and_closest_call():
     ev.find_positive_ev(event(books), stats)
     assert stats["markets"] == 1 and stats["markets_sharp"] == 1 and stats["outcomes"] == 2
     b = stats["best"]
-    assert b["outcome"] in ("Dog", "Fav") and b["gap"] < 0 and b["threshold_pct"] == 3.0
+    assert b["outcome"] in ("Dog", "Fav") and b["gap"] < 0 and b["threshold_pct"] == round(config.get_edge_threshold(b["price"], "pinnacle") * 100, 2)
     assert b["matchup"] == "Dog @ Fav" and b["book"] == "sportsbet"
     # a capped (too-good) price is counted but never reported as the closest call
     stats2 = scan_stats.new_stats()
