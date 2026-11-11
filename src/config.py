@@ -293,6 +293,13 @@ DEVIG_METHOD = os.environ.get("DEVIG_METHOD", "shin").strip().lower()
 # fallback keeps the scaling threshold.
 SHARP_EV_BASE_PCT = float(os.environ.get("SHARP_EV_BASE_PCT", "3"))
 SHARP_EV_SLOPE = float(os.environ.get("SHARP_EV_SLOPE", "0"))
+# Price-scaled version of the above, as "price:edge%" points joined by commas,
+# linearly interpolated: short prices (where Pinnacle is very accurate) need a
+# smaller edge, longshots (where a small edge is mostly noise) need a bigger one.
+# Below the first point it is flat; above the last it keeps the last segment's
+# slope, capped at SHARP_EV_CURVE_MAX_PCT. "" = use the flat base/slope above.
+SHARP_EV_CURVE = os.environ.get("SHARP_EV_CURVE", "1.5:1.5,3:3,10:8").strip()
+SHARP_EV_CURVE_MAX_PCT = float(os.environ.get("SHARP_EV_CURVE_MAX_PCT", "15"))
 
 # Rolling per-run scan stats used for the daily digest's "closest call" line.
 SCAN_STATS_FILE = os.environ.get("SCAN_STATS_FILE", "data/scan_stats.json")
@@ -304,4 +311,17 @@ def get_edge_threshold(price: float, anchor: str) -> float:
     """Minimum EV (as a fraction) to alert, given where the fair price came from."""
     if anchor == "retail_consensus":
         return get_ev_threshold(price)
+    if SHARP_EV_CURVE:
+        return _curve_threshold(price)
     return SHARP_EV_BASE_PCT / 100 + SHARP_EV_SLOPE * max(0.0, price - 3.0)
+
+
+def _curve_threshold(price: float) -> float:
+    pts = sorted((float(a), float(b)) for a, b in (p.split(":") for p in SHARP_EV_CURVE.split(",")))
+    if price <= pts[0][0] or len(pts) == 1:
+        return pts[0][1] / 100
+    for (x0, y0), (x1, y1) in zip(pts, pts[1:]):
+        if price <= x1:
+            return (y0 + (y1 - y0) * (price - x0) / (x1 - x0)) / 100
+    (x0, y0), (x1, y1) = pts[-2], pts[-1]                      # beyond the last point: keep climbing, capped
+    return min(SHARP_EV_CURVE_MAX_PCT, y1 + (y1 - y0) / (x1 - x0) * (price - x1)) / 100
