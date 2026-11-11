@@ -1100,5 +1100,24 @@
    "sport_key": "basketball_nbl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-11T21:30:32.965213+00:00",
+  "markets": 22,
+  "markets_sharp": 19,
+  "outcomes": 88,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.052,
+   "ev_pct": -1.55,
+   "threshold_pct": 1.5,
+   "price": 1.1,
+   "outcome": "San Antonio Spurs",
+   "book": "Betfair",
+   "matchup": "San Antonio Spurs @ Chicago Bulls",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
