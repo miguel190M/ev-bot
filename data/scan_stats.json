@@ -1100,5 +1100,24 @@
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-11T22:30:32.946388+00:00",
+  "markets": 13,
+  "markets_sharp": 10,
+  "outcomes": 52,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.919,
+   "ev_pct": 0.92,
+   "threshold_pct": 2.84,
+   "price": 2.84,
+   "outcome": "Cleveland Cavaliers",
+   "book": "Betfair",
+   "matchup": "Cleveland Cavaliers @ New York Knicks",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
