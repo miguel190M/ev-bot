@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-09T04:00:49.742245+00:00",
-  "markets": 4,
-  "markets_sharp": 2,
-  "outcomes": 16,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 7.267,
-   "ev_pct": 10.27,
-   "threshold_pct": 3.0,
-   "price": 3.7,
-   "outcome": "Sri Lanka",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-09T04:30:39.761178+00:00",
   "markets": 1,
   "markets_sharp": 0,
@@ -1061,6 +1042,25 @@
    "matchup": "Oklahoma City Thunder @ Portland Trail Blazers",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-11T04:30:35.380827+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 2,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.237,
+   "ev_pct": -2.96,
+   "threshold_pct": 1.28,
+   "price": 1.14,
+   "outcome": "East Texas A&M Lions",
+   "book": "SportsBet",
+   "matchup": "Fairleigh Dickinson Knights @ East Texas A&M Lions",
+   "sport_key": "basketball_ncaab",
+   "anchor": "retail_consensus"
   }
  }
 ]
