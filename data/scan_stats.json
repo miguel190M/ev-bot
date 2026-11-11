@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-09T05:00:51.137110+00:00",
-  "markets": 2,
-  "markets_sharp": 1,
-  "outcomes": 7,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -0.595,
-   "ev_pct": 0.54,
-   "threshold_pct": 1.14,
-   "price": 1.07,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-09T05:30:38.194805+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 3,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -0.595,
-   "ev_pct": 0.54,
-   "threshold_pct": 1.14,
-   "price": 1.07,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-09T06:00:45.929832+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1058,6 +1020,25 @@
    "price": 1.32,
    "outcome": "S.E. Melbourne Phoenix",
    "book": "SportsBet",
+   "matchup": "Illawarra Hawks @ S.E. Melbourne Phoenix",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-11T06:00:42.712117+00:00",
+  "markets": 3,
+  "markets_sharp": 1,
+  "outcomes": 12,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -5.414,
+   "ev_pct": -2.41,
+   "threshold_pct": 3.0,
+   "price": 1.35,
+   "outcome": "S.E. Melbourne Phoenix",
+   "book": "Betfair",
    "matchup": "Illawarra Hawks @ S.E. Melbourne Phoenix",
    "sport_key": "basketball_nbl",
    "anchor": "pinnacle"
