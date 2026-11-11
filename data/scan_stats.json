@@ -1100,5 +1100,24 @@
    "sport_key": "basketball_nbl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-11T09:00:45.074498+00:00",
+  "markets": 2,
+  "markets_sharp": 0,
+  "outcomes": 8,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -5.69,
+   "ev_pct": -3.25,
+   "threshold_pct": 2.44,
+   "price": 1.72,
+   "outcome": "Karolina Muchova",
+   "book": "Betfair",
+   "matchup": "Karolina Muchova @ Elina Svitolina",
+   "sport_key": "tennis_wta_finals",
+   "anchor": "retail_consensus"
+  }
  }
 ]
