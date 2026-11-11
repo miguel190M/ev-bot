@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-09T11:52:24.255226+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 3,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -4.272,
-   "ev_pct": -1.91,
-   "threshold_pct": 2.36,
-   "price": 1.68,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-09T12:00:46.779870+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1118,6 +1099,25 @@
    "matchup": "Sri Lanka @ Pakistan",
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-11T12:00:43.428363+00:00",
+  "markets": 4,
+  "markets_sharp": 2,
+  "outcomes": 16,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.042,
+   "ev_pct": -1.54,
+   "threshold_pct": 1.5,
+   "price": 1.29,
+   "outcome": "KK Partizan NIS",
+   "book": "Betfair",
+   "matchup": "Saski Baskonia @ KK Partizan NIS",
+   "sport_key": "basketball_euroleague",
+   "anchor": "pinnacle"
   }
  }
 ]
