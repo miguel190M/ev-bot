@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-10T20:30:38.409435+00:00",
-  "markets": 2,
-  "markets_sharp": 0,
-  "outcomes": 8,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -5.944,
-   "ev_pct": -3.48,
-   "threshold_pct": 2.46,
-   "price": 1.73,
-   "outcome": "Karolina Muchova",
-   "book": "Betfair",
-   "matchup": "Karolina Muchova @ Elina Svitolina",
-   "sport_key": "tennis_wta_finals",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-10T21:00:45.118093+00:00",
   "markets": 7,
   "markets_sharp": 4,
@@ -1358,6 +1339,25 @@
   "best": {
    "gap": -3.783,
    "ev_pct": -2.0,
+   "threshold_pct": 1.78,
+   "price": 1.39,
+   "outcome": "Mirra Andreeva",
+   "book": "SportsBet",
+   "matchup": "Karolina Muchova @ Mirra Andreeva",
+   "sport_key": "tennis_wta_finals",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-12T20:30:39.672304+00:00",
+  "markets": 2,
+  "markets_sharp": 0,
+  "outcomes": 8,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.969,
+   "ev_pct": -2.19,
    "threshold_pct": 1.78,
    "price": 1.39,
    "outcome": "Mirra Andreeva",
