@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-10T21:00:45.118093+00:00",
-  "markets": 7,
-  "markets_sharp": 4,
-  "outcomes": 27,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.51,
-   "ev_pct": -1.75,
-   "threshold_pct": 1.76,
-   "price": 1.38,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-10T21:30:38.862761+00:00",
   "markets": 10,
   "markets_sharp": 7,
@@ -1365,6 +1346,25 @@
    "matchup": "Karolina Muchova @ Mirra Andreeva",
    "sport_key": "tennis_wta_finals",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-12T21:00:45.833287+00:00",
+  "markets": 8,
+  "markets_sharp": 6,
+  "outcomes": 34,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 3.382,
+   "ev_pct": 5.68,
+   "threshold_pct": 2.3,
+   "price": 2.3,
+   "outcome": "Erik Bazinyan",
+   "book": "SportsBet",
+   "matchup": "Erik Bazinyan @ Steven Butler",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
   }
  }
 ]
