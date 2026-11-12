@@ -25,4 +25,17 @@ print(out, "\n")
 assert "digest: 1-0" in out and "live: 0-1" in out and "12h+" in out and "unknown" in out
 assert "Unknown breakdown" in breakdown.build(ledger, "colour")
 print(breakdown.build(ledger, "lead"))
+# price bands: natural short -> long order, aliases, and edges of each band
+band = lambda p: breakdown._price({"price": p})
+assert [band(p) for p in (1.2, 1.49, 1.5, 1.99, 2.0, 2.99, 3.0, 4.99, 5.0, 21)] == \
+    ["1.0-1.5", "1.0-1.5", "1.5-2.0", "1.5-2.0", "2.0-3.0", "2.0-3.0", "3.0-5.0", "3.0-5.0", "5.0+", "5.0+"]
+pl = {str(i): {"sport_key": "basketball_nba", "bookmaker_title": "Betfair", "market_key": "h2h", "status": "won",
+               "stake": 10.0, "price": p, "profit": 5.0, "net_clv_pct": 1.0}
+      for i, p in enumerate([6.0, 6.0, 6.0, 1.3, 2.5])}
+out = breakdown.build(pl, "price")
+rows = [l.split(":")[0] for l in out.splitlines() if "·" in l]
+assert rows == ["1.0-1.5", "2.0-3.0", "5.0+"], rows                      # short -> long, not by count
+assert breakdown.build(pl, "odds") == out
+assert "Odds taken" in breakdown.build(pl)                                # included in the full breakdown
+print(out)
 print("\nAll breakdown checks passed.")
