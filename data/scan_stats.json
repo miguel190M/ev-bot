@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-10T21:30:38.862761+00:00",
-  "markets": 10,
-  "markets_sharp": 7,
-  "outcomes": 40,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -5.017,
-   "ev_pct": -1.94,
-   "threshold_pct": 3.08,
-   "price": 2.04,
-   "outcome": "Mirra Andreeva",
-   "book": "Betfair",
-   "matchup": "Mirra Andreeva @ Aryna Sabalenka",
-   "sport_key": "tennis_wta_finals",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-10T22:00:47.521245+00:00",
   "markets": 61,
   "markets_sharp": 39,
@@ -1364,6 +1345,25 @@
    "book": "SportsBet",
    "matchup": "Erik Bazinyan @ Steven Butler",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-12T21:30:41.969398+00:00",
+  "markets": 17,
+  "markets_sharp": 14,
+  "outcomes": 68,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.411,
+   "ev_pct": -0.75,
+   "threshold_pct": 1.66,
+   "price": 1.66,
+   "outcome": "Dallas Stars",
+   "book": "Betfair",
+   "matchup": "Winnipeg Jets @ Dallas Stars",
+   "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
   }
  }
