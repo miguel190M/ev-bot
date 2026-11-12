@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-10T13:30:37.777711+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 3,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -4.557,
-   "ev_pct": -2.84,
-   "threshold_pct": 1.72,
-   "price": 1.36,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-10T20:00:45.222877+00:00",
-  "markets": 73,
-  "markets_sharp": 49,
-  "outcomes": 199,
-  "capped": 12,
-  "flagged": 0,
-  "best": {
-   "gap": 0.954,
-   "ev_pct": 3.95,
-   "threshold_pct": 3.0,
-   "price": 10.0,
-   "outcome": "Milwaukee Bucks",
-   "book": "Betfair",
-   "matchup": "Milwaukee Bucks @ New York Knicks",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-10T20:30:38.409435+00:00",
   "markets": 2,
   "markets_sharp": 0,
@@ -1363,6 +1325,25 @@
    "outcome": "Jhon Orobio",
    "book": "SportsBet",
    "matchup": "Hendri Cedeno @ Jhon Orobio",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-12T20:00:51.237983+00:00",
+  "markets": 50,
+  "markets_sharp": 41,
+  "outcomes": 160,
+  "capped": 3,
+  "flagged": 0,
+  "best": {
+   "gap": 5.262,
+   "ev_pct": 7.56,
+   "threshold_pct": 2.3,
+   "price": 2.3,
+   "outcome": "Erik Bazinyan",
+   "book": "SportsBet",
+   "matchup": "Erik Bazinyan @ Steven Butler",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
