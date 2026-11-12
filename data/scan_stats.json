@@ -1119,5 +1119,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-12T05:00:43.852977+00:00",
+  "markets": 7,
+  "markets_sharp": 5,
+  "outcomes": 28,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 0.869,
+   "ev_pct": 2.9,
+   "threshold_pct": 2.03,
+   "price": 2.03,
+   "outcome": "Tasmania JackJumpers",
+   "book": "SportsBet",
+   "matchup": "Tasmania JackJumpers @ Perth Wildcats",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
  }
 ]

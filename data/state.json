@@ -2,5 +2,13 @@
   "aa3ff88614ee49f02361d4d9faa07756:sportsbet:Adelaide 36ers": {
     "ev_pct": 7.67,
     "commence_time": "2026-11-12T08:36:00Z"
+  },
+  "7ee63c7510601a977256cda9261dab62:sportsbet:Tasmania JackJumpers": {
+    "ev_pct": 2.9,
+    "commence_time": "2026-11-12T10:36:00Z"
+  },
+  "aa3ff88614ee49f02361d4d9faa07756:betfair_ex_au:Melbourne United:arb": {
+    "ev_pct": 2.32,
+    "commence_time": "2026-11-12T08:36:00Z"
   }
 }
