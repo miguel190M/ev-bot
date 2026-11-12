@@ -437,6 +437,16 @@ def main():
     # the scan decides what to alert on, or the pick you just logged alerts again.
     process_commands(candidates, bet_ledger)
 
+    fixed = bets.fix_soccer_draw_voids(bet_ledger)
+    if fixed:
+        lines = [f"🔧 Corrected {len(fixed)} soccer bet(s) that were wrongly voided on a draw "
+                 f"(a drawn match loses a bet on a team):"]
+        for bid in fixed:
+            b = bet_ledger[bid]
+            lines.append(f"{bid} · {b['outcome']} @ {b['price']} · {b['away_team']} @ {b['home_team']} "
+                         f"-> LOST ${b['stake']:g}")
+        telegram_commands.send_message("\n".join(lines))
+
     odds_cache = {"events": {}, "remaining": None, "credits_used": 0}
     credits_used = run_scan(candidates, bet_ledger, odds_cache)
 
