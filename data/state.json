@@ -10,5 +10,13 @@
   "024e47d65b05702d8bb831d18216acb7:betfair_ex_au:Erik Bazinyan": {
     "ev_pct": 3.91,
     "commence_time": "2026-11-13T02:30:00Z"
+  },
+  "a0f8c50195dacc45840a8db86f731618:sportsbet:Jhon Orobio": {
+    "ev_pct": 3.17,
+    "commence_time": "2026-11-13T03:00:00Z"
+  },
+  "a0f8c50195dacc45840a8db86f731618:betfair_ex_au:Jhon Orobio": {
+    "ev_pct": 3.38,
+    "commence_time": "2026-11-13T03:00:00Z"
   }
 }
