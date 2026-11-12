@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-10T11:00:46.506548+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 4,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -4.741,
-   "ev_pct": -1.74,
-   "threshold_pct": 3.0,
-   "price": 1.22,
-   "outcome": "Florida Gators",
-   "book": "Betfair",
-   "matchup": "Florida Gators @ Florida St Seminoles",
-   "sport_key": "basketball_ncaab",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-10T11:30:34.192290+00:00",
   "markets": 1,
   "markets_sharp": 0,
@@ -1345,6 +1326,25 @@
    "book": "SportsBet",
    "matchup": "Hendri Cedeno @ Jhon Orobio",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-12T11:00:47.490468+00:00",
+  "markets": 5,
+  "markets_sharp": 3,
+  "outcomes": 19,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 3.75,
+   "ev_pct": 6.19,
+   "threshold_pct": 2.44,
+   "price": 2.44,
+   "outcome": "Afghanistan",
+   "book": "Betfair",
+   "matchup": "Zimbabwe @ Afghanistan",
+   "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
   }
  }
