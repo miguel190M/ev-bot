@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-10T12:00:50.565886+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 4,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -7.282,
-   "ev_pct": -4.28,
-   "threshold_pct": 3.0,
-   "price": 1.13,
-   "outcome": "Western Michigan Broncos",
-   "book": "SportsBet",
-   "matchup": "Western Michigan Broncos @ Akron Zips",
-   "sport_key": "americanfootball_ncaaf",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-10T12:30:37.655247+00:00",
   "markets": 5,
   "markets_sharp": 4,
@@ -1364,6 +1345,25 @@
    "book": "Betfair",
    "matchup": "Zimbabwe @ Afghanistan",
    "sport_key": "cricket_test_match",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-12T12:30:35.129729+00:00",
+  "markets": 4,
+  "markets_sharp": 4,
+  "outcomes": 20,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -0.063,
+   "ev_pct": 1.44,
+   "threshold_pct": 1.5,
+   "price": 1.12,
+   "outcome": "Jhon Orobio",
+   "book": "SportsBet",
+   "matchup": "Hendri Cedeno @ Jhon Orobio",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
