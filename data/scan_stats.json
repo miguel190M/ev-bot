@@ -1347,5 +1347,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-12T12:00:43.665514+00:00",
+  "markets": 21,
+  "markets_sharp": 9,
+  "outcomes": 51,
+  "capped": 3,
+  "flagged": 0,
+  "best": {
+   "gap": 2.922,
+   "ev_pct": 5.34,
+   "threshold_pct": 2.42,
+   "price": 2.42,
+   "outcome": "Afghanistan",
+   "book": "Betfair",
+   "matchup": "Zimbabwe @ Afghanistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "pinnacle"
+  }
  }
 ]
