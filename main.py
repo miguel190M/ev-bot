@@ -437,6 +437,13 @@ def main():
     # the scan decides what to alert on, or the pick you just logged alerts again.
     process_commands(candidates, bet_ledger)
 
+    archived = bets.archive_before(bet_ledger, config.PINNACLE_ERA_START)
+    if archived:
+        telegram_commands.send_message(
+            f"🗄️ Archived {len(archived)} bet(s) from before Pinnacle became the reference line "
+            f"(12 Oct) - a different model. They're kept in {bets.ARCHIVE_FILE} but no longer "
+            f"count in /record, /stats, /breakdown or the daily report.")
+
     fixed = bets.fix_soccer_draw_voids(bet_ledger)
     if fixed:
         lines = [f"🔧 Corrected {len(fixed)} soccer bet(s) that were wrongly voided on a draw "
