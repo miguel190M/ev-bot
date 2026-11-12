@@ -25,6 +25,16 @@ def _edge(b):
     return "<3%" if e < 3 else "3-5%" if e < 5 else "5-8%" if e < 8 else "8%+"
 
 
+PRICE_BANDS = ["1.0-1.5", "1.5-2.0", "2.0-3.0", "3.0-5.0", "5.0+"]
+
+
+def _price(b):
+    """Decimal odds you took the bet at, in bands (short -> long)."""
+    p = b.get("price") or 0
+    return PRICE_BANDS[0] if p < 1.5 else PRICE_BANDS[1] if p < 2 else PRICE_BANDS[2] if p < 3 \
+        else PRICE_BANDS[3] if p < 5 else PRICE_BANDS[4]
+
+
 def _lead(b):
     h = b.get("lead_hours")
     if h is None:
@@ -45,10 +55,15 @@ DIMENSIONS = {
     "sport": ("Sport", _sport),
     "book": ("Book", lambda b: b.get("bookmaker_title", "?")),
     "source": ("Source", _source),
+    "price": ("Odds taken", _price),
     "edge": ("Edge at alert", _edge),
     "lead": ("Taken before kickoff", _lead),
     "market": ("Market", lambda b: b.get("market_key", "h2h")),
 }
+
+
+ALIASES = {"odds": "price", "prices": "price", "type": "flag"}
+FIXED_ORDER = {"price": PRICE_BANDS}   # dimensions with a natural order; the rest sort by bet count
 
 
 def _row(label: str, group: list[dict]) -> str:
@@ -102,6 +117,7 @@ def record(bet_ledger: dict) -> str:
 
 
 def build(bet_ledger: dict, dimension: str = "all") -> str:
+    dimension = ALIASES.get(dimension, dimension)
     settled = [b for b in bet_ledger.values() if b["status"] in ("won", "lost", "void")]
     if dimension != "all" and dimension not in DIMENSIONS:
         return f"Unknown breakdown '{dimension}'. Try: /breakdown [{' | '.join(DIMENSIONS)}]"
@@ -110,11 +126,13 @@ def build(bet_ledger: dict, dimension: str = "all") -> str:
 
     dims = DIMENSIONS if dimension == "all" else {dimension: DIMENSIONS[dimension]}
     lines = [f"🔍 Breakdown - {len(settled)} settled bets", "(net CLV is the signal; ROI is noisy until n is large)"]
-    for title, fn in dims.values():
+    for name, (title, fn) in dims.items():
         groups = {}
         for b in settled:
             groups.setdefault(fn(b), []).append(b)
         lines.append(f"\n{title}")
-        for label, group in sorted(groups.items(), key=lambda kv: -len(kv[1])):
+        order = FIXED_ORDER.get(name)
+        items = sorted(groups.items(), key=(lambda kv: order.index(kv[0])) if order else (lambda kv: -len(kv[1])))
+        for label, group in items:
             lines.append(_row(label, group))
     return "\n".join(lines)
