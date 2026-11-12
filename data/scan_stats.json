@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-09T23:30:36.097666+00:00",
-  "markets": 9,
-  "markets_sharp": 9,
-  "outcomes": 36,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.439,
-   "ev_pct": 1.56,
-   "threshold_pct": 3.0,
-   "price": 2.22,
-   "outcome": "New Zealand",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_odi",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-10T00:00:48.376757+00:00",
-  "markets": 25,
-  "markets_sharp": 13,
-  "outcomes": 69,
-  "capped": 7,
-  "flagged": 0,
-  "best": {
-   "gap": -1.845,
-   "ev_pct": 1.15,
-   "threshold_pct": 3.0,
-   "price": 2.67,
-   "outcome": "Denver Nuggets",
-   "book": "SportsBet",
-   "matchup": "Denver Nuggets @ Houston Rockets",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-10T00:30:37.117976+00:00",
   "markets": 10,
   "markets_sharp": 10,
@@ -1099,6 +1061,25 @@
    "matchup": "Oklahoma City Thunder @ Portland Trail Blazers",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-12T00:00:49.852529+00:00",
+  "markets": 32,
+  "markets_sharp": 21,
+  "outcomes": 91,
+  "capped": 5,
+  "flagged": 0,
+  "best": {
+   "gap": -1.614,
+   "ev_pct": -0.35,
+   "threshold_pct": 1.26,
+   "price": 1.13,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
