@@ -1,5 +1,5 @@
 {
-  "americanfootball_ncaaf": "2026-11-11T20:00:47.244749+00:00",
+  "americanfootball_ncaaf": "2026-11-12T13:00:44.993024+00:00",
   "americanfootball_nfl": "2026-11-09T20:00:44.896972+00:00",
   "baseball_mlb": "2026-10-28T20:00:43.071326+00:00",
   "basketball_euroleague": "2026-11-12T11:30:39.422288+00:00",
@@ -8,9 +8,9 @@
   "basketball_ncaab": "2026-11-12T12:00:42.770681+00:00",
   "boxing_boxing": "2026-11-12T12:30:33.651278+00:00",
   "cricket_international_t20": "2026-11-01T11:00:44.414478+00:00",
-  "cricket_odi": "2026-11-12T12:00:43.263431+00:00",
-  "cricket_test_match": "2026-11-12T12:00:43.405324+00:00",
-  "icehockey_nhl": "2026-11-12T09:00:41.630763+00:00",
+  "cricket_odi": "2026-11-12T13:00:45.886026+00:00",
+  "cricket_test_match": "2026-11-12T13:00:46.108519+00:00",
+  "icehockey_nhl": "2026-11-12T13:00:43.919289+00:00",
   "mma_mixed_martial_arts": "2026-11-12T11:00:46.191422+00:00",
   "near:americanfootball_ncaaf": "2026-11-11T23:30:33.876898+00:00",
   "near:americanfootball_nfl": "2026-11-10T00:30:34.043460+00:00",
@@ -38,7 +38,7 @@
   "tennis_atp_swiss_indoors": "2026-11-01T11:00:44.980284+00:00",
   "tennis_atp_vienna_open": "2026-11-01T09:30:32.155870+00:00",
   "tennis_wta_china_open": "2026-10-11T07:30:32.977790+00:00",
-  "tennis_wta_finals": "2026-11-12T12:00:43.573477+00:00",
+  "tennis_wta_finals": "2026-11-12T13:00:46.334153+00:00",
   "tennis_wta_ningbo_open": "2026-10-25T05:30:35.197538+00:00",
   "tennis_wta_pan_pacific_open": "2026-10-31T23:00:42.998636+00:00",
   "tennis_wta_wuhan_open": "2026-10-18T03:00:46.483958+00:00"

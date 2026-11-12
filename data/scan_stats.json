@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-10T12:30:37.655247+00:00",
-  "markets": 5,
-  "markets_sharp": 4,
-  "outcomes": 19,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -4.557,
-   "ev_pct": -2.84,
-   "threshold_pct": 1.72,
-   "price": 1.36,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-10T13:00:49.189589+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1364,6 +1345,25 @@
    "book": "SportsBet",
    "matchup": "Hendri Cedeno @ Jhon Orobio",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-12T13:00:46.439512+00:00",
+  "markets": 13,
+  "markets_sharp": 11,
+  "outcomes": 51,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 2.922,
+   "ev_pct": 5.34,
+   "threshold_pct": 2.42,
+   "price": 2.42,
+   "outcome": "Afghanistan",
+   "book": "Betfair",
+   "matchup": "Zimbabwe @ Afghanistan",
+   "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
   }
  }
