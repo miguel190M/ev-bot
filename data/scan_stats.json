@@ -1347,5 +1347,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-12T20:10:10.964518+00:00",
+  "markets": 2,
+  "markets_sharp": 0,
+  "outcomes": 8,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.783,
+   "ev_pct": -2.0,
+   "threshold_pct": 1.78,
+   "price": 1.39,
+   "outcome": "Mirra Andreeva",
+   "book": "SportsBet",
+   "matchup": "Karolina Muchova @ Mirra Andreeva",
+   "sport_key": "tennis_wta_finals",
+   "anchor": "retail_consensus"
+  }
  }
 ]
