@@ -208,25 +208,6 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
- "basketball_ncaab|Miss Valley St Delta Devils @ Washington Huskies|h2h|Miss Valley St Delta Devils|SportsBet": {
-  "alerted": false,
-  "anchor": "retail_consensus",
-  "book": "SportsBet",
-  "commence_time": "2026-11-10T03:00:00Z",
-  "consensus_odds": 22.243,
-  "ev_pct": 354.1,
-  "fair_odds": 22.243,
-  "first_seen": "2026-11-09T20:00:48.376485+00:00",
-  "last_seen": "2026-11-10T02:00:45.717302+00:00",
-  "market": "h2h",
-  "matchup": "Miss Valley St Delta Devils @ Washington Huskies",
-  "max_ev_pct": 354.1,
-  "outcome": "Miss Valley St Delta Devils",
-  "price": 101.0,
-  "seen": 4,
-  "sharp_odds": null,
-  "sport_key": "basketball_ncaab"
- },
  "basketball_ncaab|NJIT Highlanders @ Rutgers Scarlet Knights|h2h|NJIT Highlanders|SportsBet": {
   "alerted": false,
   "anchor": "retail_consensus",
