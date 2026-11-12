@@ -12,7 +12,11 @@ def format_message(opp: dict, bet_id: str | None = None) -> str:
     dt_utc = datetime.fromisoformat(opp["commence_time"].replace("Z", "+00:00"))
     dt_syd = dt_utc.astimezone(SYDNEY)
     matchup = f"{opp['away_team']} @ {opp['home_team']}" if opp.get("away_team") else opp.get("home_team", "")
-    bet_footer = f"\n\nPlaced it? Log it: /bet {bet_id} <stake>  (got a different price? add @<price>, e.g. /bet {bet_id} 10 @1.65)" if bet_id else ""
+    stake = opp.get("suggested_stake") or 0
+    stake_line = (f"\nSuggested stake: ${stake:g} (¼-Kelly on ~{config.EDGE_SHRINK * 100:.0f}% of the edge, "
+                  f"bankroll ${config.BANKROLL:g})") if stake else ""
+    stake_arg = f"{stake:g}" if stake else "<stake>"
+    bet_footer = f"\n\nPlaced it? Log it: /bet {bet_id} {stake_arg}  (got a different price? add @<price>, e.g. /bet {bet_id} {stake_arg} @1.65)" if bet_id else ""
     commission = opp.get("commission", 0.0)
     commission_note = f"\n(edge is net of {commission * 100:.0f}% {opp['bookmaker_title']} commission)" if commission > 0 else ""
     market_key = opp.get("market_key", "h2h")
@@ -54,6 +58,7 @@ def format_message(opp: dict, bet_id: str | None = None) -> str:
         f"{disagree_note}"
         f"{large_note}"
         f"{commission_note}"
+        f"{stake_line}"
         f"{bet_footer}"
     )
 

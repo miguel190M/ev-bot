@@ -93,6 +93,34 @@ MAX_EV_PCT = float(os.environ.get("MAX_EV_PCT", "20"))
 # artefact. 0 turns the exception off (everything above the cap is suppressed).
 CAPPED_ALERT_MAX_PRICE = float(os.environ.get("CAPPED_ALERT_MAX_PRICE", "3.0"))
 
+# Suggested stake on each alert: fractional Kelly on a SHRUNK edge. The edge the
+# bot shows has run about 2-3x what the closing line later confirms (realised
+# net CLV ~1.5-3% against ~6% alerted), so only EDGE_SHRINK of it is trusted.
+# Kelly fraction = shrunk_edge / (net_price - 1); stake = BANKROLL * KELLY_FRACTION * that,
+# capped at MAX_STAKE_PCT of bankroll, halved for large-edge (>cap) picks, rounded to
+# the nearest $1 (min MIN_STAKE). BANKROLL is the money you are willing to have working
+# in this bot - set it to your real figure (env var or edit here). 0 = no suggestion.
+BANKROLL = float(os.environ.get("BANKROLL", "1000"))
+KELLY_FRACTION = float(os.environ.get("KELLY_FRACTION", "0.25"))
+EDGE_SHRINK = float(os.environ.get("EDGE_SHRINK", "0.35"))
+MAX_STAKE_PCT = float(os.environ.get("MAX_STAKE_PCT", "2"))
+MIN_STAKE = float(os.environ.get("MIN_STAKE", "1"))
+LARGE_EDGE_STAKE_FACTOR = float(os.environ.get("LARGE_EDGE_STAKE_FACTOR", "0.5"))
+
+
+def suggested_stake(ev_pct: float, price: float, commission: float = 0.0, large_edge: bool = False) -> float:
+    """Suggested stake in dollars (0 if staking is off or there is no edge)."""
+    net = (price - 1) * (1 - commission)          # profit per $1 staked if it wins
+    if BANKROLL <= 0 or net <= 0 or ev_pct <= 0:
+        return 0.0
+    full_kelly = (ev_pct / 100 * EDGE_SHRINK) / net
+    stake = BANKROLL * KELLY_FRACTION * full_kelly
+    if large_edge:
+        stake *= LARGE_EDGE_STAKE_FACTOR
+    stake = min(stake, BANKROLL * MAX_STAKE_PCT / 100)
+    return float(max(MIN_STAKE, round(stake)))
+
+
 # Betting both sides of a game: once you hold an open bet on one side of a
 # market, +EV alerts on the OTHER side are dropped. The other side only alerts
 # when it forms an arbitrage with what you hold (a guaranteed profit whichever
@@ -305,6 +333,11 @@ SHARP_EV_CURVE_MAX_PCT = float(os.environ.get("SHARP_EV_CURVE_MAX_PCT", "15"))
 SCAN_STATS_FILE = os.environ.get("SCAN_STATS_FILE", "data/scan_stats.json")
 # Picks suppressed by the MAX_EV_PCT cap (so /suppressed can show them), pruned after 48h
 SUPPRESSED_FILE = os.environ.get("SUPPRESSED_FILE", "data/suppressed_picks.json")
+# Bets from before Pinnacle became the reference line (go-live 2026-10-12 14:34 Sydney)
+# came from a different model (soft-book consensus only). They are moved out of the
+# live ledger into data/bets_archive_pre_pinnacle.json, so every stat/report covers
+# the current model only.
+PINNACLE_ERA_START = os.environ.get("PINNACLE_ERA_START", "2026-10-12T03:34:36Z")
 
 
 def get_edge_threshold(price: float, anchor: str) -> float:

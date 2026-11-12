@@ -20,6 +20,7 @@ from pathlib import Path
 ALERTS_FILE = "data/alert_candidates.json"
 BETS_FILE = "data/bets.json"
 DIGEST_STATE_FILE = "data/digest_state.json"
+ARCHIVE_FILE = "data/bets_archive_pre_pinnacle.json"   # pre-Pinnacle-era bets, kept out of all stats
 
 
 def _load(path):
@@ -86,6 +87,22 @@ def load_bets() -> dict:
 
 def save_bets(bets: dict):
     _save(BETS_FILE, bets)
+
+
+def archive_before(ledger: dict, cutoff_iso: str, archive_path: str | None = None) -> list:
+    """Move bets that kicked off before `cutoff_iso` out of the live ledger into the
+    archive file (merged, never overwritten), so stats only cover the current model.
+    Returns the archived ids (idempotent: later runs find nothing older)."""
+    old = {bid: b for bid, b in ledger.items() if b.get("commence_time", "9") < cutoff_iso}
+    if not old:
+        return []
+    path = archive_path or ARCHIVE_FILE
+    archive = _load(path)
+    archive.update(old)
+    _save(path, archive)          # written first: if this fails, nothing is dropped from the ledger
+    for bid in old:
+        del ledger[bid]
+    return sorted(old)
 
 
 def load_digest_state() -> dict:

@@ -252,6 +252,8 @@ def _make_opportunity(event, market_key, book_key, book_title, price, outcome, f
         "consensus_probability": round(consensus_prob, 4) if consensus_prob else None,
         # Edge above MAX_EV_PCT but price short enough to alert anyway, with a warning
         "large_edge": large_edge,
+        # Fractional-Kelly stake on a shrunk edge (see config.suggested_stake)
+        "suggested_stake": config.suggested_stake(ev * 100, price, commission, large_edge),
     }
 
 
