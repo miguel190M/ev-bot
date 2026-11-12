@@ -263,6 +263,26 @@ def _apply_win_loss(bet: dict, won: bool):
         bet["profit"] = round(-bet["stake"], 2)
 
 
+def is_three_way_sport(sport_key: str) -> bool:
+    """Sports whose h2h market has a Draw outcome, so a draw is a loss for a team bet."""
+    return sport_key.startswith("soccer_")
+
+
+def fix_soccer_draw_voids(ledger: dict) -> list:
+    """One-off repair: soccer bets on a team that were auto-voided when the match
+    was drawn (old behaviour) are really losses. An auto-void on a soccer h2h bet
+    can only have come from a draw. Manually settled bets are left alone.
+    Returns the ids fixed (idempotent - nothing left to fix on later runs)."""
+    fixed = []
+    for bid, b in ledger.items():
+        if (b.get("status") == "void" and is_three_way_sport(b.get("sport_key", ""))
+                and b.get("market_key", "h2h") == "h2h" and b.get("outcome") != "Draw"
+                and not b.get("settled_by")):
+            _apply_win_loss(b, won=False)
+            fixed.append(bid)
+    return fixed
+
+
 def _resolve_h2h(bet: dict, home_score: int, away_score: int):
     home, away = bet.get("home_team"), bet.get("away_team")
     if home_score > away_score:
@@ -274,6 +294,9 @@ def _resolve_h2h(bet: dict, home_score: int, away_score: int):
 
     if bet["outcome"] == winner:
         _apply_win_loss(bet, won=True)
+    elif winner == "Draw" and is_three_way_sport(bet.get("sport_key", "")):
+        # soccer h2h is 3-way (home / draw / away): a draw loses a bet on either team
+        _apply_win_loss(bet, won=False)
     elif winner == "Draw":
         # a tie happened but this market never offered "Draw" as a bettable
         # outcome (e.g. NBA/NFL/AFL/NRL/tennis) - can't score this cleanly
