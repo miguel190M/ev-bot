@@ -1755,7 +1755,8 @@
     "alert_price": 3.75,
     "alert_ev_pct": 12.65,
     "closing_fair_odds": 3.209,
-    "closing_captured_at": "2026-11-09T04:00:49.744070+00:00"
+    "closing_captured_at": "2026-11-09T04:00:49.744070+00:00",
+    "settle_reminded_at": "2026-11-12T04:30:33.176145+00:00"
   },
   "63e8": {
     "event_id": "3a466ba74c0042d217551623eb2d661e",
@@ -1860,15 +1861,18 @@
     "large_edge": false,
     "arb_hedge": false,
     "stake": 10.0,
-    "status": "open",
-    "profit": null,
+    "status": "lost",
+    "profit": -10.0,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-11T12:30:37.700240+00:00",
     "lead_hours": 11.7,
     "logged_at": "2026-11-11T13:00:42.204351+00:00",
     "closing_fair_odds": 2.409,
-    "closing_captured_at": "2026-11-12T00:00:49.854370+00:00"
+    "closing_captured_at": "2026-11-12T00:00:49.854370+00:00",
+    "clv_pct": -2.03,
+    "net_clv_pct": -2.03,
+    "resolved_at": "2026-11-12T04:30:32.640849+00:00"
   },
   "2af9": {
     "event_id": "aa3ff88614ee49f02361d4d9faa07756",
