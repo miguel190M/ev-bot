@@ -1290,5 +1290,24 @@
    "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-12T09:30:35.365409+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 16,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -0.143,
+   "ev_pct": 1.66,
+   "threshold_pct": 1.8,
+   "price": 1.8,
+   "outcome": "Perth Wildcats",
+   "book": "SportsBet",
+   "matchup": "Tasmania JackJumpers @ Perth Wildcats",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
  }
 ]
