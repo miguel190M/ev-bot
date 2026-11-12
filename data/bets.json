@@ -1898,8 +1898,8 @@
     "alerted_at": "2026-11-11T21:00:51.589799+00:00",
     "lead_hours": 11.6,
     "logged_at": "2026-11-11T21:30:29.228675+00:00",
-    "closing_fair_odds": 2.292,
-    "closing_captured_at": "2026-11-12T08:00:45.608407+00:00"
+    "closing_fair_odds": 2.391,
+    "closing_captured_at": "2026-11-12T08:30:36.827549+00:00"
   },
   "f002": {
     "event_id": "7ee63c7510601a977256cda9261dab62",
@@ -1925,8 +1925,8 @@
     "alerted_at": "2026-11-12T05:00:43.854575+00:00",
     "lead_hours": 5.6,
     "logged_at": "2026-11-12T07:30:29.774693+00:00",
-    "closing_fair_odds": 2.122,
-    "closing_captured_at": "2026-11-12T08:00:45.608407+00:00"
+    "closing_fair_odds": 2.277,
+    "closing_captured_at": "2026-11-12T08:30:36.827549+00:00"
   },
   "1ba37": {
     "event_id": "4edfdf1f2fb0bb06bd731dd91c12e8c8",
@@ -1981,7 +1981,7 @@
     "logged_at": "2026-11-12T08:00:40.693818+00:00",
     "alert_price": 1.74,
     "alert_ev_pct": -3.94,
-    "closing_fair_odds": 1.774,
-    "closing_captured_at": "2026-11-12T08:00:45.608407+00:00"
+    "closing_fair_odds": 1.719,
+    "closing_captured_at": "2026-11-12T08:30:36.827549+00:00"
   }
 }
