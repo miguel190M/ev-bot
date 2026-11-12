@@ -1328,5 +1328,24 @@
    "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-12T10:30:35.779935+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 16,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.012,
+   "ev_pct": 0.49,
+   "threshold_pct": 1.5,
+   "price": 1.12,
+   "outcome": "Jhon Orobio",
+   "book": "SportsBet",
+   "matchup": "Hendri Cedeno @ Jhon Orobio",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
