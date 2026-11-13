@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-11T06:00:42.712117+00:00",
-  "markets": 3,
-  "markets_sharp": 1,
-  "outcomes": 12,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -5.414,
-   "ev_pct": -2.41,
-   "threshold_pct": 3.0,
-   "price": 1.35,
-   "outcome": "S.E. Melbourne Phoenix",
-   "book": "Betfair",
-   "matchup": "Illawarra Hawks @ S.E. Melbourne Phoenix",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-11T06:30:32.709154+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1377,6 +1358,25 @@
   "best": {
    "gap": 4.733,
    "ev_pct": 8.45,
+   "threshold_pct": 3.71,
+   "price": 4.0,
+   "outcome": "Cairns Taipans",
+   "book": "SportsBet",
+   "matchup": "Sydney Kings @ Cairns Taipans",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-13T06:00:47.308113+00:00",
+  "markets": 10,
+  "markets_sharp": 8,
+  "outcomes": 34,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 3.25,
+   "ev_pct": 6.96,
    "threshold_pct": 3.71,
    "price": 4.0,
    "outcome": "Cairns Taipans",
