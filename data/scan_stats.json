@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-11T08:30:36.994138+00:00",
-  "markets": 7,
-  "markets_sharp": 2,
-  "outcomes": 18,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -4.737,
-   "ev_pct": -1.74,
-   "threshold_pct": 3.0,
-   "price": 1.33,
-   "outcome": "S.E. Melbourne Phoenix",
-   "book": "SportsBet",
-   "matchup": "Illawarra Hawks @ S.E. Melbourne Phoenix",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-11T09:00:45.074498+00:00",
-  "markets": 2,
-  "markets_sharp": 0,
-  "outcomes": 8,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -5.69,
-   "ev_pct": -3.25,
-   "threshold_pct": 2.44,
-   "price": 1.72,
-   "outcome": "Karolina Muchova",
-   "book": "Betfair",
-   "matchup": "Karolina Muchova @ Elina Svitolina",
-   "sport_key": "tennis_wta_finals",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-11T10:00:43.100233+00:00",
   "markets": 2,
   "markets_sharp": 0,
@@ -1383,6 +1345,25 @@
    "book": "Betfair",
    "matchup": "Sydney Kings @ Cairns Taipans",
    "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-13T09:00:46.159773+00:00",
+  "markets": 8,
+  "markets_sharp": 6,
+  "outcomes": 26,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 3.177,
+   "ev_pct": 4.85,
+   "threshold_pct": 1.67,
+   "price": 1.67,
+   "outcome": "Bryan Flores",
+   "book": "SportsBet",
+   "matchup": "Jose Nunez @ Bryan Flores",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
