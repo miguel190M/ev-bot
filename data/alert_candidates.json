@@ -1,27 +1,4 @@
 {
-  "c221": {
-    "event_id": "e9545a3084389f5f3429e19fea891124",
-    "sport_key": "basketball_nba",
-    "commence_time": "2026-11-12T00:10:00Z",
-    "home_team": "Indiana Pacers",
-    "away_team": "Washington Wizards",
-    "market_key": "h2h",
-    "bookmaker_key": "sportsbet",
-    "bookmaker_title": "SportsBet",
-    "outcome": "Washington Wizards",
-    "price": 2.36,
-    "commission": 0.0,
-    "fair_probability": 0.4372,
-    "fair_odds": 2.287,
-    "ev_pct": 3.19,
-    "anchor": "pinnacle",
-    "num_books": 1,
-    "sharp_disagreement": false,
-    "sharp_probability": 0.4372,
-    "consensus_probability": 0.4264,
-    "large_edge": false,
-    "alerted_at": "2026-11-11T12:30:37.700240+00:00"
-  },
   "2af9": {
     "event_id": "aa3ff88614ee49f02361d4d9faa07756",
     "sport_key": "basketball_nbl",
