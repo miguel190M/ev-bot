@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-11T03:30:43.275450+00:00",
-  "markets": 2,
-  "markets_sharp": 1,
-  "outcomes": 7,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.849,
-   "ev_pct": -1.07,
-   "threshold_pct": 1.78,
-   "price": 1.39,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-11T04:00:43.632914+00:00",
   "markets": 4,
   "markets_sharp": 1,
@@ -1364,6 +1345,25 @@
    "book": "SportsBet",
    "matchup": "Guido Emmanuel Schramm @ Ruben Eduardo Aguilar",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-13T03:30:43.886071+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 11,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 4.907,
+   "ev_pct": 8.62,
+   "threshold_pct": 3.71,
+   "price": 4.0,
+   "outcome": "Cairns Taipans",
+   "book": "SportsBet",
+   "matchup": "Sydney Kings @ Cairns Taipans",
+   "sport_key": "basketball_nbl",
    "anchor": "pinnacle"
   }
  }
