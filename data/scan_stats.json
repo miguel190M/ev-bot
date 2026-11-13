@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-11T12:30:37.698574+00:00",
-  "markets": 37,
-  "markets_sharp": 17,
-  "outcomes": 97,
-  "capped": 4,
-  "flagged": 0,
-  "best": {
-   "gap": 0.826,
-   "ev_pct": 3.19,
-   "threshold_pct": 2.36,
-   "price": 2.36,
-   "outcome": "Washington Wizards",
-   "book": "SportsBet",
-   "matchup": "Washington Wizards @ Indiana Pacers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-11T13:00:45.975073+00:00",
   "markets": 2,
   "markets_sharp": 0,
@@ -1364,6 +1345,25 @@
    "book": "SportsBet",
    "matchup": "Jose Nunez @ Bryan Flores",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-13T12:30:42.660107+00:00",
+  "markets": 2,
+  "markets_sharp": 2,
+  "outcomes": 8,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -0.268,
+   "ev_pct": 3.09,
+   "threshold_pct": 3.36,
+   "price": 3.5,
+   "outcome": "Indiana Pacers",
+   "book": "Betfair",
+   "matchup": "New York Knicks @ Indiana Pacers",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
