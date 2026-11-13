@@ -6,5 +6,9 @@
   "5a6598501b9f244d3e807b7ef08ff3be:sportsbet:Cairns Taipans": {
     "ev_pct": 6.73,
     "commence_time": "2026-11-13T08:30:00Z"
+  },
+  "5a6598501b9f244d3e807b7ef08ff3be:betfair_ex_au:Sydney Kings:arb": {
+    "ev_pct": 0.37,
+    "commence_time": "2026-11-13T08:30:00Z"
   }
 }
