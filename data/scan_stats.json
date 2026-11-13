@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-11T13:00:45.975073+00:00",
-  "markets": 2,
-  "markets_sharp": 0,
-  "outcomes": 8,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -5.642,
-   "ev_pct": -3.18,
-   "threshold_pct": 2.46,
-   "price": 1.73,
-   "outcome": "Karolina Muchova",
-   "book": "Betfair",
-   "matchup": "Karolina Muchova @ Elina Svitolina",
-   "sport_key": "tennis_wta_finals",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-11T13:30:37.189639+00:00",
   "markets": 35,
   "markets_sharp": 16,
@@ -1364,6 +1345,25 @@
    "book": "Betfair",
    "matchup": "New York Knicks @ Indiana Pacers",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-13T13:00:50.502791+00:00",
+  "markets": 8,
+  "markets_sharp": 6,
+  "outcomes": 26,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 1.55,
+   "ev_pct": 3.22,
+   "threshold_pct": 1.67,
+   "price": 1.67,
+   "outcome": "Bryan Flores",
+   "book": "SportsBet",
+   "matchup": "Jose Nunez @ Bryan Flores",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
