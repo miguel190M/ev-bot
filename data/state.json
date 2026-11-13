@@ -11,12 +11,32 @@
     "ev_pct": 4.85,
     "commence_time": "2026-11-14T03:00:00Z"
   },
-  "3c7477a54a996ae2ec0d45a46a7c1c5f:sportsbet:Bilel Jkitou": {
-    "ev_pct": 1.5,
-    "commence_time": "2026-11-13T19:00:00Z"
-  },
   "d4963effa71c95c83b3e14edf2e02ffa:sportsbet:Axl Melendez Salgado": {
     "ev_pct": 7.56,
     "commence_time": "2026-11-14T00:30:00Z"
+  },
+  "52a9910d38a5beb5e32800c821dfa43c:sportsbet:Emilio Garcia": {
+    "ev_pct": 2.54,
+    "commence_time": "2026-11-13T23:00:00Z"
+  },
+  "fe785f6f52799b7705cdb8a8641a4c54:sportsbet:Kamil Bednarek": {
+    "ev_pct": 14.86,
+    "commence_time": "2026-11-14T16:10:00Z"
+  },
+  "83a049380e115b0f2ca88721e35a8e2a:sportsbet:Ben Marksby": {
+    "ev_pct": 9.04,
+    "commence_time": "2026-11-14T17:00:00Z"
+  },
+  "5a645e58feacc3cf940b0ac2a96dae6f:sportsbet:Tom Welland": {
+    "ev_pct": 4.88,
+    "commence_time": "2026-11-14T18:10:00Z"
+  },
+  "75b4f2dc4b3413fe56c7cfeef31e7bc6:sportsbet:Bakary Samake": {
+    "ev_pct": 7.1,
+    "commence_time": "2026-11-14T19:00:00Z"
+  },
+  "1240f089fb46b2212f04af24e8d3ae4a:sportsbet:Jak Corrie": {
+    "ev_pct": 8.16,
+    "commence_time": "2026-11-14T19:10:00Z"
   }
 }
