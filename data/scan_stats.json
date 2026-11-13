@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-11T22:30:32.946388+00:00",
-  "markets": 13,
-  "markets_sharp": 10,
-  "outcomes": 52,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.919,
-   "ev_pct": 0.92,
-   "threshold_pct": 2.84,
-   "price": 2.84,
-   "outcome": "Cleveland Cavaliers",
-   "book": "Betfair",
-   "matchup": "Cleveland Cavaliers @ New York Knicks",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-11T23:00:47.529031+00:00",
   "markets": 13,
   "markets_sharp": 10,
@@ -1373,6 +1354,25 @@
   "markets_sharp": 53,
   "outcomes": 229,
   "capped": 11,
+  "flagged": 0,
+  "best": {
+   "gap": 10.163,
+   "ev_pct": 11.74,
+   "threshold_pct": 1.58,
+   "price": 1.58,
+   "outcome": "Zelfa Barrett",
+   "book": "SportsBet",
+   "matchup": "Gavin Gwynne @ Zelfa Barrett",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-13T22:30:40.570948+00:00",
+  "markets": 28,
+  "markets_sharp": 22,
+  "outcomes": 110,
+  "capped": 1,
   "flagged": 0,
   "best": {
    "gap": 10.163,

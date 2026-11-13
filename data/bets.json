@@ -1715,8 +1715,8 @@
     "large_edge": false,
     "arb_hedge": false,
     "stake": 10.0,
-    "status": "open",
-    "profit": null,
+    "status": "won",
+    "profit": 13.0,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-12T20:00:51.239728+00:00",
@@ -1724,7 +1724,11 @@
     "logged_at": "2026-11-12T21:00:41.360736+00:00",
     "closing_fair_odds": 2.158,
     "closing_captured_at": "2026-11-13T02:00:43.712679+00:00",
-    "settle_reminded_at": "2026-11-13T08:30:36.053386+00:00"
+    "settle_reminded_at": "2026-11-13T08:30:36.053386+00:00",
+    "settled_manually": true,
+    "clv_pct": 6.58,
+    "net_clv_pct": 6.58,
+    "resolved_at": "2026-11-13T22:30:36.397844+00:00"
   },
   "29977": {
     "event_id": "5a6598501b9f244d3e807b7ef08ff3be",
@@ -1781,7 +1785,7 @@
     "lead_hours": 18.0,
     "logged_at": "2026-11-13T08:30:33.127818+00:00",
     "closing_fair_odds": 3.193,
-    "closing_captured_at": "2026-11-13T22:00:53.779090+00:00"
+    "closing_captured_at": "2026-11-13T22:30:40.572303+00:00"
   },
   "d67f": {
     "event_id": "2f4806614cd5d3cc2da32effacf3ac62",
@@ -1808,7 +1812,7 @@
     "lead_hours": 18.0,
     "logged_at": "2026-11-13T09:30:33.911243+00:00",
     "closing_fair_odds": 1.645,
-    "closing_captured_at": "2026-11-13T22:00:53.779090+00:00"
+    "closing_captured_at": "2026-11-13T22:30:40.572303+00:00"
   },
   "e987": {
     "event_id": "eb2b2c0f204f8f72bd6c3ae27c8f408a",
@@ -1835,7 +1839,7 @@
     "lead_hours": 16.0,
     "logged_at": "2026-11-13T11:16:55.107195+00:00",
     "closing_fair_odds": 1.085,
-    "closing_captured_at": "2026-11-13T22:00:53.779090+00:00"
+    "closing_captured_at": "2026-11-13T22:30:40.572303+00:00"
   },
   "1cc8": {
     "event_id": "3c7477a54a996ae2ec0d45a46a7c1c5f",
@@ -1889,7 +1893,7 @@
     "lead_hours": 20.2,
     "logged_at": "2026-11-13T21:00:44.042071+00:00",
     "closing_fair_odds": 3.299,
-    "closing_captured_at": "2026-11-13T22:00:53.779090+00:00"
+    "closing_captured_at": "2026-11-13T22:30:40.572303+00:00"
   },
   "6ab9": {
     "event_id": "83a049380e115b0f2ca88721e35a8e2a",
@@ -1916,7 +1920,7 @@
     "lead_hours": 21.0,
     "logged_at": "2026-11-13T21:30:34.295237+00:00",
     "closing_fair_odds": 2.339,
-    "closing_captured_at": "2026-11-13T22:00:53.779090+00:00"
+    "closing_captured_at": "2026-11-13T22:30:40.572303+00:00"
   },
   "a009": {
     "event_id": "5a645e58feacc3cf940b0ac2a96dae6f",
@@ -1943,7 +1947,7 @@
     "lead_hours": 22.2,
     "logged_at": "2026-11-13T22:00:41.029047+00:00",
     "closing_fair_odds": 1.316,
-    "closing_captured_at": "2026-11-13T22:00:53.779090+00:00"
+    "closing_captured_at": "2026-11-13T22:30:40.572303+00:00"
   },
   "e2d0": {
     "event_id": "52a9910d38a5beb5e32800c821dfa43c",
@@ -1970,7 +1974,7 @@
     "lead_hours": 3.0,
     "logged_at": "2026-11-13T22:00:41.543345+00:00",
     "closing_fair_odds": 1.063,
-    "closing_captured_at": "2026-11-13T22:00:53.779090+00:00"
+    "closing_captured_at": "2026-11-13T22:30:40.572303+00:00"
   },
   "8710": {
     "event_id": "efe1fbb3b5ab56d7c08300e6c155381e",
@@ -1997,6 +2001,33 @@
     "lead_hours": 24.0,
     "logged_at": "2026-11-13T22:00:42.066832+00:00",
     "closing_fair_odds": 1.414,
-    "closing_captured_at": "2026-11-13T22:00:53.779090+00:00"
+    "closing_captured_at": "2026-11-13T22:30:40.572303+00:00"
+  },
+  "1f57": {
+    "event_id": "502915d9eedf7388a32a36acff39c8ea",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-14T13:45:00Z",
+    "home_team": "Ivan Ortiz",
+    "away_team": "Dariial Kuchmenov",
+    "market_key": "h2h",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Dariial Kuchmenov",
+    "price": 1.38,
+    "commission": 0.0,
+    "ev_pct": 3.84,
+    "anchor": "pinnacle",
+    "sharp_disagreement": false,
+    "large_edge": false,
+    "arb_hedge": false,
+    "stake": 20.0,
+    "status": "open",
+    "profit": null,
+    "source": "live",
+    "bookmaker_key": "sportsbet",
+    "alerted_at": "2026-11-13T22:00:53.261038+00:00",
+    "lead_hours": 15.7,
+    "logged_at": "2026-11-13T22:30:35.344522+00:00",
+    "closing_fair_odds": 1.329,
+    "closing_captured_at": "2026-11-13T22:30:40.572303+00:00"
   }
 }
