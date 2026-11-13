@@ -1,27 +1,4 @@
 {
-  "f002": {
-    "event_id": "7ee63c7510601a977256cda9261dab62",
-    "sport_key": "basketball_nbl",
-    "commence_time": "2026-11-12T10:36:00Z",
-    "home_team": "Perth Wildcats",
-    "away_team": "Tasmania JackJumpers",
-    "market_key": "h2h",
-    "bookmaker_key": "sportsbet",
-    "bookmaker_title": "SportsBet",
-    "outcome": "Tasmania JackJumpers",
-    "price": 2.03,
-    "commission": 0.0,
-    "fair_probability": 0.5069,
-    "fair_odds": 1.973,
-    "ev_pct": 2.9,
-    "anchor": "pinnacle",
-    "num_books": 1,
-    "sharp_disagreement": false,
-    "sharp_probability": 0.5069,
-    "consensus_probability": 0.5042,
-    "large_edge": false,
-    "alerted_at": "2026-11-12T05:00:43.854575+00:00"
-  },
   "1ba3": {
     "event_id": "4edfdf1f2fb0bb06bd731dd91c12e8c8",
     "sport_key": "cricket_test_match",
@@ -323,5 +300,29 @@
     "large_edge": false,
     "suggested_stake": 16.0,
     "alerted_at": "2026-11-13T09:00:46.161364+00:00"
+  },
+  "1cc8": {
+    "event_id": "3c7477a54a996ae2ec0d45a46a7c1c5f",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-13T19:00:00Z",
+    "home_team": "Bilel Jkitou",
+    "away_team": "Gabriel Alberto Corzo",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Bilel Jkitou",
+    "price": 1.12,
+    "commission": 0.0,
+    "fair_probability": 0.9063,
+    "fair_odds": 1.103,
+    "ev_pct": 1.5,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.9063,
+    "consensus_probability": 0.9092,
+    "large_edge": false,
+    "suggested_stake": 11.0,
+    "alerted_at": "2026-11-13T11:00:48.840812+00:00"
   }
 }
