@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-11T07:30:34.357499+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 4,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -6.075,
-   "ev_pct": -3.08,
-   "threshold_pct": 3.0,
-   "price": 1.32,
-   "outcome": "S.E. Melbourne Phoenix",
-   "book": "SportsBet",
-   "matchup": "Illawarra Hawks @ S.E. Melbourne Phoenix",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-11T08:00:43.031468+00:00",
-  "markets": 5,
-  "markets_sharp": 3,
-  "outcomes": 20,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -5.241,
-   "ev_pct": -2.24,
-   "threshold_pct": 3.0,
-   "price": 3.85,
-   "outcome": "Illawarra Hawks",
-   "book": "Betfair",
-   "matchup": "Illawarra Hawks @ S.E. Melbourne Phoenix",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-11T08:30:36.994138+00:00",
   "markets": 7,
   "markets_sharp": 2,
@@ -1383,6 +1345,25 @@
    "book": "SportsBet",
    "matchup": "Sydney Kings @ Cairns Taipans",
    "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-13T08:00:45.302213+00:00",
+  "markets": 9,
+  "markets_sharp": 7,
+  "outcomes": 30,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 1.664,
+   "ev_pct": 4.91,
+   "threshold_pct": 3.25,
+   "price": 3.35,
+   "outcome": "Muhammadkhuja Yaqubov",
+   "book": "SportsBet",
+   "matchup": "Muhammadkhuja Yaqubov @ Tsendbaatar Erdenbat",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
