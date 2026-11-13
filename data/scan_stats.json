@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-11T20:00:49.359450+00:00",
-  "markets": 64,
-  "markets_sharp": 48,
-  "outcomes": 181,
-  "capped": 7,
-  "flagged": 0,
-  "best": {
-   "gap": -1.393,
-   "ev_pct": 2.26,
-   "threshold_pct": 3.66,
-   "price": 3.92,
-   "outcome": "Kent State Golden Flashes",
-   "book": "SportsBet",
-   "matchup": "Kent State Golden Flashes @ UNC Wilmington Seahawks",
-   "sport_key": "basketball_ncaab",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-11T21:00:51.588317+00:00",
   "markets": 4,
   "markets_sharp": 1,
@@ -1382,6 +1363,25 @@
    "outcome": "Kamil Bednarek",
    "book": "SportsBet",
    "matchup": "Kamil Bednarek @ Bruno Surace",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-13T20:30:38.153290+00:00",
+  "markets": 16,
+  "markets_sharp": 9,
+  "outcomes": 62,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": 6.49,
+   "ev_pct": 9.04,
+   "threshold_pct": 2.55,
+   "price": 2.55,
+   "outcome": "Ben Marksby",
+   "book": "SportsBet",
+   "matchup": "Ben Marksby @ Yaser Al Ghena",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }

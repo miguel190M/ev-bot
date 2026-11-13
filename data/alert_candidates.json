@@ -492,5 +492,29 @@
     "large_edge": false,
     "suggested_stake": 20.0,
     "alerted_at": "2026-11-13T20:00:48.602494+00:00"
+  },
+  "f8aaa": {
+    "event_id": "fe785f6f52799b7705cdb8a8641a4c54",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-14T16:10:00Z",
+    "home_team": "Bruno Surace",
+    "away_team": "Kamil Bednarek",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Kamil Bednarek",
+    "price": 4.0,
+    "commission": 0.0,
+    "fair_probability": 0.2609,
+    "fair_odds": 3.833,
+    "ev_pct": 4.36,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": true,
+    "sharp_probability": 0.3084,
+    "consensus_probability": 0.2609,
+    "large_edge": false,
+    "suggested_stake": 1.0,
+    "alerted_at": "2026-11-13T20:30:38.155108+00:00"
   }
 }
