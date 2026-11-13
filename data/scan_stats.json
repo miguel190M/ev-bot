@@ -1366,5 +1366,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-13T09:30:39.190674+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 12,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.369,
+   "ev_pct": -1.87,
+   "threshold_pct": 1.5,
+   "price": 1.22,
+   "outcome": "Panathinaikos",
+   "book": "Betfair",
+   "matchup": "FC Barcelona B\u00e0squet @ Panathinaikos",
+   "sport_key": "basketball_euroleague",
+   "anchor": "pinnacle"
+  }
  }
 ]
