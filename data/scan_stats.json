@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-11T02:30:39.180179+00:00",
-  "markets": 3,
-  "markets_sharp": 2,
-  "outcomes": 11,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.189,
-   "ev_pct": -0.39,
-   "threshold_pct": 1.8,
-   "price": 1.4,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-11T03:00:46.490017+00:00",
-  "markets": 5,
-  "markets_sharp": 2,
-  "outcomes": 19,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.189,
-   "ev_pct": -0.39,
-   "threshold_pct": 1.8,
-   "price": 1.4,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-11T03:30:43.275450+00:00",
   "markets": 2,
   "markets_sharp": 1,
@@ -1382,6 +1344,25 @@
    "outcome": "Jhon Orobio",
    "book": "Betfair",
    "matchup": "Hendri Cedeno @ Jhon Orobio",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-13T03:00:48.882591+00:00",
+  "markets": 10,
+  "markets_sharp": 8,
+  "outcomes": 33,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -0.036,
+   "ev_pct": 1.46,
+   "threshold_pct": 1.5,
+   "price": 1.09,
+   "outcome": "Ruben Eduardo Aguilar",
+   "book": "SportsBet",
+   "matchup": "Guido Emmanuel Schramm @ Ruben Eduardo Aguilar",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
