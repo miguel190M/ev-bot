@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-11T23:30:35.806833+00:00",
-  "markets": 19,
-  "markets_sharp": 19,
-  "outcomes": 76,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.794,
-   "ev_pct": -0.06,
-   "threshold_pct": 1.73,
-   "price": 1.73,
-   "outcome": "Portland Trail Blazers",
-   "book": "SportsBet",
-   "matchup": "Oklahoma City Thunder @ Portland Trail Blazers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-12T00:00:49.852529+00:00",
   "markets": 32,
   "markets_sharp": 21,
@@ -1372,6 +1353,25 @@
   "markets": 29,
   "markets_sharp": 23,
   "outcomes": 115,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": 10.163,
+   "ev_pct": 11.74,
+   "threshold_pct": 1.58,
+   "price": 1.58,
+   "outcome": "Zelfa Barrett",
+   "book": "SportsBet",
+   "matchup": "Gavin Gwynne @ Zelfa Barrett",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-13T23:30:37.752623+00:00",
+  "markets": 29,
+  "markets_sharp": 23,
+  "outcomes": 114,
   "capped": 1,
   "flagged": 0,
   "best": {
