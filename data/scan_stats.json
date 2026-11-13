@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-11T04:30:35.380827+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 2,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -4.237,
-   "ev_pct": -2.96,
-   "threshold_pct": 1.28,
-   "price": 1.14,
-   "outcome": "East Texas A&M Lions",
-   "book": "SportsBet",
-   "matchup": "Fairleigh Dickinson Knights @ East Texas A&M Lions",
-   "sport_key": "basketball_ncaab",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-11T05:00:44.131466+00:00",
   "markets": 3,
   "markets_sharp": 1,
@@ -1353,6 +1334,25 @@
   "markets": 11,
   "markets_sharp": 9,
   "outcomes": 37,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 4.907,
+   "ev_pct": 8.62,
+   "threshold_pct": 3.71,
+   "price": 4.0,
+   "outcome": "Cairns Taipans",
+   "book": "SportsBet",
+   "matchup": "Sydney Kings @ Cairns Taipans",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-13T04:30:36.346019+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 11,
   "capped": 0,
   "flagged": 0,
   "best": {
