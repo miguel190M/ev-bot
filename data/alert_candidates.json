@@ -272,5 +272,29 @@
     "suggested_stake": 2.0,
     "source": "daily_digest",
     "alerted_at": "2026-11-12T22:00:48.362348+00:00"
+  },
+  "29977": {
+    "event_id": "5a6598501b9f244d3e807b7ef08ff3be",
+    "sport_key": "basketball_nbl",
+    "commence_time": "2026-11-13T08:30:00Z",
+    "home_team": "Cairns Taipans",
+    "away_team": "Sydney Kings",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Cairns Taipans",
+    "price": 4.1,
+    "commission": 0.0,
+    "fair_probability": 0.2603,
+    "fair_odds": 3.842,
+    "ev_pct": 6.73,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.2603,
+    "consensus_probability": 0.2487,
+    "large_edge": false,
+    "suggested_stake": 2.0,
+    "alerted_at": "2026-11-13T00:00:49.693468+00:00"
   }
 }

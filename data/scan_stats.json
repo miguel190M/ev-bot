@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-10T23:35:16.772660+00:00",
-  "markets": 6,
-  "markets_sharp": 6,
-  "outcomes": 24,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -4.017,
-   "ev_pct": -1.02,
-   "threshold_pct": 3.0,
-   "price": 1.11,
-   "outcome": "New York Knicks",
-   "book": "Betfair",
-   "matchup": "Milwaukee Bucks @ New York Knicks",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-11T00:00:51.117506+00:00",
   "markets": 38,
   "markets_sharp": 22,
@@ -1364,6 +1345,25 @@
    "book": "Betfair",
    "matchup": "Hendri Cedeno @ Jhon Orobio",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-13T00:00:49.692360+00:00",
+  "markets": 25,
+  "markets_sharp": 21,
+  "outcomes": 89,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": 2.942,
+   "ev_pct": 6.73,
+   "threshold_pct": 3.79,
+   "price": 4.1,
+   "outcome": "Cairns Taipans",
+   "book": "SportsBet",
+   "matchup": "Sydney Kings @ Cairns Taipans",
+   "sport_key": "basketball_nbl",
    "anchor": "pinnacle"
   }
  }
