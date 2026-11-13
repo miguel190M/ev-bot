@@ -1366,5 +1366,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-13T02:30:38.280363+00:00",
+  "markets": 7,
+  "markets_sharp": 7,
+  "outcomes": 25,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 0.99,
+   "ev_pct": 2.49,
+   "threshold_pct": 1.5,
+   "price": 1.13,
+   "outcome": "Jhon Orobio",
+   "book": "Betfair",
+   "matchup": "Hendri Cedeno @ Jhon Orobio",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
