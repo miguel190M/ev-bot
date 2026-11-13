@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-11T11:30:33.526119+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 3,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.851,
-   "ev_pct": -1.59,
-   "threshold_pct": 1.26,
-   "price": 1.13,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-11T12:00:43.428363+00:00",
-  "markets": 4,
-  "markets_sharp": 2,
-  "outcomes": 16,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.042,
-   "ev_pct": -1.54,
-   "threshold_pct": 1.5,
-   "price": 1.29,
-   "outcome": "KK Partizan NIS",
-   "book": "Betfair",
-   "matchup": "Saski Baskonia @ KK Partizan NIS",
-   "sport_key": "basketball_euroleague",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-11T12:30:37.698574+00:00",
   "markets": 37,
   "markets_sharp": 17,
@@ -1373,6 +1335,25 @@
   "markets_sharp": 6,
   "outcomes": 26,
   "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 3.177,
+   "ev_pct": 4.85,
+   "threshold_pct": 1.67,
+   "price": 1.67,
+   "outcome": "Bryan Flores",
+   "book": "SportsBet",
+   "matchup": "Jose Nunez @ Bryan Flores",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-13T12:00:49.488184+00:00",
+  "markets": 34,
+  "markets_sharp": 15,
+  "outcomes": 85,
+  "capped": 9,
   "flagged": 0,
   "best": {
    "gap": 3.177,

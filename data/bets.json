@@ -1778,7 +1778,7 @@
     "lead_hours": 18.0,
     "logged_at": "2026-11-13T08:30:33.127818+00:00",
     "closing_fair_odds": 3.545,
-    "closing_captured_at": "2026-11-13T11:00:49.389167+00:00"
+    "closing_captured_at": "2026-11-13T12:00:50.070758+00:00"
   },
   "d67f": {
     "event_id": "2f4806614cd5d3cc2da32effacf3ac62",
@@ -1805,7 +1805,7 @@
     "lead_hours": 18.0,
     "logged_at": "2026-11-13T09:30:33.911243+00:00",
     "closing_fair_odds": 1.593,
-    "closing_captured_at": "2026-11-13T11:00:49.389167+00:00"
+    "closing_captured_at": "2026-11-13T12:00:50.070758+00:00"
   },
   "e987": {
     "event_id": "eb2b2c0f204f8f72bd6c3ae27c8f408a",
@@ -1830,7 +1830,9 @@
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-13T09:00:46.161364+00:00",
     "lead_hours": 16.0,
-    "logged_at": "2026-11-13T11:16:55.107195+00:00"
+    "logged_at": "2026-11-13T11:16:55.107195+00:00",
+    "closing_fair_odds": 1.072,
+    "closing_captured_at": "2026-11-13T12:00:50.070758+00:00"
   },
   "1cc8": {
     "event_id": "3c7477a54a996ae2ec0d45a46a7c1c5f",
@@ -1855,6 +1857,8 @@
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-13T11:00:48.840812+00:00",
     "lead_hours": 8.0,
-    "logged_at": "2026-11-13T11:16:55.959408+00:00"
+    "logged_at": "2026-11-13T11:16:55.959408+00:00",
+    "closing_fair_odds": 1.103,
+    "closing_captured_at": "2026-11-13T12:00:50.070758+00:00"
   }
 }

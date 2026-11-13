@@ -324,5 +324,29 @@
     "large_edge": false,
     "suggested_stake": 11.0,
     "alerted_at": "2026-11-13T11:00:48.840812+00:00"
+  },
+  "6f75": {
+    "event_id": "d4963effa71c95c83b3e14edf2e02ffa",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-14T00:30:00Z",
+    "home_team": "Elijah Flores",
+    "away_team": "Axl Melendez Salgado",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Axl Melendez Salgado",
+    "price": 7.25,
+    "commission": 0.0,
+    "fair_probability": 0.1484,
+    "fair_odds": 6.74,
+    "ev_pct": 7.56,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": true,
+    "sharp_probability": 0.1745,
+    "consensus_probability": 0.1484,
+    "large_edge": false,
+    "suggested_stake": 1.0,
+    "alerted_at": "2026-11-13T12:00:49.490100+00:00"
   }
 }
