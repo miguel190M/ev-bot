@@ -516,5 +516,29 @@
     "large_edge": false,
     "suggested_stake": 1.0,
     "alerted_at": "2026-11-13T20:30:38.155108+00:00"
+  },
+  "8710": {
+    "event_id": "efe1fbb3b5ab56d7c08300e6c155381e",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-14T21:00:00Z",
+    "home_team": "Zelfa Barrett",
+    "away_team": "Gavin Gwynne",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Zelfa Barrett",
+    "price": 1.58,
+    "commission": 0.0,
+    "fair_probability": 0.6916,
+    "fair_odds": 1.446,
+    "ev_pct": 9.27,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.6916,
+    "consensus_probability": 0.6695,
+    "large_edge": false,
+    "suggested_stake": 14.0,
+    "alerted_at": "2026-11-13T21:00:50.315183+00:00"
   }
 }
