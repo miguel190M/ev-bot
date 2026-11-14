@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-12T11:30:40.042300+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 32,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -0.063,
-   "ev_pct": 1.44,
-   "threshold_pct": 1.5,
-   "price": 1.12,
-   "outcome": "Jhon Orobio",
-   "book": "SportsBet",
-   "matchup": "Hendri Cedeno @ Jhon Orobio",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-12T12:00:43.665514+00:00",
-  "markets": 21,
-  "markets_sharp": 9,
-  "outcomes": 51,
-  "capped": 3,
-  "flagged": 0,
-  "best": {
-   "gap": 2.922,
-   "ev_pct": 5.34,
-   "threshold_pct": 2.42,
-   "price": 2.42,
-   "outcome": "Afghanistan",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-12T12:30:35.129729+00:00",
   "markets": 4,
   "markets_sharp": 4,
@@ -1392,6 +1354,25 @@
   "markets_sharp": 23,
   "outcomes": 113,
   "capped": 2,
+  "flagged": 0,
+  "best": {
+   "gap": 9.507,
+   "ev_pct": 11.09,
+   "threshold_pct": 1.58,
+   "price": 1.58,
+   "outcome": "Zelfa Barrett",
+   "book": "SportsBet",
+   "matchup": "Gavin Gwynne @ Zelfa Barrett",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-14T12:00:44.701808+00:00",
+  "markets": 78,
+  "markets_sharp": 42,
+  "outcomes": 214,
+  "capped": 6,
   "flagged": 0,
   "best": {
    "gap": 9.507,
