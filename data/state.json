@@ -14,5 +14,9 @@
   "651c6e3cbea982674a0be5c758cf4939:sportsbet:Sydney Kings": {
     "ev_pct": 3.32,
     "commence_time": "2026-11-15T04:00:00Z"
+  },
+  "41f9b3bbdd45036d7a68ec519cb72280:betfair_ex_au:Seydi Coupe": {
+    "ev_pct": 17.53,
+    "commence_time": "2026-11-14T22:30:00Z"
   }
 }
