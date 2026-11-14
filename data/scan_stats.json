@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-12T01:30:36.450510+00:00",
-  "markets": 8,
-  "markets_sharp": 7,
-  "outcomes": 31,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.794,
-   "ev_pct": -0.06,
-   "threshold_pct": 1.73,
-   "price": 1.73,
-   "outcome": "Portland Trail Blazers",
-   "book": "SportsBet",
-   "matchup": "Oklahoma City Thunder @ Portland Trail Blazers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-12T02:00:40.154677+00:00",
   "markets": 12,
   "markets_sharp": 7,
@@ -1368,7 +1349,7 @@
   }
  },
  {
-  "ts": "2026-11-14T01:30:27.130360+00:00",
+  "ts": "2026-11-14T01:30:43.117896+00:00",
   "markets": 28,
   "markets_sharp": 20,
   "outcomes": 105,

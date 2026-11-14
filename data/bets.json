@@ -1789,7 +1789,7 @@
     "lead_hours": 18.0,
     "logged_at": "2026-11-13T08:30:33.127818+00:00",
     "closing_fair_odds": 3.435,
-    "closing_captured_at": "2026-11-14T01:30:27.132564+00:00"
+    "closing_captured_at": "2026-11-14T01:30:43.120178+00:00"
   },
   "d67f": {
     "event_id": "2f4806614cd5d3cc2da32effacf3ac62",
@@ -1816,7 +1816,7 @@
     "lead_hours": 18.0,
     "logged_at": "2026-11-13T09:30:33.911243+00:00",
     "closing_fair_odds": 1.708,
-    "closing_captured_at": "2026-11-14T01:30:27.132564+00:00"
+    "closing_captured_at": "2026-11-14T01:30:43.120178+00:00"
   },
   "e987": {
     "event_id": "eb2b2c0f204f8f72bd6c3ae27c8f408a",
@@ -1898,7 +1898,7 @@
     "lead_hours": 20.2,
     "logged_at": "2026-11-13T21:00:44.042071+00:00",
     "closing_fair_odds": 3.374,
-    "closing_captured_at": "2026-11-14T01:30:27.132564+00:00"
+    "closing_captured_at": "2026-11-14T01:30:43.120178+00:00"
   },
   "6ab9": {
     "event_id": "83a049380e115b0f2ca88721e35a8e2a",
@@ -1925,7 +1925,7 @@
     "lead_hours": 21.0,
     "logged_at": "2026-11-13T21:30:34.295237+00:00",
     "closing_fair_odds": 2.339,
-    "closing_captured_at": "2026-11-14T01:30:27.132564+00:00"
+    "closing_captured_at": "2026-11-14T01:30:43.120178+00:00"
   },
   "a009": {
     "event_id": "5a645e58feacc3cf940b0ac2a96dae6f",
@@ -1952,7 +1952,7 @@
     "lead_hours": 22.2,
     "logged_at": "2026-11-13T22:00:41.029047+00:00",
     "closing_fair_odds": 1.316,
-    "closing_captured_at": "2026-11-14T01:30:27.132564+00:00"
+    "closing_captured_at": "2026-11-14T01:30:43.120178+00:00"
   },
   "e2d0": {
     "event_id": "52a9910d38a5beb5e32800c821dfa43c",
@@ -2006,7 +2006,7 @@
     "lead_hours": 24.0,
     "logged_at": "2026-11-13T22:00:42.066832+00:00",
     "closing_fair_odds": 1.414,
-    "closing_captured_at": "2026-11-14T01:30:27.132564+00:00"
+    "closing_captured_at": "2026-11-14T01:30:43.120178+00:00"
   },
   "1f57": {
     "event_id": "502915d9eedf7388a32a36acff39c8ea",
@@ -2033,6 +2033,6 @@
     "lead_hours": 15.7,
     "logged_at": "2026-11-13T22:30:35.344522+00:00",
     "closing_fair_odds": 1.329,
-    "closing_captured_at": "2026-11-14T01:30:27.132564+00:00"
+    "closing_captured_at": "2026-11-14T01:30:43.120178+00:00"
   }
 }
