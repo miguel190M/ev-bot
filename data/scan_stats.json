@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-12T08:30:36.825686+00:00",
-  "markets": 4,
-  "markets_sharp": 4,
-  "outcomes": 20,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -0.284,
-   "ev_pct": 1.53,
-   "threshold_pct": 1.81,
-   "price": 1.81,
-   "outcome": "Perth Wildcats",
-   "book": "SportsBet",
-   "matchup": "Tasmania JackJumpers @ Perth Wildcats",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-12T09:00:44.627274+00:00",
-  "markets": 7,
-  "markets_sharp": 5,
-  "outcomes": 27,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 3.75,
-   "ev_pct": 6.19,
-   "threshold_pct": 2.44,
-   "price": 2.44,
-   "outcome": "Afghanistan",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-12T09:30:35.365409+00:00",
   "markets": 3,
   "markets_sharp": 3,
@@ -1383,6 +1345,25 @@
    "book": "SportsBet",
    "matchup": "Gavin Gwynne @ Zelfa Barrett",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-14T09:00:46.179986+00:00",
+  "markets": 46,
+  "markets_sharp": 43,
+  "outcomes": 159,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.449,
+   "ev_pct": 0.9,
+   "threshold_pct": 2.35,
+   "price": 2.35,
+   "outcome": "New Zealand",
+   "book": "SportsBet",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_odi",
    "anchor": "pinnacle"
   }
  }
