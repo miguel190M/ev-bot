@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-12T08:00:45.606274+00:00",
-  "markets": 8,
-  "markets_sharp": 6,
-  "outcomes": 29,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 3.75,
-   "ev_pct": 6.19,
-   "threshold_pct": 2.44,
-   "price": 2.44,
-   "outcome": "Afghanistan",
-   "book": "Betfair",
-   "matchup": "Zimbabwe @ Afghanistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-12T08:30:36.825686+00:00",
   "markets": 4,
   "markets_sharp": 4,
@@ -1383,6 +1364,25 @@
    "book": "SportsBet",
    "matchup": "England @ Australia",
    "sport_key": "cricket_odi",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-14T08:30:34.214645+00:00",
+  "markets": 33,
+  "markets_sharp": 26,
+  "outcomes": 121,
+  "capped": 2,
+  "flagged": 0,
+  "best": {
+   "gap": 9.507,
+   "ev_pct": 11.09,
+   "threshold_pct": 1.58,
+   "price": 1.58,
+   "outcome": "Zelfa Barrett",
+   "book": "SportsBet",
+   "matchup": "Gavin Gwynne @ Zelfa Barrett",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
