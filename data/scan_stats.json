@@ -1366,5 +1366,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-14T07:00:42.653767+00:00",
+  "markets": 4,
+  "markets_sharp": 4,
+  "outcomes": 16,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 0.289,
+   "ev_pct": 2.01,
+   "threshold_pct": 1.72,
+   "price": 1.72,
+   "outcome": "Australia",
+   "book": "SportsBet",
+   "matchup": "England @ Australia",
+   "sport_key": "cricket_odi",
+   "anchor": "pinnacle"
+  }
  }
 ]
