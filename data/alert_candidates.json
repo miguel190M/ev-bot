@@ -479,5 +479,29 @@
     "large_edge": false,
     "suggested_stake": 3.0,
     "alerted_at": "2026-11-14T10:30:36.586289+00:00"
+  },
+  "26ae4": {
+    "event_id": "75b4f2dc4b3413fe56c7cfeef31e7bc6",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-14T19:00:00Z",
+    "home_team": "Bakary Samake",
+    "away_team": "Uisma Lima",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Bakary Samake",
+    "price": 1.79,
+    "commission": 0.0,
+    "fair_probability": 0.5767,
+    "fair_odds": 1.734,
+    "ev_pct": 3.23,
+    "anchor": "retail_consensus",
+    "num_books": 8,
+    "sharp_disagreement": false,
+    "sharp_probability": null,
+    "consensus_probability": 0.5767,
+    "large_edge": false,
+    "suggested_stake": 4.0,
+    "alerted_at": "2026-11-14T13:00:45.763087+00:00"
   }
 }

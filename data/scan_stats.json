@@ -1385,5 +1385,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-14T13:00:45.743380+00:00",
+  "markets": 80,
+  "markets_sharp": 70,
+  "outcomes": 305,
+  "capped": 2,
+  "flagged": 0,
+  "best": {
+   "gap": 9.507,
+   "ev_pct": 11.09,
+   "threshold_pct": 1.58,
+   "price": 1.58,
+   "outcome": "Zelfa Barrett",
+   "book": "SportsBet",
+   "matchup": "Gavin Gwynne @ Zelfa Barrett",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
