@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-12T04:00:45.033490+00:00",
-  "markets": 5,
-  "markets_sharp": 2,
-  "outcomes": 19,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.614,
-   "ev_pct": -0.35,
-   "threshold_pct": 1.26,
-   "price": 1.13,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-12T04:30:32.639261+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 12,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.012,
-   "ev_pct": 0.49,
-   "threshold_pct": 1.5,
-   "price": 1.12,
-   "outcome": "Jhon Orobio",
-   "book": "SportsBet",
-   "matchup": "Hendri Cedeno @ Jhon Orobio",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-12T05:00:43.852977+00:00",
   "markets": 7,
   "markets_sharp": 5,
@@ -1383,6 +1345,25 @@
    "book": "SportsBet",
    "matchup": "England @ Australia",
    "sport_key": "cricket_odi",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-14T04:30:35.074883+00:00",
+  "markets": 32,
+  "markets_sharp": 22,
+  "outcomes": 116,
+  "capped": 2,
+  "flagged": 0,
+  "best": {
+   "gap": 10.163,
+   "ev_pct": 11.74,
+   "threshold_pct": 1.58,
+   "price": 1.58,
+   "outcome": "Zelfa Barrett",
+   "book": "SportsBet",
+   "matchup": "Gavin Gwynne @ Zelfa Barrett",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
