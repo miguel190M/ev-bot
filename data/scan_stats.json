@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-12T00:00:49.852529+00:00",
-  "markets": 32,
-  "markets_sharp": 21,
-  "outcomes": 91,
-  "capped": 5,
-  "flagged": 0,
-  "best": {
-   "gap": -1.614,
-   "ev_pct": -0.35,
-   "threshold_pct": 1.26,
-   "price": 1.13,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-12T00:30:38.490388+00:00",
   "markets": 7,
   "markets_sharp": 7,
@@ -1373,6 +1354,25 @@
   "markets_sharp": 23,
   "outcomes": 114,
   "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": 10.163,
+   "ev_pct": 11.74,
+   "threshold_pct": 1.58,
+   "price": 1.58,
+   "outcome": "Zelfa Barrett",
+   "book": "SportsBet",
+   "matchup": "Gavin Gwynne @ Zelfa Barrett",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-14T00:00:51.066198+00:00",
+  "markets": 56,
+  "markets_sharp": 42,
+  "outcomes": 180,
+  "capped": 4,
   "flagged": 0,
   "best": {
    "gap": 10.163,

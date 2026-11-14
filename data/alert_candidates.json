@@ -589,5 +589,29 @@
     "suggested_stake": 4.0,
     "source": "daily_digest",
     "alerted_at": "2026-11-13T22:00:53.786757+00:00"
+  },
+  "572c": {
+    "event_id": "d11738a849ae9f9f162cb09e43ef959c",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-14T23:55:00Z",
+    "home_team": "Nishant Dev",
+    "away_team": "Sona Akale",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Nishant Dev",
+    "price": 1.09,
+    "commission": 0.0,
+    "fair_probability": 0.9355,
+    "fair_odds": 1.069,
+    "ev_pct": 1.97,
+    "anchor": "retail_consensus",
+    "num_books": 8,
+    "sharp_disagreement": false,
+    "sharp_probability": null,
+    "consensus_probability": 0.9355,
+    "large_edge": false,
+    "suggested_stake": 19.0,
+    "alerted_at": "2026-11-14T00:00:51.067732+00:00"
   }
 }
