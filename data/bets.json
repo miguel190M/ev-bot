@@ -1917,7 +1917,7 @@
     "lead_hours": 20.2,
     "logged_at": "2026-11-13T21:00:44.042071+00:00",
     "closing_fair_odds": 3.205,
-    "closing_captured_at": "2026-11-14T11:00:46.355924+00:00"
+    "closing_captured_at": "2026-11-14T11:30:32.385281+00:00"
   },
   "6ab9": {
     "event_id": "83a049380e115b0f2ca88721e35a8e2a",
@@ -1943,8 +1943,8 @@
     "alerted_at": "2026-11-13T20:00:48.602494+00:00",
     "lead_hours": 21.0,
     "logged_at": "2026-11-13T21:30:34.295237+00:00",
-    "closing_fair_odds": 2.323,
-    "closing_captured_at": "2026-11-14T11:00:46.355924+00:00"
+    "closing_fair_odds": 2.309,
+    "closing_captured_at": "2026-11-14T11:30:32.385281+00:00"
   },
   "a009": {
     "event_id": "5a645e58feacc3cf940b0ac2a96dae6f",
@@ -1971,7 +1971,7 @@
     "lead_hours": 22.2,
     "logged_at": "2026-11-13T22:00:41.029047+00:00",
     "closing_fair_odds": 1.308,
-    "closing_captured_at": "2026-11-14T11:00:46.355924+00:00"
+    "closing_captured_at": "2026-11-14T11:30:32.385281+00:00"
   },
   "e2d0": {
     "event_id": "52a9910d38a5beb5e32800c821dfa43c",
@@ -2030,7 +2030,7 @@
     "lead_hours": 24.0,
     "logged_at": "2026-11-13T22:00:42.066832+00:00",
     "closing_fair_odds": 1.422,
-    "closing_captured_at": "2026-11-14T11:00:46.355924+00:00"
+    "closing_captured_at": "2026-11-14T11:30:32.385281+00:00"
   },
   "1f57": {
     "event_id": "502915d9eedf7388a32a36acff39c8ea",
@@ -2056,8 +2056,8 @@
     "alerted_at": "2026-11-13T22:00:53.261038+00:00",
     "lead_hours": 15.7,
     "logged_at": "2026-11-13T22:30:35.344522+00:00",
-    "closing_fair_odds": 1.388,
-    "closing_captured_at": "2026-11-14T11:00:46.355924+00:00"
+    "closing_fair_odds": 1.392,
+    "closing_captured_at": "2026-11-14T11:30:32.385281+00:00"
   },
   "4ba47": {
     "event_id": "759e801627efd21b6914923fa4a2eb81",
@@ -2138,6 +2138,6 @@
     "lead_hours": 8.7,
     "logged_at": "2026-11-14T11:00:41.580622+00:00",
     "closing_fair_odds": 2.855,
-    "closing_captured_at": "2026-11-14T11:00:46.355924+00:00"
+    "closing_captured_at": "2026-11-14T11:30:32.385281+00:00"
   }
 }
