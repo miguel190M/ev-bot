@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-12T21:00:45.833287+00:00",
-  "markets": 8,
-  "markets_sharp": 6,
-  "outcomes": 34,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 3.382,
-   "ev_pct": 5.68,
-   "threshold_pct": 2.3,
-   "price": 2.3,
-   "outcome": "Erik Bazinyan",
-   "book": "SportsBet",
-   "matchup": "Erik Bazinyan @ Steven Butler",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-12T21:30:41.969398+00:00",
   "markets": 17,
   "markets_sharp": 14,
@@ -1363,6 +1344,25 @@
    "outcome": "Yaser Al Ghena",
    "book": "Betfair",
    "matchup": "Ben Marksby @ Yaser Al Ghena",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-14T21:00:49.244551+00:00",
+  "markets": 39,
+  "markets_sharp": 35,
+  "outcomes": 136,
+  "capped": 2,
+  "flagged": 0,
+  "best": {
+   "gap": 3.375,
+   "ev_pct": 8.37,
+   "threshold_pct": 5.0,
+   "price": 5.8,
+   "outcome": "Yuberjen Martinez",
+   "book": "SportsBet",
+   "matchup": "Yuberjen Martinez @ Anthony Olascuaga",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
