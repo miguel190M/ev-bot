@@ -38,5 +38,9 @@
   "222b84cefb9137eba82dfde26bfdf4f5:sportsbet:Australia": {
     "ev_pct": 2.01,
     "commence_time": "2026-11-15T03:30:00Z"
+  },
+  "1240f089fb46b2212f04af24e8d3ae4a:betfair_ex_au:Jak Corrie": {
+    "ev_pct": 3.8,
+    "commence_time": "2026-11-14T19:10:00Z"
   }
 }
