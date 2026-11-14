@@ -388,13 +388,13 @@
   "ev_pct": 21.1,
   "fair_odds": 19.459,
   "first_seen": "2026-11-13T20:00:48.600777+00:00",
-  "last_seen": "2026-11-14T02:00:49.638807+00:00",
+  "last_seen": "2026-11-14T02:30:38.447641+00:00",
   "market": "h2h",
   "matchup": "Gerome Warburton @ Carlos Adames",
   "max_ev_pct": 21.1,
   "outcome": "Gerome Warburton",
   "price": 25.0,
-  "seen": 13,
+  "seen": 14,
   "sharp_odds": null,
   "sport_key": "boxing_boxing"
  }

@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-12T02:30:32.081682+00:00",
-  "markets": 4,
-  "markets_sharp": 3,
-  "outcomes": 17,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.429,
-   "ev_pct": -1.19,
-   "threshold_pct": 1.24,
-   "price": 1.12,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-12T03:00:43.248933+00:00",
   "markets": 5,
   "markets_sharp": 2,
@@ -1354,6 +1335,25 @@
   "markets_sharp": 24,
   "outcomes": 108,
   "capped": 2,
+  "flagged": 0,
+  "best": {
+   "gap": 14.85,
+   "ev_pct": 18.56,
+   "threshold_pct": 3.71,
+   "price": 4.0,
+   "outcome": "Kamil Bednarek",
+   "book": "SportsBet",
+   "matchup": "Kamil Bednarek @ Bruno Surace",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-14T02:30:38.448164+00:00",
+  "markets": 27,
+  "markets_sharp": 19,
+  "outcomes": 97,
+  "capped": 1,
   "flagged": 0,
   "best": {
    "gap": 14.85,
