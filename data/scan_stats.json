@@ -1366,5 +1366,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-14T22:30:36.498283+00:00",
+  "markets": 23,
+  "markets_sharp": 21,
+  "outcomes": 88,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 3.375,
+   "ev_pct": 8.37,
+   "threshold_pct": 5.0,
+   "price": 5.8,
+   "outcome": "Yuberjen Martinez",
+   "book": "SportsBet",
+   "matchup": "Yuberjen Martinez @ Anthony Olascuaga",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
