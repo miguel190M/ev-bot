@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-12T09:30:35.365409+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 16,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -0.143,
-   "ev_pct": 1.66,
-   "threshold_pct": 1.8,
-   "price": 1.8,
-   "outcome": "Perth Wildcats",
-   "book": "SportsBet",
-   "matchup": "Tasmania JackJumpers @ Perth Wildcats",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-12T10:00:43.801491+00:00",
   "markets": 6,
   "markets_sharp": 4,
@@ -1364,6 +1345,25 @@
    "book": "SportsBet",
    "matchup": "India @ New Zealand",
    "sport_key": "cricket_odi",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-14T09:30:37.339754+00:00",
+  "markets": 32,
+  "markets_sharp": 25,
+  "outcomes": 117,
+  "capped": 2,
+  "flagged": 0,
+  "best": {
+   "gap": 9.507,
+   "ev_pct": 11.09,
+   "threshold_pct": 1.58,
+   "price": 1.58,
+   "outcome": "Zelfa Barrett",
+   "book": "SportsBet",
+   "matchup": "Gavin Gwynne @ Zelfa Barrett",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }

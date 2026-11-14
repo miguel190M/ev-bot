@@ -1781,8 +1781,8 @@
     "large_edge": false,
     "arb_hedge": false,
     "stake": 10.0,
-    "status": "open",
-    "profit": null,
+    "status": "lost",
+    "profit": -10.0,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-13T08:00:45.303335+00:00",
@@ -1790,7 +1790,11 @@
     "logged_at": "2026-11-13T08:30:33.127818+00:00",
     "closing_fair_odds": 3.375,
     "closing_captured_at": "2026-11-14T01:30:43.120178+00:00",
-    "settle_reminded_at": "2026-11-14T08:00:44.279283+00:00"
+    "settle_reminded_at": "2026-11-14T08:00:44.279283+00:00",
+    "settled_manually": true,
+    "clv_pct": -0.74,
+    "net_clv_pct": -0.74,
+    "resolved_at": "2026-11-14T09:30:30.599914+00:00"
   },
   "d67f": {
     "event_id": "2f4806614cd5d3cc2da32effacf3ac62",
@@ -1809,8 +1813,8 @@
     "large_edge": false,
     "arb_hedge": false,
     "stake": 10.0,
-    "status": "open",
-    "profit": null,
+    "status": "lost",
+    "profit": -10.0,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-13T09:00:46.161364+00:00",
@@ -1818,7 +1822,11 @@
     "logged_at": "2026-11-13T09:30:33.911243+00:00",
     "closing_fair_odds": 1.61,
     "closing_captured_at": "2026-11-14T02:30:38.449880+00:00",
-    "settle_reminded_at": "2026-11-14T09:00:46.186132+00:00"
+    "settle_reminded_at": "2026-11-14T09:00:46.186132+00:00",
+    "settled_manually": true,
+    "clv_pct": 3.73,
+    "net_clv_pct": 3.73,
+    "resolved_at": "2026-11-14T09:30:31.211370+00:00"
   },
   "e987": {
     "event_id": "eb2b2c0f204f8f72bd6c3ae27c8f408a",
@@ -1837,8 +1845,8 @@
     "large_edge": false,
     "arb_hedge": false,
     "stake": 20.0,
-    "status": "open",
-    "profit": null,
+    "status": "won",
+    "profit": 1.8,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-13T09:00:46.161364+00:00",
@@ -1846,7 +1854,11 @@
     "logged_at": "2026-11-13T11:16:55.107195+00:00",
     "closing_fair_odds": 1.088,
     "closing_captured_at": "2026-11-14T00:30:37.281469+00:00",
-    "settle_reminded_at": "2026-11-14T07:00:42.743293+00:00"
+    "settle_reminded_at": "2026-11-14T07:00:42.743293+00:00",
+    "settled_manually": true,
+    "clv_pct": 0.18,
+    "net_clv_pct": 0.18,
+    "resolved_at": "2026-11-14T09:30:32.373257+00:00"
   },
   "1cc8": {
     "event_id": "3c7477a54a996ae2ec0d45a46a7c1c5f",
@@ -1865,8 +1877,8 @@
     "large_edge": false,
     "arb_hedge": false,
     "stake": 11.0,
-    "status": "open",
-    "profit": null,
+    "status": "won",
+    "profit": 1.32,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-13T11:00:48.840812+00:00",
@@ -1874,7 +1886,11 @@
     "logged_at": "2026-11-13T11:16:55.959408+00:00",
     "closing_fair_odds": 1.103,
     "closing_captured_at": "2026-11-13T13:00:50.504888+00:00",
-    "settle_reminded_at": "2026-11-14T01:00:50.537029+00:00"
+    "settle_reminded_at": "2026-11-14T01:00:50.537029+00:00",
+    "settled_manually": true,
+    "clv_pct": 1.54,
+    "net_clv_pct": 1.54,
+    "resolved_at": "2026-11-14T09:30:32.909480+00:00"
   },
   "f8aa": {
     "event_id": "fe785f6f52799b7705cdb8a8641a4c54",
@@ -1900,8 +1916,8 @@
     "alerted_at": "2026-11-13T20:00:48.602494+00:00",
     "lead_hours": 20.2,
     "logged_at": "2026-11-13T21:00:44.042071+00:00",
-    "closing_fair_odds": 3.115,
-    "closing_captured_at": "2026-11-14T08:30:34.302263+00:00"
+    "closing_fair_odds": 3.205,
+    "closing_captured_at": "2026-11-14T09:30:37.340985+00:00"
   },
   "6ab9": {
     "event_id": "83a049380e115b0f2ca88721e35a8e2a",
@@ -1928,7 +1944,7 @@
     "lead_hours": 21.0,
     "logged_at": "2026-11-13T21:30:34.295237+00:00",
     "closing_fair_odds": 2.35,
-    "closing_captured_at": "2026-11-14T08:30:34.302263+00:00"
+    "closing_captured_at": "2026-11-14T09:30:37.340985+00:00"
   },
   "a009": {
     "event_id": "5a645e58feacc3cf940b0ac2a96dae6f",
@@ -1955,7 +1971,7 @@
     "lead_hours": 22.2,
     "logged_at": "2026-11-13T22:00:41.029047+00:00",
     "closing_fair_odds": 1.308,
-    "closing_captured_at": "2026-11-14T08:30:34.302263+00:00"
+    "closing_captured_at": "2026-11-14T09:30:37.340985+00:00"
   },
   "e2d0": {
     "event_id": "52a9910d38a5beb5e32800c821dfa43c",
@@ -1974,8 +1990,8 @@
     "large_edge": false,
     "arb_hedge": false,
     "stake": 20.0,
-    "status": "open",
-    "profit": null,
+    "status": "won",
+    "profit": 1.8,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-13T20:00:48.602494+00:00",
@@ -1983,7 +1999,11 @@
     "logged_at": "2026-11-13T22:00:41.543345+00:00",
     "closing_fair_odds": 1.084,
     "closing_captured_at": "2026-11-13T22:30:40.572303+00:00",
-    "settle_reminded_at": "2026-11-14T05:00:49.173623+00:00"
+    "settle_reminded_at": "2026-11-14T05:00:49.173623+00:00",
+    "settled_manually": true,
+    "clv_pct": 0.55,
+    "net_clv_pct": 0.55,
+    "resolved_at": "2026-11-14T09:30:31.776343+00:00"
   },
   "8710": {
     "event_id": "efe1fbb3b5ab56d7c08300e6c155381e",
@@ -2010,7 +2030,7 @@
     "lead_hours": 24.0,
     "logged_at": "2026-11-13T22:00:42.066832+00:00",
     "closing_fair_odds": 1.422,
-    "closing_captured_at": "2026-11-14T08:30:34.302263+00:00"
+    "closing_captured_at": "2026-11-14T09:30:37.340985+00:00"
   },
   "1f57": {
     "event_id": "502915d9eedf7388a32a36acff39c8ea",
@@ -2037,7 +2057,7 @@
     "lead_hours": 15.7,
     "logged_at": "2026-11-13T22:30:35.344522+00:00",
     "closing_fair_odds": 1.359,
-    "closing_captured_at": "2026-11-14T08:30:34.302263+00:00"
+    "closing_captured_at": "2026-11-14T09:30:37.340985+00:00"
   },
   "4ba47": {
     "event_id": "759e801627efd21b6914923fa4a2eb81",
@@ -2064,7 +2084,7 @@
     "lead_hours": 9.6,
     "logged_at": "2026-11-14T03:00:43.535416+00:00",
     "closing_fair_odds": 1.644,
-    "closing_captured_at": "2026-11-14T09:00:46.182196+00:00"
+    "closing_captured_at": "2026-11-14T09:30:37.340985+00:00"
   },
   "fe97": {
     "event_id": "222b84cefb9137eba82dfde26bfdf4f5",
