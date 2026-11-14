@@ -1789,7 +1789,8 @@
     "lead_hours": 18.0,
     "logged_at": "2026-11-13T08:30:33.127818+00:00",
     "closing_fair_odds": 3.375,
-    "closing_captured_at": "2026-11-14T01:30:43.120178+00:00"
+    "closing_captured_at": "2026-11-14T01:30:43.120178+00:00",
+    "settle_reminded_at": "2026-11-14T08:00:44.279283+00:00"
   },
   "d67f": {
     "event_id": "2f4806614cd5d3cc2da32effacf3ac62",
@@ -2061,8 +2062,8 @@
     "alerted_at": "2026-11-14T01:00:50.055730+00:00",
     "lead_hours": 9.6,
     "logged_at": "2026-11-14T03:00:43.535416+00:00",
-    "closing_fair_odds": 1.618,
-    "closing_captured_at": "2026-11-14T07:30:46.946277+00:00"
+    "closing_fair_odds": 1.622,
+    "closing_captured_at": "2026-11-14T08:00:44.276319+00:00"
   },
   "fe97": {
     "event_id": "222b84cefb9137eba82dfde26bfdf4f5",
@@ -2089,6 +2090,6 @@
     "lead_hours": 23.5,
     "logged_at": "2026-11-14T04:30:32.223026+00:00",
     "closing_fair_odds": 1.686,
-    "closing_captured_at": "2026-11-14T07:00:42.722344+00:00"
+    "closing_captured_at": "2026-11-14T08:00:44.276319+00:00"
   }
 }

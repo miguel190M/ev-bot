@@ -265,6 +265,25 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
+ "basketball_ncaab|Stonehill Skyhawks @ Texas Tech Red Raiders|h2h|Stonehill Skyhawks|SportsBet": {
+  "alerted": false,
+  "anchor": "retail_consensus",
+  "book": "SportsBet",
+  "commence_time": "2026-11-14T18:00:00Z",
+  "consensus_odds": 14.5,
+  "ev_pct": 769.0,
+  "fair_odds": 14.5,
+  "first_seen": "2026-11-14T08:00:44.273932+00:00",
+  "last_seen": "2026-11-14T08:00:44.273932+00:00",
+  "market": "h2h",
+  "matchup": "Stonehill Skyhawks @ Texas Tech Red Raiders",
+  "max_ev_pct": 769.0,
+  "outcome": "Stonehill Skyhawks",
+  "price": 126.0,
+  "seen": 1,
+  "sharp_odds": null,
+  "sport_key": "basketball_ncaab"
+ },
  "basketball_ncaab|Tennessee St Tigers @ Tennessee Volunteers|h2h|Tennessee St Tigers|Betfair": {
   "alerted": false,
   "anchor": "retail_consensus",
