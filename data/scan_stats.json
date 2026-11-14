@@ -1,62 +1,5 @@
 [
  {
-  "ts": "2026-11-12T20:00:51.237983+00:00",
-  "markets": 50,
-  "markets_sharp": 41,
-  "outcomes": 160,
-  "capped": 3,
-  "flagged": 0,
-  "best": {
-   "gap": 5.262,
-   "ev_pct": 7.56,
-   "threshold_pct": 2.3,
-   "price": 2.3,
-   "outcome": "Erik Bazinyan",
-   "book": "SportsBet",
-   "matchup": "Erik Bazinyan @ Steven Butler",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-12T20:10:10.964518+00:00",
-  "markets": 2,
-  "markets_sharp": 0,
-  "outcomes": 8,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.783,
-   "ev_pct": -2.0,
-   "threshold_pct": 1.78,
-   "price": 1.39,
-   "outcome": "Mirra Andreeva",
-   "book": "SportsBet",
-   "matchup": "Karolina Muchova @ Mirra Andreeva",
-   "sport_key": "tennis_wta_finals",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-12T20:30:39.672304+00:00",
-  "markets": 2,
-  "markets_sharp": 0,
-  "outcomes": 8,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.969,
-   "ev_pct": -2.19,
-   "threshold_pct": 1.78,
-   "price": 1.39,
-   "outcome": "Mirra Andreeva",
-   "book": "SportsBet",
-   "matchup": "Karolina Muchova @ Mirra Andreeva",
-   "sport_key": "tennis_wta_finals",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-12T21:00:45.833287+00:00",
   "markets": 8,
   "markets_sharp": 6,
@@ -1392,6 +1335,25 @@
   "markets_sharp": 117,
   "outcomes": 408,
   "capped": 4,
+  "flagged": 0,
+  "best": {
+   "gap": 6.963,
+   "ev_pct": 8.9,
+   "threshold_pct": 1.94,
+   "price": 1.94,
+   "outcome": "Yaser Al Ghena",
+   "book": "Betfair",
+   "matchup": "Ben Marksby @ Yaser Al Ghena",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-14T20:30:40.332862+00:00",
+  "markets": 22,
+  "markets_sharp": 20,
+  "outcomes": 76,
+  "capped": 2,
   "flagged": 0,
   "best": {
    "gap": 6.963,
