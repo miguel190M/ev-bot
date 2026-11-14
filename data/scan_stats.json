@@ -1366,5 +1366,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-14T10:42:40.354997+00:00",
+  "markets": 13,
+  "markets_sharp": 13,
+  "outcomes": 30,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.56,
+   "ev_pct": -1.06,
+   "threshold_pct": 1.5,
+   "price": 1.11,
+   "outcome": "Bilal Hasan",
+   "book": "Betfair",
+   "matchup": "Bilal Hasan @ Luis Gurule",
+   "sport_key": "mma_mixed_martial_arts",
+   "anchor": "pinnacle"
+  }
  }
 ]
