@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-12T22:30:45.251826+00:00",
-  "markets": 5,
-  "markets_sharp": 5,
-  "outcomes": 20,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.527,
-   "ev_pct": -1.03,
-   "threshold_pct": 1.5,
-   "price": 1.4,
-   "outcome": "Philadelphia 76ers",
-   "book": "Betfair",
-   "matchup": "Toronto Raptors @ Philadelphia 76ers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-12T23:00:47.110984+00:00",
   "markets": 12,
   "markets_sharp": 10,
@@ -1371,6 +1352,25 @@
   "ts": "2026-11-14T22:30:36.498283+00:00",
   "markets": 23,
   "markets_sharp": 21,
+  "outcomes": 88,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 3.375,
+   "ev_pct": 8.37,
+   "threshold_pct": 5.0,
+   "price": 5.8,
+   "outcome": "Yuberjen Martinez",
+   "book": "SportsBet",
+   "matchup": "Yuberjen Martinez @ Anthony Olascuaga",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-14T22:38:22.588178+00:00",
+  "markets": 23,
+  "markets_sharp": 20,
   "outcomes": 88,
   "capped": 0,
   "flagged": 0,
