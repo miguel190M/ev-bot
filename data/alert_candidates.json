@@ -455,5 +455,29 @@
     "large_edge": false,
     "suggested_stake": 2.0,
     "alerted_at": "2026-11-14T07:30:46.246776+00:00"
+  },
+  "3af28": {
+    "event_id": "1240f089fb46b2212f04af24e8d3ae4a",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-14T19:10:00Z",
+    "home_team": "Dan Toward",
+    "away_team": "Jak Corrie",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Jak Corrie",
+    "price": 3.05,
+    "commission": 0.0,
+    "fair_probability": 0.3503,
+    "fair_odds": 2.855,
+    "ev_pct": 6.84,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.3503,
+    "consensus_probability": 0.337,
+    "large_edge": false,
+    "suggested_stake": 3.0,
+    "alerted_at": "2026-11-14T10:30:36.586289+00:00"
   }
 }
