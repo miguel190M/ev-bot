@@ -1366,5 +1366,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-14T01:30:27.130360+00:00",
+  "markets": 28,
+  "markets_sharp": 20,
+  "outcomes": 105,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": 14.85,
+   "ev_pct": 18.56,
+   "threshold_pct": 3.71,
+   "price": 4.0,
+   "outcome": "Kamil Bednarek",
+   "book": "SportsBet",
+   "matchup": "Kamil Bednarek @ Bruno Surace",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
