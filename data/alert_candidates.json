@@ -541,5 +541,29 @@
     "large_edge": false,
     "suggested_stake": 4.0,
     "alerted_at": "2026-11-14T01:00:50.055730+00:00"
+  },
+  "fe97": {
+    "event_id": "222b84cefb9137eba82dfde26bfdf4f5",
+    "sport_key": "cricket_odi",
+    "commence_time": "2026-11-15T03:30:00Z",
+    "home_team": "Australia",
+    "away_team": "England",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Australia",
+    "price": 1.72,
+    "commission": 0.0,
+    "fair_probability": 0.5931,
+    "fair_odds": 1.686,
+    "ev_pct": 2.01,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.5931,
+    "consensus_probability": 0.5721,
+    "large_edge": false,
+    "suggested_stake": 2.0,
+    "alerted_at": "2026-11-14T04:00:42.864622+00:00"
   }
 }

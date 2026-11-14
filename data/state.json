@@ -34,5 +34,9 @@
   "759e801627efd21b6914923fa4a2eb81:sportsbet:Perth Wildcats": {
     "ev_pct": 2.84,
     "commence_time": "2026-11-14T10:36:00Z"
+  },
+  "222b84cefb9137eba82dfde26bfdf4f5:sportsbet:Australia": {
+    "ev_pct": 2.01,
+    "commence_time": "2026-11-15T03:30:00Z"
   }
 }
