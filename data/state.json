@@ -1,31 +1,7 @@
 {
-  "fe785f6f52799b7705cdb8a8641a4c54:sportsbet:Kamil Bednarek": {
-    "ev_pct": 4.36,
-    "commence_time": "2026-11-14T16:10:00Z"
-  },
-  "83a049380e115b0f2ca88721e35a8e2a:sportsbet:Ben Marksby": {
-    "ev_pct": 9.04,
-    "commence_time": "2026-11-14T17:00:00Z"
-  },
-  "5a645e58feacc3cf940b0ac2a96dae6f:sportsbet:Tom Welland": {
-    "ev_pct": 4.88,
-    "commence_time": "2026-11-14T18:10:00Z"
-  },
-  "75b4f2dc4b3413fe56c7cfeef31e7bc6:sportsbet:Bakary Samake": {
-    "ev_pct": 3.23,
-    "commence_time": "2026-11-14T19:00:00Z"
-  },
-  "1240f089fb46b2212f04af24e8d3ae4a:sportsbet:Jak Corrie": {
-    "ev_pct": 6.84,
-    "commence_time": "2026-11-14T19:10:00Z"
-  },
   "efe1fbb3b5ab56d7c08300e6c155381e:sportsbet:Zelfa Barrett": {
     "ev_pct": 9.27,
     "commence_time": "2026-11-14T21:00:00Z"
-  },
-  "502915d9eedf7388a32a36acff39c8ea:sportsbet:Dariial Kuchmenov": {
-    "ev_pct": 3.84,
-    "commence_time": "2026-11-14T13:45:00Z"
   },
   "d11738a849ae9f9f162cb09e43ef959c:sportsbet:Nishant Dev": {
     "ev_pct": 2.52,
@@ -35,8 +11,12 @@
     "ev_pct": 2.01,
     "commence_time": "2026-11-15T03:30:00Z"
   },
-  "1240f089fb46b2212f04af24e8d3ae4a:betfair_ex_au:Jak Corrie": {
-    "ev_pct": 3.8,
-    "commence_time": "2026-11-14T19:10:00Z"
+  "e9a551c8ba460e64b3c48d7036c732a7:sportsbet:Yuberjen Martinez": {
+    "ev_pct": 8.37,
+    "commence_time": "2026-11-15T02:50:00Z"
+  },
+  "651c6e3cbea982674a0be5c758cf4939:sportsbet:Sydney Kings": {
+    "ev_pct": 3.32,
+    "commence_time": "2026-11-15T04:00:00Z"
   }
 }
