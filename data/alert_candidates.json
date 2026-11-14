@@ -613,5 +613,29 @@
     "large_edge": false,
     "suggested_stake": 19.0,
     "alerted_at": "2026-11-14T00:00:51.067732+00:00"
+  },
+  "4ba47": {
+    "event_id": "759e801627efd21b6914923fa4a2eb81",
+    "sport_key": "basketball_nbl",
+    "commence_time": "2026-11-14T10:36:00Z",
+    "home_team": "Perth Wildcats",
+    "away_team": "Illawarra Hawks",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Perth Wildcats",
+    "price": 1.61,
+    "commission": 0.0,
+    "fair_probability": 0.6388,
+    "fair_odds": 1.565,
+    "ev_pct": 2.84,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.6388,
+    "consensus_probability": 0.63,
+    "large_edge": false,
+    "suggested_stake": 4.0,
+    "alerted_at": "2026-11-14T01:00:50.055730+00:00"
   }
 }

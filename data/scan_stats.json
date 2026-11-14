@@ -1,62 +1,5 @@
 [
  {
-  "ts": "2026-11-12T00:30:38.490388+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 28,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.794,
-   "ev_pct": -0.06,
-   "threshold_pct": 1.73,
-   "price": 1.73,
-   "outcome": "Portland Trail Blazers",
-   "book": "SportsBet",
-   "matchup": "Oklahoma City Thunder @ Portland Trail Blazers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-12T00:52:35.803421+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 28,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.794,
-   "ev_pct": -0.06,
-   "threshold_pct": 1.73,
-   "price": 1.73,
-   "outcome": "Portland Trail Blazers",
-   "book": "SportsBet",
-   "matchup": "Oklahoma City Thunder @ Portland Trail Blazers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-12T01:00:47.327696+00:00",
-  "markets": 12,
-  "markets_sharp": 9,
-  "outcomes": 47,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.794,
-   "ev_pct": -0.06,
-   "threshold_pct": 1.73,
-   "price": 1.73,
-   "outcome": "Portland Trail Blazers",
-   "book": "SportsBet",
-   "matchup": "Oklahoma City Thunder @ Portland Trail Blazers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-12T01:30:36.450510+00:00",
   "markets": 8,
   "markets_sharp": 7,
@@ -1401,6 +1344,25 @@
    "outcome": "Zelfa Barrett",
    "book": "SportsBet",
    "matchup": "Gavin Gwynne @ Zelfa Barrett",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-14T01:00:50.053862+00:00",
+  "markets": 32,
+  "markets_sharp": 24,
+  "outcomes": 119,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": 14.85,
+   "ev_pct": 18.56,
+   "threshold_pct": 3.71,
+   "price": 4.0,
+   "outcome": "Kamil Bednarek",
+   "book": "SportsBet",
+   "matchup": "Kamil Bednarek @ Bruno Surace",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
