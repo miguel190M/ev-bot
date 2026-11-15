@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-13T00:00:49.692360+00:00",
-  "markets": 25,
-  "markets_sharp": 21,
-  "outcomes": 89,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": 2.942,
-   "ev_pct": 6.73,
-   "threshold_pct": 3.79,
-   "price": 4.1,
-   "outcome": "Cairns Taipans",
-   "book": "SportsBet",
-   "matchup": "Sydney Kings @ Cairns Taipans",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-13T00:30:36.515960+00:00",
   "markets": 10,
   "markets_sharp": 10,
@@ -1383,6 +1364,25 @@
    "book": "SportsBet",
    "matchup": "Yuberjen Martinez @ Anthony Olascuaga",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-15T00:00:51.813656+00:00",
+  "markets": 72,
+  "markets_sharp": 67,
+  "outcomes": 250,
+  "capped": 2,
+  "flagged": 0,
+  "best": {
+   "gap": -0.204,
+   "ev_pct": 1.66,
+   "threshold_pct": 1.86,
+   "price": 1.86,
+   "outcome": "Montr\u00e9al Canadiens",
+   "book": "Betfair",
+   "matchup": "Colorado Avalanche @ Montr\u00e9al Canadiens",
+   "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
   }
  }
