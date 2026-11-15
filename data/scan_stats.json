@@ -1385,5 +1385,24 @@
    "sport_key": "americanfootball_nfl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-15T12:00:45.249209+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 8,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.427,
+   "ev_pct": -1.81,
+   "threshold_pct": 1.62,
+   "price": 1.62,
+   "outcome": "Ben Shelton",
+   "book": "Betfair",
+   "matchup": "Arthur Fils @ Ben Shelton",
+   "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
  }
 ]
