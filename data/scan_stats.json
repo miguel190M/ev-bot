@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-13T23:00:56.008120+00:00",
-  "markets": 29,
-  "markets_sharp": 23,
-  "outcomes": 115,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": 10.163,
-   "ev_pct": 11.74,
-   "threshold_pct": 1.58,
-   "price": 1.58,
-   "outcome": "Zelfa Barrett",
-   "book": "SportsBet",
-   "matchup": "Gavin Gwynne @ Zelfa Barrett",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-13T23:30:37.752623+00:00",
   "markets": 29,
   "markets_sharp": 23,
@@ -1420,6 +1401,25 @@
    "outcome": "Boston Celtics",
    "book": "Betfair",
    "matchup": "Dallas Mavericks @ Boston Celtics",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-15T23:30:36.117696+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 12,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.921,
+   "ev_pct": -1.42,
+   "threshold_pct": 1.5,
+   "price": 1.22,
+   "outcome": "Oklahoma City Thunder",
+   "book": "Betfair",
+   "matchup": "Oklahoma City Thunder @ Sacramento Kings",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
