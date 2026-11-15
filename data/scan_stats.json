@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-13T02:30:38.280363+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 25,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 0.99,
-   "ev_pct": 2.49,
-   "threshold_pct": 1.5,
-   "price": 1.13,
-   "outcome": "Jhon Orobio",
-   "book": "Betfair",
-   "matchup": "Hendri Cedeno @ Jhon Orobio",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-13T03:00:48.882591+00:00",
   "markets": 10,
   "markets_sharp": 8,
@@ -1360,6 +1341,25 @@
    "ev_pct": 3.87,
    "threshold_pct": 1.99,
    "price": 1.99,
+   "outcome": "Brisbane Bullets",
+   "book": "SportsBet",
+   "matchup": "Tasmania JackJumpers @ Brisbane Bullets",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-15T02:30:45.410387+00:00",
+  "markets": 10,
+  "markets_sharp": 10,
+  "outcomes": 44,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 3.523,
+   "ev_pct": 5.48,
+   "threshold_pct": 1.96,
+   "price": 1.96,
    "outcome": "Brisbane Bullets",
    "book": "SportsBet",
    "matchup": "Tasmania JackJumpers @ Brisbane Bullets",
