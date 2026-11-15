@@ -1385,5 +1385,24 @@
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-15T07:00:42.697137+00:00",
+  "markets": 4,
+  "markets_sharp": 3,
+  "outcomes": 11,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.28,
+   "ev_pct": -0.64,
+   "threshold_pct": 1.64,
+   "price": 1.64,
+   "outcome": "Ben Shelton",
+   "book": "Betfair",
+   "matchup": "Arthur Fils @ Ben Shelton",
+   "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
  }
 ]
