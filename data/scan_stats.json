@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-13T12:30:42.660107+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 8,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -0.268,
-   "ev_pct": 3.09,
-   "threshold_pct": 3.36,
-   "price": 3.5,
-   "outcome": "Indiana Pacers",
-   "book": "Betfair",
-   "matchup": "New York Knicks @ Indiana Pacers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-13T13:00:50.502791+00:00",
   "markets": 8,
   "markets_sharp": 6,
@@ -1401,6 +1382,25 @@
    "outcome": "Ben Shelton",
    "book": "Betfair",
    "matchup": "Arthur Fils @ Ben Shelton",
+   "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-15T13:00:48.103428+00:00",
+  "markets": 5,
+  "markets_sharp": 5,
+  "outcomes": 14,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.308,
+   "ev_pct": 0.19,
+   "threshold_pct": 1.5,
+   "price": 1.13,
+   "outcome": "Carlos Alcaraz",
+   "book": "Betfair",
+   "matchup": "Frances Tiafoe @ Carlos Alcaraz",
    "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
   }
