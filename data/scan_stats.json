@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-13T20:00:48.601329+00:00",
-  "markets": 86,
-  "markets_sharp": 55,
-  "outcomes": 259,
-  "capped": 16,
-  "flagged": 0,
-  "best": {
-   "gap": 11.146,
-   "ev_pct": 14.86,
-   "threshold_pct": 3.71,
-   "price": 4.0,
-   "outcome": "Kamil Bednarek",
-   "book": "SportsBet",
-   "matchup": "Kamil Bednarek @ Bruno Surace",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-13T20:30:38.153290+00:00",
   "markets": 16,
   "markets_sharp": 9,
@@ -1402,6 +1383,25 @@
    "book": "Betfair",
    "matchup": "Frances Tiafoe @ Carlos Alcaraz",
    "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-15T20:30:35.502504+00:00",
+  "markets": 8,
+  "markets_sharp": 8,
+  "outcomes": 32,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.855,
+   "ev_pct": -0.36,
+   "threshold_pct": 1.5,
+   "price": 1.12,
+   "outcome": "San Antonio Spurs",
+   "book": "Betfair",
+   "matchup": "San Antonio Spurs @ Utah Jazz",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
