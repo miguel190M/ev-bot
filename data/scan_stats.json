@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-13T08:30:36.051407+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 4,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.842,
-   "ev_pct": -2.34,
-   "threshold_pct": 1.5,
-   "price": 1.31,
-   "outcome": "Sydney Kings",
-   "book": "Betfair",
-   "matchup": "Sydney Kings @ Cairns Taipans",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-13T09:00:46.159773+00:00",
   "markets": 8,
   "markets_sharp": 6,
@@ -1382,6 +1363,25 @@
    "outcome": "Alexander Zverev",
    "book": "Betfair",
    "matchup": "Rafael Jodar @ Alexander Zverev",
+   "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-15T09:00:42.054452+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 8,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.0,
+   "ev_pct": -2.39,
+   "threshold_pct": 1.61,
+   "price": 1.61,
+   "outcome": "Ben Shelton",
+   "book": "Betfair",
+   "matchup": "Arthur Fils @ Ben Shelton",
    "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
   }
