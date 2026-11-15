@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-13T12:00:49.488184+00:00",
-  "markets": 34,
-  "markets_sharp": 15,
-  "outcomes": 85,
-  "capped": 9,
-  "flagged": 0,
-  "best": {
-   "gap": 3.177,
-   "ev_pct": 4.85,
-   "threshold_pct": 1.67,
-   "price": 1.67,
-   "outcome": "Bryan Flores",
-   "book": "SportsBet",
-   "matchup": "Jose Nunez @ Bryan Flores",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-13T12:30:42.660107+00:00",
   "markets": 2,
   "markets_sharp": 2,
@@ -1391,6 +1372,25 @@
   "markets": 3,
   "markets_sharp": 3,
   "outcomes": 8,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.427,
+   "ev_pct": -1.81,
+   "threshold_pct": 1.62,
+   "price": 1.62,
+   "outcome": "Ben Shelton",
+   "book": "Betfair",
+   "matchup": "Arthur Fils @ Ben Shelton",
+   "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-15T12:30:37.320394+00:00",
+  "markets": 2,
+  "markets_sharp": 2,
+  "outcomes": 4,
   "capped": 0,
   "flagged": 0,
   "best": {
