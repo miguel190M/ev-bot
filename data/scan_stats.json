@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-13T03:30:43.886071+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 11,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 4.907,
-   "ev_pct": 8.62,
-   "threshold_pct": 3.71,
-   "price": 4.0,
-   "outcome": "Cairns Taipans",
-   "book": "SportsBet",
-   "matchup": "Sydney Kings @ Cairns Taipans",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-13T04:00:43.953364+00:00",
-  "markets": 11,
-  "markets_sharp": 9,
-  "outcomes": 37,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 4.907,
-   "ev_pct": 8.62,
-   "threshold_pct": 3.71,
-   "price": 4.0,
-   "outcome": "Cairns Taipans",
-   "book": "SportsBet",
-   "matchup": "Sydney Kings @ Cairns Taipans",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-13T04:30:36.346019+00:00",
   "markets": 3,
   "markets_sharp": 3,
@@ -1372,6 +1334,25 @@
   "markets": 9,
   "markets_sharp": 6,
   "outcomes": 38,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -0.148,
+   "ev_pct": 1.35,
+   "threshold_pct": 1.5,
+   "price": 1.13,
+   "outcome": "Diego Pacheco",
+   "book": "Betfair",
+   "matchup": "Darius Fulghum @ Diego Pacheco",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-15T04:00:44.452271+00:00",
+  "markets": 11,
+  "markets_sharp": 9,
+  "outcomes": 40,
   "capped": 0,
   "flagged": 0,
   "best": {
