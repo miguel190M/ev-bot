@@ -10,5 +10,9 @@
   "651c6e3cbea982674a0be5c758cf4939:sportsbet:Sydney Kings": {
     "ev_pct": 3.32,
     "commence_time": "2026-11-15T04:00:00Z"
+  },
+  "adcf72385b8be585760fa6d6a49ad1d9:sportsbet:Brisbane Bullets": {
+    "ev_pct": 3.87,
+    "commence_time": "2026-11-15T06:00:00Z"
   }
 }
