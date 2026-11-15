@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-13T09:00:46.159773+00:00",
-  "markets": 8,
-  "markets_sharp": 6,
-  "outcomes": 26,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 3.177,
-   "ev_pct": 4.85,
-   "threshold_pct": 1.67,
-   "price": 1.67,
-   "outcome": "Bryan Flores",
-   "book": "SportsBet",
-   "matchup": "Jose Nunez @ Bryan Flores",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-13T09:30:39.190674+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 12,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.369,
-   "ev_pct": -1.87,
-   "threshold_pct": 1.5,
-   "price": 1.22,
-   "outcome": "Panathinaikos",
-   "book": "Betfair",
-   "matchup": "FC Barcelona B\u00e0squet @ Panathinaikos",
-   "sport_key": "basketball_euroleague",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-13T10:00:52.470352+00:00",
   "markets": 8,
   "markets_sharp": 6,
@@ -1382,6 +1344,25 @@
    "outcome": "Ben Shelton",
    "book": "Betfair",
    "matchup": "Arthur Fils @ Ben Shelton",
+   "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-15T10:00:42.648572+00:00",
+  "markets": 33,
+  "markets_sharp": 14,
+  "outcomes": 70,
+  "capped": 3,
+  "flagged": 0,
+  "best": {
+   "gap": -2.791,
+   "ev_pct": -1.29,
+   "threshold_pct": 1.5,
+   "price": 1.39,
+   "outcome": "Alexander Zverev",
+   "book": "Betfair",
+   "matchup": "Rafael Jodar @ Alexander Zverev",
    "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
   }
