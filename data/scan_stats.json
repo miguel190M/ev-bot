@@ -1385,5 +1385,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-15T01:00:44.298032+00:00",
+  "markets": 22,
+  "markets_sharp": 19,
+  "outcomes": 86,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -0.256,
+   "ev_pct": 1.24,
+   "threshold_pct": 1.5,
+   "price": 1.14,
+   "outcome": "Diego Pacheco",
+   "book": "Betfair",
+   "matchup": "Darius Fulghum @ Diego Pacheco",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
