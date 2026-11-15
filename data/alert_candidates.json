@@ -430,5 +430,29 @@
     "large_edge": false,
     "suggested_stake": 15.0,
     "alerted_at": "2026-11-15T02:30:45.411643+00:00"
+  },
+  "e523": {
+    "event_id": "28800df7e768ecec14f116454d560f9b",
+    "sport_key": "americanfootball_nfl",
+    "commence_time": "2026-11-15T18:00:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "Jacksonville Jaguars",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Tennessee Titans",
+    "price": 6.05,
+    "commission": 0.0,
+    "fair_probability": 0.1762,
+    "fair_odds": 5.676,
+    "ev_pct": 6.58,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.1762,
+    "consensus_probability": 0.1562,
+    "large_edge": false,
+    "suggested_stake": 1.0,
+    "alerted_at": "2026-11-15T13:30:35.155905+00:00"
   }
 }
