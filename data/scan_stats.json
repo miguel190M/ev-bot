@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-13T03:00:48.882591+00:00",
-  "markets": 10,
-  "markets_sharp": 8,
-  "outcomes": 33,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -0.036,
-   "ev_pct": 1.46,
-   "threshold_pct": 1.5,
-   "price": 1.09,
-   "outcome": "Ruben Eduardo Aguilar",
-   "book": "SportsBet",
-   "matchup": "Guido Emmanuel Schramm @ Ruben Eduardo Aguilar",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-13T03:30:43.886071+00:00",
   "markets": 3,
   "markets_sharp": 3,
@@ -1372,6 +1353,25 @@
   "markets": 14,
   "markets_sharp": 12,
   "outcomes": 54,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -0.148,
+   "ev_pct": 1.35,
+   "threshold_pct": 1.5,
+   "price": 1.13,
+   "outcome": "Diego Pacheco",
+   "book": "Betfair",
+   "matchup": "Darius Fulghum @ Diego Pacheco",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-15T03:30:37.337469+00:00",
+  "markets": 9,
+  "markets_sharp": 6,
+  "outcomes": 38,
   "capped": 0,
   "flagged": 0,
   "best": {
