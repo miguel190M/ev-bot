@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-13T05:00:44.627343+00:00",
-  "markets": 11,
-  "markets_sharp": 9,
-  "outcomes": 37,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 4.907,
-   "ev_pct": 8.62,
-   "threshold_pct": 3.71,
-   "price": 4.0,
-   "outcome": "Cairns Taipans",
-   "book": "SportsBet",
-   "matchup": "Sydney Kings @ Cairns Taipans",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-13T05:30:35.270529+00:00",
-  "markets": 4,
-  "markets_sharp": 4,
-  "outcomes": 15,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 4.733,
-   "ev_pct": 8.45,
-   "threshold_pct": 3.71,
-   "price": 4.0,
-   "outcome": "Cairns Taipans",
-   "book": "SportsBet",
-   "matchup": "Sydney Kings @ Cairns Taipans",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-13T06:00:47.308113+00:00",
   "markets": 10,
   "markets_sharp": 8,
@@ -1372,6 +1334,25 @@
   "markets": 7,
   "markets_sharp": 5,
   "outcomes": 22,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.716,
+   "ev_pct": -0.36,
+   "threshold_pct": 1.36,
+   "price": 1.18,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-15T05:30:36.323017+00:00",
+  "markets": 3,
+  "markets_sharp": 1,
+  "outcomes": 10,
   "capped": 0,
   "flagged": 0,
   "best": {
