@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-13T00:30:36.515960+00:00",
-  "markets": 10,
-  "markets_sharp": 10,
-  "outcomes": 41,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 0.99,
-   "ev_pct": 2.49,
-   "threshold_pct": 1.5,
-   "price": 1.13,
-   "outcome": "Jhon Orobio",
-   "book": "Betfair",
-   "matchup": "Hendri Cedeno @ Jhon Orobio",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-13T01:00:47.209929+00:00",
   "markets": 13,
   "markets_sharp": 11,
@@ -1383,6 +1364,25 @@
    "book": "Betfair",
    "matchup": "Colorado Avalanche @ Montr\u00e9al Canadiens",
    "sport_key": "icehockey_nhl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-15T00:30:37.024119+00:00",
+  "markets": 17,
+  "markets_sharp": 17,
+  "outcomes": 70,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -0.256,
+   "ev_pct": 1.24,
+   "threshold_pct": 1.5,
+   "price": 1.14,
+   "outcome": "Diego Pacheco",
+   "book": "Betfair",
+   "matchup": "Darius Fulghum @ Diego Pacheco",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
