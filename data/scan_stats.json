@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-13T01:00:47.209929+00:00",
-  "markets": 13,
-  "markets_sharp": 11,
-  "outcomes": 51,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 0.99,
-   "ev_pct": 2.49,
-   "threshold_pct": 1.5,
-   "price": 1.13,
-   "outcome": "Jhon Orobio",
-   "book": "Betfair",
-   "matchup": "Hendri Cedeno @ Jhon Orobio",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-13T01:30:38.819181+00:00",
   "markets": 11,
   "markets_sharp": 11,
@@ -1391,6 +1372,25 @@
   "markets": 22,
   "markets_sharp": 19,
   "outcomes": 86,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -0.256,
+   "ev_pct": 1.24,
+   "threshold_pct": 1.5,
+   "price": 1.14,
+   "outcome": "Diego Pacheco",
+   "book": "Betfair",
+   "matchup": "Darius Fulghum @ Diego Pacheco",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-15T01:30:35.278846+00:00",
+  "markets": 12,
+  "markets_sharp": 12,
+  "outcomes": 52,
   "capped": 0,
   "flagged": 0,
   "best": {
