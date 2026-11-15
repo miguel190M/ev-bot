@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-13T07:30:33.543370+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 4,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.808,
-   "ev_pct": -0.09,
-   "threshold_pct": 3.71,
-   "price": 4.0,
-   "outcome": "Cairns Taipans",
-   "book": "SportsBet",
-   "matchup": "Sydney Kings @ Cairns Taipans",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-13T08:00:45.302213+00:00",
-  "markets": 9,
-  "markets_sharp": 7,
-  "outcomes": 30,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 1.664,
-   "ev_pct": 4.91,
-   "threshold_pct": 3.25,
-   "price": 3.35,
-   "outcome": "Muhammadkhuja Yaqubov",
-   "book": "SportsBet",
-   "matchup": "Muhammadkhuja Yaqubov @ Tsendbaatar Erdenbat",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-13T08:30:36.051407+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1403,6 +1365,25 @@
    "matchup": "Bangladesh @ South Africa",
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-15T08:00:46.824126+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 8,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.739,
+   "ev_pct": -2.24,
+   "threshold_pct": 1.5,
+   "price": 1.42,
+   "outcome": "Alexander Zverev",
+   "book": "Betfair",
+   "matchup": "Rafael Jodar @ Alexander Zverev",
+   "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
   }
  }
 ]
