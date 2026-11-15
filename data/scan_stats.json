@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-13T07:00:47.738948+00:00",
-  "markets": 9,
-  "markets_sharp": 7,
-  "outcomes": 30,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 0.271,
-   "ev_pct": 3.99,
-   "threshold_pct": 3.71,
-   "price": 4.0,
-   "outcome": "Cairns Taipans",
-   "book": "SportsBet",
-   "matchup": "Sydney Kings @ Cairns Taipans",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-13T07:30:33.543370+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1403,6 +1384,25 @@
    "matchup": "Arthur Fils @ Ben Shelton",
    "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-15T07:30:31.617329+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 3,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.69,
+   "ev_pct": -1.31,
+   "threshold_pct": 1.38,
+   "price": 1.19,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
