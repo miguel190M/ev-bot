@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-13T10:00:52.470352+00:00",
-  "markets": 8,
-  "markets_sharp": 6,
-  "outcomes": 26,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 3.177,
-   "ev_pct": 4.85,
-   "threshold_pct": 1.67,
-   "price": 1.67,
-   "outcome": "Bryan Flores",
-   "book": "SportsBet",
-   "matchup": "Jose Nunez @ Bryan Flores",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-13T11:00:48.830478+00:00",
   "markets": 8,
   "markets_sharp": 6,
@@ -1364,6 +1345,25 @@
    "book": "Betfair",
    "matchup": "Rafael Jodar @ Alexander Zverev",
    "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-15T10:30:31.997890+00:00",
+  "markets": 17,
+  "markets_sharp": 17,
+  "outcomes": 64,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.959,
+   "ev_pct": 3.22,
+   "threshold_pct": 5.18,
+   "price": 6.05,
+   "outcome": "Tennessee Titans",
+   "book": "SportsBet",
+   "matchup": "Jacksonville Jaguars @ Tennessee Titans",
+   "sport_key": "americanfootball_nfl",
    "anchor": "pinnacle"
   }
  }
