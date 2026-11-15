@@ -1366,5 +1366,24 @@
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-15T06:00:44.676327+00:00",
+  "markets": 14,
+  "markets_sharp": 7,
+  "outcomes": 35,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": -2.978,
+   "ev_pct": -0.9,
+   "threshold_pct": 2.08,
+   "price": 2.08,
+   "outcome": "Brisbane Bullets",
+   "book": "Betfair",
+   "matchup": "Tasmania JackJumpers @ Brisbane Bullets",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
  }
 ]

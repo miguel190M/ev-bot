@@ -151,6 +151,25 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
+ "basketball_ncaab|Niagara Purple Eagles @ Iowa State Cyclones|h2h|Niagara Purple Eagles|SportsBet": {
+  "alerted": false,
+  "anchor": "retail_consensus",
+  "book": "SportsBet",
+  "commence_time": "2026-11-15T18:00:00Z",
+  "consensus_odds": 14.5,
+  "ev_pct": 769.0,
+  "fair_odds": 14.5,
+  "first_seen": "2026-11-15T06:00:44.675759+00:00",
+  "last_seen": "2026-11-15T06:00:44.675759+00:00",
+  "market": "h2h",
+  "matchup": "Niagara Purple Eagles @ Iowa State Cyclones",
+  "max_ev_pct": 769.0,
+  "outcome": "Niagara Purple Eagles",
+  "price": 126.0,
+  "seen": 1,
+  "sharp_odds": null,
+  "sport_key": "basketball_ncaab"
+ },
  "basketball_ncaab|North Alabama Lions @ Miami Hurricanes|h2h|North Alabama Lions|SportsBet": {
   "alerted": false,
   "anchor": "retail_consensus",
