@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-13T20:30:38.153290+00:00",
-  "markets": 16,
-  "markets_sharp": 9,
-  "outcomes": 62,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": 6.49,
-   "ev_pct": 9.04,
-   "threshold_pct": 2.55,
-   "price": 2.55,
-   "outcome": "Ben Marksby",
-   "book": "SportsBet",
-   "matchup": "Ben Marksby @ Yaser Al Ghena",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-13T21:00:50.313900+00:00",
   "markets": 22,
   "markets_sharp": 14,
@@ -1402,6 +1383,25 @@
    "book": "Betfair",
    "matchup": "San Antonio Spurs @ Utah Jazz",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-15T21:00:43.539300+00:00",
+  "markets": 12,
+  "markets_sharp": 10,
+  "outcomes": 42,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.308,
+   "ev_pct": 0.19,
+   "threshold_pct": 1.5,
+   "price": 1.13,
+   "outcome": "Carlos Alcaraz",
+   "book": "Betfair",
+   "matchup": "Frances Tiafoe @ Carlos Alcaraz",
+   "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
   }
  }
