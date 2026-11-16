@@ -283,43 +283,5 @@
   "seen": 1,
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
- },
- "boxing_boxing|Seydi Coupe @ Viddal Riley|h2h|Draw|SportsBet": {
-  "alerted": false,
-  "anchor": "retail_consensus",
-  "book": "SportsBet",
-  "commence_time": "2026-11-14T22:45:00Z",
-  "consensus_odds": 38.273,
-  "ev_pct": 33.3,
-  "fair_odds": 38.273,
-  "first_seen": "2026-11-14T20:30:40.332042+00:00",
-  "last_seen": "2026-11-14T22:00:56.218167+00:00",
-  "market": "h2h",
-  "matchup": "Seydi Coupe @ Viddal Riley",
-  "max_ev_pct": 39.3,
-  "outcome": "Draw",
-  "price": 51.0,
-  "seen": 4,
-  "sharp_odds": null,
-  "sport_key": "boxing_boxing"
- },
- "boxing_boxing|Sona Akale @ Nishant Dev|h2h|Draw|SportsBet": {
-  "alerted": false,
-  "anchor": "retail_consensus",
-  "book": "SportsBet",
-  "commence_time": "2026-11-14T23:15:00Z",
-  "consensus_odds": 33.442,
-  "ev_pct": 52.5,
-  "fair_odds": 33.442,
-  "first_seen": "2026-11-14T20:00:49.334848+00:00",
-  "last_seen": "2026-11-14T22:00:56.218167+00:00",
-  "market": "h2h",
-  "matchup": "Sona Akale @ Nishant Dev",
-  "max_ev_pct": 52.5,
-  "outcome": "Draw",
-  "price": 51.0,
-  "seen": 5,
-  "sharp_odds": null,
-  "sport_key": "boxing_boxing"
  }
 }

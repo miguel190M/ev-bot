@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-14T22:00:56.219089+00:00",
-  "markets": 97,
-  "markets_sharp": 89,
-  "outcomes": 314,
-  "capped": 4,
-  "flagged": 0,
-  "best": {
-   "gap": 3.375,
-   "ev_pct": 8.37,
-   "threshold_pct": 5.0,
-   "price": 5.8,
-   "outcome": "Yuberjen Martinez",
-   "book": "SportsBet",
-   "matchup": "Yuberjen Martinez @ Anthony Olascuaga",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-14T22:30:36.498283+00:00",
-  "markets": 23,
-  "markets_sharp": 21,
-  "outcomes": 88,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 3.375,
-   "ev_pct": 8.37,
-   "threshold_pct": 5.0,
-   "price": 5.8,
-   "outcome": "Yuberjen Martinez",
-   "book": "SportsBet",
-   "matchup": "Yuberjen Martinez @ Anthony Olascuaga",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-14T22:38:22.588178+00:00",
   "markets": 23,
   "markets_sharp": 20,
@@ -1346,6 +1308,25 @@
    "matchup": "Zimbabwe @ Afghanistan",
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-16T22:30:37.520832+00:00",
+  "markets": 9,
+  "markets_sharp": 9,
+  "outcomes": 36,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.237,
+   "ev_pct": -1.74,
+   "threshold_pct": 1.5,
+   "price": 1.27,
+   "outcome": "Denver Nuggets",
+   "book": "Betfair",
+   "matchup": "Phoenix Suns @ Denver Nuggets",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
   }
  }
 ]
