@@ -18,6 +18,25 @@
   "sharp_odds": null,
   "sport_key": "americanfootball_ncaaf"
  },
+ "basketball_ncaab|Alcorn St Braves @ Maryland Terrapins|h2h|Alcorn St Braves|SportsBet": {
+  "alerted": false,
+  "anchor": "retail_consensus",
+  "book": "SportsBet",
+  "commence_time": "2026-11-16T23:00:00Z",
+  "consensus_odds": 29.102,
+  "ev_pct": 333.0,
+  "fair_odds": 29.102,
+  "first_seen": "2026-11-16T11:00:54.457555+00:00",
+  "last_seen": "2026-11-16T11:00:54.457555+00:00",
+  "market": "h2h",
+  "matchup": "Alcorn St Braves @ Maryland Terrapins",
+  "max_ev_pct": 333.0,
+  "outcome": "Alcorn St Braves",
+  "price": 126.0,
+  "seen": 1,
+  "sharp_odds": null,
+  "sport_key": "basketball_ncaab"
+ },
  "basketball_ncaab|Arkansas-Pine Bluff Golden Lions @ USC Trojans|h2h|Arkansas-Pine Bluff Golden Lions|SportsBet": {
   "alerted": false,
   "anchor": "retail_consensus",
