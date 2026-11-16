@@ -1328,5 +1328,24 @@
    "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-16T22:00:48.543794+00:00",
+  "markets": 34,
+  "markets_sharp": 21,
+  "outcomes": 89,
+  "capped": 7,
+  "flagged": 0,
+  "best": {
+   "gap": -2.319,
+   "ev_pct": -1.14,
+   "threshold_pct": 1.18,
+   "price": 1.09,
+   "outcome": "Zimbabwe",
+   "book": "Betfair",
+   "matchup": "Zimbabwe @ Afghanistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
  }
 ]
