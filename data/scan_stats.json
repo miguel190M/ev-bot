@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-14T00:30:37.279419+00:00",
-  "markets": 28,
-  "markets_sharp": 20,
-  "outcomes": 104,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": 10.163,
-   "ev_pct": 11.74,
-   "threshold_pct": 1.58,
-   "price": 1.58,
-   "outcome": "Zelfa Barrett",
-   "book": "SportsBet",
-   "matchup": "Gavin Gwynne @ Zelfa Barrett",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-14T01:00:50.053862+00:00",
   "markets": 32,
   "markets_sharp": 24,
@@ -1402,6 +1383,25 @@
    "book": "Betfair",
    "matchup": "Frances Tiafoe @ Carlos Alcaraz",
    "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-16T00:30:37.449182+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 12,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.076,
+   "ev_pct": -1.58,
+   "threshold_pct": 1.5,
+   "price": 1.23,
+   "outcome": "Oklahoma City Thunder",
+   "book": "Betfair",
+   "matchup": "Oklahoma City Thunder @ Sacramento Kings",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
