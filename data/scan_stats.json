@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-14T04:00:42.862812+00:00",
-  "markets": 4,
-  "markets_sharp": 2,
-  "outcomes": 13,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 0.289,
-   "ev_pct": 2.01,
-   "threshold_pct": 1.72,
-   "price": 1.72,
-   "outcome": "Australia",
-   "book": "SportsBet",
-   "matchup": "England @ Australia",
-   "sport_key": "cricket_odi",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-14T04:30:35.074883+00:00",
-  "markets": 32,
-  "markets_sharp": 22,
-  "outcomes": 116,
-  "capped": 2,
-  "flagged": 0,
-  "best": {
-   "gap": 10.163,
-   "ev_pct": 11.74,
-   "threshold_pct": 1.58,
-   "price": 1.58,
-   "outcome": "Zelfa Barrett",
-   "book": "SportsBet",
-   "matchup": "Gavin Gwynne @ Zelfa Barrett",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-14T05:00:49.166222+00:00",
   "markets": 12,
   "markets_sharp": 11,
@@ -1403,6 +1365,25 @@
    "matchup": "Frances Tiafoe @ Carlos Alcaraz",
    "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-16T04:30:37.773399+00:00",
+  "markets": 3,
+  "markets_sharp": 0,
+  "outcomes": 9,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.277,
+   "ev_pct": -0.54,
+   "threshold_pct": 1.74,
+   "price": 1.37,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
