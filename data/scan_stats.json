@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-14T20:00:49.335706+00:00",
-  "markets": 128,
-  "markets_sharp": 117,
-  "outcomes": 408,
-  "capped": 4,
-  "flagged": 0,
-  "best": {
-   "gap": 6.963,
-   "ev_pct": 8.9,
-   "threshold_pct": 1.94,
-   "price": 1.94,
-   "outcome": "Yaser Al Ghena",
-   "book": "Betfair",
-   "matchup": "Ben Marksby @ Yaser Al Ghena",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-14T20:30:40.332862+00:00",
-  "markets": 22,
-  "markets_sharp": 20,
-  "outcomes": 76,
-  "capped": 2,
-  "flagged": 0,
-  "best": {
-   "gap": 6.963,
-   "ev_pct": 8.9,
-   "threshold_pct": 1.94,
-   "price": 1.94,
-   "outcome": "Yaser Al Ghena",
-   "book": "Betfair",
-   "matchup": "Ben Marksby @ Yaser Al Ghena",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-14T21:00:49.244551+00:00",
   "markets": 39,
   "markets_sharp": 35,
@@ -1365,6 +1327,25 @@
    "matchup": "Sri Lanka @ Pakistan",
    "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-16T21:00:44.925015+00:00",
+  "markets": 5,
+  "markets_sharp": 3,
+  "outcomes": 13,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.417,
+   "ev_pct": -1.14,
+   "threshold_pct": 1.28,
+   "price": 1.14,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
