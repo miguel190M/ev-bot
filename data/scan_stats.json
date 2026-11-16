@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-14T03:30:36.265099+00:00",
-  "markets": 30,
-  "markets_sharp": 20,
-  "outcomes": 106,
-  "capped": 2,
-  "flagged": 0,
-  "best": {
-   "gap": 14.85,
-   "ev_pct": 18.56,
-   "threshold_pct": 3.71,
-   "price": 4.0,
-   "outcome": "Kamil Bednarek",
-   "book": "SportsBet",
-   "matchup": "Kamil Bednarek @ Bruno Surace",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-14T04:00:42.862812+00:00",
   "markets": 4,
   "markets_sharp": 2,
@@ -1384,6 +1365,25 @@
    "matchup": "Frances Tiafoe @ Carlos Alcaraz",
    "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-16T03:30:37.624116+00:00",
+  "markets": 2,
+  "markets_sharp": 0,
+  "outcomes": 6,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.277,
+   "ev_pct": -0.54,
+   "threshold_pct": 1.74,
+   "price": 1.37,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
