@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-14T05:00:49.166222+00:00",
-  "markets": 12,
-  "markets_sharp": 11,
-  "outcomes": 47,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 0.289,
-   "ev_pct": 2.01,
-   "threshold_pct": 1.72,
-   "price": 1.72,
-   "outcome": "Australia",
-   "book": "SportsBet",
-   "matchup": "England @ Australia",
-   "sport_key": "cricket_odi",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-14T05:30:42.976151+00:00",
   "markets": 32,
   "markets_sharp": 22,
@@ -1379,6 +1360,25 @@
    "ev_pct": -0.54,
    "threshold_pct": 1.74,
    "price": 1.37,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-16T05:00:57.415866+00:00",
+  "markets": 5,
+  "markets_sharp": 2,
+  "outcomes": 13,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.604,
+   "ev_pct": 0.16,
+   "threshold_pct": 1.76,
+   "price": 1.38,
    "outcome": "South Africa",
    "book": "Betfair",
    "matchup": "Bangladesh @ South Africa",
