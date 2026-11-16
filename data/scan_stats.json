@@ -1404,5 +1404,24 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-16T01:00:46.574070+00:00",
+  "markets": 6,
+  "markets_sharp": 4,
+  "outcomes": 18,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.114,
+   "ev_pct": -0.61,
+   "threshold_pct": 1.5,
+   "price": 1.12,
+   "outcome": "Carlos Alcaraz",
+   "book": "Betfair",
+   "matchup": "Frances Tiafoe @ Carlos Alcaraz",
+   "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
  }
 ]
