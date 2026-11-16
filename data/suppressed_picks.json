@@ -1,23 +1,4 @@
 {
- "americanfootball_ncaaf|Boston College Eagles @ Notre Dame Fighting Irish|h2h|Boston College Eagles|SportsBet": {
-  "alerted": false,
-  "anchor": "retail_consensus",
-  "book": "SportsBet",
-  "commence_time": "2026-11-14T20:30:00Z",
-  "consensus_odds": 27.624,
-  "ev_pct": 48.4,
-  "fair_odds": 27.624,
-  "first_seen": "2026-11-14T20:00:49.334848+00:00",
-  "last_seen": "2026-11-14T20:00:49.334848+00:00",
-  "market": "h2h",
-  "matchup": "Boston College Eagles @ Notre Dame Fighting Irish",
-  "max_ev_pct": 48.4,
-  "outcome": "Boston College Eagles",
-  "price": 41.0,
-  "seen": 1,
-  "sharp_odds": null,
-  "sport_key": "americanfootball_ncaaf"
- },
  "basketball_ncaab|Alcorn St Braves @ Maryland Terrapins|h2h|Alcorn St Braves|SportsBet": {
   "alerted": false,
   "anchor": "retail_consensus",
