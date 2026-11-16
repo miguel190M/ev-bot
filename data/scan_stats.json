@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-14T13:30:36.229166+00:00",
-  "markets": 30,
-  "markets_sharp": 23,
-  "outcomes": 110,
-  "capped": 2,
-  "flagged": 0,
-  "best": {
-   "gap": 9.507,
-   "ev_pct": 11.09,
-   "threshold_pct": 1.58,
-   "price": 1.58,
-   "outcome": "Zelfa Barrett",
-   "book": "SportsBet",
-   "matchup": "Gavin Gwynne @ Zelfa Barrett",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-14T20:00:49.335706+00:00",
   "markets": 128,
   "markets_sharp": 117,
@@ -1345,6 +1326,25 @@
    "book": "Betfair",
    "matchup": "Sri Lanka @ Pakistan",
    "sport_key": "cricket_test_match",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-16T13:30:40.199184+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 8,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.071,
+   "ev_pct": -1.57,
+   "threshold_pct": 1.5,
+   "price": 1.3,
+   "outcome": "Daniil Medvedev",
+   "book": "Betfair",
+   "matchup": "Flavio Cobolli @ Daniil Medvedev",
+   "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
   }
  }
