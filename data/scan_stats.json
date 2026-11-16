@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-14T06:00:48.916460+00:00",
-  "markets": 5,
-  "markets_sharp": 5,
-  "outcomes": 20,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 0.289,
-   "ev_pct": 2.01,
-   "threshold_pct": 1.72,
-   "price": 1.72,
-   "outcome": "Australia",
-   "book": "SportsBet",
-   "matchup": "England @ Australia",
-   "sport_key": "cricket_odi",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-14T06:30:37.018673+00:00",
-  "markets": 33,
-  "markets_sharp": 24,
-  "outcomes": 121,
-  "capped": 2,
-  "flagged": 0,
-  "best": {
-   "gap": 11.201,
-   "ev_pct": 12.78,
-   "threshold_pct": 1.58,
-   "price": 1.58,
-   "outcome": "Zelfa Barrett",
-   "book": "SportsBet",
-   "matchup": "Gavin Gwynne @ Zelfa Barrett",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-14T07:00:42.653767+00:00",
   "markets": 4,
   "markets_sharp": 4,
@@ -1398,6 +1360,25 @@
    "ev_pct": 0.16,
    "threshold_pct": 1.76,
    "price": 1.38,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-16T06:30:40.185714+00:00",
+  "markets": 2,
+  "markets_sharp": 0,
+  "outcomes": 6,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -0.93,
+   "ev_pct": 0.85,
+   "threshold_pct": 1.78,
+   "price": 1.39,
    "outcome": "South Africa",
    "book": "Betfair",
    "matchup": "Bangladesh @ South Africa",
