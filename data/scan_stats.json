@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-14T05:30:42.976151+00:00",
-  "markets": 32,
-  "markets_sharp": 22,
-  "outcomes": 116,
-  "capped": 2,
-  "flagged": 0,
-  "best": {
-   "gap": 11.201,
-   "ev_pct": 12.78,
-   "threshold_pct": 1.58,
-   "price": 1.58,
-   "outcome": "Zelfa Barrett",
-   "book": "SportsBet",
-   "matchup": "Gavin Gwynne @ Zelfa Barrett",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-14T06:00:48.916460+00:00",
   "markets": 5,
   "markets_sharp": 5,
@@ -1391,6 +1372,25 @@
   "markets": 3,
   "markets_sharp": 0,
   "outcomes": 9,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.604,
+   "ev_pct": 0.16,
+   "threshold_pct": 1.76,
+   "price": 1.38,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-16T06:00:45.607127+00:00",
+  "markets": 4,
+  "markets_sharp": 2,
+  "outcomes": 10,
   "capped": 0,
   "flagged": 0,
   "best": {
