@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-15T23:30:36.117696+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 12,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.921,
-   "ev_pct": -1.42,
-   "threshold_pct": 1.5,
-   "price": 1.22,
-   "outcome": "Oklahoma City Thunder",
-   "book": "Betfair",
-   "matchup": "Oklahoma City Thunder @ Sacramento Kings",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-16T00:01:05.974864+00:00",
   "markets": 15,
   "markets_sharp": 12,
@@ -1301,6 +1282,25 @@
   "best": {
    "gap": -2.31,
    "ev_pct": -0.81,
+   "threshold_pct": 1.5,
+   "price": 1.27,
+   "outcome": "San Antonio Spurs",
+   "book": "Betfair",
+   "matchup": "Detroit Pistons @ San Antonio Spurs",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-17T23:30:38.575415+00:00",
+  "markets": 16,
+  "markets_sharp": 16,
+  "outcomes": 96,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.469,
+   "ev_pct": -0.97,
    "threshold_pct": 1.5,
    "price": 1.27,
    "outcome": "San Antonio Spurs",
