@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-15T05:30:36.323017+00:00",
-  "markets": 3,
-  "markets_sharp": 1,
-  "outcomes": 10,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.716,
-   "ev_pct": -0.36,
-   "threshold_pct": 1.36,
-   "price": 1.18,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Bangladesh @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-15T06:00:44.676327+00:00",
   "markets": 14,
   "markets_sharp": 7,
@@ -1315,6 +1296,25 @@
   "markets": 5,
   "markets_sharp": 3,
   "outcomes": 12,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.616,
+   "ev_pct": -0.32,
+   "threshold_pct": 1.3,
+   "price": 1.15,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-17T05:30:40.476653+00:00",
+  "markets": 3,
+  "markets_sharp": 0,
+  "outcomes": 10,
   "capped": 0,
   "flagged": 0,
   "best": {
