@@ -1328,5 +1328,24 @@
    "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-17T21:30:37.366776+00:00",
+  "markets": 11,
+  "markets_sharp": 11,
+  "outcomes": 66,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.036,
+   "ev_pct": -0.39,
+   "threshold_pct": 1.65,
+   "price": 1.65,
+   "outcome": "Tampa Bay Lightning",
+   "book": "NextBet",
+   "matchup": "Washington Capitals @ Tampa Bay Lightning",
+   "sport_key": "icehockey_nhl",
+   "anchor": "pinnacle"
+  }
  }
 ]
