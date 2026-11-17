@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-15T03:30:37.337469+00:00",
-  "markets": 9,
-  "markets_sharp": 6,
-  "outcomes": 38,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -0.148,
-   "ev_pct": 1.35,
-   "threshold_pct": 1.5,
-   "price": 1.13,
-   "outcome": "Diego Pacheco",
-   "book": "Betfair",
-   "matchup": "Darius Fulghum @ Diego Pacheco",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-15T04:00:44.452271+00:00",
   "markets": 11,
   "markets_sharp": 9,
@@ -1308,6 +1289,25 @@
    "matchup": "Sri Lanka @ Pakistan",
    "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-17T03:30:47.070521+00:00",
+  "markets": 4,
+  "markets_sharp": 1,
+  "outcomes": 13,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.417,
+   "ev_pct": -1.14,
+   "threshold_pct": 1.28,
+   "price": 1.14,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
