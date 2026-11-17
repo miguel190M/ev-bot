@@ -1328,5 +1328,24 @@
    "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-17T09:30:50.187577+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 6,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.728,
+   "ev_pct": -1.29,
+   "threshold_pct": 3.44,
+   "price": 2.22,
+   "outcome": "England",
+   "book": "Betfair",
+   "matchup": "England @ Australia",
+   "sport_key": "cricket_odi",
+   "anchor": "retail_consensus"
+  }
  }
 ]
