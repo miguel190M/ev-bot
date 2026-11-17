@@ -22,5 +22,29 @@
     "large_edge": false,
     "suggested_stake": 2.0,
     "alerted_at": "2026-11-16T20:00:47.974710+00:00"
+  },
+  "daee": {
+    "event_id": "0afe2ea850539074dc949e28eecfd35e",
+    "sport_key": "basketball_nbl",
+    "commence_time": "2026-11-18T06:36:00Z",
+    "home_team": "New Zealand Breakers",
+    "away_team": "S.E. Melbourne Phoenix",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "New Zealand Breakers",
+    "price": 2.2,
+    "commission": 0.0,
+    "fair_probability": 0.4722,
+    "fair_odds": 2.118,
+    "ev_pct": 3.89,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.4722,
+    "consensus_probability": 0.4582,
+    "large_edge": false,
+    "suggested_stake": 9.0,
+    "alerted_at": "2026-11-17T20:00:49.970296+00:00"
   }
 }
