@@ -1309,5 +1309,24 @@
    "sport_key": "cricket_odi",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-17T08:00:45.378484+00:00",
+  "markets": 11,
+  "markets_sharp": 2,
+  "outcomes": 22,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -5.994,
+   "ev_pct": -4.49,
+   "threshold_pct": 1.5,
+   "price": 1.5,
+   "outcome": "Alexander Zverev",
+   "book": "NextBet",
+   "matchup": "Ben Shelton @ Alexander Zverev",
+   "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
  }
 ]
