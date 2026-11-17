@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-15T08:00:46.824126+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 8,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.739,
-   "ev_pct": -2.24,
-   "threshold_pct": 1.5,
-   "price": 1.42,
-   "outcome": "Alexander Zverev",
-   "book": "Betfair",
-   "matchup": "Rafael Jodar @ Alexander Zverev",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-15T09:00:42.054452+00:00",
   "markets": 3,
   "markets_sharp": 3,
@@ -1327,6 +1308,25 @@
    "matchup": "Ben Shelton @ Alexander Zverev",
    "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-17T08:30:50.129409+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 4,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -6.64,
+   "ev_pct": -3.44,
+   "threshold_pct": 3.2,
+   "price": 2.1,
+   "outcome": "England",
+   "book": "SportsBet",
+   "matchup": "England @ Australia",
+   "sport_key": "cricket_odi",
+   "anchor": "retail_consensus"
   }
  }
 ]
