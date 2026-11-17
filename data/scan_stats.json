@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-15T06:00:44.676327+00:00",
-  "markets": 14,
-  "markets_sharp": 7,
-  "outcomes": 35,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": -2.978,
-   "ev_pct": -0.9,
-   "threshold_pct": 2.08,
-   "price": 2.08,
-   "outcome": "Brisbane Bullets",
-   "book": "Betfair",
-   "matchup": "Tasmania JackJumpers @ Brisbane Bullets",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-15T06:30:31.882717+00:00",
-  "markets": 11,
-  "markets_sharp": 9,
-  "outcomes": 43,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.716,
-   "ev_pct": -0.36,
-   "threshold_pct": 1.36,
-   "price": 1.18,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Bangladesh @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-15T06:51:22.042578+00:00",
   "markets": 1,
   "markets_sharp": 0,
@@ -1345,6 +1307,25 @@
    "book": "Betfair",
    "matchup": "Bangladesh @ South Africa",
    "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-17T06:30:37.742009+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 4,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -6.054,
+   "ev_pct": -2.61,
+   "threshold_pct": 3.44,
+   "price": 2.22,
+   "outcome": "England",
+   "book": "Betfair",
+   "matchup": "England @ Australia",
+   "sport_key": "cricket_odi",
    "anchor": "retail_consensus"
   }
  }
