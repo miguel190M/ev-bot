@@ -136,8 +136,9 @@ def _extract_book_prices(event: dict, market_key: str) -> tuple[dict, dict]:
         outcomes = market.get("outcomes", [])
         if len(outcomes) < 2:
             continue
-        book_prices[bm["key"]] = {_outcome_key(o): o["price"] for o in outcomes}
-        book_titles[bm["key"]] = bm.get("title", bm["key"])
+        key, title = config.BOOK_KEY_ALIASES.get(bm["key"], (bm["key"], bm.get("title", bm["key"])))
+        book_prices[key] = {_outcome_key(o): o["price"] for o in outcomes}
+        book_titles[key] = title
     return book_prices, book_titles
 
 
