@@ -257,15 +257,27 @@ def process_commands(candidates: dict, bet_ledger: dict):
             if taken is not None and not (1.01 <= taken <= 1000):
                 telegram_commands.send_message(f"Price {taken:g} doesn't look right (use decimal odds, e.g. @1.65). Not logged.")
                 continue
-            bet_id, bet = bets.place_bet(sid, stake, opp, bet_ledger, price=taken)
+            book = None
+            if (raw_book := telegram_commands.parse_bet_book(text)):
+                if raw_book not in config.PLACEABLE_BOOKS:
+                    names = ", ".join(sorted({t for _, t in config.PLACEABLE_BOOKS.values()}))
+                    telegram_commands.send_message(f"Don't know the book '{raw_book}'. Use one of: {names} "
+                                                   f"(e.g. /bet {sid} {stake:g} on nextbet). Not logged.")
+                    continue
+                bkey, btitle = config.PLACEABLE_BOOKS[raw_book]
+                book = (bkey, btitle, config.get_commission_rate(bkey, opp["sport_key"]))
+            bet_id, bet = bets.place_bet(sid, stake, opp, bet_ledger, price=taken, book=book)
             matchup = f"{bet.get('away_team')} @ {bet.get('home_team')}" if bet.get("away_team") else bet.get("home_team", "")
             price_note = ""
+            if "alert_bookmaker_title" in bet:
+                price_note += (f"\nPlaced at {bet['bookmaker_title']} (alert was for {bet['alert_bookmaker_title']}); "
+                               f"edge {bet['ev_pct']:+.1f}% after that book's commission")
             if "alert_price" in bet:
-                price_note = (f"\nPrice taken {bet['price']} (alert said {bet['alert_price']}); "
+                price_note += (f"\nPrice taken {bet['price']} (alert said {bet['alert_price']}); "
                               f"edge now {bet['ev_pct']:+.1f}%"
                               + (" ⚠️ no longer +EV" if bet["ev_pct"] <= 0 else ""))
             telegram_commands.send_message(
-                f"✅ Logged [{bet_id}]: ${stake:g} on {bet['outcome']} @ {bet['price']} ({matchup}). "
+                f"✅ Logged [{bet_id}]: ${stake:g} on {bet['outcome']} @ {bet['price']} at {bet['bookmaker_title']} ({matchup}). "
                 f"I'll let you know once it resolves.{price_note}"
             )
             print(f"    -> Logged bet {bet_id}: ${stake} on {bet['outcome']} @ {bet['price']}")
@@ -443,6 +455,8 @@ def main():
             f"🗄️ Archived {len(archived)} bet(s) from before Pinnacle became the reference line "
             f"(12 Oct) - a different model. They're kept in {bets.ARCHIVE_FILE} but no longer "
             f"count in /record, /stats, /breakdown or the daily report.")
+
+    config.set_current_bankroll(config.bankroll_from_ledger(bet_ledger))   # stake suggestions follow your P&L
 
     fixed = bets.fix_soccer_draw_voids(bet_ledger)
     if fixed:
