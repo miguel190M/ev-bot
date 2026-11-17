@@ -18,25 +18,6 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
- "basketball_ncaab|Arkansas-Pine Bluff Golden Lions @ USC Trojans|h2h|Arkansas-Pine Bluff Golden Lions|SportsBet": {
-  "alerted": false,
-  "anchor": "retail_consensus",
-  "book": "SportsBet",
-  "commence_time": "2026-11-16T00:00:00Z",
-  "consensus_odds": 14.5,
-  "ev_pct": 769.0,
-  "fair_odds": 14.5,
-  "first_seen": "2026-11-15T20:00:44.171893+00:00",
-  "last_seen": "2026-11-15T22:00:50.799468+00:00",
-  "market": "h2h",
-  "matchup": "Arkansas-Pine Bluff Golden Lions @ USC Trojans",
-  "max_ev_pct": 769.0,
-  "outcome": "Arkansas-Pine Bluff Golden Lions",
-  "price": 126.0,
-  "seen": 2,
-  "sharp_odds": null,
-  "sport_key": "basketball_ncaab"
- },
  "basketball_ncaab|Ball State Cardinals @ Florida St Seminoles|h2h|Ball State Cardinals|SportsBet": {
   "alerted": false,
   "anchor": "retail_consensus",
