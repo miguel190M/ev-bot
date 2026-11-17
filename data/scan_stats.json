@@ -1328,5 +1328,24 @@
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-17T06:00:44.441510+00:00",
+  "markets": 3,
+  "markets_sharp": 2,
+  "outcomes": 7,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.618,
+   "ev_pct": -0.32,
+   "threshold_pct": 1.3,
+   "price": 1.15,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
  }
 ]
