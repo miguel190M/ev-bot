@@ -125,8 +125,10 @@ def suggested_stake(ev_pct: float, price: float, commission: float = 0.0, large_
 # market, +EV alerts on the OTHER side are dropped. The other side only alerts
 # when it forms an arbitrage with what you hold (a guaranteed profit whichever
 # side wins), with the stake that equalises the payout. Only 2-way markets can
-# be arbed with two bets; the arb must lock in at least this % of total outlay.
-ARB_MIN_PROFIT_PCT = float(os.environ.get("ARB_MIN_PROFIT_PCT", "0.1"))
+# be arbed with two bets; the arb must lock in at least this % of total outlay
+# (guaranteed profit / (what you hold + the hedge stake)), after commission.
+# Smaller arbs do not alert - the other side then stays silent as usual.
+ARB_MIN_PROFIT_PCT = float(os.environ.get("ARB_MIN_PROFIT_PCT", "5"))
 
 # Closing-line capture for CLV: an open bet whose event starts within this
 # many minutes gets a dedicated odds pull (if its sport wasn't already
