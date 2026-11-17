@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-15T20:30:35.502504+00:00",
-  "markets": 8,
-  "markets_sharp": 8,
-  "outcomes": 32,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.855,
-   "ev_pct": -0.36,
-   "threshold_pct": 1.5,
-   "price": 1.12,
-   "outcome": "San Antonio Spurs",
-   "book": "Betfair",
-   "matchup": "San Antonio Spurs @ Utah Jazz",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-15T21:00:43.539300+00:00",
-  "markets": 12,
-  "markets_sharp": 10,
-  "outcomes": 42,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.308,
-   "ev_pct": 0.19,
-   "threshold_pct": 1.5,
-   "price": 1.13,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Frances Tiafoe @ Carlos Alcaraz",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-15T21:30:41.529958+00:00",
   "markets": 8,
   "markets_sharp": 8,
@@ -1345,6 +1307,25 @@
    "book": "SportsBet",
    "matchup": "S.E. Melbourne Phoenix @ New Zealand Breakers",
    "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-17T21:00:47.512625+00:00",
+  "markets": 6,
+  "markets_sharp": 3,
+  "outcomes": 23,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.448,
+   "ev_pct": -0.95,
+   "threshold_pct": 1.5,
+   "price": 1.29,
+   "outcome": "Carlos Alcaraz",
+   "book": "Betfair",
+   "matchup": "Daniil Medvedev @ Carlos Alcaraz",
+   "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
   }
  }
