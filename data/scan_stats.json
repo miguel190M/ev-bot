@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-15T12:30:37.320394+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 4,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.427,
-   "ev_pct": -1.81,
-   "threshold_pct": 1.62,
-   "price": 1.62,
-   "outcome": "Ben Shelton",
-   "book": "Betfair",
-   "matchup": "Arthur Fils @ Ben Shelton",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-15T13:00:48.103428+00:00",
   "markets": 5,
   "markets_sharp": 5,
@@ -1345,6 +1326,25 @@
    "book": "SportsBet",
    "matchup": "Hapoel Tel Aviv @ Saski Baskonia",
    "sport_key": "basketball_euroleague",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-17T12:30:38.459368+00:00",
+  "markets": 8,
+  "markets_sharp": 7,
+  "outcomes": 44,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.715,
+   "ev_pct": -0.71,
+   "threshold_pct": 2.0,
+   "price": 2.0,
+   "outcome": "Rafael Jodar",
+   "book": "Betfair",
+   "matchup": "Rafael Jodar @ Arthur Fils",
+   "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
   }
  }
