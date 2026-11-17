@@ -100,7 +100,31 @@ CAPPED_ALERT_MAX_PRICE = float(os.environ.get("CAPPED_ALERT_MAX_PRICE", "3.0"))
 # capped at MAX_STAKE_PCT of bankroll, halved for large-edge (>cap) picks, rounded to
 # the nearest $1 (min MIN_STAKE). BANKROLL is the money you are willing to have working
 # in this bot - set it to your real figure (env var or edit here). 0 = no suggestion.
-BANKROLL = float(os.environ.get("BANKROLL", "1000"))
+# BANKROLL is what you had on BANKROLL_AS_OF (Sydney date, YYYY-MM-DD); every bet settled
+# on or after that date then adds its profit/loss, so stakes grow after wins and shrink
+# after losses. It never drops below BANKROLL_FLOOR_PCT of the starting figure.
+BANKROLL = float(os.environ.get("BANKROLL", "3000"))
+BANKROLL_AS_OF = os.environ.get("BANKROLL_AS_OF", "2026-11-17")
+BANKROLL_FLOOR_PCT = float(os.environ.get("BANKROLL_FLOOR_PCT", "25"))
+_current_bankroll = None   # set each run from the bet ledger (see set_current_bankroll)
+
+
+def bankroll_from_ledger(ledger: dict) -> float:
+    """BANKROLL plus the profit/loss of bets settled on/after BANKROLL_AS_OF (UTC timestamps
+    are compared on their date; a day's difference vs Sydney time is immaterial here)."""
+    pnl = sum(b["profit"] for b in ledger.values()
+              if b.get("status") in ("won", "lost", "void") and b.get("profit") is not None
+              and (b.get("resolved_at") or "")[:10] >= BANKROLL_AS_OF)
+    return max(BANKROLL * BANKROLL_FLOOR_PCT / 100, BANKROLL + pnl)
+
+
+def set_current_bankroll(value: float | None) -> None:
+    global _current_bankroll
+    _current_bankroll = value
+
+
+def current_bankroll() -> float:
+    return BANKROLL if _current_bankroll is None else _current_bankroll
 KELLY_FRACTION = float(os.environ.get("KELLY_FRACTION", "0.25"))
 EDGE_SHRINK = float(os.environ.get("EDGE_SHRINK", "0.35"))
 MAX_STAKE_PCT = float(os.environ.get("MAX_STAKE_PCT", "2"))
@@ -111,13 +135,14 @@ LARGE_EDGE_STAKE_FACTOR = float(os.environ.get("LARGE_EDGE_STAKE_FACTOR", "0.5")
 def suggested_stake(ev_pct: float, price: float, commission: float = 0.0, large_edge: bool = False) -> float:
     """Suggested stake in dollars (0 if staking is off or there is no edge)."""
     net = (price - 1) * (1 - commission)          # profit per $1 staked if it wins
-    if BANKROLL <= 0 or net <= 0 or ev_pct <= 0:
+    bankroll = current_bankroll()
+    if BANKROLL <= 0 or bankroll <= 0 or net <= 0 or ev_pct <= 0:
         return 0.0
     full_kelly = (ev_pct / 100 * EDGE_SHRINK) / net
-    stake = BANKROLL * KELLY_FRACTION * full_kelly
+    stake = bankroll * KELLY_FRACTION * full_kelly
     if large_edge:
         stake *= LARGE_EDGE_STAKE_FACTOR
-    stake = min(stake, BANKROLL * MAX_STAKE_PCT / 100)
+    stake = min(stake, bankroll * MAX_STAKE_PCT / 100)
     return float(max(MIN_STAKE, round(stake)))
 
 
@@ -222,7 +247,25 @@ DAILY_SLATE_MAX = int(os.environ.get("DAILY_SLATE_MAX", "8"))
 # these get checked against - and is excluded from that consensus itself,
 # so a book's own price is never compared to a "fair line" that already
 # includes it. Already included in the region pulls at no extra API cost.
-BETTABLE_BOOKS = [b.strip() for b in os.environ.get("BETTABLE_BOOKS", "betfair_ex_au,sportsbet").split(",")]
+BETTABLE_BOOKS = [b.strip() for b in os.environ.get("BETTABLE_BOOKS", "betfair_ex_au,sportsbet,nextbet").split(",")]
+
+# NextBet bought PlayUp, and The Odds API has no "nextbet" book - only "playup".
+# PlayUp prices are treated as NextBet prices: the feed key is renamed on the way
+# in (see ev_calculator._extract_book_prices), so alerts, /bet logging and the
+# ledger all say NextBet, and NextBet is excluded from the soft-book consensus.
+# feed key -> (book key, display title)
+BOOK_KEY_ALIASES = {"playup": ("nextbet", "NextBet")}
+
+# Books you can say you placed a bet at: /bet <id> <stake> [@price] on <name>.
+# NextBet prices come from the feed's "playup" book (see BOOK_KEY_ALIASES), and
+# you can also take an alert from another book at NextBet and log it as placed
+# there (own price, no commission). name -> (book key, title).
+PLACEABLE_BOOKS = {
+    "nextbet": ("nextbet", "NextBet"), "next.bet": ("nextbet", "NextBet"), "next": ("nextbet", "NextBet"),
+    "nb": ("nextbet", "NextBet"), "playup": ("nextbet", "NextBet"),
+    "sportsbet": ("sportsbet", "SportsBet"), "sb": ("sportsbet", "SportsBet"),
+    "betfair": ("betfair_ex_au", "Betfair"), "bf": ("betfair_ex_au", "Betfair"),
+}
 
 # Betfair Exchange charges commission on NET WINNINGS only (never on a
 # loss, and never on Sportsbet - its margin is already baked into the
