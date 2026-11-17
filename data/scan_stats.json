@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-15T13:00:48.103428+00:00",
-  "markets": 5,
-  "markets_sharp": 5,
-  "outcomes": 14,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.308,
-   "ev_pct": 0.19,
-   "threshold_pct": 1.5,
-   "price": 1.13,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Frances Tiafoe @ Carlos Alcaraz",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-15T13:30:35.154113+00:00",
   "markets": 15,
   "markets_sharp": 14,
@@ -1345,6 +1326,25 @@
    "book": "Betfair",
    "matchup": "Rafael Jodar @ Arthur Fils",
    "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-17T13:00:50.467661+00:00",
+  "markets": 56,
+  "markets_sharp": 35,
+  "outcomes": 154,
+  "capped": 5,
+  "flagged": 0,
+  "best": {
+   "gap": -1.423,
+   "ev_pct": 0.08,
+   "threshold_pct": 1.5,
+   "price": 1.08,
+   "outcome": "Florida Gators",
+   "book": "Betfair",
+   "matchup": "Notre Dame Fighting Irish @ Florida Gators",
+   "sport_key": "basketball_ncaab",
    "anchor": "pinnacle"
   }
  }
