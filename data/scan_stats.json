@@ -1,62 +1,5 @@
 [
  {
-  "ts": "2026-11-15T22:30:36.546131+00:00",
-  "markets": 6,
-  "markets_sharp": 6,
-  "outcomes": 24,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.382,
-   "ev_pct": -0.88,
-   "threshold_pct": 1.5,
-   "price": 1.13,
-   "outcome": "Boston Celtics",
-   "book": "Betfair",
-   "matchup": "Dallas Mavericks @ Boston Celtics",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-15T23:00:21.818333+00:00",
-  "markets": 9,
-  "markets_sharp": 7,
-  "outcomes": 30,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.147,
-   "ev_pct": -0.65,
-   "threshold_pct": 1.5,
-   "price": 1.12,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Frances Tiafoe @ Carlos Alcaraz",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-15T23:00:45.270521+00:00",
-  "markets": 5,
-  "markets_sharp": 5,
-  "outcomes": 20,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.253,
-   "ev_pct": -0.75,
-   "threshold_pct": 1.5,
-   "price": 1.13,
-   "outcome": "Boston Celtics",
-   "book": "Betfair",
-   "matchup": "Dallas Mavericks @ Boston Celtics",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-15T23:30:36.117696+00:00",
   "markets": 3,
   "markets_sharp": 3,
@@ -1341,6 +1284,25 @@
    "ev_pct": -0.23,
    "threshold_pct": 1.5,
    "price": 1.28,
+   "outcome": "San Antonio Spurs",
+   "book": "Betfair",
+   "matchup": "Detroit Pistons @ San Antonio Spurs",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-17T23:00:54.552805+00:00",
+  "markets": 12,
+  "markets_sharp": 8,
+  "outcomes": 56,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.31,
+   "ev_pct": -0.81,
+   "threshold_pct": 1.5,
+   "price": 1.27,
    "outcome": "San Antonio Spurs",
    "book": "Betfair",
    "matchup": "Detroit Pistons @ San Antonio Spurs",
