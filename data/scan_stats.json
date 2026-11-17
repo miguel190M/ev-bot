@@ -1347,5 +1347,24 @@
    "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-17T11:00:48.309223+00:00",
+  "markets": 4,
+  "markets_sharp": 3,
+  "outcomes": 17,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.913,
+   "ev_pct": -0.79,
+   "threshold_pct": 1.12,
+   "price": 1.06,
+   "outcome": "Teremoana Junior",
+   "book": "SportsBet",
+   "matchup": "Hemi Ahio @ Teremoana Junior",
+   "sport_key": "boxing_boxing",
+   "anchor": "retail_consensus"
+  }
  }
 ]
