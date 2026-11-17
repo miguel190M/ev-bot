@@ -83,6 +83,19 @@ def test_two_bets_on_same_side_are_one_position():
     assert two["held_ids"] == ["a1", "a2"] and two["held_stake"] == 40.0
 
 
+def test_default_minimum_is_five_percent_roi():
+    """Holding Alpha @2.10 $20; hedge Beta at Betfair (6% commission). Locked profit / total outlay:
+    Beta 2.10 -> 3.3%, 2.17 -> 4.99%, 2.18 -> 5.2%, 2.30 -> 8.0%."""
+    assert config.ARB_MIN_PROFIT_PCT == 5.0
+    def arbs(price):
+        return ev.find_hedge_arbs(event(SOFT + [book("betfair_ex_au", h2h(2.0, price))]), [("a1", held())])
+    for price in (2.05, 2.10, 2.17):                        # real arbs, but under 5% -> no alert
+        assert arbs(price) == [], price
+    for price in (2.18, 2.30):
+        a = arbs(price)
+        assert len(a) == 1 and a[0]["arb"]["profit_pct"] >= 5.0, price
+
+
 def test_arb_threshold_setting():
     ev_ = event(SOFT + [book("betfair_ex_au", h2h(2.0, 2.30))])
     with mock.patch.object(config, "ARB_MIN_PROFIT_PCT", 50.0):
