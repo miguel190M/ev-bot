@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-15T02:30:45.410387+00:00",
-  "markets": 10,
-  "markets_sharp": 10,
-  "outcomes": 44,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 3.523,
-   "ev_pct": 5.48,
-   "threshold_pct": 1.96,
-   "price": 1.96,
-   "outcome": "Brisbane Bullets",
-   "book": "SportsBet",
-   "matchup": "Tasmania JackJumpers @ Brisbane Bullets",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-15T03:00:47.662919+00:00",
-  "markets": 14,
-  "markets_sharp": 12,
-  "outcomes": 54,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -0.148,
-   "ev_pct": 1.35,
-   "threshold_pct": 1.5,
-   "price": 1.13,
-   "outcome": "Diego Pacheco",
-   "book": "Betfair",
-   "matchup": "Darius Fulghum @ Diego Pacheco",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-15T03:30:37.337469+00:00",
   "markets": 9,
   "markets_sharp": 6,
@@ -1315,6 +1277,25 @@
   "markets": 3,
   "markets_sharp": 1,
   "outcomes": 9,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.183,
+   "ev_pct": 0.4,
+   "threshold_pct": 2.58,
+   "price": 2.58,
+   "outcome": "Pakistan",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-17T03:00:50.365952+00:00",
+  "markets": 5,
+  "markets_sharp": 3,
+  "outcomes": 13,
   "capped": 0,
   "flagged": 0,
   "best": {
