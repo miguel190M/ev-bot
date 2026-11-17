@@ -14,9 +14,9 @@ def format_message(opp: dict, bet_id: str | None = None) -> str:
     matchup = f"{opp['away_team']} @ {opp['home_team']}" if opp.get("away_team") else opp.get("home_team", "")
     stake = opp.get("suggested_stake") or 0
     stake_line = (f"\nSuggested stake: ${stake:g} (¼-Kelly on ~{config.EDGE_SHRINK * 100:.0f}% of the edge, "
-                  f"bankroll ${config.BANKROLL:g})") if stake else ""
+                  f"bankroll ${config.current_bankroll():,.0f})") if stake else ""
     stake_arg = f"{stake:g}" if stake else "<stake>"
-    bet_footer = f"\n\nPlaced it? Log it: /bet {bet_id} {stake_arg}  (got a different price? add @<price>, e.g. /bet {bet_id} {stake_arg} @1.65)" if bet_id else ""
+    bet_footer = f"\n\nPlaced it? Log it: /bet {bet_id} {stake_arg}  (different price? add @<price>; placed at NextBet? add: on nextbet)" if bet_id else ""
     commission = opp.get("commission", 0.0)
     commission_note = f"\n(edge is net of {commission * 100:.0f}% {opp['bookmaker_title']} commission)" if commission > 0 else ""
     market_key = opp.get("market_key", "h2h")

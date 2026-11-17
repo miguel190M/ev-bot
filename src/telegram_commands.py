@@ -12,7 +12,8 @@ from . import config
 
 OFFSET_FILE = "data/telegram_offset.json"
 # /bet <id> <stake> [@<price you actually got>] [again]  (@price and "again" in either order)
-BET_PATTERN = re.compile(r"^/bet\s+([a-f0-9]+)\s+([\d.]+)((?:\s+(?:again|@\s*[\d.]+))*)\s*$", re.IGNORECASE)
+BET_PATTERN = re.compile(r"^/bet\s+([a-f0-9]+)\s+([\d.]+)((?:\s+(?:again|@\s*[\d.]+|on\s+[a-z0-9.]+))*)\s*$", re.IGNORECASE)
+_BOOK_TOKEN = re.compile(r"\bon\s+([a-z0-9.]+)", re.IGNORECASE)
 _PRICE_TOKEN = re.compile(r"@\s*([\d.]+)")
 
 
@@ -81,6 +82,15 @@ def parse_bet_price(text: str):
         return float(pm.group(1)) if pm else None
     except ValueError:
         return None
+
+
+def parse_bet_book(text: str):
+    """The book named in '/bet <id> <stake> [@price] on nextbet' (lower-case, as typed), else None."""
+    m = BET_PATTERN.match(text)
+    if not m:
+        return None
+    bm = _BOOK_TOKEN.search(m.group(3))
+    return bm.group(1).lower() if bm else None
 
 
 PRICE_PATTERN = re.compile(r"^/price\s+([0-9a-f]+(?:-\d+)?)\s+@?\s*([\d.]+)\s*$", re.IGNORECASE)

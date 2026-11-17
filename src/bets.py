@@ -132,7 +132,7 @@ def find_logged(opp: dict, ledger: dict, scope: str = "outcome") -> str | None:
                 or b.get("market_key", "h2h") != opp.get("market_key", "h2h")
                 or b.get("outcome") != opp.get("outcome")):
             continue
-        if scope == "book" and b.get("bookmaker_title") != opp.get("bookmaker_title"):
+        if scope == "book" and b.get("alert_bookmaker_title", b.get("bookmaker_title")) != opp.get("bookmaker_title"):
             continue
         return bid
     return None
@@ -189,8 +189,11 @@ def set_taken_price(bet: dict, price: float) -> None:
         bet["net_clv_pct"] = compute_net_clv_pct(bet)
 
 
-def place_bet(sid: str, stake: float, opp: dict, bets: dict, price: float | None = None) -> tuple[str, dict]:
-    """Record a new bet against an alerted opportunity. Returns (bet_id, bet)."""
+def place_bet(sid: str, stake: float, opp: dict, bets: dict, price: float | None = None,
+              book: tuple | None = None) -> tuple[str, dict]:
+    """Record a new bet against an alerted opportunity. Returns (bet_id, bet).
+    `book` = (key, title, commission) when you placed it somewhere other than the
+    alerted book (e.g. NextBet): the bet is booked there, with that book's commission."""
     bet_id = sid if sid not in bets else f"{sid}-{sum(1 for k in bets if k.startswith(sid))}"
     bet = {
         "event_id": opp["event_id"],
@@ -206,8 +209,8 @@ def place_bet(sid: str, stake: float, opp: dict, bets: dict, price: float | None
         "ev_pct": opp["ev_pct"],
         "anchor": opp["anchor"],
         "sharp_disagreement": opp.get("sharp_disagreement", False),
-        "large_edge": opp.get("large_edge", False),
-        "arb_hedge": bool(opp.get("arb")),  # the second leg of an arbitrage against a bet you held  # alerted despite exceeding MAX_EV_PCT (tracked separately)
+        "large_edge": opp.get("large_edge", False),  # alerted despite exceeding MAX_EV_PCT (tracked separately)
+        "arb_hedge": bool(opp.get("arb")),  # the second leg of an arbitrage against a bet you held
         "stake": stake,
         "status": "open",
         "profit": None,
@@ -218,6 +221,12 @@ def place_bet(sid: str, stake: float, opp: dict, bets: dict, price: float | None
         "lead_hours": _lead_hours(opp),
         "logged_at": datetime.now(timezone.utc).isoformat(),
     }
+    if book is not None and (book[1] != bet["bookmaker_title"] or abs(book[2] - bet["commission"]) > 1e-12):
+        key, title, comm = book
+        fair = _effective_price(bet["price"], bet["commission"]) / (1 + bet["ev_pct"] / 100)
+        bet["alert_bookmaker_title"] = bet["bookmaker_title"]      # the book the alert was for
+        bet["bookmaker_title"], bet["bookmaker_key"], bet["commission"] = title, key, comm
+        bet["ev_pct"] = round((_effective_price(bet["price"], comm) / fair - 1) * 100, 2)   # edge net of the new book's commission
     if price is not None and abs(price - bet["price"]) > 1e-9:
         set_taken_price(bet, price)
     bets[bet_id] = bet
