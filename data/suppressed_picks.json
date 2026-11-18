@@ -379,6 +379,25 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
+ "cricket_test_match|Bangladesh @ South Africa|h2h|Bangladesh|Betfair": {
+  "alerted": false,
+  "anchor": "retail_consensus",
+  "book": "Betfair",
+  "commence_time": "2026-11-18T08:00:00Z",
+  "consensus_odds": 19.77,
+  "ev_pct": 28.7,
+  "fair_odds": 19.77,
+  "first_seen": "2026-11-18T07:00:44.412932+00:00",
+  "last_seen": "2026-11-18T07:00:44.412932+00:00",
+  "market": "h2h",
+  "matchup": "Bangladesh @ South Africa",
+  "max_ev_pct": 28.7,
+  "outcome": "Bangladesh",
+  "price": 27.0,
+  "seen": 1,
+  "sharp_odds": null,
+  "sport_key": "cricket_test_match"
+ },
  "cricket_test_match|Zimbabwe @ Afghanistan|h2h|Afghanistan|Betfair": {
   "alerted": false,
   "anchor": "retail_consensus",

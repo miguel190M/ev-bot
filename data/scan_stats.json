@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-16T06:30:40.185714+00:00",
-  "markets": 2,
-  "markets_sharp": 0,
-  "outcomes": 6,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -0.93,
-   "ev_pct": 0.85,
-   "threshold_pct": 1.78,
-   "price": 1.39,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Bangladesh @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-16T06:51:59.864884+00:00",
-  "markets": 2,
-  "markets_sharp": 0,
-  "outcomes": 6,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.604,
-   "ev_pct": 0.16,
-   "threshold_pct": 1.76,
-   "price": 1.38,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Bangladesh @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-16T07:00:45.091214+00:00",
   "markets": 5,
   "markets_sharp": 2,
@@ -1365,6 +1327,25 @@
    "matchup": "Hemi Ahio @ Teremoana Junior",
    "sport_key": "boxing_boxing",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-18T07:00:44.413604+00:00",
+  "markets": 7,
+  "markets_sharp": 5,
+  "outcomes": 32,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": 6.9,
+   "ev_pct": 9.1,
+   "threshold_pct": 2.2,
+   "price": 2.2,
+   "outcome": "Joel Camilleri",
+   "book": "SportsBet",
+   "matchup": "Mitchell Leek @ Joel Camilleri",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
   }
  }
 ]

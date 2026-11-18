@@ -1,6 +1,14 @@
 {
-  "0afe2ea850539074dc949e28eecfd35e:sportsbet:New Zealand Breakers": {
-    "ev_pct": 3.89,
-    "commence_time": "2026-11-18T06:36:00Z"
+  "bafa85d08236df7c933ee6977f421472:sportsbet:Joel Camilleri": {
+    "ev_pct": 9.1,
+    "commence_time": "2026-11-18T08:00:00Z"
+  },
+  "bafa85d08236df7c933ee6977f421472:betfair_ex_au:Joel Camilleri": {
+    "ev_pct": 2.73,
+    "commence_time": "2026-11-18T08:00:00Z"
+  },
+  "8a39a8ee2326069ddc53b8ccb0ae8c26:betfair_ex_au:Ky Hodgson": {
+    "ev_pct": 1.9,
+    "commence_time": "2026-11-18T08:00:00Z"
   }
 }
