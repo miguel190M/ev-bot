@@ -1366,5 +1366,24 @@
    "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-18T11:58:03.961013+00:00",
+  "markets": 4,
+  "markets_sharp": 3,
+  "outcomes": 14,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.822,
+   "ev_pct": -1.72,
+   "threshold_pct": 1.1,
+   "price": 1.05,
+   "outcome": "Pakistan",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
  }
 ]
