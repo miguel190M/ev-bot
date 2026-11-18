@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-16T23:30:38.639563+00:00",
-  "markets": 10,
-  "markets_sharp": 10,
-  "outcomes": 40,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.904,
-   "ev_pct": -0.4,
-   "threshold_pct": 1.5,
-   "price": 1.34,
-   "outcome": "Cleveland Cavaliers",
-   "book": "Betfair",
-   "matchup": "Chicago Bulls @ Cleveland Cavaliers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-17T00:00:53.423487+00:00",
   "markets": 24,
   "markets_sharp": 16,
@@ -1420,6 +1401,25 @@
    "outcome": "Philadelphia 76ers",
    "book": "SportsBet",
    "matchup": "Philadelphia 76ers @ Orlando Magic",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-18T23:30:50.659836+00:00",
+  "markets": 12,
+  "markets_sharp": 12,
+  "outcomes": 70,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.937,
+   "ev_pct": -1.06,
+   "threshold_pct": 1.88,
+   "price": 1.88,
+   "outcome": "Brooklyn Nets",
+   "book": "Betfair",
+   "matchup": "Chicago Bulls @ Brooklyn Nets",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
