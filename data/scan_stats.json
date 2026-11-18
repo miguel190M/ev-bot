@@ -1309,5 +1309,24 @@
    "sport_key": "cricket_odi",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-18T01:03:35.670287+00:00",
+  "markets": 5,
+  "markets_sharp": 5,
+  "outcomes": 30,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.208,
+   "ev_pct": -0.58,
+   "threshold_pct": 1.63,
+   "price": 1.63,
+   "outcome": "Minnesota Timberwolves",
+   "book": "Betfair",
+   "matchup": "Portland Trail Blazers @ Minnesota Timberwolves",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
