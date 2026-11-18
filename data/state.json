@@ -1,1 +1,10 @@
-{}
+{
+  "635a9b07c018a821e08b521ea473133b:betfair_ex_au:Philadelphia 76ers": {
+    "ev_pct": 2.62,
+    "commence_time": "2026-11-19T00:10:00Z"
+  },
+  "635a9b07c018a821e08b521ea473133b:sportsbet:Philadelphia 76ers": {
+    "ev_pct": 5.55,
+    "commence_time": "2026-11-19T00:10:00Z"
+  }
+}
