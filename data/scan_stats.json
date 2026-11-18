@@ -1404,5 +1404,24 @@
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-18T20:44:35.688755+00:00",
+  "markets": 4,
+  "markets_sharp": 2,
+  "outcomes": 15,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.843,
+   "ev_pct": -0.72,
+   "threshold_pct": 1.12,
+   "price": 1.06,
+   "outcome": "Pakistan",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
  }
 ]
