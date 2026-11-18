@@ -1385,5 +1385,24 @@
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-18T12:00:47.400212+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 14,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.643,
+   "ev_pct": -2.02,
+   "threshold_pct": 1.62,
+   "price": 1.62,
+   "outcome": "UMass Minutemen",
+   "book": "NextBet",
+   "matchup": "Akron Zips @ UMass Minutemen",
+   "sport_key": "americanfootball_ncaaf",
+   "anchor": "pinnacle"
+  }
  }
 ]
