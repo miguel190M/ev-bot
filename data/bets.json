@@ -2352,15 +2352,18 @@
     "large_edge": false,
     "arb_hedge": false,
     "stake": 10.0,
-    "status": "open",
-    "profit": null,
+    "status": "lost",
+    "profit": -10.0,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-17T20:00:49.970296+00:00",
     "lead_hours": 10.6,
     "logged_at": "2026-11-17T21:30:33.628010+00:00",
     "closing_fair_odds": 2.116,
-    "closing_captured_at": "2026-11-18T06:30:37.519560+00:00"
+    "closing_captured_at": "2026-11-18T06:30:37.519560+00:00",
+    "clv_pct": 3.97,
+    "net_clv_pct": 3.97,
+    "resolved_at": "2026-11-18T11:00:48.120042+00:00"
   },
   "e35c": {
     "event_id": "bafa85d08236df7c933ee6977f421472",
