@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-16T21:30:35.409319+00:00",
-  "markets": 10,
-  "markets_sharp": 10,
-  "outcomes": 40,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.859,
-   "ev_pct": -0.36,
-   "threshold_pct": 1.5,
-   "price": 1.34,
-   "outcome": "Utah Mammoth",
-   "book": "Betfair",
-   "matchup": "Vancouver Canucks @ Utah Mammoth",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-16T22:00:48.543794+00:00",
   "markets": 34,
   "markets_sharp": 21,
@@ -1415,6 +1396,25 @@
   "best": {
    "gap": -1.843,
    "ev_pct": -0.72,
+   "threshold_pct": 1.12,
+   "price": 1.06,
+   "outcome": "Pakistan",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-18T21:30:50.955145+00:00",
+  "markets": 15,
+  "markets_sharp": 13,
+  "outcomes": 79,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.96,
+   "ev_pct": -0.84,
    "threshold_pct": 1.12,
    "price": 1.06,
    "outcome": "Pakistan",
