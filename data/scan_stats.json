@@ -1366,5 +1366,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-18T10:30:39.882754+00:00",
+  "markets": 3,
+  "markets_sharp": 2,
+  "outcomes": 14,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.28,
+   "ev_pct": -0.18,
+   "threshold_pct": 1.1,
+   "price": 1.05,
+   "outcome": "Teremoana Junior",
+   "book": "SportsBet",
+   "matchup": "Hemi Ahio @ Teremoana Junior",
+   "sport_key": "boxing_boxing",
+   "anchor": "retail_consensus"
+  }
  }
 ]
