@@ -170,6 +170,25 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
+ "basketball_ncaab|Montana St Bobcats @ Gonzaga Bulldogs|h2h|Montana St Bobcats|SportsBet": {
+  "alerted": false,
+  "anchor": "retail_consensus",
+  "book": "SportsBet",
+  "commence_time": "2026-11-18T04:00:00Z",
+  "consensus_odds": 27.531,
+  "ev_pct": 23.5,
+  "fair_odds": 27.531,
+  "first_seen": "2026-11-18T02:00:46.370436+00:00",
+  "last_seen": "2026-11-18T02:00:46.370436+00:00",
+  "market": "h2h",
+  "matchup": "Montana St Bobcats @ Gonzaga Bulldogs",
+  "max_ev_pct": 23.5,
+  "outcome": "Montana St Bobcats",
+  "price": 34.0,
+  "seen": 1,
+  "sharp_odds": null,
+  "sport_key": "basketball_ncaab"
+ },
  "basketball_ncaab|Nicholls St Colonels @ Ole Miss Rebels|h2h|Nicholls St Colonels|SportsBet": {
   "alerted": false,
   "anchor": "retail_consensus",
