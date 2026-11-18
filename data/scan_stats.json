@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-16T20:00:47.972972+00:00",
-  "markets": 37,
-  "markets_sharp": 24,
-  "outcomes": 101,
-  "capped": 7,
-  "flagged": 0,
-  "best": {
-   "gap": 0.775,
-   "ev_pct": 3.44,
-   "threshold_pct": 2.66,
-   "price": 2.66,
-   "outcome": "Pakistan",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-16T21:00:44.925015+00:00",
   "markets": 5,
   "markets_sharp": 3,
@@ -1384,6 +1365,25 @@
    "matchup": "Rafael Jodar @ Ben Shelton",
    "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-18T20:00:54.669106+00:00",
+  "markets": 74,
+  "markets_sharp": 56,
+  "outcomes": 225,
+  "capped": 10,
+  "flagged": 0,
+  "best": {
+   "gap": -1.843,
+   "ev_pct": -0.72,
+   "threshold_pct": 1.12,
+   "price": 1.06,
+   "outcome": "Pakistan",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
