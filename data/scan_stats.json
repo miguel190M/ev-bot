@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-16T11:00:54.458032+00:00",
-  "markets": 6,
-  "markets_sharp": 3,
-  "outcomes": 13,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": -0.704,
-   "ev_pct": 1.92,
-   "threshold_pct": 2.62,
-   "price": 2.62,
-   "outcome": "Pakistan",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-16T11:30:38.174469+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 4,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.978,
-   "ev_pct": -1.48,
-   "threshold_pct": 1.5,
-   "price": 1.11,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Frances Tiafoe @ Carlos Alcaraz",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-16T12:00:59.426351+00:00",
   "markets": 3,
   "markets_sharp": 3,
@@ -1381,6 +1343,25 @@
    "price": 1.25,
    "outcome": "Carlos Alcaraz",
    "book": "NextBet",
+   "matchup": "Daniil Medvedev @ Carlos Alcaraz",
+   "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-18T11:30:38.471414+00:00",
+  "markets": 2,
+  "markets_sharp": 2,
+  "outcomes": 8,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.055,
+   "ev_pct": 0.16,
+   "threshold_pct": 4.21,
+   "price": 4.7,
+   "outcome": "Daniil Medvedev",
+   "book": "Betfair",
    "matchup": "Daniil Medvedev @ Carlos Alcaraz",
    "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
