@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-16T03:00:48.442159+00:00",
-  "markets": 4,
-  "markets_sharp": 2,
-  "outcomes": 10,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.114,
-   "ev_pct": -0.61,
-   "threshold_pct": 1.5,
-   "price": 1.12,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Frances Tiafoe @ Carlos Alcaraz",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-16T03:30:37.624116+00:00",
   "markets": 2,
   "markets_sharp": 0,
@@ -1346,6 +1327,25 @@
    "matchup": "Utah Jazz @ Los Angeles Clippers",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-18T03:00:49.160720+00:00",
+  "markets": 9,
+  "markets_sharp": 6,
+  "outcomes": 38,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.779,
+   "ev_pct": -1.68,
+   "threshold_pct": 1.1,
+   "price": 1.05,
+   "outcome": "Teremoana Junior",
+   "book": "SportsBet",
+   "matchup": "Hemi Ahio @ Teremoana Junior",
+   "sport_key": "boxing_boxing",
+   "anchor": "retail_consensus"
   }
  }
 ]
