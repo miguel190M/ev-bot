@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-16T12:00:59.426351+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 7,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.905,
-   "ev_pct": -1.41,
-   "threshold_pct": 1.5,
-   "price": 1.13,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Frances Tiafoe @ Carlos Alcaraz",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-16T12:30:36.230697+00:00",
-  "markets": 6,
-  "markets_sharp": 6,
-  "outcomes": 20,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.905,
-   "ev_pct": -1.41,
-   "threshold_pct": 1.5,
-   "price": 1.13,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Frances Tiafoe @ Carlos Alcaraz",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-16T13:00:50.329046+00:00",
   "markets": 4,
   "markets_sharp": 4,
@@ -1402,6 +1364,25 @@
    "book": "NextBet",
    "matchup": "Akron Zips @ UMass Minutemen",
    "sport_key": "americanfootball_ncaaf",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-18T12:30:36.761835+00:00",
+  "markets": 6,
+  "markets_sharp": 6,
+  "outcomes": 32,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.37,
+   "ev_pct": -0.87,
+   "threshold_pct": 1.5,
+   "price": 1.35,
+   "outcome": "Houston Rockets",
+   "book": "SportsBet",
+   "matchup": "Houston Rockets @ Indiana Pacers",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
