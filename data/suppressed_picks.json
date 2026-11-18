@@ -94,6 +94,25 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
+ "basketball_ncaab|Jackson St Tigers @ Baylor Bears|h2h|Jackson St Tigers|SportsBet": {
+  "alerted": false,
+  "anchor": "retail_consensus",
+  "book": "SportsBet",
+  "commence_time": "2026-11-18T17:00:00Z",
+  "consensus_odds": 21.558,
+  "ev_pct": 484.5,
+  "fair_odds": 21.558,
+  "first_seen": "2026-11-18T05:00:54.370458+00:00",
+  "last_seen": "2026-11-18T05:00:54.370458+00:00",
+  "market": "h2h",
+  "matchup": "Jackson St Tigers @ Baylor Bears",
+  "max_ev_pct": 484.5,
+  "outcome": "Jackson St Tigers",
+  "price": 126.0,
+  "seen": 1,
+  "sharp_odds": null,
+  "sport_key": "basketball_ncaab"
+ },
  "basketball_ncaab|Kennesaw St Owls @ Alabama Crimson Tide|h2h|Kennesaw St Owls|Betfair": {
   "alerted": false,
   "anchor": "retail_consensus",
