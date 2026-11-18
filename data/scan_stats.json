@@ -1347,5 +1347,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-18T03:30:36.537497+00:00",
+  "markets": 5,
+  "markets_sharp": 3,
+  "outcomes": 21,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.147,
+   "ev_pct": -2.65,
+   "threshold_pct": 1.5,
+   "price": 1.49,
+   "outcome": "Los Angeles Clippers",
+   "book": "Betfair",
+   "matchup": "Utah Jazz @ Los Angeles Clippers",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
