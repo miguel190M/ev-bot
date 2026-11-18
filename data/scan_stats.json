@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-16T01:00:46.574070+00:00",
-  "markets": 6,
-  "markets_sharp": 4,
-  "outcomes": 18,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.114,
-   "ev_pct": -0.61,
-   "threshold_pct": 1.5,
-   "price": 1.12,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Frances Tiafoe @ Carlos Alcaraz",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-16T01:30:35.487435+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1307,6 +1288,25 @@
    "book": "SportsBet",
    "matchup": "New York Knicks @ Toronto Raptors",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-18T01:00:48.779913+00:00",
+  "markets": 11,
+  "markets_sharp": 8,
+  "outcomes": 50,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.077,
+   "ev_pct": 0.14,
+   "threshold_pct": 2.22,
+   "price": 2.22,
+   "outcome": "England",
+   "book": "Betfair",
+   "matchup": "England @ Australia",
+   "sport_key": "cricket_odi",
    "anchor": "pinnacle"
   }
  }
