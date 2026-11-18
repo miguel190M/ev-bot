@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-16T00:01:05.974864+00:00",
-  "markets": 15,
-  "markets_sharp": 12,
-  "outcomes": 48,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": -2.147,
-   "ev_pct": -0.65,
-   "threshold_pct": 1.5,
-   "price": 1.12,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Frances Tiafoe @ Carlos Alcaraz",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-16T00:30:37.449182+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 12,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.076,
-   "ev_pct": -1.58,
-   "threshold_pct": 1.5,
-   "price": 1.23,
-   "outcome": "Oklahoma City Thunder",
-   "book": "Betfair",
-   "matchup": "Oklahoma City Thunder @ Sacramento Kings",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-16T01:00:46.574070+00:00",
   "markets": 6,
   "markets_sharp": 4,
@@ -1327,6 +1289,25 @@
    "matchup": "Montana St Bobcats @ Gonzaga Bulldogs",
    "sport_key": "basketball_ncaab",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-18T00:30:50.366330+00:00",
+  "markets": 6,
+  "markets_sharp": 6,
+  "outcomes": 36,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.596,
+   "ev_pct": -0.4,
+   "threshold_pct": 2.2,
+   "price": 2.2,
+   "outcome": "Toronto Raptors",
+   "book": "SportsBet",
+   "matchup": "New York Knicks @ Toronto Raptors",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
   }
  }
 ]
