@@ -1309,5 +1309,24 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-18T00:00:53.553299+00:00",
+  "markets": 40,
+  "markets_sharp": 28,
+  "outcomes": 128,
+  "capped": 6,
+  "flagged": 0,
+  "best": {
+   "gap": -1.773,
+   "ev_pct": -0.71,
+   "threshold_pct": 1.06,
+   "price": 1.03,
+   "outcome": "Gonzaga Bulldogs",
+   "book": "Betfair",
+   "matchup": "Montana St Bobcats @ Gonzaga Bulldogs",
+   "sport_key": "basketball_ncaab",
+   "anchor": "retail_consensus"
+  }
  }
 ]
