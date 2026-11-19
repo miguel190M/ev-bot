@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-17T00:00:53.423487+00:00",
-  "markets": 24,
-  "markets_sharp": 16,
-  "outcomes": 67,
-  "capped": 4,
-  "flagged": 0,
-  "best": {
-   "gap": -1.747,
-   "ev_pct": -0.25,
-   "threshold_pct": 1.5,
-   "price": 1.32,
-   "outcome": "Boston Celtics",
-   "book": "Betfair",
-   "matchup": "Orlando Magic @ Boston Celtics",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-17T00:30:35.296348+00:00",
   "markets": 6,
   "markets_sharp": 6,
@@ -1422,6 +1403,25 @@
    "matchup": "Chicago Bulls @ Brooklyn Nets",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-19T00:00:56.804884+00:00",
+  "markets": 48,
+  "markets_sharp": 32,
+  "outcomes": 162,
+  "capped": 9,
+  "flagged": 0,
+  "best": {
+   "gap": -1.96,
+   "ev_pct": -0.84,
+   "threshold_pct": 1.12,
+   "price": 1.06,
+   "outcome": "Pakistan",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
