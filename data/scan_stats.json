@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-17T22:00:50.232424+00:00",
-  "markets": 66,
-  "markets_sharp": 49,
-  "outcomes": 194,
-  "capped": 8,
-  "flagged": 0,
-  "best": {
-   "gap": -1.638,
-   "ev_pct": -0.58,
-   "threshold_pct": 1.06,
-   "price": 1.03,
-   "outcome": "Gonzaga Bulldogs",
-   "book": "Betfair",
-   "matchup": "Montana St Bobcats @ Gonzaga Bulldogs",
-   "sport_key": "basketball_ncaab",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-17T22:30:36.329280+00:00",
   "markets": 5,
   "markets_sharp": 5,
@@ -1497,6 +1478,25 @@
    "book": "SportsBet",
    "matchup": "Victor Morales Jr @ Leonardo Sanchez",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-19T22:30:36.160546+00:00",
+  "markets": 5,
+  "markets_sharp": 5,
+  "outcomes": 30,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.703,
+   "ev_pct": -0.2,
+   "threshold_pct": 1.5,
+   "price": 1.17,
+   "outcome": "Houston Texans",
+   "book": "Betfair",
+   "matchup": "Indianapolis Colts @ Houston Texans",
+   "sport_key": "americanfootball_nfl",
    "anchor": "pinnacle"
   }
  }
