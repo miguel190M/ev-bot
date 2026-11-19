@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-17T03:00:50.365952+00:00",
-  "markets": 5,
-  "markets_sharp": 3,
-  "outcomes": 13,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.183,
-   "ev_pct": 0.4,
-   "threshold_pct": 2.58,
-   "price": 2.58,
-   "outcome": "Pakistan",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-17T03:30:47.070521+00:00",
   "markets": 4,
   "markets_sharp": 1,
@@ -1429,6 +1410,25 @@
   "markets": 5,
   "markets_sharp": 3,
   "outcomes": 24,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.96,
+   "ev_pct": -0.84,
+   "threshold_pct": 1.12,
+   "price": 1.06,
+   "outcome": "Pakistan",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-19T03:00:52.102114+00:00",
+  "markets": 6,
+  "markets_sharp": 4,
+  "outcomes": 26,
   "capped": 0,
   "flagged": 0,
   "best": {
