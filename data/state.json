@@ -6,5 +6,17 @@
   "1cd25143408ea45a393e8267ccd3afeb:nextbet:Carlos Alcaraz": {
     "ev_pct": 2.15,
     "commence_time": "2026-11-20T13:00:00Z"
+  },
+  "4b01ab5b0f5c1709a8cf135c80ed0386:sportsbet:Alberto Ignacio Palmetta": {
+    "ev_pct": 3.26,
+    "commence_time": "2026-11-20T19:00:00Z"
+  },
+  "4b01ab5b0f5c1709a8cf135c80ed0386:betfair_ex_au:Willy Gilheaney": {
+    "ev_pct": 1.79,
+    "commence_time": "2026-11-20T19:00:00Z"
+  },
+  "c65d74c382bec5dc7dacdb62b641728b:sportsbet:Virtus Segafredo Bologna": {
+    "ev_pct": 13.78,
+    "commence_time": "2026-11-19T20:06:00Z"
   }
 }
