@@ -1442,5 +1442,24 @@
    "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-19T12:00:52.168570+00:00",
+  "markets": 3,
+  "markets_sharp": 2,
+  "outcomes": 11,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.325,
+   "ev_pct": -1.83,
+   "threshold_pct": 1.5,
+   "price": 1.36,
+   "outcome": "Ben Shelton",
+   "book": "NextBet",
+   "matchup": "Rafael Jodar @ Ben Shelton",
+   "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
  }
 ]
