@@ -1423,5 +1423,24 @@
    "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-19T09:30:34.908278+00:00",
+  "markets": 6,
+  "markets_sharp": 6,
+  "outcomes": 24,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.451,
+   "ev_pct": -0.95,
+   "threshold_pct": 1.5,
+   "price": 1.23,
+   "outcome": "Valencia Basket",
+   "book": "Betfair",
+   "matchup": "Virtus Segafredo Bologna @ Valencia Basket",
+   "sport_key": "basketball_euroleague",
+   "anchor": "pinnacle"
+  }
  }
 ]
