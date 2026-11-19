@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-17T07:00:45.510789+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 4,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -5.994,
-   "ev_pct": -4.49,
-   "threshold_pct": 1.5,
-   "price": 1.5,
-   "outcome": "Alexander Zverev",
-   "book": "NextBet",
-   "matchup": "Ben Shelton @ Alexander Zverev",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-17T07:30:34.831147+00:00",
   "markets": 1,
   "markets_sharp": 0,
@@ -1422,6 +1403,25 @@
    "matchup": "Bangladesh @ South Africa",
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-19T07:00:50.300054+00:00",
+  "markets": 5,
+  "markets_sharp": 3,
+  "outcomes": 20,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 0.038,
+   "ev_pct": 1.6,
+   "threshold_pct": 1.56,
+   "price": 1.56,
+   "outcome": "Adelaide 36ers",
+   "book": "SportsBet",
+   "matchup": "Adelaide 36ers @ Illawarra Hawks",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
   }
  }
 ]
