@@ -215,5 +215,29 @@
     "large_edge": false,
     "suggested_stake": 9.0,
     "alerted_at": "2026-11-19T20:00:53.060353+00:00"
+  },
+  "599a": {
+    "event_id": "1985219fd04a6f3079d6d5e5abb82ded",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-20T21:00:00Z",
+    "home_team": "Rhys Edwards",
+    "away_team": "Lee McGregor",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Rhys Edwards",
+    "price": 1.27,
+    "commission": 0.0,
+    "fair_probability": 0.8247,
+    "fair_odds": 1.213,
+    "ev_pct": 4.74,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.8247,
+    "consensus_probability": 0.8061,
+    "large_edge": false,
+    "suggested_stake": 47.0,
+    "alerted_at": "2026-11-19T21:00:45.663037+00:00"
   }
 }
