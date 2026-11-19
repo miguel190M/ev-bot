@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-17T08:00:45.378484+00:00",
-  "markets": 11,
-  "markets_sharp": 2,
-  "outcomes": 22,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -5.994,
-   "ev_pct": -4.49,
-   "threshold_pct": 1.5,
-   "price": 1.5,
-   "outcome": "Alexander Zverev",
-   "book": "NextBet",
-   "matchup": "Ben Shelton @ Alexander Zverev",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-17T08:30:50.129409+00:00",
   "markets": 1,
   "markets_sharp": 0,
@@ -1417,6 +1398,25 @@
    "ev_pct": -0.16,
    "threshold_pct": 1.54,
    "price": 1.54,
+   "outcome": "Adelaide 36ers",
+   "book": "SportsBet",
+   "matchup": "Adelaide 36ers @ Illawarra Hawks",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-19T08:00:46.667594+00:00",
+  "markets": 4,
+  "markets_sharp": 3,
+  "outcomes": 17,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.339,
+   "ev_pct": -0.81,
+   "threshold_pct": 1.53,
+   "price": 1.53,
    "outcome": "Adelaide 36ers",
    "book": "SportsBet",
    "matchup": "Adelaide 36ers @ Illawarra Hawks",
