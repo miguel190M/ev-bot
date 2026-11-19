@@ -2382,8 +2382,8 @@
     "large_edge": false,
     "arb_hedge": false,
     "stake": 20.0,
-    "status": "open",
-    "profit": null,
+    "status": "won",
+    "profit": 24.0,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-18T07:00:44.415387+00:00",
@@ -2391,7 +2391,11 @@
     "logged_at": "2026-11-18T07:30:32.407435+00:00",
     "closing_fair_odds": 2.165,
     "closing_captured_at": "2026-11-18T07:30:36.707905+00:00",
-    "settle_reminded_at": "2026-11-18T20:00:54.671383+00:00"
+    "settle_reminded_at": "2026-11-18T20:00:54.671383+00:00",
+    "settled_manually": true,
+    "clv_pct": 1.62,
+    "net_clv_pct": 1.62,
+    "resolved_at": "2026-11-19T04:30:45.921888+00:00"
   },
   "90ba": {
     "event_id": "8a39a8ee2326069ddc53b8ccb0ae8c26",
@@ -2410,8 +2414,8 @@
     "large_edge": false,
     "arb_hedge": false,
     "stake": 20.0,
-    "status": "open",
-    "profit": null,
+    "status": "won",
+    "profit": 5.26,
     "source": "live",
     "bookmaker_key": "betfair_ex_au",
     "alerted_at": "2026-11-18T07:00:44.415387+00:00",
@@ -2421,7 +2425,11 @@
     "alert_ev_pct": 1.9,
     "closing_fair_odds": 1.23,
     "closing_captured_at": "2026-11-18T07:30:36.707905+00:00",
-    "settle_reminded_at": "2026-11-18T20:00:54.671383+00:00"
+    "settle_reminded_at": "2026-11-18T20:00:54.671383+00:00",
+    "settled_manually": true,
+    "clv_pct": 4.07,
+    "net_clv_pct": 2.7,
+    "resolved_at": "2026-11-19T04:30:46.602318+00:00"
   },
   "d13b": {
     "event_id": "635a9b07c018a821e08b521ea473133b",
@@ -2440,8 +2448,8 @@
     "large_edge": false,
     "arb_hedge": false,
     "stake": 15.0,
-    "status": "open",
-    "profit": null,
+    "status": "won",
+    "profit": 18.45,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-18T23:01:02.524242+00:00",
@@ -2450,6 +2458,9 @@
     "alert_price": 2.15,
     "alert_ev_pct": 5.55,
     "closing_fair_odds": 2.706,
-    "closing_captured_at": "2026-11-19T00:00:56.806270+00:00"
+    "closing_captured_at": "2026-11-19T00:00:56.806270+00:00",
+    "clv_pct": -17.59,
+    "net_clv_pct": -17.59,
+    "resolved_at": "2026-11-19T04:30:52.072003+00:00"
   }
 }
