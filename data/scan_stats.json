@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-17T11:00:48.309223+00:00",
-  "markets": 4,
-  "markets_sharp": 3,
-  "outcomes": 17,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.913,
-   "ev_pct": -0.79,
-   "threshold_pct": 1.12,
-   "price": 1.06,
-   "outcome": "Teremoana Junior",
-   "book": "SportsBet",
-   "matchup": "Hemi Ahio @ Teremoana Junior",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-17T11:30:50.869776+00:00",
   "markets": 3,
   "markets_sharp": 2,
@@ -1434,6 +1415,25 @@
   "best": {
    "gap": -0.144,
    "ev_pct": 1.36,
+   "threshold_pct": 1.5,
+   "price": 1.4,
+   "outcome": "Ben Shelton",
+   "book": "NextBet",
+   "matchup": "Rafael Jodar @ Ben Shelton",
+   "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-19T11:30:42.459023+00:00",
+  "markets": 5,
+  "markets_sharp": 2,
+  "outcomes": 16,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -0.378,
+   "ev_pct": 1.12,
    "threshold_pct": 1.5,
    "price": 1.4,
    "outcome": "Ben Shelton",
