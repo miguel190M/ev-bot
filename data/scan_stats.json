@@ -1461,5 +1461,24 @@
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-19T20:50:01.200733+00:00",
+  "markets": 3,
+  "markets_sharp": 2,
+  "outcomes": 16,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.082,
+   "ev_pct": 3.62,
+   "threshold_pct": 6.7,
+   "price": 3.85,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
  }
 ]

@@ -2492,5 +2492,32 @@
     "clv_pct": 2.3,
     "net_clv_pct": 2.3,
     "resolved_at": "2026-11-19T13:00:51.870877+00:00"
+  },
+  "5c3a": {
+    "event_id": "1cd25143408ea45a393e8267ccd3afeb",
+    "sport_key": "tennis_atp_finals",
+    "commence_time": "2026-11-20T13:00:00Z",
+    "home_team": "Carlos Alcaraz",
+    "away_team": "Flavio Cobolli",
+    "market_key": "h2h",
+    "bookmaker_title": "Betfair",
+    "outcome": "Carlos Alcaraz",
+    "price": 1.25,
+    "commission": 0.06,
+    "ev_pct": 7.83,
+    "anchor": "pinnacle",
+    "sharp_disagreement": false,
+    "large_edge": false,
+    "arb_hedge": false,
+    "stake": 25.0,
+    "status": "open",
+    "profit": null,
+    "source": "live",
+    "bookmaker_key": "betfair_ex_au",
+    "alerted_at": "2026-11-19T13:30:38.361007+00:00",
+    "lead_hours": 23.5,
+    "logged_at": "2026-11-19T20:49:58.463965+00:00",
+    "alert_price": 1.2,
+    "alert_ev_pct": 3.73
   }
 }
