@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-17T09:30:50.187577+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 6,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -4.728,
-   "ev_pct": -1.29,
-   "threshold_pct": 3.44,
-   "price": 2.22,
-   "outcome": "England",
-   "book": "Betfair",
-   "matchup": "England @ Australia",
-   "sport_key": "cricket_odi",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-17T10:00:53.619448+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 8,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -4.753,
-   "ev_pct": -3.23,
-   "threshold_pct": 1.52,
-   "price": 1.52,
-   "outcome": "Alexander Zverev",
-   "book": "Betfair",
-   "matchup": "Ben Shelton @ Alexander Zverev",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-17T10:30:38.961567+00:00",
   "markets": 3,
   "markets_sharp": 2,
@@ -1440,6 +1402,25 @@
    "book": "Betfair",
    "matchup": "Virtus Segafredo Bologna @ Valencia Basket",
    "sport_key": "basketball_euroleague",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-19T10:01:04.879089+00:00",
+  "markets": 3,
+  "markets_sharp": 2,
+  "outcomes": 11,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.054,
+   "ev_pct": 0.45,
+   "threshold_pct": 1.5,
+   "price": 1.4,
+   "outcome": "Ben Shelton",
+   "book": "NextBet",
+   "matchup": "Rafael Jodar @ Ben Shelton",
+   "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
   }
  }
