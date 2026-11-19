@@ -1423,5 +1423,24 @@
    "sport_key": "basketball_nbl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-19T08:30:38.121139+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 6,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.515,
+   "ev_pct": -3.01,
+   "threshold_pct": 1.51,
+   "price": 1.51,
+   "outcome": "Adelaide 36ers",
+   "book": "Betfair",
+   "matchup": "Adelaide 36ers @ Illawarra Hawks",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
  }
 ]
