@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-17T10:30:38.961567+00:00",
-  "markets": 3,
-  "markets_sharp": 2,
-  "outcomes": 14,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -4.663,
-   "ev_pct": -2.68,
-   "threshold_pct": 1.98,
-   "price": 1.98,
-   "outcome": "Arthur Fils",
-   "book": "Betfair",
-   "matchup": "Rafael Jodar @ Arthur Fils",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-17T11:00:48.309223+00:00",
   "markets": 4,
   "markets_sharp": 3,
@@ -1410,6 +1391,25 @@
   "markets": 3,
   "markets_sharp": 2,
   "outcomes": 11,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.054,
+   "ev_pct": 0.45,
+   "threshold_pct": 1.5,
+   "price": 1.4,
+   "outcome": "Ben Shelton",
+   "book": "NextBet",
+   "matchup": "Rafael Jodar @ Ben Shelton",
+   "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-19T10:30:49.055445+00:00",
+  "markets": 2,
+  "markets_sharp": 2,
+  "outcomes": 8,
   "capped": 0,
   "flagged": 0,
   "best": {
