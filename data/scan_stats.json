@@ -1480,5 +1480,24 @@
    "sport_key": "icehockey_nhl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-19T22:00:48.171295+00:00",
+  "markets": 34,
+  "markets_sharp": 25,
+  "outcomes": 98,
+  "capped": 3,
+  "flagged": 0,
+  "best": {
+   "gap": 4.114,
+   "ev_pct": 5.61,
+   "threshold_pct": 1.5,
+   "price": 1.28,
+   "outcome": "Leonardo Sanchez",
+   "book": "SportsBet",
+   "matchup": "Victor Morales Jr @ Leonardo Sanchez",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
