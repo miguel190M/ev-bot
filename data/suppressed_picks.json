@@ -360,6 +360,25 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
+ "boxing_boxing|Alan Crisosto @ David Lopez|h2h|Alan Crisosto|SportsBet": {
+  "alerted": false,
+  "anchor": "retail_consensus",
+  "book": "SportsBet",
+  "commence_time": "2026-11-20T22:00:00Z",
+  "consensus_odds": 19.085,
+  "ev_pct": 20.5,
+  "fair_odds": 19.085,
+  "first_seen": "2026-11-20T01:00:49.554223+00:00",
+  "last_seen": "2026-11-20T01:00:49.554223+00:00",
+  "market": "h2h",
+  "matchup": "Alan Crisosto @ David Lopez",
+  "max_ev_pct": 20.5,
+  "outcome": "Alan Crisosto",
+  "price": 23.0,
+  "seen": 1,
+  "sharp_odds": null,
+  "sport_key": "boxing_boxing"
+ },
  "cricket_test_match|Bangladesh @ South Africa|h2h|Bangladesh|Betfair": {
   "alerted": false,
   "anchor": "retail_consensus",

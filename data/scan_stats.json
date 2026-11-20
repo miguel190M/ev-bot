@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-18T00:30:50.366330+00:00",
-  "markets": 6,
-  "markets_sharp": 6,
-  "outcomes": 36,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.596,
-   "ev_pct": -0.4,
-   "threshold_pct": 2.2,
-   "price": 2.2,
-   "outcome": "Toronto Raptors",
-   "book": "SportsBet",
-   "matchup": "New York Knicks @ Toronto Raptors",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-18T01:00:48.779913+00:00",
-  "markets": 11,
-  "markets_sharp": 8,
-  "outcomes": 50,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.077,
-   "ev_pct": 0.14,
-   "threshold_pct": 2.22,
-   "price": 2.22,
-   "outcome": "England",
-   "book": "Betfair",
-   "matchup": "England @ Australia",
-   "sport_key": "cricket_odi",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-18T01:03:35.670287+00:00",
   "markets": 5,
   "markets_sharp": 5,
@@ -1497,6 +1459,25 @@
    "book": "Betfair",
    "matchup": "Portland Trail Blazers @ Milwaukee Bucks",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-20T01:00:49.554634+00:00",
+  "markets": 13,
+  "markets_sharp": 9,
+  "outcomes": 69,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": 6.957,
+   "ev_pct": 8.46,
+   "threshold_pct": 1.5,
+   "price": 1.27,
+   "outcome": "Rhys Edwards",
+   "book": "SportsBet",
+   "matchup": "Lee McGregor @ Rhys Edwards",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
