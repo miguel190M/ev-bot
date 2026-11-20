@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-18T02:00:46.371213+00:00",
-  "markets": 14,
-  "markets_sharp": 10,
-  "outcomes": 52,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": -2.259,
-   "ev_pct": -0.76,
-   "threshold_pct": 1.5,
-   "price": 1.07,
-   "outcome": "Kansas Jayhawks",
-   "book": "Betfair",
-   "matchup": "UNLV Rebels @ Kansas Jayhawks",
-   "sport_key": "basketball_ncaab",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-18T02:30:36.116527+00:00",
   "markets": 6,
   "markets_sharp": 4,
@@ -1479,6 +1460,25 @@
    "matchup": "Lee McGregor @ Rhys Edwards",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-20T02:26:01.012599+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 3,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": -2.145,
+   "ev_pct": -1.11,
+   "threshold_pct": 1.04,
+   "price": 1.02,
+   "outcome": "Pakistan",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]

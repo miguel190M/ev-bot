@@ -94,25 +94,6 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
- "basketball_ncaab|Montana St Bobcats @ Gonzaga Bulldogs|h2h|Montana St Bobcats|SportsBet": {
-  "alerted": false,
-  "anchor": "retail_consensus",
-  "book": "SportsBet",
-  "commence_time": "2026-11-18T04:00:00Z",
-  "consensus_odds": 27.531,
-  "ev_pct": 23.5,
-  "fair_odds": 27.531,
-  "first_seen": "2026-11-18T02:00:46.370436+00:00",
-  "last_seen": "2026-11-18T02:00:46.370436+00:00",
-  "market": "h2h",
-  "matchup": "Montana St Bobcats @ Gonzaga Bulldogs",
-  "max_ev_pct": 23.5,
-  "outcome": "Montana St Bobcats",
-  "price": 34.0,
-  "seen": 1,
-  "sharp_odds": null,
-  "sport_key": "basketball_ncaab"
- },
  "basketball_ncaab|N Colorado Bears @ BYU Cougars|h2h|N Colorado Bears|SportsBet": {
   "alerted": false,
   "anchor": "retail_consensus",
@@ -407,13 +388,13 @@
   "ev_pct": 497.5,
   "fair_odds": 157.341,
   "first_seen": "2026-11-18T13:01:04.127945+00:00",
-  "last_seen": "2026-11-20T02:00:45.412152+00:00",
+  "last_seen": "2026-11-20T02:26:01.011935+00:00",
   "market": "h2h",
   "matchup": "Sri Lanka @ Pakistan",
   "max_ev_pct": 497.5,
   "outcome": "Draw",
   "price": 1000.0,
-  "seen": 3,
+  "seen": 4,
   "sharp_odds": null,
   "sport_key": "cricket_test_match"
  }

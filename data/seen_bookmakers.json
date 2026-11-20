@@ -1,26 +1,7 @@
 {
   "betfair_ex_au": "Betfair",
   "betfair_ex_eu": "Betfair",
-  "betonlineag": "BetOnline.ag",
-  "betr_au": "Betr",
-  "betright": "Bet Right",
-  "betsson": "Betsson",
-  "everygame": "Everygame",
-  "gtbets": "GTbets",
   "ladbrokes_au": "Ladbrokes",
-  "leovegas_se": "LeoVegas (SE)",
   "neds": "Neds",
-  "nordicbet": "Nordic Bet",
-  "onexbet": "1xBet",
-  "picklebet_au": "Picklebet (AU)",
-  "pinnacle": "Pinnacle",
-  "pmu_fr": "PMU (FR)",
-  "pointsbetau": "PointsBet (AU)",
-  "sport888": "888sport",
-  "sportsbet": "SportsBet",
-  "tab": "TAB",
-  "tabtouch": "TABtouch",
-  "unibet_nl": "Unibet (NL)",
-  "unibet_se": "Unibet (SE)",
-  "winamax_fr": "Winamax (FR)"
+  "tab": "TAB"
 }
