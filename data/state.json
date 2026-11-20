@@ -1,12 +1,4 @@
 {
-  "4b01ab5b0f5c1709a8cf135c80ed0386:sportsbet:Alberto Ignacio Palmetta": {
-    "ev_pct": 3.26,
-    "commence_time": "2026-11-20T19:00:00Z"
-  },
-  "4b01ab5b0f5c1709a8cf135c80ed0386:betfair_ex_au:Willy Gilheaney": {
-    "ev_pct": 1.79,
-    "commence_time": "2026-11-20T19:00:00Z"
-  },
   "1985219fd04a6f3079d6d5e5abb82ded:sportsbet:Rhys Edwards": {
     "ev_pct": 4.74,
     "commence_time": "2026-11-20T21:00:00Z"
@@ -19,8 +11,12 @@
     "ev_pct": 4.09,
     "commence_time": "2026-11-21T08:15:00Z"
   },
-  "888e7a7347f634d39b6e47b831e096bd:sportsbet:Jake Goodwin": {
-    "ev_pct": 8.93,
-    "commence_time": "2026-11-20T19:00:00Z"
+  "48bcbd1190da8e0cd6081b17cbdbd50a:sportsbet:Isabel Rivero": {
+    "ev_pct": 9.0,
+    "commence_time": "2026-11-21T18:00:00Z"
+  },
+  "845bd25ee0403693d88f052997314616:sportsbet:Tasmania JackJumpers": {
+    "ev_pct": 3.51,
+    "commence_time": "2026-11-21T06:36:00Z"
   }
 }

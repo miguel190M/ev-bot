@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-18T13:30:44.992687+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 8,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -5.185,
-   "ev_pct": -3.65,
-   "threshold_pct": 1.53,
-   "price": 1.53,
-   "outcome": "Ben Shelton",
-   "book": "Betfair",
-   "matchup": "Rafael Jodar @ Ben Shelton",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-18T20:00:54.669106+00:00",
-  "markets": 74,
-  "markets_sharp": 56,
-  "outcomes": 225,
-  "capped": 10,
-  "flagged": 0,
-  "best": {
-   "gap": -1.843,
-   "ev_pct": -0.72,
-   "threshold_pct": 1.12,
-   "price": 1.06,
-   "outcome": "Pakistan",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-18T20:30:36.046218+00:00",
   "markets": 3,
   "markets_sharp": 1,
@@ -1459,6 +1421,25 @@
    "book": "SportsBet",
    "matchup": "ASVEL Lyon Villeurbanne @ Anadolu Efes",
    "sport_key": "basketball_euroleague",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-20T20:01:04.743573+00:00",
+  "markets": 81,
+  "markets_sharp": 66,
+  "outcomes": 291,
+  "capped": 7,
+  "flagged": 0,
+  "best": {
+   "gap": 6.82,
+   "ev_pct": 9.0,
+   "threshold_pct": 2.18,
+   "price": 2.18,
+   "outcome": "Isabel Rivero",
+   "book": "SportsBet",
+   "matchup": "Sumire Yamanaka @ Isabel Rivero",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
