@@ -1442,5 +1442,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-20T23:30:49.416456+00:00",
+  "markets": 14,
+  "markets_sharp": 11,
+  "outcomes": 74,
+  "capped": 4,
+  "flagged": 0,
+  "best": {
+   "gap": 6.82,
+   "ev_pct": 9.0,
+   "threshold_pct": 2.18,
+   "price": 2.18,
+   "outcome": "Isabel Rivero",
+   "book": "SportsBet",
+   "matchup": "Sumire Yamanaka @ Isabel Rivero",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
