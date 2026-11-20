@@ -1,19 +1,7 @@
 {
   "betfair_ex_au": "Betfair",
   "betfair_ex_eu": "Betfair",
-  "betonlineag": "BetOnline.ag",
-  "betr_au": "Betr",
-  "betright": "Bet Right",
-  "betsson": "Betsson",
   "ladbrokes_au": "Ladbrokes",
   "neds": "Neds",
-  "nordicbet": "Nordic Bet",
-  "onexbet": "1xBet",
-  "picklebet_au": "Picklebet (AU)",
-  "pinnacle": "Pinnacle",
-  "pmu_fr": "PMU (FR)",
-  "sportsbet": "SportsBet",
-  "tab": "TAB",
-  "tabtouch": "TABtouch",
-  "winamax_fr": "Winamax (FR)"
+  "tab": "TAB"
 }
