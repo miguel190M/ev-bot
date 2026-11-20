@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-18T11:30:38.471414+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 8,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -4.055,
-   "ev_pct": 0.16,
-   "threshold_pct": 4.21,
-   "price": 4.7,
-   "outcome": "Daniil Medvedev",
-   "book": "Betfair",
-   "matchup": "Daniil Medvedev @ Carlos Alcaraz",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-18T11:58:03.961013+00:00",
   "markets": 4,
   "markets_sharp": 3,
@@ -1459,6 +1440,25 @@
    "book": "Betfair",
    "matchup": "Lee McGregor @ Rhys Edwards",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-20T11:30:40.387241+00:00",
+  "markets": 2,
+  "markets_sharp": 1,
+  "outcomes": 15,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.988,
+   "ev_pct": -0.49,
+   "threshold_pct": 1.5,
+   "price": 1.1,
+   "outcome": "Bayern Munich",
+   "book": "Betfair",
+   "matchup": "1. FC K\u00f6ln @ Bayern Munich",
+   "sport_key": "soccer_germany_bundesliga",
    "anchor": "pinnacle"
   }
  }
