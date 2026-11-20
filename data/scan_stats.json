@@ -1461,5 +1461,24 @@
    "sport_key": "soccer_germany_bundesliga",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-20T11:56:32.256268+00:00",
+  "markets": 11,
+  "markets_sharp": 4,
+  "outcomes": 54,
+  "capped": 4,
+  "flagged": 0,
+  "best": {
+   "gap": 6.509,
+   "ev_pct": 8.01,
+   "threshold_pct": 1.5,
+   "price": 1.29,
+   "outcome": "Rhys Edwards",
+   "book": "Betfair",
+   "matchup": "Lee McGregor @ Rhys Edwards",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
