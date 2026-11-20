@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-18T07:30:36.706555+00:00",
-  "markets": 5,
-  "markets_sharp": 3,
-  "outcomes": 24,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": 6.9,
-   "ev_pct": 9.1,
-   "threshold_pct": 2.2,
-   "price": 2.2,
-   "outcome": "Joel Camilleri",
-   "book": "SportsBet",
-   "matchup": "Mitchell Leek @ Joel Camilleri",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-18T08:00:47.570963+00:00",
-  "markets": 4,
-  "markets_sharp": 3,
-  "outcomes": 17,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.237,
-   "ev_pct": -1.14,
-   "threshold_pct": 1.1,
-   "price": 1.05,
-   "outcome": "Teremoana Junior",
-   "book": "SportsBet",
-   "matchup": "Hemi Ahio @ Teremoana Junior",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-18T08:30:36.432493+00:00",
   "markets": 1,
   "markets_sharp": 0,
@@ -1478,6 +1440,25 @@
    "book": "SportsBet",
    "matchup": "Perth Wildcats @ Cairns Taipans",
    "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-20T08:00:49.183822+00:00",
+  "markets": 13,
+  "markets_sharp": 6,
+  "outcomes": 69,
+  "capped": 4,
+  "flagged": 0,
+  "best": {
+   "gap": 7.047,
+   "ev_pct": 8.62,
+   "threshold_pct": 1.57,
+   "price": 1.57,
+   "outcome": "Willy Gilheaney",
+   "book": "Betfair",
+   "matchup": "Alberto Ignacio Palmetta @ Willy Gilheaney",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
