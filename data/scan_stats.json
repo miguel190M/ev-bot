@@ -1461,5 +1461,24 @@
    "sport_key": "cricket_international_t20",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-20T09:00:46.021033+00:00",
+  "markets": 18,
+  "markets_sharp": 5,
+  "outcomes": 71,
+  "capped": 5,
+  "flagged": 0,
+  "best": {
+   "gap": 7.047,
+   "ev_pct": 8.62,
+   "threshold_pct": 1.57,
+   "price": 1.57,
+   "outcome": "Willy Gilheaney",
+   "book": "Betfair",
+   "matchup": "Alberto Ignacio Palmetta @ Willy Gilheaney",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
