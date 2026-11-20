@@ -8,6 +8,7 @@
   "betright": "Bet Right",
   "betsson": "Betsson",
   "coolbet": "Coolbet",
+  "gtbets": "GTbets",
   "ladbrokes_au": "Ladbrokes",
   "leovegas_se": "LeoVegas (SE)",
   "marathonbet": "Marathon Bet",
@@ -17,6 +18,7 @@
   "onexbet": "1xBet",
   "picklebet_au": "Picklebet (AU)",
   "pinnacle": "Pinnacle",
+  "playup": "PlayUp",
   "pmu_fr": "PMU (FR)",
   "pointsbetau": "PointsBet (AU)",
   "sport888": "888sport",
@@ -26,5 +28,7 @@
   "unibet": "Unibet",
   "unibet_fr": "Unibet (FR)",
   "unibet_se": "Unibet (SE)",
+  "williamhill": "William Hill",
+  "winamax_de": "Winamax (DE)",
   "winamax_fr": "Winamax (FR)"
 }
