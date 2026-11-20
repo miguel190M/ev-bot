@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-18T22:01:04.667094+00:00",
-  "markets": 70,
-  "markets_sharp": 52,
-  "outcomes": 208,
-  "capped": 10,
-  "flagged": 0,
-  "best": {
-   "gap": -2.465,
-   "ev_pct": -0.9,
-   "threshold_pct": 1.56,
-   "price": 1.56,
-   "outcome": "Detroit Pistons",
-   "book": "SportsBet",
-   "matchup": "Detroit Pistons @ New Orleans Pelicans",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-18T22:30:38.958633+00:00",
-  "markets": 12,
-  "markets_sharp": 12,
-  "outcomes": 70,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.796,
-   "ev_pct": -0.67,
-   "threshold_pct": 2.13,
-   "price": 2.13,
-   "outcome": "Chicago Bulls",
-   "book": "SportsBet",
-   "matchup": "Chicago Bulls @ Brooklyn Nets",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-18T23:01:02.522430+00:00",
   "markets": 18,
   "markets_sharp": 16,
@@ -1449,6 +1411,25 @@
   "markets_sharp": 59,
   "outcomes": 253,
   "capped": 7,
+  "flagged": 0,
+  "best": {
+   "gap": 6.82,
+   "ev_pct": 9.0,
+   "threshold_pct": 2.18,
+   "price": 2.18,
+   "outcome": "Isabel Rivero",
+   "book": "SportsBet",
+   "matchup": "Sumire Yamanaka @ Isabel Rivero",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-20T22:30:46.535609+00:00",
+  "markets": 15,
+  "markets_sharp": 11,
+  "outcomes": 77,
+  "capped": 4,
   "flagged": 0,
   "best": {
    "gap": 6.82,
