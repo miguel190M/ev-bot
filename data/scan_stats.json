@@ -1,62 +1,5 @@
 [
  {
-  "ts": "2026-11-18T11:58:03.961013+00:00",
-  "markets": 4,
-  "markets_sharp": 3,
-  "outcomes": 14,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.822,
-   "ev_pct": -1.72,
-   "threshold_pct": 1.1,
-   "price": 1.05,
-   "outcome": "Pakistan",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-18T12:00:47.400212+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 14,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.643,
-   "ev_pct": -2.02,
-   "threshold_pct": 1.62,
-   "price": 1.62,
-   "outcome": "UMass Minutemen",
-   "book": "NextBet",
-   "matchup": "Akron Zips @ UMass Minutemen",
-   "sport_key": "americanfootball_ncaaf",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-18T12:30:36.761835+00:00",
-  "markets": 6,
-  "markets_sharp": 6,
-  "outcomes": 32,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.37,
-   "ev_pct": -0.87,
-   "threshold_pct": 1.5,
-   "price": 1.35,
-   "outcome": "Houston Rockets",
-   "book": "SportsBet",
-   "matchup": "Houston Rockets @ Indiana Pacers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-18T13:01:04.128555+00:00",
   "markets": 50,
   "markets_sharp": 14,
@@ -1478,6 +1421,25 @@
    "book": "Betfair",
    "matchup": "Lee McGregor @ Rhys Edwards",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-20T12:30:45.680717+00:00",
+  "markets": 2,
+  "markets_sharp": 1,
+  "outcomes": 12,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.027,
+   "ev_pct": -1.53,
+   "threshold_pct": 1.5,
+   "price": 1.47,
+   "outcome": "Atlanta Hawks",
+   "book": "Betfair",
+   "matchup": "Charlotte Hornets @ Atlanta Hawks",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
