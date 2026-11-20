@@ -2333,7 +2333,8 @@
     "bookmaker_key": "betfair_ex_au",
     "alerted_at": "2026-11-16T20:00:47.974710+00:00",
     "lead_hours": 8.5,
-    "logged_at": "2026-11-17T06:00:41.609152+00:00"
+    "logged_at": "2026-11-17T06:00:41.609152+00:00",
+    "settle_reminded_at": "2026-11-20T04:30:45.229131+00:00"
   },
   "daee": {
     "event_id": "0afe2ea850539074dc949e28eecfd35e",
