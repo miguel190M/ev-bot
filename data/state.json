@@ -26,5 +26,9 @@
   "88effd7d2c1313bf6c1de12f924f149d:betfair_ex_au:Australia": {
     "ev_pct": 4.09,
     "commence_time": "2026-11-21T08:15:00Z"
+  },
+  "888e7a7347f634d39b6e47b831e096bd:sportsbet:Jake Goodwin": {
+    "ev_pct": 10.31,
+    "commence_time": "2026-11-20T18:00:00Z"
   }
 }

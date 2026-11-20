@@ -288,5 +288,29 @@
     "large_edge": false,
     "suggested_stake": 12.0,
     "alerted_at": "2026-11-20T08:30:48.917189+00:00"
+  },
+  "b31e": {
+    "event_id": "888e7a7347f634d39b6e47b831e096bd",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-20T18:00:00Z",
+    "home_team": "Sean Arkwright",
+    "away_team": "Jake Goodwin",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Jake Goodwin",
+    "price": 5.1,
+    "commission": 0.0,
+    "fair_probability": 0.2163,
+    "fair_odds": 4.623,
+    "ev_pct": 10.31,
+    "anchor": "retail_consensus",
+    "num_books": 8,
+    "sharp_disagreement": false,
+    "sharp_probability": null,
+    "consensus_probability": 0.2163,
+    "large_edge": false,
+    "suggested_stake": 7.0,
+    "alerted_at": "2026-11-20T11:00:49.179219+00:00"
   }
 }
