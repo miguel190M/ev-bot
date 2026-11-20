@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-18T06:00:49.455029+00:00",
-  "markets": 6,
-  "markets_sharp": 4,
-  "outcomes": 26,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.463,
-   "ev_pct": -1.36,
-   "threshold_pct": 1.1,
-   "price": 1.05,
-   "outcome": "Teremoana Junior",
-   "book": "SportsBet",
-   "matchup": "Hemi Ahio @ Teremoana Junior",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-18T06:30:37.518154+00:00",
-  "markets": 4,
-  "markets_sharp": 2,
-  "outcomes": 18,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.463,
-   "ev_pct": -1.36,
-   "threshold_pct": 1.1,
-   "price": 1.05,
-   "outcome": "Teremoana Junior",
-   "book": "SportsBet",
-   "matchup": "Hemi Ahio @ Teremoana Junior",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-18T07:00:44.413604+00:00",
   "markets": 7,
   "markets_sharp": 5,
@@ -1478,6 +1440,25 @@
    "book": "SportsBet",
    "matchup": "Lee McGregor @ Rhys Edwards",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-20T06:30:38.545973+00:00",
+  "markets": 2,
+  "markets_sharp": 2,
+  "outcomes": 15,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.264,
+   "ev_pct": 0.59,
+   "threshold_pct": 1.85,
+   "price": 1.85,
+   "outcome": "Cairns Taipans",
+   "book": "SportsBet",
+   "matchup": "Perth Wildcats @ Cairns Taipans",
+   "sport_key": "basketball_nbl",
    "anchor": "pinnacle"
   }
  }
