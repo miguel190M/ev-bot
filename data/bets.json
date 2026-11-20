@@ -2692,7 +2692,7 @@
     "alert_price": 1.98,
     "alert_ev_pct": 4.09,
     "closing_fair_odds": 2.0,
-    "closing_captured_at": "2026-11-20T22:01:02.470716+00:00"
+    "closing_captured_at": "2026-11-20T23:01:18.219588+00:00"
   },
   "b31ea": {
     "event_id": "888e7a7347f634d39b6e47b831e096bd",
@@ -2769,6 +2769,6 @@
     "lead_hours": 11.5,
     "logged_at": "2026-11-20T22:30:39.187697+00:00",
     "closing_fair_odds": 2.176,
-    "closing_captured_at": "2026-11-20T22:30:46.537788+00:00"
+    "closing_captured_at": "2026-11-20T23:01:18.219588+00:00"
   }
 }
