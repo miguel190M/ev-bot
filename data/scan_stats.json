@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-18T09:00:46.404140+00:00",
-  "markets": 6,
-  "markets_sharp": 5,
-  "outcomes": 19,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": -3.24,
-   "ev_pct": 4.19,
-   "threshold_pct": 7.43,
-   "price": 9.2,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_test_match",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-18T09:30:43.445517+00:00",
-  "markets": 2,
-  "markets_sharp": 0,
-  "outcomes": 12,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.798,
-   "ev_pct": 1.6,
-   "threshold_pct": 3.4,
-   "price": 2.2,
-   "outcome": "Joel Camilleri",
-   "book": "SportsBet",
-   "matchup": "Mitchell Leek @ Joel Camilleri",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-18T10:00:50.848803+00:00",
   "markets": 4,
   "markets_sharp": 3,
@@ -1478,6 +1440,25 @@
    "book": "Betfair",
    "matchup": "Alberto Ignacio Palmetta @ Willy Gilheaney",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-20T09:30:45.768260+00:00",
+  "markets": 5,
+  "markets_sharp": 4,
+  "outcomes": 22,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.324,
+   "ev_pct": -0.82,
+   "threshold_pct": 1.5,
+   "price": 1.32,
+   "outcome": "Anadolu Efes",
+   "book": "Betfair",
+   "matchup": "ASVEL Lyon Villeurbanne @ Anadolu Efes",
+   "sport_key": "basketball_euroleague",
    "anchor": "pinnacle"
   }
  }
