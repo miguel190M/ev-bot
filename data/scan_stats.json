@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-18T08:30:36.432493+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 6,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.237,
-   "ev_pct": -1.14,
-   "threshold_pct": 1.1,
-   "price": 1.05,
-   "outcome": "Teremoana Junior",
-   "book": "SportsBet",
-   "matchup": "Hemi Ahio @ Teremoana Junior",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-18T09:00:46.404140+00:00",
   "markets": 6,
   "markets_sharp": 5,
@@ -1460,6 +1441,25 @@
    "matchup": "Alberto Ignacio Palmetta @ Willy Gilheaney",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-20T08:30:48.915828+00:00",
+  "markets": 3,
+  "markets_sharp": 2,
+  "outcomes": 21,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 1.133,
+   "ev_pct": 4.09,
+   "threshold_pct": 2.96,
+   "price": 1.98,
+   "outcome": "Australia",
+   "book": "Betfair",
+   "matchup": "England @ Australia",
+   "sport_key": "cricket_international_t20",
+   "anchor": "retail_consensus"
   }
  }
 ]
