@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-18T02:30:36.116527+00:00",
-  "markets": 6,
-  "markets_sharp": 4,
-  "outcomes": 27,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.576,
-   "ev_pct": -2.08,
-   "threshold_pct": 1.5,
-   "price": 1.45,
-   "outcome": "Los Angeles Clippers",
-   "book": "SportsBet",
-   "matchup": "Utah Jazz @ Los Angeles Clippers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-18T03:00:49.160720+00:00",
   "markets": 9,
   "markets_sharp": 6,
@@ -1464,6 +1445,25 @@
  },
  {
   "ts": "2026-11-20T02:26:01.012599+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 3,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": -2.145,
+   "ev_pct": -1.11,
+   "threshold_pct": 1.04,
+   "price": 1.02,
+   "outcome": "Pakistan",
+   "book": "Betfair",
+   "matchup": "Sri Lanka @ Pakistan",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-20T02:30:37.780963+00:00",
   "markets": 1,
   "markets_sharp": 0,
   "outcomes": 3,
