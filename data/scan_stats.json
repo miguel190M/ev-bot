@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-18T00:00:53.553299+00:00",
-  "markets": 40,
-  "markets_sharp": 28,
-  "outcomes": 128,
-  "capped": 6,
-  "flagged": 0,
-  "best": {
-   "gap": -1.773,
-   "ev_pct": -0.71,
-   "threshold_pct": 1.06,
-   "price": 1.03,
-   "outcome": "Gonzaga Bulldogs",
-   "book": "Betfair",
-   "matchup": "Montana St Bobcats @ Gonzaga Bulldogs",
-   "sport_key": "basketball_ncaab",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-18T00:30:50.366330+00:00",
   "markets": 6,
   "markets_sharp": 6,
@@ -1478,6 +1459,25 @@
    "book": "NextBet",
    "matchup": "Minnesota Wild @ Calgary Flames",
    "sport_key": "icehockey_nhl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-20T00:00:59.108525+00:00",
+  "markets": 30,
+  "markets_sharp": 21,
+  "outcomes": 102,
+  "capped": 3,
+  "flagged": 0,
+  "best": {
+   "gap": 6.957,
+   "ev_pct": 8.46,
+   "threshold_pct": 1.5,
+   "price": 1.27,
+   "outcome": "Rhys Edwards",
+   "book": "SportsBet",
+   "matchup": "Lee McGregor @ Rhys Edwards",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
