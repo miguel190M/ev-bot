@@ -1,12 +1,4 @@
 {
-  "1cd25143408ea45a393e8267ccd3afeb:betfair_ex_au:Carlos Alcaraz": {
-    "ev_pct": 3.73,
-    "commence_time": "2026-11-20T13:00:00Z"
-  },
-  "1cd25143408ea45a393e8267ccd3afeb:nextbet:Carlos Alcaraz": {
-    "ev_pct": 2.15,
-    "commence_time": "2026-11-20T13:00:00Z"
-  },
   "4b01ab5b0f5c1709a8cf135c80ed0386:sportsbet:Alberto Ignacio Palmetta": {
     "ev_pct": 3.26,
     "commence_time": "2026-11-20T19:00:00Z"
@@ -28,7 +20,7 @@
     "commence_time": "2026-11-21T08:15:00Z"
   },
   "888e7a7347f634d39b6e47b831e096bd:sportsbet:Jake Goodwin": {
-    "ev_pct": 10.31,
-    "commence_time": "2026-11-20T18:00:00Z"
+    "ev_pct": 8.93,
+    "commence_time": "2026-11-20T19:00:00Z"
   }
 }
