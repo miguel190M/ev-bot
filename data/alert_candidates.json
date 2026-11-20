@@ -264,5 +264,29 @@
     "large_edge": false,
     "suggested_stake": 35.0,
     "alerted_at": "2026-11-20T00:30:43.795489+00:00"
+  },
+  "6794": {
+    "event_id": "a0b8e760e2f015b53fb85a31cf6876a8",
+    "sport_key": "basketball_nbl",
+    "commence_time": "2026-11-20T08:36:00Z",
+    "home_team": "Cairns Taipans",
+    "away_team": "Perth Wildcats",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Cairns Taipans",
+    "price": 1.86,
+    "commission": 0.0,
+    "fair_probability": 0.5543,
+    "fair_odds": 1.804,
+    "ev_pct": 3.1,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.5543,
+    "consensus_probability": 0.5278,
+    "large_edge": false,
+    "suggested_stake": 10.0,
+    "alerted_at": "2026-11-20T07:00:46.578451+00:00"
   }
 }
