@@ -1461,5 +1461,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-20T07:30:36.435657+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 24,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 1.752,
+   "ev_pct": 3.61,
+   "threshold_pct": 1.86,
+   "price": 1.86,
+   "outcome": "Cairns Taipans",
+   "book": "SportsBet",
+   "matchup": "Perth Wildcats @ Cairns Taipans",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
  }
 ]
