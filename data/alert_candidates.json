@@ -335,5 +335,29 @@
     "large_edge": false,
     "suggested_stake": 18.0,
     "alerted_at": "2026-11-20T20:01:04.745498+00:00"
+  },
+  "921a": {
+    "event_id": "ff54f24baea916f776b9e8f1dd99c6aa",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-21T09:30:00Z",
+    "home_team": "Jukiya Iimura",
+    "away_team": "Arvin Jhon Paciones",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Jukiya Iimura",
+    "price": 2.3,
+    "commission": 0.0,
+    "fair_probability": 0.4622,
+    "fair_odds": 2.163,
+    "ev_pct": 6.31,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.4622,
+    "consensus_probability": null,
+    "large_edge": false,
+    "suggested_stake": 13.0,
+    "alerted_at": "2026-11-20T22:01:01.939126+00:00"
   }
 }
