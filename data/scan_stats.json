@@ -1480,5 +1480,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-20T00:30:43.794115+00:00",
+  "markets": 5,
+  "markets_sharp": 5,
+  "outcomes": 30,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 2.089,
+   "ev_pct": 3.59,
+   "threshold_pct": 1.5,
+   "price": 1.29,
+   "outcome": "Portland Trail Blazers",
+   "book": "Betfair",
+   "matchup": "Portland Trail Blazers @ Milwaukee Bucks",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
