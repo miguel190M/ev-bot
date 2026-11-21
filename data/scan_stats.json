@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-19T10:01:04.879089+00:00",
-  "markets": 3,
-  "markets_sharp": 2,
-  "outcomes": 11,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.054,
-   "ev_pct": 0.45,
-   "threshold_pct": 1.5,
-   "price": 1.4,
-   "outcome": "Ben Shelton",
-   "book": "NextBet",
-   "matchup": "Rafael Jodar @ Ben Shelton",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-19T10:30:49.055445+00:00",
   "markets": 2,
   "markets_sharp": 2,
@@ -1459,6 +1440,25 @@
    "book": "Betfair",
    "matchup": "Celta Vigo @ Real Madrid",
    "sport_key": "soccer_spain_la_liga",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-21T10:30:44.633449+00:00",
+  "markets": 22,
+  "markets_sharp": 22,
+  "outcomes": 99,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 7.641,
+   "ev_pct": 9.56,
+   "threshold_pct": 1.92,
+   "price": 1.92,
+   "outcome": "Isabel Rivero",
+   "book": "SportsBet",
+   "matchup": "Sumire Yamanaka @ Isabel Rivero",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
