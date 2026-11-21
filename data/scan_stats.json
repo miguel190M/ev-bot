@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-19T09:30:34.908278+00:00",
-  "markets": 6,
-  "markets_sharp": 6,
-  "outcomes": 24,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.451,
-   "ev_pct": -0.95,
-   "threshold_pct": 1.5,
-   "price": 1.23,
-   "outcome": "Valencia Basket",
-   "book": "Betfair",
-   "matchup": "Virtus Segafredo Bologna @ Valencia Basket",
-   "sport_key": "basketball_euroleague",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-19T10:01:04.879089+00:00",
   "markets": 3,
   "markets_sharp": 2,
@@ -1429,6 +1410,25 @@
   "markets": 43,
   "markets_sharp": 39,
   "outcomes": 264,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 7.641,
+   "ev_pct": 9.56,
+   "threshold_pct": 1.92,
+   "price": 1.92,
+   "outcome": "Isabel Rivero",
+   "book": "SportsBet",
+   "matchup": "Sumire Yamanaka @ Isabel Rivero",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-21T09:30:36.578532+00:00",
+  "markets": 33,
+  "markets_sharp": 33,
+  "outcomes": 201,
   "capped": 0,
   "flagged": 0,
   "best": {
