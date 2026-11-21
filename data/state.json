@@ -14,5 +14,21 @@
   "32e23a0b745bed6c0a23f60fab451adb:nextbet:Alexander Zverev": {
     "ev_pct": 2.93,
     "commence_time": "2026-11-21T19:30:00Z"
+  },
+  "b33893a24871bb22aae6d008568e92fd:sportsbet:Regan Glackin": {
+    "ev_pct": 3.78,
+    "commence_time": "2026-11-21T20:00:00Z"
+  },
+  "bed1f20084169c36d30d63f283640f79:sportsbet:Cardiff City": {
+    "ev_pct": 8.45,
+    "commence_time": "2026-11-21T12:30:00Z"
+  },
+  "bed1f20084169c36d30d63f283640f79:betfair_ex_au:Cardiff City": {
+    "ev_pct": 11.79,
+    "commence_time": "2026-11-21T12:30:00Z"
+  },
+  "5d3dbb358ea091830f570b92cee04c38:betfair_ex_au:Southampton": {
+    "ev_pct": 2.81,
+    "commence_time": "2026-11-21T12:30:00Z"
   }
 }

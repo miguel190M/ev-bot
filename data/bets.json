@@ -2822,7 +2822,7 @@
     "lead_hours": 17.7,
     "logged_at": "2026-11-21T00:30:49.652582+00:00",
     "closing_fair_odds": 1.752,
-    "closing_captured_at": "2026-11-21T10:30:44.634964+00:00"
+    "closing_captured_at": "2026-11-21T11:28:24.832625+00:00"
   },
   "5afb": {
     "event_id": "81c3faeaadd3d42734cd831b32b32597",
@@ -2850,8 +2850,8 @@
     "logged_at": "2026-11-21T04:01:04.933079+00:00",
     "alert_price": 1.28,
     "alert_ev_pct": 1.65,
-    "closing_fair_odds": 1.251,
-    "closing_captured_at": "2026-11-21T11:00:56.593885+00:00"
+    "closing_fair_odds": 1.259,
+    "closing_captured_at": "2026-11-21T11:28:24.832625+00:00"
   },
   "04d9": {
     "event_id": "3de652d2815550e88c9e775f6036a771",

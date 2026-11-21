@@ -1442,5 +1442,24 @@
    "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-21T11:28:22.284974+00:00",
+  "markets": 34,
+  "markets_sharp": 34,
+  "outcomes": 204,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 7.218,
+   "ev_pct": 11.79,
+   "threshold_pct": 4.57,
+   "price": 5.2,
+   "outcome": "Cardiff City",
+   "book": "Betfair",
+   "matchup": "Cardiff City @ Norwich City",
+   "sport_key": "soccer_efl_champ",
+   "anchor": "pinnacle"
+  }
  }
 ]
