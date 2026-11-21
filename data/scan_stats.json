@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-18T23:30:50.659836+00:00",
-  "markets": 12,
-  "markets_sharp": 12,
-  "outcomes": 70,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.937,
-   "ev_pct": -1.06,
-   "threshold_pct": 1.88,
-   "price": 1.88,
-   "outcome": "Brooklyn Nets",
-   "book": "Betfair",
-   "matchup": "Chicago Bulls @ Brooklyn Nets",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-19T00:00:56.804884+00:00",
-  "markets": 48,
-  "markets_sharp": 32,
-  "outcomes": 162,
-  "capped": 9,
-  "flagged": 0,
-  "best": {
-   "gap": -1.96,
-   "ev_pct": -0.84,
-   "threshold_pct": 1.12,
-   "price": 1.06,
-   "outcome": "Pakistan",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-19T00:30:42.559768+00:00",
   "markets": 8,
   "markets_sharp": 8,
@@ -1453,6 +1415,25 @@
   "best": {
    "gap": 6.82,
    "ev_pct": 9.0,
+   "threshold_pct": 2.18,
+   "price": 2.18,
+   "outcome": "Isabel Rivero",
+   "book": "SportsBet",
+   "matchup": "Sumire Yamanaka @ Isabel Rivero",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-21T00:17:27.338416+00:00",
+  "markets": 56,
+  "markets_sharp": 48,
+  "outcomes": 225,
+  "capped": 6,
+  "flagged": 0,
+  "best": {
+   "gap": 15.057,
+   "ev_pct": 17.24,
    "threshold_pct": 2.18,
    "price": 2.18,
    "outcome": "Isabel Rivero",
