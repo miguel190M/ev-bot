@@ -1442,5 +1442,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-21T10:00:57.900366+00:00",
+  "markets": 11,
+  "markets_sharp": 10,
+  "outcomes": 87,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.45,
+   "ev_pct": -0.95,
+   "threshold_pct": 1.5,
+   "price": 1.18,
+   "outcome": "Real Madrid",
+   "book": "Betfair",
+   "matchup": "Celta Vigo @ Real Madrid",
+   "sport_key": "soccer_spain_la_liga",
+   "anchor": "pinnacle"
+  }
  }
 ]
