@@ -1461,5 +1461,24 @@
    "sport_key": "soccer_efl_champ",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-21T11:30:39.138798+00:00",
+  "markets": 8,
+  "markets_sharp": 8,
+  "outcomes": 66,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.707,
+   "ev_pct": -1.17,
+   "threshold_pct": 1.54,
+   "price": 1.54,
+   "outcome": "RB Leipzig",
+   "book": "Betfair",
+   "matchup": "RB Leipzig @ Union Berlin",
+   "sport_key": "soccer_germany_bundesliga",
+   "anchor": "pinnacle"
+  }
  }
 ]
