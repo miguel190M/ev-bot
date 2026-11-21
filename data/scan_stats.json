@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-19T05:30:34.488379+00:00",
-  "markets": 2,
-  "markets_sharp": 1,
-  "outcomes": 7,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.962,
-   "ev_pct": -1.82,
-   "threshold_pct": 1.14,
-   "price": 1.07,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Bangladesh @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-19T06:00:46.822829+00:00",
   "markets": 5,
   "markets_sharp": 3,
@@ -1440,6 +1421,25 @@
    "book": "NextBet",
    "matchup": "New Zealand Breakers @ Melbourne United",
    "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-21T05:30:35.633731+00:00",
+  "markets": 21,
+  "markets_sharp": 21,
+  "outcomes": 77,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 8.25,
+   "ev_pct": 10.28,
+   "threshold_pct": 2.03,
+   "price": 2.03,
+   "outcome": "Isabel Rivero",
+   "book": "SportsBet",
+   "matchup": "Sumire Yamanaka @ Isabel Rivero",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
