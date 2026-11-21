@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-19T02:30:36.753167+00:00",
-  "markets": 5,
-  "markets_sharp": 3,
-  "outcomes": 24,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.96,
-   "ev_pct": -0.84,
-   "threshold_pct": 1.12,
-   "price": 1.06,
-   "outcome": "Pakistan",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-19T02:40:55.568370+00:00",
   "markets": 5,
   "markets_sharp": 3,
@@ -1429,6 +1410,25 @@
   "markets": 24,
   "markets_sharp": 22,
   "outcomes": 104,
+  "capped": 3,
+  "flagged": 0,
+  "best": {
+   "gap": 12.267,
+   "ev_pct": 14.3,
+   "threshold_pct": 2.03,
+   "price": 2.03,
+   "outcome": "Isabel Rivero",
+   "book": "SportsBet",
+   "matchup": "Sumire Yamanaka @ Isabel Rivero",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-21T02:30:40.268401+00:00",
+  "markets": 32,
+  "markets_sharp": 29,
+  "outcomes": 153,
   "capped": 3,
   "flagged": 0,
   "best": {
