@@ -1,62 +1,5 @@
 [
  {
-  "ts": "2026-11-19T11:30:42.459023+00:00",
-  "markets": 5,
-  "markets_sharp": 2,
-  "outcomes": 16,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -0.378,
-   "ev_pct": 1.12,
-   "threshold_pct": 1.5,
-   "price": 1.4,
-   "outcome": "Ben Shelton",
-   "book": "NextBet",
-   "matchup": "Rafael Jodar @ Ben Shelton",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-19T11:55:12.198273+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 8,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -0.438,
-   "ev_pct": 1.06,
-   "threshold_pct": 1.5,
-   "price": 1.4,
-   "outcome": "Ben Shelton",
-   "book": "NextBet",
-   "matchup": "Rafael Jodar @ Ben Shelton",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-19T12:00:52.168570+00:00",
-  "markets": 3,
-  "markets_sharp": 2,
-  "outcomes": 11,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.325,
-   "ev_pct": -1.83,
-   "threshold_pct": 1.5,
-   "price": 1.36,
-   "outcome": "Ben Shelton",
-   "book": "NextBet",
-   "matchup": "Rafael Jodar @ Ben Shelton",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-19T12:30:42.257428+00:00",
   "markets": 10,
   "markets_sharp": 10,
@@ -1478,6 +1421,25 @@
    "book": "Betfair",
    "matchup": "RB Leipzig @ Union Berlin",
    "sport_key": "soccer_germany_bundesliga",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-21T12:00:55.805615+00:00",
+  "markets": 73,
+  "markets_sharp": 46,
+  "outcomes": 270,
+  "capped": 3,
+  "flagged": 0,
+  "best": {
+   "gap": -2.318,
+   "ev_pct": -0.82,
+   "threshold_pct": 1.5,
+   "price": 1.37,
+   "outcome": "Ikram Aliskerov",
+   "book": "Betfair",
+   "matchup": "Ikram Aliskerov @ Jared Cannonier",
+   "sport_key": "mma_mixed_martial_arts",
    "anchor": "pinnacle"
   }
  }
