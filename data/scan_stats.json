@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-19T21:30:38.109467+00:00",
-  "markets": 16,
-  "markets_sharp": 15,
-  "outcomes": 99,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.693,
-   "ev_pct": -1.19,
-   "threshold_pct": 1.5,
-   "price": 1.45,
-   "outcome": "Minnesota Wild",
-   "book": "Betfair",
-   "matchup": "Minnesota Wild @ Calgary Flames",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-19T22:00:48.171295+00:00",
   "markets": 34,
   "markets_sharp": 25,
@@ -1410,6 +1391,25 @@
   "markets": 1,
   "markets_sharp": 0,
   "outcomes": 3,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.614,
+   "ev_pct": 1.15,
+   "threshold_pct": 3.76,
+   "price": 2.38,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-21T21:30:41.429212+00:00",
+  "markets": 2,
+  "markets_sharp": 0,
+  "outcomes": 5,
   "capped": 0,
   "flagged": 0,
   "best": {
