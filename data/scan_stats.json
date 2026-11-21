@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-19T23:00:49.770276+00:00",
-  "markets": 11,
-  "markets_sharp": 7,
-  "outcomes": 54,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 5.912,
-   "ev_pct": 7.47,
-   "threshold_pct": 1.56,
-   "price": 1.56,
-   "outcome": "Willy Gilheaney",
-   "book": "Betfair",
-   "matchup": "Alberto Ignacio Palmetta @ Willy Gilheaney",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-19T23:30:42.656325+00:00",
   "markets": 19,
   "markets_sharp": 19,
@@ -1415,6 +1396,25 @@
   "best": {
    "gap": -0.809,
    "ev_pct": 0.69,
+   "threshold_pct": 1.5,
+   "price": 1.09,
+   "outcome": "San Antonio Spurs",
+   "book": "Betfair",
+   "matchup": "New Orleans Pelicans @ San Antonio Spurs",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-21T23:00:55.806688+00:00",
+  "markets": 6,
+  "markets_sharp": 6,
+  "outcomes": 39,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.133,
+   "ev_pct": 0.37,
    "threshold_pct": 1.5,
    "price": 1.09,
    "outcome": "San Antonio Spurs",
