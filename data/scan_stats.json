@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-19T20:30:40.756156+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 3,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.082,
-   "ev_pct": 3.62,
-   "threshold_pct": 6.7,
-   "price": 3.85,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-19T20:50:01.200733+00:00",
   "markets": 3,
   "markets_sharp": 2,
@@ -1440,6 +1421,25 @@
    "book": "SportsBet",
    "matchup": "Cairns Taipans @ S.E. Melbourne Phoenix",
    "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-21T20:30:42.356202+00:00",
+  "markets": 2,
+  "markets_sharp": 1,
+  "outcomes": 5,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.772,
+   "ev_pct": -0.26,
+   "threshold_pct": 1.51,
+   "price": 1.51,
+   "outcome": "Navajo Stirling",
+   "book": "Betfair",
+   "matchup": "Navajo Stirling @ Jiri Prochazka",
+   "sport_key": "mma_mixed_martial_arts",
    "anchor": "pinnacle"
   }
  }
