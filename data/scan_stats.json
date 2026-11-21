@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-19T08:00:46.667594+00:00",
-  "markets": 4,
-  "markets_sharp": 3,
-  "outcomes": 17,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.339,
-   "ev_pct": -0.81,
-   "threshold_pct": 1.53,
-   "price": 1.53,
-   "outcome": "Adelaide 36ers",
-   "book": "SportsBet",
-   "matchup": "Adelaide 36ers @ Illawarra Hawks",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-19T08:30:38.121139+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1430,6 +1411,25 @@
   "markets_sharp": 19,
   "outcomes": 62,
   "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 13.808,
+   "ev_pct": 15.84,
+   "threshold_pct": 2.03,
+   "price": 2.03,
+   "outcome": "Isabel Rivero",
+   "book": "SportsBet",
+   "matchup": "Sumire Yamanaka @ Isabel Rivero",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-21T08:00:52.441748+00:00",
+  "markets": 26,
+  "markets_sharp": 14,
+  "outcomes": 73,
+  "capped": 3,
   "flagged": 0,
   "best": {
    "gap": 13.808,
