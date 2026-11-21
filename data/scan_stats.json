@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-19T20:50:01.200733+00:00",
-  "markets": 3,
-  "markets_sharp": 2,
-  "outcomes": 16,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.082,
-   "ev_pct": 3.62,
-   "threshold_pct": 6.7,
-   "price": 3.85,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-19T21:00:45.661517+00:00",
-  "markets": 4,
-  "markets_sharp": 2,
-  "outcomes": 18,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 3.239,
-   "ev_pct": 4.74,
-   "threshold_pct": 1.5,
-   "price": 1.27,
-   "outcome": "Rhys Edwards",
-   "book": "SportsBet",
-   "matchup": "Lee McGregor @ Rhys Edwards",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-19T21:30:38.109467+00:00",
   "markets": 16,
   "markets_sharp": 15,
@@ -1441,6 +1403,25 @@
    "matchup": "Navajo Stirling @ Jiri Prochazka",
    "sport_key": "mma_mixed_martial_arts",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-21T21:00:59.076502+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 3,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.614,
+   "ev_pct": 1.15,
+   "threshold_pct": 3.76,
+   "price": 2.38,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
