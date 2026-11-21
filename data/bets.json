@@ -2708,7 +2708,7 @@
     "alert_price": 1.98,
     "alert_ev_pct": 4.09,
     "closing_fair_odds": 2.055,
-    "closing_captured_at": "2026-11-21T06:30:42.232188+00:00"
+    "closing_captured_at": "2026-11-21T07:00:45.152245+00:00"
   },
   "b31ea": {
     "event_id": "888e7a7347f634d39b6e47b831e096bd",
@@ -2792,7 +2792,7 @@
     "lead_hours": 11.5,
     "logged_at": "2026-11-20T22:30:39.187697+00:00",
     "closing_fair_odds": 2.452,
-    "closing_captured_at": "2026-11-21T06:30:42.232188+00:00"
+    "closing_captured_at": "2026-11-21T07:00:45.152245+00:00"
   },
   "1ad81": {
     "event_id": "48bcbd1190da8e0cd6081b17cbdbd50a",
@@ -2819,7 +2819,7 @@
     "lead_hours": 17.7,
     "logged_at": "2026-11-21T00:30:49.652582+00:00",
     "closing_fair_odds": 1.752,
-    "closing_captured_at": "2026-11-21T06:30:42.232188+00:00"
+    "closing_captured_at": "2026-11-21T07:00:45.152245+00:00"
   },
   "5afb": {
     "event_id": "81c3faeaadd3d42734cd831b32b32597",
