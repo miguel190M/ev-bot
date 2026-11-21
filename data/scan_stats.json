@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-19T01:00:48.688566+00:00",
-  "markets": 11,
-  "markets_sharp": 9,
-  "outcomes": 56,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.96,
-   "ev_pct": -0.84,
-   "threshold_pct": 1.12,
-   "price": 1.06,
-   "outcome": "Pakistan",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-19T01:30:36.314208+00:00",
   "markets": 5,
   "markets_sharp": 3,
@@ -1439,6 +1420,25 @@
    "outcome": "Isabel Rivero",
    "book": "SportsBet",
    "matchup": "Sumire Yamanaka @ Isabel Rivero",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-21T01:00:59.689374+00:00",
+  "markets": 26,
+  "markets_sharp": 23,
+  "outcomes": 110,
+  "capped": 4,
+  "flagged": 0,
+  "best": {
+   "gap": 8.619,
+   "ev_pct": 10.92,
+   "threshold_pct": 2.3,
+   "price": 2.3,
+   "outcome": "Jukiya Iimura",
+   "book": "SportsBet",
+   "matchup": "Arvin Jhon Paciones @ Jukiya Iimura",
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
