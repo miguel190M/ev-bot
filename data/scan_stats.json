@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-19T13:30:38.359074+00:00",
-  "markets": 13,
-  "markets_sharp": 13,
-  "outcomes": 62,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 2.226,
-   "ev_pct": 3.73,
-   "threshold_pct": 1.5,
-   "price": 1.2,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Flavio Cobolli @ Carlos Alcaraz",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-19T20:00:53.058832+00:00",
-  "markets": 52,
-  "markets_sharp": 46,
-  "outcomes": 216,
-  "capped": 2,
-  "flagged": 0,
-  "best": {
-   "gap": 8.995,
-   "ev_pct": 13.78,
-   "threshold_pct": 4.79,
-   "price": 5.5,
-   "outcome": "Virtus Segafredo Bologna",
-   "book": "SportsBet",
-   "matchup": "Virtus Segafredo Bologna @ Valencia Basket",
-   "sport_key": "basketball_euroleague",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-19T20:30:40.756156+00:00",
   "markets": 1,
   "markets_sharp": 0,
@@ -1459,6 +1421,25 @@
    "book": "SportsBet",
    "matchup": "Sumire Yamanaka @ Isabel Rivero",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-21T20:01:18.722902+00:00",
+  "markets": 88,
+  "markets_sharp": 84,
+  "outcomes": 398,
+  "capped": 2,
+  "flagged": 0,
+  "best": {
+   "gap": 3.804,
+   "ev_pct": 5.58,
+   "threshold_pct": 1.78,
+   "price": 1.78,
+   "outcome": "S.E. Melbourne Phoenix",
+   "book": "SportsBet",
+   "matchup": "Cairns Taipans @ S.E. Melbourne Phoenix",
+   "sport_key": "basketball_nbl",
    "anchor": "pinnacle"
   }
  }

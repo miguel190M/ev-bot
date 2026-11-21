@@ -1,18 +1,6 @@
 {
-  "48bcbd1190da8e0cd6081b17cbdbd50a:sportsbet:Isabel Rivero": {
-    "ev_pct": 17.24,
-    "commence_time": "2026-11-21T18:00:00Z"
-  },
-  "32e23a0b745bed6c0a23f60fab451adb:nextbet:Alexander Zverev": {
-    "ev_pct": 2.93,
-    "commence_time": "2026-11-21T19:30:00Z"
-  },
-  "b33893a24871bb22aae6d008568e92fd:sportsbet:Regan Glackin": {
-    "ev_pct": 3.78,
-    "commence_time": "2026-11-21T20:00:00Z"
-  },
-  "577976c4b042018534e14db9ce579cf6:betfair_ex_au:Borussia Dortmund": {
-    "ev_pct": 2.35,
-    "commence_time": "2026-11-21T14:30:00Z"
+  "bf39311541b901a305b7ceb7ee62f550:sportsbet:S.E. Melbourne Phoenix": {
+    "ev_pct": 5.58,
+    "commence_time": "2026-11-22T04:00:00Z"
   }
 }
