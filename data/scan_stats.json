@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-20T02:26:01.012599+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 3,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": -2.145,
-   "ev_pct": -1.11,
-   "threshold_pct": 1.04,
-   "price": 1.02,
-   "outcome": "Pakistan",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-20T02:30:37.780963+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 3,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": -2.145,
-   "ev_pct": -1.11,
-   "threshold_pct": 1.04,
-   "price": 1.02,
-   "outcome": "Pakistan",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-20T03:00:46.366609+00:00",
   "markets": 8,
   "markets_sharp": 3,
@@ -1430,6 +1392,25 @@
   "markets_sharp": 11,
   "outcomes": 67,
   "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": -2.391,
+   "ev_pct": -0.89,
+   "threshold_pct": 1.5,
+   "price": 1.47,
+   "outcome": "Sydney Kings",
+   "book": "SportsBet",
+   "matchup": "Sydney Kings @ Brisbane Bullets",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-22T02:30:42.162586+00:00",
+  "markets": 5,
+  "markets_sharp": 5,
+  "outcomes": 33,
+  "capped": 0,
   "flagged": 0,
   "best": {
    "gap": -2.391,
