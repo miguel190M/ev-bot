@@ -1442,5 +1442,24 @@
    "sport_key": "basketball_nbl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-22T05:00:49.307949+00:00",
+  "markets": 5,
+  "markets_sharp": 5,
+  "outcomes": 30,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -0.694,
+   "ev_pct": 0.82,
+   "threshold_pct": 1.51,
+   "price": 1.51,
+   "outcome": "Sydney Kings",
+   "book": "Betfair",
+   "matchup": "Sydney Kings @ Brisbane Bullets",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
  }
 ]
