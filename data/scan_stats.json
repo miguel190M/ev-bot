@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-20T21:00:55.769075+00:00",
-  "markets": 24,
-  "markets_sharp": 14,
-  "outcomes": 77,
-  "capped": 3,
-  "flagged": 0,
-  "best": {
-   "gap": 6.82,
-   "ev_pct": 9.0,
-   "threshold_pct": 2.18,
-   "price": 2.18,
-   "outcome": "Isabel Rivero",
-   "book": "SportsBet",
-   "matchup": "Sumire Yamanaka @ Isabel Rivero",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-20T21:30:42.990227+00:00",
   "markets": 18,
   "markets_sharp": 11,
@@ -1439,6 +1420,25 @@
    "outcome": "Boston Celtics",
    "book": "Betfair",
    "matchup": "Boston Celtics @ Golden State Warriors",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-22T21:30:37.729476+00:00",
+  "markets": 9,
+  "markets_sharp": 7,
+  "outcomes": 48,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 10.762,
+   "ev_pct": 13.8,
+   "threshold_pct": 3.04,
+   "price": 3.05,
+   "outcome": "Oklahoma City Thunder",
+   "book": "Betfair",
+   "matchup": "Oklahoma City Thunder @ Miami Heat",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
