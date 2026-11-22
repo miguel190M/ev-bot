@@ -151,25 +151,6 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
- "basketball_ncaab|Manhattan Jaspers @ Miami Hurricanes|h2h|Manhattan Jaspers|SportsBet": {
-  "alerted": false,
-  "anchor": "retail_consensus",
-  "book": "SportsBet",
-  "commence_time": "2026-11-20T22:00:00Z",
-  "consensus_odds": 14.5,
-  "ev_pct": 769.0,
-  "fair_odds": 14.5,
-  "first_seen": "2026-11-20T13:00:50.807076+00:00",
-  "last_seen": "2026-11-20T20:01:04.742688+00:00",
-  "market": "h2h",
-  "matchup": "Manhattan Jaspers @ Miami Hurricanes",
-  "max_ev_pct": 769.0,
-  "outcome": "Manhattan Jaspers",
-  "price": 126.0,
-  "seen": 2,
-  "sharp_odds": null,
-  "sport_key": "basketball_ncaab"
- },
  "basketball_ncaab|Miss Valley St Delta Devils @ Arkansas Razorbacks|h2h|Miss Valley St Delta Devils|SportsBet": {
   "alerted": false,
   "anchor": "retail_consensus",
@@ -321,25 +302,6 @@
   "seen": 4,
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
- },
- "boxing_boxing|Alan Crisosto @ David Lopez|h2h|Alan Crisosto|SportsBet": {
-  "alerted": false,
-  "anchor": "retail_consensus",
-  "book": "SportsBet",
-  "commence_time": "2026-11-20T22:00:00Z",
-  "consensus_odds": 18.948,
-  "ev_pct": 21.4,
-  "fair_odds": 18.948,
-  "first_seen": "2026-11-20T01:00:49.554223+00:00",
-  "last_seen": "2026-11-20T20:01:04.742688+00:00",
-  "market": "h2h",
-  "matchup": "Alan Crisosto @ David Lopez",
-  "max_ev_pct": 23.9,
-  "outcome": "Alan Crisosto",
-  "price": 23.0,
-  "seen": 14,
-  "sharp_odds": null,
-  "sport_key": "boxing_boxing"
  },
  "boxing_boxing|Deaundre Pettus @ Amari Jones|h2h|Deaundre Pettus|Betfair": {
   "alerted": false,
