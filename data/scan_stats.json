@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-20T01:00:49.554634+00:00",
-  "markets": 13,
-  "markets_sharp": 9,
-  "outcomes": 69,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": 6.957,
-   "ev_pct": 8.46,
-   "threshold_pct": 1.5,
-   "price": 1.27,
-   "outcome": "Rhys Edwards",
-   "book": "SportsBet",
-   "matchup": "Lee McGregor @ Rhys Edwards",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-20T01:30:38.620501+00:00",
   "markets": 5,
   "markets_sharp": 4,
@@ -1440,6 +1421,25 @@
    "book": "Betfair",
    "matchup": "Villarreal @ Barcelona",
    "sport_key": "soccer_spain_la_liga",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-22T01:27:12.668268+00:00",
+  "markets": 5,
+  "markets_sharp": 5,
+  "outcomes": 33,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.076,
+   "ev_pct": -0.58,
+   "threshold_pct": 1.5,
+   "price": 1.48,
+   "outcome": "Sydney Kings",
+   "book": "SportsBet",
+   "matchup": "Sydney Kings @ Brisbane Bullets",
+   "sport_key": "basketball_nbl",
    "anchor": "pinnacle"
   }
  }
