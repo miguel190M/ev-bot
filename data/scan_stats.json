@@ -1442,5 +1442,24 @@
    "sport_key": "soccer_epl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-22T11:30:38.836087+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 24,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.226,
+   "ev_pct": -0.73,
+   "threshold_pct": 1.5,
+   "price": 1.5,
+   "outcome": "Carlos Alcaraz",
+   "book": "Betfair",
+   "matchup": "Carlos Alcaraz @ Alexander Zverev",
+   "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
  }
 ]
