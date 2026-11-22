@@ -2698,8 +2698,8 @@
     "large_edge": false,
     "arb_hedge": false,
     "stake": 12.0,
-    "status": "open",
-    "profit": null,
+    "status": "won",
+    "profit": 11.96,
     "source": "live",
     "bookmaker_key": "betfair_ex_au",
     "alerted_at": "2026-11-20T08:30:48.917189+00:00",
@@ -2709,7 +2709,11 @@
     "alert_ev_pct": 4.09,
     "closing_fair_odds": 1.833,
     "closing_captured_at": "2026-11-21T08:00:52.443334+00:00",
-    "settle_reminded_at": "2026-11-21T20:01:22.060369+00:00"
+    "settle_reminded_at": "2026-11-21T20:01:22.060369+00:00",
+    "settled_manually": true,
+    "clv_pct": 12.38,
+    "net_clv_pct": 8.91,
+    "resolved_at": "2026-11-22T00:30:45.610923+00:00"
   },
   "b31ea": {
     "event_id": "888e7a7347f634d39b6e47b831e096bd",
@@ -2788,8 +2792,8 @@
     "large_edge": false,
     "arb_hedge": false,
     "stake": 13.0,
-    "status": "open",
-    "profit": null,
+    "status": "lost",
+    "profit": -13.0,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-20T22:01:01.939126+00:00",
@@ -2797,7 +2801,11 @@
     "logged_at": "2026-11-20T22:30:39.187697+00:00",
     "closing_fair_odds": 2.452,
     "closing_captured_at": "2026-11-21T07:30:41.122617+00:00",
-    "settle_reminded_at": "2026-11-21T20:01:22.060369+00:00"
+    "settle_reminded_at": "2026-11-21T20:01:22.060369+00:00",
+    "settled_manually": true,
+    "clv_pct": -6.2,
+    "net_clv_pct": -6.2,
+    "resolved_at": "2026-11-22T00:30:44.780278+00:00"
   },
   "1ad81": {
     "event_id": "48bcbd1190da8e0cd6081b17cbdbd50a",
