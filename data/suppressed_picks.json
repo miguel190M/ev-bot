@@ -378,5 +378,24 @@
   "seen": 1,
   "sharp_odds": null,
   "sport_key": "boxing_boxing"
+ },
+ "cricket_test_match|Bangladesh @ South Africa|h2h|Bangladesh|Betfair": {
+  "alerted": false,
+  "anchor": "retail_consensus",
+  "book": "Betfair",
+  "commence_time": "2026-11-23T08:00:00Z",
+  "consensus_odds": 15.362,
+  "ev_pct": 22.8,
+  "fair_odds": 15.362,
+  "first_seen": "2026-11-22T10:00:49.225280+00:00",
+  "last_seen": "2026-11-22T10:00:49.225280+00:00",
+  "market": "h2h",
+  "matchup": "Bangladesh @ South Africa",
+  "max_ev_pct": 22.8,
+  "outcome": "Bangladesh",
+  "price": 20.0,
+  "seen": 1,
+  "sharp_odds": null,
+  "sport_key": "cricket_test_match"
  }
 }
