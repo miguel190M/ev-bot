@@ -3039,13 +3039,16 @@
     "large_edge": false,
     "arb_hedge": false,
     "stake": 15.0,
-    "status": "open",
-    "profit": null,
+    "status": "lost",
+    "profit": -15.0,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-22T03:30:40.034865+00:00",
     "lead_hours": 0.5,
     "logged_at": "2026-11-22T04:00:42.992047+00:00",
-    "closing_fair_odds": 1.66
+    "closing_fair_odds": 1.66,
+    "clv_pct": 3.01,
+    "net_clv_pct": 3.01,
+    "resolved_at": "2026-11-22T08:00:53.488065+00:00"
   }
 }

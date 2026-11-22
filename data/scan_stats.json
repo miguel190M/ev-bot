@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-20T07:30:36.435657+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 24,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 1.752,
-   "ev_pct": 3.61,
-   "threshold_pct": 1.86,
-   "price": 1.86,
-   "outcome": "Cairns Taipans",
-   "book": "SportsBet",
-   "matchup": "Perth Wildcats @ Cairns Taipans",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-20T08:00:49.183822+00:00",
-  "markets": 13,
-  "markets_sharp": 6,
-  "outcomes": 69,
-  "capped": 4,
-  "flagged": 0,
-  "best": {
-   "gap": 7.047,
-   "ev_pct": 8.62,
-   "threshold_pct": 1.57,
-   "price": 1.57,
-   "outcome": "Willy Gilheaney",
-   "book": "Betfair",
-   "matchup": "Alberto Ignacio Palmetta @ Willy Gilheaney",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-20T08:30:48.915828+00:00",
   "markets": 3,
   "markets_sharp": 2,
@@ -1459,6 +1421,25 @@
    "book": "Betfair",
    "matchup": "Carlos Alcaraz @ Alexander Zverev",
    "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-22T08:00:53.486286+00:00",
+  "markets": 3,
+  "markets_sharp": 1,
+  "outcomes": 15,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.783,
+   "ev_pct": -1.8,
+   "threshold_pct": 1.98,
+   "price": 1.98,
+   "outcome": "Burnley",
+   "book": "Betfair",
+   "matchup": "Blackburn Rovers @ Burnley",
+   "sport_key": "soccer_efl_champ",
    "anchor": "pinnacle"
   }
  }
