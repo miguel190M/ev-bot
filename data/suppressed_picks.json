@@ -321,24 +321,5 @@
   "seen": 1,
   "sharp_odds": null,
   "sport_key": "boxing_boxing"
- },
- "cricket_test_match|Sri Lanka @ Pakistan|h2h|Draw|Betfair": {
-  "alerted": false,
-  "anchor": "retail_consensus",
-  "book": "Betfair",
-  "commence_time": "2026-11-20T04:30:00Z",
-  "consensus_odds": 157.341,
-  "ev_pct": 497.5,
-  "fair_odds": 157.341,
-  "first_seen": "2026-11-18T13:01:04.127945+00:00",
-  "last_seen": "2026-11-20T04:00:45.027247+00:00",
-  "market": "h2h",
-  "matchup": "Sri Lanka @ Pakistan",
-  "max_ev_pct": 497.5,
-  "outcome": "Draw",
-  "price": 1000.0,
-  "seen": 8,
-  "sharp_odds": null,
-  "sport_key": "cricket_test_match"
  }
 }

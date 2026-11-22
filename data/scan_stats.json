@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-20T03:30:47.248593+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 3,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": -2.145,
-   "ev_pct": -1.11,
-   "threshold_pct": 1.04,
-   "price": 1.02,
-   "outcome": "Pakistan",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-20T04:00:45.027972+00:00",
-  "markets": 11,
-  "markets_sharp": 4,
-  "outcomes": 49,
-  "capped": 5,
-  "flagged": 0,
-  "best": {
-   "gap": 6.288,
-   "ev_pct": 7.79,
-   "threshold_pct": 1.5,
-   "price": 1.27,
-   "outcome": "Rhys Edwards",
-   "book": "SportsBet",
-   "matchup": "Lee McGregor @ Rhys Edwards",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-20T05:00:50.981167+00:00",
   "markets": 12,
   "markets_sharp": 5,
@@ -1436,6 +1398,25 @@
    "ev_pct": 3.65,
    "threshold_pct": 1.71,
    "price": 1.71,
+   "outcome": "S.E. Melbourne Phoenix",
+   "book": "SportsBet",
+   "matchup": "Cairns Taipans @ S.E. Melbourne Phoenix",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-22T04:00:48.308437+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 21,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.067,
+   "ev_pct": 0.6,
+   "threshold_pct": 1.67,
+   "price": 1.67,
    "outcome": "S.E. Melbourne Phoenix",
    "book": "SportsBet",
    "matchup": "Cairns Taipans @ S.E. Melbourne Phoenix",
