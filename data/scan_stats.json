@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-20T01:30:38.620501+00:00",
-  "markets": 5,
-  "markets_sharp": 4,
-  "outcomes": 30,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": -2.145,
-   "ev_pct": -1.11,
-   "threshold_pct": 1.04,
-   "price": 1.02,
-   "outcome": "Pakistan",
-   "book": "Betfair",
-   "matchup": "Sri Lanka @ Pakistan",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-20T02:00:45.412557+00:00",
-  "markets": 13,
-  "markets_sharp": 6,
-  "outcomes": 49,
-  "capped": 3,
-  "flagged": 0,
-  "best": {
-   "gap": 6.957,
-   "ev_pct": 8.46,
-   "threshold_pct": 1.5,
-   "price": 1.27,
-   "outcome": "Rhys Edwards",
-   "book": "SportsBet",
-   "matchup": "Lee McGregor @ Rhys Edwards",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-20T02:26:01.012599+00:00",
   "markets": 1,
   "markets_sharp": 0,
@@ -1455,6 +1417,25 @@
    "ev_pct": -0.58,
    "threshold_pct": 1.5,
    "price": 1.48,
+   "outcome": "Sydney Kings",
+   "book": "SportsBet",
+   "matchup": "Sydney Kings @ Brisbane Bullets",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-22T02:00:49.230071+00:00",
+  "markets": 12,
+  "markets_sharp": 11,
+  "outcomes": 67,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": -2.391,
+   "ev_pct": -0.89,
+   "threshold_pct": 1.5,
+   "price": 1.47,
    "outcome": "Sydney Kings",
    "book": "SportsBet",
    "matchup": "Sydney Kings @ Brisbane Bullets",
