@@ -1423,5 +1423,24 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-22T03:30:40.032954+00:00",
+  "markets": 6,
+  "markets_sharp": 6,
+  "outcomes": 45,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 1.939,
+   "ev_pct": 3.65,
+   "threshold_pct": 1.71,
+   "price": 1.71,
+   "outcome": "S.E. Melbourne Phoenix",
+   "book": "SportsBet",
+   "matchup": "Cairns Taipans @ S.E. Melbourne Phoenix",
+   "sport_key": "basketball_nbl",
+   "anchor": "pinnacle"
+  }
  }
 ]
