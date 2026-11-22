@@ -1442,5 +1442,24 @@
    "sport_key": "tennis_atp_finals",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-22T20:00:52.242567+00:00",
+  "markets": 40,
+  "markets_sharp": 36,
+  "outcomes": 184,
+  "capped": 3,
+  "flagged": 0,
+  "best": {
+   "gap": -2.426,
+   "ev_pct": -0.93,
+   "threshold_pct": 1.5,
+   "price": 1.22,
+   "outcome": "Minnesota Golden Gophers",
+   "book": "Betfair",
+   "matchup": "Utah Utes @ Minnesota Golden Gophers",
+   "sport_key": "basketball_ncaab",
+   "anchor": "pinnacle"
+  }
  }
 ]
