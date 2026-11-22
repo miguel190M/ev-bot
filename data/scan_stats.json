@@ -1423,5 +1423,24 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-22T01:00:48.209271+00:00",
+  "markets": 8,
+  "markets_sharp": 8,
+  "outcomes": 54,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -0.914,
+   "ev_pct": 6.37,
+   "threshold_pct": 7.29,
+   "price": 9.0,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Villarreal @ Barcelona",
+   "sport_key": "soccer_spain_la_liga",
+   "anchor": "pinnacle"
+  }
  }
 ]
