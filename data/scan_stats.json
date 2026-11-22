@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-20T08:30:48.915828+00:00",
-  "markets": 3,
-  "markets_sharp": 2,
-  "outcomes": 21,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 1.133,
-   "ev_pct": 4.09,
-   "threshold_pct": 2.96,
-   "price": 1.98,
-   "outcome": "Australia",
-   "book": "Betfair",
-   "matchup": "England @ Australia",
-   "sport_key": "cricket_international_t20",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-20T09:00:46.021033+00:00",
-  "markets": 18,
-  "markets_sharp": 5,
-  "outcomes": 71,
-  "capped": 5,
-  "flagged": 0,
-  "best": {
-   "gap": 7.047,
-   "ev_pct": 8.62,
-   "threshold_pct": 1.57,
-   "price": 1.57,
-   "outcome": "Willy Gilheaney",
-   "book": "Betfair",
-   "matchup": "Alberto Ignacio Palmetta @ Willy Gilheaney",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-20T09:30:45.768260+00:00",
   "markets": 5,
   "markets_sharp": 4,
@@ -1459,6 +1421,25 @@
    "book": "Betfair",
    "matchup": "Carlos Alcaraz @ Alexander Zverev",
    "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-22T09:00:49.963543+00:00",
+  "markets": 30,
+  "markets_sharp": 17,
+  "outcomes": 120,
+  "capped": 4,
+  "flagged": 0,
+  "best": {
+   "gap": -2.543,
+   "ev_pct": -1.04,
+   "threshold_pct": 1.5,
+   "price": 1.14,
+   "outcome": "Nebraska Cornhuskers",
+   "book": "Betfair",
+   "matchup": "Butler Bulldogs @ Nebraska Cornhuskers",
+   "sport_key": "basketball_ncaab",
    "anchor": "pinnacle"
   }
  }
