@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-20T13:00:50.807856+00:00",
-  "markets": 49,
-  "markets_sharp": 16,
-  "outcomes": 154,
-  "capped": 5,
-  "flagged": 0,
-  "best": {
-   "gap": 7.101,
-   "ev_pct": 8.6,
-   "threshold_pct": 1.5,
-   "price": 1.27,
-   "outcome": "Rhys Edwards",
-   "book": "SportsBet",
-   "matchup": "Lee McGregor @ Rhys Edwards",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-20T13:30:39.029665+00:00",
-  "markets": 5,
-  "markets_sharp": 4,
-  "outcomes": 22,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -0.047,
-   "ev_pct": 3.56,
-   "threshold_pct": 3.61,
-   "price": 3.85,
-   "outcome": "ASVEL Lyon Villeurbanne",
-   "book": "SportsBet",
-   "matchup": "ASVEL Lyon Villeurbanne @ Anadolu Efes",
-   "sport_key": "basketball_euroleague",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-20T20:01:04.743573+00:00",
   "markets": 81,
   "markets_sharp": 66,
@@ -1460,6 +1422,25 @@
    "matchup": "Delaware Blue Hens @ UCLA Bruins",
    "sport_key": "basketball_ncaab",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-22T13:30:44.973013+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 24,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.383,
+   "ev_pct": -0.87,
+   "threshold_pct": 1.51,
+   "price": 1.51,
+   "outcome": "Carlos Alcaraz",
+   "book": "Betfair",
+   "matchup": "Carlos Alcaraz @ Alexander Zverev",
+   "sport_key": "tennis_atp_finals",
+   "anchor": "pinnacle"
   }
  }
 ]
