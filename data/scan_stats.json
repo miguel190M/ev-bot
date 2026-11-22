@@ -1442,5 +1442,24 @@
    "sport_key": "basketball_nbl",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-22T06:00:43.860508+00:00",
+  "markets": 12,
+  "markets_sharp": 11,
+  "outcomes": 75,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.691,
+   "ev_pct": -0.18,
+   "threshold_pct": 1.51,
+   "price": 1.51,
+   "outcome": "Brighton and Hove Albion",
+   "book": "Betfair",
+   "matchup": "Brighton and Hove Albion @ Hull City",
+   "sport_key": "soccer_epl",
+   "anchor": "pinnacle"
+  }
  }
 ]
