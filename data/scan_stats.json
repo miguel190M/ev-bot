@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-21T10:00:57.900366+00:00",
-  "markets": 11,
-  "markets_sharp": 10,
-  "outcomes": 87,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.45,
-   "ev_pct": -0.95,
-   "threshold_pct": 1.5,
-   "price": 1.18,
-   "outcome": "Real Madrid",
-   "book": "Betfair",
-   "matchup": "Celta Vigo @ Real Madrid",
-   "sport_key": "soccer_spain_la_liga",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-21T10:30:44.633449+00:00",
   "markets": 22,
   "markets_sharp": 22,
@@ -1360,6 +1341,25 @@
    "ev_pct": -2.67,
    "threshold_pct": 1.56,
    "price": 1.28,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-23T10:30:42.692376+00:00",
+  "markets": 2,
+  "markets_sharp": 0,
+  "outcomes": 9,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.522,
+   "ev_pct": -1.94,
+   "threshold_pct": 1.58,
+   "price": 1.29,
    "outcome": "South Africa",
    "book": "Betfair",
    "matchup": "Bangladesh @ South Africa",
