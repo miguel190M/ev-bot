@@ -322,25 +322,6 @@
   "sharp_odds": null,
   "sport_key": "boxing_boxing"
  },
- "boxing_boxing|Jean Rivera-Pacheco @ Cayden Griffiths|h2h|Draw|SportsBet": {
-  "alerted": false,
-  "anchor": "retail_consensus",
-  "book": "SportsBet",
-  "commence_time": "2026-11-21T01:50:00Z",
-  "consensus_odds": 28.386,
-  "ev_pct": 44.4,
-  "fair_odds": 28.386,
-  "first_seen": "2026-11-20T21:30:42.989583+00:00",
-  "last_seen": "2026-11-21T01:00:59.688715+00:00",
-  "market": "h2h",
-  "matchup": "Jean Rivera-Pacheco @ Cayden Griffiths",
-  "max_ev_pct": 44.4,
-  "outcome": "Draw",
-  "price": 41.0,
-  "seen": 8,
-  "sharp_odds": null,
-  "sport_key": "boxing_boxing"
- },
  "cricket_test_match|Bangladesh @ South Africa|h2h|Bangladesh|Betfair": {
   "alerted": false,
   "anchor": "retail_consensus",
