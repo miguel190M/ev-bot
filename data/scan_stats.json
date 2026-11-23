@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-21T20:01:18.722902+00:00",
-  "markets": 88,
-  "markets_sharp": 84,
-  "outcomes": 398,
-  "capped": 2,
-  "flagged": 0,
-  "best": {
-   "gap": 3.804,
-   "ev_pct": 5.58,
-   "threshold_pct": 1.78,
-   "price": 1.78,
-   "outcome": "S.E. Melbourne Phoenix",
-   "book": "SportsBet",
-   "matchup": "Cairns Taipans @ S.E. Melbourne Phoenix",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-21T20:30:42.356202+00:00",
-  "markets": 2,
-  "markets_sharp": 1,
-  "outcomes": 5,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.772,
-   "ev_pct": -0.26,
-   "threshold_pct": 1.51,
-   "price": 1.51,
-   "outcome": "Navajo Stirling",
-   "book": "Betfair",
-   "matchup": "Navajo Stirling @ Jiri Prochazka",
-   "sport_key": "mma_mixed_martial_arts",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-21T21:00:59.076502+00:00",
   "markets": 1,
   "markets_sharp": 0,
@@ -1365,6 +1327,25 @@
    "matchup": "Utah Jazz @ Los Angeles Lakers",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-23T21:00:45.284764+00:00",
+  "markets": 2,
+  "markets_sharp": 0,
+  "outcomes": 9,
+  "capped": 2,
+  "flagged": 0,
+  "best": {
+   "gap": -3.004,
+   "ev_pct": -1.98,
+   "threshold_pct": 1.02,
+   "price": 1.01,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
