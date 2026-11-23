@@ -2610,8 +2610,8 @@
     "large_edge": false,
     "arb_hedge": false,
     "stake": 30.0,
-    "status": "open",
-    "profit": null,
+    "status": "won",
+    "profit": 8.4,
     "source": "live",
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-19T22:00:48.173326+00:00",
@@ -2619,7 +2619,11 @@
     "logged_at": "2026-11-19T22:30:32.394078+00:00",
     "closing_fair_odds": 1.244,
     "closing_captured_at": "2026-11-20T21:30:42.992101+00:00",
-    "settle_reminded_at": "2026-11-21T04:01:09.187690+00:00"
+    "settle_reminded_at": "2026-11-21T04:01:09.187690+00:00",
+    "settled_manually": true,
+    "clv_pct": 2.89,
+    "net_clv_pct": 2.89,
+    "resolved_at": "2026-11-23T02:30:32.869367+00:00"
   },
   "63fa": {
     "event_id": "4b01ab5b0f5c1709a8cf135c80ed0386",
