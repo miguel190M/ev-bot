@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-21T21:30:41.429212+00:00",
-  "markets": 2,
-  "markets_sharp": 0,
-  "outcomes": 5,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.614,
-   "ev_pct": 1.15,
-   "threshold_pct": 3.76,
-   "price": 2.38,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-21T22:00:55.007697+00:00",
   "markets": 54,
   "markets_sharp": 52,
@@ -1335,6 +1316,25 @@
   "markets_sharp": 17,
   "outcomes": 102,
   "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.701,
+   "ev_pct": -0.2,
+   "threshold_pct": 1.5,
+   "price": 1.16,
+   "outcome": "Los Angeles Lakers",
+   "book": "Betfair",
+   "matchup": "Utah Jazz @ Los Angeles Lakers",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-23T22:00:45.941662+00:00",
+  "markets": 30,
+  "markets_sharp": 25,
+  "outcomes": 118,
+  "capped": 2,
   "flagged": 0,
   "best": {
    "gap": -1.701,
