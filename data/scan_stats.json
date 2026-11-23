@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-21T12:00:55.805615+00:00",
-  "markets": 73,
-  "markets_sharp": 46,
-  "outcomes": 270,
-  "capped": 3,
-  "flagged": 0,
-  "best": {
-   "gap": -2.318,
-   "ev_pct": -0.82,
-   "threshold_pct": 1.5,
-   "price": 1.37,
-   "outcome": "Ikram Aliskerov",
-   "book": "Betfair",
-   "matchup": "Ikram Aliskerov @ Jared Cannonier",
-   "sport_key": "mma_mixed_martial_arts",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-21T12:30:37.366455+00:00",
-  "markets": 16,
-  "markets_sharp": 16,
-  "outcomes": 42,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 7.98,
-   "ev_pct": 9.97,
-   "threshold_pct": 1.99,
-   "price": 1.99,
-   "outcome": "Regan Glackin",
-   "book": "SportsBet",
-   "matchup": "Regan Glackin @ Adian Williamson",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-21T13:01:02.985832+00:00",
   "markets": 116,
   "markets_sharp": 84,
@@ -1345,6 +1307,25 @@
    "book": "Betfair",
    "matchup": "Everton @ Brentford",
    "sport_key": "soccer_epl",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-23T12:30:41.463864+00:00",
+  "markets": 4,
+  "markets_sharp": 3,
+  "outcomes": 24,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.677,
+   "ev_pct": 0.0,
+   "threshold_pct": 1.68,
+   "price": 1.68,
+   "outcome": "Memphis Grizzlies",
+   "book": "Betfair",
+   "matchup": "Memphis Grizzlies @ Charlotte Hornets",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
