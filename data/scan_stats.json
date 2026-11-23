@@ -1,62 +1,5 @@
 [
  {
-  "ts": "2026-11-21T11:00:56.591751+00:00",
-  "markets": 10,
-  "markets_sharp": 9,
-  "outcomes": 78,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.741,
-   "ev_pct": -1.24,
-   "threshold_pct": 1.5,
-   "price": 1.25,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Ben Shelton @ Carlos Alcaraz",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-21T11:28:22.284974+00:00",
-  "markets": 34,
-  "markets_sharp": 34,
-  "outcomes": 204,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 7.218,
-   "ev_pct": 11.79,
-   "threshold_pct": 4.57,
-   "price": 5.2,
-   "outcome": "Cardiff City",
-   "book": "Betfair",
-   "matchup": "Cardiff City @ Norwich City",
-   "sport_key": "soccer_efl_champ",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-21T11:30:39.138798+00:00",
-  "markets": 8,
-  "markets_sharp": 8,
-  "outcomes": 66,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.707,
-   "ev_pct": -1.17,
-   "threshold_pct": 1.54,
-   "price": 1.54,
-   "outcome": "RB Leipzig",
-   "book": "Betfair",
-   "matchup": "RB Leipzig @ Union Berlin",
-   "sport_key": "soccer_germany_bundesliga",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-21T12:00:55.805615+00:00",
   "markets": 73,
   "markets_sharp": 46,
@@ -1364,6 +1307,25 @@
    "book": "Betfair",
    "matchup": "Bangladesh @ South Africa",
    "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-23T11:30:39.220764+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 6,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.84,
+   "ev_pct": -1.8,
+   "threshold_pct": 3.04,
+   "price": 2.02,
+   "outcome": "England",
+   "book": "NextBet",
+   "matchup": "England @ Australia",
+   "sport_key": "cricket_international_t20",
    "anchor": "retail_consensus"
   }
  }
