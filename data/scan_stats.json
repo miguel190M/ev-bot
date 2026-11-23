@@ -1328,5 +1328,24 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-23T13:00:49.545759+00:00",
+  "markets": 26,
+  "markets_sharp": 19,
+  "outcomes": 77,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.626,
+   "ev_pct": -1.13,
+   "threshold_pct": 1.5,
+   "price": 1.14,
+   "outcome": "BYU Cougars",
+   "book": "Betfair",
+   "matchup": "Washington Huskies @ BYU Cougars",
+   "sport_key": "basketball_ncaab",
+   "anchor": "pinnacle"
+  }
  }
 ]
