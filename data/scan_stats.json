@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-21T05:30:35.633731+00:00",
-  "markets": 21,
-  "markets_sharp": 21,
-  "outcomes": 77,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 8.25,
-   "ev_pct": 10.28,
-   "threshold_pct": 2.03,
-   "price": 2.03,
-   "outcome": "Isabel Rivero",
-   "book": "SportsBet",
-   "matchup": "Sumire Yamanaka @ Isabel Rivero",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-21T06:00:45.833785+00:00",
   "markets": 9,
   "markets_sharp": 8,
@@ -1346,6 +1327,25 @@
    "matchup": "St. Bonaventure Bonnies @ Appalachian St Mountaineers",
    "sport_key": "basketball_ncaab",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-23T05:30:37.139135+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 3,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.88,
+   "ev_pct": -2.52,
+   "threshold_pct": 1.36,
+   "price": 1.18,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
