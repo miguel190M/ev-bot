@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-21T03:00:59.005850+00:00",
-  "markets": 20,
-  "markets_sharp": 19,
-  "outcomes": 74,
-  "capped": 2,
-  "flagged": 0,
-  "best": {
-   "gap": 12.267,
-   "ev_pct": 14.3,
-   "threshold_pct": 2.03,
-   "price": 2.03,
-   "outcome": "Isabel Rivero",
-   "book": "SportsBet",
-   "matchup": "Sumire Yamanaka @ Isabel Rivero",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-21T03:30:38.540145+00:00",
-  "markets": 21,
-  "markets_sharp": 19,
-  "outcomes": 80,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": 12.267,
-   "ev_pct": 14.3,
-   "threshold_pct": 2.03,
-   "price": 2.03,
-   "outcome": "Isabel Rivero",
-   "book": "SportsBet",
-   "matchup": "Sumire Yamanaka @ Isabel Rivero",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-21T04:01:09.119644+00:00",
   "markets": 21,
   "markets_sharp": 18,
@@ -1396,6 +1358,25 @@
   "best": {
    "gap": -4.604,
    "ev_pct": -3.26,
+   "threshold_pct": 1.34,
+   "price": 1.17,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-23T04:00:45.711993+00:00",
+  "markets": 4,
+  "markets_sharp": 3,
+  "outcomes": 15,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.643,
+   "ev_pct": -3.3,
    "threshold_pct": 1.34,
    "price": 1.17,
    "outcome": "South Africa",
