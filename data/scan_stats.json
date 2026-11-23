@@ -1328,5 +1328,24 @@
    "sport_key": "cricket_international_t20",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-23T12:00:46.491671+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 27,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.517,
+   "ev_pct": -1.18,
+   "threshold_pct": 2.34,
+   "price": 2.34,
+   "outcome": "Brentford",
+   "book": "Betfair",
+   "matchup": "Everton @ Brentford",
+   "sport_key": "soccer_epl",
+   "anchor": "pinnacle"
+  }
  }
 ]
