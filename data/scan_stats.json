@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-21T09:30:36.578532+00:00",
-  "markets": 33,
-  "markets_sharp": 33,
-  "outcomes": 201,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 7.641,
-   "ev_pct": 9.56,
-   "threshold_pct": 1.92,
-   "price": 1.92,
-   "outcome": "Isabel Rivero",
-   "book": "SportsBet",
-   "matchup": "Sumire Yamanaka @ Isabel Rivero",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-21T10:00:57.900366+00:00",
   "markets": 11,
   "markets_sharp": 10,
@@ -1346,6 +1327,25 @@
    "matchup": "Tulsa Golden Hurricane @ Oregon St Beavers",
    "sport_key": "basketball_ncaab",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-23T09:30:39.640056+00:00",
+  "markets": 2,
+  "markets_sharp": 0,
+  "outcomes": 9,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.734,
+   "ev_pct": -2.13,
+   "threshold_pct": 1.6,
+   "price": 1.3,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
   }
  }
 ]
