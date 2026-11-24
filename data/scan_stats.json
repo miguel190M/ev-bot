@@ -1176,5 +1176,24 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-24T23:58:03.163911+00:00",
+  "markets": 54,
+  "markets_sharp": 38,
+  "outcomes": 147,
+  "capped": 7,
+  "flagged": 0,
+  "best": {
+   "gap": -2.088,
+   "ev_pct": -0.59,
+   "threshold_pct": 1.5,
+   "price": 1.09,
+   "outcome": "Gonzaga Bulldogs",
+   "book": "Betfair",
+   "matchup": "Gonzaga Bulldogs @ Kansas St Wildcats",
+   "sport_key": "basketball_ncaab",
+   "anchor": "pinnacle"
+  }
  }
 ]
