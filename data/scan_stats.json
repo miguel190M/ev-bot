@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-22T05:30:38.509024+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 12,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -0.389,
-   "ev_pct": 1.16,
-   "threshold_pct": 1.55,
-   "price": 1.55,
-   "outcome": "Sydney Kings",
-   "book": "SportsBet",
-   "matchup": "Sydney Kings @ Brisbane Bullets",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-22T06:00:43.860508+00:00",
   "markets": 12,
   "markets_sharp": 11,
@@ -1277,6 +1258,25 @@
   "markets": 5,
   "markets_sharp": 3,
   "outcomes": 17,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": -3.004,
+   "ev_pct": -1.98,
+   "threshold_pct": 1.02,
+   "price": 1.01,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-24T05:30:40.380632+00:00",
+  "markets": 2,
+  "markets_sharp": 0,
+  "outcomes": 9,
   "capped": 1,
   "flagged": 0,
   "best": {
