@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-22T07:00:48.601873+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 3,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -6.276,
-   "ev_pct": -3.62,
-   "threshold_pct": 2.66,
-   "price": 1.83,
-   "outcome": "Draw",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-22T07:30:35.926145+00:00",
-  "markets": 5,
-  "markets_sharp": 5,
-  "outcomes": 42,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.829,
-   "ev_pct": -1.33,
-   "threshold_pct": 1.5,
-   "price": 1.5,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Carlos Alcaraz @ Alexander Zverev",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-22T08:00:53.486286+00:00",
   "markets": 3,
   "markets_sharp": 1,
@@ -1308,6 +1270,25 @@
    "matchup": "Bangladesh @ South Africa",
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-24T07:30:38.747557+00:00",
+  "markets": 2,
+  "markets_sharp": 1,
+  "outcomes": 9,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": -1.7,
+   "ev_pct": 0.32,
+   "threshold_pct": 2.02,
+   "price": 2.02,
+   "outcome": "Australia",
+   "book": "Betfair",
+   "matchup": "England @ Australia",
+   "sport_key": "cricket_international_t20",
+   "anchor": "pinnacle"
   }
  }
 ]
