@@ -189,25 +189,6 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
- "basketball_ncaab|Washington St Cougars @ Duke Blue Devils|h2h|Washington St Cougars|SportsBet": {
-  "alerted": false,
-  "anchor": "retail_consensus",
-  "book": "SportsBet",
-  "commence_time": "2026-11-22T04:00:00Z",
-  "consensus_odds": 27.624,
-  "ev_pct": 48.4,
-  "fair_odds": 27.624,
-  "first_seen": "2026-11-21T20:01:18.722357+00:00",
-  "last_seen": "2026-11-22T02:00:49.229569+00:00",
-  "market": "h2h",
-  "matchup": "Washington St Cougars @ Duke Blue Devils",
-  "max_ev_pct": 67.4,
-  "outcome": "Washington St Cougars",
-  "price": 41.0,
-  "seen": 4,
-  "sharp_odds": null,
-  "sport_key": "basketball_ncaab"
- },
  "basketball_ncaab|Winthrop Eagles @ Illinois Fighting Illini|h2h|Winthrop Eagles|SportsBet": {
   "alerted": false,
   "anchor": "retail_consensus",

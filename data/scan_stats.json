@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-22T02:00:49.230071+00:00",
-  "markets": 12,
-  "markets_sharp": 11,
-  "outcomes": 67,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": -2.391,
-   "ev_pct": -0.89,
-   "threshold_pct": 1.5,
-   "price": 1.47,
-   "outcome": "Sydney Kings",
-   "book": "SportsBet",
-   "matchup": "Sydney Kings @ Brisbane Bullets",
-   "sport_key": "basketball_nbl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-22T02:30:42.162586+00:00",
   "markets": 5,
   "markets_sharp": 5,
@@ -1325,6 +1306,25 @@
    "outcome": "San Antonio Spurs",
    "book": "Betfair",
    "matchup": "San Antonio Spurs @ Sacramento Kings",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-24T02:24:31.466409+00:00",
+  "markets": 2,
+  "markets_sharp": 2,
+  "outcomes": 12,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.15,
+   "ev_pct": -0.65,
+   "threshold_pct": 1.5,
+   "price": 1.16,
+   "outcome": "Los Angeles Lakers",
+   "book": "Betfair",
+   "matchup": "Utah Jazz @ Los Angeles Lakers",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
