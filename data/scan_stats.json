@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-22T23:00:53.095935+00:00",
-  "markets": 7,
-  "markets_sharp": 6,
-  "outcomes": 39,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.33,
-   "ev_pct": -1.83,
-   "threshold_pct": 1.5,
-   "price": 1.36,
-   "outcome": "New York Knicks",
-   "book": "Betfair",
-   "matchup": "Indiana Pacers @ New York Knicks",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-22T23:30:34.421120+00:00",
   "markets": 5,
   "markets_sharp": 5,
@@ -1174,6 +1155,25 @@
    "book": "Betfair",
    "matchup": "Dallas Mavericks @ Denver Nuggets",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-24T23:00:53.124856+00:00",
+  "markets": 5,
+  "markets_sharp": 5,
+  "outcomes": 30,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.621,
+   "ev_pct": -1.12,
+   "threshold_pct": 1.5,
+   "price": 1.46,
+   "outcome": "Eastern Michigan Eagles",
+   "book": "Betfair",
+   "matchup": "Kent State Golden Flashes @ Eastern Michigan Eagles",
+   "sport_key": "americanfootball_ncaaf",
    "anchor": "pinnacle"
   }
  }
