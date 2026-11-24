@@ -132,25 +132,6 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
- "basketball_ncaab|Southern Indiana Screaming Eagles @ Texas Longhorns|h2h|Southern Indiana Screaming Eagles|Betfair": {
-  "alerted": false,
-  "anchor": "retail_consensus",
-  "book": "Betfair",
-  "commence_time": "2026-11-22T20:00:00Z",
-  "consensus_odds": 14.5,
-  "ev_pct": 224.6,
-  "fair_odds": 14.5,
-  "first_seen": "2026-11-22T09:00:49.962732+00:00",
-  "last_seen": "2026-11-22T09:00:49.962732+00:00",
-  "market": "h2h",
-  "matchup": "Southern Indiana Screaming Eagles @ Texas Longhorns",
-  "max_ev_pct": 224.6,
-  "outcome": "Southern Indiana Screaming Eagles",
-  "price": 50.0,
-  "seen": 1,
-  "sharp_odds": null,
-  "sport_key": "basketball_ncaab"
- },
  "basketball_ncaab|Southern Indiana Screaming Eagles @ Texas Longhorns|h2h|Southern Indiana Screaming Eagles|SportsBet": {
   "alerted": false,
   "anchor": "retail_consensus",
