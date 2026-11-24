@@ -1290,5 +1290,24 @@
    "sport_key": "cricket_international_t20",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-24T08:00:48.449597+00:00",
+  "markets": 9,
+  "markets_sharp": 9,
+  "outcomes": 78,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.73,
+   "ev_pct": 0.27,
+   "threshold_pct": 2.0,
+   "price": 2.0,
+   "outcome": "Australia",
+   "book": "NextBet",
+   "matchup": "England @ Australia",
+   "sport_key": "cricket_international_t20",
+   "anchor": "pinnacle"
+  }
  }
 ]

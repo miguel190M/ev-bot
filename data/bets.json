@@ -2864,8 +2864,8 @@
     "large_edge": false,
     "arb_hedge": false,
     "stake": 20.0,
-    "status": "open",
-    "profit": null,
+    "status": "won",
+    "profit": 6.2,
     "source": "live",
     "bookmaker_key": "nextbet",
     "alerted_at": "2026-11-21T00:17:27.340471+00:00",
@@ -2874,7 +2874,11 @@
     "alert_price": 1.28,
     "alert_ev_pct": 1.65,
     "closing_fair_odds": 1.27,
-    "closing_captured_at": "2026-11-21T13:01:02.987384+00:00"
+    "closing_captured_at": "2026-11-21T13:01:02.987384+00:00",
+    "settled_manually": true,
+    "clv_pct": 3.15,
+    "net_clv_pct": 3.15,
+    "resolved_at": "2026-11-24T08:00:46.707991+00:00"
   },
   "04d9": {
     "event_id": "3de652d2815550e88c9e775f6036a771",
