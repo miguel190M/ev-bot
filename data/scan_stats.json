@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-22T22:30:35.379480+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 42,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.855,
-   "ev_pct": -1.35,
-   "threshold_pct": 1.5,
-   "price": 1.5,
-   "outcome": "San Francisco 49ers",
-   "book": "NextBet",
-   "matchup": "Minnesota Vikings @ San Francisco 49ers",
-   "sport_key": "americanfootball_nfl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-22T23:00:53.095935+00:00",
   "markets": 7,
   "markets_sharp": 6,
@@ -1174,6 +1155,25 @@
    "book": "Betfair",
    "matchup": "Gonzaga Bulldogs @ Kansas St Wildcats",
    "sport_key": "basketball_ncaab",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-24T22:30:37.077455+00:00",
+  "markets": 4,
+  "markets_sharp": 4,
+  "outcomes": 24,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.332,
+   "ev_pct": -0.83,
+   "threshold_pct": 1.5,
+   "price": 1.38,
+   "outcome": "Denver Nuggets",
+   "book": "Betfair",
+   "matchup": "Dallas Mavericks @ Denver Nuggets",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
