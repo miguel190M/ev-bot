@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-22T06:00:43.860508+00:00",
-  "markets": 12,
-  "markets_sharp": 11,
-  "outcomes": 75,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.691,
-   "ev_pct": -0.18,
-   "threshold_pct": 1.51,
-   "price": 1.51,
-   "outcome": "Brighton and Hove Albion",
-   "book": "Betfair",
-   "matchup": "Brighton and Hove Albion @ Hull City",
-   "sport_key": "soccer_epl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-22T06:30:38.279880+00:00",
   "markets": 3,
   "markets_sharp": 3,
@@ -1277,6 +1258,25 @@
   "markets": 2,
   "markets_sharp": 0,
   "outcomes": 9,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": -3.004,
+   "ev_pct": -1.98,
+   "threshold_pct": 1.02,
+   "price": 1.01,
+   "outcome": "South Africa",
+   "book": "Betfair",
+   "matchup": "Bangladesh @ South Africa",
+   "sport_key": "cricket_test_match",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-24T06:00:47.123211+00:00",
+  "markets": 4,
+  "markets_sharp": 2,
+  "outcomes": 27,
   "capped": 1,
   "flagged": 0,
   "best": {
