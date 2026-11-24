@@ -1290,5 +1290,24 @@
    "sport_key": "cricket_test_match",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-24T06:30:34.948444+00:00",
+  "markets": 2,
+  "markets_sharp": 1,
+  "outcomes": 9,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": -0.228,
+   "ev_pct": 1.75,
+   "threshold_pct": 1.98,
+   "price": 1.98,
+   "outcome": "Australia",
+   "book": "Betfair",
+   "matchup": "England @ Australia",
+   "sport_key": "cricket_international_t20",
+   "anchor": "pinnacle"
+  }
  }
 ]
