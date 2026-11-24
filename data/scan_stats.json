@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-22T09:00:49.963543+00:00",
-  "markets": 30,
-  "markets_sharp": 17,
-  "outcomes": 120,
-  "capped": 4,
-  "flagged": 0,
-  "best": {
-   "gap": -2.543,
-   "ev_pct": -1.04,
-   "threshold_pct": 1.5,
-   "price": 1.14,
-   "outcome": "Nebraska Cornhuskers",
-   "book": "Betfair",
-   "matchup": "Butler Bulldogs @ Nebraska Cornhuskers",
-   "sport_key": "basketball_ncaab",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-22T09:30:41.964135+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 6,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.915,
-   "ev_pct": -1.42,
-   "threshold_pct": 1.5,
-   "price": 1.5,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Carlos Alcaraz @ Alexander Zverev",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-22T10:00:49.225736+00:00",
   "markets": 19,
   "markets_sharp": 17,
@@ -1288,6 +1250,25 @@
    "book": "Betfair",
    "matchup": "Fenerbahce SK @ FC Barcelona B\u00e0squet",
    "sport_key": "basketball_euroleague",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-24T10:00:47.647541+00:00",
+  "markets": 9,
+  "markets_sharp": 9,
+  "outcomes": 81,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.331,
+   "ev_pct": -0.83,
+   "threshold_pct": 1.5,
+   "price": 1.49,
+   "outcome": "Bod\u00f8/Glimt",
+   "book": "Betfair",
+   "matchup": "LASK @ Bod\u00f8/Glimt",
+   "sport_key": "soccer_uefa_champs_league",
    "anchor": "pinnacle"
   }
  }
