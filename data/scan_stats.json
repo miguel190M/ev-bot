@@ -1328,5 +1328,24 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-24T02:30:37.384864+00:00",
+  "markets": 2,
+  "markets_sharp": 2,
+  "outcomes": 12,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.15,
+   "ev_pct": -0.65,
+   "threshold_pct": 1.5,
+   "price": 1.16,
+   "outcome": "Los Angeles Lakers",
+   "book": "Betfair",
+   "matchup": "Utah Jazz @ Los Angeles Lakers",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
