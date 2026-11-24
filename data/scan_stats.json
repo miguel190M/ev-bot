@@ -1,81 +1,5 @@
 [
  {
-  "ts": "2026-11-22T10:00:49.225736+00:00",
-  "markets": 19,
-  "markets_sharp": 17,
-  "outcomes": 126,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": -1.913,
-   "ev_pct": -0.41,
-   "threshold_pct": 1.5,
-   "price": 1.4,
-   "outcome": "Jacksonville Jaguars",
-   "book": "Betfair",
-   "matchup": "Jacksonville Jaguars @ New York Giants",
-   "sport_key": "americanfootball_nfl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-22T10:30:39.537920+00:00",
-  "markets": 8,
-  "markets_sharp": 8,
-  "outcomes": 69,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.295,
-   "ev_pct": -0.78,
-   "threshold_pct": 1.51,
-   "price": 1.51,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Carlos Alcaraz @ Alexander Zverev",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-22T11:00:58.586510+00:00",
-  "markets": 5,
-  "markets_sharp": 3,
-  "outcomes": 33,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": -3.448,
-   "ev_pct": -1.68,
-   "threshold_pct": 1.77,
-   "price": 1.77,
-   "outcome": "Liverpool",
-   "book": "Betfair",
-   "matchup": "Manchester United @ Liverpool",
-   "sport_key": "soccer_epl",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-22T11:30:38.836087+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 24,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.226,
-   "ev_pct": -0.73,
-   "threshold_pct": 1.5,
-   "price": 1.5,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Carlos Alcaraz @ Alexander Zverev",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-22T12:00:56.882960+00:00",
   "markets": 6,
   "markets_sharp": 4,
@@ -1270,6 +1194,25 @@
    "matchup": "LASK @ Bod\u00f8/Glimt",
    "sport_key": "soccer_uefa_champs_league",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-24T12:00:47.437071+00:00",
+  "markets": 56,
+  "markets_sharp": 29,
+  "outcomes": 202,
+  "capped": 3,
+  "flagged": 0,
+  "best": {
+   "gap": -1.763,
+   "ev_pct": 0.14,
+   "threshold_pct": 1.9,
+   "price": 1.45,
+   "outcome": "Michigan Wolverines",
+   "book": "Betfair",
+   "matchup": "Creighton Bluejays @ Michigan Wolverines",
+   "sport_key": "basketball_ncaab",
+   "anchor": "retail_consensus"
   }
  }
 ]
