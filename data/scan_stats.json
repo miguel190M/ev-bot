@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-22T20:00:52.242567+00:00",
-  "markets": 40,
-  "markets_sharp": 36,
-  "outcomes": 184,
-  "capped": 3,
-  "flagged": 0,
-  "best": {
-   "gap": -2.426,
-   "ev_pct": -0.93,
-   "threshold_pct": 1.5,
-   "price": 1.22,
-   "outcome": "Minnesota Golden Gophers",
-   "book": "Betfair",
-   "matchup": "Utah Utes @ Minnesota Golden Gophers",
-   "sport_key": "basketball_ncaab",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-22T20:30:39.237362+00:00",
   "markets": 9,
   "markets_sharp": 7,
@@ -1192,6 +1173,25 @@
    "outcome": "Arkansas St Red Wolves",
    "book": "SportsBet",
    "matchup": "Arkansas St Red Wolves @ Long Beach St 49ers",
+   "sport_key": "basketball_ncaab",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-24T20:01:00.693525+00:00",
+  "markets": 77,
+  "markets_sharp": 63,
+  "outcomes": 241,
+  "capped": 5,
+  "flagged": 0,
+  "best": {
+   "gap": -1.278,
+   "ev_pct": 0.65,
+   "threshold_pct": 1.93,
+   "price": 1.93,
+   "outcome": "Morgan St Bears",
+   "book": "SportsBet",
+   "matchup": "Mt. St. Mary's Mountaineers @ Morgan St Bears",
    "sport_key": "basketball_ncaab",
    "anchor": "pinnacle"
   }
