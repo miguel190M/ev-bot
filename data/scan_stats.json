@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-22T13:30:44.973013+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 24,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.383,
-   "ev_pct": -0.87,
-   "threshold_pct": 1.51,
-   "price": 1.51,
-   "outcome": "Carlos Alcaraz",
-   "book": "Betfair",
-   "matchup": "Carlos Alcaraz @ Alexander Zverev",
-   "sport_key": "tennis_atp_finals",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-22T20:00:52.242567+00:00",
   "markets": 40,
   "markets_sharp": 36,
@@ -1193,6 +1174,25 @@
    "book": "Betfair",
    "matchup": "Fenerbahce SK @ FC Barcelona B\u00e0squet",
    "sport_key": "basketball_euroleague",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-24T13:59:50.969153+00:00",
+  "markets": 75,
+  "markets_sharp": 47,
+  "outcomes": 241,
+  "capped": 4,
+  "flagged": 0,
+  "best": {
+   "gap": -1.67,
+   "ev_pct": -0.17,
+   "threshold_pct": 1.5,
+   "price": 1.49,
+   "outcome": "Arkansas St Red Wolves",
+   "book": "SportsBet",
+   "matchup": "Arkansas St Red Wolves @ Long Beach St 49ers",
+   "sport_key": "basketball_ncaab",
    "anchor": "pinnacle"
   }
  }
