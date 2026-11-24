@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-22T00:30:47.334602+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 45,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.139,
-   "ev_pct": -0.64,
-   "threshold_pct": 1.5,
-   "price": 1.08,
-   "outcome": "San Antonio Spurs",
-   "book": "Betfair",
-   "matchup": "New Orleans Pelicans @ San Antonio Spurs",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-22T01:00:48.209271+00:00",
   "markets": 8,
   "markets_sharp": 8,
@@ -1339,6 +1320,25 @@
   "best": {
    "gap": -2.053,
    "ev_pct": -0.55,
+   "threshold_pct": 1.5,
+   "price": 1.15,
+   "outcome": "Los Angeles Lakers",
+   "book": "Betfair",
+   "matchup": "Utah Jazz @ Los Angeles Lakers",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-24T01:00:47.160841+00:00",
+  "markets": 7,
+  "markets_sharp": 5,
+  "outcomes": 39,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": -2.027,
+   "ev_pct": -0.53,
    "threshold_pct": 1.5,
    "price": 1.15,
    "outcome": "Los Angeles Lakers",
