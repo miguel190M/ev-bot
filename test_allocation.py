@@ -14,8 +14,12 @@ NOW = datetime.now(timezone.utc)
 def test_costs_per_pull():
     def cost(k):
         return len(config.get_regions_for_sport(k).split(",")) * len(config.get_markets_for_sport(k).split(","))
-    assert cost("basketball_nba") == 3                  # au,us,eu
-    for k in ("americanfootball_nfl", "baseball_mlb", "icehockey_nhl", "soccer_epl",
+    # totals trial (2026-11-25): +1 market on NBA/NFL/AFL/NRL = +1 credit per region
+    assert cost("basketball_nba") == 6                  # au,us,eu x h2h,totals
+    for k in ("americanfootball_nfl", "aussierules_afl", "rugbyleague_nrl"):
+        assert cost(k) == 4, k                          # au,eu x h2h,totals
+    for k in ("baseball_mlb", "icehockey_nhl", "soccer_epl", "soccer_uefa_europa_league", "soccer_france_ligue_one",
+              "soccer_england_league1", "soccer_netherlands_eredivisie",
               "soccer_germany_bundesliga", "soccer_uefa_champs_league", "boxing_boxing", "cricket_big_bash"):
         assert cost(k) == 2, k
 

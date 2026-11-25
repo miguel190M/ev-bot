@@ -11,10 +11,16 @@ DEFAULT_MARKET = os.environ.get("ODDS_MARKET", "h2h")  # default market for most
 
 # Per-sport market overrides (default is h2h only).
 SPORT_MARKET_OVERRIDES = {
-    # Soccer 'totals' (over/under) used to be pulled here, but across 89 alerts
-    # it never produced a single one while doubling each league's cost per
-    # pull (4 credits -> 2), so every sport is h2h-only now. Add a
-    # "sport_key": "h2h,totals" entry to bring it back for one league.
+    # TRIAL (from 2026-11-25): over/under on the four big sports Pinnacle prices
+    # sharply and Sportsbet quotes. Soccer totals used to be pulled here, but
+    # across 89 alerts it never produced a single one while doubling each
+    # league's cost per pull, so soccer stays h2h-only. Each extra market costs
+    # one credit per region per pull (2 for these, 3 for NBA). Judge it with
+    # /breakdown market after a few weeks; delete these lines to turn it off.
+    "basketball_nba": "h2h,totals",
+    "americanfootball_nfl": "h2h,totals",
+    "aussierules_afl": "h2h,totals",
+    "rugbyleague_nrl": "h2h,totals",
 }
 
 
@@ -202,6 +208,8 @@ THROTTLED_SPORTS = {
     "soccer_spain_la_liga", "soccer_italy_serie_a", "soccer_germany_bundesliga",
     "soccer_uefa_champs_league", "soccer_usa_mls",
     "soccer_efl_champ",   # lots of games a week; slowed like the other soccer leagues
+    "soccer_uefa_europa_league", "soccer_france_ligue_one", "soccer_england_league1",
+    "soccer_netherlands_eredivisie",   # added 2026-11-25 - slowed from the start to protect credits
     "americanfootball_ncaaf", "basketball_ncaab",   # trial sports: slowed after they pushed burn to ~480/day
 }
 THROTTLED_NEAR_INTERVAL_MINUTES = float(os.environ.get("THROTTLED_NEAR_INTERVAL_MINUTES", "120"))
@@ -309,6 +317,10 @@ FIXED_SPORTS = [
     "basketball_nbl",   # Australian NBL (Oct-Mar); local market, scanned every run
     "basketball_euroleague",   # Pinnacle prices it sharply; plays midweek when NBA/AFL are quiet
     "soccer_efl_champ",        # English Championship - softer AU lines than the EPL
+    "soccer_uefa_europa_league",     # midweek, same market type as the Champions League
+    "soccer_france_ligue_one",
+    "soccer_england_league1",        # soft AU lines, many games, like the Championship
+    "soccer_netherlands_eredivisie",
 ]
 
 # Sport groups (as listed by The Odds API /sports) whose in-season competitions
