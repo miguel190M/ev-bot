@@ -1,1 +1,26 @@
-{}
+{
+  "c6c4": {
+    "event_id": "f427299353d39efbc9fb4ded5c551228",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-26T09:30:00Z",
+    "home_team": "Takeshi Ishii",
+    "away_team": "Zyvyr John Medecilo",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Zyvyr John Medecilo",
+    "price": 5.9,
+    "commission": 0.0,
+    "fair_probability": 0.1952,
+    "fair_odds": 5.122,
+    "ev_pct": 15.19,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.1952,
+    "consensus_probability": 0.1939,
+    "large_edge": false,
+    "suggested_stake": 8.0,
+    "alerted_at": "2026-11-25T09:30:35.608733+00:00"
+  }
+}
