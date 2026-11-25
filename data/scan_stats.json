@@ -1,62 +1,5 @@
 [
  {
-  "ts": "2026-11-23T04:00:45.711993+00:00",
-  "markets": 4,
-  "markets_sharp": 3,
-  "outcomes": 15,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -4.643,
-   "ev_pct": -3.3,
-   "threshold_pct": 1.34,
-   "price": 1.17,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Bangladesh @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-23T05:00:49.959675+00:00",
-  "markets": 3,
-  "markets_sharp": 2,
-  "outcomes": 11,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.729,
-   "ev_pct": -2.23,
-   "threshold_pct": 1.5,
-   "price": 1.49,
-   "outcome": "St. Bonaventure Bonnies",
-   "book": "Betfair",
-   "matchup": "St. Bonaventure Bonnies @ Appalachian St Mountaineers",
-   "sport_key": "basketball_ncaab",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-23T05:30:37.139135+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 3,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.88,
-   "ev_pct": -2.52,
-   "threshold_pct": 1.36,
-   "price": 1.18,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Bangladesh @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-23T06:00:45.764608+00:00",
   "markets": 1,
   "markets_sharp": 0,
@@ -1231,6 +1174,25 @@
    "book": "Betfair",
    "matchup": "Gonzaga Bulldogs @ Kansas St Wildcats",
    "sport_key": "basketball_ncaab",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-25T06:00:41.085791+00:00",
+  "markets": 10,
+  "markets_sharp": 5,
+  "outcomes": 42,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.093,
+   "ev_pct": 0.41,
+   "threshold_pct": 1.5,
+   "price": 1.11,
+   "outcome": "Barcelona",
+   "book": "Betfair",
+   "matchup": "Barcelona @ Sabah FK",
+   "sport_key": "soccer_uefa_champs_league",
    "anchor": "pinnacle"
   }
  }
