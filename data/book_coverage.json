@@ -1,0 +1,175 @@
+{
+ "books": {
+  "betfair_ex_au": {
+   "first_seen": "2026-11-25T11:30:38.821855+00:00",
+   "last_seen": "2026-11-25T11:30:38.821855+00:00",
+   "sports": {
+    "boxing_boxing": {
+     "h2h": 1,
+     "h2h_lay": 1
+    }
+   },
+   "title": "Betfair"
+  },
+  "betfair_ex_eu": {
+   "first_seen": "2026-11-25T11:30:38.821855+00:00",
+   "last_seen": "2026-11-25T11:30:38.821855+00:00",
+   "sports": {
+    "boxing_boxing": {
+     "h2h": 1,
+     "h2h_lay": 1
+    }
+   },
+   "title": "Betfair"
+  },
+  "betonlineag": {
+   "first_seen": "2026-11-25T11:30:38.821855+00:00",
+   "last_seen": "2026-11-25T11:30:38.821855+00:00",
+   "sports": {
+    "boxing_boxing": {
+     "h2h": 2
+    }
+   },
+   "title": "BetOnline.ag"
+  },
+  "betr_au": {
+   "first_seen": "2026-11-25T11:30:38.821855+00:00",
+   "last_seen": "2026-11-25T11:30:38.821855+00:00",
+   "sports": {
+    "boxing_boxing": {
+     "h2h": 1
+    }
+   },
+   "title": "Betr"
+  },
+  "betright": {
+   "first_seen": "2026-11-25T11:30:38.821855+00:00",
+   "last_seen": "2026-11-25T11:30:38.821855+00:00",
+   "sports": {
+    "boxing_boxing": {
+     "h2h": 1
+    }
+   },
+   "title": "Bet Right"
+  },
+  "betsson": {
+   "first_seen": "2026-11-25T11:30:38.821855+00:00",
+   "last_seen": "2026-11-25T11:30:38.821855+00:00",
+   "sports": {
+    "boxing_boxing": {
+     "h2h": 2
+    }
+   },
+   "title": "Betsson"
+  },
+  "ladbrokes_au": {
+   "first_seen": "2026-11-25T11:30:38.821855+00:00",
+   "last_seen": "2026-11-25T11:30:38.821855+00:00",
+   "sports": {
+    "boxing_boxing": {
+     "h2h": 2
+    }
+   },
+   "title": "Ladbrokes"
+  },
+  "nordicbet": {
+   "first_seen": "2026-11-25T11:30:38.821855+00:00",
+   "last_seen": "2026-11-25T11:30:38.821855+00:00",
+   "sports": {
+    "boxing_boxing": {
+     "h2h": 2
+    }
+   },
+   "title": "Nordic Bet"
+  },
+  "onexbet": {
+   "first_seen": "2026-11-25T11:30:38.821855+00:00",
+   "last_seen": "2026-11-25T11:30:38.821855+00:00",
+   "sports": {
+    "boxing_boxing": {
+     "h2h": 3
+    }
+   },
+   "title": "1xBet"
+  },
+  "picklebet_au": {
+   "first_seen": "2026-11-25T11:30:38.821855+00:00",
+   "last_seen": "2026-11-25T11:30:38.821855+00:00",
+   "sports": {
+    "boxing_boxing": {
+     "h2h": 2
+    }
+   },
+   "title": "Picklebet (AU)"
+  },
+  "pinnacle": {
+   "first_seen": "2026-11-25T11:30:38.821855+00:00",
+   "last_seen": "2026-11-25T11:30:38.821855+00:00",
+   "sports": {
+    "boxing_boxing": {
+     "h2h": 2
+    }
+   },
+   "title": "Pinnacle"
+  },
+  "sportsbet": {
+   "first_seen": "2026-11-25T11:30:38.821855+00:00",
+   "last_seen": "2026-11-25T11:30:38.821855+00:00",
+   "sports": {
+    "boxing_boxing": {
+     "h2h": 3
+    }
+   },
+   "title": "SportsBet"
+  },
+  "tabtouch": {
+   "first_seen": "2026-11-25T11:30:38.821855+00:00",
+   "last_seen": "2026-11-25T11:30:38.821855+00:00",
+   "sports": {
+    "boxing_boxing": {
+     "h2h": 1
+    }
+   },
+   "title": "TABtouch"
+  },
+  "unibet": {
+   "first_seen": "2026-11-25T11:30:38.821855+00:00",
+   "last_seen": "2026-11-25T11:30:38.821855+00:00",
+   "sports": {
+    "boxing_boxing": {
+     "h2h": 1
+    }
+   },
+   "title": "Unibet"
+  },
+  "unibet_fr": {
+   "first_seen": "2026-11-25T11:30:38.821855+00:00",
+   "last_seen": "2026-11-25T11:30:38.821855+00:00",
+   "sports": {
+    "boxing_boxing": {
+     "h2h": 1
+    }
+   },
+   "title": "Unibet (FR)"
+  },
+  "winamax_fr": {
+   "first_seen": "2026-11-25T11:30:38.821855+00:00",
+   "last_seen": "2026-11-25T11:30:38.821855+00:00",
+   "sports": {
+    "boxing_boxing": {
+     "h2h": 2
+    }
+   },
+   "title": "Winamax (FR)"
+  }
+ },
+ "runs": 1,
+ "since": "2026-11-25T11:30:38.821855+00:00",
+ "slate": {
+  "boxing_boxing": {
+   "h2h": 3,
+   "h2h_lay": 1
+  }
+ },
+ "updated": "2026-11-25T11:30:38.821855+00:00"
+}
