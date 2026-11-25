@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-23T00:00:45.295970+00:00",
-  "markets": 15,
-  "markets_sharp": 13,
-  "outcomes": 76,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": -2.715,
-   "ev_pct": -0.63,
-   "threshold_pct": 2.08,
-   "price": 2.08,
-   "outcome": "Edmonton Oilers",
-   "book": "SportsBet",
-   "matchup": "Edmonton Oilers @ St Louis Blues",
-   "sport_key": "icehockey_nhl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-23T00:30:39.072301+00:00",
   "markets": 3,
   "markets_sharp": 3,
@@ -1193,6 +1174,25 @@
    "book": "Betfair",
    "matchup": "Gonzaga Bulldogs @ Kansas St Wildcats",
    "sport_key": "basketball_ncaab",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-25T00:00:54.672588+00:00",
+  "markets": 4,
+  "markets_sharp": 4,
+  "outcomes": 27,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.092,
+   "ev_pct": -0.59,
+   "threshold_pct": 1.5,
+   "price": 1.27,
+   "outcome": "Boston Celtics",
+   "book": "Betfair",
+   "matchup": "Boston Celtics @ Washington Wizards",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }

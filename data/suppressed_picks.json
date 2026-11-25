@@ -94,25 +94,6 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
- "basketball_ncaab|Louisiana Ragin' Cajuns @ USC Trojans|h2h|Louisiana Ragin' Cajuns|SportsBet": {
-  "alerted": false,
-  "anchor": "retail_consensus",
-  "book": "SportsBet",
-  "commence_time": "2026-11-23T01:00:00Z",
-  "consensus_odds": 14.5,
-  "ev_pct": 596.6,
-  "fair_odds": 14.5,
-  "first_seen": "2026-11-22T22:00:47.193342+00:00",
-  "last_seen": "2026-11-23T00:00:45.295231+00:00",
-  "market": "h2h",
-  "matchup": "Louisiana Ragin' Cajuns @ USC Trojans",
-  "max_ev_pct": 596.6,
-  "outcome": "Louisiana Ragin' Cajuns",
-  "price": 101.0,
-  "seen": 2,
-  "sharp_odds": null,
-  "sport_key": "basketball_ncaab"
- },
  "basketball_ncaab|Milwaukee Panthers @ Florida Gators|h2h|Milwaukee Panthers|SportsBet": {
   "alerted": false,
   "anchor": "retail_consensus",
