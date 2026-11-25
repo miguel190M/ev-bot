@@ -41,6 +41,10 @@ SPORT_LABELS = {
     "basketball_nbl": "NBL",
     "basketball_euroleague": "Euroleague",
     "soccer_efl_champ": "Championship",
+    "soccer_uefa_europa_league": "Europa League",
+    "soccer_france_ligue_one": "Ligue 1",
+    "soccer_england_league1": "League One",
+    "soccer_netherlands_eredivisie": "Eredivisie",
 }
 
 

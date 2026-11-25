@@ -98,6 +98,19 @@ def test_euroleague_championship_and_rugby_union():
     assert keys.count("rugbyleague_nrl") == 1
 
 
+def test_europa_ligue1_league1_eredivisie_and_totals_trial():
+    leagues = {"soccer_uefa_europa_league": "Europa League", "soccer_france_ligue_one": "Ligue 1",
+               "soccer_england_league1": "League One", "soccer_netherlands_eredivisie": "Eredivisie"}
+    for k, label in leagues.items():
+        assert k in config.FIXED_SPORTS
+        assert config.get_near_interval_minutes(k) == 120                 # throttled from day one
+        assert config.get_markets_for_sport(k) == "h2h"                   # soccer stays h2h-only
+        assert daily_digest._sport_label(k) == label
+    for k in ("basketball_nba", "americanfootball_nfl", "aussierules_afl", "rugbyleague_nrl"):
+        assert config.get_markets_for_sport(k) == "h2h,totals"
+    assert config.get_markets_for_sport("basketball_ncaab") == "h2h"      # everything else unchanged
+    assert config.get_markets_for_sport("soccer_epl") == "h2h"
+
 if __name__ == "__main__":
     for n, f in list(globals().items()):
         if n.startswith("test_"):
