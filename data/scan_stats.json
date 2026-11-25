@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-23T21:00:45.284764+00:00",
-  "markets": 2,
-  "markets_sharp": 0,
-  "outcomes": 9,
-  "capped": 2,
-  "flagged": 0,
-  "best": {
-   "gap": -3.004,
-   "ev_pct": -1.98,
-   "threshold_pct": 1.02,
-   "price": 1.01,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Bangladesh @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-23T21:30:35.868304+00:00",
   "markets": 17,
   "markets_sharp": 17,
@@ -1060,6 +1041,25 @@
    "book": "SportsBet",
    "matchup": "Los Angeles Clippers @ Memphis Grizzlies",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-25T21:00:59.630221+00:00",
+  "markets": 43,
+  "markets_sharp": 35,
+  "outcomes": 219,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.896,
+   "ev_pct": 1.75,
+   "threshold_pct": 3.64,
+   "price": 3.9,
+   "outcome": "Miel Fajardo",
+   "book": "SportsBet",
+   "matchup": "Miel Fajardo @ Masamichi Yabuki",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }

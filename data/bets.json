@@ -3151,8 +3151,8 @@
     "alerted_at": "2026-11-25T09:30:35.608733+00:00",
     "lead_hours": 24.0,
     "logged_at": "2026-11-25T10:00:45.298984+00:00",
-    "closing_fair_odds": 5.309,
-    "closing_captured_at": "2026-11-25T20:00:54.977833+00:00"
+    "closing_fair_odds": 5.793,
+    "closing_captured_at": "2026-11-25T21:00:59.632097+00:00"
   },
   "80ba": {
     "event_id": "4260f7557b6c1031ee1098f435482b8d",
@@ -3179,6 +3179,6 @@
     "lead_hours": 23.0,
     "logged_at": "2026-11-25T12:00:46.602478+00:00",
     "closing_fair_odds": 1.432,
-    "closing_captured_at": "2026-11-25T20:00:54.977833+00:00"
+    "closing_captured_at": "2026-11-25T21:00:59.632097+00:00"
   }
 }
