@@ -1,81 +1,5 @@
 [
  {
-  "ts": "2026-11-23T06:00:45.764608+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 3,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.88,
-   "ev_pct": -2.52,
-   "threshold_pct": 1.36,
-   "price": 1.18,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Bangladesh @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-23T06:30:42.225737+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 3,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.179,
-   "ev_pct": -1.8,
-   "threshold_pct": 1.38,
-   "price": 1.19,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Bangladesh @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-23T07:00:45.721212+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 3,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.859,
-   "ev_pct": -1.46,
-   "threshold_pct": 1.4,
-   "price": 1.2,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Bangladesh @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-23T07:30:37.620972+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 3,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.818,
-   "ev_pct": -0.38,
-   "threshold_pct": 1.44,
-   "price": 1.22,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Bangladesh @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-23T08:00:53.622265+00:00",
   "markets": 4,
   "markets_sharp": 3,
@@ -1193,6 +1117,25 @@
    "book": "Betfair",
    "matchup": "Barcelona @ Sabah FK",
    "sport_key": "soccer_uefa_champs_league",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-25T08:00:48.027151+00:00",
+  "markets": 8,
+  "markets_sharp": 8,
+  "outcomes": 52,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.734,
+   "ev_pct": -1.23,
+   "threshold_pct": 1.5,
+   "price": 1.36,
+   "outcome": "Real Madrid",
+   "book": "Betfair",
+   "matchup": "\u017dalgiris @ Real Madrid",
+   "sport_key": "basketball_euroleague",
    "anchor": "pinnacle"
   }
  }
