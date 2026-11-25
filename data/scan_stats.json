@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-23T11:30:39.220764+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 6,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -4.84,
-   "ev_pct": -1.8,
-   "threshold_pct": 3.04,
-   "price": 2.02,
-   "outcome": "England",
-   "book": "NextBet",
-   "matchup": "England @ Australia",
-   "sport_key": "cricket_international_t20",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-23T12:00:46.491671+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 27,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.517,
-   "ev_pct": -1.18,
-   "threshold_pct": 2.34,
-   "price": 2.34,
-   "outcome": "Brentford",
-   "book": "Betfair",
-   "matchup": "Everton @ Brentford",
-   "sport_key": "soccer_epl",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-23T12:30:41.463864+00:00",
   "markets": 4,
   "markets_sharp": 3,
@@ -1079,6 +1041,25 @@
    "book": "SportsBet",
    "matchup": "Zyvyr John Medecilo @ Takeshi Ishii",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-25T12:00:51.440971+00:00",
+  "markets": 59,
+  "markets_sharp": 27,
+  "outcomes": 212,
+  "capped": 3,
+  "flagged": 0,
+  "best": {
+   "gap": -2.04,
+   "ev_pct": -0.54,
+   "threshold_pct": 1.5,
+   "price": 1.37,
+   "outcome": "Real Madrid",
+   "book": "Betfair",
+   "matchup": "\u017dalgiris @ Real Madrid",
+   "sport_key": "basketball_euroleague",
    "anchor": "pinnacle"
   }
  }
