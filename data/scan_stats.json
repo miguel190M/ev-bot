@@ -1081,5 +1081,24 @@
    "sport_key": "soccer_uefa_champs_league",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-25T10:30:40.830887+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 13,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 10.118,
+   "ev_pct": 15.19,
+   "threshold_pct": 5.07,
+   "price": 5.9,
+   "outcome": "Zyvyr John Medecilo",
+   "book": "SportsBet",
+   "matchup": "Zyvyr John Medecilo @ Takeshi Ishii",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
