@@ -149,7 +149,8 @@ def drop_logged(opps: list[dict], ledger: dict) -> list[dict]:
 
 def is_opposing(opp: dict, bet: dict) -> bool:
     """True if `bet` (an open bet) is on the other side of the same market as `opp`.
-    Totals only oppose at the same line (Over 224.5 vs Under 224.5); other markets
+    Totals only oppose at the same line (Over 224.5 vs Under 224.5); spreads only
+    oppose at the mirrored line (Celtics -5.5 vs Lakers +5.5); other markets
     oppose on any different outcome."""
     from .ev_calculator import split_outcome
     if (bet.get("status") != "open" or bet.get("event_id") != opp.get("event_id")
@@ -157,6 +158,8 @@ def is_opposing(opp: dict, bet: dict) -> bool:
             or bet.get("outcome") == opp.get("outcome")):
         return False
     (n1, p1), (n2, p2) = split_outcome(opp["outcome"]), split_outcome(bet["outcome"])
+    if opp.get("market_key") == "spreads":
+        return n1 != n2 and p1 is not None and p2 is not None and abs(p1 + p2) < 1e-9
     if p1 is not None or p2 is not None:
         return p1 == p2
     return True
@@ -349,6 +352,23 @@ def _resolve_totals(bet: dict, home_score: int, away_score: int):
     _apply_win_loss(bet, won)
 
 
+def _resolve_spreads(bet: dict, home_score: int, away_score: int):
+    """Handicap bet. Outcome is stored as e.g. 'Boston Celtics -5.5' (team + signed
+    line): the team's score plus the line is compared with the opponent's score.
+    Exactly level is a push (void, stake returned)."""
+    from .ev_calculator import split_outcome
+    team, point = split_outcome(bet["outcome"])
+    if point is None:
+        raise ValueError(f"spread outcome has no line: {bet['outcome']!r}")
+    mine, theirs = (home_score, away_score) if team == bet.get("home_team") else (away_score, home_score)
+    adjusted = mine + point
+    if adjusted == theirs:
+        bet["status"] = "void"
+        bet["profit"] = 0.0
+        return
+    _apply_win_loss(bet, adjusted > theirs)
+
+
 def settle_manually(bet: dict, result: str) -> None:
     """Settle a bet by hand (result: 'won' | 'lost' | 'void') - for sports whose
     results the scores API can't provide. Same profit/CLV math as auto-settling."""
@@ -372,6 +392,8 @@ def resolve_bet(bet: dict, final_scores: dict) -> bool:
     home_score, away_score = final_scores[home], final_scores[away]
     if bet.get("market_key") == "totals":
         _resolve_totals(bet, home_score, away_score)
+    elif bet.get("market_key") == "spreads":
+        _resolve_spreads(bet, home_score, away_score)
     else:
         _resolve_h2h(bet, home_score, away_score)
 

@@ -106,7 +106,9 @@ def test_europa_ligue1_league1_eredivisie_and_totals_trial():
         assert config.get_near_interval_minutes(k) == 120                 # throttled from day one
         assert config.get_markets_for_sport(k) == "h2h"                   # soccer stays h2h-only
         assert daily_digest._sport_label(k) == label
-    for k in ("basketball_nba", "americanfootball_nfl", "aussierules_afl", "rugbyleague_nrl"):
+    for k in ("basketball_nba", "americanfootball_nfl"):
+        assert config.get_markets_for_sport(k) == "h2h,totals,spreads"
+    for k in ("aussierules_afl", "rugbyleague_nrl"):
         assert config.get_markets_for_sport(k) == "h2h,totals"
     assert config.get_markets_for_sport("basketball_ncaab") == "h2h"      # everything else unchanged
     assert config.get_markets_for_sport("soccer_epl") == "h2h"

@@ -281,9 +281,19 @@ def find_hedge_arbs(event: dict, held: list) -> list[dict]:
     for (market_key, held_outcome), legs in by_pos.items():
         book_prices, book_titles = _extract_book_prices(event, market_key)
         names = {n for prices in book_prices.values() for n in prices}
-        if len(names) != 2 or held_outcome not in names:
-            continue                                   # 3-way (draw) or missing: no 2-leg arb
-        counter = next(n for n in names if n != held_outcome)
+        if market_key == "spreads":
+            # books can quote different lines, so there may be >2 names: the other
+            # side of a handicap is the other team at the mirrored line (-5.5 <-> +5.5)
+            hn, hp = split_outcome(held_outcome)
+            mirrors = [n for n in names if split_outcome(n)[1] is not None and hp is not None
+                       and abs(split_outcome(n)[1] + hp) < 1e-9 and split_outcome(n)[0] != hn]
+            if held_outcome not in names or len(mirrors) != 1:
+                continue
+            counter = mirrors[0]
+        else:
+            if len(names) != 2 or held_outcome not in names:
+                continue                               # 3-way (draw) or missing: no 2-leg arb
+            counter = next(n for n in names if n != held_outcome)
         outlay_a = sum(b["stake"] for _, b in legs)
         payout_a = sum(b["stake"] * _effective_price(b["price"], b.get("commission", 0.0)) for _, b in legs)
         best = None
