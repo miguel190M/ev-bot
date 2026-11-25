@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-23T12:30:41.463864+00:00",
-  "markets": 4,
-  "markets_sharp": 3,
-  "outcomes": 24,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.677,
-   "ev_pct": 0.0,
-   "threshold_pct": 1.68,
-   "price": 1.68,
-   "outcome": "Memphis Grizzlies",
-   "book": "Betfair",
-   "matchup": "Memphis Grizzlies @ Charlotte Hornets",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-23T13:00:49.545759+00:00",
   "markets": 26,
   "markets_sharp": 19,
@@ -1060,6 +1041,25 @@
    "book": "Betfair",
    "matchup": "\u017dalgiris @ Real Madrid",
    "sport_key": "basketball_euroleague",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-25T12:30:44.367657+00:00",
+  "markets": 2,
+  "markets_sharp": 2,
+  "outcomes": 9,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 6.07,
+   "ev_pct": 11.14,
+   "threshold_pct": 5.07,
+   "price": 5.9,
+   "outcome": "Zyvyr John Medecilo",
+   "book": "SportsBet",
+   "matchup": "Zyvyr John Medecilo @ Takeshi Ishii",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
