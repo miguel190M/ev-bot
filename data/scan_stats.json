@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-23T01:30:39.294313+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 6,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.793,
-   "ev_pct": -2.29,
-   "threshold_pct": 1.5,
-   "price": 1.32,
-   "outcome": "Boston Celtics",
-   "book": "Betfair",
-   "matchup": "Boston Celtics @ Golden State Warriors",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-23T02:00:43.375397+00:00",
   "markets": 3,
   "markets_sharp": 2,
@@ -1192,6 +1173,25 @@
    "outcome": "Boston Celtics",
    "book": "Betfair",
    "matchup": "Boston Celtics @ Washington Wizards",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-25T01:30:39.831596+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 6,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.043,
+   "ev_pct": -1.54,
+   "threshold_pct": 1.5,
+   "price": 1.38,
+   "outcome": "Denver Nuggets",
+   "book": "Betfair",
+   "matchup": "Dallas Mavericks @ Denver Nuggets",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
