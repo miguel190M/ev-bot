@@ -1195,5 +1195,24 @@
    "sport_key": "basketball_ncaab",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-25T02:30:35.786223+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 6,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -4.014,
+   "ev_pct": -0.74,
+   "threshold_pct": 3.27,
+   "price": 3.38,
+   "outcome": "Dallas Mavericks",
+   "book": "SportsBet",
+   "matchup": "Dallas Mavericks @ Denver Nuggets",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
  }
 ]
