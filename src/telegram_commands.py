@@ -132,6 +132,15 @@ def is_suppressed_command(text: str) -> bool:
     return text.strip().lower() in ("/suppressed", "/toogood")
 
 
+def parse_books_command(text: str):
+    """'/books' -> "" (summary); '/books pinnacle' -> "pinnacle"; anything else -> None."""
+    t = text.strip()
+    head, _, rest = t.partition(" ")
+    if head.lower().split("@")[0] not in ("/books", "/coverage"):
+        return None
+    return rest.strip()
+
+
 def is_record_command(text: str) -> bool:
     return text.strip().lower() in ("/record", "/sports")
 
