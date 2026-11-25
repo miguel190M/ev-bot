@@ -25,7 +25,7 @@ from pathlib import Path
 
 from src import (
     config, odds_fetcher, ev_calculator, state, telegram_alerts,
-    scheduling, bets, scores, telegram_commands, daily_digest, breakdown, clv, health, scan_stats,
+    scheduling, bets, scores, telegram_commands, daily_digest, breakdown, clv, health, scan_stats, coverage,
 )
 
 RESOLUTION_BUFFER_HOURS = 4  # wait this long after commence_time before trying to resolve
@@ -62,6 +62,7 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
     total_credits_used = 0
     skipped = []
     seen_bookmakers = {}  # bookmaker_key -> title, across every event fetched this run
+    coverage_input = {}   # sport_key -> events scanned this run (for /books)
 
     open_bets_by_event = {}
     held_by_event = {}   # event_id -> [(bet_id, bet)] for hedge/arb checks
@@ -138,6 +139,7 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
         print(f"  {sport_key}: {tier} zone - "
               f"pulled odds (region={regions_used}, markets={markets_used}, {len(events)} events returned, "
               f"{len(near_term)} within window, {used} credits used, {remaining} remaining)")
+        coverage_input[sport_key] = near_term
         for event in near_term:
             for bm in event.get("bookmakers", []):
                 seen_bookmakers[bm["key"]] = bm.get("title", bm["key"])
@@ -155,6 +157,10 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
         scan_stats.record_suppressed(capped_picks)
     except Exception as e:
         print(f"Could not record suppressed picks: {e}")
+    try:
+        coverage.record_run(coverage_input)
+    except Exception as e:
+        print(f"Could not record bookmaker coverage: {e}")
     try:
         scan_stats.record_run(run_stats)
     except Exception as e:
@@ -316,6 +322,9 @@ def process_commands(candidates: dict, bet_ledger: dict):
         elif telegram_commands.is_suppressed_command(text):
             telegram_commands.send_message(scan_stats.suppressed_report())
             print("    -> Replied with suppressed picks")
+        elif telegram_commands.parse_books_command(text) is not None:
+            telegram_commands.send_message(coverage.report(telegram_commands.parse_books_command(text) or None))
+            print("    -> Replied with bookmaker coverage")
         elif telegram_commands.is_record_command(text):
             telegram_commands.send_message(breakdown.record(bet_ledger))
             print("    -> Replied with record by sport")
