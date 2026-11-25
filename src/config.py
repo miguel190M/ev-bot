@@ -17,8 +17,8 @@ SPORT_MARKET_OVERRIDES = {
     # league's cost per pull, so soccer stays h2h-only. Each extra market costs
     # one credit per region per pull (2 for these, 3 for NBA). Judge it with
     # /breakdown market after a few weeks; delete these lines to turn it off.
-    "basketball_nba": "h2h,totals",
-    "americanfootball_nfl": "h2h,totals",
+    "basketball_nba": "h2h,totals,spreads",         # + handicap (spreads) from 2026-11-25: 3 regions x 3 markets = 9/pull
+    "americanfootball_nfl": "h2h,totals,spreads",   # 2 regions x 3 markets = 6/pull
     "aussierules_afl": "h2h,totals",
     "rugbyleague_nrl": "h2h,totals",
 }
