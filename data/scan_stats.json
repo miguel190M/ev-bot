@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-24T13:00:47.995606+00:00",
-  "markets": 7,
-  "markets_sharp": 7,
-  "outcomes": 30,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.466,
-   "ev_pct": -0.86,
-   "threshold_pct": 1.61,
-   "price": 1.61,
-   "outcome": "Fenerbahce SK",
-   "book": "Betfair",
-   "matchup": "Fenerbahce SK @ FC Barcelona B\u00e0squet",
-   "sport_key": "basketball_euroleague",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-24T13:59:50.969153+00:00",
   "markets": 75,
   "markets_sharp": 47,
@@ -1137,6 +1118,25 @@
    "matchup": "England @ Australia",
    "sport_key": "cricket_international_t20",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-26T13:00:52.235404+00:00",
+  "markets": 18,
+  "markets_sharp": 15,
+  "outcomes": 59,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.617,
+   "ev_pct": 1.0,
+   "threshold_pct": 2.62,
+   "price": 2.62,
+   "outcome": "India",
+   "book": "Betfair",
+   "matchup": "India @ New Zealand",
+   "sport_key": "cricket_test_match",
+   "anchor": "pinnacle"
   }
  }
 ]
