@@ -1157,5 +1157,24 @@
    "sport_key": "americanfootball_nfl",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-26T23:00:48.046249+00:00",
+  "markets": 3,
+  "markets_sharp": 0,
+  "outcomes": 12,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 1.627,
+   "ev_pct": 3.31,
+   "threshold_pct": 1.68,
+   "price": 1.34,
+   "outcome": "Emanuel Odiase",
+   "book": "SportsBet",
+   "matchup": "Mike Perez @ Emanuel Odiase",
+   "sport_key": "boxing_boxing",
+   "anchor": "retail_consensus"
+  }
  }
 ]

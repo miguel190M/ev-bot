@@ -70,5 +70,29 @@
     "large_edge": false,
     "suggested_stake": 6.0,
     "alerted_at": "2026-11-26T09:00:53.984151+00:00"
+  },
+  "b631": {
+    "event_id": "8103851ed99096c42175f2f393d56099",
+    "sport_key": "boxing_boxing",
+    "commence_time": "2026-11-27T17:00:00Z",
+    "home_team": "Emanuel Odiase",
+    "away_team": "Mike Perez",
+    "market_key": "h2h",
+    "bookmaker_key": "sportsbet",
+    "bookmaker_title": "SportsBet",
+    "outcome": "Emanuel Odiase",
+    "price": 1.34,
+    "commission": 0.0,
+    "fair_probability": 0.7709,
+    "fair_odds": 1.297,
+    "ev_pct": 3.31,
+    "anchor": "retail_consensus",
+    "num_books": 5,
+    "sharp_disagreement": false,
+    "sharp_probability": null,
+    "consensus_probability": 0.7709,
+    "large_edge": false,
+    "suggested_stake": 27.0,
+    "alerted_at": "2026-11-26T23:00:48.047260+00:00"
   }
 }
