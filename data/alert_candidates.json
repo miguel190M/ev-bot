@@ -46,5 +46,29 @@
     "large_edge": false,
     "suggested_stake": 15.0,
     "alerted_at": "2026-11-25T11:30:38.823359+00:00"
+  },
+  "9eab": {
+    "event_id": "b7adb0aa06320363df4bfe6b6c90bc72",
+    "sport_key": "cricket_test_match",
+    "commence_time": "2026-11-26T22:00:00Z",
+    "home_team": "New Zealand",
+    "away_team": "India",
+    "market_key": "h2h",
+    "bookmaker_key": "betfair_ex_au",
+    "bookmaker_title": "Betfair",
+    "outcome": "India",
+    "price": 2.68,
+    "commission": 0.06,
+    "fair_probability": 0.4004,
+    "fair_odds": 2.498,
+    "ev_pct": 3.26,
+    "anchor": "pinnacle",
+    "num_books": 1,
+    "sharp_disagreement": false,
+    "sharp_probability": 0.4004,
+    "consensus_probability": 0.3809,
+    "large_edge": false,
+    "suggested_stake": 6.0,
+    "alerted_at": "2026-11-26T09:00:53.984151+00:00"
   }
 }
