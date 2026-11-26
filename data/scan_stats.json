@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-24T04:00:48.404049+00:00",
-  "markets": 6,
-  "markets_sharp": 3,
-  "outcomes": 21,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": -2.84,
-   "ev_pct": -1.72,
-   "threshold_pct": 1.12,
-   "price": 1.06,
-   "outcome": "Arizona Wildcats",
-   "book": "Betfair",
-   "matchup": "Colorado St Rams @ Arizona Wildcats",
-   "sport_key": "basketball_ncaab",
-   "anchor": "retail_consensus"
-  }
- },
- {
-  "ts": "2026-11-24T05:00:51.023391+00:00",
-  "markets": 5,
-  "markets_sharp": 3,
-  "outcomes": 17,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": -3.004,
-   "ev_pct": -1.98,
-   "threshold_pct": 1.02,
-   "price": 1.01,
-   "outcome": "South Africa",
-   "book": "Betfair",
-   "matchup": "Bangladesh @ South Africa",
-   "sport_key": "cricket_test_match",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-24T05:30:40.380632+00:00",
   "markets": 2,
   "markets_sharp": 0,
@@ -1049,6 +1011,25 @@
   "markets": 7,
   "markets_sharp": 6,
   "outcomes": 20,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 10.15,
+   "ev_pct": 13.79,
+   "threshold_pct": 3.64,
+   "price": 3.9,
+   "outcome": "Miel Fajardo",
+   "book": "SportsBet",
+   "matchup": "Miel Fajardo @ Masamichi Yabuki",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-26T05:00:59.483895+00:00",
+  "markets": 3,
+  "markets_sharp": 3,
+  "outcomes": 12,
   "capped": 0,
   "flagged": 0,
   "best": {
