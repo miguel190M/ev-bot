@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-24T03:00:55.373918+00:00",
-  "markets": 4,
-  "markets_sharp": 2,
-  "outcomes": 21,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": -2.489,
-   "ev_pct": -0.99,
-   "threshold_pct": 1.5,
-   "price": 1.38,
-   "outcome": "San Antonio Spurs",
-   "book": "Betfair",
-   "matchup": "San Antonio Spurs @ Sacramento Kings",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-24T04:00:48.404049+00:00",
   "markets": 6,
   "markets_sharp": 3,
@@ -1049,6 +1030,25 @@
   "markets": 10,
   "markets_sharp": 9,
   "outcomes": 46,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 10.15,
+   "ev_pct": 13.79,
+   "threshold_pct": 3.64,
+   "price": 3.9,
+   "outcome": "Miel Fajardo",
+   "book": "SportsBet",
+   "matchup": "Miel Fajardo @ Masamichi Yabuki",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:00:48.014159+00:00",
+  "markets": 7,
+  "markets_sharp": 6,
+  "outcomes": 20,
   "capped": 0,
   "flagged": 0,
   "best": {
