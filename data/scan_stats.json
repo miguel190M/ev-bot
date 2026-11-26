@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-24T07:30:38.747557+00:00",
-  "markets": 2,
-  "markets_sharp": 1,
-  "outcomes": 9,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": -1.7,
-   "ev_pct": 0.32,
-   "threshold_pct": 2.02,
-   "price": 2.02,
-   "outcome": "Australia",
-   "book": "Betfair",
-   "matchup": "England @ Australia",
-   "sport_key": "cricket_international_t20",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-24T08:00:48.449597+00:00",
   "markets": 9,
   "markets_sharp": 9,
@@ -1030,6 +1011,25 @@
   "markets": 3,
   "markets_sharp": 3,
   "outcomes": 12,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 10.15,
+   "ev_pct": 13.79,
+   "threshold_pct": 3.64,
+   "price": 3.9,
+   "outcome": "Miel Fajardo",
+   "book": "SportsBet",
+   "matchup": "Miel Fajardo @ Masamichi Yabuki",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-26T07:30:39.045580+00:00",
+  "markets": 2,
+  "markets_sharp": 2,
+  "outcomes": 9,
   "capped": 0,
   "flagged": 0,
   "best": {
