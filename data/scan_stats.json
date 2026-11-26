@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-24T10:00:47.647541+00:00",
-  "markets": 9,
-  "markets_sharp": 9,
-  "outcomes": 81,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.331,
-   "ev_pct": -0.83,
-   "threshold_pct": 1.5,
-   "price": 1.49,
-   "outcome": "Bod\u00f8/Glimt",
-   "book": "Betfair",
-   "matchup": "LASK @ Bod\u00f8/Glimt",
-   "sport_key": "soccer_uefa_champs_league",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-24T12:00:47.437071+00:00",
   "markets": 56,
   "markets_sharp": 29,
@@ -1080,6 +1061,25 @@
    "matchup": "Miel Fajardo @ Masamichi Yabuki",
    "sport_key": "boxing_boxing",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-26T10:00:55.174091+00:00",
+  "markets": 37,
+  "markets_sharp": 34,
+  "outcomes": 231,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.127,
+   "ev_pct": -0.63,
+   "threshold_pct": 1.5,
+   "price": 1.28,
+   "outcome": "Texas Longhorns",
+   "book": "Betfair",
+   "matchup": "Georgetown Hoyas @ Texas Longhorns",
+   "sport_key": "basketball_ncaab",
+   "anchor": "pinnacle"
   }
  }
 ]
