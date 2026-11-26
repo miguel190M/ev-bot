@@ -1081,5 +1081,24 @@
    "sport_key": "basketball_ncaab",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-26T10:30:39.091873+00:00",
+  "markets": 2,
+  "markets_sharp": 0,
+  "outcomes": 12,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -5.881,
+   "ev_pct": -2.56,
+   "threshold_pct": 3.32,
+   "price": 2.16,
+   "outcome": "Australia",
+   "book": "Betfair",
+   "matchup": "England @ Australia",
+   "sport_key": "cricket_international_t20",
+   "anchor": "retail_consensus"
+  }
  }
 ]
