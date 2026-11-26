@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-24T00:30:40.289763+00:00",
-  "markets": 9,
-  "markets_sharp": 9,
-  "outcomes": 54,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.053,
-   "ev_pct": -0.55,
-   "threshold_pct": 1.5,
-   "price": 1.15,
-   "outcome": "Los Angeles Lakers",
-   "book": "Betfair",
-   "matchup": "Utah Jazz @ Los Angeles Lakers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-24T01:00:47.160841+00:00",
   "markets": 7,
   "markets_sharp": 5,
@@ -1060,6 +1041,25 @@
    "book": "SportsBet",
    "matchup": "Miel Fajardo @ Masamichi Yabuki",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-26T00:30:42.528674+00:00",
+  "markets": 21,
+  "markets_sharp": 12,
+  "outcomes": 98,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.533,
+   "ev_pct": 0.41,
+   "threshold_pct": 1.94,
+   "price": 1.94,
+   "outcome": "Over 226.5",
+   "book": "SportsBet",
+   "matchup": "San Antonio Spurs @ Portland Trail Blazers",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
