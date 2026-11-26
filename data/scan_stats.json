@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-24T12:30:39.871297+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 6,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.673,
-   "ev_pct": -1.87,
-   "threshold_pct": 1.8,
-   "price": 1.8,
-   "outcome": "Detroit Pistons",
-   "book": "Betfair",
-   "matchup": "Detroit Pistons @ Orlando Magic",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-24T13:00:47.995606+00:00",
   "markets": 7,
   "markets_sharp": 7,
@@ -1137,6 +1118,25 @@
    "matchup": "India @ New Zealand",
    "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-26T12:30:43.438985+00:00",
+  "markets": 1,
+  "markets_sharp": 0,
+  "outcomes": 6,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.356,
+   "ev_pct": 1.56,
+   "threshold_pct": 2.92,
+   "price": 1.96,
+   "outcome": "England",
+   "book": "Betfair",
+   "matchup": "England @ Australia",
+   "sport_key": "cricket_international_t20",
+   "anchor": "retail_consensus"
   }
  }
 ]
