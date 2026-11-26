@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-24T22:00:50.419719+00:00",
-  "markets": 64,
-  "markets_sharp": 50,
-  "outcomes": 166,
-  "capped": 5,
-  "flagged": 0,
-  "best": {
-   "gap": -2.088,
-   "ev_pct": -0.59,
-   "threshold_pct": 1.5,
-   "price": 1.09,
-   "outcome": "Gonzaga Bulldogs",
-   "book": "Betfair",
-   "matchup": "Gonzaga Bulldogs @ Kansas St Wildcats",
-   "sport_key": "basketball_ncaab",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-24T22:30:37.077455+00:00",
-  "markets": 4,
-  "markets_sharp": 4,
-  "outcomes": 24,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.332,
-   "ev_pct": -0.83,
-   "threshold_pct": 1.5,
-   "price": 1.38,
-   "outcome": "Denver Nuggets",
-   "book": "Betfair",
-   "matchup": "Dallas Mavericks @ Denver Nuggets",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-24T23:00:53.124856+00:00",
   "markets": 5,
   "markets_sharp": 5,
@@ -1174,6 +1136,25 @@
    "book": "SportsBet",
    "matchup": "Mike Perez @ Emanuel Odiase",
    "sport_key": "boxing_boxing",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-26T22:30:39.784554+00:00",
+  "markets": 3,
+  "markets_sharp": 1,
+  "outcomes": 14,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.96,
+   "ev_pct": -1.0,
+   "threshold_pct": 2.96,
+   "price": 1.98,
+   "outcome": "Under 45.5",
+   "book": "SportsBet",
+   "matchup": "Kansas City Chiefs @ Buffalo Bills",
+   "sport_key": "americanfootball_nfl",
    "anchor": "retail_consensus"
   }
  }
