@@ -1043,5 +1043,24 @@
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-26T03:00:53.626473+00:00",
+  "markets": 10,
+  "markets_sharp": 9,
+  "outcomes": 46,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 10.15,
+   "ev_pct": 13.79,
+   "threshold_pct": 3.64,
+   "price": 3.9,
+   "outcome": "Miel Fajardo",
+   "book": "SportsBet",
+   "matchup": "Miel Fajardo @ Masamichi Yabuki",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
