@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-24T21:30:45.892070+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 18,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.392,
-   "ev_pct": -1.89,
-   "threshold_pct": 1.5,
-   "price": 1.26,
-   "outcome": "Boston Celtics",
-   "book": "Betfair",
-   "matchup": "Boston Celtics @ Washington Wizards",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-24T22:00:50.419719+00:00",
   "markets": 64,
   "markets_sharp": 50,
@@ -1175,6 +1156,25 @@
    "matchup": "India @ New Zealand",
    "sport_key": "cricket_test_match",
    "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-26T22:00:45.367364+00:00",
+  "markets": 16,
+  "markets_sharp": 11,
+  "outcomes": 62,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -0.223,
+   "ev_pct": 1.46,
+   "threshold_pct": 1.68,
+   "price": 1.34,
+   "outcome": "Emanuel Odiase",
+   "book": "SportsBet",
+   "matchup": "Mike Perez @ Emanuel Odiase",
+   "sport_key": "boxing_boxing",
+   "anchor": "retail_consensus"
   }
  }
 ]
