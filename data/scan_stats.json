@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-25T11:30:38.822139+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 9,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 5.299,
-   "ev_pct": 10.37,
-   "threshold_pct": 5.07,
-   "price": 5.9,
-   "outcome": "Zyvyr John Medecilo",
-   "book": "SportsBet",
-   "matchup": "Zyvyr John Medecilo @ Takeshi Ishii",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-25T12:00:51.440971+00:00",
   "markets": 59,
   "markets_sharp": 27,
@@ -1212,6 +1193,25 @@
    "book": "SportsBet",
    "matchup": "Borussia Monchengladbach @ Werder Bremen",
    "sport_key": "soccer_germany_bundesliga",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-27T12:00:48.809517+00:00",
+  "markets": 11,
+  "markets_sharp": 9,
+  "outcomes": 68,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 10.708,
+   "ev_pct": 12.25,
+   "threshold_pct": 1.54,
+   "price": 1.54,
+   "outcome": "Slawa Spomer",
+   "book": "SportsBet",
+   "matchup": "Eddy Colmenares @ Slawa Spomer",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }
