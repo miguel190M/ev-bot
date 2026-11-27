@@ -41,6 +41,26 @@ def test_update_keeps_relevant_books_and_drops_started_games():
     assert "basketball_nba" not in quotes.update(store, {}, NOW + timedelta(hours=2))
 
 
+def test_totals_and_handicap_lines():
+    def full(key, h, a, spread, total):
+        return {"key": key, "title": key, "markets": [
+            {"key": "h2h", "outcomes": [{"name": a, "price": 2.3}, {"name": h, "price": 1.63}]},
+            {"key": "spreads", "outcomes": [{"name": h, "price": spread[1], "point": -spread[0]},
+                                            {"name": a, "price": spread[2], "point": spread[0]}]},
+            {"key": "totals", "outcomes": [{"name": "Over", "price": total[1], "point": total[0]},
+                                           {"name": "Under", "price": total[2], "point": total[0]}]}]}
+    with _fresh():
+        store = quotes.update({}, {"basketball_nba": [ev(1, "New York Knicks", "Miami Heat",
+                              full("playup", "New York Knicks", "Miami Heat", (3.5, 1.90, 1.90), (222.5, 1.91, 1.88)))]}, NOW)
+        import json
+        from pathlib import Path
+        Path(config.QUOTES_FILE).write_text(json.dumps(store))
+        r = quotes.report("knicks", now=NOW)
+        assert "NextBet - Line: New York Knicks -3.5 @ 1.90 / Miami Heat +3.5 @ 1.90" in r, r
+        assert "NextBet - Total 222.5: Over 1.91 / Under 1.88" in r, r
+        assert "Line:" not in quotes.report(now=NOW)                      # unfiltered list stays short
+
+
 def test_empty_report():
     with _fresh():
         assert "No stored prices" in quotes.report()

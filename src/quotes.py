@@ -31,16 +31,21 @@ def update(store: dict, events_by_sport: dict, now: datetime | None = None) -> d
     for sport, events in events_by_sport.items():
         rows = []
         for e in events:
-            books = {}
+            books, lines = {}, {}
             for bm in e.get("bookmakers", []):
                 if bm["key"] not in BOOKS:
                     continue
                 for m in bm.get("markets", []):
-                    if m["key"] == "h2h" and len(m.get("outcomes", [])) >= 2:
+                    if len(m.get("outcomes", [])) < 2:
+                        continue
+                    if m["key"] == "h2h":
                         books[bm["key"]] = {o["name"]: o["price"] for o in m["outcomes"]}
+                    elif m["key"] in ("totals", "spreads"):     # [name, line, price] per outcome
+                        lines.setdefault(bm["key"], {})[m["key"]] = [
+                            [o["name"], o.get("point"), o["price"]] for o in m["outcomes"]]
             if books:
                 rows.append({"home": e.get("home_team"), "away": e.get("away_team"),
-                             "start": e.get("commence_time"), "books": books})
+                             "start": e.get("commence_time"), "books": books, "lines": lines})
         if rows:
             store[sport] = {"ts": stamp, "events": rows}
     # drop games that have already started
@@ -63,6 +68,21 @@ def _pair(prices: dict, home: str, away: str) -> str:
     if home in prices and away in prices:
         return f"{prices[home]:.2f}/{prices[away]:.2f}"
     return "/".join(f"{v:.2f}" for v in prices.values())
+
+
+def _lines_text(lines: dict, key: str) -> list[str]:
+    """Totals / handicap quotes of one book, e.g. 'Total 222.5: Over 1.91 / Under 1.88'."""
+    out = []
+    for mk, label in (("spreads", "Line"), ("totals", "Total")):
+        outs = lines.get(key, {}).get(mk)
+        if not outs:
+            continue
+        if mk == "totals":
+            pt = outs[0][1]
+            out.append(f"{label} {pt:g}: " + " / ".join(f"{n} {p:.2f}" for n, _, p in outs))
+        else:
+            out.append(f"{label}: " + " / ".join(f"{n} {pt:+g} @ {p:.2f}" for n, pt, p in outs))
+    return out
 
 
 def report(filter_text: str | None = None, now: datetime | None = None, limit: int = 40) -> str:
@@ -89,6 +109,10 @@ def report(filter_text: str | None = None, now: datetime | None = None, limit: i
         for key in BOOKS:
             if key in r["books"]:
                 out.append(f"   {LABELS[key]:9} {_pair(r['books'][key], r['home'], r['away'])}")
+        if f:       # filtered to one game or sport: also show totals and handicap lines
+            for key in BOOKS:
+                for t in _lines_text(r.get("lines", {}), key):
+                    out.append(f"   {LABELS[key]} - {t}")
         out.append("")
     if len(rows) > limit:
         out.append(f"...{len(rows) - limit} more - add a team or sport to filter, e.g. /quotes knicks")
