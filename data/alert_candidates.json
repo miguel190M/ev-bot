@@ -1,28 +1,4 @@
 {
-  "80ba": {
-    "event_id": "4260f7557b6c1031ee1098f435482b8d",
-    "sport_key": "boxing_boxing",
-    "commence_time": "2026-11-26T10:30:00Z",
-    "home_team": "Masamichi Yabuki",
-    "away_team": "Miel Fajardo",
-    "market_key": "h2h",
-    "bookmaker_key": "sportsbet",
-    "bookmaker_title": "SportsBet",
-    "outcome": "Masamichi Yabuki",
-    "price": 1.32,
-    "commission": 0.0,
-    "fair_probability": 0.7709,
-    "fair_odds": 1.297,
-    "ev_pct": 1.76,
-    "anchor": "pinnacle",
-    "num_books": 1,
-    "sharp_disagreement": false,
-    "sharp_probability": 0.7709,
-    "consensus_probability": 0.7396,
-    "large_edge": false,
-    "suggested_stake": 15.0,
-    "alerted_at": "2026-11-25T11:30:38.823359+00:00"
-  },
   "9eab": {
     "event_id": "b7adb0aa06320363df4bfe6b6c90bc72",
     "sport_key": "cricket_test_match",
