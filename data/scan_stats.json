@@ -1176,5 +1176,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-27T08:30:40.258968+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 9,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -5.849,
+   "ev_pct": -2.9,
+   "threshold_pct": 2.95,
+   "price": 2.95,
+   "outcome": "Macarthur FC",
+   "book": "SportsBet",
+   "matchup": "Melbourne City @ Macarthur FC",
+   "sport_key": "soccer_australia_aleague",
+   "anchor": "pinnacle"
+  }
  }
 ]
