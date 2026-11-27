@@ -1195,5 +1195,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-27T11:30:36.303086+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 9,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.616,
+   "ev_pct": -0.95,
+   "threshold_pct": 1.67,
+   "price": 1.67,
+   "outcome": "Werder Bremen",
+   "book": "SportsBet",
+   "matchup": "Borussia Monchengladbach @ Werder Bremen",
+   "sport_key": "soccer_germany_bundesliga",
+   "anchor": "pinnacle"
+  }
  }
 ]
