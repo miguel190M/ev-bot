@@ -390,6 +390,8 @@ SHARP_EV_CURVE_MAX_PCT = float(os.environ.get("SHARP_EV_CURVE_MAX_PCT", "15"))
 SCAN_STATS_FILE = os.environ.get("SCAN_STATS_FILE", "data/scan_stats.json")
 # Which bookmakers quote which markets in the feed (cumulative; read with /books)
 COVERAGE_FILE = os.environ.get("COVERAGE_FILE", "data/book_coverage.json")
+# Latest h2h prices for NextBet/SportsBet/Betfair/Pinnacle, to compare with the real apps (/quotes)
+QUOTES_FILE = os.environ.get("QUOTES_FILE", "data/quotes.json")
 # Picks suppressed by the MAX_EV_PCT cap (so /suppressed can show them), pruned after 48h
 SUPPRESSED_FILE = os.environ.get("SUPPRESSED_FILE", "data/suppressed_picks.json")
 # Bets from before Pinnacle became the reference line (go-live 2026-10-12 14:34 Sydney)

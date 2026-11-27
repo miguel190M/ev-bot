@@ -141,6 +141,14 @@ def parse_books_command(text: str):
     return rest.strip()
 
 
+def parse_quotes_command(text: str):
+    """'/quotes' -> "" ; '/quotes knicks' -> "knicks" ; anything else -> None."""
+    head, _, rest = text.strip().partition(" ")
+    if head.lower().split("@")[0] != "/quotes":
+        return None
+    return rest.strip()
+
+
 def is_record_command(text: str) -> bool:
     return text.strip().lower() in ("/record", "/sports")
 
