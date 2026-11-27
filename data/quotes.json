@@ -1,0 +1,260 @@
+{
+ "basketball_nba": {
+  "events": [
+   {
+    "away": "Miami Heat",
+    "books": {
+     "betfair_ex_au": {
+      "Miami Heat": 2.46,
+      "New York Knicks": 1.67
+     },
+     "pinnacle": {
+      "Miami Heat": 2.4,
+      "New York Knicks": 1.63
+     },
+     "playup": {
+      "Miami Heat": 2.3,
+      "New York Knicks": 1.63
+     },
+     "sportsbet": {
+      "Miami Heat": 2.31,
+      "New York Knicks": 1.64
+     }
+    },
+    "home": "New York Knicks",
+    "start": "2026-11-28T00:10:00Z"
+   },
+   {
+    "away": "Brooklyn Nets",
+    "books": {
+     "betfair_ex_au": {
+      "Brooklyn Nets": 4.0,
+      "Toronto Raptors": 1.31
+     },
+     "pinnacle": {
+      "Brooklyn Nets": 3.99,
+      "Toronto Raptors": 1.29
+     },
+     "playup": {
+      "Brooklyn Nets": 4.0,
+      "Toronto Raptors": 1.25
+     },
+     "sportsbet": {
+      "Brooklyn Nets": 3.95,
+      "Toronto Raptors": 1.27
+     }
+    },
+    "home": "Toronto Raptors",
+    "start": "2026-11-28T00:40:00Z"
+   },
+   {
+    "away": "Milwaukee Bucks",
+    "books": {
+     "betfair_ex_au": {
+      "Detroit Pistons": 1.27,
+      "Milwaukee Bucks": 4.5
+     },
+     "pinnacle": {
+      "Detroit Pistons": 1.25,
+      "Milwaukee Bucks": 4.42
+     },
+     "playup": {
+      "Detroit Pistons": 1.2,
+      "Milwaukee Bucks": 4.4
+     },
+     "sportsbet": {
+      "Detroit Pistons": 1.22,
+      "Milwaukee Bucks": 4.5
+     }
+    },
+    "home": "Detroit Pistons",
+    "start": "2026-11-28T00:40:00Z"
+   },
+   {
+    "away": "Philadelphia 76ers",
+    "books": {
+     "betfair_ex_au": {
+      "Indiana Pacers": 2.56,
+      "Philadelphia 76ers": 1.62
+     },
+     "pinnacle": {
+      "Indiana Pacers": 2.5,
+      "Philadelphia 76ers": 1.59
+     },
+     "playup": {
+      "Indiana Pacers": 2.35,
+      "Philadelphia 76ers": 1.57
+     },
+     "sportsbet": {
+      "Indiana Pacers": 2.38,
+      "Philadelphia 76ers": 1.61
+     }
+    },
+    "home": "Indiana Pacers",
+    "start": "2026-11-28T00:40:00Z"
+   },
+   {
+    "away": "Atlanta Hawks",
+    "books": {
+     "betfair_ex_au": {
+      "Atlanta Hawks": 4.3,
+      "Boston Celtics": 1.29
+     },
+     "pinnacle": {
+      "Atlanta Hawks": 4.1,
+      "Boston Celtics": 1.28
+     },
+     "playup": {
+      "Atlanta Hawks": 3.8,
+      "Boston Celtics": 1.26
+     },
+     "sportsbet": {
+      "Atlanta Hawks": 3.85,
+      "Boston Celtics": 1.28
+     }
+    },
+    "home": "Boston Celtics",
+    "start": "2026-11-28T01:10:00Z"
+   },
+   {
+    "away": "Memphis Grizzlies",
+    "books": {
+     "betfair_ex_au": {
+      "Memphis Grizzlies": 2.38,
+      "Minnesota Timberwolves": 1.71
+     },
+     "pinnacle": {
+      "Memphis Grizzlies": 2.33,
+      "Minnesota Timberwolves": 1.69
+     },
+     "playup": {
+      "Memphis Grizzlies": 2.25,
+      "Minnesota Timberwolves": 1.63
+     },
+     "sportsbet": {
+      "Memphis Grizzlies": 2.32,
+      "Minnesota Timberwolves": 1.64
+     }
+    },
+    "home": "Minnesota Timberwolves",
+    "start": "2026-11-28T01:40:00Z"
+   },
+   {
+    "away": "Dallas Mavericks",
+    "books": {
+     "betfair_ex_au": {
+      "Dallas Mavericks": 2.36,
+      "Phoenix Suns": 1.72
+     },
+     "pinnacle": {
+      "Dallas Mavericks": 2.27,
+      "Phoenix Suns": 1.69
+     },
+     "playup": {
+      "Dallas Mavericks": 2.25,
+      "Phoenix Suns": 1.67
+     },
+     "sportsbet": {
+      "Dallas Mavericks": 2.24,
+      "Phoenix Suns": 1.68
+     }
+    },
+    "home": "Phoenix Suns",
+    "start": "2026-11-28T02:10:00Z"
+   },
+   {
+    "away": "Denver Nuggets",
+    "books": {
+     "betfair_ex_au": {
+      "Denver Nuggets": 1.27,
+      "Utah Jazz": 4.5
+     },
+     "pinnacle": {
+      "Denver Nuggets": 1.26,
+      "Utah Jazz": 4.38
+     },
+     "playup": {
+      "Denver Nuggets": 1.23,
+      "Utah Jazz": 4.25
+     },
+     "sportsbet": {
+      "Denver Nuggets": 1.25,
+      "Utah Jazz": 4.15
+     }
+    },
+    "home": "Utah Jazz",
+    "start": "2026-11-28T02:40:00Z"
+   },
+   {
+    "away": "Golden State Warriors",
+    "books": {
+     "betfair_ex_au": {
+      "Golden State Warriors": 3.75,
+      "Portland Trail Blazers": 1.35
+     },
+     "pinnacle": {
+      "Golden State Warriors": 3.59,
+      "Portland Trail Blazers": 1.32
+     },
+     "playup": {
+      "Golden State Warriors": 3.3,
+      "Portland Trail Blazers": 1.33
+     },
+     "sportsbet": {
+      "Golden State Warriors": 3.55,
+      "Portland Trail Blazers": 1.32
+     }
+    },
+    "home": "Portland Trail Blazers",
+    "start": "2026-11-28T02:40:00Z"
+   },
+   {
+    "away": "New Orleans Pelicans",
+    "books": {
+     "betfair_ex_au": {
+      "Los Angeles Clippers": 1.81,
+      "New Orleans Pelicans": 2.2
+     },
+     "pinnacle": {
+      "Los Angeles Clippers": 1.79,
+      "New Orleans Pelicans": 2.16
+     },
+     "playup": {
+      "Los Angeles Clippers": 1.7,
+      "New Orleans Pelicans": 2.15
+     },
+     "sportsbet": {
+      "Los Angeles Clippers": 1.71,
+      "New Orleans Pelicans": 2.19
+     }
+    },
+    "home": "Los Angeles Clippers",
+    "start": "2026-11-28T02:40:00Z"
+   },
+   {
+    "away": "Los Angeles Lakers",
+    "books": {
+     "betfair_ex_au": {
+      "Los Angeles Lakers": 2.82,
+      "San Antonio Spurs": 1.53
+     },
+     "pinnacle": {
+      "Los Angeles Lakers": 2.78,
+      "San Antonio Spurs": 1.49
+     },
+     "playup": {
+      "Los Angeles Lakers": 2.7,
+      "San Antonio Spurs": 1.45
+     },
+     "sportsbet": {
+      "Los Angeles Lakers": 2.77,
+      "San Antonio Spurs": 1.47
+     }
+    },
+    "home": "San Antonio Spurs",
+    "start": "2026-11-28T02:40:00Z"
+   }
+  ],
+  "ts": "2026-11-27T23:30:37.549338+00:00"
+ }
+}
