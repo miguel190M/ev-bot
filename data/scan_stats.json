@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-25T23:30:38.990123+00:00",
-  "markets": 24,
-  "markets_sharp": 14,
-  "outcomes": 112,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.603,
-   "ev_pct": 0.34,
-   "threshold_pct": 1.94,
-   "price": 1.94,
-   "outcome": "Under 218.5",
-   "book": "NextBet",
-   "matchup": "Chicago Bulls @ Charlotte Hornets",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-26T00:00:56.144724+00:00",
   "markets": 42,
   "markets_sharp": 31,
@@ -1192,6 +1173,25 @@
    "outcome": "Philadelphia 76ers",
    "book": "SportsBet",
    "matchup": "Philadelphia 76ers @ Indiana Pacers",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-27T23:35:33.477779+00:00",
+  "markets": 33,
+  "markets_sharp": 20,
+  "outcomes": 154,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.323,
+   "ev_pct": -0.66,
+   "threshold_pct": 1.66,
+   "price": 1.66,
+   "outcome": "New York Knicks",
+   "book": "SportsBet",
+   "matchup": "Miami Heat @ New York Knicks",
    "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
