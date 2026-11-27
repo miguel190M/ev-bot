@@ -2,7 +2,7 @@
  "books": {
   "betanysports": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -13,9 +13,9 @@
      "totals": 14
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 99,
+     "totals": 99
     },
     "icehockey_nhl": {
      "h2h": 70
@@ -37,13 +37,13 @@
   },
   "betclic_fr": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_nfl": {
      "h2h": 14
     },
     "basketball_nba": {
-     "h2h": 98
+     "h2h": 99
     },
     "icehockey_nhl": {
      "h2h": 70
@@ -80,7 +80,7 @@
   },
   "betfair_ex_au": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_nfl": {
      "h2h": 14,
@@ -91,8 +91,8 @@
      "h2h_lay": 12
     },
     "basketball_nba": {
-     "h2h": 98,
-     "h2h_lay": 98
+     "h2h": 99,
+     "h2h_lay": 99
     },
     "basketball_ncaab": {
      "h2h": 81,
@@ -163,7 +163,7 @@
   },
   "betfair_ex_eu": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_nfl": {
      "h2h": 14,
@@ -174,8 +174,8 @@
      "h2h_lay": 12
     },
     "basketball_nba": {
-     "h2h": 98,
-     "h2h_lay": 98
+     "h2h": 99,
+     "h2h_lay": 99
     },
     "basketball_ncaab": {
      "h2h": 81,
@@ -242,19 +242,19 @@
   },
   "betmgm": {
    "first_seen": "2026-11-25T20:00:54.973050+00:00",
-   "last_seen": "2026-11-26T03:00:53.625086+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 99,
+     "totals": 99
     }
    },
    "title": "BetMGM"
   },
   "betonlineag": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -268,9 +268,9 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 99,
+     "totals": 99
     },
     "basketball_ncaab": {
      "h2h": 183
@@ -325,7 +325,7 @@
   },
   "betr_au": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -334,7 +334,7 @@
      "h2h": 14
     },
     "basketball_nba": {
-     "h2h": 98
+     "h2h": 99
     },
     "basketball_ncaab": {
      "h2h": 204
@@ -389,7 +389,7 @@
   },
   "betright": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -398,7 +398,7 @@
      "h2h": 14
     },
     "basketball_nba": {
-     "h2h": 98
+     "h2h": 99
     },
     "basketball_ncaab": {
      "h2h": 208
@@ -450,19 +450,19 @@
   },
   "betrivers": {
    "first_seen": "2026-11-25T20:00:54.973050+00:00",
-   "last_seen": "2026-11-26T03:00:53.625086+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 99,
+     "totals": 99
     }
    },
    "title": "BetRivers"
   },
   "betsson": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -476,9 +476,9 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98,
+     "h2h": 99,
      "spreads": 55,
-     "totals": 98
+     "totals": 99
     },
     "basketball_ncaab": {
      "h2h": 154
@@ -530,43 +530,43 @@
   },
   "betus": {
    "first_seen": "2026-11-25T20:00:54.973050+00:00",
-   "last_seen": "2026-11-26T03:00:53.625086+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "basketball_nba": {
-     "h2h": 97,
-     "spreads": 97,
-     "totals": 97
+     "h2h": 98,
+     "spreads": 98,
+     "totals": 98
     }
    },
    "title": "BetUS"
   },
   "bovada": {
    "first_seen": "2026-11-25T20:00:54.973050+00:00",
-   "last_seen": "2026-11-26T03:00:53.625086+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "basketball_nba": {
-     "h2h": 97,
-     "spreads": 97,
-     "totals": 97
+     "h2h": 98,
+     "spreads": 98,
+     "totals": 98
     }
    },
    "title": "Bovada"
   },
   "circasports": {
    "first_seen": "2026-11-25T20:00:54.973050+00:00",
-   "last_seen": "2026-11-26T03:00:53.625086+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "basketball_nba": {
-     "h2h": 84,
-     "spreads": 87,
-     "totals": 87
+     "h2h": 85,
+     "spreads": 88,
+     "totals": 88
     }
    },
    "title": "Circa Sports"
   },
   "codere_it": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_nfl": {
      "h2h": 14
@@ -575,8 +575,8 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98,
-     "totals": 98
+     "h2h": 99,
+     "totals": 99
     },
     "icehockey_nhl": {
      "h2h": 70
@@ -673,7 +673,7 @@
   },
   "dabble_au": {
    "first_seen": "2026-11-25T13:00:50.455301+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -684,9 +684,9 @@
      "totals": 14
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 96,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 97,
+     "totals": 99
     },
     "soccer_epl": {
      "h2h": 2
@@ -696,19 +696,19 @@
   },
   "draftkings": {
    "first_seen": "2026-11-25T20:00:54.973050+00:00",
-   "last_seen": "2026-11-26T03:00:53.625086+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 99,
+     "totals": 99
     }
    },
    "title": "DraftKings"
   },
   "everygame": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -719,9 +719,9 @@
      "totals": 14
     },
     "basketball_nba": {
-     "h2h": 97,
-     "spreads": 97,
-     "totals": 98
+     "h2h": 98,
+     "spreads": 98,
+     "totals": 99
     },
     "basketball_ncaab": {
      "h2h": 130
@@ -749,31 +749,31 @@
   },
   "fanatics": {
    "first_seen": "2026-11-25T20:00:54.973050+00:00",
-   "last_seen": "2026-11-26T03:00:53.625086+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "basketball_nba": {
-     "h2h": 97,
-     "spreads": 98,
-     "totals": 97
+     "h2h": 98,
+     "spreads": 99,
+     "totals": 98
     }
    },
    "title": "Fanatics"
   },
   "fanduel": {
    "first_seen": "2026-11-25T20:00:54.973050+00:00",
-   "last_seen": "2026-11-26T03:00:53.625086+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 99,
+     "totals": 99
     }
    },
    "title": "FanDuel"
   },
   "gtbets": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 12
@@ -787,9 +787,9 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 99,
+     "totals": 99
     },
     "basketball_ncaab": {
      "h2h": 187
@@ -829,7 +829,7 @@
   },
   "ladbrokes_au": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -841,7 +841,7 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98
+     "h2h": 99
     },
     "boxing_boxing": {
      "h2h": 38
@@ -890,7 +890,7 @@
   },
   "leovegas_se": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -903,8 +903,8 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98
+     "h2h": 99,
+     "spreads": 99
     },
     "basketball_ncaab": {
      "h2h": 202
@@ -956,19 +956,19 @@
   },
   "lowvig": {
    "first_seen": "2026-11-25T20:00:54.973050+00:00",
-   "last_seen": "2026-11-26T03:00:53.625086+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 99,
+     "totals": 99
     }
    },
    "title": "LowVig.ag"
   },
   "marathonbet": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 14
@@ -982,9 +982,9 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 99,
+     "totals": 99
     },
     "icehockey_nhl": {
      "h2h": 70
@@ -1100,7 +1100,7 @@
   },
   "mybookieag": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -1114,9 +1114,9 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 99,
+     "totals": 99
     },
     "icehockey_nhl": {
      "h2h": 70
@@ -1135,7 +1135,7 @@
   },
   "neds": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -1147,7 +1147,7 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98
+     "h2h": 99
     },
     "cricket_international_t20": {
      "h2h": 22
@@ -1196,7 +1196,7 @@
   },
   "nordicbet": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 15
@@ -1210,9 +1210,9 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98,
+     "h2h": 99,
      "spreads": 55,
-     "totals": 98
+     "totals": 99
     },
     "basketball_ncaab": {
      "h2h": 135
@@ -1267,7 +1267,7 @@
   },
   "onexbet": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_nfl": {
      "spreads": 14,
@@ -1277,9 +1277,9 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 99,
+     "totals": 99
     },
     "basketball_ncaab": {
      "h2h": 218
@@ -1325,7 +1325,7 @@
   },
   "picklebet_au": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -1337,7 +1337,7 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98
+     "h2h": 99
     },
     "basketball_ncaab": {
      "h2h": 224
@@ -1386,7 +1386,7 @@
   },
   "pinnacle": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -1400,9 +1400,9 @@
      "h2h": 8
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 99,
+     "totals": 99
     },
     "basketball_ncaab": {
      "h2h": 152
@@ -1457,7 +1457,7 @@
   },
   "playup": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -1468,9 +1468,9 @@
      "totals": 14
     },
     "basketball_nba": {
-     "h2h": 95,
-     "spreads": 95,
-     "totals": 95
+     "h2h": 96,
+     "spreads": 96,
+     "totals": 96
     },
     "cricket_international_t20": {
      "h2h": 22
@@ -1516,7 +1516,7 @@
   },
   "pmu_fr": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_nfl": {
      "h2h": 14,
@@ -1527,8 +1527,8 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98,
-     "totals": 98
+     "h2h": 99,
+     "totals": 99
     },
     "soccer_australia_aleague": {
      "h2h": 9
@@ -1565,7 +1565,7 @@
   },
   "pointsbetau": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 14
@@ -1579,9 +1579,9 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 99,
+     "totals": 99
     },
     "basketball_ncaab": {
      "h2h": 192
@@ -1633,7 +1633,7 @@
   },
   "sport888": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_nfl": {
      "h2h": 14,
@@ -1644,9 +1644,9 @@
      "h2h": 10
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 97,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 98,
+     "totals": 99
     },
     "basketball_ncaab": {
      "h2h": 214
@@ -1692,7 +1692,7 @@
   },
   "sportsbet": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -1706,9 +1706,9 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 99,
+     "totals": 99
     },
     "basketball_ncaab": {
      "h2h": 225
@@ -1760,7 +1760,7 @@
   },
   "swiftbet": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -1772,7 +1772,7 @@
      "h2h": 9
     },
     "basketball_nba": {
-     "h2h": 98
+     "h2h": 99
     },
     "basketball_ncaab": {
      "h2h": 209
@@ -1818,7 +1818,7 @@
   },
   "tab": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -1832,9 +1832,9 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 99,
+     "totals": 99
     },
     "basketball_ncaab": {
      "h2h": 167
@@ -1880,7 +1880,7 @@
   },
   "tabtouch": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_nfl": {
      "spreads": 14,
@@ -1890,9 +1890,9 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 99,
+     "totals": 99
     },
     "basketball_ncaab": {
      "h2h": 202
@@ -1947,7 +1947,7 @@
   },
   "tipico_de": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_nfl": {
      "h2h": 14,
@@ -1955,9 +1955,9 @@
      "totals": 14
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 90,
-     "totals": 90
+     "h2h": 99,
+     "spreads": 91,
+     "totals": 91
     },
     "icehockey_nhl": {
      "h2h": 70
@@ -1991,7 +1991,7 @@
   },
   "unibet": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -2004,8 +2004,8 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98
+     "h2h": 99,
+     "spreads": 99
     },
     "basketball_ncaab": {
      "h2h": 204
@@ -2063,13 +2063,13 @@
   },
   "unibet_fr": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "basketball_euroleague": {
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98
+     "h2h": 99
     },
     "boxing_boxing": {
      "h2h": 20
@@ -2112,7 +2112,7 @@
   },
   "unibet_nl": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 17
@@ -2126,9 +2126,9 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 99,
+     "totals": 99
     },
     "basketball_ncaab": {
      "h2h": 200
@@ -2174,7 +2174,7 @@
   },
   "unibet_se": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -2187,8 +2187,8 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98
+     "h2h": 99,
+     "spreads": 99
     },
     "basketball_ncaab": {
      "h2h": 202
@@ -2240,7 +2240,7 @@
   },
   "williamhill": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 18
@@ -2252,9 +2252,9 @@
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 96,
-     "totals": 97
+     "h2h": 99,
+     "spreads": 97,
+     "totals": 98
     },
     "basketball_ncaab": {
      "h2h": 104
@@ -2300,25 +2300,25 @@
   },
   "williamhill_us": {
    "first_seen": "2026-11-25T20:00:54.973050+00:00",
-   "last_seen": "2026-11-26T03:00:53.625086+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "basketball_nba": {
-     "h2h": 98,
-     "spreads": 98,
-     "totals": 98
+     "h2h": 99,
+     "spreads": 99,
+     "totals": 99
     }
    },
    "title": "Caesars"
   },
   "winamax_de": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "basketball_euroleague": {
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98
+     "h2h": 99
     },
     "icehockey_nhl": {
      "h2h": 70
@@ -2358,13 +2358,13 @@
   },
   "winamax_fr": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-27T12:00:48.806760+00:00",
+   "last_seen": "2026-11-27T12:30:40.522787+00:00",
    "sports": {
     "basketball_euroleague": {
      "h2h": 12
     },
     "basketball_nba": {
-     "h2h": 98
+     "h2h": 99
     },
     "boxing_boxing": {
      "h2h": 39
@@ -2406,7 +2406,7 @@
    "title": "Winamax (FR)"
   }
  },
- "runs": 65,
+ "runs": 66,
  "since": "2026-11-25T11:30:38.821855+00:00",
  "slate": {
   "americanfootball_ncaaf": {
@@ -2424,10 +2424,10 @@
    "h2h_lay": 12
   },
   "basketball_nba": {
-   "h2h": 98,
-   "h2h_lay": 98,
-   "spreads": 98,
-   "totals": 98
+   "h2h": 99,
+   "h2h_lay": 99,
+   "spreads": 99,
+   "totals": 99
   },
   "basketball_ncaab": {
    "h2h": 227,
@@ -2497,5 +2497,5 @@
    "h2h_lay": 28
   }
  },
- "updated": "2026-11-27T12:00:48.806760+00:00"
+ "updated": "2026-11-27T12:30:40.522787+00:00"
 }

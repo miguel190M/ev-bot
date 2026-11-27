@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-25T12:00:51.440971+00:00",
-  "markets": 59,
-  "markets_sharp": 27,
-  "outcomes": 212,
-  "capped": 3,
-  "flagged": 0,
-  "best": {
-   "gap": -2.04,
-   "ev_pct": -0.54,
-   "threshold_pct": 1.5,
-   "price": 1.37,
-   "outcome": "Real Madrid",
-   "book": "Betfair",
-   "matchup": "\u017dalgiris @ Real Madrid",
-   "sport_key": "basketball_euroleague",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-25T12:30:44.367657+00:00",
   "markets": 2,
   "markets_sharp": 2,
@@ -1212,6 +1193,25 @@
    "book": "SportsBet",
    "matchup": "Eddy Colmenares @ Slawa Spomer",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-27T12:30:40.526024+00:00",
+  "markets": 3,
+  "markets_sharp": 2,
+  "outcomes": 14,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.989,
+   "ev_pct": -2.39,
+   "threshold_pct": 1.6,
+   "price": 1.6,
+   "outcome": "New York Knicks",
+   "book": "SportsBet",
+   "matchup": "Miami Heat @ New York Knicks",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
