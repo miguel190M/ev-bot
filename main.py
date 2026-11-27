@@ -25,7 +25,7 @@ from pathlib import Path
 
 from src import (
     config, odds_fetcher, ev_calculator, state, telegram_alerts,
-    scheduling, bets, scores, telegram_commands, daily_digest, breakdown, clv, health, scan_stats, coverage,
+    scheduling, bets, scores, telegram_commands, daily_digest, breakdown, clv, health, scan_stats, coverage, quotes,
 )
 
 RESOLUTION_BUFFER_HOURS = 4  # wait this long after commence_time before trying to resolve
@@ -161,6 +161,10 @@ def run_scan(candidates: dict, bet_ledger: dict, odds_cache: dict) -> int:
         coverage.record_run(coverage_input)
     except Exception as e:
         print(f"Could not record bookmaker coverage: {e}")
+    try:
+        quotes.record_run(coverage_input)
+    except Exception as e:
+        print(f"Could not record latest prices: {e}")
     try:
         scan_stats.record_run(run_stats)
     except Exception as e:
@@ -325,6 +329,9 @@ def process_commands(candidates: dict, bet_ledger: dict):
         elif telegram_commands.parse_books_command(text) is not None:
             telegram_commands.send_message(coverage.report(telegram_commands.parse_books_command(text) or None))
             print("    -> Replied with bookmaker coverage")
+        elif telegram_commands.parse_quotes_command(text) is not None:
+            telegram_commands.send_message(quotes.report(telegram_commands.parse_quotes_command(text) or None))
+            print("    -> Replied with latest feed prices")
         elif telegram_commands.is_record_command(text):
             telegram_commands.send_message(breakdown.record(bet_ledger))
             print("    -> Replied with record by sport")
