@@ -1,81 +1,5 @@
 [
  {
-  "ts": "2026-11-24T23:00:53.124856+00:00",
-  "markets": 5,
-  "markets_sharp": 5,
-  "outcomes": 30,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.621,
-   "ev_pct": -1.12,
-   "threshold_pct": 1.5,
-   "price": 1.46,
-   "outcome": "Eastern Michigan Eagles",
-   "book": "Betfair",
-   "matchup": "Kent State Golden Flashes @ Eastern Michigan Eagles",
-   "sport_key": "americanfootball_ncaaf",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-24T23:30:36.851354+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 18,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.651,
-   "ev_pct": -1.15,
-   "threshold_pct": 1.5,
-   "price": 1.27,
-   "outcome": "Boston Celtics",
-   "book": "Betfair",
-   "matchup": "Boston Celtics @ Washington Wizards",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-24T23:58:03.163911+00:00",
-  "markets": 54,
-  "markets_sharp": 38,
-  "outcomes": 147,
-  "capped": 7,
-  "flagged": 0,
-  "best": {
-   "gap": -2.088,
-   "ev_pct": -0.59,
-   "threshold_pct": 1.5,
-   "price": 1.09,
-   "outcome": "Gonzaga Bulldogs",
-   "book": "Betfair",
-   "matchup": "Gonzaga Bulldogs @ Kansas St Wildcats",
-   "sport_key": "basketball_ncaab",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-25T00:00:54.672588+00:00",
-  "markets": 4,
-  "markets_sharp": 4,
-  "outcomes": 27,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.092,
-   "ev_pct": -0.59,
-   "threshold_pct": 1.5,
-   "price": 1.27,
-   "outcome": "Boston Celtics",
-   "book": "Betfair",
-   "matchup": "Boston Celtics @ Washington Wizards",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-25T00:30:51.765986+00:00",
   "markets": 3,
   "markets_sharp": 3,
@@ -1168,6 +1092,25 @@
   "best": {
    "gap": 1.627,
    "ev_pct": 3.31,
+   "threshold_pct": 1.68,
+   "price": 1.34,
+   "outcome": "Emanuel Odiase",
+   "book": "SportsBet",
+   "matchup": "Mike Perez @ Emanuel Odiase",
+   "sport_key": "boxing_boxing",
+   "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-27T00:00:55.333571+00:00",
+  "markets": 10,
+  "markets_sharp": 7,
+  "outcomes": 36,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 3.289,
+   "ev_pct": 4.97,
    "threshold_pct": 1.68,
    "price": 1.34,
    "outcome": "Emanuel Odiase",
