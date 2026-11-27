@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-25T21:00:59.630221+00:00",
-  "markets": 43,
-  "markets_sharp": 35,
-  "outcomes": 219,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.896,
-   "ev_pct": 1.75,
-   "threshold_pct": 3.64,
-   "price": 3.9,
-   "outcome": "Miel Fajardo",
-   "book": "SportsBet",
-   "matchup": "Miel Fajardo @ Masamichi Yabuki",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-25T21:30:43.745974+00:00",
   "markets": 27,
   "markets_sharp": 20,
@@ -1194,6 +1175,25 @@
    "matchup": "James Chereji @ Charlie Senior",
    "sport_key": "boxing_boxing",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-27T21:30:40.852125+00:00",
+  "markets": 34,
+  "markets_sharp": 21,
+  "outcomes": 157,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.479,
+   "ev_pct": -0.98,
+   "threshold_pct": 1.5,
+   "price": 1.35,
+   "outcome": "Portland Trail Blazers",
+   "book": "SportsBet",
+   "matchup": "Golden State Warriors @ Portland Trail Blazers",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
   }
  }
 ]
