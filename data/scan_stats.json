@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-25T09:30:35.607696+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 3,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 10.118,
-   "ev_pct": 15.19,
-   "threshold_pct": 5.07,
-   "price": 5.9,
-   "outcome": "Zyvyr John Medecilo",
-   "book": "SportsBet",
-   "matchup": "Zyvyr John Medecilo @ Takeshi Ishii",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-25T10:00:50.662340+00:00",
-  "markets": 36,
-  "markets_sharp": 18,
-  "outcomes": 157,
-  "capped": 2,
-  "flagged": 0,
-  "best": {
-   "gap": -1.938,
-   "ev_pct": -0.44,
-   "threshold_pct": 1.5,
-   "price": 1.1,
-   "outcome": "Barcelona",
-   "book": "Betfair",
-   "matchup": "Barcelona @ Sabah FK",
-   "sport_key": "soccer_uefa_champs_league",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-25T10:30:40.830887+00:00",
   "markets": 3,
   "markets_sharp": 3,
@@ -1206,6 +1168,25 @@
   "best": {
    "gap": 6.556,
    "ev_pct": 8.06,
+   "threshold_pct": 1.5,
+   "price": 1.34,
+   "outcome": "Emanuel Odiase",
+   "book": "SportsBet",
+   "matchup": "Mike Perez @ Emanuel Odiase",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-27T10:00:53.370604+00:00",
+  "markets": 14,
+  "markets_sharp": 13,
+  "outcomes": 75,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 10.358,
+   "ev_pct": 11.86,
    "threshold_pct": 1.5,
    "price": 1.34,
    "outcome": "Emanuel Odiase",
