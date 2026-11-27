@@ -37,6 +37,25 @@
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  },
+ "basketball_ncaab|Arkansas-Pine Bluff Golden Lions @ Missouri Tigers|h2h|Arkansas-Pine Bluff Golden Lions|SportsBet": {
+  "alerted": false,
+  "anchor": "retail_consensus",
+  "book": "SportsBet",
+  "commence_time": "2026-11-27T21:00:00Z",
+  "consensus_odds": 17.557,
+  "ev_pct": 617.7,
+  "fair_odds": 17.557,
+  "first_seen": "2026-11-27T09:00:47.070063+00:00",
+  "last_seen": "2026-11-27T09:00:47.070063+00:00",
+  "market": "h2h",
+  "matchup": "Arkansas-Pine Bluff Golden Lions @ Missouri Tigers",
+  "max_ev_pct": 617.7,
+  "outcome": "Arkansas-Pine Bluff Golden Lions",
+  "price": 126.0,
+  "seen": 1,
+  "sharp_odds": null,
+  "sport_key": "basketball_ncaab"
+ },
  "basketball_ncaab|Miss Valley St Delta Devils @ New Mexico Lobos|h2h|Miss Valley St Delta Devils|SportsBet": {
   "alerted": false,
   "anchor": "retail_consensus",
@@ -91,6 +110,25 @@
   "outcome": "Southern Jaguars",
   "price": 126.0,
   "seen": 2,
+  "sharp_odds": null,
+  "sport_key": "basketball_ncaab"
+ },
+ "basketball_ncaab|Southern Jaguars @ Vanderbilt Commodores|h2h|Southern Jaguars|SportsBet": {
+  "alerted": false,
+  "anchor": "retail_consensus",
+  "book": "SportsBet",
+  "commence_time": "2026-11-27T19:00:00Z",
+  "consensus_odds": 22.247,
+  "ev_pct": 466.4,
+  "fair_odds": 22.247,
+  "first_seen": "2026-11-27T09:00:47.070063+00:00",
+  "last_seen": "2026-11-27T09:00:47.070063+00:00",
+  "market": "h2h",
+  "matchup": "Southern Jaguars @ Vanderbilt Commodores",
+  "max_ev_pct": 466.4,
+  "outcome": "Southern Jaguars",
+  "price": 126.0,
+  "seen": 1,
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
  }
