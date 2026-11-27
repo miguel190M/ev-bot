@@ -1119,5 +1119,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "retail_consensus"
   }
+ },
+ {
+  "ts": "2026-11-27T00:30:41.219254+00:00",
+  "markets": 3,
+  "markets_sharp": 1,
+  "outcomes": 14,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.563,
+   "ev_pct": -1.9,
+   "threshold_pct": 1.66,
+   "price": 1.66,
+   "outcome": "Buffalo Bills",
+   "book": "Betfair",
+   "matchup": "Kansas City Chiefs @ Buffalo Bills",
+   "sport_key": "americanfootball_nfl",
+   "anchor": "pinnacle"
+  }
  }
 ]
