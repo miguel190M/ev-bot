@@ -1138,5 +1138,24 @@
    "sport_key": "cricket_international_t20",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-27T07:00:46.676459+00:00",
+  "markets": 6,
+  "markets_sharp": 5,
+  "outcomes": 33,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 6.556,
+   "ev_pct": 8.06,
+   "threshold_pct": 1.5,
+   "price": 1.34,
+   "outcome": "Emanuel Odiase",
+   "book": "SportsBet",
+   "matchup": "Mike Perez @ Emanuel Odiase",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
