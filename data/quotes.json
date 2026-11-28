@@ -414,9 +414,9 @@
     "away": "Auckland FC",
     "books": {
      "betfair_ex_au": {
-      "Auckland FC": 2.12,
-      "Central Coast Mariners": 3.65,
-      "Draw": 3.85
+      "Auckland FC": 2.18,
+      "Central Coast Mariners": 3.5,
+      "Draw": 3.75
      },
      "pinnacle": {
       "Auckland FC": 2.03,
@@ -424,14 +424,14 @@
       "Draw": 3.78
      },
      "playup": {
-      "Auckland FC": 1.98,
-      "Central Coast Mariners": 3.5,
+      "Auckland FC": 2.02,
+      "Central Coast Mariners": 3.4,
       "Draw": 3.6
      },
      "sportsbet": {
-      "Auckland FC": 2.03,
+      "Auckland FC": 2.07,
       "Central Coast Mariners": 3.45,
-      "Draw": 3.7
+      "Draw": 3.6
      }
     },
     "home": "Central Coast Mariners",
@@ -439,7 +439,7 @@
     "start": "2026-11-28T08:40:00Z"
    }
   ],
-  "ts": "2026-11-28T08:00:47.716643+00:00"
+  "ts": "2026-11-28T08:09:35.290182+00:00"
  },
  "soccer_efl_champ": {
   "events": [

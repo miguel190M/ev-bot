@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-26T08:00:48.370674+00:00",
-  "markets": 4,
-  "markets_sharp": 4,
-  "outcomes": 21,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 8.534,
-   "ev_pct": 12.18,
-   "threshold_pct": 3.64,
-   "price": 3.9,
-   "outcome": "Miel Fajardo",
-   "book": "SportsBet",
-   "matchup": "Miel Fajardo @ Masamichi Yabuki",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-26T08:30:36.819686+00:00",
   "markets": 3,
   "markets_sharp": 0,
@@ -1250,6 +1231,25 @@
    "book": "SportsBet",
    "matchup": "Kolbeinn Kristinsson @ Granit Shala",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-28T08:09:35.292250+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 9,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -0.826,
+   "ev_pct": 1.35,
+   "threshold_pct": 2.18,
+   "price": 2.18,
+   "outcome": "Auckland FC",
+   "book": "Betfair",
+   "matchup": "Auckland FC @ Central Coast Mariners",
+   "sport_key": "soccer_australia_aleague",
    "anchor": "pinnacle"
   }
  }
