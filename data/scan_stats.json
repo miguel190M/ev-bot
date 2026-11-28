@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-26T08:30:36.819686+00:00",
-  "markets": 3,
-  "markets_sharp": 0,
-  "outcomes": 15,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.312,
-   "ev_pct": -1.91,
-   "threshold_pct": 1.4,
-   "price": 1.2,
-   "outcome": "Takeshi Ishii",
-   "book": "SportsBet",
-   "matchup": "Zyvyr John Medecilo @ Takeshi Ishii",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-26T09:00:53.983253+00:00",
   "markets": 2,
   "markets_sharp": 1,
@@ -1250,6 +1231,25 @@
    "book": "Betfair",
    "matchup": "Auckland FC @ Central Coast Mariners",
    "sport_key": "soccer_australia_aleague",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-28T08:30:43.255912+00:00",
+  "markets": 28,
+  "markets_sharp": 27,
+  "outcomes": 249,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.693,
+   "ev_pct": -1.14,
+   "threshold_pct": 1.55,
+   "price": 1.55,
+   "outcome": "Birmingham City",
+   "book": "Betfair",
+   "matchup": "Bolton Wanderers @ Birmingham City",
+   "sport_key": "soccer_efl_champ",
    "anchor": "pinnacle"
   }
  }
