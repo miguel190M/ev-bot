@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-26T11:00:52.644245+00:00",
-  "markets": 1,
-  "markets_sharp": 1,
-  "outcomes": 3,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.617,
-   "ev_pct": 1.0,
-   "threshold_pct": 2.62,
-   "price": 2.62,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_test_match",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-26T11:30:42.181631+00:00",
-  "markets": 1,
-  "markets_sharp": 0,
-  "outcomes": 6,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -5.881,
-   "ev_pct": -2.56,
-   "threshold_pct": 3.32,
-   "price": 2.16,
-   "outcome": "Australia",
-   "book": "Betfair",
-   "matchup": "England @ Australia",
-   "sport_key": "cricket_international_t20",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-26T12:00:51.719571+00:00",
   "markets": 2,
   "markets_sharp": 2,
@@ -1269,6 +1231,25 @@
    "book": "SportsBet",
    "matchup": "Kolbeinn Kristinsson @ Granit Shala",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-28T11:30:45.880551+00:00",
+  "markets": 30,
+  "markets_sharp": 29,
+  "outcomes": 267,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.39,
+   "ev_pct": -0.89,
+   "threshold_pct": 1.5,
+   "price": 1.24,
+   "outcome": "PSV Eindhoven",
+   "book": "Betfair",
+   "matchup": "Go Ahead Eagles @ PSV Eindhoven",
+   "sport_key": "soccer_netherlands_eredivisie",
    "anchor": "pinnacle"
   }
  }
