@@ -65,8 +65,8 @@
     "away": "Louisiana Tech Bulldogs",
     "books": {
      "pinnacle": {
-      "Georgia Southern Eagles": 1.85,
-      "Louisiana Tech Bulldogs": 2.04
+      "Georgia Southern Eagles": 1.83,
+      "Louisiana Tech Bulldogs": 2.07
      },
      "playup": {
       "Georgia Southern Eagles": 1.78,
@@ -105,12 +105,12 @@
     "away": "Michigan Wolverines",
     "books": {
      "pinnacle": {
-      "Michigan Wolverines": 4.27,
-      "Ohio State Buckeyes": 1.25
+      "Michigan Wolverines": 4.33,
+      "Ohio State Buckeyes": 1.24
      },
      "sportsbet": {
-      "Michigan Wolverines": 4.25,
-      "Ohio State Buckeyes": 1.2
+      "Michigan Wolverines": 4.1,
+      "Ohio State Buckeyes": 1.22
      }
     },
     "home": "Ohio State Buckeyes",
@@ -161,8 +161,8 @@
     "away": "UConn Huskies",
     "books": {
      "pinnacle": {
-      "UConn Huskies": 1.61,
-      "Wyoming Cowboys": 2.44
+      "UConn Huskies": 1.62,
+      "Wyoming Cowboys": 2.41
      },
      "playup": {
       "UConn Huskies": 1.6,
@@ -170,15 +170,567 @@
      },
      "sportsbet": {
       "UConn Huskies": 1.56,
-      "Wyoming Cowboys": 2.33
+      "Wyoming Cowboys": 2.34
      }
     },
     "home": "Wyoming Cowboys",
     "lines": {},
     "start": "2026-11-28T17:00:00Z"
+   },
+   {
+    "away": "Illinois Fighting Illini",
+    "books": {
+     "pinnacle": {
+      "Illinois Fighting Illini": 2.4,
+      "Northwestern Wildcats": 1.63
+     },
+     "playup": {
+      "Illinois Fighting Illini": 2.3,
+      "Northwestern Wildcats": 1.6
+     },
+     "sportsbet": {
+      "Illinois Fighting Illini": 2.28,
+      "Northwestern Wildcats": 1.58
+     }
+    },
+    "home": "Northwestern Wildcats",
+    "lines": {},
+    "start": "2026-11-28T17:30:00Z"
+   },
+   {
+    "away": "LSU Tigers",
+    "books": {
+     "pinnacle": {
+      "Arkansas Razorbacks": 5.74,
+      "LSU Tigers": 1.16
+     },
+     "playup": {
+      "Arkansas Razorbacks": 5.25,
+      "LSU Tigers": 1.15
+     },
+     "sportsbet": {
+      "Arkansas Razorbacks": 5.4,
+      "LSU Tigers": 1.13
+     }
+    },
+    "home": "Arkansas Razorbacks",
+    "lines": {},
+    "start": "2026-11-28T17:45:00Z"
+   },
+   {
+    "away": "Florida Atlantic Owls",
+    "books": {
+     "pinnacle": {
+      "East Carolina Pirates": 1.86,
+      "Florida Atlantic Owls": 2.03
+     },
+     "playup": {
+      "East Carolina Pirates": 1.86,
+      "Florida Atlantic Owls": 1.98
+     },
+     "sportsbet": {
+      "East Carolina Pirates": 1.78,
+      "Florida Atlantic Owls": 1.96
+     }
+    },
+    "home": "East Carolina Pirates",
+    "lines": {},
+    "start": "2026-11-28T18:00:00Z"
+   },
+   {
+    "away": "Kennesaw State Owls",
+    "books": {
+     "pinnacle": {
+      "Kennesaw State Owls": 1.62,
+      "Western Kentucky Hilltoppers": 2.42
+     },
+     "playup": {
+      "Kennesaw State Owls": 1.57,
+      "Western Kentucky Hilltoppers": 2.4
+     },
+     "sportsbet": {
+      "Kennesaw State Owls": 1.59,
+      "Western Kentucky Hilltoppers": 2.26
+     }
+    },
+    "home": "Western Kentucky Hilltoppers",
+    "lines": {},
+    "start": "2026-11-28T18:00:00Z"
+   },
+   {
+    "away": "Marshall Thundering Herd",
+    "books": {
+     "pinnacle": {
+      "Marshall Thundering Herd": 1.43,
+      "UL Monroe Warhawks": 3.0
+     },
+     "playup": {
+      "Marshall Thundering Herd": 1.44,
+      "UL Monroe Warhawks": 2.8
+     },
+     "sportsbet": {
+      "Marshall Thundering Herd": 1.39,
+      "UL Monroe Warhawks": 2.85
+     }
+    },
+    "home": "UL Monroe Warhawks",
+    "lines": {},
+    "start": "2026-11-28T18:00:00Z"
+   },
+   {
+    "away": "Southern Mississippi Golden Eagles",
+    "books": {
+     "pinnacle": {
+      "Old Dominion Monarchs": 1.47,
+      "Southern Mississippi Golden Eagles": 2.84
+     },
+     "playup": {
+      "Old Dominion Monarchs": 1.45,
+      "Southern Mississippi Golden Eagles": 2.7
+     },
+     "sportsbet": {
+      "Old Dominion Monarchs": 1.43,
+      "Southern Mississippi Golden Eagles": 2.71
+     }
+    },
+    "home": "Old Dominion Monarchs",
+    "lines": {},
+    "start": "2026-11-28T18:00:00Z"
+   },
+   {
+    "away": "Army Black Knights",
+    "books": {
+     "pinnacle": {
+      "Army Black Knights": 1.51,
+      "Rice Owls": 2.7
+     },
+     "playup": {
+      "Army Black Knights": 1.45,
+      "Rice Owls": 2.7
+     },
+     "sportsbet": {
+      "Army Black Knights": 1.42,
+      "Rice Owls": 2.74
+     }
+    },
+    "home": "Rice Owls",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "Coastal Carolina Chanticleers",
+    "books": {
+     "pinnacle": {
+      "Coastal Carolina Chanticleers": 6.96,
+      "James Madison Dukes": 1.12
+     },
+     "playup": {
+      "Coastal Carolina Chanticleers": 7.0,
+      "James Madison Dukes": 1.1
+     },
+     "sportsbet": {
+      "Coastal Carolina Chanticleers": 6.0,
+      "James Madison Dukes": 1.1
+     }
+    },
+    "home": "James Madison Dukes",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "UCF Knights",
+    "books": {
+     "pinnacle": {
+      "Colorado Buffaloes": 1.81,
+      "UCF Knights": 2.1
+     },
+     "playup": {
+      "Colorado Buffaloes": 1.75,
+      "UCF Knights": 2.05
+     },
+     "sportsbet": {
+      "Colorado Buffaloes": 1.71,
+      "UCF Knights": 2.05
+     }
+    },
+    "home": "Colorado Buffaloes",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "Sam Houston State Bearkats",
+    "books": {
+     "pinnacle": {
+      "Florida International Panthers": 1.22,
+      "Sam Houston State Bearkats": 4.64
+     },
+     "playup": {
+      "Florida International Panthers": 1.2,
+      "Sam Houston State Bearkats": 4.5
+     },
+     "sportsbet": {
+      "Florida International Panthers": 1.17,
+      "Sam Houston State Bearkats": 4.6
+     }
+    },
+    "home": "Florida International Panthers",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "Louisiana Ragin Cajuns",
+    "books": {
+     "pinnacle": {
+      "Georgia State Panthers": 2.71,
+      "Louisiana Ragin Cajuns": 1.51
+     },
+     "playup": {
+      "Georgia State Panthers": 2.6,
+      "Louisiana Ragin Cajuns": 1.5
+     },
+     "sportsbet": {
+      "Georgia State Panthers": 2.58,
+      "Louisiana Ragin Cajuns": 1.46
+     }
+    },
+    "home": "Georgia State Panthers",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "Kansas State Wildcats",
+    "books": {
+     "pinnacle": {
+      "Iowa State Cyclones": 1.5,
+      "Kansas State Wildcats": 2.74
+     },
+     "playup": {
+      "Iowa State Cyclones": 1.5,
+      "Kansas State Wildcats": 2.5
+     },
+     "sportsbet": {
+      "Iowa State Cyclones": 1.49,
+      "Kansas State Wildcats": 2.49
+     }
+    },
+    "home": "Iowa State Cyclones",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "Liberty Flames",
+    "books": {
+     "pinnacle": {
+      "Liberty Flames": 1.11,
+      "Missouri State Bears": 7.34
+     },
+     "playup": {
+      "Liberty Flames": 1.09,
+      "Missouri State Bears": 7.25
+     },
+     "sportsbet": {
+      "Liberty Flames": 1.08,
+      "Missouri State Bears": 6.5
+     }
+    },
+    "home": "Missouri State Bears",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "New Mexico State Aggies",
+    "books": {
+     "pinnacle": {
+      "Middle Tennessee Blue Raiders": 1.61,
+      "New Mexico State Aggies": 2.43
+     },
+     "playup": {
+      "Middle Tennessee Blue Raiders": 1.6,
+      "New Mexico State Aggies": 2.35
+     },
+     "sportsbet": {
+      "Middle Tennessee Blue Raiders": 1.58,
+      "New Mexico State Aggies": 2.28
+     }
+    },
+    "home": "Middle Tennessee Blue Raiders",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "Troy Trojans",
+    "books": {
+     "pinnacle": {
+      "Arkansas State Red Wolves": 1.56,
+      "Troy Trojans": 2.55
+     },
+     "playup": {
+      "Arkansas State Red Wolves": 1.53,
+      "Troy Trojans": 2.5
+     },
+     "sportsbet": {
+      "Arkansas State Red Wolves": 1.52,
+      "Troy Trojans": 2.42
+     }
+    },
+    "home": "Arkansas State Red Wolves",
+    "lines": {},
+    "start": "2026-11-28T20:00:00Z"
+   },
+   {
+    "away": "South Carolina Gamecocks",
+    "books": {
+     "pinnacle": {
+      "Clemson Tigers": 3.11,
+      "South Carolina Gamecocks": 1.4
+     },
+     "playup": {
+      "Clemson Tigers": 2.9,
+      "South Carolina Gamecocks": 1.42
+     },
+     "sportsbet": {
+      "Clemson Tigers": 2.9,
+      "South Carolina Gamecocks": 1.38
+     }
+    },
+    "home": "Clemson Tigers",
+    "lines": {},
+    "start": "2026-11-28T20:00:00Z"
+   },
+   {
+    "away": "Virginia Cavaliers",
+    "books": {
+     "pinnacle": {
+      "Virginia Cavaliers": 2.27,
+      "Virginia Tech Hokies": 1.7
+     },
+     "playup": {
+      "Virginia Cavaliers": 2.2,
+      "Virginia Tech Hokies": 1.65
+     },
+     "sportsbet": {
+      "Virginia Cavaliers": 2.19,
+      "Virginia Tech Hokies": 1.63
+     }
+    },
+    "home": "Virginia Tech Hokies",
+    "lines": {},
+    "start": "2026-11-28T20:00:00Z"
+   },
+   {
+    "away": "Cincinnati Bearcats",
+    "books": {
+     "pinnacle": {
+      "BYU Cougars": 1.13,
+      "Cincinnati Bearcats": 6.37
+     },
+     "playup": {
+      "BYU Cougars": 1.12,
+      "Cincinnati Bearcats": 6.25
+     },
+     "sportsbet": {
+      "BYU Cougars": 1.13,
+      "Cincinnati Bearcats": 5.5
+     }
+    },
+    "home": "BYU Cougars",
+    "lines": {},
+    "start": "2026-11-28T20:30:00Z"
+   },
+   {
+    "away": "UMass Minutemen",
+    "books": {
+     "pinnacle": {
+      "Bowling Green Falcons": 1.61,
+      "UMass Minutemen": 2.44
+     },
+     "playup": {
+      "Bowling Green Falcons": 1.63,
+      "UMass Minutemen": 2.25
+     },
+     "sportsbet": {
+      "Bowling Green Falcons": 1.57,
+      "UMass Minutemen": 2.31
+     }
+    },
+    "home": "Bowling Green Falcons",
+    "lines": {},
+    "start": "2026-11-28T20:30:00Z"
+   },
+   {
+    "away": "Jacksonville State Gamecocks",
+    "books": {
+     "pinnacle": {
+      "Delaware Blue Hens": 1.74,
+      "Jacksonville State Gamecocks": 2.21
+     },
+     "playup": {
+      "Delaware Blue Hens": 1.68,
+      "Jacksonville State Gamecocks": 2.15
+     },
+     "sportsbet": {
+      "Delaware Blue Hens": 1.61,
+      "Jacksonville State Gamecocks": 2.23
+     }
+    },
+    "home": "Delaware Blue Hens",
+    "lines": {},
+    "start": "2026-11-28T20:30:00Z"
+   },
+   {
+    "away": "Duke Blue Devils",
+    "books": {
+     "pinnacle": {
+      "Duke Blue Devils": 5.89,
+      "Wake Forest Demon Deacons": 1.15
+     },
+     "playup": {
+      "Duke Blue Devils": 5.5,
+      "Wake Forest Demon Deacons": 1.14
+     },
+     "sportsbet": {
+      "Duke Blue Devils": 5.4,
+      "Wake Forest Demon Deacons": 1.13
+     }
+    },
+    "home": "Wake Forest Demon Deacons",
+    "lines": {},
+    "start": "2026-11-28T20:30:00Z"
+   },
+   {
+    "away": "Georgia Tech Yellow Jackets",
+    "books": {
+     "playup": {
+      "Georgia Bulldogs": 1.01,
+      "Georgia Tech Yellow Jackets": 26.0
+     }
+    },
+    "home": "Georgia Bulldogs",
+    "lines": {},
+    "start": "2026-11-28T20:30:00Z"
+   },
+   {
+    "away": "Penn State Nittany Lions",
+    "books": {
+     "pinnacle": {
+      "Maryland Terrapins": 3.5,
+      "Penn State Nittany Lions": 1.34
+     },
+     "playup": {
+      "Maryland Terrapins": 3.1,
+      "Penn State Nittany Lions": 1.35
+     },
+     "sportsbet": {
+      "Maryland Terrapins": 3.16,
+      "Penn State Nittany Lions": 1.33
+     }
+    },
+    "home": "Maryland Terrapins",
+    "lines": {},
+    "start": "2026-11-28T20:30:00Z"
+   },
+   {
+    "away": "UTEP Miners",
+    "books": {
+     "pinnacle": {
+      "Northern Illinois Huskies": 1.53,
+      "UTEP Miners": 2.64
+     },
+     "playup": {
+      "Northern Illinois Huskies": 1.52,
+      "UTEP Miners": 2.5
+     },
+     "sportsbet": {
+      "Northern Illinois Huskies": 1.48,
+      "UTEP Miners": 2.53
+     }
+    },
+    "home": "Northern Illinois Huskies",
+    "lines": {},
+    "start": "2026-11-28T20:30:00Z"
+   },
+   {
+    "away": "SMU Mustangs",
+    "books": {
+     "pinnacle": {
+      "SMU Mustangs": 1.34,
+      "Stanford Cardinal": 3.46
+     },
+     "playup": {
+      "SMU Mustangs": 1.33,
+      "Stanford Cardinal": 3.25
+     },
+     "sportsbet": {
+      "SMU Mustangs": 1.33,
+      "Stanford Cardinal": 3.14
+     }
+    },
+    "home": "Stanford Cardinal",
+    "lines": {},
+    "start": "2026-11-28T20:30:00Z"
+   },
+   {
+    "away": "Tulane Green Wave",
+    "books": {
+     "pinnacle": {
+      "South Florida Bulls": 1.36,
+      "Tulane Green Wave": 3.34
+     },
+     "playup": {
+      "South Florida Bulls": 1.38,
+      "Tulane Green Wave": 3.0
+     },
+     "sportsbet": {
+      "South Florida Bulls": 1.33,
+      "Tulane Green Wave": 3.12
+     }
+    },
+    "home": "South Florida Bulls",
+    "lines": {},
+    "start": "2026-11-28T20:30:00Z"
+   },
+   {
+    "away": "USC Trojans",
+    "books": {
+     "pinnacle": {
+      "UCLA Bruins": 2.75,
+      "USC Trojans": 1.5
+     },
+     "playup": {
+      "UCLA Bruins": 2.7,
+      "USC Trojans": 1.48
+     },
+     "sportsbet": {
+      "UCLA Bruins": 2.59,
+      "USC Trojans": 1.46
+     }
+    },
+    "home": "UCLA Bruins",
+    "lines": {},
+    "start": "2026-11-28T20:30:00Z"
+   },
+   {
+    "away": "UAB Blazers",
+    "books": {
+     "pinnacle": {
+      "North Texas Mean Green": 1.77,
+      "UAB Blazers": 2.15
+     },
+     "playup": {
+      "North Texas Mean Green": 1.72,
+      "UAB Blazers": 2.1
+     },
+     "sportsbet": {
+      "North Texas Mean Green": 1.69,
+      "UAB Blazers": 2.09
+     }
+    },
+    "home": "North Texas Mean Green",
+    "lines": {},
+    "start": "2026-11-28T21:00:00Z"
    }
   ],
-  "ts": "2026-11-28T05:00:48.497725+00:00"
+  "ts": "2026-11-28T09:00:47.858608+00:00"
  },
  "basketball_ncaab": {
   "events": [
@@ -186,7 +738,7 @@
     "away": "Elon Phoenix",
     "books": {
      "sportsbet": {
-      "Elon Phoenix": 14.0,
+      "Elon Phoenix": 13.0,
       "NC State Wolfpack": 1.01
      }
     },
@@ -217,9 +769,581 @@
     "home": "Seton Hall Pirates",
     "lines": {},
     "start": "2026-11-28T17:00:00Z"
+   },
+   {
+    "away": "Alcorn St Braves",
+    "books": {
+     "sportsbet": {
+      "Alcorn St Braves": 81.0,
+      "Georgia Tech Yellow Jackets": 1.0
+     }
+    },
+    "home": "Georgia Tech Yellow Jackets",
+    "lines": {},
+    "start": "2026-11-28T18:00:00Z"
+   },
+   {
+    "away": "Vermont Catamounts",
+    "books": {
+     "betfair_ex_au": {
+      "Colgate Raiders": 1.64,
+      "Vermont Catamounts": 1.9
+     },
+     "sportsbet": {
+      "Colgate Raiders": 1.71,
+      "Vermont Catamounts": 2.06
+     }
+    },
+    "home": "Colgate Raiders",
+    "lines": {},
+    "start": "2026-11-28T18:00:00Z"
+   },
+   {
+    "away": "Wofford Terriers",
+    "books": {
+     "pinnacle": {
+      "Fort Wayne Mastodons": 1.74,
+      "Wofford Terriers": 2.17
+     },
+     "sportsbet": {
+      "Fort Wayne Mastodons": 1.65,
+      "Wofford Terriers": 2.14
+     }
+    },
+    "home": "Fort Wayne Mastodons",
+    "lines": {},
+    "start": "2026-11-28T18:00:00Z"
+   },
+   {
+    "away": "North Carolina Central Eagles",
+    "books": {
+     "sportsbet": {
+      "Gardner-Webb Bulldogs": 1.71,
+      "North Carolina Central Eagles": 2.05
+     }
+    },
+    "home": "Gardner-Webb Bulldogs",
+    "lines": {},
+    "start": "2026-11-28T18:00:00Z"
+   },
+   {
+    "away": "Radford Highlanders",
+    "books": {
+     "betfair_ex_au": {
+      "Hampton Pirates": 1.9,
+      "Radford Highlanders": 1.78
+     },
+     "sportsbet": {
+      "Hampton Pirates": 1.97,
+      "Radford Highlanders": 1.77
+     }
+    },
+    "home": "Hampton Pirates",
+    "lines": {},
+    "start": "2026-11-28T18:00:00Z"
+   },
+   {
+    "away": "Robert Morris Colonials",
+    "books": {
+     "pinnacle": {
+      "Northern Iowa Panthers": 1.38,
+      "Robert Morris Colonials": 3.17
+     },
+     "sportsbet": {
+      "Northern Iowa Panthers": 1.33,
+      "Robert Morris Colonials": 3.14
+     }
+    },
+    "home": "Northern Iowa Panthers",
+    "lines": {},
+    "start": "2026-11-28T18:00:00Z"
+   },
+   {
+    "away": "Lehigh Mountain Hawks",
+    "books": {
+     "sportsbet": {
+      "Lehigh Mountain Hawks": 4.6,
+      "Pepperdine Waves": 1.17
+     }
+    },
+    "home": "Pepperdine Waves",
+    "lines": {},
+    "start": "2026-11-28T18:30:00Z"
+   },
+   {
+    "away": "Ball State Cardinals",
+    "books": {
+     "pinnacle": {
+      "Ball State Cardinals": 1.62,
+      "Southern Indiana Screaming Eagles": 2.37
+     },
+     "sportsbet": {
+      "Ball State Cardinals": 1.6,
+      "Southern Indiana Screaming Eagles": 2.24
+     }
+    },
+    "home": "Southern Indiana Screaming Eagles",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "Chicago St Cougars",
+    "books": {
+     "sportsbet": {
+      "Bradley Braves": 1.04,
+      "Chicago St Cougars": 9.5
+     }
+    },
+    "home": "Bradley Braves",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "Central Connecticut St Blue Devils",
+    "books": {
+     "betfair_ex_au": {
+      "Central Connecticut St Blue Devils": 1.86,
+      "Navy Midshipmen": 1.73
+     },
+     "sportsbet": {
+      "Central Connecticut St Blue Devils": 1.82,
+      "Navy Midshipmen": 1.91
+     }
+    },
+    "home": "Navy Midshipmen",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "Troy Trojans",
+    "books": {
+     "pinnacle": {
+      "Chattanooga Mocs": 1.55,
+      "Troy Trojans": 2.54
+     },
+     "sportsbet": {
+      "Chattanooga Mocs": 1.51,
+      "Troy Trojans": 2.44
+     }
+    },
+    "home": "Chattanooga Mocs",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "North Florida Ospreys",
+    "books": {
+     "sportsbet": {
+      "Columbia Lions": 1.06,
+      "North Florida Ospreys": 8.0
+     }
+    },
+    "home": "Columbia Lions",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "East Texas A&M Lions",
+    "books": {
+     "sportsbet": {
+      "East Texas A&M Lions": 4.0,
+      "Marshall Thundering Herd": 1.22
+     }
+    },
+    "home": "Marshall Thundering Herd",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "Fordham Rams",
+    "books": {
+     "pinnacle": {
+      "Fordham Rams": 1.62,
+      "Harvard Crimson": 2.36
+     },
+     "sportsbet": {
+      "Fordham Rams": 1.61,
+      "Harvard Crimson": 2.22
+     }
+    },
+    "home": "Harvard Crimson",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "Marist Red Foxes",
+    "books": {
+     "sportsbet": {
+      "George Mason Patriots": 1.01,
+      "Marist Red Foxes": 14.0
+     }
+    },
+    "home": "George Mason Patriots",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "Georgia Southern Eagles",
+    "books": {
+     "sportsbet": {
+      "Georgia Southern Eagles": 1.76,
+      "UNC Asheville Bulldogs": 1.98
+     }
+    },
+    "home": "UNC Asheville Bulldogs",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "The Citadel Bulldogs",
+    "books": {
+     "sportsbet": {
+      "High Point Panthers": 1.0,
+      "The Citadel Bulldogs": 67.0
+     }
+    },
+    "home": "High Point Panthers",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "Le Moyne Dolphins",
+    "books": {
+     "sportsbet": {
+      "Le Moyne Dolphins": 1.78,
+      "Niagara Purple Eagles": 1.96
+     }
+    },
+    "home": "Niagara Purple Eagles",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "Manhattan Jaspers",
+    "books": {
+     "sportsbet": {
+      "Manhattan Jaspers": 2.14,
+      "Morgan St Bears": 1.65
+     }
+    },
+    "home": "Morgan St Bears",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "Sacramento St Hornets",
+    "books": {
+     "sportsbet": {
+      "Presbyterian Blue Hose": 1.71,
+      "Sacramento St Hornets": 2.05
+     }
+    },
+    "home": "Presbyterian Blue Hose",
+    "lines": {},
+    "start": "2026-11-28T19:00:00Z"
+   },
+   {
+    "away": "Brown Bears",
+    "books": {
+     "pinnacle": {
+      "Air Force Falcons": 1.7,
+      "Brown Bears": 2.21
+     },
+     "sportsbet": {
+      "Air Force Falcons": 1.65,
+      "Brown Bears": 2.15
+     }
+    },
+    "home": "Air Force Falcons",
+    "lines": {},
+    "start": "2026-11-28T20:00:00Z"
+   },
+   {
+    "away": "Western Illinois Leathernecks",
+    "books": {
+     "pinnacle": {
+      "Coastal Carolina Chanticleers": 1.14,
+      "Western Illinois Leathernecks": 6.16
+     },
+     "sportsbet": {
+      "Coastal Carolina Chanticleers": 1.13,
+      "Western Illinois Leathernecks": 5.5
+     }
+    },
+    "home": "Coastal Carolina Chanticleers",
+    "lines": {},
+    "start": "2026-11-28T20:00:00Z"
+   },
+   {
+    "away": "Denver Pioneers",
+    "books": {
+     "pinnacle": {
+      "Denver Pioneers": 2.46,
+      "New Mexico St Aggies": 1.58
+     },
+     "sportsbet": {
+      "Denver Pioneers": 2.3,
+      "New Mexico St Aggies": 1.57
+     }
+    },
+    "home": "New Mexico St Aggies",
+    "lines": {},
+    "start": "2026-11-28T20:00:00Z"
+   },
+   {
+    "away": "Northern Illinois Huskies",
+    "books": {
+     "pinnacle": {
+      "Eastern Illinois Panthers": 5.84,
+      "Northern Illinois Huskies": 1.15
+     },
+     "sportsbet": {
+      "Eastern Illinois Panthers": 5.4,
+      "Northern Illinois Huskies": 1.13
+     }
+    },
+    "home": "Eastern Illinois Panthers",
+    "lines": {},
+    "start": "2026-11-28T20:00:00Z"
+   },
+   {
+    "away": "Liberty Flames",
+    "books": {
+     "betfair_ex_au": {
+      "Liberty Flames": 3.05,
+      "UNC Wilmington Seahawks": 1.44
+     },
+     "pinnacle": {
+      "Liberty Flames": 2.92,
+      "UNC Wilmington Seahawks": 1.44
+     },
+     "sportsbet": {
+      "Liberty Flames": 3.02,
+      "UNC Wilmington Seahawks": 1.35
+     }
+    },
+    "home": "UNC Wilmington Seahawks",
+    "lines": {},
+    "start": "2026-11-28T20:00:00Z"
+   },
+   {
+    "away": "SE Missouri St Redhawks",
+    "books": {
+     "pinnacle": {
+      "SE Missouri St Redhawks": 2.26,
+      "UMKC Kangaroos": 1.68
+     },
+     "sportsbet": {
+      "SE Missouri St Redhawks": 2.06,
+      "UMKC Kangaroos": 1.71
+     }
+    },
+    "home": "UMKC Kangaroos",
+    "lines": {},
+    "start": "2026-11-28T20:00:00Z"
+   },
+   {
+    "away": "Toledo Rockets",
+    "books": {
+     "pinnacle": {
+      "Toledo Rockets": 2.46,
+      "Valparaiso Beacons": 1.58
+     },
+     "sportsbet": {
+      "Toledo Rockets": 2.31,
+      "Valparaiso Beacons": 1.57
+     }
+    },
+    "home": "Valparaiso Beacons",
+    "lines": {},
+    "start": "2026-11-28T20:00:00Z"
+   },
+   {
+    "away": "UT Rio Grande Valley Vaqueros",
+    "books": {
+     "sportsbet": {
+      "UNLV Rebels": 1.14,
+      "UT Rio Grande Valley Vaqueros": 5.2
+     }
+    },
+    "home": "UNLV Rebels",
+    "lines": {},
+    "start": "2026-11-28T20:00:00Z"
+   },
+   {
+    "away": "North Texas Mean Green",
+    "books": {
+     "betfair_ex_au": {
+      "Boise State Broncos": 1.54,
+      "North Texas Mean Green": 2.78
+     },
+     "pinnacle": {
+      "Boise State Broncos": 1.52,
+      "North Texas Mean Green": 2.63
+     },
+     "sportsbet": {
+      "Boise State Broncos": 1.43,
+      "North Texas Mean Green": 2.71
+     }
+    },
+    "home": "Boise State Broncos",
+    "lines": {},
+    "start": "2026-11-28T20:30:00Z"
+   },
+   {
+    "away": "Buffalo Bulls",
+    "books": {
+     "betfair_ex_au": {
+      "Buffalo Bulls": 2.46,
+      "Towson Tigers": 1.63
+     },
+     "pinnacle": {
+      "Buffalo Bulls": 2.43,
+      "Towson Tigers": 1.6
+     },
+     "sportsbet": {
+      "Buffalo Bulls": 2.19,
+      "Towson Tigers": 1.63
+     }
+    },
+    "home": "Towson Tigers",
+    "lines": {},
+    "start": "2026-11-28T20:30:00Z"
+   },
+   {
+    "away": "Merrimack Warriors",
+    "books": {
+     "betfair_ex_au": {
+      "Hofstra Pride": 1.83,
+      "Merrimack Warriors": 2.12
+     },
+     "pinnacle": {
+      "Hofstra Pride": 1.78,
+      "Merrimack Warriors": 2.09
+     },
+     "sportsbet": {
+      "Hofstra Pride": 1.73,
+      "Merrimack Warriors": 2.02
+     }
+    },
+    "home": "Hofstra Pride",
+    "lines": {},
+    "start": "2026-11-28T20:30:00Z"
+   },
+   {
+    "away": "UMass Lowell River Hawks",
+    "books": {
+     "sportsbet": {
+      "American Eagles": 1.33,
+      "UMass Lowell River Hawks": 3.14
+     }
+    },
+    "home": "American Eagles",
+    "lines": {},
+    "start": "2026-11-28T21:00:00Z"
+   },
+   {
+    "away": "Austin Peay Governors",
+    "books": {
+     "pinnacle": {
+      "Austin Peay Governors": 3.47,
+      "Furman Paladins": 1.33
+     },
+     "sportsbet": {
+      "Austin Peay Governors": 3.32,
+      "Furman Paladins": 1.3
+     }
+    },
+    "home": "Furman Paladins",
+    "lines": {},
+    "start": "2026-11-28T21:00:00Z"
+   },
+   {
+    "away": "Delaware Blue Hens",
+    "books": {
+     "pinnacle": {
+      "Delaware Blue Hens": 2.95,
+      "Stony Brook Seawolves": 1.43
+     },
+     "sportsbet": {
+      "Delaware Blue Hens": 2.82,
+      "Stony Brook Seawolves": 1.4
+     }
+    },
+    "home": "Stony Brook Seawolves",
+    "lines": {},
+    "start": "2026-11-28T21:00:00Z"
+   },
+   {
+    "away": "Drexel Dragons",
+    "books": {
+     "sportsbet": {
+      "Drexel Dragons": 1.42,
+      "Mt. St. Mary's Mountaineers": 2.74
+     }
+    },
+    "home": "Mt. St. Mary's Mountaineers",
+    "lines": {},
+    "start": "2026-11-28T21:00:00Z"
+   },
+   {
+    "away": "Tennessee Tech Golden Eagles",
+    "books": {
+     "pinnacle": {
+      "Eastern Kentucky Colonels": 2.58,
+      "Tennessee Tech Golden Eagles": 1.54
+     },
+     "sportsbet": {
+      "Eastern Kentucky Colonels": 2.44,
+      "Tennessee Tech Golden Eagles": 1.51
+     }
+    },
+    "home": "Eastern Kentucky Colonels",
+    "lines": {},
+    "start": "2026-11-28T21:00:00Z"
+   },
+   {
+    "away": "McNeese Cowboys",
+    "books": {
+     "sportsbet": {
+      "Louisiana Ragin' Cajuns": 3.7,
+      "McNeese Cowboys": 1.25
+     }
+    },
+    "home": "Louisiana Ragin' Cajuns",
+    "lines": {},
+    "start": "2026-11-28T21:00:00Z"
+   },
+   {
+    "away": "N Colorado Bears",
+    "books": {
+     "sportsbet": {
+      "N Colorado Bears": 7.75,
+      "San Diego Toreros": 1.06
+     }
+    },
+    "home": "San Diego Toreros",
+    "lines": {},
+    "start": "2026-11-28T21:00:00Z"
+   },
+   {
+    "away": "San Jos\u00e9 St Spartans",
+    "books": {
+     "pinnacle": {
+      "San Jos\u00e9 St Spartans": 3.17,
+      "Utah Valley Wolverines": 1.38
+     },
+     "sportsbet": {
+      "San Jos\u00e9 St Spartans": 3.2,
+      "Utah Valley Wolverines": 1.33
+     }
+    },
+    "home": "Utah Valley Wolverines",
+    "lines": {},
+    "start": "2026-11-28T21:00:00Z"
    }
   ],
-  "ts": "2026-11-28T05:00:48.497725+00:00"
+  "ts": "2026-11-28T09:00:47.858608+00:00"
  },
  "boxing_boxing": {
   "events": [
@@ -369,7 +1493,7 @@
     "away": "Nelson Hysa",
     "books": {
      "betfair_ex_au": {
-      "Agit Kabayel": 1.12,
+      "Agit Kabayel": 1.13,
       "Draw": 34.0,
       "Nelson Hysa": 9.0
      },
@@ -386,9 +1510,31 @@
     "home": "Agit Kabayel",
     "lines": {},
     "start": "2026-11-28T22:00:00Z"
+   },
+   {
+    "away": "Seigo Yuri Akui",
+    "books": {
+     "betfair_ex_au": {
+      "David Jimenez": 2.0,
+      "Draw": 18.0,
+      "Seigo Yuri Akui": 1.35
+     },
+     "pinnacle": {
+      "David Jimenez": 2.01,
+      "Seigo Yuri Akui": 1.83
+     },
+     "sportsbet": {
+      "David Jimenez": 2.25,
+      "Draw": 18.0,
+      "Seigo Yuri Akui": 1.75
+     }
+    },
+    "home": "David Jimenez",
+    "lines": {},
+    "start": "2026-11-29T09:00:00Z"
    }
   ],
-  "ts": "2026-11-28T08:00:47.716643+00:00"
+  "ts": "2026-11-28T09:00:47.858608+00:00"
  },
  "cricket_international_t20": {
   "events": [
@@ -421,9 +1567,9 @@
     "away": "India",
     "books": {
      "betfair_ex_au": {
-      "Draw": 2.56,
-      "India": 15.0,
-      "New Zealand": 1.84
+      "Draw": 2.5,
+      "India": 15.5,
+      "New Zealand": 1.85
      }
     },
     "home": "New Zealand",
@@ -431,40 +1577,7 @@
     "start": "2026-11-28T22:00:00Z"
    }
   ],
-  "ts": "2026-11-28T08:00:47.716643+00:00"
- },
- "soccer_australia_aleague": {
-  "events": [
-   {
-    "away": "Auckland FC",
-    "books": {
-     "betfair_ex_au": {
-      "Auckland FC": 2.2,
-      "Central Coast Mariners": 3.55,
-      "Draw": 3.7
-     },
-     "pinnacle": {
-      "Auckland FC": 2.13,
-      "Central Coast Mariners": 3.46,
-      "Draw": 3.68
-     },
-     "playup": {
-      "Auckland FC": 2.05,
-      "Central Coast Mariners": 3.35,
-      "Draw": 3.55
-     },
-     "sportsbet": {
-      "Auckland FC": 2.12,
-      "Central Coast Mariners": 3.4,
-      "Draw": 3.5
-     }
-    },
-    "home": "Central Coast Mariners",
-    "lines": {},
-    "start": "2026-11-28T08:40:00Z"
-   }
-  ],
-  "ts": "2026-11-28T08:30:43.254415+00:00"
+  "ts": "2026-11-28T09:00:47.858608+00:00"
  },
  "soccer_efl_champ": {
   "events": [
@@ -1572,22 +2685,22 @@
     "books": {
      "betfair_ex_au": {
       "Draw": 4.4,
-      "Rayo Vallecano": 5.7,
+      "Rayo Vallecano": 5.8,
       "Real Betis": 1.66
      },
      "pinnacle": {
-      "Draw": 4.35,
-      "Rayo Vallecano": 5.22,
-      "Real Betis": 1.63
+      "Draw": 4.33,
+      "Rayo Vallecano": 5.41,
+      "Real Betis": 1.62
      },
      "playup": {
-      "Draw": 4.1,
+      "Draw": 4.0,
       "Rayo Vallecano": 5.0,
       "Real Betis": 1.58
      },
      "sportsbet": {
       "Draw": 4.2,
-      "Rayo Vallecano": 5.3,
+      "Rayo Vallecano": 5.4,
       "Real Betis": 1.6
      }
     },
@@ -1599,32 +2712,88 @@
     "away": "Athletic Bilbao",
     "books": {
      "betfair_ex_au": {
-      "Athletic Bilbao": 1.78,
-      "Draw": 3.95,
+      "Athletic Bilbao": 1.77,
+      "Draw": 4.0,
       "M\u00e1laga": 5.3
      },
      "pinnacle": {
-      "Athletic Bilbao": 1.74,
-      "Draw": 3.91,
-      "M\u00e1laga": 4.92
+      "Athletic Bilbao": 1.75,
+      "Draw": 3.93,
+      "M\u00e1laga": 4.9
      },
      "playup": {
-      "Athletic Bilbao": 1.7,
-      "Draw": 3.65,
+      "Athletic Bilbao": 1.68,
+      "Draw": 3.7,
       "M\u00e1laga": 4.6
      },
      "sportsbet": {
-      "Athletic Bilbao": 1.72,
+      "Athletic Bilbao": 1.71,
       "Draw": 3.8,
-      "M\u00e1laga": 4.8
+      "M\u00e1laga": 5.0
      }
     },
     "home": "M\u00e1laga",
     "lines": {},
     "start": "2026-11-28T15:15:00Z"
+   },
+   {
+    "away": "Atl\u00e9tico Madrid",
+    "books": {
+     "betfair_ex_au": {
+      "Atl\u00e9tico Madrid": 1.47,
+      "Draw": 5.1,
+      "Elche CF": 7.4
+     },
+     "pinnacle": {
+      "Atl\u00e9tico Madrid": 1.47,
+      "Draw": 4.78,
+      "Elche CF": 6.92
+     },
+     "playup": {
+      "Atl\u00e9tico Madrid": 1.42,
+      "Draw": 4.5,
+      "Elche CF": 6.25
+     },
+     "sportsbet": {
+      "Atl\u00e9tico Madrid": 1.43,
+      "Draw": 4.75,
+      "Elche CF": 6.75
+     }
+    },
+    "home": "Elche CF",
+    "lines": {},
+    "start": "2026-11-28T17:30:00Z"
+   },
+   {
+    "away": "Alav\u00e9s",
+    "books": {
+     "betfair_ex_au": {
+      "Alav\u00e9s": 21.0,
+      "Draw": 10.5,
+      "Real Madrid": 1.16
+     },
+     "pinnacle": {
+      "Alav\u00e9s": 17.43,
+      "Draw": 9.18,
+      "Real Madrid": 1.16
+     },
+     "playup": {
+      "Alav\u00e9s": 15.0,
+      "Draw": 7.75,
+      "Real Madrid": 1.14
+     },
+     "sportsbet": {
+      "Alav\u00e9s": 17.0,
+      "Draw": 9.5,
+      "Real Madrid": 1.13
+     }
+    },
+    "home": "Real Madrid",
+    "lines": {},
+    "start": "2026-11-28T20:00:00Z"
    }
   ],
-  "ts": "2026-11-28T05:00:48.497725+00:00"
+  "ts": "2026-11-28T09:00:47.858608+00:00"
  },
  "soccer_usa_mls": {
   "events": [
