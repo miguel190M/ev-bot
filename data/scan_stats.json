@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-26T00:00:56.144724+00:00",
-  "markets": 42,
-  "markets_sharp": 31,
-  "outcomes": 164,
-  "capped": 1,
-  "flagged": 0,
-  "best": {
-   "gap": 13.973,
-   "ev_pct": 17.62,
-   "threshold_pct": 3.64,
-   "price": 3.9,
-   "outcome": "Miel Fajardo",
-   "book": "SportsBet",
-   "matchup": "Miel Fajardo @ Masamichi Yabuki",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-26T00:30:42.528674+00:00",
-  "markets": 21,
-  "markets_sharp": 12,
-  "outcomes": 98,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -1.533,
-   "ev_pct": 0.41,
-   "threshold_pct": 1.94,
-   "price": 1.94,
-   "outcome": "Over 226.5",
-   "book": "SportsBet",
-   "matchup": "San Antonio Spurs @ Portland Trail Blazers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-26T01:00:57.430712+00:00",
   "markets": 23,
   "markets_sharp": 16,
@@ -1213,6 +1175,25 @@
    "matchup": "James Chereji @ Charlie Senior",
    "sport_key": "boxing_boxing",
    "anchor": "retail_consensus"
+  }
+ },
+ {
+  "ts": "2026-11-28T00:30:43.213151+00:00",
+  "markets": 35,
+  "markets_sharp": 26,
+  "outcomes": 185,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.087,
+   "ev_pct": 0.29,
+   "threshold_pct": 2.38,
+   "price": 2.38,
+   "outcome": "Memphis Grizzlies",
+   "book": "SportsBet",
+   "matchup": "Memphis Grizzlies @ Minnesota Timberwolves",
+   "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
   }
  }
 ]
