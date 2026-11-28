@@ -2,7 +2,7 @@
  "books": {
   "betanysports": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 41
@@ -21,7 +21,7 @@
      "h2h": 88
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_italy_serie_a": {
      "h2h": 3
@@ -40,7 +40,7 @@
   },
   "betclic_fr": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_nfl": {
      "h2h": 15
@@ -55,7 +55,7 @@
      "h2h": 10
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -86,7 +86,7 @@
   },
   "betfair_ex_au": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 4,
@@ -109,8 +109,8 @@
      "h2h_lay": 127
     },
     "boxing_boxing": {
-     "h2h": 28,
-     "h2h_lay": 28
+     "h2h": 30,
+     "h2h_lay": 30
     },
     "cricket_international_t20": {
      "h2h": 22,
@@ -137,8 +137,8 @@
      "h2h_lay": 4
     },
     "soccer_epl": {
-     "h2h": 3,
-     "h2h_lay": 3
+     "h2h": 5,
+     "h2h_lay": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2,
@@ -177,7 +177,7 @@
   },
   "betfair_ex_eu": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 4,
@@ -200,8 +200,8 @@
      "h2h_lay": 121
     },
     "boxing_boxing": {
-     "h2h": 28,
-     "h2h_lay": 28
+     "h2h": 30,
+     "h2h_lay": 30
     },
     "cricket_international_t20": {
      "h2h": 22,
@@ -224,8 +224,8 @@
      "h2h_lay": 4
     },
     "soccer_epl": {
-     "h2h": 3,
-     "h2h_lay": 3
+     "h2h": 5,
+     "h2h_lay": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2,
@@ -276,7 +276,7 @@
   },
   "betonlineag": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 44
@@ -298,7 +298,7 @@
      "h2h": 282
     },
     "boxing_boxing": {
-     "h2h": 103
+     "h2h": 113
     },
     "cricket_international_t20": {
      "h2h": 22
@@ -307,7 +307,7 @@
      "h2h": 88
     },
     "mma_mixed_martial_arts": {
-     "h2h": 302
+     "h2h": 317
     },
     "soccer_australia_aleague": {
      "h2h": 11
@@ -319,7 +319,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -350,7 +350,7 @@
   },
   "betr_au": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 44
@@ -365,7 +365,7 @@
      "h2h": 301
     },
     "boxing_boxing": {
-     "h2h": 74
+     "h2h": 84
     },
     "cricket_international_t20": {
      "h2h": 22
@@ -386,7 +386,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -417,7 +417,7 @@
   },
   "betright": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 44
@@ -432,7 +432,7 @@
      "h2h": 306
     },
     "boxing_boxing": {
-     "h2h": 74
+     "h2h": 83
     },
     "cricket_international_t20": {
      "h2h": 22
@@ -450,7 +450,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -493,7 +493,7 @@
   },
   "betsson": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 44
@@ -515,7 +515,7 @@
      "h2h": 207
     },
     "boxing_boxing": {
-     "h2h": 99
+     "h2h": 109
     },
     "cricket_international_t20": {
      "h2h": 22
@@ -533,7 +533,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -600,7 +600,7 @@
   },
   "codere_it": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_nfl": {
      "h2h": 15
@@ -625,7 +625,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -656,7 +656,7 @@
   },
   "coolbet": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 44
@@ -682,7 +682,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -713,7 +713,7 @@
   },
   "dabble_au": {
    "first_seen": "2026-11-25T13:00:50.455301+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 44
@@ -729,7 +729,7 @@
      "totals": 219
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     }
    },
    "title": "Dabble AU"
@@ -748,7 +748,7 @@
   },
   "everygame": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 44
@@ -770,7 +770,7 @@
      "h2h": 88
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -813,7 +813,7 @@
   },
   "gtbets": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 33
@@ -850,7 +850,7 @@
      "h2h": 10
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -872,7 +872,7 @@
   },
   "ladbrokes_au": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 44
@@ -887,7 +887,7 @@
      "h2h": 219
     },
     "boxing_boxing": {
-     "h2h": 47
+     "h2h": 54
     },
     "cricket_international_t20": {
      "h2h": 22
@@ -908,7 +908,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -936,7 +936,7 @@
   },
   "leovegas_se": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 41
@@ -974,7 +974,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -1017,7 +1017,7 @@
   },
   "marathonbet": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 38
@@ -1048,7 +1048,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -1079,7 +1079,7 @@
   },
   "matchbook": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 38,
@@ -1120,8 +1120,8 @@
      "h2h_lay": 4
     },
     "soccer_epl": {
-     "h2h": 3,
-     "h2h_lay": 3
+     "h2h": 5,
+     "h2h_lay": 5
     },
     "soccer_germany_bundesliga": {
      "h2h": 6,
@@ -1156,7 +1156,7 @@
   },
   "mybookieag": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 44
@@ -1178,7 +1178,7 @@
      "h2h": 88
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_italy_serie_a": {
      "h2h": 3
@@ -1194,7 +1194,7 @@
   },
   "neds": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 44
@@ -1227,7 +1227,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -1258,7 +1258,7 @@
   },
   "nordicbet": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 36
@@ -1280,7 +1280,7 @@
      "h2h": 176
     },
     "boxing_boxing": {
-     "h2h": 99
+     "h2h": 109
     },
     "cricket_international_t20": {
      "h2h": 22
@@ -1301,7 +1301,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -1332,7 +1332,7 @@
   },
   "onexbet": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_nfl": {
      "spreads": 15,
@@ -1350,7 +1350,7 @@
      "h2h": 331
     },
     "boxing_boxing": {
-     "h2h": 118
+     "h2h": 128
     },
     "icehockey_nhl": {
      "h2h": 88
@@ -1362,7 +1362,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -1393,7 +1393,7 @@
   },
   "picklebet_au": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 44
@@ -1411,7 +1411,7 @@
      "h2h": 340
     },
     "boxing_boxing": {
-     "h2h": 91
+     "h2h": 100
     },
     "icehockey_nhl": {
      "h2h": 58
@@ -1426,7 +1426,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -1457,7 +1457,7 @@
   },
   "pinnacle": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 44
@@ -1479,7 +1479,7 @@
      "h2h": 235
     },
     "boxing_boxing": {
-     "h2h": 67
+     "h2h": 73
     },
     "cricket_international_t20": {
      "h2h": 11
@@ -1500,7 +1500,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -1531,7 +1531,7 @@
   },
   "playup": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 44
@@ -1562,7 +1562,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -1593,7 +1593,7 @@
   },
   "pmu_fr": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_nfl": {
      "h2h": 15,
@@ -1608,7 +1608,7 @@
      "totals": 219
     },
     "boxing_boxing": {
-     "h2h": 5
+     "h2h": 6
     },
     "soccer_australia_aleague": {
      "h2h": 11
@@ -1617,7 +1617,7 @@
      "h2h": 10
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -1648,7 +1648,7 @@
   },
   "pointsbetau": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 38
@@ -1688,7 +1688,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -1716,7 +1716,7 @@
   },
   "sport888": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_nfl": {
      "h2h": 15,
@@ -1750,7 +1750,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -1778,7 +1778,7 @@
   },
   "sportsbet": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 44
@@ -1800,7 +1800,7 @@
      "h2h": 341
     },
     "boxing_boxing": {
-     "h2h": 120
+     "h2h": 130
     },
     "cricket_international_t20": {
      "h2h": 22
@@ -1818,7 +1818,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -1849,7 +1849,7 @@
   },
   "swiftbet": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 44
@@ -1882,7 +1882,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -1913,7 +1913,7 @@
   },
   "tab": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 44
@@ -1953,7 +1953,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -1981,7 +1981,7 @@
   },
   "tabtouch": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_nfl": {
      "spreads": 15,
@@ -1999,7 +1999,7 @@
      "h2h": 301
     },
     "boxing_boxing": {
-     "h2h": 52
+     "h2h": 60
     },
     "cricket_international_t20": {
      "h2h": 22
@@ -2020,7 +2020,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -2051,7 +2051,7 @@
   },
   "tipico_de": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_nfl": {
      "h2h": 15,
@@ -2073,7 +2073,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -2095,7 +2095,7 @@
   },
   "unibet": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 41
@@ -2115,7 +2115,7 @@
      "h2h": 304
     },
     "boxing_boxing": {
-     "h2h": 52
+     "h2h": 60
     },
     "cricket_international_t20": {
      "h2h": 22
@@ -2127,7 +2127,7 @@
      "h2h": 84
     },
     "mma_mixed_martial_arts": {
-     "h2h": 286
+     "h2h": 304
     },
     "soccer_australia_aleague": {
      "h2h": 11
@@ -2139,7 +2139,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -2170,7 +2170,7 @@
   },
   "unibet_fr": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "basketball_euroleague": {
      "h2h": 12
@@ -2179,7 +2179,7 @@
      "h2h": 219
     },
     "boxing_boxing": {
-     "h2h": 25
+     "h2h": 26
     },
     "icehockey_nhl": {
      "h2h": 88
@@ -2191,7 +2191,7 @@
      "h2h": 10
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -2222,7 +2222,7 @@
   },
   "unibet_nl": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 41
@@ -2256,7 +2256,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -2287,7 +2287,7 @@
   },
   "unibet_se": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 44
@@ -2325,7 +2325,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -2356,7 +2356,7 @@
   },
   "williamhill": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 44
@@ -2388,7 +2388,7 @@
      "h2h": 4
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -2431,7 +2431,7 @@
   },
   "winamax_de": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "basketball_euroleague": {
      "h2h": 12
@@ -2440,7 +2440,7 @@
      "h2h": 217
     },
     "boxing_boxing": {
-     "h2h": 5
+     "h2h": 6
     },
     "icehockey_nhl": {
      "h2h": 88
@@ -2452,7 +2452,7 @@
      "h2h": 9
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -2483,7 +2483,7 @@
   },
   "winamax_fr": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T02:30:43.969875+00:00",
+   "last_seen": "2026-11-28T03:00:49.194891+00:00",
    "sports": {
     "basketball_euroleague": {
      "h2h": 12
@@ -2492,7 +2492,7 @@
      "h2h": 217
     },
     "boxing_boxing": {
-     "h2h": 44
+     "h2h": 45
     },
     "icehockey_nhl": {
      "h2h": 88
@@ -2504,7 +2504,7 @@
      "h2h": 10
     },
     "soccer_epl": {
-     "h2h": 3
+     "h2h": 5
     },
     "soccer_france_ligue_one": {
      "h2h": 2
@@ -2534,7 +2534,7 @@
    "title": "Winamax (FR)"
   }
  },
- "runs": 82,
+ "runs": 83,
  "since": "2026-11-25T11:30:38.821855+00:00",
  "slate": {
   "americanfootball_ncaaf": {
@@ -2562,8 +2562,8 @@
    "h2h_lay": 127
   },
   "boxing_boxing": {
-   "h2h": 129,
-   "h2h_lay": 28
+   "h2h": 140,
+   "h2h_lay": 30
   },
   "cricket_international_t20": {
    "h2h": 22,
@@ -2578,7 +2578,7 @@
    "h2h_lay": 88
   },
   "mma_mixed_martial_arts": {
-   "h2h": 302
+   "h2h": 323
   },
   "soccer_australia_aleague": {
    "h2h": 11,
@@ -2593,8 +2593,8 @@
    "h2h_lay": 4
   },
   "soccer_epl": {
-   "h2h": 3,
-   "h2h_lay": 3
+   "h2h": 5,
+   "h2h_lay": 5
   },
   "soccer_france_ligue_one": {
    "h2h": 2,
@@ -2629,5 +2629,5 @@
    "h2h_lay": 8
   }
  },
- "updated": "2026-11-28T02:30:43.969875+00:00"
+ "updated": "2026-11-28T03:00:49.194891+00:00"
 }
