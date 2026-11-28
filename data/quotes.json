@@ -419,14 +419,14 @@
       "Draw": 3.95
      },
      "pinnacle": {
-      "Auckland FC": 1.98,
-      "Central Coast Mariners": 3.7,
-      "Draw": 3.88
+      "Auckland FC": 1.99,
+      "Central Coast Mariners": 3.69,
+      "Draw": 3.87
      },
      "playup": {
-      "Auckland FC": 1.93,
+      "Auckland FC": 1.95,
       "Central Coast Mariners": 3.55,
-      "Draw": 3.75
+      "Draw": 3.65
      },
      "sportsbet": {
       "Auckland FC": 1.96,
@@ -439,7 +439,7 @@
     "start": "2026-11-28T08:40:00Z"
    }
   ],
-  "ts": "2026-11-28T06:00:57.729179+00:00"
+  "ts": "2026-11-28T06:30:40.734161+00:00"
  },
  "soccer_efl_champ": {
   "events": [
@@ -1141,7 +1141,7 @@
      "betfair_ex_au": {
       "1. FC K\u00f6ln": 2.08,
       "Draw": 3.85,
-      "Elversberg": 3.7
+      "Elversberg": 3.75
      },
      "pinnacle": {
       "1. FC K\u00f6ln": 2.05,
@@ -1167,24 +1167,24 @@
     "away": "Bayern Munich",
     "books": {
      "betfair_ex_au": {
-      "Bayern Munich": 1.33,
+      "Bayern Munich": 1.34,
       "Draw": 6.6,
-      "Hamburger SV": 9.6
+      "Hamburger SV": 9.2
      },
      "pinnacle": {
-      "Bayern Munich": 1.28,
-      "Draw": 6.71,
-      "Hamburger SV": 8.81
+      "Bayern Munich": 1.31,
+      "Draw": 6.41,
+      "Hamburger SV": 8.34
      },
      "playup": {
-      "Bayern Munich": 1.25,
-      "Draw": 6.0,
-      "Hamburger SV": 9.0
+      "Bayern Munich": 1.3,
+      "Draw": 5.5,
+      "Hamburger SV": 7.75
      },
      "sportsbet": {
-      "Bayern Munich": 1.28,
-      "Draw": 6.25,
-      "Hamburger SV": 8.75
+      "Bayern Munich": 1.3,
+      "Draw": 6.0,
+      "Hamburger SV": 8.25
      }
     },
     "home": "Hamburger SV",
@@ -1195,24 +1195,24 @@
     "away": "FC Schalke 04",
     "books": {
      "betfair_ex_au": {
-      "Draw": 3.55,
-      "FC Schalke 04": 2.88,
-      "SC Paderborn": 2.68
+      "Draw": 3.6,
+      "FC Schalke 04": 2.76,
+      "SC Paderborn": 2.72
      },
      "pinnacle": {
-      "Draw": 3.42,
-      "FC Schalke 04": 2.8,
-      "SC Paderborn": 2.63
+      "Draw": 3.57,
+      "FC Schalke 04": 2.68,
+      "SC Paderborn": 2.65
      },
      "playup": {
-      "Draw": 3.35,
-      "FC Schalke 04": 2.6,
-      "SC Paderborn": 2.5
+      "Draw": 3.4,
+      "FC Schalke 04": 2.55,
+      "SC Paderborn": 2.55
      },
      "sportsbet": {
-      "Draw": 3.4,
-      "FC Schalke 04": 2.75,
-      "SC Paderborn": 2.55
+      "Draw": 3.45,
+      "FC Schalke 04": 2.65,
+      "SC Paderborn": 2.6
      }
     },
     "home": "SC Paderborn",
@@ -1223,14 +1223,14 @@
     "away": "Union Berlin",
     "books": {
      "betfair_ex_au": {
-      "Draw": 4.9,
+      "Draw": 5.0,
       "FSV Mainz 05": 1.51,
       "Union Berlin": 7.0
      },
      "pinnacle": {
-      "Draw": 4.85,
+      "Draw": 4.83,
       "FSV Mainz 05": 1.49,
-      "Union Berlin": 6.4
+      "Union Berlin": 6.41
      },
      "playup": {
       "Draw": 4.6,
@@ -1238,17 +1238,45 @@
       "Union Berlin": 6.25
      },
      "sportsbet": {
-      "Draw": 4.5,
-      "FSV Mainz 05": 1.47,
+      "Draw": 4.6,
+      "FSV Mainz 05": 1.46,
       "Union Berlin": 6.5
      }
     },
     "home": "FSV Mainz 05",
     "lines": {},
     "start": "2026-11-28T14:30:00Z"
+   },
+   {
+    "away": "Eintracht Frankfurt",
+    "books": {
+     "betfair_ex_au": {
+      "Draw": 4.6,
+      "Eintracht Frankfurt": 3.95,
+      "VfB Stuttgart": 1.85
+     },
+     "pinnacle": {
+      "Draw": 4.7,
+      "Eintracht Frankfurt": 3.76,
+      "VfB Stuttgart": 1.81
+     },
+     "playup": {
+      "Draw": 4.25,
+      "Eintracht Frankfurt": 3.65,
+      "VfB Stuttgart": 1.75
+     },
+     "sportsbet": {
+      "Draw": 4.4,
+      "Eintracht Frankfurt": 3.75,
+      "VfB Stuttgart": 1.8
+     }
+    },
+    "home": "VfB Stuttgart",
+    "lines": {},
+    "start": "2026-11-28T17:30:00Z"
    }
   ],
-  "ts": "2026-11-28T02:30:43.972750+00:00"
+  "ts": "2026-11-28T06:30:40.734161+00:00"
  },
  "soccer_italy_serie_a": {
   "events": [

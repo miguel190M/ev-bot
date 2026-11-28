@@ -1233,5 +1233,24 @@
    "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-28T06:30:40.736196+00:00",
+  "markets": 6,
+  "markets_sharp": 6,
+  "outcomes": 54,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.023,
+   "ev_pct": -1.52,
+   "threshold_pct": 1.5,
+   "price": 1.34,
+   "outcome": "Bayern Munich",
+   "book": "Betfair",
+   "matchup": "Bayern Munich @ Hamburger SV",
+   "sport_key": "soccer_germany_bundesliga",
+   "anchor": "pinnacle"
+  }
  }
 ]
