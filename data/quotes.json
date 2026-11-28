@@ -732,6 +732,114 @@
   ],
   "ts": "2026-11-28T09:00:47.858608+00:00"
  },
+ "basketball_nba": {
+  "events": [
+   {
+    "away": "Orlando Magic",
+    "books": {
+     "betfair_ex_au": {
+      "Orlando Magic": 1.65,
+      "Washington Wizards": 2.44
+     },
+     "pinnacle": {
+      "Orlando Magic": 1.61,
+      "Washington Wizards": 2.44
+     },
+     "playup": {
+      "Orlando Magic": 1.57,
+      "Washington Wizards": 2.5
+     },
+     "sportsbet": {
+      "Orlando Magic": 1.56,
+      "Washington Wizards": 2.49
+     }
+    },
+    "home": "Washington Wizards",
+    "lines": {
+     "pinnacle": {
+      "spreads": [
+       [
+        "Orlando Magic",
+        -4.0,
+        1.99
+       ],
+       [
+        "Washington Wizards",
+        4.0,
+        1.9
+       ]
+      ],
+      "totals": [
+       [
+        "Over",
+        219.5,
+        1.93
+       ],
+       [
+        "Under",
+        219.5,
+        1.94
+       ]
+      ]
+     },
+     "playup": {
+      "spreads": [
+       [
+        "Orlando Magic",
+        -3.5,
+        1.86
+       ],
+       [
+        "Washington Wizards",
+        3.5,
+        1.94
+       ]
+      ],
+      "totals": [
+       [
+        "Over",
+        219.5,
+        1.92
+       ],
+       [
+        "Under",
+        219.5,
+        1.88
+       ]
+      ]
+     },
+     "sportsbet": {
+      "spreads": [
+       [
+        "Orlando Magic",
+        -3.5,
+        1.85
+       ],
+       [
+        "Washington Wizards",
+        3.5,
+        1.95
+       ]
+      ],
+      "totals": [
+       [
+        "Over",
+        218.5,
+        1.9
+       ],
+       [
+        "Under",
+        218.5,
+        1.9
+       ]
+      ]
+     }
+    },
+    "start": "2026-11-28T22:10:00Z"
+   }
+  ],
+  "ts": "2026-11-28T10:30:38.163102+00:00"
+ },
  "basketball_ncaab": {
   "events": [
    {
@@ -1564,8 +1672,8 @@
     "away": "England",
     "books": {
      "betfair_ex_au": {
-      "Australia": 2.36,
-      "England": 1.72
+      "Australia": 2.32,
+      "England": 1.74
      },
      "playup": {
       "Australia": 2.2,
@@ -1581,7 +1689,7 @@
     "start": "2026-11-29T08:15:00Z"
    }
   ],
-  "ts": "2026-11-28T09:30:42.165770+00:00"
+  "ts": "2026-11-28T10:30:38.163102+00:00"
  },
  "cricket_test_match": {
   "events": [
@@ -2473,9 +2581,9 @@
       "Elversberg": 3.75
      },
      "pinnacle": {
-      "1. FC K\u00f6ln": 2.05,
-      "Draw": 3.83,
-      "Elversberg": 3.53
+      "1. FC K\u00f6ln": 2.06,
+      "Draw": 3.85,
+      "Elversberg": 3.56
      },
      "playup": {
       "1. FC K\u00f6ln": 2.0,
@@ -2496,14 +2604,14 @@
     "away": "Bayern Munich",
     "books": {
      "betfair_ex_au": {
-      "Bayern Munich": 1.34,
-      "Draw": 6.6,
-      "Hamburger SV": 9.2
+      "Bayern Munich": 1.36,
+      "Draw": 6.4,
+      "Hamburger SV": 9.0
      },
      "pinnacle": {
-      "Bayern Munich": 1.31,
-      "Draw": 6.41,
-      "Hamburger SV": 8.34
+      "Bayern Munich": 1.36,
+      "Draw": 6.03,
+      "Hamburger SV": 7.91
      },
      "playup": {
       "Bayern Munich": 1.3,
@@ -2513,7 +2621,7 @@
      "sportsbet": {
       "Bayern Munich": 1.3,
       "Draw": 6.0,
-      "Hamburger SV": 8.25
+      "Hamburger SV": 8.5
      }
     },
     "home": "Hamburger SV",
@@ -2524,24 +2632,24 @@
     "away": "FC Schalke 04",
     "books": {
      "betfair_ex_au": {
-      "Draw": 3.6,
-      "FC Schalke 04": 2.76,
-      "SC Paderborn": 2.72
+      "Draw": 3.55,
+      "FC Schalke 04": 2.74,
+      "SC Paderborn": 2.78
      },
      "pinnacle": {
-      "Draw": 3.57,
-      "FC Schalke 04": 2.68,
-      "SC Paderborn": 2.65
+      "Draw": 3.5,
+      "FC Schalke 04": 2.74,
+      "SC Paderborn": 2.68
      },
      "playup": {
-      "Draw": 3.4,
+      "Draw": 3.35,
       "FC Schalke 04": 2.55,
       "SC Paderborn": 2.55
      },
      "sportsbet": {
       "Draw": 3.45,
       "FC Schalke 04": 2.65,
-      "SC Paderborn": 2.6
+      "SC Paderborn": 2.65
      }
     },
     "home": "SC Paderborn",
@@ -2557,19 +2665,19 @@
       "Union Berlin": 7.0
      },
      "pinnacle": {
-      "Draw": 4.83,
+      "Draw": 4.93,
       "FSV Mainz 05": 1.49,
-      "Union Berlin": 6.41
+      "Union Berlin": 6.36
      },
      "playup": {
       "Draw": 4.6,
       "FSV Mainz 05": 1.42,
-      "Union Berlin": 6.25
+      "Union Berlin": 6.0
      },
      "sportsbet": {
-      "Draw": 4.6,
+      "Draw": 4.8,
       "FSV Mainz 05": 1.46,
-      "Union Berlin": 6.5
+      "Union Berlin": 6.25
      }
     },
     "home": "FSV Mainz 05",
@@ -2581,13 +2689,13 @@
     "books": {
      "betfair_ex_au": {
       "Draw": 4.6,
-      "Eintracht Frankfurt": 3.95,
-      "VfB Stuttgart": 1.85
+      "Eintracht Frankfurt": 4.0,
+      "VfB Stuttgart": 1.84
      },
      "pinnacle": {
-      "Draw": 4.7,
-      "Eintracht Frankfurt": 3.76,
-      "VfB Stuttgart": 1.81
+      "Draw": 4.51,
+      "Eintracht Frankfurt": 3.81,
+      "VfB Stuttgart": 1.83
      },
      "playup": {
       "Draw": 4.25,
@@ -2605,7 +2713,7 @@
     "start": "2026-11-28T17:30:00Z"
    }
   ],
-  "ts": "2026-11-28T06:30:40.734161+00:00"
+  "ts": "2026-11-28T10:30:38.163102+00:00"
  },
  "soccer_italy_serie_a": {
   "events": [

@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-26T10:00:55.174091+00:00",
-  "markets": 37,
-  "markets_sharp": 34,
-  "outcomes": 231,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.127,
-   "ev_pct": -0.63,
-   "threshold_pct": 1.5,
-   "price": 1.28,
-   "outcome": "Texas Longhorns",
-   "book": "Betfair",
-   "matchup": "Georgetown Hoyas @ Texas Longhorns",
-   "sport_key": "basketball_ncaab",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-26T10:30:39.091873+00:00",
   "markets": 2,
   "markets_sharp": 0,
@@ -1269,6 +1250,25 @@
    "book": "SportsBet",
    "matchup": "Kolbeinn Kristinsson @ Granit Shala",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-28T10:30:38.166352+00:00",
+  "markets": 9,
+  "markets_sharp": 7,
+  "outcomes": 65,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -3.91,
+   "ev_pct": -1.41,
+   "threshold_pct": 2.5,
+   "price": 2.5,
+   "outcome": "Washington Wizards",
+   "book": "NextBet",
+   "matchup": "Orlando Magic @ Washington Wizards",
+   "sport_key": "basketball_nba",
    "anchor": "pinnacle"
   }
  }
