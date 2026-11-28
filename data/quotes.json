@@ -244,8 +244,8 @@
     "away": "Max Schultz",
     "books": {
      "pinnacle": {
-      "Max Schultz": 1.31,
-      "Ozan Karadogan": 3.54
+      "Max Schultz": 1.3,
+      "Ozan Karadogan": 3.62
      },
      "sportsbet": {
       "Draw": 18.0,
@@ -291,7 +291,7 @@
     "away": "Artur Mann",
     "books": {
      "betfair_ex_au": {
-      "Aloys Youmbi": 1.06,
+      "Aloys Youmbi": 1.05,
       "Artur Mann": 11.0,
       "Draw": 9.0
      },
@@ -369,13 +369,13 @@
     "away": "Nelson Hysa",
     "books": {
      "betfair_ex_au": {
-      "Agit Kabayel": 1.11,
+      "Agit Kabayel": 1.12,
       "Draw": 25.0,
       "Nelson Hysa": 8.2
      },
      "pinnacle": {
-      "Agit Kabayel": 1.1,
-      "Nelson Hysa": 7.53
+      "Agit Kabayel": 1.08,
+      "Nelson Hysa": 8.43
      },
      "sportsbet": {
       "Agit Kabayel": 1.09,
@@ -388,7 +388,25 @@
     "start": "2026-11-28T22:00:00Z"
    }
   ],
-  "ts": "2026-11-28T05:00:48.497725+00:00"
+  "ts": "2026-11-28T06:00:57.729179+00:00"
+ },
+ "cricket_test_match": {
+  "events": [
+   {
+    "away": "India",
+    "books": {
+     "betfair_ex_au": {
+      "Draw": 2.42,
+      "India": 14.0,
+      "New Zealand": 1.91
+     }
+    },
+    "home": "New Zealand",
+    "lines": {},
+    "start": "2026-11-28T22:00:00Z"
+   }
+  ],
+  "ts": "2026-11-28T06:00:57.729179+00:00"
  },
  "soccer_australia_aleague": {
   "events": [
@@ -396,19 +414,19 @@
     "away": "Auckland FC",
     "books": {
      "betfair_ex_au": {
-      "Auckland FC": 2.06,
-      "Central Coast Mariners": 3.85,
-      "Draw": 3.85
+      "Auckland FC": 2.02,
+      "Central Coast Mariners": 3.8,
+      "Draw": 3.95
      },
      "pinnacle": {
-      "Auckland FC": 1.99,
-      "Central Coast Mariners": 3.72,
-      "Draw": 3.83
+      "Auckland FC": 1.98,
+      "Central Coast Mariners": 3.7,
+      "Draw": 3.88
      },
      "playup": {
       "Auckland FC": 1.93,
-      "Central Coast Mariners": 3.6,
-      "Draw": 3.7
+      "Central Coast Mariners": 3.55,
+      "Draw": 3.75
      },
      "sportsbet": {
       "Auckland FC": 1.96,
@@ -421,7 +439,7 @@
     "start": "2026-11-28T08:40:00Z"
    }
   ],
-  "ts": "2026-11-28T05:00:48.497725+00:00"
+  "ts": "2026-11-28T06:00:57.729179+00:00"
  },
  "soccer_efl_champ": {
   "events": [
@@ -1238,19 +1256,19 @@
     "away": "Parma",
     "books": {
      "betfair_ex_au": {
-      "Draw": 5.1,
-      "Frosinone": 1.53,
-      "Parma": 6.2
+      "Draw": 5.2,
+      "Frosinone": 1.51,
+      "Parma": 6.4
      },
      "pinnacle": {
-      "Draw": 5.15,
-      "Frosinone": 1.5,
-      "Parma": 5.7
+      "Draw": 5.05,
+      "Frosinone": 1.49,
+      "Parma": 6.02
      },
      "playup": {
       "Draw": 4.85,
-      "Frosinone": 1.42,
-      "Parma": 5.75
+      "Frosinone": 1.45,
+      "Parma": 5.25
      },
      "sportsbet": {
       "Draw": 4.9,
@@ -1261,9 +1279,37 @@
     "home": "Frosinone",
     "lines": {},
     "start": "2026-11-28T14:00:00Z"
+   },
+   {
+    "away": "Lazio",
+    "books": {
+     "betfair_ex_au": {
+      "Draw": 3.5,
+      "Lazio": 2.24,
+      "Torino": 3.7
+     },
+     "pinnacle": {
+      "Draw": 3.4,
+      "Lazio": 2.2,
+      "Torino": 3.55
+     },
+     "playup": {
+      "Draw": 3.35,
+      "Lazio": 2.08,
+      "Torino": 3.3
+     },
+     "sportsbet": {
+      "Draw": 3.35,
+      "Lazio": 2.15,
+      "Torino": 3.45
+     }
+    },
+    "home": "Torino",
+    "lines": {},
+    "start": "2026-11-28T17:00:00Z"
    }
   ],
-  "ts": "2026-11-28T02:00:45.117610+00:00"
+  "ts": "2026-11-28T06:00:57.729179+00:00"
  },
  "soccer_netherlands_eredivisie": {
   "events": [
