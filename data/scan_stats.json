@@ -1233,5 +1233,24 @@
    "sport_key": "soccer_england_league1",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-28T05:00:48.499706+00:00",
+  "markets": 25,
+  "markets_sharp": 18,
+  "outcomes": 103,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 5.357,
+   "ev_pct": 6.86,
+   "threshold_pct": 1.5,
+   "price": 1.43,
+   "outcome": "Granit Shala",
+   "book": "SportsBet",
+   "matchup": "Kolbeinn Kristinsson @ Granit Shala",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
