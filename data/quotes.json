@@ -414,19 +414,19 @@
     "away": "Auckland FC",
     "books": {
      "betfair_ex_au": {
-      "Auckland FC": 2.02,
-      "Central Coast Mariners": 3.8,
+      "Auckland FC": 2.12,
+      "Central Coast Mariners": 3.5,
       "Draw": 3.95
      },
      "pinnacle": {
-      "Auckland FC": 1.99,
-      "Central Coast Mariners": 3.69,
-      "Draw": 3.89
+      "Auckland FC": 2.06,
+      "Central Coast Mariners": 3.56,
+      "Draw": 3.76
      },
      "playup": {
-      "Auckland FC": 1.93,
-      "Central Coast Mariners": 3.55,
-      "Draw": 3.75
+      "Auckland FC": 2.02,
+      "Central Coast Mariners": 3.35,
+      "Draw": 3.65
      },
      "sportsbet": {
       "Auckland FC": 1.96,
@@ -439,7 +439,7 @@
     "start": "2026-11-28T08:40:00Z"
    }
   ],
-  "ts": "2026-11-28T07:00:47.512706+00:00"
+  "ts": "2026-11-28T07:30:40.169946+00:00"
  },
  "soccer_efl_champ": {
   "events": [
@@ -1373,32 +1373,60 @@
     "away": "SC Telstar",
     "books": {
      "betfair_ex_au": {
-      "Draw": 3.8,
-      "Excelsior": 2.08,
-      "SC Telstar": 3.75
+      "Draw": 3.6,
+      "Excelsior": 2.16,
+      "SC Telstar": 3.7
      },
      "pinnacle": {
-      "Draw": 3.68,
-      "Excelsior": 2.03,
-      "SC Telstar": 3.66
+      "Draw": 3.51,
+      "Excelsior": 2.13,
+      "SC Telstar": 3.62
      },
      "playup": {
-      "Draw": 3.5,
-      "Excelsior": 1.98,
-      "SC Telstar": 3.4
+      "Draw": 3.4,
+      "Excelsior": 2.08,
+      "SC Telstar": 3.25
      },
      "sportsbet": {
-      "Draw": 3.6,
-      "Excelsior": 2.0,
-      "SC Telstar": 3.45
+      "Draw": 3.4,
+      "Excelsior": 2.08,
+      "SC Telstar": 3.4
      }
     },
     "home": "Excelsior",
     "lines": {},
     "start": "2026-11-28T15:30:00Z"
+   },
+   {
+    "away": "Go Ahead Eagles",
+    "books": {
+     "betfair_ex_au": {
+      "Draw": 7.8,
+      "Go Ahead Eagles": 12.5,
+      "PSV Eindhoven": 1.25
+     },
+     "pinnacle": {
+      "Draw": 7.87,
+      "Go Ahead Eagles": 10.14,
+      "PSV Eindhoven": 1.23
+     },
+     "playup": {
+      "Draw": 7.0,
+      "Go Ahead Eagles": 10.0,
+      "PSV Eindhoven": 1.2
+     },
+     "sportsbet": {
+      "Draw": 7.25,
+      "Go Ahead Eagles": 10.5,
+      "PSV Eindhoven": 1.19
+     }
+    },
+    "home": "PSV Eindhoven",
+    "lines": {},
+    "start": "2026-11-28T17:45:00Z"
    }
   ],
-  "ts": "2026-11-28T03:30:39.095600+00:00"
+  "ts": "2026-11-28T07:30:40.169946+00:00"
  },
  "soccer_spain_la_liga": {
   "events": [
