@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-26T10:30:39.091873+00:00",
-  "markets": 2,
-  "markets_sharp": 0,
-  "outcomes": 12,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -5.881,
-   "ev_pct": -2.56,
-   "threshold_pct": 3.32,
-   "price": 2.16,
-   "outcome": "Australia",
-   "book": "Betfair",
-   "matchup": "England @ Australia",
-   "sport_key": "cricket_international_t20",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-26T11:00:52.644245+00:00",
   "markets": 1,
   "markets_sharp": 1,
@@ -1269,6 +1250,25 @@
    "book": "NextBet",
    "matchup": "Orlando Magic @ Washington Wizards",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-28T11:00:50.945978+00:00",
+  "markets": 31,
+  "markets_sharp": 26,
+  "outcomes": 210,
+  "capped": 1,
+  "flagged": 0,
+  "best": {
+   "gap": 7.336,
+   "ev_pct": 8.84,
+   "threshold_pct": 1.5,
+   "price": 1.43,
+   "outcome": "Granit Shala",
+   "book": "SportsBet",
+   "matchup": "Kolbeinn Kristinsson @ Granit Shala",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }

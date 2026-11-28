@@ -131,5 +131,24 @@
   "seen": 3,
   "sharp_odds": null,
   "sport_key": "basketball_ncaab"
+ },
+ "boxing_boxing|Max Schultz @ Ozan Karadogan|h2h|Ozan Karadogan|SportsBet": {
+  "alerted": false,
+  "anchor": "pinnacle",
+  "book": "SportsBet",
+  "commence_time": "2026-11-28T15:00:00Z",
+  "consensus_odds": 4.124,
+  "ev_pct": 24.0,
+  "fair_odds": 3.87,
+  "first_seen": "2026-11-28T11:00:50.876282+00:00",
+  "last_seen": "2026-11-28T11:00:50.876282+00:00",
+  "market": "h2h",
+  "matchup": "Max Schultz @ Ozan Karadogan",
+  "max_ev_pct": 24.0,
+  "outcome": "Ozan Karadogan",
+  "price": 4.8,
+  "seen": 1,
+  "sharp_odds": 3.87,
+  "sport_key": "boxing_boxing"
  }
 }
