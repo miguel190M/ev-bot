@@ -370,8 +370,8 @@
     "books": {
      "betfair_ex_au": {
       "Agit Kabayel": 1.12,
-      "Draw": 25.0,
-      "Nelson Hysa": 8.2
+      "Draw": 34.0,
+      "Nelson Hysa": 9.0
      },
      "pinnacle": {
       "Agit Kabayel": 1.08,
@@ -388,7 +388,7 @@
     "start": "2026-11-28T22:00:00Z"
    }
   ],
-  "ts": "2026-11-28T06:00:57.729179+00:00"
+  "ts": "2026-11-28T07:00:47.512706+00:00"
  },
  "cricket_test_match": {
   "events": [
@@ -396,9 +396,9 @@
     "away": "India",
     "books": {
      "betfair_ex_au": {
-      "Draw": 2.42,
-      "India": 14.0,
-      "New Zealand": 1.91
+      "Draw": 2.58,
+      "India": 14.5,
+      "New Zealand": 1.82
      }
     },
     "home": "New Zealand",
@@ -406,7 +406,7 @@
     "start": "2026-11-28T22:00:00Z"
    }
   ],
-  "ts": "2026-11-28T06:00:57.729179+00:00"
+  "ts": "2026-11-28T07:00:47.512706+00:00"
  },
  "soccer_australia_aleague": {
   "events": [
@@ -421,12 +421,12 @@
      "pinnacle": {
       "Auckland FC": 1.99,
       "Central Coast Mariners": 3.69,
-      "Draw": 3.87
+      "Draw": 3.89
      },
      "playup": {
-      "Auckland FC": 1.95,
+      "Auckland FC": 1.93,
       "Central Coast Mariners": 3.55,
-      "Draw": 3.65
+      "Draw": 3.75
      },
      "sportsbet": {
       "Auckland FC": 1.96,
@@ -439,7 +439,7 @@
     "start": "2026-11-28T08:40:00Z"
    }
   ],
-  "ts": "2026-11-28T06:30:40.734161+00:00"
+  "ts": "2026-11-28T07:00:47.512706+00:00"
  },
  "soccer_efl_champ": {
   "events": [
@@ -1045,24 +1045,24 @@
     "away": "Brentford",
     "books": {
      "betfair_ex_au": {
-      "Brentford": 3.15,
-      "Draw": 3.9,
-      "Manchester United": 2.32
+      "Brentford": 3.05,
+      "Draw": 3.85,
+      "Manchester United": 2.38
      },
      "pinnacle": {
-      "Brentford": 3.01,
-      "Draw": 3.82,
-      "Manchester United": 2.29
+      "Brentford": 2.96,
+      "Draw": 3.74,
+      "Manchester United": 2.35
      },
      "playup": {
-      "Brentford": 3.0,
-      "Draw": 3.7,
-      "Manchester United": 2.15
+      "Brentford": 2.8,
+      "Draw": 3.65,
+      "Manchester United": 2.28
      },
      "sportsbet": {
-      "Brentford": 3.0,
-      "Draw": 3.7,
-      "Manchester United": 2.2
+      "Brentford": 2.95,
+      "Draw": 3.6,
+      "Manchester United": 2.25
      }
     },
     "home": "Manchester United",
@@ -1073,32 +1073,60 @@
     "away": "Coventry City",
     "books": {
      "betfair_ex_au": {
-      "Coventry City": 7.0,
-      "Draw": 4.6,
-      "Leeds United": 1.54
+      "Coventry City": 7.2,
+      "Draw": 4.8,
+      "Leeds United": 1.52
      },
      "pinnacle": {
-      "Coventry City": 6.47,
-      "Draw": 4.61,
-      "Leeds United": 1.51
+      "Coventry City": 6.66,
+      "Draw": 4.59,
+      "Leeds United": 1.5
      },
      "playup": {
-      "Coventry City": 6.0,
-      "Draw": 4.4,
-      "Leeds United": 1.48
+      "Coventry City": 6.5,
+      "Draw": 4.5,
+      "Leeds United": 1.45
      },
      "sportsbet": {
-      "Coventry City": 6.25,
-      "Draw": 4.6,
-      "Leeds United": 1.48
+      "Coventry City": 6.75,
+      "Draw": 4.4,
+      "Leeds United": 1.47
      }
     },
     "home": "Leeds United",
     "lines": {},
     "start": "2026-11-28T15:00:00Z"
+   },
+   {
+    "away": "Aston Villa",
+    "books": {
+     "betfair_ex_au": {
+      "Aston Villa": 2.08,
+      "Draw": 3.9,
+      "Ipswich Town": 3.7
+     },
+     "pinnacle": {
+      "Aston Villa": 2.06,
+      "Draw": 3.78,
+      "Ipswich Town": 3.55
+     },
+     "playup": {
+      "Aston Villa": 2.0,
+      "Draw": 3.7,
+      "Ipswich Town": 3.35
+     },
+     "sportsbet": {
+      "Aston Villa": 2.02,
+      "Draw": 3.75,
+      "Ipswich Town": 3.45
+     }
+    },
+    "home": "Ipswich Town",
+    "lines": {},
+    "start": "2026-11-28T17:30:00Z"
    }
   ],
-  "ts": "2026-11-28T03:00:49.197007+00:00"
+  "ts": "2026-11-28T07:00:47.512706+00:00"
  },
  "soccer_france_ligue_one": {
   "events": [
