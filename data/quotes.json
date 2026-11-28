@@ -31,323 +31,14 @@
  "basketball_nba": {
   "events": [
    {
-    "away": "Brooklyn Nets",
-    "books": {
-     "betfair_ex_au": {
-      "Brooklyn Nets": 4.0,
-      "Toronto Raptors": 1.31
-     },
-     "pinnacle": {
-      "Brooklyn Nets": 3.98,
-      "Toronto Raptors": 1.29
-     },
-     "playup": {
-      "Brooklyn Nets": 4.0,
-      "Toronto Raptors": 1.25
-     },
-     "sportsbet": {
-      "Brooklyn Nets": 3.85,
-      "Toronto Raptors": 1.28
-     }
-    },
-    "home": "Toronto Raptors",
-    "lines": {
-     "pinnacle": {
-      "spreads": [
-       [
-        "Brooklyn Nets",
-        9.5,
-        1.93
-       ],
-       [
-        "Toronto Raptors",
-        -9.5,
-        1.98
-       ]
-      ],
-      "totals": [
-       [
-        "Over",
-        218.5,
-        1.99
-       ],
-       [
-        "Under",
-        218.5,
-        1.9
-       ]
-      ]
-     },
-     "playup": {
-      "spreads": [
-       [
-        "Brooklyn Nets",
-        9.5,
-        1.9
-       ],
-       [
-        "Toronto Raptors",
-        -9.5,
-        1.9
-       ]
-      ],
-      "totals": [
-       [
-        "Over",
-        218.5,
-        1.9
-       ],
-       [
-        "Under",
-        218.5,
-        1.91
-       ]
-      ]
-     },
-     "sportsbet": {
-      "spreads": [
-       [
-        "Brooklyn Nets",
-        9.5,
-        1.88
-       ],
-       [
-        "Toronto Raptors",
-        -9.5,
-        1.92
-       ]
-      ],
-      "totals": [
-       [
-        "Over",
-        218.5,
-        1.94
-       ],
-       [
-        "Under",
-        218.5,
-        1.86
-       ]
-      ]
-     }
-    },
-    "start": "2026-11-28T00:40:00Z"
-   },
-   {
-    "away": "Milwaukee Bucks",
-    "books": {
-     "betfair_ex_au": {
-      "Detroit Pistons": 1.27,
-      "Milwaukee Bucks": 4.5
-     },
-     "pinnacle": {
-      "Detroit Pistons": 1.26,
-      "Milwaukee Bucks": 4.39
-     },
-     "playup": {
-      "Detroit Pistons": 1.2,
-      "Milwaukee Bucks": 4.4
-     },
-     "sportsbet": {
-      "Detroit Pistons": 1.22,
-      "Milwaukee Bucks": 4.5
-     }
-    },
-    "home": "Detroit Pistons",
-    "lines": {
-     "pinnacle": {
-      "spreads": [
-       [
-        "Detroit Pistons",
-        -10.0,
-        1.99
-       ],
-       [
-        "Milwaukee Bucks",
-        10.0,
-        1.92
-       ]
-      ],
-      "totals": [
-       [
-        "Over",
-        219.0,
-        1.97
-       ],
-       [
-        "Under",
-        219.0,
-        1.92
-       ]
-      ]
-     },
-     "playup": {
-      "spreads": [
-       [
-        "Detroit Pistons",
-        -9.5,
-        1.87
-       ],
-       [
-        "Milwaukee Bucks",
-        9.5,
-        1.95
-       ]
-      ],
-      "totals": [
-       [
-        "Over",
-        219.5,
-        1.9
-       ],
-       [
-        "Under",
-        219.5,
-        1.88
-       ]
-      ]
-     },
-     "sportsbet": {
-      "spreads": [
-       [
-        "Detroit Pistons",
-        -10.5,
-        1.96
-       ],
-       [
-        "Milwaukee Bucks",
-        10.5,
-        1.84
-       ]
-      ],
-      "totals": [
-       [
-        "Over",
-        219.5,
-        1.97
-       ],
-       [
-        "Under",
-        219.5,
-        1.84
-       ]
-      ]
-     }
-    },
-    "start": "2026-11-28T00:40:00Z"
-   },
-   {
-    "away": "Philadelphia 76ers",
-    "books": {
-     "betfair_ex_au": {
-      "Indiana Pacers": 2.62,
-      "Philadelphia 76ers": 1.6
-     },
-     "pinnacle": {
-      "Indiana Pacers": 2.52,
-      "Philadelphia 76ers": 1.59
-     },
-     "playup": {
-      "Indiana Pacers": 2.5,
-      "Philadelphia 76ers": 1.53
-     },
-     "sportsbet": {
-      "Indiana Pacers": 2.55,
-      "Philadelphia 76ers": 1.54
-     }
-    },
-    "home": "Indiana Pacers",
-    "lines": {
-     "pinnacle": {
-      "spreads": [
-       [
-        "Indiana Pacers",
-        3.5,
-        1.98
-       ],
-       [
-        "Philadelphia 76ers",
-        -3.5,
-        1.93
-       ]
-      ],
-      "totals": [
-       [
-        "Over",
-        229.5,
-        1.93
-       ],
-       [
-        "Under",
-        229.5,
-        1.95
-       ]
-      ]
-     },
-     "playup": {
-      "spreads": [
-       [
-        "Indiana Pacers",
-        3.5,
-        1.98
-       ],
-       [
-        "Philadelphia 76ers",
-        -3.5,
-        1.83
-       ]
-      ],
-      "totals": [
-       [
-        "Over",
-        230.5,
-        1.91
-       ],
-       [
-        "Under",
-        230.5,
-        1.9
-       ]
-      ]
-     },
-     "sportsbet": {
-      "spreads": [
-       [
-        "Indiana Pacers",
-        4.5,
-        1.85
-       ],
-       [
-        "Philadelphia 76ers",
-        -4.5,
-        1.95
-       ]
-      ],
-      "totals": [
-       [
-        "Over",
-        230.5,
-        1.95
-       ],
-       [
-        "Under",
-        230.5,
-        1.86
-       ]
-      ]
-     }
-    },
-    "start": "2026-11-28T00:40:00Z"
-   },
-   {
     "away": "Atlanta Hawks",
     "books": {
      "betfair_ex_au": {
-      "Atlanta Hawks": 4.2,
-      "Boston Celtics": 1.29
+      "Atlanta Hawks": 4.1,
+      "Boston Celtics": 1.3
      },
      "pinnacle": {
-      "Atlanta Hawks": 4.09,
+      "Atlanta Hawks": 4.08,
       "Boston Celtics": 1.28
      },
      "playup": {
@@ -355,8 +46,8 @@
       "Boston Celtics": 1.26
      },
      "sportsbet": {
-      "Atlanta Hawks": 3.95,
-      "Boston Celtics": 1.27
+      "Atlanta Hawks": 4.05,
+      "Boston Celtics": 1.26
      }
     },
     "home": "Boston Celtics",
@@ -377,13 +68,13 @@
       "totals": [
        [
         "Over",
-        224.5,
-        1.91
+        225.5,
+        1.93
        ],
        [
         "Under",
-        224.5,
-        1.98
+        225.5,
+        1.96
        ]
       ]
      },
@@ -403,13 +94,13 @@
       "totals": [
        [
         "Over",
-        224.5,
-        1.87
+        225.5,
+        1.9
        ],
        [
         "Under",
-        224.5,
-        1.95
+        225.5,
+        1.87
        ]
       ]
      },
@@ -430,12 +121,12 @@
        [
         "Over",
         225.5,
-        1.95
+        1.93
        ],
        [
         "Under",
         225.5,
-        1.86
+        1.87
        ]
       ]
      }
@@ -458,8 +149,8 @@
       "Minnesota Timberwolves": 1.63
      },
      "sportsbet": {
-      "Memphis Grizzlies": 2.38,
-      "Minnesota Timberwolves": 1.61
+      "Memphis Grizzlies": 2.29,
+      "Minnesota Timberwolves": 1.65
      }
     },
     "home": "Minnesota Timberwolves",
@@ -481,12 +172,12 @@
        [
         "Over",
         220.5,
-        1.93
+        2.01
        ],
        [
         "Under",
         220.5,
-        1.95
+        1.88
        ]
       ]
      },
@@ -521,24 +212,24 @@
        [
         "Memphis Grizzlies",
         2.5,
-        1.96
+        1.9
        ],
        [
         "Minnesota Timberwolves",
         -2.5,
-        1.85
+        1.9
        ]
       ],
       "totals": [
        [
         "Over",
         219.5,
-        1.89
+        1.9
        ],
        [
         "Under",
         219.5,
-        1.91
+        1.9
        ]
       ]
      }
@@ -549,20 +240,20 @@
     "away": "Dallas Mavericks",
     "books": {
      "betfair_ex_au": {
-      "Dallas Mavericks": 2.48,
-      "Phoenix Suns": 1.66
+      "Dallas Mavericks": 2.52,
+      "Phoenix Suns": 1.64
      },
      "pinnacle": {
-      "Dallas Mavericks": 2.41,
-      "Phoenix Suns": 1.62
+      "Dallas Mavericks": 2.46,
+      "Phoenix Suns": 1.63
      },
      "playup": {
       "Dallas Mavericks": 2.4,
-      "Phoenix Suns": 1.6
+      "Phoenix Suns": 1.57
      },
      "sportsbet": {
-      "Dallas Mavericks": 2.4,
-      "Phoenix Suns": 1.6
+      "Dallas Mavericks": 2.37,
+      "Phoenix Suns": 1.62
      }
     },
     "home": "Phoenix Suns",
@@ -572,12 +263,12 @@
        [
         "Dallas Mavericks",
         4.0,
-        1.91
+        1.95
        ],
        [
         "Phoenix Suns",
         -4.0,
-        1.98
+        1.95
        ]
       ],
       "totals": [
@@ -589,7 +280,7 @@
        [
         "Under",
         226.0,
-        1.89
+        1.91
        ]
       ]
      },
@@ -657,7 +348,7 @@
      },
      "pinnacle": {
       "Denver Nuggets": 1.26,
-      "Utah Jazz": 4.38
+      "Utah Jazz": 4.37
      },
      "playup": {
       "Denver Nuggets": 1.23,
@@ -687,7 +378,7 @@
        [
         "Over",
         232.5,
-        1.96
+        1.95
        ],
        [
         "Under",
@@ -759,7 +450,7 @@
       "Portland Trail Blazers": 1.34
      },
      "pinnacle": {
-      "Golden State Warriors": 3.72,
+      "Golden State Warriors": 3.77,
       "Portland Trail Blazers": 1.3
      },
      "playup": {
@@ -778,12 +469,12 @@
        [
         "Golden State Warriors",
         8.5,
-        1.93
+        1.96
        ],
        [
         "Portland Trail Blazers",
         -8.5,
-        1.95
+        1.93
        ]
       ],
       "totals": [
@@ -795,7 +486,7 @@
        [
         "Under",
         216.5,
-        1.93
+        1.94
        ]
       ]
      },
@@ -858,7 +549,7 @@
     "away": "New Orleans Pelicans",
     "books": {
      "betfair_ex_au": {
-      "Los Angeles Clippers": 1.81,
+      "Los Angeles Clippers": 1.82,
       "New Orleans Pelicans": 2.2
      },
      "pinnacle": {
@@ -961,7 +652,7 @@
     "away": "Los Angeles Lakers",
     "books": {
      "betfair_ex_au": {
-      "Los Angeles Lakers": 2.86,
+      "Los Angeles Lakers": 2.88,
       "San Antonio Spurs": 1.52
      },
      "pinnacle": {
@@ -973,8 +664,8 @@
       "San Antonio Spurs": 1.45
      },
      "sportsbet": {
-      "Los Angeles Lakers": 2.77,
-      "San Antonio Spurs": 1.47
+      "Los Angeles Lakers": 2.9,
+      "San Antonio Spurs": 1.44
      }
     },
     "home": "San Antonio Spurs",
@@ -996,12 +687,12 @@
        [
         "Over",
         226.0,
-        1.98
+        1.92
        ],
        [
         "Under",
         226.0,
-        1.89
+        1.95
        ]
       ]
      },
@@ -1036,24 +727,24 @@
        [
         "Los Angeles Lakers",
         6.5,
-        1.86
+        1.92
        ],
        [
         "San Antonio Spurs",
         -6.5,
-        1.94
+        1.88
        ]
       ],
       "totals": [
        [
         "Over",
-        225.5,
-        1.85
+        226.5,
+        1.9
        ],
        [
         "Under",
-        225.5,
-        1.96
+        226.5,
+        1.9
        ]
       ]
      }
@@ -1061,94 +752,10 @@
     "start": "2026-11-28T02:40:00Z"
    }
   ],
-  "ts": "2026-11-28T00:30:43.211567+00:00"
+  "ts": "2026-11-28T01:00:45.403186+00:00"
  },
  "basketball_ncaab": {
   "events": [
-   {
-    "away": "Idaho Vandals",
-    "books": {
-     "pinnacle": {
-      "Idaho Vandals": 6.82,
-      "Washington St Cougars": 1.12
-     },
-     "sportsbet": {
-      "Idaho Vandals": 6.0,
-      "Washington St Cougars": 1.11
-     }
-    },
-    "home": "Washington St Cougars",
-    "lines": {},
-    "start": "2026-11-28T01:00:00Z"
-   },
-   {
-    "away": "Missouri St Bears",
-    "books": {
-     "pinnacle": {
-      "Missouri St Bears": 2.59,
-      "Oral Roberts Golden Eagles": 1.53
-     },
-     "sportsbet": {
-      "Missouri St Bears": 2.53,
-      "Oral Roberts Golden Eagles": 1.48
-     }
-    },
-    "home": "Oral Roberts Golden Eagles",
-    "lines": {},
-    "start": "2026-11-28T01:00:00Z"
-   },
-   {
-    "away": "North Texas Mean Green",
-    "books": {
-     "betfair_ex_au": {
-      "North Dakota St Bison": 3.15,
-      "North Texas Mean Green": 1.42
-     },
-     "pinnacle": {
-      "North Dakota St Bison": 3.1,
-      "North Texas Mean Green": 1.4
-     },
-     "sportsbet": {
-      "North Dakota St Bison": 3.01,
-      "North Texas Mean Green": 1.35
-     }
-    },
-    "home": "North Dakota St Bison",
-    "lines": {},
-    "start": "2026-11-28T01:00:00Z"
-   },
-   {
-    "away": "Northeastern Huskies",
-    "books": {
-     "pinnacle": {
-      "Northeastern Huskies": 7.44,
-      "Northwestern Wildcats": 1.11
-     },
-     "sportsbet": {
-      "Northeastern Huskies": 6.0,
-      "Northwestern Wildcats": 1.1
-     }
-    },
-    "home": "Northwestern Wildcats",
-    "lines": {},
-    "start": "2026-11-28T01:00:00Z"
-   },
-   {
-    "away": "Pacific Tigers",
-    "books": {
-     "pinnacle": {
-      "Pacific Tigers": 1.39,
-      "UC Davis Aggies": 3.13
-     },
-     "sportsbet": {
-      "Pacific Tigers": 1.33,
-      "UC Davis Aggies": 3.16
-     }
-    },
-    "home": "UC Davis Aggies",
-    "lines": {},
-    "start": "2026-11-28T01:00:00Z"
-   },
    {
     "away": "Miami Hurricanes",
     "books": {
@@ -1292,7 +899,7 @@
     "away": "Nelson Hysa",
     "books": {
      "betfair_ex_au": {
-      "Agit Kabayel": 1.12,
+      "Agit Kabayel": 1.11,
       "Draw": 25.0,
       "Nelson Hysa": 8.2
      },
@@ -1311,34 +918,10 @@
     "start": "2026-11-28T22:00:00Z"
    }
   ],
-  "ts": "2026-11-28T00:00:47.886520+00:00"
+  "ts": "2026-11-28T01:00:45.403186+00:00"
  },
  "icehockey_nhl": {
   "events": [
-   {
-    "away": "Winnipeg Jets",
-    "books": {
-     "betfair_ex_au": {
-      "New York Islanders": 1.92,
-      "Winnipeg Jets": 2.04
-     },
-     "pinnacle": {
-      "New York Islanders": 1.89,
-      "Winnipeg Jets": 2.02
-     },
-     "playup": {
-      "New York Islanders": 1.82,
-      "Winnipeg Jets": 2.0
-     },
-     "sportsbet": {
-      "New York Islanders": 1.81,
-      "Winnipeg Jets": 2.0
-     }
-    },
-    "home": "New York Islanders",
-    "lines": {},
-    "start": "2026-11-28T00:40:00Z"
-   },
    {
     "away": "Pittsburgh Penguins",
     "books": {
@@ -1389,6 +972,39 @@
    }
   ],
   "ts": "2026-11-28T00:00:47.886520+00:00"
+ },
+ "soccer_australia_aleague": {
+  "events": [
+   {
+    "away": "Auckland FC",
+    "books": {
+     "betfair_ex_au": {
+      "Auckland FC": 2.06,
+      "Central Coast Mariners": 3.8,
+      "Draw": 3.85
+     },
+     "pinnacle": {
+      "Auckland FC": 2.01,
+      "Central Coast Mariners": 3.69,
+      "Draw": 3.79
+     },
+     "playup": {
+      "Auckland FC": 1.98,
+      "Central Coast Mariners": 3.5,
+      "Draw": 3.65
+     },
+     "sportsbet": {
+      "Auckland FC": 1.96,
+      "Central Coast Mariners": 3.6,
+      "Draw": 3.75
+     }
+    },
+    "home": "Central Coast Mariners",
+    "lines": {},
+    "start": "2026-11-28T08:40:00Z"
+   }
+  ],
+  "ts": "2026-11-28T01:00:45.403186+00:00"
  },
  "soccer_efl_champ": {
   "events": [
@@ -1540,36 +1156,41 @@
   ],
   "ts": "2026-11-28T00:30:43.211567+00:00"
  },
- "soccer_usa_mls": {
+ "soccer_spain_la_liga": {
   "events": [
    {
-    "away": "Inter Miami CF",
+    "away": "Rayo Vallecano",
     "books": {
      "betfair_ex_au": {
-      "Columbus Crew SC": 2.7,
-      "Draw": 4.3,
-      "Inter Miami CF": 2.44
+      "Draw": 4.4,
+      "Rayo Vallecano": 5.8,
+      "Real Betis": 1.66
      },
      "pinnacle": {
-      "Columbus Crew SC": 2.66,
-      "Draw": 4.31,
-      "Inter Miami CF": 2.36
+      "Draw": 4.35,
+      "Rayo Vallecano": 5.22,
+      "Real Betis": 1.63
      },
      "playup": {
-      "Columbus Crew SC": 2.6,
-      "Draw": 3.85,
-      "Inter Miami CF": 2.3
+      "Draw": 4.1,
+      "Rayo Vallecano": 5.0,
+      "Real Betis": 1.58
      },
      "sportsbet": {
-      "Columbus Crew SC": 2.6,
-      "Draw": 4.1,
-      "Inter Miami CF": 2.35
+      "Draw": 4.2,
+      "Rayo Vallecano": 5.3,
+      "Real Betis": 1.6
      }
     },
-    "home": "Columbus Crew SC",
+    "home": "Real Betis",
     "lines": {},
-    "start": "2026-11-28T01:00:00Z"
-   },
+    "start": "2026-11-28T13:00:00Z"
+   }
+  ],
+  "ts": "2026-11-28T01:00:45.403186+00:00"
+ },
+ "soccer_usa_mls": {
+  "events": [
    {
     "away": "Vancouver Whitecaps FC",
     "books": {
