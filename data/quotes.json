@@ -1493,8 +1493,8 @@
     "away": "Arman Khudoyan",
     "books": {
      "pinnacle": {
-      "Arman Khudoyan": 1.26,
-      "Daniel Baer": 4.0
+      "Arman Khudoyan": 1.31,
+      "Daniel Baer": 3.56
      },
      "sportsbet": {
       "Arman Khudoyan": 1.33,
@@ -1554,8 +1554,8 @@
     "away": "Kolbeinn Kristinsson",
     "books": {
      "pinnacle": {
-      "Granit Shala": 1.28,
-      "Kolbeinn Kristinsson": 3.86
+      "Granit Shala": 1.27,
+      "Kolbeinn Kristinsson": 3.89
      },
      "sportsbet": {
       "Draw": 18.0,
@@ -1603,7 +1603,7 @@
      "betfair_ex_au": {
       "Agit Kabayel": 1.13,
       "Draw": 34.0,
-      "Nelson Hysa": 9.8
+      "Nelson Hysa": 9.6
      },
      "pinnacle": {
       "Agit Kabayel": 1.07,
@@ -1686,7 +1686,7 @@
     "start": "2026-11-29T11:00:00Z"
    }
   ],
-  "ts": "2026-11-28T11:00:50.926514+00:00"
+  "ts": "2026-11-28T12:00:47.563487+00:00"
  },
  "cricket_international_t20": {
   "events": [
@@ -1719,9 +1719,9 @@
     "away": "India",
     "books": {
      "betfair_ex_au": {
-      "Draw": 2.42,
-      "India": 15.0,
-      "New Zealand": 1.9
+      "Draw": 2.4,
+      "India": 17.0,
+      "New Zealand": 1.88
      }
     },
     "home": "New Zealand",
@@ -1729,7 +1729,7 @@
     "start": "2026-11-28T22:00:00Z"
    }
   ],
-  "ts": "2026-11-28T11:00:50.926514+00:00"
+  "ts": "2026-11-28T12:00:47.563487+00:00"
  },
  "icehockey_nhl": {
   "events": [
@@ -2051,23 +2051,23 @@
     "away": "Cambridge United",
     "books": {
      "betfair_ex_au": {
-      "Cambridge United": 3.4,
-      "Draw": 3.45,
+      "Cambridge United": 3.45,
+      "Draw": 3.55,
       "Peterborough United": 2.28
      },
      "pinnacle": {
-      "Cambridge United": 3.34,
-      "Draw": 3.43,
-      "Peterborough United": 2.24
+      "Cambridge United": 3.36,
+      "Draw": 3.38,
+      "Peterborough United": 2.26
      },
      "playup": {
       "Cambridge United": 3.15,
-      "Draw": 3.35,
+      "Draw": 3.3,
       "Peterborough United": 2.15
      },
      "sportsbet": {
       "Cambridge United": 3.25,
-      "Draw": 3.35,
+      "Draw": 3.25,
       "Peterborough United": 2.18
      }
     },
@@ -2079,18 +2079,18 @@
     "away": "Notts County",
     "books": {
      "betfair_ex_au": {
-      "Draw": 4.0,
+      "Draw": 4.1,
       "Milton Keynes Dons": 1.88,
       "Notts County": 4.3
      },
      "pinnacle": {
-      "Draw": 4.07,
+      "Draw": 4.05,
       "Milton Keynes Dons": 1.84,
       "Notts County": 4.02
      },
      "playup": {
-      "Draw": 3.6,
-      "Milton Keynes Dons": 1.8,
+      "Draw": 3.7,
+      "Milton Keynes Dons": 1.77,
       "Notts County": 4.0
      },
      "sportsbet": {
@@ -2107,7 +2107,7 @@
     "away": "Barnsley",
     "books": {
      "betfair_ex_au": {
-      "Barnsley": 2.36,
+      "Barnsley": 2.38,
       "Draw": 4.0,
       "Wimbledon": 3.0
      },
@@ -2136,8 +2136,8 @@
     "books": {
      "betfair_ex_au": {
       "Blackpool": 4.4,
-      "Draw": 3.9,
-      "Stevenage": 1.87
+      "Draw": 3.95,
+      "Stevenage": 1.89
      },
      "pinnacle": {
       "Blackpool": 4.13,
@@ -2152,7 +2152,7 @@
      "sportsbet": {
       "Blackpool": 4.1,
       "Draw": 3.75,
-      "Stevenage": 1.78
+      "Stevenage": 1.82
      }
     },
     "home": "Stevenage",
@@ -2220,8 +2220,8 @@
     "books": {
      "betfair_ex_au": {
       "Draw": 4.9,
-      "Leicester City": 1.55,
-      "Mansfield Town": 6.0
+      "Leicester City": 1.56,
+      "Mansfield Town": 5.9
      },
      "pinnacle": {
       "Draw": 4.82,
@@ -2229,8 +2229,8 @@
       "Mansfield Town": 5.91
      },
      "playup": {
-      "Draw": 4.5,
-      "Leicester City": 1.48,
+      "Draw": 4.75,
+      "Leicester City": 1.45,
       "Mansfield Town": 5.5
      },
      "sportsbet": {
@@ -2247,13 +2247,13 @@
     "away": "Leyton Orient",
     "books": {
      "betfair_ex_au": {
-      "Draw": 5.7,
+      "Draw": 5.6,
       "Leyton Orient": 9.0,
-      "Stockport County FC": 1.37
+      "Stockport County FC": 1.38
      },
      "pinnacle": {
-      "Draw": 5.58,
-      "Leyton Orient": 8.3,
+      "Draw": 5.59,
+      "Leyton Orient": 8.31,
       "Stockport County FC": 1.35
      },
      "playup": {
@@ -2262,9 +2262,9 @@
       "Stockport County FC": 1.3
      },
      "sportsbet": {
-      "Draw": 5.4,
-      "Leyton Orient": 8.25,
-      "Stockport County FC": 1.31
+      "Draw": 5.25,
+      "Leyton Orient": 7.75,
+      "Stockport County FC": 1.33
      }
     },
     "home": "Stockport County FC",
@@ -2275,8 +2275,8 @@
     "away": "Oxford United",
     "books": {
      "betfair_ex_au": {
-      "Draw": 4.3,
-      "Luton": 1.78,
+      "Draw": 4.4,
+      "Luton": 1.75,
       "Oxford United": 4.6
      },
      "pinnacle": {
@@ -2290,9 +2290,9 @@
       "Oxford United": 4.25
      },
      "sportsbet": {
-      "Draw": 3.9,
-      "Luton": 1.7,
-      "Oxford United": 4.4
+      "Draw": 4.1,
+      "Luton": 1.68,
+      "Oxford United": 4.3
      }
     },
     "home": "Luton",
@@ -2319,7 +2319,7 @@
      },
      "sportsbet": {
       "Draw": 3.45,
-      "Plymouth Argyle": 2.8,
+      "Plymouth Argyle": 2.85,
       "Wigan Athletic": 2.35
      }
     },
@@ -2332,8 +2332,8 @@
     "books": {
      "betfair_ex_au": {
       "Draw": 3.95,
-      "Reading": 2.7,
-      "Sheffield Wednesday": 2.56
+      "Reading": 2.74,
+      "Sheffield Wednesday": 2.58
      },
      "pinnacle": {
       "Draw": 3.89,
@@ -2356,7 +2356,7 @@
     "start": "2026-11-28T15:00:00Z"
    }
   ],
-  "ts": "2026-11-28T11:30:45.877087+00:00"
+  "ts": "2026-11-28T12:00:47.563487+00:00"
  },
  "soccer_epl": {
   "events": [
@@ -2364,19 +2364,19 @@
     "away": "Brentford",
     "books": {
      "betfair_ex_au": {
-      "Brentford": 3.0,
+      "Brentford": 3.05,
       "Draw": 3.85,
-      "Manchester United": 2.4
+      "Manchester United": 2.38
      },
      "pinnacle": {
-      "Brentford": 2.94,
-      "Draw": 3.79,
-      "Manchester United": 2.37
+      "Brentford": 2.96,
+      "Draw": 3.8,
+      "Manchester United": 2.36
      },
      "playup": {
-      "Brentford": 2.8,
+      "Brentford": 2.85,
       "Draw": 3.65,
-      "Manchester United": 2.28
+      "Manchester United": 2.25
      },
      "sportsbet": {
       "Brentford": 2.85,
@@ -2392,14 +2392,14 @@
     "away": "Coventry City",
     "books": {
      "betfair_ex_au": {
-      "Coventry City": 7.2,
-      "Draw": 4.8,
-      "Leeds United": 1.52
+      "Coventry City": 7.4,
+      "Draw": 4.7,
+      "Leeds United": 1.53
      },
      "pinnacle": {
-      "Coventry City": 6.8,
-      "Draw": 4.57,
-      "Leeds United": 1.5
+      "Coventry City": 6.87,
+      "Draw": 4.49,
+      "Leeds United": 1.51
      },
      "playup": {
       "Coventry City": 6.5,
@@ -2408,8 +2408,8 @@
      },
      "sportsbet": {
       "Coventry City": 6.75,
-      "Draw": 4.5,
-      "Leeds United": 1.46
+      "Draw": 4.4,
+      "Leeds United": 1.48
      }
     },
     "home": "Leeds United",
@@ -2420,24 +2420,24 @@
     "away": "Aston Villa",
     "books": {
      "betfair_ex_au": {
-      "Aston Villa": 2.12,
-      "Draw": 3.85,
+      "Aston Villa": 2.14,
+      "Draw": 3.8,
       "Ipswich Town": 3.65
      },
      "pinnacle": {
       "Aston Villa": 2.11,
-      "Draw": 3.76,
-      "Ipswich Town": 3.5
+      "Draw": 3.75,
+      "Ipswich Town": 3.51
      },
      "playup": {
       "Aston Villa": 2.05,
-      "Draw": 3.65,
-      "Ipswich Town": 3.25
+      "Draw": 3.6,
+      "Ipswich Town": 3.3
      },
      "sportsbet": {
       "Aston Villa": 2.05,
-      "Draw": 3.7,
-      "Ipswich Town": 3.4
+      "Draw": 3.6,
+      "Ipswich Town": 3.45
      }
     },
     "home": "Ipswich Town",
@@ -2445,7 +2445,7 @@
     "start": "2026-11-28T17:30:00Z"
    }
   ],
-  "ts": "2026-11-28T11:00:50.926514+00:00"
+  "ts": "2026-11-28T12:00:47.563487+00:00"
  },
  "soccer_france_ligue_one": {
   "events": [
@@ -2921,9 +2921,9 @@
     "away": "Rayo Vallecano",
     "books": {
      "betfair_ex_au": {
-      "Draw": 4.4,
-      "Rayo Vallecano": 5.8,
-      "Real Betis": 1.66
+      "Draw": 4.3,
+      "Rayo Vallecano": 5.9,
+      "Real Betis": 1.65
      },
      "pinnacle": {
       "Draw": 4.28,
@@ -2932,13 +2932,13 @@
      },
      "playup": {
       "Draw": 4.0,
-      "Rayo Vallecano": 5.0,
-      "Real Betis": 1.58
+      "Rayo Vallecano": 4.85,
+      "Real Betis": 1.6
      },
      "sportsbet": {
-      "Draw": 4.2,
-      "Rayo Vallecano": 5.4,
-      "Real Betis": 1.6
+      "Draw": 4.1,
+      "Rayo Vallecano": 5.5,
+      "Real Betis": 1.59
      }
     },
     "home": "Real Betis",
@@ -2949,24 +2949,24 @@
     "away": "Athletic Bilbao",
     "books": {
      "betfair_ex_au": {
-      "Athletic Bilbao": 1.77,
+      "Athletic Bilbao": 1.78,
       "Draw": 4.0,
-      "M\u00e1laga": 5.3
+      "M\u00e1laga": 5.2
      },
      "pinnacle": {
       "Athletic Bilbao": 1.75,
-      "Draw": 3.93,
-      "M\u00e1laga": 4.9
+      "Draw": 3.92,
+      "M\u00e1laga": 4.91
      },
      "playup": {
-      "Athletic Bilbao": 1.68,
-      "Draw": 3.7,
-      "M\u00e1laga": 4.6
+      "Athletic Bilbao": 1.72,
+      "Draw": 3.65,
+      "M\u00e1laga": 4.4
      },
      "sportsbet": {
-      "Athletic Bilbao": 1.71,
+      "Athletic Bilbao": 1.74,
       "Draw": 3.8,
-      "M\u00e1laga": 5.0
+      "M\u00e1laga": 4.7
      }
     },
     "home": "M\u00e1laga",
@@ -2977,24 +2977,24 @@
     "away": "Atl\u00e9tico Madrid",
     "books": {
      "betfair_ex_au": {
-      "Atl\u00e9tico Madrid": 1.52,
+      "Atl\u00e9tico Madrid": 1.53,
       "Draw": 4.8,
       "Elche CF": 7.0
      },
      "pinnacle": {
       "Atl\u00e9tico Madrid": 1.53,
-      "Draw": 4.53,
-      "Elche CF": 6.43
+      "Draw": 4.44,
+      "Elche CF": 6.56
      },
      "playup": {
       "Atl\u00e9tico Madrid": 1.48,
-      "Draw": 4.35,
+      "Draw": 4.25,
       "Elche CF": 5.75
      },
      "sportsbet": {
-      "Atl\u00e9tico Madrid": 1.47,
-      "Draw": 4.6,
-      "Elche CF": 6.25
+      "Atl\u00e9tico Madrid": 1.48,
+      "Draw": 4.5,
+      "Elche CF": 6.5
      }
     },
     "home": "Elche CF",
@@ -3005,19 +3005,19 @@
     "away": "Alav\u00e9s",
     "books": {
      "betfair_ex_au": {
-      "Alav\u00e9s": 21.0,
+      "Alav\u00e9s": 20.0,
       "Draw": 10.5,
       "Real Madrid": 1.16
      },
      "pinnacle": {
-      "Alav\u00e9s": 17.7,
-      "Draw": 9.25,
+      "Alav\u00e9s": 17.82,
+      "Draw": 9.3,
       "Real Madrid": 1.15
      },
      "playup": {
       "Alav\u00e9s": 15.0,
-      "Draw": 8.5,
-      "Real Madrid": 1.13
+      "Draw": 7.75,
+      "Real Madrid": 1.14
      },
      "sportsbet": {
       "Alav\u00e9s": 17.0,
@@ -3030,7 +3030,7 @@
     "start": "2026-11-28T20:00:00Z"
    }
   ],
-  "ts": "2026-11-28T10:00:47.214093+00:00"
+  "ts": "2026-11-28T12:00:47.563487+00:00"
  },
  "soccer_usa_mls": {
   "events": [
