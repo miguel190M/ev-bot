@@ -388,7 +388,7 @@
     "start": "2026-11-28T22:00:00Z"
    }
   ],
-  "ts": "2026-11-28T07:00:47.512706+00:00"
+  "ts": "2026-11-28T08:00:47.716643+00:00"
  },
  "cricket_test_match": {
   "events": [
@@ -396,9 +396,9 @@
     "away": "India",
     "books": {
      "betfair_ex_au": {
-      "Draw": 2.58,
-      "India": 14.5,
-      "New Zealand": 1.82
+      "Draw": 2.56,
+      "India": 15.0,
+      "New Zealand": 1.84
      }
     },
     "home": "New Zealand",
@@ -406,7 +406,7 @@
     "start": "2026-11-28T22:00:00Z"
    }
   ],
-  "ts": "2026-11-28T07:00:47.512706+00:00"
+  "ts": "2026-11-28T08:00:47.716643+00:00"
  },
  "soccer_australia_aleague": {
   "events": [
@@ -415,23 +415,23 @@
     "books": {
      "betfair_ex_au": {
       "Auckland FC": 2.12,
-      "Central Coast Mariners": 3.5,
-      "Draw": 3.95
+      "Central Coast Mariners": 3.65,
+      "Draw": 3.85
      },
      "pinnacle": {
-      "Auckland FC": 2.06,
-      "Central Coast Mariners": 3.56,
-      "Draw": 3.76
+      "Auckland FC": 2.03,
+      "Central Coast Mariners": 3.63,
+      "Draw": 3.78
      },
      "playup": {
-      "Auckland FC": 2.02,
-      "Central Coast Mariners": 3.35,
-      "Draw": 3.65
+      "Auckland FC": 1.98,
+      "Central Coast Mariners": 3.5,
+      "Draw": 3.6
      },
      "sportsbet": {
-      "Auckland FC": 1.96,
-      "Central Coast Mariners": 3.6,
-      "Draw": 3.75
+      "Auckland FC": 2.03,
+      "Central Coast Mariners": 3.45,
+      "Draw": 3.7
      }
     },
     "home": "Central Coast Mariners",
@@ -439,7 +439,7 @@
     "start": "2026-11-28T08:40:00Z"
    }
   ],
-  "ts": "2026-11-28T07:30:40.169946+00:00"
+  "ts": "2026-11-28T08:00:47.716643+00:00"
  },
  "soccer_efl_champ": {
   "events": [
