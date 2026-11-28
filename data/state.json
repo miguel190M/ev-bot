@@ -1,1 +1,10 @@
-{}
+{
+  "13d9ca3bcb664829c603755d31401002:nextbet:Los Angeles Lakers 6.5": {
+    "ev_pct": 2.41,
+    "commence_time": "2026-11-28T02:40:00Z"
+  },
+  "13d9ca3bcb664829c603755d31401002:sportsbet:Los Angeles Lakers": {
+    "ev_pct": 2.99,
+    "commence_time": "2026-11-28T02:40:00Z"
+  }
+}
