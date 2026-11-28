@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-26T09:00:53.983253+00:00",
-  "markets": 2,
-  "markets_sharp": 1,
-  "outcomes": 9,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 0.581,
-   "ev_pct": 3.26,
-   "threshold_pct": 2.68,
-   "price": 2.68,
-   "outcome": "India",
-   "book": "Betfair",
-   "matchup": "India @ New Zealand",
-   "sport_key": "cricket_test_match",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-26T09:30:43.607738+00:00",
   "markets": 2,
   "markets_sharp": 0,
@@ -1269,6 +1250,25 @@
    "book": "SportsBet",
    "matchup": "Kolbeinn Kristinsson @ Granit Shala",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-28T09:30:42.168907+00:00",
+  "markets": 26,
+  "markets_sharp": 25,
+  "outcomes": 228,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 0.168,
+   "ev_pct": 2.51,
+   "threshold_pct": 2.34,
+   "price": 2.34,
+   "outcome": "Peterborough United",
+   "book": "Betfair",
+   "matchup": "Cambridge United @ Peterborough United",
+   "sport_key": "soccer_england_league1",
    "anchor": "pinnacle"
   }
  }
