@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-26T04:00:48.014159+00:00",
-  "markets": 7,
-  "markets_sharp": 6,
-  "outcomes": 20,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 10.15,
-   "ev_pct": 13.79,
-   "threshold_pct": 3.64,
-   "price": 3.9,
-   "outcome": "Miel Fajardo",
-   "book": "SportsBet",
-   "matchup": "Miel Fajardo @ Masamichi Yabuki",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-26T05:00:59.483895+00:00",
   "markets": 3,
   "markets_sharp": 3,
@@ -1231,6 +1212,25 @@
    "book": "SportsBet",
    "matchup": "Kolbeinn Kristinsson @ Granit Shala",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-28T04:30:40.036197+00:00",
+  "markets": 22,
+  "markets_sharp": 22,
+  "outcomes": 198,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -2.457,
+   "ev_pct": -0.89,
+   "threshold_pct": 1.57,
+   "price": 1.57,
+   "outcome": "Leicester City",
+   "book": "Betfair",
+   "matchup": "Mansfield Town @ Leicester City",
+   "sport_key": "soccer_england_league1",
    "anchor": "pinnacle"
   }
  }
