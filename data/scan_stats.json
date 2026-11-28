@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-26T02:00:45.179261+00:00",
-  "markets": 16,
-  "markets_sharp": 12,
-  "outcomes": 56,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 13.973,
-   "ev_pct": 17.62,
-   "threshold_pct": 3.64,
-   "price": 3.9,
-   "outcome": "Miel Fajardo",
-   "book": "SportsBet",
-   "matchup": "Miel Fajardo @ Masamichi Yabuki",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-26T02:30:38.557406+00:00",
-  "markets": 6,
-  "markets_sharp": 3,
-  "outcomes": 28,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -2.92,
-   "ev_pct": -1.23,
-   "threshold_pct": 1.69,
-   "price": 1.69,
-   "outcome": "San Antonio Spurs",
-   "book": "Betfair",
-   "matchup": "San Antonio Spurs @ Portland Trail Blazers",
-   "sport_key": "basketball_nba",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-26T03:00:53.626473+00:00",
   "markets": 10,
   "markets_sharp": 9,
@@ -1212,6 +1174,25 @@
    "book": "NextBet",
    "matchup": "Los Angeles Lakers @ San Antonio Spurs",
    "sport_key": "basketball_nba",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-28T02:30:43.973868+00:00",
+  "markets": 16,
+  "markets_sharp": 14,
+  "outcomes": 92,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -1.66,
+   "ev_pct": -0.16,
+   "threshold_pct": 1.5,
+   "price": 1.33,
+   "outcome": "Bayern Munich",
+   "book": "Betfair",
+   "matchup": "Bayern Munich @ Hamburger SV",
+   "sport_key": "soccer_germany_bundesliga",
    "anchor": "pinnacle"
   }
  }

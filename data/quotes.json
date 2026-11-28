@@ -1,148 +1,16 @@
 {
- "americanfootball_ncaaf": {
-  "events": [
-   {
-    "away": "West Virginia Mountaineers",
-    "books": {
-     "betfair_ex_au": {
-      "Utah Utes": 1.06,
-      "West Virginia Mountaineers": 16.0
-     },
-     "pinnacle": {
-      "Utah Utes": 1.05,
-      "West Virginia Mountaineers": 12.54
-     },
-     "playup": {
-      "Utah Utes": 1.02,
-      "West Virginia Mountaineers": 13.0
-     },
-     "sportsbet": {
-      "Utah Utes": 1.03,
-      "West Virginia Mountaineers": 10.0
-     }
-    },
-    "home": "Utah Utes",
-    "lines": {},
-    "start": "2026-11-28T02:10:00Z"
-   }
-  ],
-  "ts": "2026-11-28T02:00:45.117610+00:00"
- },
  "basketball_nba": {
   "events": [
-   {
-    "away": "Dallas Mavericks",
-    "books": {
-     "betfair_ex_au": {
-      "Dallas Mavericks": 2.56,
-      "Phoenix Suns": 1.63
-     },
-     "pinnacle": {
-      "Dallas Mavericks": 2.55,
-      "Phoenix Suns": 1.59
-     },
-     "playup": {
-      "Dallas Mavericks": 2.4,
-      "Phoenix Suns": 1.57
-     },
-     "sportsbet": {
-      "Dallas Mavericks": 2.48,
-      "Phoenix Suns": 1.57
-     }
-    },
-    "home": "Phoenix Suns",
-    "lines": {
-     "pinnacle": {
-      "spreads": [
-       [
-        "Dallas Mavericks",
-        4.0,
-        2.02
-       ],
-       [
-        "Phoenix Suns",
-        -4.0,
-        1.89
-       ]
-      ],
-      "totals": [
-       [
-        "Over",
-        225.0,
-        1.94
-       ],
-       [
-        "Under",
-        225.0,
-        1.94
-       ]
-      ]
-     },
-     "playup": {
-      "spreads": [
-       [
-        "Dallas Mavericks",
-        4.5,
-        1.88
-       ],
-       [
-        "Phoenix Suns",
-        -4.5,
-        1.92
-       ]
-      ],
-      "totals": [
-       [
-        "Over",
-        225.5,
-        1.9
-       ],
-       [
-        "Under",
-        225.5,
-        1.87
-       ]
-      ]
-     },
-     "sportsbet": {
-      "spreads": [
-       [
-        "Dallas Mavericks",
-        4.5,
-        1.9
-       ],
-       [
-        "Phoenix Suns",
-        -4.5,
-        1.9
-       ]
-      ],
-      "totals": [
-       [
-        "Over",
-        224.5,
-        1.85
-       ],
-       [
-        "Under",
-        224.5,
-        1.96
-       ]
-      ]
-     }
-    },
-    "start": "2026-11-28T02:10:00Z"
-   },
    {
     "away": "Denver Nuggets",
     "books": {
      "betfair_ex_au": {
-      "Denver Nuggets": 1.27,
+      "Denver Nuggets": 1.28,
       "Utah Jazz": 4.5
      },
      "pinnacle": {
       "Denver Nuggets": 1.26,
-      "Utah Jazz": 4.39
+      "Utah Jazz": 4.28
      },
      "playup": {
       "Denver Nuggets": 1.23,
@@ -160,24 +28,24 @@
        [
         "Denver Nuggets",
         -9.5,
-        1.92
+        1.96
        ],
        [
         "Utah Jazz",
         9.5,
-        1.99
+        1.94
        ]
       ],
       "totals": [
        [
         "Over",
-        232.5,
-        1.99
+        231.5,
+        1.93
        ],
        [
         "Under",
-        232.5,
-        1.9
+        231.5,
+        1.95
        ]
       ]
      },
@@ -197,13 +65,13 @@
       "totals": [
        [
         "Over",
-        232.5,
-        1.92
+        231.5,
+        1.87
        ],
        [
         "Under",
-        232.5,
-        1.9
+        231.5,
+        1.91
        ]
       ]
      },
@@ -240,12 +108,12 @@
     "away": "Golden State Warriors",
     "books": {
      "betfair_ex_au": {
-      "Golden State Warriors": 3.85,
-      "Portland Trail Blazers": 1.34
+      "Golden State Warriors": 4.0,
+      "Portland Trail Blazers": 1.32
      },
      "pinnacle": {
       "Golden State Warriors": 3.74,
-      "Portland Trail Blazers": 1.3
+      "Portland Trail Blazers": 1.32
      },
      "playup": {
       "Golden State Warriors": 3.5,
@@ -263,24 +131,24 @@
        [
         "Golden State Warriors",
         8.5,
-        1.94
+        1.93
        ],
        [
         "Portland Trail Blazers",
         -8.5,
-        1.94
+        1.98
        ]
       ],
       "totals": [
        [
         "Over",
         216.5,
-        1.92
+        2.0
        ],
        [
         "Under",
         216.5,
-        1.95
+        1.88
        ]
       ]
      },
@@ -343,20 +211,20 @@
     "away": "New Orleans Pelicans",
     "books": {
      "betfair_ex_au": {
-      "Los Angeles Clippers": 1.81,
-      "New Orleans Pelicans": 2.2
+      "Los Angeles Clippers": 1.89,
+      "New Orleans Pelicans": 2.1
      },
      "pinnacle": {
-      "Los Angeles Clippers": 1.79,
-      "New Orleans Pelicans": 2.16
+      "Los Angeles Clippers": 1.86,
+      "New Orleans Pelicans": 2.07
      },
      "playup": {
-      "Los Angeles Clippers": 1.7,
-      "New Orleans Pelicans": 2.15
+      "Los Angeles Clippers": 1.77,
+      "New Orleans Pelicans": 2.05
      },
      "sportsbet": {
-      "Los Angeles Clippers": 1.71,
-      "New Orleans Pelicans": 2.2
+      "Los Angeles Clippers": 1.76,
+      "New Orleans Pelicans": 2.11
      }
     },
     "home": "Los Angeles Clippers",
@@ -365,13 +233,13 @@
       "spreads": [
        [
         "Los Angeles Clippers",
-        -2.5,
-        2.02
+        -1.5,
+        1.93
        ],
        [
         "New Orleans Pelicans",
-        2.5,
-        1.89
+        1.5,
+        1.97
        ]
       ],
       "totals": [
@@ -404,12 +272,12 @@
        [
         "Over",
         229.5,
-        1.85
+        1.9
        ],
        [
         "Under",
         229.5,
-        1.95
+        1.9
        ]
       ]
      },
@@ -418,12 +286,12 @@
        [
         "Los Angeles Clippers",
         -2.5,
-        1.9
+        1.96
        ],
        [
         "New Orleans Pelicans",
         2.5,
-        1.9
+        1.84
        ]
       ],
       "totals": [
@@ -446,20 +314,20 @@
     "away": "Los Angeles Lakers",
     "books": {
      "betfair_ex_au": {
-      "Los Angeles Lakers": 3.1,
-      "San Antonio Spurs": 1.46
+      "Los Angeles Lakers": 3.05,
+      "San Antonio Spurs": 1.47
      },
      "pinnacle": {
-      "Los Angeles Lakers": 2.76,
-      "San Antonio Spurs": 1.49
+      "Los Angeles Lakers": 2.97,
+      "San Antonio Spurs": 1.46
      },
      "playup": {
       "Los Angeles Lakers": 2.8,
       "San Antonio Spurs": 1.44
      },
      "sportsbet": {
-      "Los Angeles Lakers": 2.98,
-      "San Antonio Spurs": 1.42
+      "Los Angeles Lakers": 3.01,
+      "San Antonio Spurs": 1.41
      }
     },
     "home": "San Antonio Spurs",
@@ -469,24 +337,24 @@
        [
         "Los Angeles Lakers",
         6.5,
-        1.88
+        1.96
        ],
        [
         "San Antonio Spurs",
         -6.5,
-        2.01
+        1.94
        ]
       ],
       "totals": [
        [
         "Over",
-        226.0,
-        1.91
+        227.0,
+        1.93
        ],
        [
         "Under",
-        226.0,
-        1.96
+        227.0,
+        1.95
        ]
       ]
      },
@@ -495,12 +363,12 @@
        [
         "Los Angeles Lakers",
         6.5,
-        1.98
+        1.91
        ],
        [
         "San Antonio Spurs",
         -6.5,
-        1.83
+        1.88
        ]
       ],
       "totals": [
@@ -546,30 +414,10 @@
     "start": "2026-11-28T02:40:00Z"
    }
   ],
-  "ts": "2026-11-28T02:00:45.117610+00:00"
+  "ts": "2026-11-28T02:30:43.972750+00:00"
  },
  "basketball_ncaab": {
   "events": [
-   {
-    "away": "Tennessee Volunteers",
-    "books": {
-     "betfair_ex_au": {
-      "Louisville Cardinals": 1.62,
-      "Tennessee Volunteers": 2.52
-     },
-     "pinnacle": {
-      "Louisville Cardinals": 1.59,
-      "Tennessee Volunteers": 2.52
-     },
-     "sportsbet": {
-      "Louisville Cardinals": 1.57,
-      "Tennessee Volunteers": 2.3
-     }
-    },
-    "home": "Louisville Cardinals",
-    "lines": {},
-    "start": "2026-11-28T02:05:00Z"
-   },
    {
     "away": "Jacksonville St Gamecocks",
     "books": {
@@ -864,6 +712,123 @@
    }
   ],
   "ts": "2026-11-28T00:30:43.211567+00:00"
+ },
+ "soccer_germany_bundesliga": {
+  "events": [
+   {
+    "away": "Elversberg",
+    "books": {
+     "betfair_ex_au": {
+      "1. FC K\u00f6ln": 2.08,
+      "Draw": 3.85,
+      "Elversberg": 3.7
+     },
+     "pinnacle": {
+      "1. FC K\u00f6ln": 2.05,
+      "Draw": 3.83,
+      "Elversberg": 3.53
+     },
+     "playup": {
+      "1. FC K\u00f6ln": 2.0,
+      "Draw": 3.6,
+      "Elversberg": 3.3
+     },
+     "sportsbet": {
+      "1. FC K\u00f6ln": 2.0,
+      "Draw": 3.7,
+      "Elversberg": 3.5
+     }
+    },
+    "home": "1. FC K\u00f6ln",
+    "lines": {},
+    "start": "2026-11-28T14:30:00Z"
+   },
+   {
+    "away": "Bayern Munich",
+    "books": {
+     "betfair_ex_au": {
+      "Bayern Munich": 1.33,
+      "Draw": 6.6,
+      "Hamburger SV": 9.6
+     },
+     "pinnacle": {
+      "Bayern Munich": 1.28,
+      "Draw": 6.71,
+      "Hamburger SV": 8.81
+     },
+     "playup": {
+      "Bayern Munich": 1.25,
+      "Draw": 6.0,
+      "Hamburger SV": 9.0
+     },
+     "sportsbet": {
+      "Bayern Munich": 1.28,
+      "Draw": 6.25,
+      "Hamburger SV": 8.75
+     }
+    },
+    "home": "Hamburger SV",
+    "lines": {},
+    "start": "2026-11-28T14:30:00Z"
+   },
+   {
+    "away": "FC Schalke 04",
+    "books": {
+     "betfair_ex_au": {
+      "Draw": 3.55,
+      "FC Schalke 04": 2.88,
+      "SC Paderborn": 2.68
+     },
+     "pinnacle": {
+      "Draw": 3.42,
+      "FC Schalke 04": 2.8,
+      "SC Paderborn": 2.63
+     },
+     "playup": {
+      "Draw": 3.35,
+      "FC Schalke 04": 2.6,
+      "SC Paderborn": 2.5
+     },
+     "sportsbet": {
+      "Draw": 3.4,
+      "FC Schalke 04": 2.75,
+      "SC Paderborn": 2.55
+     }
+    },
+    "home": "SC Paderborn",
+    "lines": {},
+    "start": "2026-11-28T14:30:00Z"
+   },
+   {
+    "away": "Union Berlin",
+    "books": {
+     "betfair_ex_au": {
+      "Draw": 4.9,
+      "FSV Mainz 05": 1.51,
+      "Union Berlin": 7.0
+     },
+     "pinnacle": {
+      "Draw": 4.85,
+      "FSV Mainz 05": 1.49,
+      "Union Berlin": 6.4
+     },
+     "playup": {
+      "Draw": 4.6,
+      "FSV Mainz 05": 1.42,
+      "Union Berlin": 6.25
+     },
+     "sportsbet": {
+      "Draw": 4.5,
+      "FSV Mainz 05": 1.47,
+      "Union Berlin": 6.5
+     }
+    },
+    "home": "FSV Mainz 05",
+    "lines": {},
+    "start": "2026-11-28T14:30:00Z"
+   }
+  ],
+  "ts": "2026-11-28T02:30:43.972750+00:00"
  },
  "soccer_italy_serie_a": {
   "events": [
