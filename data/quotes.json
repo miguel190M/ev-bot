@@ -1358,5 +1358,38 @@
    }
   ],
   "ts": "2026-11-28T05:00:48.497725+00:00"
+ },
+ "soccer_usa_mls": {
+  "events": [
+   {
+    "away": "Chicago Fire",
+    "books": {
+     "betfair_ex_au": {
+      "Charlotte FC": 2.76,
+      "Chicago Fire": 2.48,
+      "Draw": 4.0
+     },
+     "pinnacle": {
+      "Charlotte FC": 2.76,
+      "Chicago Fire": 2.45,
+      "Draw": 3.76
+     },
+     "playup": {
+      "Charlotte FC": 2.6,
+      "Chicago Fire": 2.35,
+      "Draw": 3.7
+     },
+     "sportsbet": {
+      "Charlotte FC": 2.65,
+      "Chicago Fire": 2.4,
+      "Draw": 3.8
+     }
+    },
+    "home": "Charlotte FC",
+    "lines": {},
+    "start": "2026-11-28T17:30:00Z"
+   }
+  ],
+  "ts": "2026-11-28T05:30:37.849826+00:00"
  }
 }

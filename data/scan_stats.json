@@ -1,43 +1,5 @@
 [
  {
-  "ts": "2026-11-26T05:00:59.483895+00:00",
-  "markets": 3,
-  "markets_sharp": 3,
-  "outcomes": 12,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 10.15,
-   "ev_pct": 13.79,
-   "threshold_pct": 3.64,
-   "price": 3.9,
-   "outcome": "Miel Fajardo",
-   "book": "SportsBet",
-   "matchup": "Miel Fajardo @ Masamichi Yabuki",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
-  "ts": "2026-11-26T05:30:37.339078+00:00",
-  "markets": 2,
-  "markets_sharp": 2,
-  "outcomes": 9,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 10.15,
-   "ev_pct": 13.79,
-   "threshold_pct": 3.64,
-   "price": 3.9,
-   "outcome": "Miel Fajardo",
-   "book": "SportsBet",
-   "matchup": "Miel Fajardo @ Masamichi Yabuki",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-26T06:00:47.032317+00:00",
   "markets": 18,
   "markets_sharp": 15,
@@ -1250,6 +1212,25 @@
    "book": "SportsBet",
    "matchup": "Kolbeinn Kristinsson @ Granit Shala",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-28T05:30:37.851051+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 9,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -6.483,
+   "ev_pct": -2.77,
+   "threshold_pct": 3.71,
+   "price": 4.0,
+   "outcome": "Draw",
+   "book": "Betfair",
+   "matchup": "Chicago Fire @ Charlotte FC",
+   "sport_key": "soccer_usa_mls",
    "anchor": "pinnacle"
   }
  }
