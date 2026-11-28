@@ -10,5 +10,17 @@
   "b1f78b121a05692724da96eb190717e3:betfair_ex_au:Peterborough United": {
     "ev_pct": 2.51,
     "commence_time": "2026-11-28T12:30:00Z"
+  },
+  "ce4aa90e3795fbe424511bf32b0f1021:sportsbet:Ozan Karadogan": {
+    "ev_pct": 7.28,
+    "commence_time": "2026-11-28T15:00:00Z"
+  },
+  "54a85f1c77ca9879330a34200ac613bf:sportsbet:Arman Khudoyan": {
+    "ev_pct": 2.65,
+    "commence_time": "2026-11-28T16:00:00Z"
+  },
+  "c18243206995f61294d952c26661373b:betfair_ex_au:Agit Kabayel": {
+    "ev_pct": 2.43,
+    "commence_time": "2026-11-28T22:00:00Z"
   }
 }

@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-26T09:30:43.607738+00:00",
-  "markets": 2,
-  "markets_sharp": 0,
-  "outcomes": 12,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": -3.908,
-   "ev_pct": -2.21,
-   "threshold_pct": 1.7,
-   "price": 1.35,
-   "outcome": "Masamichi Yabuki",
-   "book": "Betfair",
-   "matchup": "Miel Fajardo @ Masamichi Yabuki",
-   "sport_key": "boxing_boxing",
-   "anchor": "retail_consensus"
-  }
- },
- {
   "ts": "2026-11-26T10:00:55.174091+00:00",
   "markets": 37,
   "markets_sharp": 34,
@@ -1269,6 +1250,25 @@
    "book": "Betfair",
    "matchup": "Cambridge United @ Peterborough United",
    "sport_key": "soccer_england_league1",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-28T10:00:47.217223+00:00",
+  "markets": 20,
+  "markets_sharp": 15,
+  "outcomes": 114,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 8.781,
+   "ev_pct": 10.28,
+   "threshold_pct": 1.5,
+   "price": 1.43,
+   "outcome": "Granit Shala",
+   "book": "SportsBet",
+   "matchup": "Kolbeinn Kristinsson @ Granit Shala",
+   "sport_key": "boxing_boxing",
    "anchor": "pinnacle"
   }
  }

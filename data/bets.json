@@ -3366,8 +3366,8 @@
     "alerted_at": "2026-11-28T03:00:49.199185+00:00",
     "lead_hours": 14.0,
     "logged_at": "2026-11-28T04:00:41.913226+00:00",
-    "closing_fair_odds": 1.338,
-    "closing_captured_at": "2026-11-28T09:00:48.324143+00:00"
+    "closing_fair_odds": 1.297,
+    "closing_captured_at": "2026-11-28T10:00:48.849233+00:00"
   },
   "9949": {
     "event_id": "35aff424a542edb3ed32edbc12888002",
@@ -3392,6 +3392,8 @@
     "bookmaker_key": "sportsbet",
     "alerted_at": "2026-11-28T09:00:47.864318+00:00",
     "lead_hours": 24.0,
-    "logged_at": "2026-11-28T09:30:36.246781+00:00"
+    "logged_at": "2026-11-28T09:30:36.246781+00:00",
+    "closing_fair_odds": 2.103,
+    "closing_captured_at": "2026-11-28T10:00:48.849233+00:00"
   }
 }

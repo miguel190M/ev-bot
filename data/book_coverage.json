@@ -2,7 +2,7 @@
  "books": {
   "betanysports": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 83
@@ -24,7 +24,7 @@
      "h2h": 8
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
@@ -40,7 +40,7 @@
   },
   "betclic_fr": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_nfl": {
      "h2h": 15
@@ -64,13 +64,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -86,7 +86,7 @@
   },
   "betfair_ex_au": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 4,
@@ -109,16 +109,16 @@
      "h2h_lay": 136
     },
     "boxing_boxing": {
-     "h2h": 43,
-     "h2h_lay": 43
+     "h2h": 47,
+     "h2h_lay": 47
     },
     "cricket_international_t20": {
      "h2h": 24,
      "h2h_lay": 24
     },
     "cricket_test_match": {
-     "h2h": 36,
-     "h2h_lay": 36
+     "h2h": 37,
+     "h2h_lay": 37
     },
     "icehockey_nhl": {
      "h2h": 89,
@@ -149,16 +149,16 @@
      "h2h_lay": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5,
-     "h2h_lay": 5
+     "h2h": 8,
+     "h2h_lay": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5,
      "h2h_lay": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9,
-     "h2h_lay": 9
+     "h2h": 13,
+     "h2h_lay": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5,
@@ -177,7 +177,7 @@
   },
   "betfair_ex_eu": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 4,
@@ -200,16 +200,16 @@
      "h2h_lay": 130
     },
     "boxing_boxing": {
-     "h2h": 43,
-     "h2h_lay": 43
+     "h2h": 47,
+     "h2h_lay": 47
     },
     "cricket_international_t20": {
      "h2h": 24,
      "h2h_lay": 24
     },
     "cricket_test_match": {
-     "h2h": 36,
-     "h2h_lay": 36
+     "h2h": 37,
+     "h2h_lay": 37
     },
     "soccer_australia_aleague": {
      "h2h": 19,
@@ -236,16 +236,16 @@
      "h2h_lay": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5,
-     "h2h_lay": 5
+     "h2h": 8,
+     "h2h_lay": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5,
      "h2h_lay": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9,
-     "h2h_lay": 9
+     "h2h": 13,
+     "h2h_lay": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5,
@@ -276,7 +276,7 @@
   },
   "betonlineag": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 89
@@ -298,7 +298,7 @@
      "h2h": 312
     },
     "boxing_boxing": {
-     "h2h": 174
+     "h2h": 186
     },
     "cricket_international_t20": {
      "h2h": 22
@@ -307,7 +307,7 @@
      "h2h": 89
     },
     "mma_mixed_martial_arts": {
-     "h2h": 407
+     "h2h": 422
     },
     "soccer_australia_aleague": {
      "h2h": 19
@@ -328,13 +328,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -350,7 +350,7 @@
   },
   "betr_au": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 89
@@ -365,13 +365,13 @@
      "h2h": 345
     },
     "boxing_boxing": {
-     "h2h": 145
+     "h2h": 157
     },
     "cricket_international_t20": {
      "h2h": 24
     },
     "cricket_test_match": {
-     "h2h": 35
+     "h2h": 36
     },
     "icehockey_nhl": {
      "h2h": 89
@@ -395,13 +395,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -417,7 +417,7 @@
   },
   "betright": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 89
@@ -432,7 +432,7 @@
      "h2h": 351
     },
     "boxing_boxing": {
-     "h2h": 138
+     "h2h": 149
     },
     "cricket_international_t20": {
      "h2h": 24
@@ -459,13 +459,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -493,7 +493,7 @@
   },
   "betsson": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 70
@@ -515,7 +515,7 @@
      "h2h": 230
     },
     "boxing_boxing": {
-     "h2h": 170
+     "h2h": 182
     },
     "cricket_international_t20": {
      "h2h": 24
@@ -542,13 +542,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -600,7 +600,7 @@
   },
   "codere_it": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_nfl": {
      "h2h": 15
@@ -634,13 +634,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -656,7 +656,7 @@
   },
   "coolbet": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 89
@@ -691,13 +691,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -748,7 +748,7 @@
   },
   "everygame": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 89
@@ -779,10 +779,10 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     }
    },
    "title": "Everygame"
@@ -813,7 +813,7 @@
   },
   "gtbets": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 72
@@ -859,7 +859,7 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -872,7 +872,7 @@
   },
   "ladbrokes_au": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 90
@@ -887,13 +887,13 @@
      "h2h": 219
     },
     "boxing_boxing": {
-     "h2h": 97
+     "h2h": 108
     },
     "cricket_international_t20": {
      "h2h": 24
     },
     "cricket_test_match": {
-     "h2h": 36
+     "h2h": 37
     },
     "icehockey_nhl": {
      "h2h": 89
@@ -917,10 +917,10 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -936,7 +936,7 @@
   },
   "leovegas_se": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 85
@@ -959,7 +959,7 @@
      "h2h": 24
     },
     "cricket_test_match": {
-     "h2h": 36
+     "h2h": 37
     },
     "icehockey_nhl": {
      "h2h": 89
@@ -983,13 +983,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -1017,7 +1017,7 @@
   },
   "marathonbet": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 82
@@ -1057,13 +1057,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -1079,7 +1079,7 @@
   },
   "matchbook": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 79,
@@ -1128,16 +1128,16 @@
      "h2h_lay": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5,
-     "h2h_lay": 5
+     "h2h": 8,
+     "h2h_lay": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5,
      "h2h_lay": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9,
-     "h2h_lay": 9
+     "h2h": 13,
+     "h2h_lay": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5,
@@ -1156,7 +1156,7 @@
   },
   "mybookieag": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 88
@@ -1181,7 +1181,7 @@
      "h2h": 8
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 7
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -1194,7 +1194,7 @@
   },
   "neds": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 90
@@ -1212,7 +1212,7 @@
      "h2h": 24
     },
     "cricket_test_match": {
-     "h2h": 36
+     "h2h": 37
     },
     "icehockey_nhl": {
      "h2h": 89
@@ -1236,13 +1236,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -1258,7 +1258,7 @@
   },
   "nordicbet": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 62
@@ -1280,7 +1280,7 @@
      "h2h": 199
     },
     "boxing_boxing": {
-     "h2h": 170
+     "h2h": 182
     },
     "cricket_international_t20": {
      "h2h": 24
@@ -1310,13 +1310,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -1332,7 +1332,7 @@
   },
   "onexbet": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_nfl": {
      "spreads": 15,
@@ -1350,7 +1350,7 @@
      "h2h": 378
     },
     "boxing_boxing": {
-     "h2h": 189
+     "h2h": 200
     },
     "icehockey_nhl": {
      "h2h": 89
@@ -1371,13 +1371,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -1393,7 +1393,7 @@
   },
   "picklebet_au": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 90
@@ -1411,7 +1411,7 @@
      "h2h": 388
     },
     "boxing_boxing": {
-     "h2h": 155
+     "h2h": 166
     },
     "icehockey_nhl": {
      "h2h": 58
@@ -1435,13 +1435,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -1457,7 +1457,7 @@
   },
   "pinnacle": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 89
@@ -1479,7 +1479,7 @@
      "h2h": 256
     },
     "boxing_boxing": {
-     "h2h": 110
+     "h2h": 118
     },
     "cricket_international_t20": {
      "h2h": 11
@@ -1509,13 +1509,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -1531,7 +1531,7 @@
   },
   "playup": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 88
@@ -1571,13 +1571,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -1593,7 +1593,7 @@
   },
   "pmu_fr": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_nfl": {
      "h2h": 15,
@@ -1608,7 +1608,7 @@
      "totals": 219
     },
     "boxing_boxing": {
-     "h2h": 13
+     "h2h": 16
     },
     "soccer_australia_aleague": {
      "h2h": 19
@@ -1626,13 +1626,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -1648,7 +1648,7 @@
   },
   "pointsbetau": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 80
@@ -1697,13 +1697,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -1716,7 +1716,7 @@
   },
   "sport888": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_nfl": {
      "h2h": 15,
@@ -1759,7 +1759,7 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
@@ -1778,7 +1778,7 @@
   },
   "sportsbet": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 89
@@ -1800,7 +1800,7 @@
      "h2h": 388
     },
     "boxing_boxing": {
-     "h2h": 191
+     "h2h": 203
     },
     "cricket_international_t20": {
      "h2h": 24
@@ -1827,13 +1827,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -1849,7 +1849,7 @@
   },
   "swiftbet": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 89
@@ -1891,13 +1891,13 @@
      "h2h": 5
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 6
+     "h2h": 8
     },
     "soccer_uefa_champs_league": {
      "h2h": 2
@@ -1913,7 +1913,7 @@
   },
   "tab": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 88
@@ -1938,7 +1938,7 @@
      "h2h": 24
     },
     "cricket_test_match": {
-     "h2h": 36
+     "h2h": 37
     },
     "icehockey_nhl": {
      "h2h": 89
@@ -1962,10 +1962,10 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_spain_la_liga": {
-     "h2h": 7
+     "h2h": 11
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -1981,7 +1981,7 @@
   },
   "tabtouch": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_nfl": {
      "spreads": 15,
@@ -1999,13 +1999,13 @@
      "h2h": 344
     },
     "boxing_boxing": {
-     "h2h": 109
+     "h2h": 119
     },
     "cricket_international_t20": {
      "h2h": 24
     },
     "cricket_test_match": {
-     "h2h": 36
+     "h2h": 37
     },
     "icehockey_nhl": {
      "h2h": 89
@@ -2029,13 +2029,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -2051,7 +2051,7 @@
   },
   "tipico_de": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_nfl": {
      "h2h": 15,
@@ -2082,20 +2082,20 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     }
    },
    "title": "Tipico"
   },
   "unibet": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 85
@@ -2115,19 +2115,19 @@
      "h2h": 348
     },
     "boxing_boxing": {
-     "h2h": 109
+     "h2h": 119
     },
     "cricket_international_t20": {
      "h2h": 24
     },
     "cricket_test_match": {
-     "h2h": 36
+     "h2h": 37
     },
     "icehockey_nhl": {
      "h2h": 85
     },
     "mma_mixed_martial_arts": {
-     "h2h": 412
+     "h2h": 430
     },
     "soccer_australia_aleague": {
      "h2h": 19
@@ -2148,13 +2148,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -2170,7 +2170,7 @@
   },
   "unibet_fr": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "basketball_euroleague": {
      "h2h": 12
@@ -2179,7 +2179,7 @@
      "h2h": 219
     },
     "boxing_boxing": {
-     "h2h": 32
+     "h2h": 33
     },
     "icehockey_nhl": {
      "h2h": 89
@@ -2200,13 +2200,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 8
+     "h2h": 11
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -2222,7 +2222,7 @@
   },
   "unibet_nl": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 85
@@ -2265,13 +2265,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -2287,7 +2287,7 @@
   },
   "unibet_se": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 89
@@ -2310,7 +2310,7 @@
      "h2h": 24
     },
     "cricket_test_match": {
-     "h2h": 36
+     "h2h": 37
     },
     "icehockey_nhl": {
      "h2h": 89
@@ -2334,13 +2334,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -2356,7 +2356,7 @@
   },
   "williamhill": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "americanfootball_ncaaf": {
      "h2h": 69
@@ -2397,13 +2397,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -2431,7 +2431,7 @@
   },
   "winamax_de": {
    "first_seen": "2026-11-25T12:00:51.439654+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "basketball_euroleague": {
      "h2h": 12
@@ -2440,7 +2440,7 @@
      "h2h": 217
     },
     "boxing_boxing": {
-     "h2h": 12
+     "h2h": 13
     },
     "icehockey_nhl": {
      "h2h": 89
@@ -2461,13 +2461,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -2483,7 +2483,7 @@
   },
   "winamax_fr": {
    "first_seen": "2026-11-25T11:30:38.821855+00:00",
-   "last_seen": "2026-11-28T09:30:42.162528+00:00",
+   "last_seen": "2026-11-28T10:00:47.211041+00:00",
    "sports": {
     "basketball_euroleague": {
      "h2h": 12
@@ -2492,7 +2492,7 @@
      "h2h": 217
     },
     "boxing_boxing": {
-     "h2h": 52
+     "h2h": 55
     },
     "icehockey_nhl": {
      "h2h": 89
@@ -2513,13 +2513,13 @@
      "h2h": 11
     },
     "soccer_italy_serie_a": {
-     "h2h": 5
+     "h2h": 8
     },
     "soccer_netherlands_eredivisie": {
      "h2h": 5
     },
     "soccer_spain_la_liga": {
-     "h2h": 9
+     "h2h": 13
     },
     "soccer_uefa_champs_league": {
      "h2h": 5
@@ -2534,7 +2534,7 @@
    "title": "Winamax (FR)"
   }
  },
- "runs": 97,
+ "runs": 98,
  "since": "2026-11-25T11:30:38.821855+00:00",
  "slate": {
   "americanfootball_ncaaf": {
@@ -2562,23 +2562,23 @@
    "h2h_lay": 136
   },
   "boxing_boxing": {
-   "h2h": 207,
-   "h2h_lay": 43
+   "h2h": 220,
+   "h2h_lay": 47
   },
   "cricket_international_t20": {
    "h2h": 24,
    "h2h_lay": 24
   },
   "cricket_test_match": {
-   "h2h": 36,
-   "h2h_lay": 36
+   "h2h": 37,
+   "h2h_lay": 37
   },
   "icehockey_nhl": {
    "h2h": 89,
    "h2h_lay": 89
   },
   "mma_mixed_martial_arts": {
-   "h2h": 449
+   "h2h": 470
   },
   "soccer_australia_aleague": {
    "h2h": 19,
@@ -2605,16 +2605,16 @@
    "h2h_lay": 11
   },
   "soccer_italy_serie_a": {
-   "h2h": 5,
-   "h2h_lay": 5
+   "h2h": 8,
+   "h2h_lay": 8
   },
   "soccer_netherlands_eredivisie": {
    "h2h": 5,
    "h2h_lay": 5
   },
   "soccer_spain_la_liga": {
-   "h2h": 9,
-   "h2h_lay": 9
+   "h2h": 13,
+   "h2h_lay": 13
   },
   "soccer_uefa_champs_league": {
    "h2h": 5,
@@ -2629,5 +2629,5 @@
    "h2h_lay": 12
   }
  },
- "updated": "2026-11-28T09:30:42.162528+00:00"
+ "updated": "2026-11-28T10:00:47.211041+00:00"
 }
