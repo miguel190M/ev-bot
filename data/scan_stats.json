@@ -1214,5 +1214,24 @@
    "sport_key": "soccer_netherlands_eredivisie",
    "anchor": "pinnacle"
   }
+ },
+ {
+  "ts": "2026-11-28T04:00:46.655356+00:00",
+  "markets": 12,
+  "markets_sharp": 8,
+  "outcomes": 44,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": 5.357,
+   "ev_pct": 6.86,
+   "threshold_pct": 1.5,
+   "price": 1.43,
+   "outcome": "Granit Shala",
+   "book": "SportsBet",
+   "matchup": "Kolbeinn Kristinsson @ Granit Shala",
+   "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
  }
 ]
