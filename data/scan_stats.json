@@ -1,24 +1,5 @@
 [
  {
-  "ts": "2026-11-26T03:00:53.626473+00:00",
-  "markets": 10,
-  "markets_sharp": 9,
-  "outcomes": 46,
-  "capped": 0,
-  "flagged": 0,
-  "best": {
-   "gap": 10.15,
-   "ev_pct": 13.79,
-   "threshold_pct": 3.64,
-   "price": 3.9,
-   "outcome": "Miel Fajardo",
-   "book": "SportsBet",
-   "matchup": "Miel Fajardo @ Masamichi Yabuki",
-   "sport_key": "boxing_boxing",
-   "anchor": "pinnacle"
-  }
- },
- {
   "ts": "2026-11-26T04:00:48.014159+00:00",
   "markets": 7,
   "markets_sharp": 6,
@@ -1212,6 +1193,25 @@
    "book": "SportsBet",
    "matchup": "Kolbeinn Kristinsson @ Granit Shala",
    "sport_key": "boxing_boxing",
+   "anchor": "pinnacle"
+  }
+ },
+ {
+  "ts": "2026-11-28T03:30:39.096643+00:00",
+  "markets": 1,
+  "markets_sharp": 1,
+  "outcomes": 9,
+  "capped": 0,
+  "flagged": 0,
+  "best": {
+   "gap": -5.607,
+   "ev_pct": -3.53,
+   "threshold_pct": 2.08,
+   "price": 2.08,
+   "outcome": "Excelsior",
+   "book": "Betfair",
+   "matchup": "SC Telstar @ Excelsior",
+   "sport_key": "soccer_netherlands_eredivisie",
    "anchor": "pinnacle"
   }
  }
